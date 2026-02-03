@@ -3,59 +3,492 @@
 PAGE 1
 ============================================================
 
+—?
+
+eR Venus
+
+SW-6B six-band CW QRP transceiver
+instruction manual
+
+10-14V0C @&
+
+2
+
+SW-6B
+
+CW QRP TRANSCEIVER
+
+@ MI M2 RIM MWS
+PAD/KEY re ) @
+©
+
+RF GAIN AF GAIN
+
+Fis BLE Venus
+
 
 ============================================================
 PAGE 2
 ============================================================
 
+10=14VDC @
+©  sw-68 é
+CW QRP TRANSCEIVER ©
+(CHARGE) (WEM-05 cw Vv )
+4.060.008 TUNE
+
+$ 20m )
+
+M2 RITM MVS c
+°e @ ® © O “Hs. e
+
+SPEED RF GAIN AF GAIN
+ASA Venus
+s
+.
+
+549969H.199.240723
+
+The SW-6B is a six-band CW QRP transceiver with simple and practical features and
+straightforward operation, making it the best choice for field setups, outings and other activities.
+
+* Two version available,one is with matel enclosure,the other is with plastic enclosure,while all the hardware
+and functionalities are same. *
 
 ============================================================
 PAGE 3
 ============================================================
+
+Specifications:
+Case size: Approx. 160mm by 110mm by 55mm / 6.3 in by 4.3 in by 2.2 in.(Metal case)
+
+Approx. 170mm by 120mm by 72mm / 6.7 in by 4.7 in by 2.8 in.(Plastic case)
+
+Weight: Approx. 520g / 1.14 Ibs, (approx. 660g / 1.45 Ibs) when the 3-cell 18650 Li-
+ion battery is installed) (Metal case)
+
+Approx. 480g / 1.05 Ibs, (approx. 620g / 1.37 Ibs) when the 3-cell 18650 Li-
+ion battery is installed) (Plastic case)
+
+Operating voltage: 10-14VDC, reverse polarity protected.
+Current consumption:
+Receive - ~70mA (internal speaker off) or about 100mA (internal speaker on)
+NOTE - Current draw varies with volume setting.
+Transmit: 0.7 to 0.8A (@ 12VDC)
+Frequency Range:
+Receive:
+(1) 3-5MHz, (2) 5-6MHz, (3) 6-8MHz, (4) 8-16MHz, (5) 16-22MHz.
+(receive sensitivity peaks at 80m, 60m only)
+Transmit:
+(1) 3.5-3.8 MHz/80M, (2) 5.35-5.368 MHz/60M, (3) 7.0-7.2 MHz/40M, (4) 14.0-14.35
+MHz/20M. (5) 18.068-18.168 MHz/17M, 21.0-21.45 MHz/15M (shared 17M & 15M).
+Filter: CW/CWR, SSB in two steps with automatic switching.
+CW filter bandwidth ~400Hz, SSB bandwidth ~2KHz.
+RIT/XIT Adjustment:
+
+RIT: -9KHz to +9KHz in 10HZ steps.
+XIT: -30KHz to +30KHz in 100HZ steps.
+
+Output power: ~5W (@ 12VDC input)
+Side tone 600Hz
+Keyer: Built-in keyer speed is adjustable from front panel with a control.
+
+Memory: There are 8 memories for each band, and the frequency and operating mode set by the
+user
+NOTE - 17m and 15m share a common band/memory location.
+
+Receive modes
+
+CW, CWR, USB, LSB.
+NOTE - You may transmit CW signals when in SSB mode, thus enabling CW/SSB cross-mode
+operation.
+
+AGC: Audio derived AGC
+S meter shows the relative strength of the signal for reference only.
+
+Connections
+External power supply and internal battery connectors:
+Any stable, clean 10-14VDC source may be used via the 5.5mm x 2.1 mm power connector.
+
+There is space for an internal battery, a three-cell 18650 lithium battery pack (voltage 11-12.6V).
+If the internal battery is installed, you may stil usean external power supply. The voltage of the
+external power supply must be A/gher than the voltage of the built-in battery.
+
+If the external supply voltage is lower than the voltage of the built-in battery, the radio will
+use the built-in battery power supply, even though external power is supplied. .
 
 
 ============================================================
 PAGE 4
 ============================================================
 
-- 3 -
+CHARGE:
+
+The CHARGE connector is for charging the internal battery. , please use the lithium battery charger
+for the built-in battery charging (if you don't have a built-in battery installed in the interface can be
+used as an external power supply interface). The CHARGE connector is for charging the built-in
+battery.)
+
+Antenna:
+
+Any resonant / well-matched (50 Ohm) antenna may be connected to the ANT jack BNC connector.
+
+An external antenna tuner is required for antennas that are not resonant at the selected frequency.
+The radio does not provide for any adjustments other than audio /RF gain and VFO.
+
+High SWR will likely damage the radio over time. Use care when tuning any antenna. It is
+strongly suggested to use a series of 'dits' to reduce the chance of damage to the final amplifier
+
+while tuning. See the manual for your antenna tuner for instructions on how to match an antenna
+to the SW-6B radio set.
+
+Headphones
+A stereo headset may be connected to the PHONE jack. Impedance should be 8-32 Ohms. A
+
+stereo connector must be used. A MONO headphone plug will SHORT the output!
+A 90° connector on the headphone’s, to reduce strain to the jack, is recommend .
+Setting the switch to SPK will activate the internal speaker.
+
+Key/Paddle
+
+If using a stereo plug for a straight key, both ring and sleeve must be connected together for
+use. A monaural plug may also be used with a straight key. The radio is set to detect the type of
+key used. With paddles and a stereo plug, the internal keyer is automatically enabled on power up
+and annunciated with the Morse letter "A".
+
+TIP. Connects to DOT paddle or
+one side of straight key contact
+
+RING. Connects to DASH paddle or straight key ground
+
+SLEEVE. Connects to paddle or straight key ground
+
 3.5mm stereo plug
+
+Keyer Operation
+
+When power is applied with a paddle connected or no key is present, the letter “A” will be heard in
+the headphones upon power up.
+
+The letter “M” is heard if a straight key is connected on power up. Connect the key prior to power
+up to ensure the radio senses the type of key in use.
+
+AF GAIN
+
+Used to set volume of received signal. Turn control clockwise to increase volume. Exercise caution
+if using "earbuds".
+
+RF GAIN
+
+Provides variable attenuation of incoming (RF) signal to the first mixer. This is useful in noisy band
+conditions.
+
+-3-
 
 ============================================================
 PAGE 5
 ============================================================
 
-- 4 -
+Radio operation
+
+ON/OFF — Push up to turn on the SW-6B radio set.
+
+Band switch BAND
+The switch labeled BAND on the right side of the panel is a band selector switch. Switch
+positions 1, 2, 3, 4 and 5 correspond to 80m, 60m, 40m, 20m, 17m/15m bands respectively
+(17m and 15m share a common band).
+M/V/S button
+Pressing this button alternates the display between Memory mode (M) and VFO (V)mode. The
+display will show M-# or V-#. # represents the numbers 1 thru 8.
+In Memory mode, the Tune knob is used to change memory locations.
+In VFO Mode, the Tune knob is used to change the displayed frequency.
+
+Pressing and then Ao/ding the M/V/S key for more than two seconds will display SAVE and the
+current frequency and mode will be stored in the memory # location displayed.
+
+SAV-08 LSB 12.1V
+
+7.050.009
+$ 40m
+
+The last stored frequency and operating mode will be entered each time the unit is turned on.
+RIT/M button
+RIT / XIT use:
+Press the RIT/M button briefly to enter the RIT/XIT (offset) function.
+e To switch between RIT and XIT, momentarily press down on the Tune (VFO) knob.
+e Moving the VFO knob changes the amount of offset in both RIT and XIT.
+
+o Turning the VFO knob clockwise, increases the offset,
+turning the VFO knob anticlockwise decreases the offset.
+
+The function, when active, shows on the screen on the right side of the top display line.
+
+This also shows the direction of offset ( + or - ) from the displayed VFO frequency and the amount
+of offset. The carrot (triangle) indicates steps selected for offset tuning. RIT changes will be in 10
+Hz/step and XIT changes will be in 100 Hz/step.
+
+a &
+
+MEM-05 RIT +0.09 MEM-05 XIT +03.2
+
+7.038.08
+8 40m)
+& &
+RIT XIT
+Pressing the RIT/M button for more than 1 second will change the operating mode, and every time
+the button is pressed for 2 seconds the operating mode will change in the order of: CW, CWR, USB,
+LSB.
+
+1.030.08
+Saenmmmme 40m)
+Kk
+
 
 ============================================================
 PAGE 6
 ============================================================
 
+Frequency / Frequency Step change
+
+The frequency of the VFO is changed by the large knob to the left of the display. This VFO
+control is used for several functions.
+
+The frequency change steps are 100KHz, 1KHz, 100Hz and 10Hz. Note the carrot (triangle) abovethe
+listed frequency shows the steps in use.
+
+& &
+
+YFO-05 CH 12,.¥
+7.030.08
+$ 40m
+
+¢ &
+
+YFO-05 CH 12.1¥
+
+7.630.008
+8 40m
+
+cs
+
+By briefly pressing down the VFO control, the carrot moves to the next digit to the right.
+NOTE - The frequency steps will change to the opposite direction (R to L) if the VFO control is
+pressed for more than 1 second.
+
+NOTE - If the VFO control is pressed down while in MEM mode, the radio set will enter the
+VFO mode.
+
+Screen brightness settings:
+
+& &
+
+WFO-05 CW 12.1¥ WFO-05 CW 12.1¥
+
+7.30.00 7.71390.00
+BRIGHTNESS: 3 BRIGHTNESS: 5
+
+Press and hold the “/V/S button and R/7/M button at the same time to enter the screen brightness
+setting mode. Once in this mode, rotate the VFO control to change the screen brightness. The
+brightness of the display has 5 levels, Level 1 is the darkest and Levels 5 is the brightest.
+
+Press and hold the 4%/V/S button and RJ7/M button again at the same time to Exit the screen
+brightness setting state.
 
 ============================================================
 PAGE 7
 ============================================================
 
+Transmit indicators:
+
+&
+
+WEW-04 CH 11.6V
+
+1.023.9
+
+The permitted transmitting frequencies are: 3.5-3.8MHz, 5.35-5.368MHz, 7.0-7.2MHz, 14-
+14.35MHz, 18.068-18.168MHz, and 21.0-21.45MHz.
+
+When transmitting withinthe listed frequency ranges, the display will show the word TX, and the S-
+meter under the LCD is changed to show the transmitting power withaP.
+
+There are 3 pipsAonthe(P) bar graph on the transmit power scale in addition to the 0 scale, the first
+pip is roughly 1 Watt of RF power, the second pip is roughly 3 Watts of RF, and the final pip to the far
+right of the bar graph, is roughly 5 Watts of RF.
+
+NOTE - The radio detects the RF voltage output to the antenna port, the power displayed is accurate
+onlywhen the standing wave is close to 1:1 (ie matched or resonant antenna).
+
+The OP red indicator light at the top right of the panel flashes when the radio set transmits.
+Out of Band Operation:
+
+When attempting to transmit outside of these frequency ranges, the display will show the
+word ERR The radio will not transmit, but, the sidetone can still be heard. You can take
+advantage of this feature to use as a code practice device or to load the message memories.
+
+he
+
+VFO-01 CW 12.0¥
+
+Ee nn
+D 6.395.00
+
+&
+
+OP/TUNE Tuning Switch for SWR indicator:
+This switch is used to employ the Tayloe type SWR indicator.
+
+When the switch in in the TUNE position, a 50 ohm bridge is placed in line with the antenna
+connector.
+
+Following your antenna tuner instructions, tune for maximum noise in receive.. When transmitting
+(a series of ,,dits” is recommended) the LED above the switch will glow if there is not a correct
+match. Making fine adjustments of the tuner will cause the LED to fully extinguish or grow very
+dim.
+
+When the LED is fully extinguished, or very dim, you have a good match between the SW-6B radio
+set and the antenna.
+
+If a fully resonant antenna is employed, the LED will remain dim or dark.
+
+When you have completed the tuning process, place the switch back into the OP position.
+
+(see the web for more information about this unique circuit)
+
+NOTE — If you wish to operate at lower power levels, you may leave the switch in the TUNE
+position or reduce the input voltage.
 
 ============================================================
 PAGE 8
 ============================================================
 
+Keyer settings:
+Speed adjustment knob - SPEED
+
+The SPEED knob near the bottom left of the panel controls the keyer speed. It increases in by
+turning clockwise and slower by turning counterclockwise.
+
+M1, M2 buttons
+
+M1 and M2 are two auto-call buttons, two auto-call messages can be pre-stored respectively.
+Briefly press the M1 or M2 button, then relase immediately to automatically start the stored
+content.
+
+The memory characters are manually input by the user, as described below.
+
+To cancel the auto-call during the auto-call process, briefly press the M1 or M2 button and then
+release it.
+
+Entering memory characters:
+This operation is not available when using the straight keys, you must use paddels..
+
+Press and Hold the M1 or M2 button for about 2 seconds.
+
+After hearing the Morse code letter I, release the M1 or M2 button.
+
+Enter you r message string (~20 characters)
+
+Quickly press the CQ button hear the Morse code letter E to Exit.
+
+M1 and M2 can be pre-stored independently.
+
+In the state of call sign input, the display will show the word TX but the SW-6B radio set wi// not
+transmit, this is normal.
+
+Storage capacity for automatic messages:
+
+The automatic call storage capacity in the radio can probably store about 20 characters, because
+the length of each character's code is different, so the number of characters that the memory
+can store is also different, if the number of characters entered exceeds the content that the
+memory can hold the radio will not be able to store it, at this time the radio will be emptied of
+the contents of the memory.
+
+Sidetone volume level adjustment:
+
+To the left of the SPEED knob, there is a ST adjustment hole. this is to adjust the volume of
+the side volume when transmitting. Use a small, flat blade screwdriver for adjustment. Turn it
+clockwise to increase the volume, turn it counterclockwise to decrease the volume.
 
 ============================================================
 PAGE 9
 ============================================================
 
+Frequency Calibration
+1. DDS frequency calibration
+
+If the transmit frequency of the machine is off, it can be calibrated as follows:
+
+Turn off the power, press and hold the M/V/S button and RIT/M button at the same time and then
+turn on the power, keep holding the two buttons for about 3 seconds and then release the two
+buttons when the display shows the following:
+
+QUTPUT
+
+10.000. 00MHz
+
+At this time, use a calibrated frequency meter to detect the frequency of the TEST point on
+the PCB board (near pin 1 of IC7), rotate the large knob to adjust the frequency to the frequency
+meter display 10.000.00MHz, and after that, lightly press the M/V/S button to exit and enter the IF
+frequency calibration.
+
+2. IF frequency calibration
+
+The display shows the following after exiting from DDS frequency calibration:
+
+IF = 491258
+
+7.023.00)
+
+$
+
+At this time, access the signal source at the antenna end of the machine, adjust the
+frequency to 7.023MHz, rotate the large knob to adjust the IF frequency to the maximum
+strength of the received signal.
+
+Tap the M/V/S button to exit the frequency calibration state.
 
 ============================================================
 PAGE 10
 ============================================================
+
+Installation of built-in battery pack — For metal enclosure
+
+There is a built-in battery space inside the radio, you can install a three-cell 18650 lithium battery pack as shown in
+the picture below (the size is about 69*55*19mm), the battery pack's lead plug specification is XH2.54mm, positive
+and negative positions please keep the same as the picture.
+
+SW-6B
+
+CW ORP TRANSCENER
+
+The assembled PCB is in the metal case by the 4 magnets underneath, just pull out the antenna
+holder by clamping it with pliers.Refer to the picture below to put a nylon tie through the small hole
+on the PCB, first install the filter board, then install the battery, plug it into the BATT position and
+
+pull the nylon tie tightly. Turn on the unit and try it without any problem, then you can put the
+panel back into the case.
 
 
 ============================================================
 PAGE 11
 ============================================================
 
+Installation of built-in battery pack — For plastic enclosure
+
+There is a built-in battery space inside the radio, you can install a three-cell 18650 lithium battery pack as shown in
+the picture below (the size is about 69*55*19mm), the battery pack's lead plug specification is XH2.54mm, positive
+and negative positions please keep the same as the picture.
+
+Remove the two screws on the panel of the radio (marked in the picture above) and then you can
+take out of the case, first remove the filter board, refer to the picture below to put a nylon tie
+through the small hole on the PCB, first install the filter board, then install the battery, plug it into the
+BATT position and pull the nylon tie tightly. Turn on the unit and try it without any problem, then you
+can put the panel back into the case.
+
+Wuxi Venus Information Technology Co., LTD
+
+info@venus-itech.com
+2024-08
 
 ============================================================
 PAGE 12

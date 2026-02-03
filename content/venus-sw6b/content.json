@@ -3,256 +3,275 @@
     "id": "venus-sw6b",
     "manufacturer": "Venus",
     "model": "SW-6B",
-    "revision": "1.0",
+    "revision": "2024-08",
     "pdfFilename": "SW-6B_Manual.pdf"
   },
   "sections": [
     {
+      "id": "operation-basics",
       "title": "Operation Basics",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The Venus SW-6B is an ultra-portable 6-band CW QRP transceiver covering 80m, 40m, 30m, 20m, 17m, and 15m bands. Building on the SW-3B design, it offers expanded band coverage in a similarly compact package."
+          "text": "The SW-6B is a six-band CW QRP transceiver with simple and practical features and straightforward operation, making it the best choice for field setups, outings and other activities."
         },
         {
           "type": "paragraph",
-          "content": "Power on by pressing the power button on the front panel. The LCD display shows frequency, VFO status, and signal indicators. Use the main tuning knob for frequency adjustment."
+          "text": "Two versions are available: one with metal enclosure, the other with plastic enclosure. All hardware and functionalities are the same."
         },
         {
           "type": "paragraph",
-          "content": "Band selection is performed using the dedicated band button. Each press cycles through the six available bands in sequence."
+          "text": "ON/OFF: Push up to turn on the SW-6B radio set."
         },
         {
           "type": "paragraph",
-          "content": "The radio supports dual VFO operation (VFO A/B) for split frequency work. Toggle between VFOs using the VFO button."
+          "text": "Band switch (BAND): The switch labeled BAND on the right side of the panel is a band selector switch. Switch positions 1, 2, 3, 4 and 5 correspond to 80m, 60m, 40m, 20m, 17m/15m bands respectively (17m and 15m share a common band)."
+        },
+        {
+          "type": "paragraph",
+          "text": "M/V/S button: Pressing this button alternates the display between Memory mode (M) and VFO (V) mode. The display will show M-# or V-#, where # represents the numbers 1 thru 8. In Memory mode, the Tune knob changes memory locations. In VFO Mode, the Tune knob changes the displayed frequency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pressing and holding the M/V/S key for more than two seconds will display SAVE and the current frequency and mode will be stored in the memory location displayed."
         },
         {
           "type": "note",
-          "content": "Connect a 50-ohm antenna with SWR below 2:1 for optimal performance. High SWR may trigger the protection circuit."
+          "text": "The last stored frequency and operating mode will be entered each time the unit is turned on."
         }
-      ],
-      "id": "operation-basics"
+      ]
     },
     {
-      "title": "Menu System Reference",
+      "id": "rit-xit-mode",
+      "title": "RIT/XIT and Mode Selection",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "Access the menu system by pressing and holding the FUNC button. Navigate using the main tuning knob and confirm selections with a short press of FUNC."
+          "text": "RIT/M button: Press the RIT/M button briefly to enter the RIT/XIT (offset) function."
         },
         {
-          "type": "menuEntry",
-          "number": "01",
-          "name": "CW Speed",
-          "description": "Adjusts internal keyer speed from 5-40 WPM"
+          "type": "paragraph",
+          "text": "To switch between RIT and XIT, momentarily press down on the Tune (VFO) knob. Moving the VFO knob changes the amount of offset in both RIT and XIT. Turning the VFO knob clockwise increases the offset; turning anticlockwise decreases it."
         },
         {
-          "type": "menuEntry",
-          "number": "02",
-          "name": "Sidetone Frequency",
-          "description": "Sets CW sidetone pitch from 400-800 Hz"
+          "type": "paragraph",
+          "text": "The function, when active, shows on the screen on the right side of the top display line. This also shows the direction of offset (+ or -) from the displayed VFO frequency and the amount of offset. The carrot (triangle) indicates steps selected for offset tuning. RIT changes will be in 10 Hz/step and XIT changes will be in 100 Hz/step."
         },
         {
-          "type": "menuEntry",
-          "number": "03",
-          "name": "Sidetone Volume",
-          "description": "Adjusts sidetone level from 0-10"
+          "type": "paragraph",
+          "text": "Pressing the RIT/M button for more than 1 second will change the operating mode. Every time the button is pressed for 2 seconds the operating mode will change in the order of: CW, CWR, USB, LSB."
         },
         {
-          "type": "menuEntry",
-          "number": "04",
-          "name": "Keyer Mode",
-          "description": "Selects straight key, Iambic A, or Iambic B mode"
-        },
-        {
-          "type": "menuEntry",
-          "number": "05",
-          "name": "Display Brightness",
-          "description": "Sets LCD backlight level from 1-5"
-        },
-        {
-          "type": "menuEntry",
-          "number": "06",
-          "name": "Auto Power Off",
-          "description": "Sets auto power off timer: OFF, 30, 60, 90 minutes"
-        },
-        {
-          "type": "menuEntry",
-          "number": "07",
-          "name": "TX Power",
-          "description": "Adjusts output power level"
+          "type": "note",
+          "text": "You may transmit CW signals when in SSB mode, enabling CW/SSB cross-mode operation."
         }
-      ],
-      "id": "menu-system"
+      ]
     },
     {
+      "id": "frequency-tuning",
+      "title": "Frequency and Tuning",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The frequency of the VFO is changed by the large knob to the left of the display. This VFO control is used for several functions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The frequency change steps are 100KHz, 1KHz, 100Hz and 10Hz. The carrot (triangle) above the listed frequency shows the steps in use."
+        },
+        {
+          "type": "paragraph",
+          "text": "By briefly pressing down the VFO control, the carrot moves to the next digit to the right. The frequency steps will change to the opposite direction (R to L) if the VFO control is pressed for more than 1 second."
+        },
+        {
+          "type": "note",
+          "text": "If the VFO control is pressed down while in MEM mode, the radio set will enter VFO mode."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
       "title": "CW/Keyer Settings",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The SW-6B features a built-in iambic keyer supporting both Iambic A and Iambic B modes. Speed is adjustable from 5-40 WPM via the menu system."
+          "text": "Speed adjustment knob (SPEED): The SPEED knob near the bottom left of the panel controls the keyer speed. It increases by turning clockwise and slows by turning counterclockwise."
         },
         {
           "type": "paragraph",
-          "content": "Connect a paddle to the 3.5mm keyer jack on the side panel. The tip is for dit, ring is for dah, and sleeve is ground."
+          "text": "M1, M2 buttons: These are two auto-call buttons where two auto-call messages can be pre-stored. Briefly press M1 or M2 then release immediately to automatically start the stored content. To cancel auto-call during playback, briefly press M1 or M2 and release."
         },
         {
           "type": "paragraph",
-          "content": "Straight key operation is also supported. Select 'Straight Key' mode in Menu 04 when using a straight key."
+          "text": "Entering memory characters (requires paddles, not straight key): Press and hold M1 or M2 for about 2 seconds. After hearing the Morse code letter I, release the button. Enter your message string (~20 characters). Quickly press the CQ button to hear the Morse code letter E to Exit."
         },
         {
           "type": "paragraph",
-          "content": "Sidetone frequency and volume can be adjusted independently. The sidetone is heard through the built-in speaker or connected headphones."
-        },
-        {
-          "type": "note",
-          "content": "For paddle reversal (swap dit/dah), check if a paddle swap option is available in the extended menu settings."
-        }
-      ],
-      "id": "cw-keyer"
-    },
-    {
-      "title": "Filters & DSP",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "content": "The SW-6B uses a crystal filter for IF selectivity, providing effective CW bandwidth for weak signal work."
-        },
-        {
-          "type": "paragraph",
-          "content": "The receiver features good sensitivity suitable for QRP operations. AGC helps maintain consistent audio levels across varying signal strengths."
+          "text": "Sidetone volume adjustment: To the left of the SPEED knob, there is a ST adjustment hole. Use a small flat blade screwdriver. Turn clockwise to increase volume, counterclockwise to decrease."
         },
         {
           "type": "note",
-          "content": "This compact radio prioritizes portability over advanced DSP features. For operation in crowded band conditions, careful tuning is required."
+          "text": "Storage capacity is approximately 20 characters. If exceeded, the memory will be emptied."
         }
-      ],
-      "id": "filters-dsp"
+      ]
     },
     {
-      "title": "Power & Battery",
+      "id": "connections",
+      "title": "Connections",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The SW-6B operates from an external DC power source of 9-14V. A 2.1mm DC jack is provided for power input (center positive)."
+          "text": "External power supply: Any stable, clean 10-14VDC source may be used via the 5.5mm x 2.1mm power connector. Reverse polarity protected."
         },
         {
           "type": "paragraph",
-          "content": "Current consumption is approximately 30mA on receive and up to 1.5A during transmit at full power. A 3S LiPo battery pack is ideal for portable operation."
+          "text": "Internal battery: There is space for an internal battery, a three-cell 18650 lithium battery pack (voltage 11-12.6V). If installed, you may still use external power. The external supply voltage must be higher than the built-in battery voltage."
         },
         {
           "type": "paragraph",
-          "content": "The radio includes low voltage protection that will reduce output power or shut down when battery voltage drops too low."
+          "text": "CHARGE connector: For charging the internal battery. Use a lithium battery charger for built-in battery charging."
+        },
+        {
+          "type": "paragraph",
+          "text": "Antenna: Any resonant/well-matched (50 Ohm) antenna may be connected to the ANT jack BNC connector. An external antenna tuner is required for non-resonant antennas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Headphones: Connect a stereo headset to the PHONE jack. Impedance should be 8-32 Ohms. A stereo connector must be used."
         },
         {
           "type": "warning",
-          "content": "Do not exceed 14V input voltage. Overvoltage may damage the radio. Do not reverse polarity."
+          "text": "A MONO headphone plug will SHORT the output! A 90-degree connector is recommended to reduce strain on the jack."
         },
         {
-          "type": "note",
-          "content": "For extended portable operation, a 2000-3000mAh 3S LiPo provides several hours of operating time depending on duty cycle."
+          "type": "paragraph",
+          "text": "Key/Paddle: If using a stereo plug for a straight key, both ring and sleeve must be connected together. A monaural plug may also be used with a straight key. The radio detects the type of key used. With paddles and stereo plug, the internal keyer is automatically enabled on power up (annunciated with letter 'A'). Letter 'M' is heard if a straight key is connected."
         }
-      ],
-      "id": "power-battery"
+      ]
     },
     {
-      "title": "ATU Operation",
+      "id": "transmitting",
+      "title": "Transmitting",
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The SW-6B does not include an internal automatic antenna tuner. An external ATU is recommended when using antennas that may not present a 50-ohm load on all bands."
+          "text": "Permitted transmitting frequencies: 3.5-3.8MHz (80m), 5.35-5.368MHz (60m), 7.0-7.2MHz (40m), 14-14.35MHz (20m), 18.068-18.168MHz (17m), and 21.0-21.45MHz (15m)."
         },
         {
           "type": "paragraph",
-          "content": "With six bands available, an ATU becomes more valuable for using a single multi-band antenna efficiently across the expanded frequency range."
+          "text": "When transmitting within listed frequency ranges, the display shows TX and the S-meter changes to show transmitting power with P. The OP red indicator light at the top right of the panel flashes when transmitting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Power meter: There are 3 pips on the P bar graph. The first pip is roughly 1 Watt, the second roughly 3 Watts, and the final pip is roughly 5 Watts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Out of band operation: When attempting to transmit outside permitted frequencies, the display shows ERR. The radio will not transmit, but sidetone can still be heard. Use this feature for code practice."
         },
         {
           "type": "note",
-          "content": "For multi-band random wire antennas, a small portable ATU like the Elecraft T1 or LDG Z-11 Pro II works well with this radio."
+          "text": "The power displayed is accurate only when the standing wave is close to 1:1 (matched or resonant antenna)."
         }
-      ],
-      "id": "atu-operation"
+      ]
     },
     {
+      "id": "swr-tuning",
+      "title": "SWR Indicator and Tuning",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "OP/TUNE Switch: This switch employs the Tayloe type SWR indicator. When in the TUNE position, a 50 ohm bridge is placed in line with the antenna connector."
+        },
+        {
+          "type": "paragraph",
+          "text": "Following your antenna tuner instructions, tune for maximum noise in receive. When transmitting (a series of 'dits' is recommended), the LED above the switch will glow if there is not a correct match. Making fine adjustments will cause the LED to fully extinguish or grow very dim."
+        },
+        {
+          "type": "paragraph",
+          "text": "When the LED is fully extinguished or very dim, you have a good match between the SW-6B and the antenna. If a fully resonant antenna is employed, the LED will remain dim or dark."
+        },
+        {
+          "type": "note",
+          "text": "If you wish to operate at lower power levels, you may leave the switch in the TUNE position or reduce the input voltage. When tuning is complete, place the switch back into the OP position."
+        },
+        {
+          "type": "warning",
+          "text": "High SWR will likely damage the radio over time. Use care when tuning any antenna. It is strongly suggested to use a series of 'dits' to reduce chance of damage to the final amplifier while tuning."
+        }
+      ]
+    },
+    {
+      "id": "display-settings",
+      "title": "Display Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Screen brightness settings: Press and hold the M/V/S button and RIT/M button at the same time to enter screen brightness setting mode."
+        },
+        {
+          "type": "paragraph",
+          "text": "Once in this mode, rotate the VFO control to change the screen brightness. The brightness has 5 levels: Level 1 is darkest, Level 5 is brightest."
+        },
+        {
+          "type": "paragraph",
+          "text": "Press and hold M/V/S and RIT/M again at the same time to exit the screen brightness setting state."
+        }
+      ]
+    },
+    {
+      "id": "frequency-calibration",
+      "title": "Frequency Calibration",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "DDS frequency calibration: Turn off power, press and hold M/V/S and RIT/M buttons at the same time, then turn on power. Keep holding for about 3 seconds and release when the display shows OUTPUT 10.000.00MHz."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use a calibrated frequency meter to detect the frequency of the TEST point on the PCB board (near pin 1 of IC7). Rotate the large knob to adjust frequency until the meter displays 10.000.00MHz. Lightly press M/V/S to exit and enter IF frequency calibration."
+        },
+        {
+          "type": "paragraph",
+          "text": "IF frequency calibration: After exiting DDS calibration, the display shows IF frequency. Access a signal source at the antenna end, adjust to 7.023MHz, rotate large knob to adjust IF frequency to maximum received signal strength. Tap M/V/S to exit."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
       "title": "Specifications",
       "blocks": [
         {
           "type": "specificationTable",
-          "entries": [
-            {
-              "label": "Frequency Coverage",
-              "value": "80m, 40m, 30m, 20m, 17m, 15m bands"
-            },
-            {
-              "label": "Mode",
-              "value": "CW"
-            },
-            {
-              "label": "Output Power",
-              "value": "5W"
-            },
-            {
-              "label": "Receiver Type",
-              "value": "Superheterodyne"
-            },
-            {
-              "label": "Operating Voltage",
-              "value": "9-14V DC"
-            },
-            {
-              "label": "Current Consumption (RX)",
-              "value": "~30mA"
-            },
-            {
-              "label": "Current Consumption (TX)",
-              "value": "~1.5A at 5W"
-            },
-            {
-              "label": "Antenna Connector",
-              "value": "BNC"
-            },
-            {
-              "label": "Keyer Jack",
-              "value": "3.5mm stereo"
-            },
-            {
-              "label": "Keyer Speed",
-              "value": "5-40 WPM"
-            },
-            {
-              "label": "Keyer Modes",
-              "value": "Straight, Iambic A, Iambic B"
-            }
+          "title": "SW-6B Technical Specifications",
+          "rows": [
+            ["Frequency Coverage (TX)", "80m, 60m, 40m, 20m, 17m, 15m"],
+            [
+              "TX Frequencies",
+              "3.5-3.8, 5.35-5.368, 7.0-7.2, 14.0-14.35, 18.068-18.168, 21.0-21.45 MHz"
+            ],
+            ["RX Frequencies", "3-5, 5-6, 6-8, 8-16, 16-22 MHz"],
+            ["Modes", "CW, CWR, USB, LSB"],
+            ["Output Power", "~5W @ 12VDC"],
+            ["Operating Voltage", "10-14VDC (reverse polarity protected)"],
+            ["Current (RX)", "~70mA (speaker off), ~100mA (speaker on)"],
+            ["Current (TX)", "0.7 to 0.8A @ 12VDC"],
+            ["CW Filter Bandwidth", "~400Hz"],
+            ["SSB Filter Bandwidth", "~2KHz"],
+            ["RIT Range", "-9KHz to +9KHz (10Hz steps)"],
+            ["XIT Range", "-30KHz to +30KHz (100Hz steps)"],
+            ["Sidetone", "600Hz"],
+            ["Memory Channels", "8 per band (17m/15m shared)"],
+            ["Size (Metal)", "160 x 110 x 55mm (6.3 x 4.3 x 2.2 in)"],
+            ["Size (Plastic)", "170 x 120 x 72mm (6.7 x 4.7 x 2.8 in)"],
+            ["Weight (Metal)", "520g / 1.14 lbs (660g with battery)"],
+            ["Weight (Plastic)", "480g / 1.05 lbs (620g with battery)"],
+            ["Internal Battery", "3-cell 18650 Li-ion (11-12.6V)"],
+            ["Antenna Connector", "BNC"],
+            ["Headphone Jack", "3.5mm stereo (8-32 ohms)"]
           ]
         }
-      ],
-      "id": "specifications"
-    },
-    {
-      "title": "Quick Troubleshooting",
-      "blocks": [
-        {
-          "type": "paragraph",
-          "content": "No power: Check DC voltage (9-14V required). Verify polarity is correct (center positive). Check for blown fuse if applicable."
-        },
-        {
-          "type": "paragraph",
-          "content": "No RF output: Verify antenna is connected. Check SWR - high SWR may trigger protection. Ensure TX is not inhibited."
-        },
-        {
-          "type": "paragraph",
-          "content": "Keyer not working: Check paddle connections at 3.5mm jack. Verify keyer mode setting matches your paddle type. Try straight key mode to isolate the issue."
-        },
-        {
-          "type": "paragraph",
-          "content": "Weak receive signals: Check antenna connections. Verify band selection. Clean contacts if audio is scratchy."
-        },
-        {
-          "type": "paragraph",
-          "content": "Display issues: Adjust brightness in menu. Allow radio to warm up in cold conditions. LCD may be slow at very low temperatures."
-        }
-      ],
-      "id": "troubleshooting"
+      ]
     }
   ]
 }
