@@ -1,0 +1,242 @@
+{
+  "radio": {
+    "id": "elecraft-kh1",
+    "manufacturer": "Elecraft",
+    "model": "KH1",
+    "revision": "B4",
+    "pdfFilename": "KH1_Owners_Manual_rev_B4.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Elecraft KH1 is a pocket-sized, 40/30/20/17/15 meter, low-power CW transceiver optimized for hand-held and table-top operation. The transceiver weighs only 6 oz (0.17 kg); with internal battery and all options, total weight is 13 oz (0.36 kg)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both knobs and the optional KHPD1 keyer paddle are at the lower end for one-handed operation. Four pushbutton switches align with LCD text fields for intuitive control."
+        },
+        {
+          "type": "paragraph",
+          "text": "Turn power on/off using the small slide switch near the external supply jack. The OFF position is away from the jack. A green LED indicates power is on."
+        },
+        {
+          "type": "note",
+          "text": "Do not plug a KXUSB cable into the headphone jack. The KXUSB cable for firmware updates must only be plugged into the KEY/DATA jack."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tap MENU (switch 4) to enter the menu system. Use the VFO knob to scroll through entries. The display shows the menu name and current setting. Tap MENU again to exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DISP MODE",
+          "description": "Display mode: FRQ (frequency), VCC (supply voltage/current), VBAT (battery voltage), A-HR (amp-hours used)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "KEY MD",
+          "description": "Keying mode: PDL NOR (paddle normal), PDL REV (paddle reversed), STR KEY (straight key)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IAMB",
+          "description": "Iambic keyer mode: A or B."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MSG RPT",
+          "description": "Message repeat interval in seconds (0 = no repeat)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VBAT",
+          "description": "Internal battery voltage display and amp-hour meter."
+        },
+        {
+          "type": "menuEntry",
+          "name": "TIME",
+          "description": "Real-time clock setting (hours, minutes, seconds)."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KEY/DATA jack accepts a paddle, straight key, or external keyer via 3.5mm stereo plug. The optional KHPD1 paddle attaches directly to the radio for integrated portable operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Adjust keyer speed by holding the AF/MON knob and rotating. Speed range is 10-40 WPM. Current speed is shown briefly on the display."
+        },
+        {
+          "type": "paragraph",
+          "text": "To record a CW message: Hold REC (switch 2), then tap 1 or 2 to select buffer. Send your message. Tap any switch to stop. Up to 48 characters per message."
+        },
+        {
+          "type": "paragraph",
+          "text": "To play a message: Tap MSG (switch 1), then tap 1 or 2. Hold the number key for auto-repeat at the MSG RPT interval."
+        },
+        {
+          "type": "note",
+          "text": "The KH1 includes CW text decode and can log transmitted text and CW-entered field notes to 50K of EEPROM."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KH1 provides selectable IF bandwidths optimized for CW operation. Use the BW setting in the menu to adjust selectivity based on band conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "RIT (Receiver Incremental Tuning) allows offset receive frequency without changing transmit. Hold RIT switch, then use VFO to adjust offset up to +/- 4 kHz."
+        },
+        {
+          "type": "paragraph",
+          "text": "XIT (Transmitter Incremental Tuning) offsets the transmit frequency. Access via menu or programmable function switch."
+        },
+        {
+          "type": "paragraph",
+          "text": "The scan/mini-pan function helps locate signals. Tap SCAN to sweep a range and display signal peaks on the LCD bargraph."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KH1 uses an Elecraft KXBT2 lithium-ion battery pack (11 V, 2.6 Ah). With low receive current (50-80 mA), expect 4-12 hours of typical QRP operation at full 5W output, or up to 50 hours receive-only."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "8-15 V DC (11 V nominal internal battery)"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Receive)",
+          "value": "50-80 mA typical"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Transmit)",
+          "value": "~1 A at 5 W output"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "5 W maximum"
+        },
+        {
+          "type": "paragraph",
+          "text": "The optional KHIBC1 internal charger recharges at C/10 rate (~250 mA) from a 12-14 V supply. The charge LED shows RED (charging), ORANGE (on and charging), GREEN (complete)."
+        },
+        {
+          "type": "warning",
+          "text": "Only use the KXBT2 battery pack with the KHIBC1 internal charger. Do not use fast chargers internally - remove the battery for fast charging with KXBC2."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KHATU1 antenna tuner includes a whip mounting screw, loading coil, and band-selection switch for 20/17/15 meters (30m with reduced efficiency). The supplied telescoping whip clips to the radio when not in use."
+        },
+        {
+          "type": "paragraph",
+          "text": "To tune: Set the whip band switch to match your operating band. Hold TUNE to start auto-tuning. The ATU matches loads on both the BNC jack and the built-in whip."
+        },
+        {
+          "type": "paragraph",
+          "text": "Manual ATU tuning is available via menu for peaking SWL signals or unusual antenna configurations."
+        },
+        {
+          "type": "note",
+          "text": "Set the whip band switch to center-off position when using the BNC jack with an external antenna."
+        },
+        {
+          "type": "warning",
+          "text": "Do not touch the telescoping whip when transmitting - you could receive an RF burn."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "KH1 Technical Specifications",
+          "rows": [
+            ["Frequency Coverage", "40/30/20/17/15 meters"],
+            ["Modes", "CW only (SSB receive for SWL)"],
+            ["Output Power", "5 W maximum"],
+            ["SWL Range", "6.7-22.0 MHz general coverage RX"],
+            ["Supply Voltage", "8-15 V DC"],
+            ["Current (RX)", "50-80 mA"],
+            ["Current (TX)", "~1 A at 5 W"],
+            ["Internal Battery", "KXBT2: 11 V, 2.6 Ah Li-ion"],
+            ["Weight", "6 oz (0.17 kg) without options"],
+            ["Weight (loaded)", "13 oz (0.36 kg) with battery/options"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Error messages appear as ERR followed by a code number. Refer to the Error Messages section of the manual for specific diagnoses."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No power",
+          "description": "Check slide switch position (toward jack = ON). Verify battery is charged or external supply connected. Check LED color for charge status."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Low or no RF output",
+          "description": "Check antenna/whip connection. Verify whip band switch matches operating band. Check SWR - may need ATU retune."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer not responding",
+          "description": "Check KEY MD menu setting matches your keying device. Ensure plug is fully inserted in KEY/DATA jack."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Battery won't charge",
+          "description": "Verify KHIBC1 charger is installed. Check external supply is 12-14 V. LED should be RED when charging."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Whip won't tune",
+          "description": "Ensure band switch matches operating frequency. Check counterpoise/ground connection. Whip is most efficient on 20/17/15m."
+        }
+      ]
+    }
+  ]
+}

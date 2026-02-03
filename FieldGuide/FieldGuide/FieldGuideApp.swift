@@ -36,20 +36,25 @@ struct FieldGuideApp: App {
         .modelContainer(sharedModelContainer)
     }
 
+    private static let bundledRadios = [
+        "elecraft-k1",
+        "elecraft-k2",
+        "elecraft-kh1",
+        "elecraft-kx1",
+        "elecraft-kx2",
+        "elecraft-kx3",
+    ]
+
     @MainActor
     private func loadBundledContentIfNeeded() async {
-        let context = sharedModelContainer.mainContext
-        let descriptor = FetchDescriptor<Radio>()
-
-        do {
-            let radios = try context.fetch(descriptor)
-            if radios.isEmpty {
-                // Load bundled content on first launch
-                let importer = ContentImporter(modelContainer: sharedModelContainer)
-                try await importer.importBundledContent(filename: "elecraft-kx2")
+        // Always import/refresh all bundled radios to ensure content is up to date
+        let importer = ContentImporter(modelContainer: sharedModelContainer)
+        for radioId in Self.bundledRadios {
+            do {
+                try await importer.importBundledContent(filename: radioId)
+            } catch {
+                print("Error loading \(radioId): \(error)")
             }
-        } catch {
-            print("Error loading content: \(error)")
         }
     }
 }

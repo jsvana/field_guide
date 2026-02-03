@@ -1,0 +1,237 @@
+{
+  "radio": {
+    "id": "elecraft-k1",
+    "manufacturer": "Elecraft",
+    "model": "K1",
+    "revision": "J",
+    "pdfFilename": "E740016_K1_manual_rev_J.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Elecraft K1 is a compact, high-performance CW transceiver designed for portable and home station use. It features a 3-digit LCD display, built-in memory keyer, and support for 2 or 4 bands depending on the filter module installed."
+        },
+        {
+          "type": "paragraph",
+          "text": "When you turn on the K1 or tap BAND, the current band and frequency are displayed. For example, on 40 meters at 7025.3 kHz, the LCD shows 7, then 025, then 25.3. To change bands, tap BAND quickly two or more times."
+        },
+        {
+          "type": "paragraph",
+          "text": "Holding DISPLAY alternates between three display modes: frequency (default), S-meter, and voltmeter. In S-meter mode, the frequency is re-displayed whenever the VFO is moved."
+        },
+        {
+          "type": "note",
+          "text": "If you see an error message like E42 at power-up, refer to the Troubleshooting section of the manual."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To access the menu, tap MENU. Scroll entries by tapping WPM+/WPM-. Hold EDIT to display a parameter, then change it with WPM+/WPM-. Tap MENU to return to scrolling; another tap exits the menu."
+        },
+        {
+          "type": "menuEntry",
+          "name": "OUT",
+          "description": "Power output level: 0.1-7.0 watts. Hold DISPLAY to select P=0 for keyer/message test mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "STL",
+          "description": "Sidetone level (volume): 0-31. AF GAIN also affects sidetone level."
+        },
+        {
+          "type": "menuEntry",
+          "name": "STP",
+          "description": "Sidetone pitch: 400-800 Hz in 10 Hz steps. Can also be used to SPOT since RX is not muted."
+        },
+        {
+          "type": "menuEntry",
+          "name": "T-R",
+          "description": "Transmit-receive (QSK) delay: 0-900 ms. 50 ms recommended for casual operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "INP",
+          "description": "CW input device: Hnd (hand key/external keyer), PDn (internal keyer normal), PDr (internal keyer reversed)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "AGC",
+          "description": "AGC ON or OFF. No S-meter display when OFF. Note: AGC setting is not saved; defaults to ON at power-up."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NB",
+          "description": "Noise blanker mode: OFF, HI, or LO. Note: NB setting is not saved; defaults to OFF at power-up."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect any hand key, bug, or external keyer to the KEY jack, or use the built-in memory keyer with a paddle. A stereo plug is required in all cases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use WPM+ and WPM- to adjust keyer speed. Tapping either switch quickly two or more times changes speed in 2 WPM increments."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IAB",
+          "description": "Iambic mode A or B. Mode A (default) has more forgiving timing. Mode A is similar to Curtis keyer IC; mode B is similar to Super CMOS Keyer III."
+        },
+        {
+          "type": "paragraph",
+          "text": "To record a message: Hold REC, tap 1 or 2 when prompted. Display shows bytes remaining (90). Stop recording by tapping MSG. Messages are stored in EEPROM."
+        },
+        {
+          "type": "paragraph",
+          "text": "To play a message: Tap MSG, then tap 1 or 2. To auto-repeat, hold 1 or 2 instead. The RPT menu entry sets repeat interval (0-255 seconds)."
+        },
+        {
+          "type": "note",
+          "text": "CW messages can only be recorded using a keyer paddle connected directly to the K1's key jack. External keyers cannot be used for recording."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The K1 provides three selectable crystal filter bandwidths (FL1, FL2, FL3), selected using XFIL during normal operation. Default settings are approximately 800, 400, and 250 Hz."
+        },
+        {
+          "type": "paragraph",
+          "text": "Filter bandwidths can be modified using the FLx menu entry. Use XFIL to select FL1/2/3, then tap WPM+/WPM- to select bandwidth (200-850 Hz range)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Holding ATTN switches in about 14 dB of attenuation. This is useful for extremely strong signals causing receiver overload. The receiver has sufficient sensitivity to leave the attenuator on at all times if necessary."
+        },
+        {
+          "type": "note",
+          "text": "When attenuator is on in S-meter mode, an extra bar is added to compensate for the reduced signal level."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The K1 operates from any 9-15 V DC power supply with current drain of about 0.5-1 A on transmit. Use an in-line 2A fuse when operating from a battery without its own fuse."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "9-15 V DC"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Transmit)",
+          "value": "0.5-1 A typical"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "0.1-7.0 W adjustable"
+        },
+        {
+          "type": "paragraph",
+          "text": "If battery voltage drops below about 9 V, you'll see BAT LO flashed on the LCD every 5 minutes. The optional KBT1 internal battery provides convenient portable operation."
+        },
+        {
+          "type": "warning",
+          "text": "12 V gel-cell batteries must be recharged at 10.5-11.0 V. Different battery types have different end-of-life voltages; check voltage using BAT display mode often."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The optional KAT1 automatic antenna tuner allows connection of random-length or non-resonant antennas. With KAT1 installed, power output display is more accurate under all SWR conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "To enter TUNE mode, press WPM+ and WPM- simultaneously. At 5 watts, display shows P5.0. While in TUNE mode, change power output using WPM+/WPM-."
+        },
+        {
+          "type": "note",
+          "text": "Power readings using the K1's built-in RF detector are only accurate with low SWR. Use an external wattmeter for poorly-matched loads."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "K1 Technical Specifications",
+          "rows": [
+            ["Bands", "2 or 4 bands (depends on filter module)"],
+            ["Output Power", "0.1-7.0 W adjustable"],
+            ["Crystal Filters", "3 selectable (FL1-FL3), 200-850 Hz"],
+            ["Supply Voltage", "9-15 V DC"],
+            ["Current (TX)", "0.5-1 A typical"],
+            ["Keyer Speed", "Adjustable via WPM+/WPM-"],
+            ["Message Memories", "2 x 90 bytes, stored in EEPROM"],
+            ["Display", "3-digit LCD with bargraph S-meter"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Common problems and solutions for field operation. Error messages (like E42) correspond to paragraphs in the Troubleshooting section of the manual."
+        },
+        {
+          "type": "menuEntry",
+          "name": "BAT LO displayed",
+          "description": "Battery voltage below 9 V. Reduce power and recharge. Use BAT display mode to check voltage during operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "End displayed when keying",
+          "description": "VFO is outside transmit frequency limits. Tune back into the amateur band."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No audio output",
+          "description": "Check AF GAIN setting. Verify headphone plug is stereo type. Try internal speaker if available."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer not working",
+          "description": "Check INP menu setting matches your keying device (Hnd vs PDn/PDr). Verify stereo plug is fully inserted."
+        },
+        {
+          "type": "menuEntry",
+          "name": "High current drain",
+          "description": "May indicate high SWR. Check antenna connection and use external wattmeter. Reduce power if needed."
+        }
+      ]
+    }
+  ]
+}

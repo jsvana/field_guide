@@ -67,8 +67,10 @@ actor ContentImporter {
 
         // Import sections
         for (sectionIndex, sectionJSON) in content.sections.enumerated() {
+            // Prefix section ID with radio ID to ensure uniqueness across radios
+            let sectionId = "\(radioId)-\(sectionJSON.id)"
             let section = Section(
-                id: sectionJSON.id,
+                id: sectionId,
                 title: sectionJSON.title,
                 sortOrder: sectionJSON.sortOrder ?? sectionIndex
             )
@@ -79,7 +81,7 @@ actor ContentImporter {
 
             for (index, blockJSON) in sectionJSON.blocks.enumerated() {
                 let block = ContentBlock(
-                    id: "\(sectionJSON.id)-block-\(index)",
+                    id: "\(sectionId)-block-\(index)",
                     sortOrder: index,
                     blockType: blockJSON.type
                 )

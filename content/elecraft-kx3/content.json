@@ -1,0 +1,247 @@
+{
+  "radio": {
+    "id": "elecraft-kx3",
+    "manufacturer": "Elecraft",
+    "model": "KX3",
+    "revision": "C5",
+    "pdfFilename": "E740163_KX3_Owners_man_Rev_C5.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Elecraft KX3 is a compact, 160-6 meter, all-mode transceiver ideal for both new and experienced operators. Its unique features meet requirements for home station, portable, mobile, and hand-held operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The KX3 is a software-defined-radio (SDR), allowing you to extend capabilities using computer applications and add new features via free firmware upgrades. It combines SDR flexibility with a full-size front panel and display for operation with or without a computer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use BAND+ and BAND- to change bands. Tap MODE to cycle through modes (LSB, USB, CW, CW-R, DATA, AM, FM). The display shows frequency, mode, and signal strength via bargraph S-meter."
+        },
+        {
+          "type": "note",
+          "text": "Maximum power output varies with supply voltage. For full power (10+ watts on most bands), use 12-14 V DC."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tap MENU to access the menu system. Use the VFO knob to scroll through entries. Tap the currently displayed entry to edit it, then use VFO to change the value. Tap MENU again to exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW KEY1",
+          "description": "Keying device for KEY jack: PDL NOR (paddle normal), PDL REV (paddle reversed), STR KEY (straight key), HAND (external keyer)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW KEY2",
+          "description": "Keying device for KXPD3 paddle: PDL NOR, PDL REV, HAND."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW SPD",
+          "description": "Keyer speed: 8-50 WPM. Can also be adjusted using the RATE/KEYER knob."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MIC BIAS",
+          "description": "Microphone bias voltage: OFF or ON. Set to ON for electret mics like the MH3."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MIC BTN",
+          "description": "Microphone button functions: OFF, PTT, UP.DN (VFO up/down), PTT UP.DN."
+        },
+        {
+          "type": "menuEntry",
+          "name": "AGC MD",
+          "description": "AGC mode: SLOW, FAST, or OFF. Use SLOW for SSB, FAST for CW."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KX3 has two CW keying inputs: the KEY jack (3.5mm stereo) on the left side, and the optional KXPD3 keyer paddle that attaches to the front via thumb screws."
+        },
+        {
+          "type": "paragraph",
+          "text": "A stereo plug is required at the KEY jack even if only the tip contact is being used, as with a hand key. The KXPD3 paddle can be electrically reversed or configured as a hand key."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW WT",
+          "description": "Keyer weighting: 25-75%. Default 50% produces standard 3:1 dash-to-dot ratio."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IAMB MD",
+          "description": "Iambic keyer mode: A or B. Mode A is more forgiving; Mode B allows faster squeeze keying."
+        },
+        {
+          "type": "paragraph",
+          "text": "To record a CW message: Hold REC, then tap a number key (1-4) to select a message buffer. Send your message using the paddle. Tap REC to stop recording."
+        },
+        {
+          "type": "paragraph",
+          "text": "To play a CW message: Tap MSG, then tap the number key for the desired message. Messages can be chained by holding the number key."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KX3 provides continuously variable IF bandwidth from 50 Hz to 4.0 kHz, adjusted using the BW knob. Roofing filters are automatically selected based on bandwidth setting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tap PRE to enable the receiver preamplifier (+10 dB). Tap ATT to enable the attenuator (-10 dB). Hold PRE or ATT for additional options."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NB LV",
+          "description": "Noise blanker level: 0-21. Higher values provide more blanking but may distort strong signals."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NR LV",
+          "description": "Noise reduction level: 0-15. Use sparingly; higher levels may affect voice clarity."
+        },
+        {
+          "type": "paragraph",
+          "text": "The optional KXFL3 roofing filter provides enhanced selectivity for CW operation. Filter selection is automatic based on the BW setting."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For fixed-station use, a low-noise 12-14 VDC power supply or battery is recommended. For portable operation, the KX3's internal 8-AA-cell battery pack can be used."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "9-15 V DC (12-14 V recommended for full power)"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Receive)",
+          "value": "150-200 mA typical"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Transmit)",
+          "value": "1.5-2 A at 10 W output"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "0.1-15 W (10+ W with 12-14 V supply)"
+        },
+        {
+          "type": "note",
+          "text": "The KX3's internal battery pack uses 8 AA cells. Lithium AA cells are recommended for best performance and longest life in portable operation."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The optional KXAT3 internal antenna tuner provides automatic matching for antennas with SWR up to 10:1. Tuning solutions are stored per-band for instant recall."
+        },
+        {
+          "type": "paragraph",
+          "text": "To initiate ATU tuning: Hold ATU (TUNE). The KX3 will transmit a carrier and find the best match. The display shows SWR during and after tuning."
+        },
+        {
+          "type": "menuEntry",
+          "name": "ATU MD",
+          "description": "ATU mode: AUTO (retunes when SWR rises), MAN (manual tune only), BYP (bypass)."
+        },
+        {
+          "type": "note",
+          "text": "The ATU can match a wide range of antenna impedances but works best with antennas having SWR below 10:1. Severely mismatched antennas may not tune successfully."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "KX3 Technical Specifications",
+          "rows": [
+            ["Frequency Coverage", "160-6 meters (1.8-54 MHz)"],
+            ["Modes", "LSB, USB, CW, CW-R, DATA, AM, FM"],
+            ["Output Power", "0.1-15 W (10+ W with 12-14 V)"],
+            ["IF Bandwidth", "50 Hz - 4.0 kHz, continuously variable"],
+            ["Receiver Sensitivity", "0.15 uV (10 dB S/N, preamp on)"],
+            ["Supply Voltage", "9-15 V DC"],
+            ["Current (RX)", "150-200 mA"],
+            ["Current (TX)", "1.5-2 A at 10 W"],
+            ["Size", "7.4 x 3.3 x 1.6 in (188 x 84 x 41 mm)"],
+            ["Weight", "1.7 lb (0.77 kg) without options"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If ERR followed by a number appears, refer to the Error Messages section of the manual for diagnosis."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No power or dim display",
+          "description": "Check supply voltage (9-15 V required). Verify power cable polarity (center positive). Check internal battery if installed."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Low or no RF output",
+          "description": "Check antenna connection and SWR. Verify power setting (PWR control). Check for high SWR causing foldback."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer not working",
+          "description": "Verify CW KEY1 or CW KEY2 menu matches your keying device. Check that paddle/key plug is fully inserted."
+        },
+        {
+          "type": "menuEntry",
+          "name": "ATU won't tune",
+          "description": "Antenna SWR may be too high (>10:1). Try a different antenna or band. Ensure ATU MD is not set to BYP."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Hum or noise in audio",
+          "description": "Check for ground loops. Try different power supply. Enable NR or NB if interference is external."
+        }
+      ]
+    }
+  ]
+}

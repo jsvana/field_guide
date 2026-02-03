@@ -8,7 +8,6 @@ import SwiftUI
 
 struct LibraryTab: View {
     @Query(sort: \Radio.model) private var radios: [Radio]
-    @State private var showAddRadio = false
 
     private let columns = [
         GridItem(.flexible()),
@@ -25,9 +24,6 @@ struct LibraryTab: View {
                 }
             }
             .navigationTitle("Library")
-            .sheet(isPresented: $showAddRadio) {
-                AddRadioSheet()
-            }
         }
     }
 
@@ -37,16 +33,10 @@ struct LibraryTab: View {
             Image(systemName: "book.closed.fill")
                 .font(.system(size: 48))
                 .foregroundStyle(.secondary)
-            Text("Download your first manual to get started")
+            Text("Loading manuals...")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
-            Button {
-                showAddRadio = true
-            } label: {
-                Label("Add Radio", systemImage: "plus")
-                    .font(.headline)
-            }
-            .buttonStyle(.borderedProminent)
+            ProgressView()
             Spacer()
         }
         .frame(maxWidth: .infinity)
@@ -61,14 +51,6 @@ struct LibraryTab: View {
                 }
                 .buttonStyle(.plain)
             }
-
-            // Add Radio card
-            Button {
-                showAddRadio = true
-            } label: {
-                AddRadioCard()
-            }
-            .buttonStyle(.plain)
         }
         .padding()
         .navigationDestination(for: Radio.self) { radio in
@@ -106,28 +88,6 @@ struct RadioCard: View {
         .padding()
         .background(Color(.systemGray6))
         .clipShape(RoundedRectangle(cornerRadius: 12))
-    }
-}
-
-struct AddRadioCard: View {
-    var body: some View {
-        VStack(spacing: 8) {
-            Image(systemName: "plus.circle")
-                .font(.system(size: 40))
-                .foregroundStyle(.secondary)
-                .frame(height: 60)
-
-            Text("Add Radio")
-                .font(.headline)
-                .foregroundStyle(.secondary)
-        }
-        .padding()
-        .frame(maxWidth: .infinity)
-        .overlay(
-            RoundedRectangle(cornerRadius: 12)
-                .strokeBorder(style: StrokeStyle(lineWidth: 2, dash: [8]))
-                .foregroundStyle(.secondary)
-        )
     }
 }
 

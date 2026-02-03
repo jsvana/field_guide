@@ -30,6 +30,18 @@ MANUALS = {
         "filename": "KX2_owners_man_B2.pdf",
         "revision": "B2",
     },
+    "elecraft-kx3": {
+        "name": "KX3",
+        "url": "https://ftp.elecraft.com/KX3/Manuals%20Downloads/E740163%20KX3%20Owner's%20man%20Rev%20C5.pdf",
+        "filename": "E740163_KX3_Owners_man_Rev_C5.pdf",
+        "revision": "C5",
+    },
+    "elecraft-kh1": {
+        "name": "KH1",
+        "url": "https://ftp.elecraft.com/KH1/Manuals%20Downloads/KH1%20Owner's%20Manual,%20rev%20B4.pdf",
+        "filename": "KH1_Owners_Manual_rev_B4.pdf",
+        "revision": "B4",
+    },
 }
 
 
