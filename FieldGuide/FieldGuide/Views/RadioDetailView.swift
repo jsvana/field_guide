@@ -22,9 +22,17 @@ struct RadioDetailView: View {
                 }
             }
         }
-        .navigationTitle(radio.model)
-        .navigationBarTitleDisplayMode(.large)
+        .navigationBarTitleDisplayMode(.inline)
         .toolbar {
+            ToolbarItem(placement: .principal) {
+                HStack(alignment: .firstTextBaseline, spacing: 4) {
+                    Text(radio.manufacturer)
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                    Text(radio.model)
+                        .font(.headline)
+                }
+            }
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
                     showPDF = true

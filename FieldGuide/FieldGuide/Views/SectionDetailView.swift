@@ -16,6 +16,13 @@ struct SectionDetailView: View {
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 16) {
+                // Radio context at top
+                if let radio = section.radio {
+                    Text("\(radio.manufacturer) \(radio.model)")
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                }
+
                 // Custom header that wraps instead of truncating
                 Text(section.title)
                     .font(.largeTitle.bold())

@@ -63,7 +63,7 @@ struct RadioCard: View {
     let radio: Radio
 
     var body: some View {
-        VStack(spacing: 8) {
+        VStack(spacing: 4) {
             Image(systemName: "radio")
                 .font(.system(size: 40))
                 .foregroundStyle(.blue)
@@ -72,19 +72,11 @@ struct RadioCard: View {
             Text(radio.model)
                 .font(.headline)
 
-            HStack {
-                Text(radio.manufacturer)
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                Spacer()
-                Text(radio.manualRevision)
-                    .font(.caption.weight(.medium))
-                    .padding(.horizontal, 6)
-                    .padding(.vertical, 2)
-                    .background(Color.blue.opacity(0.2))
-                    .clipShape(Capsule())
-            }
+            Text(radio.manufacturer)
+                .font(.caption)
+                .foregroundStyle(.secondary)
         }
+        .frame(maxWidth: .infinity)
         .padding()
         .background(Color(.systemGray6))
         .clipShape(RoundedRectangle(cornerRadius: 12))
