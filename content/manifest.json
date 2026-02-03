@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "lastUpdated": "2026-02-02",
+  "radios": [
+    {
+      "id": "elecraft-kx2",
+      "manufacturer": "Elecraft",
+      "model": "KX2",
+      "revision": "B2",
+      "contentURL": "https://example.com/field-guide-content/elecraft-kx2/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-kx2/KX2_owners_man_B2.pdf",
+      "pdfSize": 3450977,
+      "contentSize": 10241
+    }
+  ]
+}
