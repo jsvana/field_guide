@@ -1,0 +1,255 @@
+{
+  "radio": {
+    "id": "elecraft-k2",
+    "manufacturer": "Elecraft",
+    "model": "K2",
+    "revision": "I",
+    "pdfFilename": "E740001_K2_Owners_Manual_Rev_I.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Elecraft K2 is a high-performance HF transceiver covering 160-10 meters. It features an LCD display with LED bargraph S-meter, dual VFOs, and extensive menu system. With options, it supports CW, SSB, and data modes up to 100 W."
+        },
+        {
+          "type": "paragraph",
+          "text": "The LCD shows ELECRAFT for two seconds on power-up. If a problem is detected, it displays INFO followed by a number corresponding to the Troubleshooting section."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use BAND+ and BAND- to change bands. Hold BAND+ + BAND- together for direct frequency entry using the numeric keypad (e.g., 7040 for 7.040 MHz)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The mode indicator (C, L, U, or r) appears at the right of the display. A small bar above C or r indicates CW/DATA reverse sideband. The indicator flashes in CW TEST or SPEECH mode."
+        },
+        {
+          "type": "note",
+          "text": "LCD annunciators show status: NB (noise blanker), ANT2, PRE (preamp), ATTN (attenuator), A/B (VFO), RIT, XIT, F (fast play)."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tap MENU to access the menu. The last-used entry is displayed with an underline. Scroll with the VFO knob or BAND+/BAND-. Hold EDIT to modify parameters, then tap MENU to exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "ST L",
+          "description": "Sidetone level (volume): 0-255."
+        },
+        {
+          "type": "menuEntry",
+          "name": "ST P",
+          "description": "Sidetone pitch: 0.40-0.80 kHz in 10 Hz steps."
+        },
+        {
+          "type": "menuEntry",
+          "name": "T-R",
+          "description": "QSK delay: 0.00-2.55 seconds."
+        },
+        {
+          "type": "menuEntry",
+          "name": "INP",
+          "description": "CW input: PDLn (paddle normal with auto-detect), PDLr (reversed), HAND (hand key/external keyer)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IAB",
+          "description": "Iambic mode: A or B."
+        },
+        {
+          "type": "menuEntry",
+          "name": "LCD",
+          "description": "Display mode: DAY (backlight off, bargraph bright) or NITE (backlight on, bargraph normal)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "OPT",
+          "description": "Receiver optimization: PERF (performance) or BATT (battery saving mode)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PF1/PF2",
+          "description": "Programmable functions. Can be assigned to any menu function, SCAN, or FPon (Fast-Play)."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect any hand key, bug, or external keyer to the KEY jack, or use a paddle with the built-in memory keyer. A stereo plug is required. The KEYER knob adjusts speed from 9-50 WPM."
+        },
+        {
+          "type": "paragraph",
+          "text": "With auto-detect enabled (default), a computer, hand key, or external keyer can be connected along with the paddle. The K2 automatically detects which device is being used."
+        },
+        {
+          "type": "paragraph",
+          "text": "To record a message: Hold REC, then tap 0-8 to select a buffer. To play: Tap MSG, then tap 0-8. To chain messages or auto-repeat, hold the number instead of tapping."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RPT",
+          "description": "CW message repeat interval: 0-255 seconds. Useful for beacons or calling CQ."
+        },
+        {
+          "type": "warning",
+          "text": "To test the keyer without transmitting, use VOX to enter CW TEST mode (mode letter flashes). Remember to exit test mode before operating."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The K2 supports up to four crystal filters (FL1-FL4), selected using XFIL. Hold XFIL + AGC to display the current filter number and bandwidth, plus audio filter setting if applicable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tap PRE/ATT to cycle through preamp (+14 dB) and attenuator (-10 dB). Hold SPOT for CW audio spot signal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tap AGC to select FAST or SLOW AGC. Hold PRE/ATT + AGC to turn AGC completely off (mode letter decimal point flashes as reminder)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NB",
+          "description": "Tap NB to select noise blanker mode: OFF, NB1, or NB2. Hold LEVEL to toggle low/high threshold (NB annunciator flashes for low threshold)."
+        },
+        {
+          "type": "note",
+          "text": "With optional KAF2 audio filter, hold AFIL to select audio filter modes (AF1-2, CF1-4, SF1-4). Hold AFIL + SPLIT for DSP notch; AFIL + REC for DSP noise reduction."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Power the K2 from any 9-15 V DC supply. Current drain is typically 1.5-2 A transmit, but can exceed 3 A at highest power or high SWR. The optional KPA100 amplifier provides up to 100 W output."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "9-15 V DC"
+        },
+        {
+          "type": "specification",
+          "name": "Current (TX)",
+          "value": "1.5-2 A typical, 3+ A maximum"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "0.1-15 W (basic), 1-100 W (with KPA100)"
+        },
+        {
+          "type": "paragraph",
+          "text": "If supply voltage drops below 11 V, LO BATT is displayed every 8 minutes. The CAL CUR menu sets maximum transmit current (recommended: 3.50 A). HI CUR is displayed if limit is reached."
+        },
+        {
+          "type": "note",
+          "text": "The optional KBT2 internal battery (12 V, 2.9 Ah) can be charged using a 14.0 V supply. Disable internal battery when using external battery."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The optional KAT2 automatic antenna tuner provides accurate power control and display under all SWR conditions. Tap ANT1/2 to toggle between two antenna jacks."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hold TUNE to key the transmitter and activate the ATU. The ATU automatically finds a match. Hold DISPLAY + TUNE to override the ATU power limit during tuning."
+        },
+        {
+          "type": "menuEntry",
+          "name": "ATU",
+          "description": "ATU operating mode. See KAT2 manual for details."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RANT",
+          "description": "RX antenna: OFF or ON, per-band. Allows using a separate receive antenna."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "K2 Technical Specifications",
+          "rows": [
+            ["Frequency Coverage", "160-10 meters"],
+            ["Modes", "CW, SSB (with KSB2), Data (optional)"],
+            ["Output Power", "0.1-15 W (basic), 1-100 W (KPA100)"],
+            ["Crystal Filters", "Up to 4 (FL1-FL4)"],
+            ["VFOs", "Dual (A and B)"],
+            ["Supply Voltage", "9-15 V DC"],
+            ["Current (TX)", "1.5-2 A typical"],
+            ["Message Memories", "9 buffers (0-8)"],
+            ["Keyer Speed", "9-50 WPM"],
+            ["Display", "LCD with LED bargraph"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "If INFO followed by a number appears at power-up, refer to that paragraph in the Troubleshooting section of the manual."
+        },
+        {
+          "type": "menuEntry",
+          "name": "LO BATT displayed",
+          "description": "Supply voltage below 11 V. Reduce power and recharge. Use DISPLAY to check voltage/current."
+        },
+        {
+          "type": "menuEntry",
+          "name": "HI CUR displayed",
+          "description": "Transmit current exceeded CAL CUR limit. Reduce power or check antenna SWR."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Display blank but power on",
+          "description": "Internal fuse F1 may have tripped due to short. Turn off power and check for the problem."
+        },
+        {
+          "type": "menuEntry",
+          "name": "50/60 Hz hum in receiver",
+          "description": "K2 too close to equipment with large AC transformer. Move K2 away from the interference source."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Mode letter flashing",
+          "description": "CW TEST mode or SPEECH (VOX) mode is active. Use VOX to toggle back to normal operation."
+        }
+      ]
+    }
+  ]
+}

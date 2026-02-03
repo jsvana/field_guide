@@ -11,6 +11,36 @@
       "pdfURL": "https://example.com/field-guide-content/elecraft-kx2/KX2_owners_man_B2.pdf",
       "pdfSize": 3450977,
       "contentSize": 10241
+    },
+    {
+      "id": "elecraft-kx1",
+      "manufacturer": "Elecraft",
+      "model": "KX1",
+      "revision": "E",
+      "contentURL": "https://example.com/field-guide-content/elecraft-kx1/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-kx1/KX1_Owners_Manual_Rev_E.pdf",
+      "pdfSize": 2500000,
+      "contentSize": 8500
+    },
+    {
+      "id": "elecraft-k1",
+      "manufacturer": "Elecraft",
+      "model": "K1",
+      "revision": "J",
+      "contentURL": "https://example.com/field-guide-content/elecraft-k1/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-k1/E740016_K1_manual_rev_J.pdf",
+      "pdfSize": 3200000,
+      "contentSize": 9000
+    },
+    {
+      "id": "elecraft-k2",
+      "manufacturer": "Elecraft",
+      "model": "K2",
+      "revision": "I",
+      "contentURL": "https://example.com/field-guide-content/elecraft-k2/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-k2/E740001_K2_Owners_Manual_Rev_I.pdf",
+      "pdfSize": 4500000,
+      "contentSize": 10500
     }
   ]
 }

@@ -1,0 +1,223 @@
+{
+  "radio": {
+    "id": "elecraft-kx1",
+    "manufacturer": "Elecraft",
+    "model": "KX1",
+    "revision": "E",
+    "pdfFilename": "KX1_Owners_Manual_Rev_E.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Elecraft KX1 is a compact, multi-band CW transceiver optimized for backpacking and travel. With internal battery, automatic antenna tuner, log-book lamp, and plug-in keyer paddle, it offers a high level of integration in a trail-friendly format."
+        },
+        {
+          "type": "paragraph",
+          "text": "Set POWER ON to turn on the KX1. If the LED display is too dim, hold MENU, BAND, or RIT at power-up to select maximum brightness and enable CW feedback at 10, 20, or 30 WPM respectively."
+        },
+        {
+          "type": "paragraph",
+          "text": "The VFO knob adjusts frequency, RIT offset, keyer speed, and menu parameters. Tapping the knob selects 100-Hz or 10-Hz steps; holding for 0.5 seconds selects 1 kHz or 5 kHz steps depending on receive mode."
+        },
+        {
+          "type": "note",
+          "text": "The KX1 transmits only in ham bands (7.0-7.3, 10.10-10.15, 14.0-14.35 MHz). Transmit is prevented outside these ranges and you'll see END flashed on the display."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To access the menu, tap MENU. Scroll through entries by rotating the VFO knob. Hold EDIT to display and change a parameter, then tap MENU to return to scrolling. Another tap exits the menu."
+        },
+        {
+          "type": "menuEntry",
+          "name": "LED",
+          "description": "LED display control. Tap BAND and RIT to select brightness (0-5). VFO knob selects on-time (5-60 seconds, or INF for infinite)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "STL",
+          "description": "Sidetone level (volume). Four levels available (0-3). AF GAIN also affects sidetone level."
+        },
+        {
+          "type": "menuEntry",
+          "name": "STP",
+          "description": "Sidetone pitch. Range is 500-700 Hz in 10 Hz steps. 600 Hz recommended to match BFO offset."
+        },
+        {
+          "type": "menuEntry",
+          "name": "T-R",
+          "description": "Transmit-receive (QSK) delay. Range 0-900 ms. 20 ms recommended for casual operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "INP",
+          "description": "Input device selection. Hnd for hand key or external keyer; PDn/PDr for internal keyer with normal/reversed paddles."
+        },
+        {
+          "type": "menuEntry",
+          "name": "BAT",
+          "description": "Low-battery warning threshold. Set to 7.5 V for Alkaline/Lithium, 6.5 V for NiMH, 10.5 V for external 12 V battery."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a hand key or external keyer to J3, or use a paddle with the built-in memory keyer. A stereo plug is required. The optional KXPD1 paddle plugs directly into J3."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IAB",
+          "description": "Iambic mode selection. Mode A (default) has more forgiving timing. Mode B is similar to Super CMOS Keyer III mode B."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CFB",
+          "description": "CW feedback control. 10-40 WPM or OFF. When on, audio Morse code responds to all switch activity."
+        },
+        {
+          "type": "paragraph",
+          "text": "To record a message: Tap MENU, find PLY, hold EDIT to change to REC, then tap 1 or 2. Display shows available bytes (048). Tap any switch to stop recording."
+        },
+        {
+          "type": "paragraph",
+          "text": "To play a message: Tap MENU, find PLY, then tap 1 or 2. To auto-repeat, hold 1 or 2 instead. The RPT menu entry sets the repeat interval (0-255 seconds)."
+        },
+        {
+          "type": "note",
+          "text": "For keyer test mode (practice without transmitting), locate PLY menu entry and tap the VFO knob. You'll see P=0 during message play instead of the transmit bargraph."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KX1 uses a 3-pole variable-bandwidth crystal filter with approximate range of 300-2000 Hz, adjusted using the FILTER potentiometer. Narrow settings reduce interference when copying CW; wider settings are useful for SSB and AM reception."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three receive modes are available: CW (nor), LSB, and USB. Hold MENU + RIT to select mode. In CW mode, LSB is used on 40m and USB on 30/20m."
+        },
+        {
+          "type": "note",
+          "text": "In LSB/USB receive modes, there is no receive CW offset, so the VFO shows the station's carrier frequency when properly tuned. The required offset is introduced on transmit instead."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KX1's internal six-cell battery pack provides 1-2 watts output with 7.2-9 V depending on battery type. An external 12 V supply increases output to about 4 watts. Low receive current (35 mA typical) results in 20+ hours battery life."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "7-14 V DC (8 V minimum recommended)"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Receive)",
+          "value": "35 mA typical, 40 mA max"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Transmit)",
+          "value": "300-700 mA (varies with voltage and power)"
+        },
+        {
+          "type": "note",
+          "text": "Use Energizer lithium L91 or fresh Alkaline cells for best performance. NiMH cells work but provide lower output and may not meet minimum voltage spec near end of charge."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The optional KXAT1 automatic antenna tuner allows use of random-length wires, often without any feedline. Power and SWR are displayed in TUNE mode when installed."
+        },
+        {
+          "type": "paragraph",
+          "text": "To enter TUNE mode, hold MENU + BAND simultaneously. You'll see ATU during tuning, then power output (e.g., P2.0). Tap any switch to cancel and see SWR (e.g., r1.0). Limit TUNE to 10 seconds on, 10 seconds off."
+        },
+        {
+          "type": "warning",
+          "text": "Without ATU installed, the display shows 'tun' in TUNE mode since the KX1 itself does not include power metering. You'll still need to tap a switch to exit TUNE mode."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "KX1 Technical Specifications",
+          "rows": [
+            ["Frequency Range (RX)", "5.0-9.5 and 12.0-16.5 MHz"],
+            ["Frequency Range (TX)", "40m, 30m (opt), 20m"],
+            ["Output Power", "1.5-2 W (9V), 3-4 W (12V)"],
+            ["Sensitivity", "0.2 uV for 10 dB (S+N)/N"],
+            ["IF Frequency", "4.915 MHz, single conversion"],
+            ["Selectivity", "300-2000 Hz variable crystal filter"],
+            ["Supply Voltage", "7-14 V DC"],
+            ["Current (RX)", "35 mA typical"],
+            ["Current (TX)", "300-700 mA"],
+            ["Size", "1.4 x 5.8 x 3.0 in (3.5 x 15 x 8 cm)"],
+            ["Weight", "9 oz (0.25 kg) without options"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Common problems and solutions for field operation. See Appendix E of the manual for detailed troubleshooting."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Display shows BAT LO",
+          "description": "Supply voltage dropped below BAT menu threshold. Recharge or replace batteries. Check BAT setting matches your battery type."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Display shows END when transmitting",
+          "description": "VFO is outside ham band limits. Tune back into the band (7.0-7.3, 10.10-10.15, or 14.0-14.35 MHz)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VFO doesn't change frequency",
+          "description": "VFO may be locked. Hold RIT + 10/100 to unlock (display shows 'nor' when unlocked)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Sidetone but no RF output",
+          "description": "Check that INP menu matches your keying device. Verify antenna connection. Try TUNE mode to confirm transmitter operation."
+        }
+      ]
+    }
+  ]
+}
