@@ -11,6 +11,23 @@ struct SearchTab: View {
     @Query private var sections: [Section]
     @State private var searchText = ""
     @State private var selectedRadioId: String?
+    @State private var favoritesOnly = false
+
+    private var downloadedRadios: [Radio] {
+        radios.filter { $0.isDownloaded }
+    }
+
+    private var favoriteRadios: [Radio] {
+        downloadedRadios.filter { $0.isFavorite }
+    }
+
+    private var hasFavorites: Bool {
+        !favoriteRadios.isEmpty
+    }
+
+    private var scopeRadios: [Radio] {
+        favoritesOnly ? favoriteRadios : downloadedRadios
+    }
 
     var body: some View {
         NavigationStack {
@@ -18,10 +35,29 @@ struct SearchTab: View {
                 // Scope picker
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 8) {
+                        if hasFavorites {
+                            filterChip(
+                                "My Radios",
+                                systemImage: "star.fill",
+                                isSelected: favoritesOnly
+                            ) {
+                                favoritesOnly.toggle()
+                                if favoritesOnly && selectedRadioId != nil {
+                                    // Reset selection if current radio is not a favorite
+                                    if !favoriteRadios.contains(where: { $0.id == selectedRadioId }) {
+                                        selectedRadioId = nil
+                                    }
+                                }
+                            }
+
+                            Divider()
+                                .frame(height: 20)
+                        }
+
                         scopeChip("All", isSelected: selectedRadioId == nil) {
                             selectedRadioId = nil
                         }
-                        ForEach(radios.filter { $0.isDownloaded }) { radio in
+                        ForEach(scopeRadios) { radio in
                             scopeChip(radio.model, isSelected: selectedRadioId == radio.id) {
                                 selectedRadioId = radio.id
                             }
@@ -64,14 +100,41 @@ struct SearchTab: View {
         let query = searchText.lowercased()
 
         return sections.filter { section in
-            guard section.radio?.isDownloaded == true else { return false }
+            guard let radio = section.radio, radio.isDownloaded else { return false }
 
-            if let radioId = selectedRadioId, section.radio?.id != radioId {
+            // Filter by favorites if enabled
+            if favoritesOnly && !radio.isFavorite {
+                return false
+            }
+
+            // Filter by specific radio if selected
+            if let radioId = selectedRadioId, radio.id != radioId {
                 return false
             }
 
             return section.title.lowercased().contains(query) ||
                 section.searchableText.lowercased().contains(query)
+        }
+    }
+
+    private func filterChip(
+        _ title: String,
+        systemImage: String,
+        isSelected: Bool,
+        action: @escaping () -> Void
+    ) -> some View {
+        Button(action: action) {
+            HStack(spacing: 4) {
+                Image(systemName: systemImage)
+                    .font(.caption)
+                Text(title)
+            }
+            .font(.subheadline.weight(.medium))
+            .padding(.horizontal, 12)
+            .padding(.vertical, 6)
+            .background(isSelected ? Color.yellow : Color(.systemGray5))
+            .foregroundStyle(isSelected ? .black : .primary)
+            .clipShape(Capsule())
         }
     }
 
