@@ -53,6 +53,23 @@ make generate-manifest  # Generate content manifest.json
 **Content Format**: JSON with `radio` metadata and `sections` array containing typed `blocks`:
 - `paragraph`, `menuEntry`, `specification`, `specificationTable`, `note`, `warning`
 
+## Content JSON Field Requirements
+
+**CRITICAL: Wrong field names cause empty content in the app.**
+
+| Block Type | Required Fields | WRONG (breaks display) |
+|------------|-----------------|------------------------|
+| paragraph | `text` | ~~content~~ |
+| note | `text` | ~~content~~ |
+| warning | `text` | ~~content~~ |
+| menuEntry | `name`, `description` | |
+| specification | `name`, `value` | ~~label~~ |
+| specificationTable | `rows` | ~~entries~~ |
+
+**IMPORTANT: The app loads JSON from `FieldGuide/FieldGuide/*.json`, NOT from `content/*/content.json`.** When fixing content issues, edit the files in the app bundle directory.
+
+See `content/CURATION_GUIDE.md` for full documentation and copy-paste templates.
+
 ## Code Standards
 
 - Swift 6 with strict concurrency

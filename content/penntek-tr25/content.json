@@ -12,23 +12,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The PennTek TR-25 is a dual-band CW QRP transceiver covering 40m and 20m bands. It provides 5W output power and is designed for portable field operations."
+          "text": "The PennTek TR-25 is a dual-band CW QRP transceiver covering 40m and 20m bands. It provides 5W output power and is designed for portable field operations."
         },
         {
           "type": "paragraph",
-          "content": "Power on the radio using the main power switch. The display shows frequency, band, and operating status. Use the main VFO knob for tuning."
+          "text": "Power on the radio using the main power switch. The display shows frequency, band, and operating status. Use the main VFO knob for tuning."
         },
         {
           "type": "paragraph",
-          "content": "Band switching between 40m and 20m is performed via the band select button. The radio automatically recalls the last frequency used on each band."
+          "text": "Band switching between 40m and 20m is performed via the band select button. The radio automatically recalls the last frequency used on each band."
         },
         {
           "type": "paragraph",
-          "content": "The TR-25 provides RIT (Receiver Incremental Tuning) for fine-tuning the receive frequency without affecting transmit frequency, useful for working split operations."
+          "text": "The TR-25 provides RIT (Receiver Incremental Tuning) for fine-tuning the receive frequency without affecting transmit frequency, useful for working split operations."
         },
         {
           "type": "note",
-          "content": "Ensure antenna SWR is below 2:1 for full power output. The radio includes SWR protection that reduces power with mismatched antennas."
+          "text": "Ensure antenna SWR is below 2:1 for full power output. The radio includes SWR protection that reduces power with mismatched antennas."
         }
       ],
       "id": "operation-basics"
@@ -38,7 +38,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "Access the menu by pressing and holding the MENU button. Scroll through options with the main tuning knob and select with MENU."
+          "text": "Access the menu by pressing and holding the MENU button. Scroll through options with the main tuning knob and select with MENU."
         },
         {
           "type": "menuEntry",
@@ -90,23 +90,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The TR-25 includes a full-featured internal iambic keyer with speed adjustable from 5-35 WPM. Both Iambic A and Iambic B modes are supported."
+          "text": "The TR-25 includes a full-featured internal iambic keyer with speed adjustable from 5-35 WPM. Both Iambic A and Iambic B modes are supported."
         },
         {
           "type": "paragraph",
-          "content": "Connect a paddle to the 3.5mm keyer jack. Standard wiring: tip = dit, ring = dah, sleeve = ground. Use the Paddle Swap menu option to reverse if needed."
+          "text": "Connect a paddle to the 3.5mm keyer jack. Standard wiring: tip = dit, ring = dah, sleeve = ground. Use the Paddle Swap menu option to reverse if needed."
         },
         {
           "type": "paragraph",
-          "content": "For straight key operation, set the keyer mode to 'Straight Key' in Menu 04. The radio will then key directly from the tip contact."
+          "text": "For straight key operation, set the keyer mode to 'Straight Key' in Menu 04. The radio will then key directly from the tip contact."
         },
         {
           "type": "paragraph",
-          "content": "Sidetone provides audio feedback during keying. Adjust pitch and volume to your preference. The sidetone is output through both the speaker and headphone jack."
+          "text": "Sidetone provides audio feedback during keying. Adjust pitch and volume to your preference. The sidetone is output through both the speaker and headphone jack."
         },
         {
           "type": "note",
-          "content": "PennTek radios are known for clean keying characteristics. The TR-25 provides shaped keying to minimize key clicks."
+          "text": "PennTek radios are known for clean keying characteristics. The TR-25 provides shaped keying to minimize key clicks."
         }
       ],
       "id": "cw-keyer"
@@ -116,19 +116,19 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The TR-25 features a crystal ladder filter providing approximately 500 Hz bandwidth, well-suited for CW operation in typical amateur band conditions."
+          "text": "The TR-25 features a crystal ladder filter providing approximately 500 Hz bandwidth, well-suited for CW operation in typical amateur band conditions."
         },
         {
           "type": "paragraph",
-          "content": "The receiver uses a traditional superheterodyne design optimized for sensitivity and selectivity in CW operation."
+          "text": "The receiver uses a traditional superheterodyne design optimized for sensitivity and selectivity in CW operation."
         },
         {
           "type": "paragraph",
-          "content": "AGC (Automatic Gain Control) helps maintain consistent audio levels when signal strengths vary."
+          "text": "AGC (Automatic Gain Control) helps maintain consistent audio levels when signal strengths vary."
         },
         {
           "type": "note",
-          "content": "For very crowded band conditions, consider adding an external audio filter to further narrow the passband."
+          "text": "For very crowded band conditions, consider adding an external audio filter to further narrow the passband."
         }
       ],
       "id": "filters-dsp"
@@ -138,23 +138,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The TR-25 operates from 9-14V DC input through a standard 2.1mm barrel connector (center positive). Nominal operation is at 12-13.8V."
+          "text": "The TR-25 operates from 9-14V DC input through a standard 2.1mm barrel connector (center positive). Nominal operation is at 12-13.8V."
         },
         {
           "type": "paragraph",
-          "content": "Current consumption is approximately 50mA on receive and up to 1.5A during transmit at full power. Total power consumption makes it suitable for battery operation."
+          "text": "Current consumption is approximately 50mA on receive and up to 1.5A during transmit at full power. Total power consumption makes it suitable for battery operation."
         },
         {
           "type": "paragraph",
-          "content": "A 3S LiPo (11.1V nominal) or 3S LiFePO4 (9.9V nominal) battery pack provides excellent portable power. Internal protection circuits prevent damage from low voltage conditions."
+          "text": "A 3S LiPo (11.1V nominal) or 3S LiFePO4 (9.9V nominal) battery pack provides excellent portable power. Internal protection circuits prevent damage from low voltage conditions."
         },
         {
           "type": "warning",
-          "content": "Do not exceed 14V input voltage. Do not reverse polarity - this may cause permanent damage."
+          "text": "Do not exceed 14V input voltage. Do not reverse polarity - this may cause permanent damage."
         },
         {
           "type": "note",
-          "content": "PennTek recommends a 2000mAh battery minimum for extended portable operations."
+          "text": "PennTek recommends a 2000mAh battery minimum for extended portable operations."
         }
       ],
       "id": "power-battery"
@@ -164,19 +164,19 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The TR-25 does not include an internal antenna tuner. Use a resonant antenna or external ATU for best results."
+          "text": "The TR-25 does not include an internal antenna tuner. Use a resonant antenna or external ATU for best results."
         },
         {
           "type": "paragraph",
-          "content": "For dual-band operation, a trapped dipole or linked dipole antenna provides good performance without needing a tuner."
+          "text": "For dual-band operation, a trapped dipole or linked dipole antenna provides good performance without needing a tuner."
         },
         {
           "type": "paragraph",
-          "content": "When using a random wire or non-resonant antenna, a small external ATU such as the Elecraft T1 is recommended."
+          "text": "When using a random wire or non-resonant antenna, a small external ATU such as the Elecraft T1 is recommended."
         },
         {
           "type": "note",
-          "content": "The radio's SWR protection will reduce power if SWR exceeds safe levels. Always verify antenna match before operating at full power."
+          "text": "The radio's SWR protection will reduce power if SWR exceeds safe levels. Always verify antenna match before operating at full power."
         }
       ],
       "id": "atu-operation"
@@ -186,55 +186,19 @@
       "blocks": [
         {
           "type": "specificationTable",
-          "entries": [
-            {
-              "label": "Frequency Coverage",
-              "value": "40m and 20m bands"
-            },
-            {
-              "label": "Mode",
-              "value": "CW"
-            },
-            {
-              "label": "Output Power",
-              "value": "5W"
-            },
-            {
-              "label": "Receiver Type",
-              "value": "Superheterodyne"
-            },
-            {
-              "label": "IF Bandwidth",
-              "value": "~500 Hz crystal filter"
-            },
-            {
-              "label": "Operating Voltage",
-              "value": "9-14V DC"
-            },
-            {
-              "label": "Current Consumption (RX)",
-              "value": "~50mA"
-            },
-            {
-              "label": "Current Consumption (TX)",
-              "value": "~1.5A at 5W"
-            },
-            {
-              "label": "Antenna Connector",
-              "value": "BNC"
-            },
-            {
-              "label": "Keyer Jack",
-              "value": "3.5mm stereo"
-            },
-            {
-              "label": "Keyer Speed",
-              "value": "5-35 WPM"
-            },
-            {
-              "label": "Keyer Modes",
-              "value": "Straight, Iambic A, Iambic B"
-            }
+          "rows": [
+            { "name": "Frequency Coverage", "value": "40m and 20m bands" },
+            { "name": "Mode", "value": "CW" },
+            { "name": "Output Power", "value": "5W" },
+            { "name": "Receiver Type", "value": "Superheterodyne" },
+            { "name": "IF Bandwidth", "value": "~500 Hz crystal filter" },
+            { "name": "Operating Voltage", "value": "9-14V DC" },
+            { "name": "Current Consumption (RX)", "value": "~50mA" },
+            { "name": "Current Consumption (TX)", "value": "~1.5A at 5W" },
+            { "name": "Antenna Connector", "value": "BNC" },
+            { "name": "Keyer Jack", "value": "3.5mm stereo" },
+            { "name": "Keyer Speed", "value": "5-35 WPM" },
+            { "name": "Keyer Modes", "value": "Straight, Iambic A, Iambic B" }
           ]
         }
       ],
@@ -245,23 +209,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "No power on: Verify DC voltage is 9-14V. Check polarity (center positive). Inspect power cable and connector for damage."
+          "text": "No power on: Verify DC voltage is 9-14V. Check polarity (center positive). Inspect power cable and connector for damage."
         },
         {
           "type": "paragraph",
-          "content": "No or low RF output: Check antenna connection and SWR. High SWR triggers power foldback. Verify band selection matches antenna."
+          "text": "No or low RF output: Check antenna connection and SWR. High SWR triggers power foldback. Verify band selection matches antenna."
         },
         {
           "type": "paragraph",
-          "content": "Keyer issues: Verify paddle wiring (tip=dit, ring=dah). Check keyer mode setting. Try Paddle Swap if dit/dah are reversed."
+          "text": "Keyer issues: Verify paddle wiring (tip=dit, ring=dah). Check keyer mode setting. Try Paddle Swap if dit/dah are reversed."
         },
         {
           "type": "paragraph",
-          "content": "Poor receive sensitivity: Check antenna connections. Verify RIT is not offsetting receive frequency significantly. Try different antenna."
+          "text": "Poor receive sensitivity: Check antenna connections. Verify RIT is not offsetting receive frequency significantly. Try different antenna."
         },
         {
           "type": "paragraph",
-          "content": "Display problems: Adjust brightness setting. In cold weather, LCD may respond slowly - allow warmup time."
+          "text": "Display problems: Adjust brightness setting. In cold weather, LCD may respond slowly - allow warmup time."
         }
       ],
       "id": "troubleshooting"

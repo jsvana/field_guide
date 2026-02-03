@@ -58,6 +58,8 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `hamgadgets-cft1/content.json` | Curated content for HamGadgets CFT1 |
 | `penntek-tr45l/content.json` | Curated content for PennTek TR-45L |
 | `penntek-tr35/content.json` | Curated content for PennTek TR-35 |
+| `penntek-tr25/content.json` | Curated content for PennTek TR-25 |
+| `bg2fx-fx4cr/content.json` | Curated content for BG2FX FX-4CR |
 | `lnr-mtr4b-v2/content.json` | Curated content for LNR Precision MTR 4B V2 |
 | `lnr-mtr3b-v4/content.json` | Curated content for LNR Precision MTR 3B V4 Currahee |
 | `lnr-mtr5b/content.json` | Curated content for LNR Precision MTR 5B |

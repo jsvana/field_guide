@@ -12,27 +12,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The BG2FX FX-4CR is a compact SDR transceiver covering HF bands plus 50 MHz (6m). It provides 20W output on SSB and CW, with multiple operating modes including USB, LSB, CW, AM, and FM."
+          "text": "The BG2FX FX-4CR is a compact SDR transceiver covering HF bands plus 50 MHz (6m). It provides 20W output on SSB and CW, with multiple operating modes including USB, LSB, CW, AM, and FM."
         },
         {
           "type": "paragraph",
-          "content": "Power on by pressing the power button. The color LCD displays frequency, mode, S-meter, and various operating parameters. The main encoder controls frequency tuning."
+          "text": "Power on by pressing the power button. The color LCD displays frequency, mode, S-meter, and various operating parameters. The main encoder controls frequency tuning."
         },
         {
           "type": "paragraph",
-          "content": "Band selection is via the BAND button, cycling through available amateur bands from 160m through 6m. Each band stores the last used frequency and mode."
+          "text": "Band selection is via the BAND button, cycling through available amateur bands from 160m through 6m. Each band stores the last used frequency and mode."
         },
         {
           "type": "paragraph",
-          "content": "Mode selection (USB/LSB/CW/AM/FM) is performed with the MODE button. The radio automatically selects appropriate sideband for phone operation based on band."
+          "text": "Mode selection (USB/LSB/CW/AM/FM) is performed with the MODE button. The radio automatically selects appropriate sideband for phone operation based on band."
         },
         {
           "type": "paragraph",
-          "content": "The FX-4CR supports split operation with separate VFO A and B frequencies. Use the A/B button to toggle VFOs and SPLIT to enable split mode."
+          "text": "The FX-4CR supports split operation with separate VFO A and B frequencies. Use the A/B button to toggle VFOs and SPLIT to enable split mode."
         },
         {
           "type": "note",
-          "content": "As an SDR radio, the FX-4CR offers flexible filtering and a spectrum display for visualizing band activity."
+          "text": "As an SDR radio, the FX-4CR offers flexible filtering and a spectrum display for visualizing band activity."
         }
       ],
       "id": "operation-basics"
@@ -42,7 +42,7 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "Access the menu system by pressing MENU. Navigate with the main encoder and select items by pressing the encoder. Press MENU again to exit."
+          "text": "Access the menu system by pressing MENU. Navigate with the main encoder and select items by pressing the encoder. Press MENU again to exit."
         },
         {
           "type": "menuEntry",
@@ -124,27 +124,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The FX-4CR includes a full-featured electronic keyer with speeds from 5-50 WPM. Iambic A, Iambic B, and Bug emulation modes are supported."
+          "text": "The FX-4CR includes a full-featured electronic keyer with speeds from 5-50 WPM. Iambic A, Iambic B, and Bug emulation modes are supported."
         },
         {
           "type": "paragraph",
-          "content": "Connect a paddle to the keyer jack (3.5mm). Standard wiring is tip=dit, ring=dah, sleeve=ground. Paddle swap is available in the menu."
+          "text": "Connect a paddle to the keyer jack (3.5mm). Standard wiring is tip=dit, ring=dah, sleeve=ground. Paddle swap is available in the menu."
         },
         {
           "type": "paragraph",
-          "content": "CW pitch (sidetone frequency) is adjustable and also sets the receive offset. This ensures the sidetone matches the received signal when zero-beat."
+          "text": "CW pitch (sidetone frequency) is adjustable and also sets the receive offset. This ensures the sidetone matches the received signal when zero-beat."
         },
         {
           "type": "paragraph",
-          "content": "The radio provides CW semi break-in (QSK) operation with adjustable delay. Full QSK may be available depending on firmware version."
+          "text": "The radio provides CW semi break-in (QSK) operation with adjustable delay. Full QSK may be available depending on firmware version."
         },
         {
           "type": "paragraph",
-          "content": "CW filter bandwidth is adjustable via the DSP from 50 Hz to 2.4 kHz, allowing narrow filtering for contest or wide for comfortable ragchewing."
+          "text": "CW filter bandwidth is adjustable via the DSP from 50 Hz to 2.4 kHz, allowing narrow filtering for contest or wide for comfortable ragchewing."
         },
         {
           "type": "note",
-          "content": "The SDR architecture provides excellent CW filter shapes with steep skirts for effective adjacent signal rejection."
+          "text": "The SDR architecture provides excellent CW filter shapes with steep skirts for effective adjacent signal rejection."
         }
       ],
       "id": "cw-keyer"
@@ -154,27 +154,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "As an SDR transceiver, the FX-4CR offers flexible DSP filtering. Filter bandwidth is continuously adjustable with preset widths for each mode."
+          "text": "As an SDR transceiver, the FX-4CR offers flexible DSP filtering. Filter bandwidth is continuously adjustable with preset widths for each mode."
         },
         {
           "type": "paragraph",
-          "content": "SSB bandwidth is adjustable from 1.8 kHz to 3.0 kHz. CW bandwidth ranges from 50 Hz to 2.4 kHz. AM and FM have appropriate fixed bandwidths."
+          "text": "SSB bandwidth is adjustable from 1.8 kHz to 3.0 kHz. CW bandwidth ranges from 50 Hz to 2.4 kHz. AM and FM have appropriate fixed bandwidths."
         },
         {
           "type": "paragraph",
-          "content": "Noise Reduction (NR) uses DSP algorithms to reduce background noise on SSB and CW signals. Four intensity levels are available."
+          "text": "Noise Reduction (NR) uses DSP algorithms to reduce background noise on SSB and CW signals. Four intensity levels are available."
         },
         {
           "type": "paragraph",
-          "content": "Noise Blanker (NB) suppresses impulse noise from sources like ignition or switching power supplies. Adjustable threshold prevents false triggering."
+          "text": "Noise Blanker (NB) suppresses impulse noise from sources like ignition or switching power supplies. Adjustable threshold prevents false triggering."
         },
         {
           "type": "paragraph",
-          "content": "Notch filter (auto or manual) removes heterodynes and carriers from the passband. Auto-notch tracks and eliminates multiple interfering tones."
+          "text": "Notch filter (auto or manual) removes heterodynes and carriers from the passband. Auto-notch tracks and eliminates multiple interfering tones."
         },
         {
           "type": "paragraph",
-          "content": "AGC (Automatic Gain Control) offers Fast, Medium, and Slow settings. Fast AGC is useful for contests, while Slow provides smoother audio for casual operation."
+          "text": "AGC (Automatic Gain Control) offers Fast, Medium, and Slow settings. Fast AGC is useful for contests, while Slow provides smoother audio for casual operation."
         }
       ],
       "id": "filters-dsp"
@@ -184,23 +184,23 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The FX-4CR operates from 10.5-16V DC input. A standard DC power connector is provided. Nominal operation is at 13.8V."
+          "text": "The FX-4CR operates from 10.5-16V DC input. A standard DC power connector is provided. Nominal operation is at 13.8V."
         },
         {
           "type": "paragraph",
-          "content": "Current consumption is approximately 500mA on receive (with display backlight) and up to 4A during transmit at full 20W output."
+          "text": "Current consumption is approximately 500mA on receive (with display backlight) and up to 4A during transmit at full 20W output."
         },
         {
           "type": "paragraph",
-          "content": "For portable operation, a 4S LiPo or 4S LiFePO4 battery provides adequate voltage. Current consumption makes extended portable operation feasible with appropriately sized batteries."
+          "text": "For portable operation, a 4S LiPo or 4S LiFePO4 battery provides adequate voltage. Current consumption makes extended portable operation feasible with appropriately sized batteries."
         },
         {
           "type": "warning",
-          "content": "Do not exceed 16V input voltage. Use appropriate fusing for the power cable. Do not reverse polarity."
+          "text": "Do not exceed 16V input voltage. Use appropriate fusing for the power cable. Do not reverse polarity."
         },
         {
           "type": "note",
-          "content": "At reduced power settings (5-10W), battery life is significantly extended while maintaining effective communication range for most conditions."
+          "text": "At reduced power settings (5-10W), battery life is significantly extended while maintaining effective communication range for most conditions."
         }
       ],
       "id": "power-battery"
@@ -210,19 +210,19 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "The FX-4CR does not include an internal automatic antenna tuner. An external ATU is recommended for multi-band operation with non-resonant antennas."
+          "text": "The FX-4CR does not include an internal automatic antenna tuner. An external ATU is recommended for multi-band operation with non-resonant antennas."
         },
         {
           "type": "paragraph",
-          "content": "The radio includes SWR metering displayed on screen. Monitor SWR and use an external tuner to achieve below 2:1 before transmitting at full power."
+          "text": "The radio includes SWR metering displayed on screen. Monitor SWR and use an external tuner to achieve below 2:1 before transmitting at full power."
         },
         {
           "type": "paragraph",
-          "content": "For portable operation, compact ATUs like the Elecraft T1 or mAT-10 pair well with the FX-4CR's power level."
+          "text": "For portable operation, compact ATUs like the Elecraft T1 or mAT-10 pair well with the FX-4CR's power level."
         },
         {
           "type": "note",
-          "content": "The radio includes protective circuits that reduce power output when SWR is excessively high."
+          "text": "The radio includes protective circuits that reduce power output when SWR is excessively high."
         }
       ],
       "id": "atu-operation"
@@ -232,57 +232,27 @@
       "blocks": [
         {
           "type": "specificationTable",
-          "entries": [
+          "rows": [
+            { "name": "Frequency Coverage", "value": "HF (160m-10m) + 50 MHz" },
+            { "name": "Modes", "value": "USB, LSB, CW, AM, FM" },
+            { "name": "Output Power", "value": "20W SSB/CW, 5W AM/FM" },
             {
-              "label": "Frequency Coverage",
-              "value": "HF (160m-10m) + 50 MHz"
-            },
-            {
-              "label": "Modes",
-              "value": "USB, LSB, CW, AM, FM"
-            },
-            {
-              "label": "Output Power",
-              "value": "20W SSB/CW, 5W AM/FM"
-            },
-            {
-              "label": "Receiver Type",
+              "name": "Receiver Type",
               "value": "SDR (Software Defined Radio)"
             },
+            { "name": "Operating Voltage", "value": "10.5-16V DC" },
+            { "name": "Current Consumption (RX)", "value": "~500mA" },
+            { "name": "Current Consumption (TX)", "value": "~4A at 20W" },
+            { "name": "SSB Filter Width", "value": "1.8-3.0 kHz adjustable" },
             {
-              "label": "Operating Voltage",
-              "value": "10.5-16V DC"
-            },
-            {
-              "label": "Current Consumption (RX)",
-              "value": "~500mA"
-            },
-            {
-              "label": "Current Consumption (TX)",
-              "value": "~4A at 20W"
-            },
-            {
-              "label": "SSB Filter Width",
-              "value": "1.8-3.0 kHz adjustable"
-            },
-            {
-              "label": "CW Filter Width",
+              "name": "CW Filter Width",
               "value": "50 Hz - 2.4 kHz adjustable"
             },
+            { "name": "Display", "value": "Color LCD with spectrum display" },
+            { "name": "Antenna Connector", "value": "SO-239 (UHF)" },
+            { "name": "Keyer Speed", "value": "5-50 WPM" },
             {
-              "label": "Display",
-              "value": "Color LCD with spectrum display"
-            },
-            {
-              "label": "Antenna Connector",
-              "value": "SO-239 (UHF)"
-            },
-            {
-              "label": "Keyer Speed",
-              "value": "5-50 WPM"
-            },
-            {
-              "label": "Keyer Modes",
+              "name": "Keyer Modes",
               "value": "Straight, Iambic A, Iambic B, Bug"
             }
           ]
@@ -295,27 +265,27 @@
       "blocks": [
         {
           "type": "paragraph",
-          "content": "No power: Check DC voltage (10.5-16V required). Verify polarity and fuse. Some units have internal fuses - check if accessible."
+          "text": "No power: Check DC voltage (10.5-16V required). Verify polarity and fuse. Some units have internal fuses - check if accessible."
         },
         {
           "type": "paragraph",
-          "content": "No or low RF output: Check antenna and SWR. Verify mode selection. Check TX power setting. Ensure PTT or VOX is properly activating TX."
+          "text": "No or low RF output: Check antenna and SWR. Verify mode selection. Check TX power setting. Ensure PTT or VOX is properly activating TX."
         },
         {
           "type": "paragraph",
-          "content": "Audio distortion on SSB: Reduce mic gain. Check compression settings. Ensure correct microphone type is configured."
+          "text": "Audio distortion on SSB: Reduce mic gain. Check compression settings. Ensure correct microphone type is configured."
         },
         {
           "type": "paragraph",
-          "content": "CW keying problems: Check paddle wiring and keyer mode setting. Verify CW speed is appropriate. Try straight key mode to isolate issue."
+          "text": "CW keying problems: Check paddle wiring and keyer mode setting. Verify CW speed is appropriate. Try straight key mode to isolate issue."
         },
         {
           "type": "paragraph",
-          "content": "Spectrum display issues: Adjust reference level in spectrum settings. Try different span settings. Check if NB/NR is causing display artifacts."
+          "text": "Spectrum display issues: Adjust reference level in spectrum settings. Try different span settings. Check if NB/NR is causing display artifacts."
         },
         {
           "type": "paragraph",
-          "content": "Receiver overload: Enable attenuator on strong signal bands. Check AGC settings. Consider adding external filtering for contest environments."
+          "text": "Receiver overload: Enable attenuator on strong signal bands. Check AGC settings. Consider adding external filtering for contest environments."
         }
       ],
       "id": "troubleshooting"

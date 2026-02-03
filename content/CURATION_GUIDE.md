@@ -52,6 +52,17 @@ Each `content.json` file has this structure:
 
 ## Block Types
 
+**CRITICAL: Use the exact field names shown below. The app will show empty content if field names are wrong.**
+
+| Block Type | Required Fields | WRONG (will break) |
+|------------|-----------------|-------------------|
+| paragraph | `text` | ~~content~~ |
+| note | `text` | ~~content~~ |
+| warning | `text` | ~~content~~ |
+| menuEntry | `name`, `description` | |
+| specification | `name`, `value` | ~~label~~ |
+| specificationTable | `rows` (array) | ~~entries~~ |
+
 ### paragraph
 
 For explanatory text and descriptions.
@@ -60,6 +71,14 @@ For explanatory text and descriptions.
 {
   "type": "paragraph",
   "text": "The Elecraft KX2 is a compact 80-10 m transceiver designed for portable operation."
+}
+```
+
+**WRONG** - do NOT use `content`:
+```json
+{
+  "type": "paragraph",
+  "content": "..."  // WRONG! Use "text" instead
 }
 ```
 
@@ -89,16 +108,35 @@ For individual technical specifications.
 
 ### specificationTable
 
-For a group of related specifications.
+For a group of related specifications. Supports two row formats:
 
+**Object format (preferred):**
 ```json
 {
   "type": "specificationTable",
-  "title": "General Specifications",
   "rows": [
     { "name": "Frequency Range", "value": "500 kHz - 32 MHz (RX)" },
     { "name": "Output Power", "value": "15W max (80-20m)" }
   ]
+}
+```
+
+**Array format (also valid):**
+```json
+{
+  "type": "specificationTable",
+  "rows": [
+    ["Frequency Range", "500 kHz - 32 MHz (RX)"],
+    ["Output Power", "15W max (80-20m)"]
+  ]
+}
+```
+
+**WRONG** - do NOT use `entries` or `label`:
+```json
+{
+  "type": "specificationTable",
+  "entries": [...]  // WRONG! Use "rows" instead
 }
 ```
 
@@ -113,6 +151,14 @@ For helpful tips and additional information.
 }
 ```
 
+**WRONG** - do NOT use `content`:
+```json
+{
+  "type": "note",
+  "content": "..."  // WRONG! Use "text" instead
+}
+```
+
 ### warning
 
 For safety warnings and cautions.
@@ -121,6 +167,14 @@ For safety warnings and cautions.
 {
   "type": "warning",
   "text": "Always turn the KX2 off before disconnecting the power source to ensure settings are saved."
+}
+```
+
+**WRONG** - do NOT use `content`:
+```json
+{
+  "type": "warning",
+  "content": "..."  // WRONG! Use "text" instead
 }
 ```
 
@@ -235,7 +289,43 @@ Before committing content:
 - [ ] All required fields are present
 - [ ] IDs are unique within the file
 - [ ] Block types are spelled correctly
+- [ ] **paragraph/note/warning blocks use `text` (NOT `content`)**
+- [ ] **specificationTable blocks use `rows` (NOT `entries`)**
+- [ ] **specification rows use `name` (NOT `label`)**
 - [ ] Text content is accurate to the manual
 - [ ] No placeholder or sample text remains
 - [ ] PDF file exists in the directory
 - [ ] pdfFilename matches the actual file
+
+## Common Mistakes
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| Section shows but content is empty | Wrong field name (e.g., `content` instead of `text`) | Use `text` for paragraph/note/warning |
+| Specification table is empty | Used `entries` instead of `rows` | Rename to `rows` |
+| Specifications show empty labels | Used `label` instead of `name` | Rename to `name` |
+| App shows old data after fixing JSON | SwiftData cache | Delete app and reinstall |
+
+## Field Name Reference
+
+Copy-paste these templates to avoid typos:
+
+```json
+// Paragraph
+{ "type": "paragraph", "text": "" }
+
+// Note  
+{ "type": "note", "text": "" }
+
+// Warning
+{ "type": "warning", "text": "" }
+
+// Menu Entry
+{ "type": "menuEntry", "name": "", "description": "" }
+
+// Specification (single)
+{ "type": "specification", "name": "", "value": "" }
+
+// Specification Table
+{ "type": "specificationTable", "rows": [{ "name": "", "value": "" }] }
+```
