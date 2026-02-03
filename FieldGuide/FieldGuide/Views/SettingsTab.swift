@@ -8,6 +8,7 @@ import SwiftUI
 
 struct SettingsTab: View {
     @Query private var radios: [Radio]
+    @State private var showingBugReport = false
 
     private var downloadedRadios: [Radio] {
         radios.filter { $0.isDownloaded }
@@ -28,6 +29,7 @@ struct SettingsTab: View {
                     } label: {
                         Label("Check for Updates", systemImage: "arrow.triangle.2.circlepath")
                     }
+                    .disabled(true)
                 }
 
                 SwiftUI.Section("Storage") {
@@ -54,6 +56,12 @@ struct SettingsTab: View {
                         Label("Request a Feature", systemImage: "lightbulb")
                     }
 
+                    Button {
+                        showingBugReport = true
+                    } label: {
+                        Label("Report a Bug", systemImage: "ant")
+                    }
+
                     NavigationLink {
                         AttributionsView()
                     } label: {
@@ -62,6 +70,9 @@ struct SettingsTab: View {
                 }
             }
             .navigationTitle("Settings")
+            .sheet(isPresented: $showingBugReport) {
+                BugReportView()
+            }
         }
     }
 }

@@ -35,6 +35,7 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `RadioDetailView.swift` | Radio sections list with SectionRow component |
 | `SectionDetailView.swift` | Section content display with block renderers (ParagraphBlock, MenuEntryBlock, SpecificationBlock, SpecificationTableBlock, NoteBlock) |
 | `PDFViewerSheet.swift` | PDFKit-based PDF viewer sheet |
+| `BugReportView.swift` | Bug report form that copies report to clipboard and opens Discord |
 
 ## Content Pipeline (`tools/`)
 | File | Purpose |

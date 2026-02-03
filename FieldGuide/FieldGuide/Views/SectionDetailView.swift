@@ -197,9 +197,17 @@ private enum TextToken: Identifiable, Equatable {
     }
 }
 
+/// Common standalone acronyms that shouldn't be highlighted as control names
+/// (these are still highlighted when part of compound terms like "IF SHIFT")
+private let excludedStandaloneTerms: Set<String> = [
+    "DSP", "RF", "AF", "DC", "AC", "FM", "AM", "CW", "USB", "LSB",
+    "SSB", "LED", "LCD", "BNC", "SMA", "RCA", "MHz", "KHz", "Hz", "mA",
+    "dB", "mW"
+]
+
 /// Tokenizes text into plain words, keywords, and spaces
 private func tokenizeText(_ text: String) -> [TextToken] {
-    let pattern = #"\b[A-Z][A-Z0-9/\-]+(?:\s+[A-Z]\b)?"#
+    let pattern = #"\b[A-Z][A-Z0-9/\-]+\b"#
 
     guard let regex = try? NSRegularExpression(pattern: pattern) else {
         return tokenizePlainText(text)
@@ -224,7 +232,7 @@ private func tokenizeText(_ text: String) -> [TextToken] {
             tokens.append(contentsOf: tokenizePlainText(plainText))
         }
 
-        // Add the keyword
+        // Add as keyword (exclusion check happens after merging)
         tokens.append(.keyword(String(text[range])))
         currentIndex = range.upperBound
     }
@@ -235,7 +243,50 @@ private func tokenizeText(_ text: String) -> [TextToken] {
         tokens.append(contentsOf: tokenizePlainText(remaining))
     }
 
-    return tokens
+    // First merge adjacent keywords, then exclude standalone terms
+    let merged = mergeAdjacentKeywords(tokens)
+    return applyExclusions(merged)
+}
+
+/// Merges consecutive keyword tokens (separated by single space) into one keyword
+private func mergeAdjacentKeywords(_ tokens: [TextToken]) -> [TextToken] {
+    var result: [TextToken] = []
+    var i = 0
+
+    while i < tokens.count {
+        if case .keyword(let first) = tokens[i] {
+            // Look ahead for pattern: keyword, space, keyword
+            var merged = first
+            var j = i + 1
+
+            while j + 1 < tokens.count {
+                if case .space = tokens[j], case .keyword(let next) = tokens[j + 1] {
+                    merged += " " + next
+                    j += 2
+                } else {
+                    break
+                }
+            }
+
+            result.append(.keyword(merged))
+            i = j
+        } else {
+            result.append(tokens[i])
+            i += 1
+        }
+    }
+
+    return result
+}
+
+/// Converts excluded standalone keywords back to plain text
+private func applyExclusions(_ tokens: [TextToken]) -> [TextToken] {
+    tokens.map { token in
+        if case .keyword(let word) = token, excludedStandaloneTerms.contains(word) {
+            return .plain(word)
+        }
+        return token
+    }
 }
 
 /// Splits plain text into word and space tokens
