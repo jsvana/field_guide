@@ -39,7 +39,7 @@ This index maps files to their purpose. Use it to locate files by feature instea
 ## Content Pipeline (`tools/`)
 | File | Purpose |
 |------|---------|
-| `download_pdfs.py` | Download PDF manuals from Elecraft FTP |
+| `download_pdfs.py` | Download PDF manuals from various vendors |
 | `extract_content.py` | Extract raw text from PDFs and generate skeleton JSON |
 | `generate_manifest.py` | Generate manifest.json listing all available radios |
 
@@ -54,6 +54,13 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `elecraft-kx1/content.json` | Curated content for Elecraft KX1 |
 | `elecraft-kx2/content.json` | Curated content for Elecraft KX2 |
 | `elecraft-kx3/content.json` | Curated content for Elecraft KX3 |
+| `hamgadgets-cft1/content.json` | Curated content for HamGadgets CFT1 |
+| `penntek-tr45l/content.json` | Curated content for PennTek TR-45L |
+| `penntek-tr35/content.json` | Curated content for PennTek TR-35 |
+| `lnr-mtr4b-v2/content.json` | Curated content for LNR Precision MTR 4B V2 |
+| `lnr-mtr3b-v4/content.json` | Curated content for LNR Precision MTR 3B V4 Currahee |
+| `lnr-mtr5b/content.json` | Curated content for LNR Precision MTR 5B |
+| `lnr-ld5/content.json` | Curated content for LNR Precision LD-5 |
 | `extracted/*_skeleton.json` | Raw extracted text skeletons (not curated) |
 
 ## Documentation (`docs/`)

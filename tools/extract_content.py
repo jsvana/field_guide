@@ -106,7 +106,7 @@ def generate_skeleton(radio_id: str, pages: list[dict], toc: list[dict]) -> dict
     return {
         "radio": {
             "id": radio_id,
-            "manufacturer": "Elecraft",
+            "manufacturer": manual.get("manufacturer", "Unknown"),
             "model": manual["name"],
             "revision": manual["revision"],
             "pdfFilename": manual["filename"],
@@ -132,12 +132,15 @@ def save_raw_text(radio_id: str, pages: list[dict], output_dir: Path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Extract content from Elecraft PDFs")
-    parser.add_argument("radio_id", choices=list(MANUALS.keys()),
+    parser = argparse.ArgumentParser(description="Extract content from radio PDFs")
+    parser.add_argument("radio_id", nargs="?", choices=list(MANUALS.keys()),
                         help="Radio ID to extract")
     parser.add_argument("--all", action="store_true",
                         help="Extract all radios")
     args = parser.parse_args()
+
+    if not args.all and not args.radio_id:
+        parser.error("Either provide a radio_id or use --all")
 
     content_dir = Path(__file__).parent.parent / "content"
     pdf_dir = content_dir / "pdfs"

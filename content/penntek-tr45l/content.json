@@ -1,0 +1,191 @@
+{
+  "radio": {
+    "id": "penntek-tr45l",
+    "manufacturer": "PennTek",
+    "model": "TR-45L",
+    "revision": "V2",
+    "pdfFilename": "TR-45L_Instructions_V2.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The TR-45L is a 6-band (80m, 40m, 30m, 20m, 17m) CW transceiver with selectable narrow/wideband CW and SSB receive modes, optional Z-Match tuner, LCD display, panel meter, and two-channel keyer memory."
+        },
+        {
+          "type": "paragraph",
+          "text": "Main power switch (red boot) on lower right. Volume below power switch. Notch filter (200 Hz to 3+ kHz) to left of volume. RF gain to left of notch, then keyer speed control."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuning control below display. Short press selects 100 or 10 Hz steps; longer press selects 1 kHz and 1 Hz steps. Underline cursor indicates selected tuning step."
+        },
+        {
+          "type": "paragraph",
+          "text": "TX power control to right of meter. Switch above selects forward or reverse power display. Red High VSWR indicator above power switch."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Dial Lock/Spot (white boot left of tuning)",
+          "description": "Up = Dial Lock (alternating). Down = Battery Check/Spot (momentary). Match received signal to spot tone for exact zero-beat."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Band/VFO (white boot above power)",
+          "description": "Short up = advance band (80, 40, 30, 20, 17, repeat). Short down = switch VFO A/B. Long down = store current frequency and mode to EEPROM."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RIT/Mode (white boot above Band/VFO)",
+          "description": "Short up = toggle RIT (amber LED when active, tuning shows offset). Short down = toggle narrow/wideband CW. Long down = SSB mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Play/Record (below meter)",
+          "description": "Left = Record mode (select M1 with dit, M2 with dah). Right = Playback mode (select M1/M2 with paddle). Message plays to end or tap paddle to stop."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Light Level (short handle left of meter)",
+          "description": "Controls display backlight and meter illumination. DIM saves ~20 mA battery current."
+        },
+        {
+          "type": "menuEntry",
+          "name": "700 Hz Filter (upper right short handle)",
+          "description": "Toggles narrow 700 Hz audio filter. Only available during narrow band CW operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Speaker (lower right short handle)",
+          "description": "Controls internal speaker and rear external speaker jack. Does not affect front panel headphone jack."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two message memories, each storing 25 words (PARIS standard) or 125 characters. Record: flip REC/PLAY left, select M1 (dit) or M2 (dah), key message. Recording ends 3 seconds after you stop sending."
+        },
+        {
+          "type": "paragraph",
+          "text": "Playback: flip REC/PLAY right, select M1 or M2 with paddle. Message plays immediately. Stop with either paddle tap or REC/PLAY switch. Transmitter is active during playback."
+        },
+        {
+          "type": "warning",
+          "text": "Turn down RF power when checking recorded messages. Don't record on 80m as VFO leakage makes sidetone hard to hear. 80m playback is not affected."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Notch filter adjustable from 200 Hz (fully CCW) to 3+ kHz (fully CW/Out). Set fully CW to bypass the notch. Optional 700 Hz narrow audio filter available in narrow band CW mode only."
+        },
+        {
+          "type": "paragraph",
+          "text": "Receiver modes: Narrow Band CW, Wide Band CW, SSB. IF bandwidth changes automatically. Display frequency maintains calibration between CW and SSB modes."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two power inputs: RED jack (5.5x2.1mm) for charger only, BLACK jack (5.5x2.5mm) for external battery. Unit operates from black jack even while charging."
+        },
+        {
+          "type": "paragraph",
+          "text": "Optional internal 5200 mAh Li-ion battery provides extended operation. Check battery by pressing BATT CHECK/SPOT down - meter should read above S8/S9 level."
+        },
+        {
+          "type": "warning",
+          "text": "Never exceed 14.5V DC. Never connect power other than approved charger to the RED jack. Internal battery does not operate the radio while charger is connected."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Optional Z-Match tuner adds utility for field operation with simple wire antennas. Controls on upper rear panel: two toggle switches and two variable capacitors."
+        },
+        {
+          "type": "paragraph",
+          "text": "Setup: Connect antenna wire to binding post, counterpoise to other post. Flip tuner to IN. Adjust Tune and Load caps for maximum band noise on receive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tune: Turn down RF power to half-scale with key down. Switch meter to reflected power. Adjust Tune and Load for minimum reflected power. Work back and forth - caps are interactive. Use short key-down bursts (5-10 seconds) with rest periods."
+        },
+        {
+          "type": "note",
+          "text": "Finding a deep null can take practice. The first switch selects 50-ohm BNC or tuner; the second selects balanced or unbalanced output."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "TR-45L Technical Specifications",
+          "rows": [
+            { "name": "Bands", "value": "80m, 40m, 30m, 20m, 17m" },
+            { "name": "Modes", "value": "CW (narrow/wide), SSB receive" },
+            { "name": "Maximum Voltage", "value": "14.5V DC" },
+            { "name": "Charger Jack", "value": "5.5x2.1mm (RED, charger only)" },
+            { "name": "Power Jack", "value": "5.5x2.5mm (BLACK, external battery)" },
+            { "name": "Internal Battery", "value": "5200 mAh Li-ion (optional)" },
+            { "name": "Message Memories", "value": "2 x 25 words" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Radio won't operate from internal battery while charging",
+          "description": "This is normal behavior. Connect external battery to BLACK jack to operate while charging the internal battery."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Can't hear sidetone when recording on 80m",
+          "description": "Lower VFO leakage into receiver on 80m makes sidetone hard to hear. Record on another band; 80m playback works normally."
+        },
+        {
+          "type": "menuEntry",
+          "name": "High VSWR indicator stays on",
+          "description": "Antenna match needs improvement. Use the Z-Match tuner and adjust for minimum reflected power."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Opposite sideband needed",
+          "description": "Hold RIT switch up for a few seconds to toggle sideband. Not recommended for normal use - image rejection suffers and spurs may occur."
+        }
+      ]
+    }
+  ]
+}

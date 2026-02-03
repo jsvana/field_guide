@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "lastUpdated": "2026-02-02",
+  "lastUpdated": "2026-02-03",
   "radios": [
     {
       "id": "elecraft-kx2",
@@ -41,6 +41,76 @@
       "pdfURL": "https://example.com/field-guide-content/elecraft-k2/E740001_K2_Owners_Manual_Rev_I.pdf",
       "pdfSize": 4500000,
       "contentSize": 10500
+    },
+    {
+      "id": "hamgadgets-cft1",
+      "manufacturer": "HamGadgets",
+      "model": "CFT1",
+      "revision": "C V12",
+      "contentURL": "https://example.com/field-guide-content/hamgadgets-cft1/content.json",
+      "pdfURL": "https://example.com/field-guide-content/hamgadgets-cft1/CFT1_Assembly_Manual_RevC_V12.pdf",
+      "pdfSize": 14774600,
+      "contentSize": 6080
+    },
+    {
+      "id": "penntek-tr45l",
+      "manufacturer": "PennTek",
+      "model": "TR-45L",
+      "revision": "V2",
+      "contentURL": "https://example.com/field-guide-content/penntek-tr45l/content.json",
+      "pdfURL": "https://example.com/field-guide-content/penntek-tr45l/TR-45L_Instructions_V2.pdf",
+      "pdfSize": 374268,
+      "contentSize": 8299
+    },
+    {
+      "id": "penntek-tr35",
+      "manufacturer": "PennTek",
+      "model": "TR-35",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/penntek-tr35/content.json",
+      "pdfURL": "https://example.com/field-guide-content/penntek-tr35/TR-35_Operating_Instructions.pdf",
+      "pdfSize": 225991,
+      "contentSize": 7405
+    },
+    {
+      "id": "lnr-mtr4b-v2",
+      "manufacturer": "LNR Precision",
+      "model": "MTR 4B V2",
+      "revision": "2021-01-12",
+      "contentURL": "https://example.com/field-guide-content/lnr-mtr4b-v2/content.json",
+      "pdfURL": "https://example.com/field-guide-content/lnr-mtr4b-v2/MTR_4B_V2_Manual.pdf",
+      "pdfSize": 261366,
+      "contentSize": 9048
+    },
+    {
+      "id": "lnr-mtr3b-v4",
+      "manufacturer": "LNR Precision",
+      "model": "MTR 3B V4 Currahee",
+      "revision": "V4",
+      "contentURL": "https://example.com/field-guide-content/lnr-mtr3b-v4/content.json",
+      "pdfURL": "https://example.com/field-guide-content/lnr-mtr3b-v4/MTR_3B_V4_Currahee_Manual.pdf",
+      "pdfSize": 158326,
+      "contentSize": 8292
+    },
+    {
+      "id": "lnr-mtr5b",
+      "manufacturer": "LNR Precision",
+      "model": "MTR 5B",
+      "revision": "4",
+      "contentURL": "https://example.com/field-guide-content/lnr-mtr5b/content.json",
+      "pdfURL": "https://example.com/field-guide-content/lnr-mtr5b/MTR_5B_Manual_Rev4.pdf",
+      "pdfSize": 8914905,
+      "contentSize": 8461
+    },
+    {
+      "id": "lnr-ld5",
+      "manufacturer": "LNR Precision",
+      "model": "LD-5",
+      "revision": "2015-07-13",
+      "contentURL": "https://example.com/field-guide-content/lnr-ld5/content.json",
+      "pdfURL": "https://example.com/field-guide-content/lnr-ld5/LD-5_Manual.pdf",
+      "pdfSize": 908611,
+      "contentSize": 8827
     }
   ]
 }

@@ -1,0 +1,206 @@
+{
+  "radio": {
+    "id": "lnr-mtr5b",
+    "manufacturer": "LNR Precision",
+    "model": "MTR 5B",
+    "revision": "4",
+    "pdfFilename": "MTR_5B_Manual_Rev4.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR-5B is a 5-band (40/30/20/17/15m) Mountain Topper transceiver featuring switch-selected bands (no modules to change), wide operating voltage (6-12V), LCD display, optional rotary tuning, 24-hour clock with battery backup, and three 63-character message memories with beacon mode."
+        },
+        {
+          "type": "paragraph",
+          "text": "Band selection uses two sets of three-position slide switches. The left set selects 40m and 30m. When set to the rightmost position, the right set is enabled for 20m, 17m, and 15m. All three switches in a set must be in the same position."
+        },
+        {
+          "type": "paragraph",
+          "text": "When changing bands, a Morse number is announced via sidetone: 4 for 40m, 3 for 30m, 2 for 20m, 7 for 17m, 5 for 15m. The last used frequency for each band is restored."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuning uses Up/Down arrow switches in 50 Hz steps. Hold for 1 second for fast tune at 100 Hz steps. Hold the opposite switch during fast tune for 30 steps/second. Optional rotary encoder also available."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Menu functions accessed via the Fn switch with different hold times."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Fn (tap) - Morse Annunciation",
+          "description": "If enabled in CONFIG, speaks current frequency via sidetone. Format: 000.0 kHz. T used for zeros, R indicates decimal point."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Fn (1 sec) - ADJ K SPEED",
+          "description": "Change keyer speed 9-35 WPM using arrow switches, paddle, or rotary encoder. Speed shown as CSxx. Tap Fn to exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DFE - Direct Frequency Entry",
+          "description": "Enter frequency via paddle (four Morse digits). EXIT (Fn), RE (RIT) to reset, LD (Down) to load. Tap LD to reset to band bottom. Not available on WARC bands."
+        },
+        {
+          "type": "menuEntry",
+          "name": "ENTER MSG",
+          "description": "Enter message up to 63 characters via paddle. EXIT (Fn), CK (RIT) to review, RE (Up) to reset, BS (Down) to backspace. Store in M1, M2, or M3."
+        },
+        {
+          "type": "menuEntry",
+          "name": "TUNE",
+          "description": "Toggle transmitter on/off for antenna tuning. Above 10V, power is reduced via PWM to protect PA during tuning. Dot paddle = ON, Dash = OFF, Fn = exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SET TIME",
+          "description": "Set 24-hour clock via paddle (hours then minutes, leading zero required before 10:00). LD to load, RE to reset, EXIT to cancel."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CONFIG",
+          "description": "Toggle Morse frequency annunciation (MA) and Morse display (DM) on/off. ST (RIT) to store current frequency and speed as power-on defaults."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Built-in iambic keyer with speed adjustable from 9-35 WPM. Three 63-character message memories with beacon mode."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enable straight key mode: use mono plug in paddle jack on power-up, or tap RIT while in ADJ K SPEED mode. Display changes from CSxx to SKxx. Speed still adjustable via arrow switches or encoder."
+        },
+        {
+          "type": "paragraph",
+          "text": "Send stored message: tap RIT, then within 0.5 second tap Fn (M1), Down (M2), or Up (M3). Pause with Dash paddle, terminate with Dot paddle (both detected at word spaces)."
+        },
+        {
+          "type": "note",
+          "text": "Beacon mode: while message plays, hold the memory switch until word space detected. Display shows BEACON with adjustable delay (up to 9 seconds). Terminate with Dot paddle."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR-5B uses a 4-pole crystal ladder filter for the IF. BFO frequency is adjustable during alignment to peak signal in the audio bandpass filter."
+        },
+        {
+          "type": "note",
+          "text": "Receiver input tuning uses trimmer capacitors for each band to peak reception. Best results obtained with signal generator and oscilloscope."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Wide operating voltage range of 6-12V. At 12V supply, expect about 4W output with 15 mA receive current."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "6V minimum, 12V maximum"
+        },
+        {
+          "type": "specification",
+          "name": "Receive Current",
+          "value": "15 mA at 12V"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "~2.5W at 9V, ~4.5W at 12V"
+        },
+        {
+          "type": "paragraph",
+          "text": "A 12mm 3V lithium coin cell provides battery backup. When main power drops below 4.5V, the processor sleeps but keeps the RTC running at only 10 uA. All settings retained in RAM."
+        },
+        {
+          "type": "note",
+          "text": "For long-term storage, slip paper between the coin cell and holder to preserve battery life."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR-5B does not include an internal antenna tuner. Use external tuner for non-resonant antennas."
+        },
+        {
+          "type": "paragraph",
+          "text": "The TUNE mode provides reduced power output (via PWM when supply exceeds 10V) for safe antenna tuner adjustment. This prevents PA damage if high SWR is encountered."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "MTR-5B Technical Specifications",
+          "rows": [
+            { "name": "Bands", "value": "40m, 30m, 20m, 17m, 15m" },
+            { "name": "Output Power", "value": "~4W at 12V" },
+            { "name": "Receive Current", "value": "15 mA at 12V" },
+            { "name": "Supply Voltage", "value": "6-12V" },
+            { "name": "Keyer Speed", "value": "9-35 WPM" },
+            { "name": "Message Memories", "value": "3 x 63 characters" },
+            { "name": "Size", "value": "Fits 4\" x 3\" x 0.75\" enclosure" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "No transmit or receive",
+          "description": "Often caused by poor solder connections on the DDS reference clock chip (U11). Inspect and reflow solder joints."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Low power output on a band",
+          "description": "Check transmitter low-pass filter toroids (L17-L26). Turns spaced too far = low power; turns too close = high power. Adjust spacing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RIT not responding",
+          "description": "Hold RIT for 1+ second to enter/exit. Tap Fn to toggle R=T mode (locks tuning but allows TX and messages)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Rig doesn't power up",
+          "description": "Check all soldering, especially SMT parts. Most problems trace to soldering issues. Use magnification and good lighting to inspect."
+        }
+      ]
+    }
+  ]
+}

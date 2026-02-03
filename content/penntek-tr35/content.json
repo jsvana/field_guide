@@ -1,0 +1,184 @@
+{
+  "radio": {
+    "id": "penntek-tr35",
+    "manufacturer": "PennTek",
+    "model": "TR-35",
+    "revision": "1",
+    "pdfFilename": "TR-35_Operating_Instructions.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The TR-35 is a 4-band (40m, 30m, 20m, 17m) 5-watt CW transceiver with selectable receiver modes for narrow band CW, wideband CW, and SSB reception. Features OLED display, keyer memory, and dial lock."
+        },
+        {
+          "type": "paragraph",
+          "text": "Front panel controls: Keyer Speed (5-45 WPM), TX Power (0-5W), RF Gain, and Volume. Power switch at upper left, Receiver Mode/AUX switch in middle, Band/RIT switch at right."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuning encoder tunes at 10 Hz, 100 Hz, or 1 kHz steps (40, 400, or 4000 Hz per revolution). Short press toggles 10/100 Hz, long press enables 1 kHz. An underline shows selected digit."
+        },
+        {
+          "type": "note",
+          "text": "The transmitter will not operate out-of-band and displays OOB warning if attempted. Generous tuning range above and below each band is provided for SWL."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Band Switch (quick up)",
+          "description": "Change bands consecutively: 40m, 30m, 20m, 17m, then back to 40m."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Band Switch (hold up)",
+          "description": "Store current frequency and mode in semi-permanent memory. Display momentarily reverses to confirm. Separate memory for each band."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Band Switch (2 quick ups)",
+          "description": "Recall stored memory for current band."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RIT Switch (quick down)",
+          "description": "Toggle RIT on/off. Orange LED illuminates when active. Display shows offset with 10 Hz resolution."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RIT Switch (hold down ~1.5 sec)",
+          "description": "Toggle Dial Lock to prevent tuning and band changes. Another long hold to exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Mode Switch (quick up)",
+          "description": "Toggle between Narrow Band CW and Wide Band CW. Display frequency maintains calibration."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Mode Switch (hold up)",
+          "description": "Enable SSB receive mode with appropriate IF bandwidth and frequency calibration."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Built-in keyer with speed adjustable 5-45 WPM. Both straight key and paddle jacks provided - connect both and use either without rebooting. Always ready for SKCC contacts with straight key."
+        },
+        {
+          "type": "paragraph",
+          "text": "Two message memories, each storing 25 words (PARIS standard) or 125 characters. Record: hold AUX, select M1 (dit) or M2 (dah), key message, stop sending to auto-save after 3 seconds."
+        },
+        {
+          "type": "paragraph",
+          "text": "Playback: quick AUX, select M1 (dit) or M2 (dah). Stop with either paddle or AUX switch. Transmitter is active during playback - turn down power when testing."
+        },
+        {
+          "type": "note",
+          "text": "The sidetone is the actual transmitted signal heard by the receiver. Match received signal tone to sidetone for guaranteed zero-beat."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Selectable receiver modes: Narrow Band CW, Wide Band CW, and SSB. The IF bandwidth changes automatically for each mode."
+        },
+        {
+          "type": "paragraph",
+          "text": "Audio bandpass filter frequency adjustable via internal trimmer (front of lower board). Adjust for maximum sidetone volume in narrow CW mode - typically near center of rotation."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Supply voltage 9.5-14V via 5.5mm/2.1mm jack (center positive). At 12V, output is approximately 5W into 50 ohms."
+        },
+        {
+          "type": "paragraph",
+          "text": "Blue LED indicates signal strength. Red LED blinks when battery drops below preset level (adjustable 9-11.5V internally, factory set ~9.5V)."
+        },
+        {
+          "type": "warning",
+          "text": "The TR-35 is designed for CW duty cycle only. Extended key-down at maximum power activates polyfuse protection, reducing output. The polyfuse is self-resetting after cooling. Turn down power for antenna adjustments."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The TR-35 does not include an internal antenna tuner. Use an external tuner for non-resonant antennas."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "TR-35 Technical Specifications",
+          "rows": [
+            { "name": "Bands", "value": "40m, 30m, 20m, 17m" },
+            { "name": "Output Power", "value": "5W at 12V" },
+            { "name": "Keyer Speed", "value": "5-45 WPM" },
+            { "name": "Supply Voltage", "value": "9.5-14V" },
+            { "name": "Power Jack", "value": "5.5mm/2.1mm, center positive" },
+            { "name": "Key Jack", "value": "3.5mm, tip and ground (mono or stereo plug)" },
+            { "name": "Paddle Jack", "value": "3.5mm stereo, tip=dit, ring=dah" },
+            { "name": "Phones Jack", "value": "3.5mm mono (stereo with mod)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Power output drops during extended TX",
+          "description": "Polyfuse protection activated due to excessive key-down time. Let radio cool for several minutes. Turn down power for antenna adjustments and testing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Only one headphone earpiece plays",
+          "description": "Phones jack wired for mono. Use 3.5mm mono-to-stereo adapter, or add internal jumper (Rev B boards only, see manual for details)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Red LED blinking",
+          "description": "Low battery warning. Voltage below preset threshold (factory ~9.5V). Recharge or replace battery."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Recording sidetone sounds clicky",
+          "description": "Turn down RF gain control during recording to reduce interference."
+        }
+      ]
+    }
+  ]
+}
