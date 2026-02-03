@@ -1,0 +1,2369 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Version 4.31 – June 2023 (for G90 units with firmware v1.8x).
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+2 
+ 
+ 
+ 
+Ultra-Miniature 24 Bit SDR 
+ 
+ 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+3 
+About Radioddity 
+ 
+“You, our friend and customer, are at the forefront of what we do.” 
+Thank you for purchasing a XIEGU product from Radioddity. Through a strong 
+partnership which allows us to bring you the latest technology from the XIEGU 
+brand and on behalf of Customer Support team, we strive to fulfill our promise 
+to better meet your needs every day. 
+In order to protect your rights please read the terms on XIEGU Warranty Card 
+carefully and know the Warranty Policy. 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+         Firmware Update  
+FAQ 
+ 
+       Facebook group. 
+          Instructions.  
+ 
+G90 Feedback Survey：scan to share your suggestions!  
+ 
+ 
+We look forward to improving our products based on 
+customer experience, and any ideas would be appreciated!  
+ 
+If you have any suggestions for new XIEGU products, you’re welcome to 
+contact us via < support@radioddity.com >. 
+ 
+ 
+ 
+XPA125B Amplifier           G90-H1 stand    DE-19 data interface  GSOC external controller 
+Information on all of these and other accessories can be found at www.radioddity.com 
+ 
+ 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+4 
+Warnings 
+1. 
+Please read this manual fully before operation so as to get a good 
+understanding of the G90’s capabilities and functions. 
+2. 
+When using an external mains power supply or battery, carefully check 
+the polarity of the power cord and do not reverse the polarity. 
+3. 
+The warranty of this radio does not cover damage caused by an incorrect 
+external power connection error or damage caused by improper power 
+supply voltage. 
+4. 
+Only qualified technicians shall service this equipment. 
+5. 
+Do not tamper with the transceiver for any reason. 
+6. 
+Do not operate the transceiver with a damaged antenna. If part of an 
+antenna comes into contact with your skin, a minor burn can result. 
+7. 
+Turn off your transceiver prior to entering any area with explosive or 
+flammable materials. 
+8. 
+Do not operate your transceiver in any area near explosive or flammable 
+materials. 
+9. 
+To avoid electromagnetic interference, please turn off your transceiver in 
+any area where notices instruct you to do so. 
+10. Turn off your transceiver before boarding an aircraft; any use of a radio 
+must be in accordance with airline regulations and crew instructions. 
+11. Turn off your transceiver before entering any blasting area. 
+12. Do not place the transceiver over any airbag deployment area in vehicles 
+containing airbags. 
+13. Do not expose the transceiver to direct sunlight over a long period of 
+time, nor place it close to any heat source. 
+14. When transmitting with the transceiver, hold the microphone 3 to 4 
+centimeters away from your lips and keep a safe distance away from the 
+antenna in accordance with the ICNIRP and any additional local 
+regulations. 
+ 
+Copyright 
+ 
+All rights reserved 2022 Chongqing Xiegu Technology Co., Ltd. Reproduction 
+of any part of this manual is prohibited without permission. 
+ 
+We would like to extend sincere gratitude to Radioddity's ham friends -- Bob 
+Nagy (AB5N), Garry F. Decker (W9WHF) and Ed Durrant (DD5LP), for their 
+instructive advice and useful suggestions in this G90 English manual. 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+5 
+Introduction 
+The G90/S is an amateur radio portable 20W HF transceiver using the latest 
+24-bit SDR technology. It is a new member of the Xiegu product family and our 
+first portable SDR model in the new G series. 
+Based on a 24bit-CODEC, the G90/S brings superior transceiver performance 
+and a highly configurable user experience. The detachable head design allows 
+you flexibility to position the radio’s main body where needed. The radio 
+includes a built-in high-performance ATU capable of matching a very wide range 
+of antennas. 
+Features Include: 
+ 
+High-performance RF front end giving superb selectivity 
+ 
+Modes provided are LSB/L-D/USB/U-D/CW/CWR/AM/NFM 
+ 
+1.8-inch-high-contrast color TFT LCD display 
+ 
+±24k bandwidth spectrum & waterfall displays 
+ 
+Adjustable DSP band filters (CW mode can be as narrow as 50Hz)  
+ 
+Built-in CW Decoder 
+ 
+Detachable head unit 
+ 
+Built-in Antenna SWR scanner 
+ 
+Built-in Wide-range automatic antenna tuner 
+ 
+Please read this manual carefully for a better experience and a full 
+understanding of the operation of the G90/S. 
+■ 
+The G90S is the version sold in the People's Republic of China, the G90 is 
+the version available in other countries. This operation manual is applicable 
+to both models.   
+Note: As this is a “Software Defined Radio” many things can be changed with a 
+firmware upgrade. New features can be added and the operational processes 
+can be changed. Therefore, it is recommended that you ensure your G-90/S is 
+at the latest firmware level (as of this update of the manual, that was Firmware 
+v1.79b03 released on October 26th 2022). If the instructions in this manual don’t 
+appear to work as expected on your G-90/S it is highly likely that you are on a 
+different firmware version.  
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+6 
+INDEX 
+About Radioddity ............................................................................................... 3 
+Warnings ............................................................................................................ 4 
+Copyright ........................................................................................................ 4 
+Introduction ........................................................................................................ 5 
+Specifications .................................................................................................... 8 
+Accessories and optional components ........................................................ 10 
+Interface Definition .......................................................................................... 11 
+Machine Interface – Front panel ................................................................... 12 
+Machine Interface - Rear Panel .................................................................... 13 
+Machine Interface – Head Unit ..................................................................... 14 
+Machine Interface – Remote Head Unit ...................................................... 15 
+Hand Microphone Buttons ............................................................................. 16 
+Power Source Connection ............................................................................. 17 
+Button Functions ............................................................................................. 18 
+Operation of a button’s second function: ................................................. 19 
+Screen Display Icons...................................................................................... 19 
+Function and definition of displayed icons: ............................................. 20 
+Operation ......................................................................................................... 21 
+Transceiver start and shutdown ............................................................... 21 
+To turn off the LCD screen to save power: ............................................. 21 
+Display of Power Voltage: ......................................................................... 21 
+Selection of Working Frequency Range .................................................. 22 
+Operating Mode Selection ......................................................................... 23 
+Volume adjustment ..................................................................................... 23 
+Call Sign Editor............................................................................................ 24 
+Setting Operational Frequency. ................................................................ 24 
+Adjustment of RF Gain and Muting Level ............................................... 25 
+Squelch Operation (prior to firmware v 1.75): ........................................ 26 
+Multi-function Adjustment Knob (from F/W version 1.75 onwards). .... 26 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+7 
+Reception and Transmission Operations using SPL and VFOA/B ..... 27 
+Automatic Gain Control (AGC) ................................................................. 28 
+PRE-AMP/ATT (combined control) .......................................................... 29 
+Pulse Interface Suppressor – Noise Blanker .......................................... 29 
+Voice Compression CMP........................................................................... 30 
+CW (Morse Code) Communication .......................................................... 30 
+CW Keyer settings ...................................................................................... 31 
+SSB Voice Communication ....................................................................... 32 
+Voice-controlled Transmit - VOX .............................................................. 33 
+Setting Line level Input into ACC connector: .......................................... 33 
+Automatic Antenna Tuner .......................................................................... 34 
+Standing-wave Scanner SWR .................................................................. 34 
+Corresponding location of keys VS. screen labels: ............................... 35 
+Fine Tuning of Received Frequency (RIT) .............................................. 35 
+Line Input and Output ................................................................................. 36 
+Operation of line output: ............................................................................ 36 
+Channel Memory Write (MW) and Clear (MC) ....................................... 37 
+Transmitter Power Setting ......................................................................... 37 
+Digital (DSP) Filters (from FW version 1.79b02 onwards) ................... 38 
+Receive filter operation prior to firmware v 1.79b02: ............................. 39 
+Spectrum/ Waterfall Display ...................................................................... 40 
+Data Communication .................................................................................. 41 
+Cable connection steps ...................................................................... 42 
+Digital Mode Connections ...................................................................... 43 
+Factory Reset ......................................................................................... 45 
+System Menu ..................................................................................... 46 
+CiV Control Instructions ......................................................................... 49 
+Band Voltage Data ............................................................................. 51 
+Firmware upgrades ................................................................................ 52 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+8 
+Specifications 
+General parameters 
+Frequency range: 
+RX: 0.5MHz-30MHz 
+ 
+TX: 
+1.8-2.0MHz (*1) 
+3.5-4.0MHz (*1) 
+5.330.5-5.405MHz (*1 *3) 
+7.0-7.3MHz (*1) 
+10.1-10.15MHz 
+14.0-14.35MHz 
+ 
+ 
+18.068-18.168MHz 
+ 
+ 
+21.0-21.450MHz 
+ 
+ 
+24.89-24.99MHz 
+ 
+ 
+28.0-29.7MHz 
+Operating modes: 
+ 
+USB/U-D/LSB/L-D/CW/CWR/AM/FM (*2) 
+Minimum step: 
+ 
+10Hz 
+Antenna impedance: 
+ 
+50Ω 
+Working temperature: 
+ 
+0°C ~ +50°C 
+Frequency stability: 
+ 
+±1.5ppm in the 10~60min after 
+startup  
+@25°C: 1ppm/hour 
+Power supply voltage: 
+ 
+10.5~16.5VDC, negative ground 
+Current consumption: 
+ 
+Receive: 700mA@ Max 
+Transmit: 6A@ Max 
+Case size (mm): 
+ 
+120Wx45Hx210D (case only) 
+140Wx52Hx250D (with handles) 
+Weight:  
+ 
+About 1.63kg (for main body) 
+ 
+ 
+ 
+Transmitter parameters  
+RF output power: 
+(@ 13.8VDC) 
+ 
+20W(SSB/CW/FM/AM) 
+ 
+Spurious suppression: 
+ 
+≥50dB 
+Carrier suppression: 
+ 
+≥40dB 
+Microphone impedance: 
+ 
+200Ω ~10kΩ (most often 600Ω) 
+ 
+ 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+9 
+Specifications (continued) 
+ 
+Receiver parameters 
+Circuit type: 
+Zero-IF (ZIF) direct conversion SDR. 
+Neighboring channel suppression: 
+≥60dB 
+Sideband suppression: 
+≥60dB 
+Sensitivity: 
+ 
+ 
+ 
+SSB/CW 
+AM 
+0.5~1.79999MHz 
+/ 
+10uV 
+1.8~1.99999MHz 
+0.35uV 
+10uV 
+2.0~27.9999MHz 
+0.25uV 
+2uV 
+28.0~30.0MHz 
+0.25uV 
+2uV 
+ 
+Measurements made with PRE=on, ATT=off, NB=off, SSB/CW/AM=10dB S/N. 
+Mirroring suppression: 70dB 
+Sideband suppression: 60dB 
+Audio output: 0.5W (8Ω, ≤10% THD) 
+Audio output impedance: 4~16Ω 
+♦ The specifications above may be changed without notice. 
+♦ (*1) The operator is ALWAYS responsible to ensure he/she does not transmit 
+using the radio outside of the amateur allocation (and in the case of an amateur 
+without a full authority licence (i.e. entry level or novice) outside of the allocated 
+frequencies in their licence). Radios that are sold to service the international 
+market may at times have the ability to transmit on frequencies that are not 
+available in some countries or under some licence classes. You as the operator 
+MUST ensure that you do not transmit outside of your authorized frequency 
+range (do not forget about the sideband(s) when operating close to the edge of 
+a band). 
+♦ (*2) FM mode was only fully available from version 1.75 of the firmware prior 
+to that firmware version it was only available in conjunction with XIEGU’s GSOC 
+controller. The two data modes U-D and L-D were added in FW v 1.79b02 
+♦ (*3) The G90/S covers the range needed for the US 60m channels and the 
+WRTC15 ITU band. It does not cover the bottom half of the UK 60m “bandlets” 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+10 
+Accessories and optional components 
+Included accessories:                    Quantity 
+Multi-function hand microphone 
+1 
+USB data interface cable:  
+1 
+DB9 head unit extension cable:  
+1 
+Detachable head fixing studs 
+2 
+Hexagonal wrench 
+1 
+DC power cord 
+1 
+Warranty card 
+1 
+Instruction leaflet 
+1 
+Quality assurance certificate 
+1 
+*Optional accessories:  
+DE-19: Digital interface unit providing one USB cable to the PC with support for 
+two-way audio and serial communications as well as providing control of an 
+optional XPA125B amplifier. 
+XPA125B:  Xiegu 100W power amplifier, including an automatic antenna tuner. 
+GSOC: external, large screen, controller. 
+G90-H1: Stand with fan 
+G90-H2: Tilting front support legs 
+PAX-100: Radioddity HF 100W PEP amplifier. 
+GNR 1: Xiegu Digital Audio Noise Filter Unit. 
+ 
+ 
+NOTE: The G90/S is dealer modifiable for use on the US MARS required transmit 
+frequency ranges. 
+NOTE: Your antenna will have a great impact on the quality of your communications. 
+Many simple wire antennas offer excellent performance for field operations. 
+ 
+ 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+11 
+Interface Definition 
+Definition of microphone interface  
+Wiring diagram of COMM plug  
+ 
+ 
+ 
+ 
+Wiring diagram of earphone plug 
+ 
+ 
+Left and right connections carry 
+monaural audio 
+ 
+Rear ACC socket 
+ 
+Wiring of CW keys 
+ 
+Note: 
+♦ If the connector of the CW key is a 6.5mm 2-wire plug, please change it to a 
+3-connector 3.5mm stereo plug according to the wiring method shown in the 
+figure above.  
+♦ Be careful when using 2-core to 3-core adapters because incorrect wiring may 
+put the radio into CW transmission mode all the time.  
+Common
+Da
+Common
+Da
+Di
+Di
+signal 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+12 
+Machine Interface – Front panel 
+ 
+1      Volume knob 
+• Turn the knob to increase or decrease the volume. 
+• A momentary press alternates between headphone/speaker output. 
+ 
+2      Power supply /transceiver indicator light 
+• Standby /receive state: yellow-green; 
+• Red indicates the radio is transmitting.  
+ 
+3      Power (on/off) switch 
+• When powered-off, a momentary press of this button will turn the radio 
+on. 
+• When powered-on, a long press of this button will shut down the radio. 
+• While starting up, a momentary press of the button will turn off the screen 
+to save electricity.  
+ 
+4     Multi-function Adjustment Knob 
+• By default, turning this knob will change the frequency in 100kHz steps. 
+• A long press of this knob will select custom action functions. 
+ 
+5-6   MODE switching 
+ Pressing these buttons will cycle through all the modes.  
+ 
+7-8   BAND switching 
+Pressing these buttons will switch up or down through the Amateur bands 
+or the Amateur and SW Broadcast bands Whether the SW Broadcast 
+bands are included in the sequence is defined through Function 8 in the 
+System menu. (Transmission is only allowed in the HAM bands). 
+ 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+13 
+9      FUNC indicator 
+This LED will light when the second function of a button is activated. 
+10 Δ F indicator This LED blinks when the CW signal is tuned in when in CW 
+mode allowing the CW decoder to work. 
+11    Main VFO/Mem tuning knob 
+Change the current frequency by rotating this knob. When setting menu 
+items this knob changes the parameter’s value.  
+ 
+12    Function keys 
+The definition and functions of these buttons are detailed in the operation 
+section of this manual (Pages 17-18). 
+Machine Interface - Rear Panel 
+ 
+13 
+Antenna interface 
+             SO-239 type - impedance 50Ω. 
+14 
+KEY interface 
+A 3.5mm stereo jack used to connect manual/paddle CW keys. (See        
+Page 10 for the wiring details) 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+14 
+15 
+COMM interface 
+Only used for updating the radio body’s firmware at present.  
+16 
+I/Q signal output port 
+A 3.5mm connector (3 wires) used for IQ signal output. 
+17 
+ACC interface 
+See the interface details on page 10. 
+18 
+DC power interface 
+DC power input (PSU or battery). The round hole is the negative 
+connection and the square hole is the positive connection. 
+19 
+Ground terminal 
+Good grounding can improve the receiving and transmitting 
+performance of the G90/S and reduce the possibility of RF ingress. 
+Machine Interface – Head Unit 
+ 
+20 
+MIC (microphone) interface (located on the right-hand side) 
+Used to connect the included multi-function handheld microphone. 
+21 
+Headphone interface (located on the left-hand side) 
+This is a 3.5mm stereo connector (3 wires) used to connect earphones. 
+(See Page 10 for the wiring details). 
+ 
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+15 
+22 
+Communication interface (located on the left-hand side) 
+Used for updating the Firmware of head unit and providing a CAT 
+control interface to your computer.  
+ 
+Notes:   
+1. Insert the supplied 3.5mm to USB cable into this port for data transfer or      
+CAT control mode communications.  
+2. Do not insert the cable into this port before you start the G90/S up. 
+ 
+Machine Interface – Remote Head Unit 
+ 
+When mounting the head unit away from the base unit, ONLY use the 
+supplied extension cable. This is a specific cable designed for this 
+use made just for this purpose. Owners have reported that using a 
+different (similar looking) cable from other sources are suspect in 
+creating internal damage to the head unit. If you require a longer 
+cable, contact the retailer where you bought the radio (Radioddity) for 
+assistence of what is possible. 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+16 
+Hand Microphone Buttons 
+ 
+1. LOCK button 
+Lock button 
+2. PTT button 
+Press to transmit 
+3. Up/down 
+Frequency increase/ decrease button (user-
+defined in the system menu) 
+4. Transmit/receive  
+      indicator light 
+Transmission in progress indicator light 
+5. Main keypad area 
+Main numeric keypad area 
+6. FIL button 
+Filter selection (no action on DSP filter) 
+7. MODE button 
+Selection of the operating mode of the radio
+8. Functional indicator light 
+Lights whenever a key is pressed on the 
+microphone. 
+9. Function buttons 
+F1/F2 buttons (user-defined in the system 
+menu) – e.g. preamp / split. 
+10. MW button 
+Memory channel operation  
+11. V/M button 
+Frequency/memory channel switch. 
+12. XFC button 
+No function 
+13. TUNER button 
+Momentarily pressing this button will switch 
+the ATU in or out of circuit. Pressing in for a 
+longer time starts automatic antenna tuning.
+ 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+17 
+Power Source Connection 
+Connect your power supply or battery to the DC-IN connector. Current capability 
+of the DC power supply should be at least 8 amps. Batteries should supply 10.5-
+16.5V DC and have capacity to supply up to 10 amps. Typical current 
+requirements on transmit are generally less than 8A. Use the provided cable to 
+connect the G90/S to your DC supply. The G90/S transmitter is designed in 
+such a way that dropping supply voltage from a weak battery has little effect on 
+the transmitter output power until 10.5v is reached. 
+The DC power supply must be connected in strict accordance with the following 
+figure to avoid a reverse polarity connection. 
+♦ The red wire must be connected with the positive pole of power supply and 
+black wire to the negative pole of the power supply. 
+ 
+ 
+♦ A Ferrite Choke may be attached to the power wires to prevent external RF 
+from entering the radio via its power lines and RF interference from inside the 
+radio from radiating externally via the power cable. When installing a ferrite 
+choke, place it closest to the radio end of the DC cable. 
+ 
+♦ Polarity of power cables should be checked carefully to avoid reverse 
+polarity when connecting your power supply or battery. 
+ 
+♦ Although the G90/S has reverse polarity protection reverse connection 
+of power should be avoided.  
+ 
+ 
+Red line
+Black line
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+18 
+Button Functions 
+Button 
+First function 
+ (momentary press, cycle) 
+Second function (FUNC+) 
+(quick press so light 
+comes on) 
+Long press 
+PRE/ATT 
+PRE - ATT - Normal. cycles through 
+these states.
+/ 
+/ 
+CMP/F-L 
+Turn on voice compression 
+Digital filter F-L, low-pass cut-off 
+frequency selection using the 
+main tuning knob
+Reset filter 
+parameters 
+NB/F-H 
+NB ON-NB Level-NB Width 
+Digital filter F-H, high-pass startup 
+frequency selection using the 
+main tuning knob
+Reset filter 
+parameters 
+AGC/SPL 
+AGC, Fast-Slow-Auto-none.  
+Turn on the split frequency 
+transceiver operation mode
+RF GAIN 
+VM 
+Switch between frequency and 
+channel mode.
+/ 
+Call Sign Editor 
+MW/MC
+Write channel to memory.
+Clear channel entry
+/
+A/B. A>B 
+Switch between VFO-A and VFO-B 
+Copy the current VFO-A 
+frequency to VFO-B.
+/ 
+TUNE 
+Turn on/off the antenna tuner (in-
+circuit/out-of-circuit)
+/ 
+Antenna tuning 
+POW 
+POWER 
+Power output setting 
+MICGAIN 
+Hand microphone 
+MIC gain setting
+Standing-wave 
+scanner display 
+SWR THR 
+Standing-wave protection 
+threshold setting 
+INPUT 
+Audio input 
+selection
+KEY 
+SPEED 
+Automatic key rate 
+setting
+CW Volume 
+Side tone volume 
+setting
+CW automatic 
+decoder 
+M/L/R 
+Manual/automatic left 
+and right mode switching CW TONE 
+Side tone 
+frequency setting
+MODE 
+iambic A/B mode 
+switching 
+/ 
+ 
+QSK 
+Insert/non-insert 
+selection
+/ 
+ 
+QSK Time
+Hang time setting
+/
+Ratio 
+Setting of the automatic 
+key dot-and-dash interval 
+ratio
+/ 
+ 
+LOCK 
+Lock / Screen brightness. 
+SCALE 
+Spectrum 
+reference level 
+setting
+Lock button 
+AVE FFT 
+Mean value setting, 
+ranged 1~10
+Volume knob 
+(press) 
+Loudspeaker / earphone switching  
+VOX ON/OFF Voice control 
+switch 
+/ 
+VOX GAIN 
+Voice control gain 
+setting
+/ 
+ANTI-VOX 
+Hand microphone 
+and speaker echo 
+suppression setting
+/ 
+VOX DLY 
+Voice control 
+transmission 
+turnoff delay
+/ 
+Multi-knob 
+(press) 
+Filter center mode setting 
+/
+/
+Filter bandwidth mode setting 
+/
+/
+Main knob  
+(press)
+Accept (save) settings 
+Activate RIT  
+/ 
+ 
+ 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+19 
+Operation of a button’s second function: 
+Press the [FUNC] button - the F indicator LED will illuminate, then press the 
+required function’s button. 
+Press the [FUNC] button again to exit the secondary function. At this time, the 
+F indicator LED will go off. 
+Pressing the [FUNC] button for 1-2 seconds will take you into the System Menu 
+(see later in this manual for details of parameters that can be set). 
+■ In any function (including the secondary FUNC setting) a short press of the 
+main knob will save the setting. This will also exit the function setting mode and 
+return you to the main interface. 
+Screen Display Icons 
+  
+ 
+ 
+ 
+Multi-function indicator
+Receiving state is meter s 
+Transmission state is power 
+meter 
+Mode display
+Standing-wave display area
+Spectrogram display area
+Receiving level display
+Receive bandwidth indication 
+Volume indication
+Power supply voltage indication
+VFO display area
+Waterfall diagram display area
+Status display area
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+20 
+Function and definition of displayed icons:  
+: pre-amplifier is ON. The icon character A indicates that the attenuator is in-
+line. No character indicates Normal mode. 
+: noise blanker is ON  
+: automatic antenna tuner is in circuit. 
+: voice compression CMP is active  
+: squelch is ON 
+: voice triggered TX control function is ON 
+: AGC control is set to Slow (alternatively AGC-F, AGC-AUTO, AGC 
+settings may be indicated) 
+: supply voltage display.  
+: Current operating mode in use – USB, LSB, CW, CW-R, AM or FM. 
+: As the split mode symbol is indicated between VFO-A and VFO-B, VFO-
+A is the current receive frequency and VFO-B is the transmitting frequency. 
+Without the “Split” indicator the text VFO-A and VFO-B indicate the frequencies 
+of the two VFOs. 
+: SPL split frequency receiving & transmitting mode is active.  
+:  Loudspeaker mode. A short press-in of the volume knob switches between 
+earphone and speaker modes. 
+:  All buttons locked symbol – settings cannot be changed until the buttons 
+are unlocked again.  
+: While receiving, the received signal strength 
+is indicated by the green/red line and can be read off against the top row of 
+figures. When in transmit mode, the same indicator can be read against the 
+bottom line indicating the power being transmitted. 
+R±XXX – displayed under Rx DbM level in the waterfall is the current RIT value. 
+: During transmission the SWR meter displays the standing-
+wave ratio value of your antenna system. 
+: This chart Indicates the settings of the DSP receiver filter
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+21 
+Operation 
+In order to familiarize yourself with the functions and capabilities of the G90/S 
+portable transceiver, please read the operation guide fully to understand the 
+powerful functions of the G90/S. 
+Transceiver start and shutdown 
+1. To start the transceiver: press the 
+ button for a short period of time. 
+2. To Shut down the transceiver: press and hold the 
+ button for 1s. 
+ 
+To turn off the LCD screen to save power: 
+While turned on, press the 
+ button quickly to turn off the LED display. 
+■ With the screen turned off, the radio still works normally. Pressing any 
+button or turning a knob will turn on the screen again. 
+Display of Power Voltage: 
+After turning on the radio, the upper right corner of the screen will display the 
+DC voltage of the connected power supply.  
+The supply voltage is 13.8V. 
+♦ Operation above the maximum voltage given in the specifications will 
+seriously damage the radio!  
+♦ The displayed voltage may vary ±0.3V from the actual value. 
+The G90/S is uniquely designed such that lower in-range voltages do not result 
+in significantly reduced TX power or RX performance. 
+ON/OFF button
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+22 
+Selection of Working Frequency Range 
+The G90/S receives 0.5~30MHz but is set to only transmit on the amateur radio 
+bands. The amateur bands are divided into 10 frequency blocks. 
+ 
+Pressing the [<] or [>] BAND buttons will cycle through these bands. 
+ 
+■ As well as the amateur bands shown, SW broadcast bands can be added in 
+the sequence through system menu option 8 “Band Stacking”. This allows 
+quicker selection of the broadcast bands to listen to them. Transmission mode 
+is only available on the Amateur bands.  
+■ The 60m frequency range set is 5.330.5-5.405MHz and includes the ITU 
+WRC15 band of 5351.5 kHz to 5366.5 kHz plus the US channel frequencies. 
+Should you require other channels or bandlets for example for operation in the 
+UK, please contact your dealer so that he can program these in the unit for you. 
+■ Frequency ranges for the bands can be dealer pre-set prior to sale in 
+accordance to the regulations of the country (or region) of sale. 
+■ VFO-A and VFO-B are two independent VFOs that can be set to different 
+operating bands. See [VFO Settings] for details. 
+ 
+Operation methods: 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+23 
+Operating Mode Selection 
+Press the [MODE] button to switch through all transmission modes: 
+  
+LSB – L-D – USB – U-D – CW – CWR – NFM – AM 
+The two data modes LSB-Data (L-D) and USB-Data (U-D) were added in FW 1.79b02.  
+Volume adjustment 
+Speaker mode: 
+Turn the volume knob to the left or right to adjust the 
+output volume. 
+Headphone mode: 
+1. A short press of the volume knob switches to or from 
+the headphone output mode. 
+2. Turn the volume knob to the left or right to adjust the headphone volume. 
+♦ Please turn the volume to the minimum setting before using earphones so as 
+to protect your ears. Gradually increase the volume to be appropriate as 
+required after the earphones are inserted. 
+ 
+ 
+ 
+ 
+Volume knob 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+24 
+Call Sign Editor 
+This G90/S can set your call sign to be displayed on the startup screen. 
+1. Apply a long press to the [VM] button to enter the text editor. 
+2. The bottom of the screen is the character selection area. Rotate the main 
+tuning knob to select the desired character. Press the main tuning knob in to 
+select the character; 
+3. Press the [NB] button (underneath BACK on the screen) to delete the last 
+character; press the [VM] button (underneath QUIT on the screen) to exit the 
+editor interface; press the [PRE] button (underneath SAVE on the screen) to 
+save and exit the editor interface. 
+These LCD screen labels will be close to, but not exactly aligned with the 
+buttons below the screen. 
+4. When the radio is re-started, your callsign will be displayed on the screen. 
+ 
+ 
+ 
+ 
+Setting Operational Frequency. 
+ 
+There are three methods to set the frequency of G90/S. You may use the large 
+main knob, the multi-function knob or the keypad buttons on the hand 
+microphone. 
+1. Set frequency by using main knob 
+Momentarily press the main knob to select 100Hz, 1kHz, 10kHz or 100KHz 
+steps. The selected range step position in the display will be graphic reversed. 
+Rotate the main knob to set the frequency required using the currently selected 
+step. 
+2. Set frequency by using the multi-function hand microphone 
+Press the white [F-INP ENT] button on the hand microphone. The G90/S will 
+now be in frequency setting mode. The cursor will be blinking in the first column 
+on the left of frequency display. 
+Main knob 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+25 
+Input the desired frequency values number by number and then press [F-INP 
+ENT] again to complete setting the frequency. 
+For example, press the keys in the following sequence to set current 
+frequency to 14.09000MHz: 
+1. 
+Press [F-INP ENT] key first; 
+2. 
+Press the 
+number keys 1 by 1;
+3. 
+Press [F-INP ENT] button again to complete the action. 
+3. Quick adjustment of the frequency with the multi-function knob 
+The Multi-function Adjustment Knob of the G90/S provides a method to quickly 
+tune across the band. The function knob’s default function and increment is 
+100khz. Hop from the CW to the SSB areas of the band in seconds. 
+Note: This only works if the multi-function knob is set to change frequency. If its 
+function has been changed (e.g. to SQL level) you will not be able to tune using 
+the multi-function knob. 
+Adjustment of RF Gain and Muting Level  
+Proper RF gain adjustment can improve the quality of a received signal. In 
+general, reducing the RF gain level on the low bands (40/60/80/160m) which 
+have strong interference can significantly improve receive quality. In general, 
+with SDR rigs, operating at full RF gain is detrimental to receive signal quality. 
+Experiment with levels to find what is best for you. 
+How to adjust the RF gain: 
+1. Apply a long press on the [AGC] button at the bottom of the screen to enable 
+the setting of RFGAIN. 
+2. Rotate the main tuning knob to adjust the RF gain value. 
+3. After setting your RF gain level, press the main knob inwards momentarily to 
+exit the RF gain setting mode 
+SQL setting 
+You set the squelch level when you want to mute static in between 
+transmissions normally used on AM or FM modes but will work on all phone 
+modes. 
+ 
+ 
+
+============================================================
+PAGE 26
+============================================================
+
+ 
+26 
+Squelch Operation (prior to firmware v 1.75): 
+1. Apply a long press on the [Multi-function Adjustment Knob] to enter the user 
+defined function menu. Rotate the main knob to select the SQL Level option. 
+2. Rotate the [Multi-function Adjustment Knob] to set the squelch muting level. 
+At the same time, the muting level will show on the S meter. 
+3. Momentarily press the button below the SAVE label at the bottom of the 
+screen to select and exit. 
+■ The muting strength gradually increases from S1 ~S9, corresponding to signal 
+strength. For example, when the muting level is set to be S3. it indicates that 
+the speaker will only let sound through when the signal strength is more than 
+S3. Otherwise, the speaker will remain silent. 
+ 
+Multi-function Adjustment Knob (from F/W version 1.75 onwards). 
+The multi-function knob has several functions than can be customized. 
+ 
+By default, turning the knob will tune the radio in 100kHz frequency 
+steps. (this is the most common use) 
+ 
+However, a momentary press of the knob allows adjustment of the 
+receiving filter. 
+ 
+Giving the Multi-Function knob a longer press, enters the user defined 
+functions menu.  
+ 
+ 
+Multi-function 
+adjustment knob 
+
+============================================================
+PAGE 27
+============================================================
+
+ 
+27 
+Once in the user defined functions menu turn either the multi-function knob or 
+the main tuning dial to go to one of the following functions: 
+1
+Freq 100k 
+Frequency stepping value
+2
+SQL level 
+Muting level setting 
+3
+PO Level 
+Transmitter output power 
+4
+Key Speed
+Automatic keyer rate 
+5
+FFT Scale 
+Spectrum reference level 
+When you are on the function you want to adjust e.g. squelch, momentarily 
+press the multi-function knob in again. This will take you back to the normal 
+operating screen. As soon as the receive screen is displayed rotate the multi-
+function knob and where the bandwidth icon is normally displayed on the 
+screen, the available values for the selected function available will be displayed 
+as you turn the knob. When you have the value displayed that you wish to have, 
+momentarily press the multi-function knob again to keep the value. 
+ Note: If you wait too long you will be put into DSP filter adjustment mode. If this 
+happens, start again. 
+Reception and Transmission Operations using SPL and 
+VFOA/B 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The G90/S transceiver has two built-in, independent, VFOs which can be set to 
+different frequencies and different modes.  Using the SPL (split) function, you 
+can transmit and receive on different frequencies or even bands. 
+ 
+VFO operation
+Split Frequency 
+Operation 
+
+============================================================
+PAGE 28
+============================================================
+
+ 
+28 
+VFO setting: 
+1. Momentarily press the [A/B / A>B] button to switch between VFO-A and VFO-
+B; 
+2. Set the required VFO frequency and mode when on one VFO (A or B). 
+Split Operation (SPL); 
+1. Set the required receive frequency and mode on VFO-A first; 
+2. Then set the transmitting frequency and mode on VFO-B; 
+3. Press the function button, then the [AGC/SPL] button to turn on the SPL (split) 
+function.  The double-triangular icon will display between VFO-A and VFO-B on 
+the VFO area of the screen. 
+♦ As well as using them for split mode VFOA/B can simply be used to set two 
+different simplex frequencies and modes so you can quickly switch between the 
+two in real time. 
+Automatic Gain Control (AGC) 
+Select the appropriate AGC time constant for the best receiving experience: 
+1. Momentarily press the AGC button at the bottom of the screen to cycle 
+through the three AGC selections: 
+AGC-S  AGC-F  AGC-A  AGC -- 
+AGC-S: Slow AGC control 
+Recommended 
+settings: 
+AM mode: AGC-S 
+AGC-F: Fast AGC control 
+ 
+CW AGC-F 
+ 
+ 
+ 
+SSB: AGC-S 
+AGC-A: Automatic AGC control 
+ 
+AGC 
+AGC OFF 
+ 
+See below:
+2. When the AGC-A mode is selected, the radio will automatically select the 
+appropriate AGC control parameter depending upon the current mode. 
+■ As of firmware version 1.73 with the AGC disabled, the receiver will have its 
+RF gain automatically set to 25% so that noise received is not significantly 
+increased. 
+NOTE:  
+You should experiment with the AGC Off mode only if the received signal is not 
+
+============================================================
+PAGE 29
+============================================================
+
+ 
+29 
+changing in strength due to fading (QSB). You must manually control the RF 
+gain level so that you do not have distortion from the incoming signal 
+overloading the receiver. Set AGC to “off”, then go into the RF gain setting (Hold 
+the AGC button in for 2 seconds) then adjust the main knob until the signal 
+sounds clear. This can result in a nice improvement of signal quality under good 
+receiving conditions, especially for weak signals!  
+PRE-AMP/ATT (combined control) 
+The pre-amplifier can improve reception of some weak signals in the higher 
+frequency bands. These are normally the bands above 20 meters. When 
+adjacent signals are de-sensing the listened to station applying the attenuator 
+can help. This is normally on bands below 40m. 
+1. Press the [PRE] button at the bottom of the screen in momentarily and the 
+character P will appear on the top left corner of the screen indicating that the 
+pre-amplifier is turned on. 
+2. Press the [PRE] button again and the character A will appear on the top left 
+corner of the screen, indicating that the attenuator is turned on. 
+3. Press the [PRE] button again and no character will appear on the top left 
+corner of the screen, indicating that neither preamp nor attenuator are engaged. 
+■ The receiver is sensitive enough that under 18mhz, no improvement of the 
+signal to noise ratio will occur with use of the pre-amp. To maintain the best 
+reception performance, limit use of the pre-amp to bands above 20 meters. 
+■ When the S meter displays that the received signal exceeds S9+20dB, turning 
+on the attenuator is recommended to provide better reception. 
+Pulse Interface Suppressor – Noise Blanker 
+Pulse interference suppression can effectively eliminate some kinds of pulse 
+noise, especially interference caused by automobile ignition systems. 
+1. Press the [NB] button at the bottom of the screen momentarily to enter the 
+NB function setting - and a corresponding menu will display on the screen where 
+the DSP filter graphic normally is. 
+2. Repeated momentary presses of the [NB] button will select the different NB 
+function setting options. Rotate the main tuning knob to set these values. 
+The NB function menu includes the following options: 
+ 
+NBSW: NB operation switch ON/OFF. Default is OFF 
+
+============================================================
+PAGE 30
+============================================================
+
+ 
+30 
+ 
+NB Level: setting of NB suppression level. 
+ 
+NB Width: setting of NB suppression width 
+■ Adjust the Level and Width while listening to the noise you want to suppress 
+for best effect. 
+■ Improper settings of the NB parameters will severely degrade reception.  
+Do not turn the NB on unless you need to suppress pulse noise. 
+Voice Compression CMP 
+Voice compression can increase the average TX power output during phone 
+communication so that communications are possible under poor conditions. 
+1. Press the [CMP] button at the bottom of the screen in momentarily and the 
+voice compression indicator (a microphone) will appear at the top of the screen. 
+2. Press the [CMP] button again to disable voice compression. 
+Use voice compression only when you need it, as all compression degrades 
+transmitted audio quality slightly. When conditions are good, leave it off.  
+CW (Morse Code) Communication 
+You may use a CW key or an external keying unit. Insert the connector into the 
+KEY port on the rear of the radio. (See Page 10 for the definition of the required 
+plug wiring) 
+1. Insert CW Key/Keyer into the KEY socket on the rear of the main unit; 
+2. Press the [MODE] button to switch to CW (or CWR) mode; 
+3. Enable the QSK function by pressing the [KEY] button until the function 
+appears, also set the appropriate QSK time; 
+4. The radio will key into transmit when the Morse code key is pressed. 
+Practice mode 
+You can use the G90/S as a CW code trainer using the following method: 
+■ Disable the QSK function for the [KEY] function. Only the CW sidetone of the 
+transceiver will be heard when using the CW key. Signals will not be transmitted. 
+ 
+ 
+
+============================================================
+PAGE 31
+============================================================
+
+ 
+31 
+CW automatic decoding 
+A long press of the [KEY] button enables CW automatic decoding. Rotate the 
+main tuning knob to fine tune the received signal until the indicator light A 
+flashes in time with the code. Decoded CW text will appear at the bottom of the 
+screen.  
+■ Since the accuracy of the automatic decoding of Morse code is related to the 
+received station’s CW accuracy, received signal quality, and frequency 
+accuracy of the other radio, Auto CW decoding is only an addition to using your 
+own ears for decoding. It can also be useful when learning Morse code.  
+When using automatic CW decoding, for best results, the bandwidth of the 
+receiving filter should be set to 300Hz. Also, adjust the keyer speed on the 
+G90/S to approximately the speed of the incoming CW for the best decoding 
+results. The G90/S’s CW decoder is capable of excellent performance when 
+adjusted correctly. 
+CW Keyer settings 
+The [KEY] button function has settings required 
+for normal CW 
+communications. Press the key in momentarily to select, in turn: 
+ 
+SPEED: automatic key rate setting 
+ 
+M/L/R: settings of manual/ automatic left- and right-hand modes 
+ 
+MODE: Iambic A/B mode setting 
+ 
+QSK switch: turn QSK on or off 
+ 
+QSK Time: QSK time setting 
+ 
+Ratio: set the automatic key dot-and-dash interval ratio 
+ 
+Indicator A 
+Keys 
+
+============================================================
+PAGE 32
+============================================================
+
+ 
+32 
+To enter the second function of the [KEY] button press [FUNC] button and then 
+[KEY] to select and set the following options. Once adjusted using the main 
+tuning knob, press the KEY button again to exits the settings process. 
+Options: 
+ 
+CW Volume: sidetone volume setting 
+ 
+T800Hz: sidetone tone frequency setting 
+ 
+B500: CW receiving bandwidth setting (the default value is 500Hz) – 
+set to 300 if using the automatic CW decoder function. 
+SSB Voice Communication 
+Plug the lead from the hand microphone into the MIC port on the right-hand side 
+of the head unit. After inserting, the green indicator light on the hand microphone 
+will light. 
+1. Press the [MODE] button (< or >) on the top of the head unit to switch between 
+LSB and USB mode. Ensure you do not select U-D or L-D. 
+2. Use the second function (after [FUNC] button has been pressed) of the 
+[POW] button for the following settings: 
+1) MIC GAIN: set the level of the hand microphone audio  
+2) INPUT: select where the audio input comes from (the default is MIC and 
+this is required during voice communications). 
+3. A momentary press of the [POW] button allows you to set the output power 
+level.: 
+1) POWER: Set the required PEP output level (range is 1W - 20 W). 
+2) SWR THR: set the standing-wave-ratio protection threshold (default is 3:1). 
+If the radio sees an SWR over this value it will reduce power to protect itself. 
+4. After you have set the parameters above you are ready for SSB 
+communications. 
+■ The default hand microphone voice gain value is appropriate in most cases. 
+Watch the spectral display when transmitting and if you see extra lines above 
+and below the main audio trace, reduce the mic gain or move away from the 
+microphone until they disappear. Normally a setting of 10 is a good place to 
+start. You should see the TX power readings peak at the level you set. The 
+average meter indication will be lower. This is normal.  
+
+============================================================
+PAGE 33
+============================================================
+
+ 
+33 
+Voice-controlled Transmit - VOX 
+The voice-controlled transmission (VOX) feature can automatically judge 
+whether there is a hand microphone connected or if audio is coming from the 
+line input signal (on the ACC socket). It will automatically control the radio 
+switching between the receive and transmit when audio is detected. When the 
+VOX function is activated, it is unnecessary to press the hand microphone PTT 
+key to start the transmission. 
+After pressing the [FUNC] button to activate the secondary functions of all 
+buttons, press the volume knob IN and you will enter the VOX function settings. 
+Rotate the main tuning knob to change values. Press the VOL knob in again to 
+go through the different settings. 
+ 
+VOX OFF/ ON: VOX function off / on 
+ 
+VOX GAIN: voice control gain setting (recommended setting is 50) 
+ 
+ANTI-VOX: echo suppression settings for the hand microphone in 
+conjunction with the receiver speaker (recommended setting is 50) 
+ 
+VOX DLY: VOX hang time (default is 0) 
+■ The VOX voice-controlled TX function can be used with both the hand 
+microphone and the line input. You can simply connect audio from your PC’s 
+audio output and input lines to the rear ACC connector (or via the CE-19 
+accessory) and the VOX function will handle switching the radio between TX 
+and RX automatically without needing to have a transmit “PTT” control line. 
+Setting Line level Input into ACC connector: 
+When the AF-IN pin of the ACC interface is used for line input audio, (when 
+using the U-D or L-D mode) you need to set the appropriate input volume in the 
+"AUX IN Volume" option in the system menu. Set it at a mid-level value first. 
+Then watch the TX power output and adjust your incoming audio from the PC. 
+(using the PC’s sound card output volume level control). Remember that for 
+digital data modes (e.g. FT8) you want to set the radio at about 50% of full 
+output so as not to overheat the radio or distort the signal. With a good antenna, 
+10W average output is sufficient for most digital mode communications. Keep a 
+check on the temperature of the radio when you operate digital modes (and in 
+general). Your ambient temperature might be 55F (12C) or 105F(40C) and this 
+has a major effect on heat build-up. If the radio becomes very hot, you’ll need 
+to reduce power and give it time to cool-down. The radio’s transmit section is 
+very conservatively designed, but any radio can suffer from over-temperature 
+under certain challenging operating conditions, such as the long 100% duty 
+cycle periods of some digital modes.  
+
+============================================================
+PAGE 34
+============================================================
+
+ 
+34 
+Automatic Antenna Tuner 
+The G90/S has an efficient ATU to help you quickly match many kinds of 
+antennas effectively. 
+1. Press the [TUNE] button in momentarily to bring the built-in antenna tuner 
+into circuit. An antenna icon will appear at the top of screen. 
+2. To initiate an antenna “tune”, hold the [TUNE] button for > 2 sec. 
+Note: 
+1. Pressing the (TUNE) button momentarily will show the antenna icon on the 
+screen. This indicates that antenna tuner in in-line. If you need to tell the ATU 
+to tune (new antenna, different frequency) hold the Tune button in for >2 sec.” 
+Tuning” will be displayed. 
+2. After the antenna is “tuned” (actually it is matched to the radio rather than 
+“tuned”), leave the ATU ON so that it will provide the antenna match during 
+operation. 
+3. If the "SWR" icon is displayed at the top of the screen and flashes once while 
+transmitting – even after tuning, this indicates that the standing-wave of current 
+antenna is too high and while another tuning action may be attempted, this could 
+also indicate a faulty antenna. 
+4. When performing a tuning action via a long press of the Tune button, the 
+tuner will go through its complete matching procedure and then return to receive 
+mode after completion. (this may take several seconds) 
+5. When your antenna is physically very close (e.g. a vertical mobile antenna), 
+strong radio frequency interference may be caused to the radio or electronic 
+equipment nearby. If this happens try to locate the antenna further away. 
+Standing-wave Scanner SWR 
+The G90/S has an antenna SWR scanning function. It can scan the standing-
+wave values of the connected antenna to help you adjust the antenna. 
+1. A long press of the [POW] button enables the standing-wave scanning 
+function. It will scan the SWR of the antenna currently connected. 
+2. Press the button below the BW label on the screen momentarily to switch the 
+frequency step of the scan. 
+3. At the bottom of the screen, the frequency of the lowest SWR point of the 
+scanned standing wave is indicated. This is where the antenna is “resonant”. 
+
+============================================================
+PAGE 35
+============================================================
+
+ 
+35 
+4. Press the button below the FAST/ SLOW label on the screen momentarily to 
+select the scanning speed. 
+5. Press the button below the QUIT label on the screen to exit the standing-
+wave scanner. 
+Corresponding location of keys VS. screen labels: 
+(They are not perfectly aligned vertically) 
+ 
+♦ The SWR scanner is for quick reference only and is not meant to replace a 
+dedicated antenna analyzer. It is a very useful tool for trimming and adjusting 
+an antenna when operating portable or for spotting a faulty antenna. 
+Fine Tuning of Received Frequency (RIT) 
+Sometimes a station will come back off-
+frequency. Rather than tuning 
+your 
+frequency to the other station’s it’s better 
+to add some “Receiver Incremental 
+Tuning” to correct the other station’s frequency. 
+1. A long press of the main tuning knob enters the RIT adjustment interface. 
+2. Rotate the main knob left or right to adjust the RIT value. The adjustment 
+range is ±500Hz.  
+♦ When RIT is no longer required, reset the RIT value to 0. 
+
+============================================================
+PAGE 36
+============================================================
+
+ 
+36 
+Line Input and Output 
+The G90/S has an external line input interface. When the G90/S is used for data 
+communication in conjunction with a computer or an external modem, the 
+correct signal input options need to be selected. 
+1. Feed the external audio signal into the corresponding pin of the ACC port 
+(see the interface description on page 10). 
+2. Selecting the U-D or L-D mode, will automatically set the audio input to the 
+radio to come from LINE input pin on the ACC socket. 
+3. In the system menu, select: AUX IN VOLUM to set the appropriate input 
+volume level. (see below) 
+Operation of line output: 
+In the system menu, select: AUX OUT VOLUM and set it to the appropriate 
+output level. Your computer software package will have a meter showing best 
+input levels. 
+■ When using digital communications via the ACC port, the TX audio drive level 
+should be capable of 200mv. 
+■ The audio output level from the computer to the radio should be adjusted so 
+that the ALC value displayed on the screen is between 30 and 85.  The lower 
+the ALC value, the better. You should set the radio at your required output level 
+and then adjust the PC’s sound card output so that the radio’s ALC is within 
+range. Excessively high input signal level will overload the input amplifier, 
+resulting in modulation signal distortion. With the ALC set correctly, the TX 
+output reading may jump around rapidly under digital modes - but average 
+power levels will be in the correct range for a clean and effective signal. Digital 
+modes require much less TX power than other modes to make a contact. 
+In the system menu, the following two settings are the ones to adjust for data 
+communications: 
+5 
+AUXIN Volum 
+Line input volume setting 
+6 
+AUXOUT Volum 
+Line output volume setting 
+♦ For digital data communications, the PC output level is adjusted together with 
+the "Line input volume" (your TX audio) in the radio. The level of the audio input 
+to the computer is adjusted in conjunction with the radio’s "Line output volume" 
+(received audio going to the PC). The PC settings are normally found under 
+“Sound   devices”. It is best to set the radio to a mid-level value and then adjust 
+the PC’s levels to achieve correct operation. Fine tuning from that point can be 
+done through the G90/S’s menu settings. 
+ 
+
+============================================================
+PAGE 37
+============================================================
+
+ 
+37 
+Channel Memory Write (MW) and Clear (MC) 
+Basic operations: 
+1. While in VFO mode, set the required frequency, mode, and any other 
+parameters you desire. 
+2. Press the [MW/MC] button momentarily and the CH 00 (channel number) 
+character will appear on the screen flashing. Rotate the main tuning knob to 
+select an empty channel. At this time, the character E will appear after the 
+channel number, indicating that the channel is empty and can be used for 
+storage. 
+3. Press the [MW/MC] button again momentarily to save the current frequency 
+and mode information to the selected channel. 
+Selecting the stored memory channels: 
+1. In VFO mode, press the [VM] button momentarily to enter channel mode. 
+2. Rotate the main tuning knob to switch to the required channel. 
+Clear channel memory: 
+1. In channel mode, press the [FUNC] button followed by the [MW/MC] button. 
+The channel number indicator will start to flash in red. 
+2. Rotate the main tuning knob to the channel to be wiped. Press the [MW/MC] 
+button again to clear the selected channel. 
+Transmitter Power Setting 
+1. Press the [POW] button momentarily to enter the power setting mode. The 
+display area on the right side of the screen will display the current “Po” power 
+output setting value in watts. 
+2. Rotate the main tuning knob to set the power to the desired value in steps 
+from 1W to 20W. 
+ 
+ 
+ 
+ 
+ 
+POW button 
+
+============================================================
+PAGE 38
+============================================================
+
+ 
+38 
+♦ It is always good to start with reduced TX power if you are unsure of your 
+antenna’s condition or are new to the operation of your G90/S. Once you know 
+your SWR is low and grounding is good, the radio is designed to operate at full 
+power comfortably. 
+Digital (DSP) Filters (from FW version 1.79b02 onwards) 
+The G90/S has a built-in variable digital filter that can continuously adjust the 
+bandwidth of the receiver’s input to improve reception of the desired signal  
+With FW v 1.79b02 the G90 changed to an updated 2 BPF mode –The band-
+pass filter is changed to allow 2 BPF defaults that can be switched between. 
+The default values of each filter by mode are:  
+ 
+Mode 
+BPF1 
+BPF2 
+Bandwidth 
+(kHz)
+SSB 
+300 ~ 3000
+300 ~ 3000
+2700
+SSB DIG 
+100 ~ 3100
+100 ~ 3100
+3000
+CW 
+-250 ~ 250
+-250 ~ 250
+500
+AM 
+-3000 ~ 3000
+-3000 ~ 3000
+6000
+NFM 
+-4500 ~ 4500
+-4500 ~ 4500
+9000
+ 
+Note: Negative numbers for frequency indicate that the frequency being 
+used is to the left of the center of the spectrum (i.e. the lower sideband). 
+ 
+Adjustment of the bandpass filters is now performed as follows:  
+Put the radio in the required mode:  
+▷ Short press the MFK button to switch between BPF1/BPF2 (colour 
+changes slightly) 
+▷ Turn the MFK encoder to adjust the selected BPF  
+▷ Long press the MFK key or the FUNC key or any other menu key 
+(POW, KEY, etc.) to exit the selection. 
+  
+Selecting the default filter to be used - press the FUNC button (light 
+comes on):  
+▷ Press CMP/F-L key to set BPF1 to be the default  
+▷ Press NB/F-H key to set BPF2 to be the default  
+Tip:  
+▷ B2700 above the filter icon means that the bandwidth is set to 
+2700Hz  
+ 
+
+============================================================
+PAGE 39
+============================================================
+
+ 
+39 
+Receive filter operation prior to firmware v 1.79b02: 
+The G90/S has two filter adjustment modes: center frequency point mode and 
+bandwidth mode. 
+1. Press the [Multi-function] knob momentarily to switch between the two filter 
+modes. 
+2. When the center frequency point mode is selected: The prompt text "Cxxx" 
+appears over the filter icon ("xxx" refers to the center frequency point value) and 
+a green vertical line displays on the orange trapezoidal shape. 
+3. When the bandwidth mode is selected: The prompt text "Bxxx" appears over 
+the filter icon ("xxx" refers to the bandwidth value) and a green vertical line 
+displays on the both sides of orange trapezoid. 
+4. When either the center frequency point mode or the bandwidth mode is 
+selected, rotating the [Multi-function] knob adjusts the values. 
+Note: Press the multi-function button in once before adjusting by turning the 
+multi-function knob and press the multi-function knob in again once the change 
+is complete, to store the setting. (the vertical green bars go off once the setting 
+is stored). 
+How to adjust the low and high cut-off frequencies of the filter: 
+1. Press the [FUNC] button momentarily to enable the operation of alternate 
+button functions. 
+2. Either press the [CMP/F-L] or [NB/F-H] button and rotate the main tuning 
+knob to adjust the lower or upper cut-off frequencies of the filter. Press the 
+[CMP/F-L] or [NB/F-H] button again momentarily to display the currently set 
+bandwidth values in the function display area of the screen. 200/2750 is a good 
+starting point for SSB operation. 
+ 
+F-L: Adjust the low-end cutoff frequency of the filter 
+ 
+F-H: Adjust the high-end cutoff frequency of the filter 
+Method to reset to the default filter parameters: 
+1. Press the [FUNC] button momentarily to enable the operation of the alternate 
+button functions. 
+2. Long press the [CMP/F-L] or [NB/F-H] button to reset the upper or lower cutoff 
+frequencies of the filter to their default values. 
+In the Center frequency mode (see above) you can move the center of the 
+
+============================================================
+PAGE 40
+============================================================
+
+ 
+40 
+bandpass filter around the current frequency to reduce interference from 
+adjacent signals either above or below your operating frequency. 
+♦ Properly adjusting the filter parameters can greatly improve the performance 
+of the receiver as well as its sensitivity and signal to noise ratio. 
+♦ In CW mode, the digital filter can be made as narrow as 50Hz but there will 
+be obvious deterioration of the resulting audio at such an extremely narrow 
+setting.  300-500 Hz is normally ideal. 
+Spectrum/ Waterfall Display 
+The G90/S radio can display the radio spectrum and waterfall diagrams of 
+received signals and you can quickly observe whether there is a signal on the 
+desired frequency of operation. You can also easily identify a clear frequency 
+to QSY (move freq.)  to in case there is QRM (interference) occurring on the 
+frequency you are currently using. 
+Spectrum display bandwidth is 48kHz 
+The spectrum signal strength value displays with an accuracy of ±2dB 
+The sensitivity of the spectrum display (scale) can be adjusted for the conditions 
+of the band you are operating on. If the scale is set too high, very strong signals 
+may have their signal peaks cut off. You may adjust the scale by doing the 
+following: 
+1. Press the [FUNC] button momentarily and then the lock button, to enter the 
+SCALE reference level setting. 
+2. Rotate the main tuning knob to adjust the SCALE value until the display 
+sensitivity is appropriate. 
+3. Press the main tuning knob in momentarily to save and exit the setting 
+screen. 
+■ The SCALE reference values gradually increase from 1 to 10. When strong 
+signals are observed, scale values need to be lowered. When looking at weak 
+signals, the SCALE values can be increased. Generally, bands under 14 MHz 
+will need less sensitive settings. 
+■ The SCALE value in each frequency range can be set independently. 
+The second function (with the FUNC button activated) of the [LOCK] button is 
+as follows: 
+ 
+SCALE: set the reference level setting 
+ 
+AVE: set the average value setting 
+
+============================================================
+PAGE 41
+============================================================
+
+ 
+41 
+AVE “average” values gradually increase from 1 to 10. The effect on the display 
+is to smooth out rapid changes and provide a better representation of band 
+activity. This setting is a matter of personal taste. It can improve usability of the 
+spectrum display. 
+Data Communication 
+The G90/S supports all PC-generated amateur data communication modes and 
+remote control via computer software when a PC is linked to the radio. Only 
+simple wiring is needed to enable amateur data communications. The optional 
+DE-19 digital interface allows one USB cable connection to your PC to handle 
+both audio (data) traffic and serial control and is simpler than the process 
+defined below. 
+Version 1.79b02 firmware added the L-D and U-D (LSB-DATA and USB-DATA) 
+modes which switch the bandpass filter and ensures audio input and output via 
+the ACC socket only, disabling microphone audio.  
+The appropriate transmission mode should be selected for the data mode in 
+operation. The recommended modes for common data modes are as follows: 
+Data mode 
+Radio mode 
+* For other data modes, set the 
+radio mode to what is commonly 
+used for that data mode.  
+PSK31 
+USB/USB-D 
+RTTY 
+LSB/LSB-D 
+FT4/8 
+USB/USB-D 
+When an amateur radio and a computer communicate using digital data 
+communication, the computer is used as a "modem" in that it converts the 
+signals to and from digital tones. While receiving, the audio from the signal 
+received is sent to the computer for demodulation. When transmitting, the audio 
+signal created by the computer is sent to the radio for transmission. Thus, the 
+computer’s audio output level effects the TX power output and ALC readings. 
+The connections required are as follows: 
+Receiving:  Received audio from the receiver→ computer audio IN 
+Transmitting: The computer-generated audio signal → radio TX Audio IN 
+Preparation: 
+ For CAT command control of the radio from the PC you may use the supplied 
+USB->3.5mm plug cable or the optional DE-19 interface unit. Before using the 
+cable/unit for the first time, download and install the appropriate driver from the 
+Radioddity website. When you then plug the cable into your Windows PC it will 
+use this driver and not go off to search for an (incompatible) one from the Web.  
+
+============================================================
+PAGE 42
+============================================================
+
+ 
+42 
+NOTE: currently a BLUE-USB plug equipped cable being supplied with the 
+G90/S which uses FTDI chips in it to convert from serial-TTL to USB. Earlier a 
+BLACK-USB plug cable using Prolific chips was supplied. You need to 
+download the drivers related to the chipset in your cable from the Radioddity 
+website. (Note if you use Linux or MAC rather than Windows, additional drivers 
+for these operating systems are available at the FTDI website).   
+ Although it is possible to connect using individual audio cables, the DE-19 
+Interface unit (optional purchase) provides more convenient connections. 
+ Adding a few snap-on ferrite RF chokes will protect against RF getting into 
+the audio path. 
+Cable connection steps 
+1. AFTER INSTALLING THE DRIVERS ON THE PC. Insert the USB plug of the 
+serial data cable or the DE-19 unit into the computer. Insert the 3.5mm plug of 
+the cable or from the DE-19 into the communication port on the left side of the 
+G90/S head unit only after the radio has been turned on. (If using a DE-19 
+unit instead of the USB-serial cable, this can be connected before power on). 
+2. Insert the 8-pin ACC cable provided with the DE-19 into the ACC port at the 
+rear of the G90/S base unit and the other end into the corresponding port on 
+the DE-19 (You can also use a CE-19 interface or make up your own direct 
+audio lead ideally with some audio isolation). 
+3.In the case of using the DE-19 unit, one end of the supplied USB cable plugs 
+into the USB-C socket on the DE-19. The other end plugs into any of your PC’s 
+USB-A sockets. 
+NOTE: If you are not using a DE-19 or CE-19 unit you will need to provide a 
+two-way audio path between your PC and the ACC socket on the G90. Older 
+PCs may have separate 3.5mm audio out and audio in ports, more modern ones 
+come with a single (4-connector) socket wired to take a smartphone type 
+headset.  
+4. Either select a data mode e.g. U-D (only after FW 1.79b02 or later has been 
+installed). If using an older firmware level, you will have to set the G90/S to "Line 
+input" mode (i.e. take the audio from the ACC socket rather than from the hand 
+microphone.) and set the G90/S to the appropriate TX mode for the particular 
+digital mode you are going to use. For most digital modes, that is USB. 
+■ Remember to keep the PC audio (speaker) level output low and watch your 
+ALC level when going onto transmit. Raise the PC output level until you see the 
+ALC just start to respond...and then stop. TX power output will be lower than 
+
+============================================================
+PAGE 43
+============================================================
+
+ 
+43 
+the power set as the radio’s power output setting. This is so the signal is 
+perfectly clean for digital operation and to avoid the radio overheating. This is 
+normal procedure for digital modes. 
+■ You can add clamp-on ferrite RF chokes to the USB data cable and the ACC 
+cable if you experience any stray RF getting from the radio into the PC. For 
+better performance, loop the wire through and then around and through the clip-
+on ferrite choke again - then clamp it shut. Additional wire passes through the 
+ferrite choke improve filtering. 
+ 
+The USB-Serial port should be configured on your PC as 19200 bps, 8data bits, 
+no parity, 1 stop bit.   
+Digital Mode Connections 
+ 
+ 
+When using the DE-19 one cable goes from the DE-19 to the PC’s USB port, one to the ACC 
+port and one lead to the COMM port on the head unit. 
+ 
+
+============================================================
+PAGE 44
+============================================================
+
+ 
+44 
+ 
+Schematic Diagram of Wiring for G90/S Data Communication using the older CE-19 box 
+The audio cable is connected as follows:
+AF_OUT: to PC Audio input. 
+AF_IN: from PC audio output. 
+The wiring of the 3.5mm sockets are shown on the CE-19 board. 
+The port labelled X5105 is also for the G90/S and accepts the 8-core  
+cable from the ACC port of the radio. 
+Insert into the USB port of the 
+computer 
+8-core ACC connecting 
+line 
+Left side of the 
+computer 
+XIEGU general data wire
+Insert the cable to 
+the computer 
+audio 
+Input / output 
+port(s) 
+Insert into the communication 
+port on the head unit. 
+
+============================================================
+PAGE 45
+============================================================
+
+ 
+45 
+Connecting the XPA125B amplifier to the G90/S (optional) 
+The G90/S connects to the XPA125B power amplifier using the CE-19 or the 
+newer DE-19 adapter. The XPA-125B’s antenna tuner is rated for full power 
+output from the amplifier (at least 100w). 
+ 
+Diagram of Wiring between G90 and XPA125B using a CE-19 or DE-19 unit 
+Once connected, the G90/S can automatically control the band switching of the 
+XPA125B. The transmit ALC connection is also handled via the CE-19 or DE-
+19 adapter. If the G90/S output power exceeds the maximum input power to the 
+XPA125B, the ALC control automatically decreases the G90/S’s output power 
+to avoid over-driving the amplifier. 
+The output power of the G90/S should be set to be ≤2.5W to protect the 
+amplifier. The amplifier can give full output power with very little drive on the 
+input socket. 
+■ The 8-pin ACC wire is included with the CE-19 or DE-19 kit. The 6-pin ACC 
+wire is included with the XPA125B to work with the CE-19 (an L-4001 cable is 
+required for use the XPA125B with the DE-19). A coax patch lead is required to 
+go from the G90/Ss output port to the amplifiers input port (user supplied) 
+Factory Reset 
+Factory Reset 
+If the radio’s operation becomes abnormal in some way, you can restore the 
+radio to the original factory settings. 
+Operational steps: 
+1. With the radio off, hold the FUNC button in and press the power button quickly 
+on the radio to start the restoration of factory settings. 
+2. Press the [PRE] button to confirm the reset. Press the [VM] button to cancel 
+the operation. 
+■ Default parameters can meet most operating needs. This is a good test to see 
+if your radio is operating normally.    
+ACC interface
+6-core wire
+8-core wire
+
+============================================================
+PAGE 46
+============================================================
+
+ 
+46 
+System Menu 
+The system menu enables a good amount of customization. Many of these are 
+a matter of personal preference. 
+Operation method: Hold the [FUNC] button 1-2 sec. to enter the system menu. 
+The definitions of menu functions are as follows: 
+S/N 
+Menu item 
+Function description 
+1 
+Handle up/down 
+Hand 
+microphone 
+up/down 
+key 
+function setting 
+2 
+Handle F1 
+Hand microphone F1 key function 
+setting 
+3 
+Handle F2 
+Hand microphone F2 key function 
+setting 
+4 
+LCDBL 
+Screen backlight brightness setting 
+5 
+AUX IN Volum 
+ACC port input audio volume setting
+6 
+AUX OUT Volum 
+ACC port output audio volume setting
+7 
+RCLK Tune 
+Reference clock adjustment 
+8 
+Band Stack Mode 
+Band stack setup 
+9 
+ON/OFF Beep 
+ON/OFF of system beep 
+10 
+Version 
+Firmware version No. 
+Description of the labels displayed at the bottom of the screen: 
+PREV: previous page. 
+SAVE: after adjusting the system menu settings, press this key to save and exit. 
+EXIT: exit the system menu interface directly without saving changes. 
+NEXT: next parameter to be adjusted. 
+Use the main VFO tuning dial to change values. 
+Menu item 1: Handle up/down 
+Function: Customize the function of [▲▼] buttons on the hand microphone. 
+Optional value: FREQCH+/- 
+Frequency/channel+/- 
+ 
+BAND+/- 
+Band+/- 
+ 
+VOLUM+/- 
+Volume+/- 
+Default: FREQCH+/- 
+Menu item 2: Handle F1 
+
+============================================================
+PAGE 47
+============================================================
+
+ 
+47 
+Function: Customize the function of [F1] button on the hand microphone. 
+Possible 
+options: 
+PRE/ATT 
+ 
+SPLT 
+NB 
+COMP 
+AGC 
+Default: PRE/ATT 
+Menu item 3: Handle F2 
+Function: Customize the function of [F2] button on the hand microphone. 
+Possible 
+options: 
+PRE/ATT 
+ 
+SPLT 
+NB 
+COMP 
+AGC 
+Default: SPLT 
+Menu item 4: LCD BL 
+Function: Set the brightness of the backlit display 
+Adjustable range: 10%~100% 
+The larger the percentage, the higher the 
+brightness                    Default: 80% 
+Menu item 5: AUX IN Volum 
+Function: Set the volume of ACC port input audio signal 
+Adjustable range: 0~15 
+The larger the value, the greater the volume 
+Default: 8 
+Menu item 6: AUX OUT Volum 
+Function: Set the level (volume) of ACC port output audio signal 
+Adjustable range: 0~15 The larger the value, the greater the volume 
+Default: 15 
+Menu item 7: RCLK Tune 
+Function: Adjust the reference clock of the internal frequency synthesizer. (To 
+correct the frequency accuracy of the radio). 
+Adjustable range: -1000Hz~+1000Hz 
+Default: 0Hz 
+
+============================================================
+PAGE 48
+============================================================
+
+ 
+48 
+i.e.: If you are showing a consistent offset of 20Hz when you are talking to 
+stations, you can adjust the reference frequency by 20Hz to re-calibrate. If you 
+are 20Hz low on your frequency display, set the adjustment to be + 20Hz. 
+Menu item 8: Band Stacking Mode 
+Function: Set band stacking mode. When switching through bands, using the 
+band buttons on the top of the radio or the arrow keys on the microphone, you 
+can include or exclude the shortwave broadcast bands in the rotation. This 
+ONLY affects quick switching between bands – the SW broadcast bands remain 
+receive-only. You can only transmit on the Ham bands with this radio.  
+Options:     HAM Band 
+Only display amateur bands 
+FULL Band 
+Display Amateur and Broadcast bands 
+Default: HAM Band 
+Menu item 9: ON/OFF Beep 
+Function: Enable/disable and the system beep at startup & shutdown. 
+Options: Enable/Disable 
+Default: Enabled 
+Menu item 10: Version 
+Function: Display the firmware version of the head and body. e.g. 
+ 
+BASE: V1.XX       Body firmware version No. 
+APP: V1.XX 
+Head firmware version No. 
+ 
+
+============================================================
+PAGE 49
+============================================================
+
+ 
+49 
+CiV Control Instructions 
+Computer Control Instructions 
+The G90/S uses a subset of the standard CiV CAT instruction set. You can 
+remotely control the transceiver based on standard instructions or configure 
+control instructions for other software. 
+Here are the tables of commands that currently work. With later firmware 
+changes, these could be added to or changed. 
+
+============================================================
+PAGE 50
+============================================================
+
+ 
+50 
+ 
+ 
+Note as at 23-05-2023, function 0x26/0x01 is not working correctly USB-D is 
+reported as USB and LSB-D as LSB from the non-selected VFO. 
+(enquiries to the currently selected VFO are working fine). 
+
+============================================================
+PAGE 51
+============================================================
+
+ 
+51 
+ 
+Although the G90 COMM connector looks the same as the ICOM Ci-V 
+connector, there is a difference – the ICOM® connector is a 3.5mm mono 
+connector and uses one wire for both Tx and Rx data. The XIEGU connector is 
+a stereo plug with Rx and Tx data on separate rings of the plug. 
+Band Voltage Data 
+The ACC socket contains a “BAND” connection which indicates which band is 
+selected by outputting a different voltage for each band. This voltage can be 
+used to control peripherals that require automatic band switching.   
+Wave 
+band 
+Voltage
+Wave 
+band 
+Voltage
+Wave 
+band 
+Voltage
+Wave 
+band 
+Voltage
+1.8MHz
+230mV
+7MHz 
+920mV
+18MHz 1610mV 28MHz 2300mV
+3.5MHz
+460mV
+10MHz 1150mV 21MHz 1840mV
+/ 
+/ 
+5.0MHz
+690mV
+14MHz 1380mV 24MHz 2070mV
+/ 
+/ 
+ 
+ 
+
+============================================================
+PAGE 52
+============================================================
+
+ 
+52 
+Firmware upgrades 
+ 
+Xiegu regularly releases firmware updates for the G90/S. Please go to 
+radioddity.com and follow the Support link. All information for updating your 
+G90/S will be there. The USB cable for performing updates is included with the 
+G90/S or you can perform the upgrade via the (optional) DE-19 unit. Be sure to 
+install the appropriate driver from the Radioddity website on your PC before 
+inserting the USB cable into your PC. 
+WARNING! When using the simple USB-Serial lead for connectivity 
+between PC and radio, turning the radio on with the cable plugged into 
+either the 3.5mm COMM sockets (in the head or main unit), can cause 
+the radio to think you wish to update the firmware and you will have a 
+radio that is non-operative and will have to perform a firmware update 
+before you can use the radio again!! This problem does not occur when 
+using the DE-19. 
+Here is a list of the most recent improvements in the radio’s firmware: 
+What’s new in v1.8 (12th May 2023) 
+UPDATE DISP UNIT ONLY!! 
+1. To work with JTDX/WSJTX (or some other data mode software), added CI-V 
+commands 0x25,0x26. 
+2. Add CI-V command 0x1d/0x19, read the XIEGU RADIO ID. 
+What’s new in v1.79b03 (26th October 2022) 
+Changes: 
+1. Fix AM/NFM filter issue 
+2. New colour map for waterfall 
+What’s new in v1.79b02 (14th October 2022) 
+1. Improved the AGC algorithm.  
+2. Improved the Filter's algorithms.  
+Additional functions/improvements: 
+1. New data mode: U-D; L-D, for USB DIG; LSB DIG，  
+In data mode: ACC port LINE IN is selected as audio in and the hand 
+mic is muted; LINE OUT via the ACC socket is enabled  
+2. The band-pass filter is changed to allow 2 BPF defaults that can be 
+switched between. The default values of each filter by mode are:  
+ 
+ 
+
+============================================================
+PAGE 53
+============================================================
+
+ 
+53 
+ 
+Mode 
+BPF1 
+BPF2 
+Bandwidth 
+(kHz)
+SSB 
+300 ~ 3000
+300 ~ 3000
+2700
+SSB DIG 
+100 ~ 3100
+100 ~ 3100
+3000
+CW 
+-250 ~ 250
+-250 ~ 250
+500
+AM 
+-3000 ~ 3000
+-3000 ~ 3000
+6000
+NFM 
+-4500 ~ 4500
+-4500 ~ 4500
+9000
+Note: Negative numbers for frequency indicate that the frequency being 
+used is to the left of the center of the spectrum (i.e. the lower sideband). 
+4. When in any secondary menu the “FUNC” key now acts as a cancel 
+button and the secondary menu will be exited without saving any data.  
+5. FFT SCALE option is now fixed to AUTO  
+6. Optimized the FFT automatic level algorithm, so that the visual 
+effect is smoother 
+What’s new in v1.78b01 (20th January 2022) 
+This is an update to both the Main Unit and the Display Unit 
+File: G90_MainUnit_FW_V1.78b01 
+1. Fine tuning of AGC algorithm to improve audio quality 
+2. Fix some issues of ALC algorithm 
+   2.1 Tx power indicated more accurately 
+   2.2 Fix the issue that ATU inaccurate or fails to tune 
+ due to the instability of ALC algorithm 
+3. AM Tx power equal to set power 
+4. Display ALC level range as 0-100, 
+    
+Tips: 
+   4.1 If ALC level is 0: you’re over driving, reduce the input signal level. 
+   4.2 If ALC level is 100: you’re under driving, increase input signal level 
+   4.3 When doing Digi-modes, the audio baseband signals are almost of 
+         a constant amplitude, adjust the soundcard volume to set ALC level 
+         between 20 and 80 to get good linearity 
+5. Fixed a built-in keyer bug (had the chance of losing dot/dash when 
+performing squeeze operation) 
+File: G90_DispUnit_FW_V1.78b01 
+1. Add CI-V command for ATU operation 
+
+============================================================
+PAGE 54
+============================================================
+
+ 
+54 
+What’s new in v1.78b (31st December 2021) 
+This is an update only to the Main Unit - the Display Unit firmware should 
+have v 1.77b from March 2021 loaded. 
+ 
+Added the receiving audio Modification filter to improve the sound 
+quality and suppress high-frequency noise components. 
+ 
+Improved the AGC algorithm to eliminate the spike noise caused 
+by it. 
+ 
+Improved the granularity of volume adjustment, the volume value 
+of 0-26 is increased in steps of 1dB, and the volume value of 27-36 
+are increased in steps of 2dB. 
+ 
+The updated version numbers should be as follows (check item 10 
+in the system menu): 
+BASE: 1.78 
+Dec 31 2021,11:59:24 
+APP: 1.77 
+Mar 21 2021,15:31:07 
+What’s new in v1.7.7b (21 March 2021)  
+ Improvements to the AGC algorithm.  
+ Improved the isolation of close to channels (increased by 
+about 30dB).  
+ Eliminated the impact noise of the speaker when switching 
+between receiving and transmitting.  
+ When connected to GSOC, all sounds in CW mode will be 
+played by G90 speakers. If the modem function is turned on, 
+the sound still will be played via the GSOC.  
+Compatibility with GD MCU and ST MCU  
+Note: G90 after the product serial number X04G211600001 must use the firmware 
+version after V1.77 (including 1.77V), if it is updated to the firmware version before 1.77V, 
+it may not work normally. 
+What’s new in v1.7.5  
+1. New system menu operation logic, change system menu item by 
+pressing BAND Up/Down key (Equivalent to press PREV/NEXT) 
+2. New Multi-Function Knob operation logic 
+– Press and hold Multi-Function Knob to enter menu 
+– Rotate Multi-Function Knob to choose desired function 
+– Press Multi-Function Knob to save and exit menu 
+3. New filter Center/BW operation logic 
+4. Narrow FM mode is available but just for testing 
+
+============================================================
+PAGE 55
+============================================================
+
+ 
+55 
+5. Add RF GAIN to Multi-Function Knob function list 
+6. Lower CW Tone volume (-15dB lower than the original level) 
+7. Set Narrow FM modulation frequency deviation to about +/-3.5kHz 
+8. Added Narrow FM SQL 
+What’s new in v1.7.4  
+1. Fixed the problem that MIC Gain is relatively high 
+2. Added auto FFT scale 
+3. Added background VFO frequency display function under channel 
+mode 
+4. Widened the maximum bandwidth of CW filter 
+5. Optimized the filter bandwidth/center frequency point adjustment 
+and CW Tone adjustment range under CW mode 
+– If CW Tone is adjusted under CW or CWR mode, the range of CW 
+Tone is the upper and lower limits of filter under current mode 
+– If CW Tone is not adjusted under CW or CWR mode, the range of 
+CW Tone shall be within the upper and lower limits of filter under 
+CW and CWR mode 
+6. Changed RF GAIN to directly act on receiving channel 
+gain Adjustment range: 1~100% (default: 50%), corresponding gain 
+(on the basis of receiving channel gain): -19.6~+20dB, step=0.4dB 
+– Note: RF GAIN will influence the value of Table S and FFT 
+7. Added microphone filter of SSB mode to attenuate partial low 
+frequency component of microphone signal and improve emission 
+efficiency 
+8. Changed the color of lines in frequency spectrum picture into green 
+and fill color into semitransparent green 
+9. Optimized the encoder to prevent it from interference or impulse as 
+the first one 
+10. Optimized stack and enhanced the stability 
+11. Optimized the control characteristics of AGC and ALC 
+12. Fixed the bug of channel storage function 
+13. Fixed the spectrum display bug during emission 
+14. Fixed the bug of standing wave detection threshold 
+15. Fixed the problem of interrupted voice during low power emission 
+Updated version number can be checked in 10th item of system 
+menu. It takes about 3s to read version information once entering 
+this item) 
+ 
+ 
+
+============================================================
+PAGE 56
+============================================================
+
+ 
+56 
+What’s new in v1.7.3 
+1. Rotate encoder driver is optimized, smoother and less loss of step 
+2. Total RF GAIN=1/4 RF GAIN setting when AGC is off, prevent 
+sudden volume increase 
+3. Rx volume step is optimized 
+4. Lower the MIC GAIN, prevent picking up too much background 
+noise 
+What’s new in v1.7.2 (experimental version) 
+1. CW timing is optimized, solved the issue of randomly losing 
+DOT/DASH. 
+2. T/R switch timing is optimized, faster switching time (t<=53ms). 
+3. Add ALC meter, display below the TX power meter when TXing. It 
+is mainly for digital mode, to get the good linearity. adjust driving 
+level or Line IN volume to make the ALC meter value within 
+30~90. Max level of Line IN should not be more than 600mVp-p, or 
+it will overload the input amplifier. 
+4. PO meter is optimized, more accurate. 
+5. Rotate encoder driver is optimized, less losing of steps. 
+6. ACC LINE OUT is optimized, main volume will not affect its output 
+level anymore. 
+7. ACC Band Voltage switching output is optimized, solved the issue of 
+wrong voltage for 12m band. 
+8. TS max digit change from 10k to 100k when pushing the main knob. 
+9. RIT function added: Press and hold main knob to activate. 
+What’s new in v1.7.1 
+1. RF Gain Control: After a long press of the AGC button. Rotate the main 
+VFO knob to change the RF gain (this does not affect the S meter or 
+FFT scales). 
+2. DSP Filter: A momentary press of the multi-function knob allows setting 
+of the DSP center frequency and the bandwidth of the filter. 
+3. 
+FFT Averaging: Pressing the FUNC button and then the LOCK button 
+opens the setting of the averaging function. Adjust it to your personal 
+preference. 
+ 
+Copyright Statement 
+All Rights Reserved, 2022 
+Chongqing Xiegu Technology Co., Ltd. reserves all rights of the manual. All parts of the 
+manual shall not be copied without permission.                              1010160204-C 

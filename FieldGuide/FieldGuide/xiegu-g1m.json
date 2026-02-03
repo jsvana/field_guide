@@ -1,0 +1,215 @@
+{
+  "radio": {
+    "id": "xiegu-g1m",
+    "manufacturer": "Xiegu",
+    "model": "G1M",
+    "revision": "V3.0",
+    "pdfFilename": "Xiegu_G1M_User_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Xiegu G1M (SDR version) is a 5W portable QRP transceiver with SDR structure based on 16-bit CODEC sampling. Features include spectrum display, AM broadcast reception, CW Trainer function with full break-in support, and adaptive speech noise reduction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rotate the power/volume switch to turn on or off. After power on, continue rotating to adjust volume. The frequency knob changes the current frequency; light press switches between function menu pages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Light press LOCK to switch menu pages. Hold LOCK for 2 seconds to lock all button operations. The five multi-function buttons at the bottom correspond to displayed menu functions."
+        },
+        {
+          "type": "note",
+          "text": "The G1M provides HF continuous reception, support for amateur data communication, and computer online control via the COMM interface."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Light press the main knob to switch between the four menu pages. Each page has five function options corresponding to the multi-function buttons. Short press activates the primary function; hold press activates the secondary function."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MD (Mode)",
+          "description": "Short press: cycle through operating modes. Hold press: toggle preamplifier on/off."
+        },
+        {
+          "type": "menuEntry",
+          "name": "B-/B+ (Band)",
+          "description": "Short press: decrease/increase band. Hold press: store channel (B-) or clear channel (B+)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "TS (Tuning Step)",
+          "description": "Short press: select step position. Hold press: step back one position."
+        },
+        {
+          "type": "menuEntry",
+          "name": "A/B",
+          "description": "Short press: switch between VFOs. Hold press: switch between frequency and channel mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CSN (Call Sign)",
+          "description": "Set your call sign for the boot display."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SCL (Scale)",
+          "description": "Adjust spectrum display scale/sensitivity."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KEY interface is a 3.5mm stereo jack for manual or automatic telegraph keys. The CW Trainer function supports full QSK break-in operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "KS (Key Speed)",
+          "description": "Set automatic keyer rate."
+        },
+        {
+          "type": "menuEntry",
+          "name": "KM (Key Mode)",
+          "description": "Set automatic key mode. Hold press adjusts CW sidetone rate."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IMB (Iambic)",
+          "description": "Select Iambic A or Iambic B mode. Hold press adjusts code ratio."
+        },
+        {
+          "type": "menuEntry",
+          "name": "QSK",
+          "description": "Toggle QSK (full break-in) on/off. Hold press adjusts QSK timing."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G1M features an 800Hz narrowband CW digital filter for clearer CW reception. Adaptive speech noise reduction improves audio quality in challenging conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The spectrum display shows band activity with adjustable scale (SCL) settings. Use the DIS menu option to select different display modes."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G1M uses 13.8V external DC power through a 5.5x2.5mm DC socket. The power supply must provide at least 3A current capacity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect the white core wire to positive and metal shielded wire to negative. An EMC magnetic ring on the power line (installed closest to the radio) helps prevent interference."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "13.8V DC"
+        },
+        {
+          "type": "specification",
+          "name": "Current Requirement",
+          "value": "3A minimum"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "5W"
+        },
+        {
+          "type": "warning",
+          "text": "Carefully check polarity before connection. The limited warranty does not cover damage from external power connection errors or abnormal voltage."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G1M does not have a built-in automatic antenna tuner. Use an external ATU or resonant antennas matched to 50 ohms."
+        },
+        {
+          "type": "note",
+          "text": "The BNC antenna interface has 50Ω impedance. Ensure your antenna system presents acceptable SWR before transmitting."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "G1M Technical Specifications",
+          "rows": [
+            ["Architecture", "SDR with 16-bit CODEC"],
+            ["Frequency Range", "HF four bands + continuous RX"],
+            ["Output Power", "5W"],
+            ["Display", "OLED with spectrum"],
+            ["CW Filter", "800 Hz narrowband digital"],
+            ["Antenna", "50Ω BNC"],
+            ["Supply Voltage", "13.8V DC"],
+            ["Features", "QSK, CW Trainer, Noise Reduction"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Controls locked",
+          "description": "Hold LOCK button for 2 seconds to unlock all button operations."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Spectrum scale too sensitive",
+          "description": "Use the SCL menu option to adjust spectrum display scale for current band conditions."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No preamplifier",
+          "description": "Hold press the MD (Mode) button to toggle the preamplifier on/off."
+        },
+        {
+          "type": "menuEntry",
+          "name": "System beep",
+          "description": "Use the BP menu option to enable or disable the system tone."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Split operation",
+          "description": "Use the SPL menu option to configure different frequency transmit/receive operation."
+        }
+      ]
+    }
+  ]
+}

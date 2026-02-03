@@ -1,0 +1,568 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+ 
+ 
+ 
+XIEGU 
+                                   
+G1M 
+HF Four Band Portable SDR Transceiver 
+ 
+Operation Manual 
+V2.0- beta ver 
+G-CORE 
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+The new generation G1M (SDR version) is a 5W portable QRP model with SDR structure. Its core is based on 
+16bit-CODEC sampling and has excellent performance. The newly added AM broadcast reception capability allows you 
+to listen to news broadcasts from around the world; the 800Hz narrowband CW digital filter makes transmission easier 
+and clearer. 
+As an entry-level SDR portable, G1M (SDR version) will provide you with as many new technology experiences as 
+possible. 
+ 
+Basic Features: 
+High performance SDR core circuit design 
+New spectrum display function 
+Added AM broadcast receiving mode 
+Added CW Trainer function (supports full insertion) 
+Adaptive speech noise reduction 
+HF continuous reception 
+Support for amateur data communication 
+Support computer online control 
+In order to better experience the Rig, please read this manual carefully before use to fully understand the operation 
+of G1M.
+1 
+
+============================================================
+PAGE 3
+============================================================
+
+面板按键 
+1   Power switch / volume                              
+○ 
+Rotate the switch to turn the device on or 
+off; 
+○ 
+After turning the power on, turn the switch 
+knob to increase or decrease the volume of 
+the device.    
+2   MIC interface 
+External mic interface 
+3   Multi-function button 
+Menu functions for the screen; 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4   LOCK Lock button 
+○ 
+Light press this button to switch the current menu page； 
+○ 
+Hold press the button for 2s to lock the button 
+operation. 
+5   Display screen 
+OLED Display screen 
+6   Frequency knob 
+○ 
+Rotate this knob to change the current 
+frequency value； 
+○ 
+Light press this knob to turn the current 
+function menu. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1
+2
+3
+4
+5
+6
+2 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+7 Antenna interface 
+BNC model，impedance 50Ω。 
+8 ACC interface 
+Output band voltage signal and PTT signal. See below. 
+9 COMM interface 
+PC Communication interface / firmware upgrade interface 
+10 KEY interface 
+ This interface is a 3.5mm stereo jack (3-pin) for 
+connecting manual or automatic telegraph keys. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11 SPK External speaker interface 
+   This interface is a 3.5mm stereo jack (3 cord) for connecting 
+external passive speakers. The interface definition is as 
+follows. 
+12 DC IN external DC power interface 
+This interface is a 5.5*2.5mm DC power socket. 
+13 Grounding screw nut 
+Ground connection for equipment.
+13
+12
+11
+10
+9
+8
+7
+3 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+1、 MIC 
+ 
+ 
+ 
+ 
+ 
+Note: The MIC pin has a bias voltage and cannot be 
+shorted. 
+ 
+2、 COMM 
+ 
+ 
+ 
+ 
+ 
+ 
+3、 SPK 
+ 
+ 
+ 
+ 
+4、ACC 
+ 
+ 
+ 
+ 
+ 
+ 
+5、Telegraph key lead connection method: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TXD
+RXD
+GND
+音频信号
+音频信号
+GND
+MIC
+PTT
+GND
+波段电压
+PTT
+GND
+4 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+The G1M can use a 13.8V external DC power supply. The DC power supply has a current load capacity of at least 3A. The supplied 
+power cord can be used to connect radio and DC power. 
+When connecting the DC power supply, please carefully connect according to the following figure to avoid the polarity of the power 
+supply being reversed. 
+The white core wire is connected to the positive pole of the power supply, and the metal 
+shielded wire is connected to the negative pole of the power supply. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+白色线
+金属屏蔽线
+POWER SUPPLY
+VOLT  ADJ
++
+-
+ON
+OFF
+5 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+When the G1M uses an external power supply, in order to prevent external interference from entering the radio through the power 
+line, and radio frequency interference in the radio radiates outward through the power line, an EMC magnetic ring can be placed on the 
+power line. Install the magnetic ring as close as possible to the side of the power plug. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When using an external power supply, carefully check the polarity of the power cord to 
+prevent the polarity from being reversed. 
+ 
+The limited warranty of this radio does not include damage caused by an external power 
+connection error, or damage caused by abnormal power supply voltage.。 
+ 
+ 
+6 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+The G1M uses the multi-function menu mode for various functions to be used or turned off. All functions are distributed in different menu 
+pages, and each menu has 5 function options. 
+The operation is as follows: 
+Light press the main knob to switch the four-page menu in turn. 
+ 
+ 
+ 
+ 
+ 
+ 
+The five multi-function buttons at the bottom of the screen correspond to the displayed function menu. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+multi-function buttons 
+main knob 
+7 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Light press the "lock" button to switch the menu page. 
+Hold press the "lock" button to lock the button operation 
+ 
+Menu 
+page 
+Button mode 
+Features 
+1 
+  
+MD 
+B- 
+B+ 
+TS 
+A/B 
+Light press 
+Mode switching 
+Band subtraction 
+Band increase 
+Step bit selection 
+VFO switching 
+Hold press 
+Preamplifier 
+switch 
+Channel storage 
+Clear channel 
+Step back 1 bit 
+Frequency/channel 
+mode switching 
+2 
+  
+KS 
+KM 
+IMB 
+QSK 
+CSN 
+Light press 
+Automatic key 
+rate setting 
+Auto key mode 
+setting 
+Iambic A/B select 
+QSK switch 
+Boot call setting 
+Hold press 
+/ 
+CW Sidetone rate 
+setting 
+Code ratio setting 
+QSK time setting 
+/ 
+3 
+  
+SCL 
+DIS 
+SPL 
+BP 
+/ 
+Light press 
+Spectrum SCALE 
+setting 
+Display mode 
+selection 
+Different 
+frequency setting 
+System tone 
+switch 
+/ 
+Hold press 
+/ 
+/ 
+/ 
+/ 
+/ 
+ 
+8 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+The G1M uses an OLED display screen that displays all status information for the convenience of the user. The visual effect in outdoor 
+sunlight is also very good. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NOTE：收发状态：Transmission status；工作模式：Operating mode:  工作频率显示区：Working frequency 
+display area；工作状态显示区：Work status display area； 频谱 /菜单区：Spectrum / menu area 
+ 
+9 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Connection to a computer 
+The G1M can be connected to a computer and controlled with the associated software. 
+ 
+Connection cable method: 
+1. Install the driver for the data cable on the PC side. 
+2. Plug the data cable into the COMM port and connect the G1M to the computer. 
+3. Run the corresponding computer software. 
+ 
+ 
+When using software such as HRD, G1M must be in VFO mode， cannot be in channel mode, otherwise it will not be able to connect. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+10 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+ 
+Computer control instruction 
+ 
+G1M uses the standard CIV instruction set. You can use the standard 
+instructions of this instruction set to remotely control the transceiver.  
+You can also configure the control instructions of other software to 
+control the G1M. 
+ 
+ 
+ 
+Band voltage data 
+G1M's ACC port provides band data for four bands. The band data can control the peripheral device to automatically switch the band or 
+share the band information with other devices. 
+Band 
+Voltage 
+Band 
+Voltage 
+Band 
+Voltage 
+Band 
+Voltage 
+3.5MHz 
+460mV 
+7MHz 
+920mV 
+14MHz 
+1380mV 
+21MHz 
+1840mV 
+ 
+ 
+In the other frequency bands except the above four amateur bands, the band voltage is uniformly outputted at a high level, 5V. 
+ 
+ 
+ 
+11 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Parameters 
+Receiving frequency：0.5～30MHz（Continuous） 
+Transmitting frequency： 3.5～4.0MHz 
+                      7.0～7.3MHz 
+14.0～14.35MHz 
+21.0～21.45MHz 
+Operating mode：     SSB/CW/AM(AM Used only to receive broadcasts) 
+Receiving sensitivity：   0.45uV @12dB SINAD 
+Transmit power：     5W @13.8V DC 
+Spurious suppression： ≥45dB 
+Frequency stability：   ±1.5ppm （30 minutes after turning on the power）  
+Audio output power： 0.5W 
+Operating Voltage：     12～15V DC 
+stand-by current：     0.5A @Max 
+Transmitting current：     2.5A @Max 
+Case size:：     97*40*155 (mm) 
+ 
+12 
+
+============================================================
+PAGE 14
+============================================================
+
+装箱清单 
+ 
+Standard packing items 
+ 
+G1M：1 PCS 
+ 
+mic：1 pcs 
+ 
+POWER CABLE：  1pcs 
+ 
+User manual：  1pcs 
+ 
+Certificate：  1pcs 
+ 
+Warranty Card：  1pcs 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+13 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+ 
+ 
+ 
+ 
+ 
+Copyright 2018 
+Chongqing Xiegu Technology Co., Ltd. reserves all rights to this manual, and reproduction of any 
+part of this manual is prohibited without permission. 
+------------------------------------------------------------------------------------------------ 
+ 
+ 
+ 
+ 
+ 
+ 
+V2.0 
+1010160206-C 
+14 
+
+============================================================
+PAGE 16
+============================================================
+
+This device complies with part 15 of the FCC Rules. Operation is subject to the following two 
+conditions: (1) this device may not cause harmful interference, and (2) this device must accept 
+any interference received, including interference that may cause undesired operation. 
+Any changes or modifications not expressly approved by the party responsible for compliance 
+could void the user's authority to operate the equipment. 
+NOTE: This equipment has been tested and found to comply with the limits for a Class B 
+digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide 
+reasonable protection against harmful interference in a residential installation. This equipment 
+generates, uses and can radiate radio frequency energy and, if not installed and used in 
+accordance with the instructions, may cause harmful interference to radio communications. 
+However, there is no guarantee that interference will not occur in a particular installation. 
+If this equipment does cause harmful interference to radio or television reception, 
+which can be determined by turning the equipment off and on, the user is encouraged to try to 
+correct the interference by one or more of the following measures: 
+-- Reorient or relocate the receiving antenna. 
+-- Increase the separation between the equipment and receiver. 
+-- Connect the equipment into an outlet on a circuit different 
+from that to which the receiver is connected. 
+-- Consult the dealer or an experienced radio/TV technician for help. 

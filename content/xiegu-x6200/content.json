@@ -1,0 +1,182 @@
+{
+  "radio": {
+    "id": "xiegu-x6200",
+    "manufacturer": "Xiegu",
+    "model": "X6200",
+    "revision": "Rev 05",
+    "pdfFilename": "Xiegu_X6200_User_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Xiegu X6200 is an ultra-portable HF/50MHz transceiver using RF direct sampling (DRFS) architecture. The powerful baseband and RF unit provides higher receiver sensitivity and lower noise coefficient. It features a built-in automatic antenna tuner, integrated modem, preset messaging, and USB interface for one-cable data transmission and control."
+        },
+        {
+          "type": "paragraph",
+          "text": "To start: Short press the power button until the logo light turns green, then release and wait for the system to start up. To shut down: Hold the power button until the display exits, then release. Wait at least 5 seconds between shutdown and startup."
+        },
+        {
+          "type": "paragraph",
+          "text": "The main knob adjusts frequency. The MFK (multi-function knob) inner circle adjusts frequency by default, outer circle adjusts power. The VOL/SQL/RFG knob controls volume by default - press once for squelch, press again for RF gain."
+        },
+        {
+          "type": "warning",
+          "text": "Always perform correct shutdown - do not forcibly power off to avoid damage to internal memory."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Press GEN to access general settings, APP for function menu, KEY for keyer settings, MSG for message editing, DFN for digital functions, and DFL for digital filter settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Radio Settings 1",
+          "description": "Contains handle button customization, charging control, AUX volume settings, and microphone gain."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Radio Settings 2",
+          "description": "Contains reference clock tuning, band stacking mode, beep settings, and firmware version display."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DISPLAY Menu",
+          "description": "Configure screen brightness, color schemes, spectrum display settings, and waterfall parameters."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SYSTEM Menu",
+          "description": "Set time, view system information, update firmware, restore factory settings, configure WiFi and Bluetooth."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MEMORY Menu",
+          "description": "Store and recall frequency memories with associated settings."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KEY port is a 3.5mm stereo interface for manual or automatic keys. Press the KEY button to access keyer settings including speed, mode, sidetone, and QSK configuration."
+        },
+        {
+          "type": "paragraph",
+          "text": "For a straight key with 6.5mm 2-core plug, change to a 3-core 3.5mm stereo plug and connect the trigger end to either the 'Di' or 'Da' terminal."
+        },
+        {
+          "type": "warning",
+          "text": "Direct use of 2-core to 3-core adapters or incorrect wiring may keep the radio in CW transmit mode. Cut off power before connecting or disconnecting the key. Plugging/unplugging while powered on may trigger transmission."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Press DFL to access digital filter settings. The X6200 provides variable bandwidth filtering with adjustable high and low cutoff frequencies for each mode."
+        },
+        {
+          "type": "paragraph",
+          "text": "The DFN button accesses digital functions including noise reduction, noise blanker, notch filter, and other DSP features to improve reception in challenging conditions."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The X6200 has a built-in lithium-ion battery and can also operate from external DC power (max 15V). The battery is installed on the back panel - do not hit or expose to temperatures above 50°C."
+        },
+        {
+          "type": "paragraph",
+          "text": "Battery service life is about 2 years with approximately 300 charge cycles. Maintain 40-50% charge for long-term storage. Do not leave fully charged or discharged for extended periods."
+        },
+        {
+          "type": "warning",
+          "text": "Do not apply AC power or more than 15V DC to the power interface. Do not reverse polarity. Do not charge in vehicles under direct sunlight. Pay attention during charging and stop immediately if any abnormality occurs."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Press ATU briefly to bring the built-in antenna tuner in-circuit. Long press ATU to initiate automatic antenna tuning. The tuner will search for the best match for your antenna."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the SWR SCAN function to scan standing wave values across a frequency range. This helps identify your antenna's resonant frequency and optimize performance."
+        },
+        {
+          "type": "note",
+          "text": "When using monopole antennas (end-fed, long-wire), ensure proper grounding of both antenna and radio. Add EMC ferrite rings on the feeder and connection cables near the radio to reduce RF interference."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "X6200 Technical Specifications",
+          "rows": [
+            ["Architecture", "RF Direct Sampling (DRFS)"],
+            ["Frequency Range", "HF + 50 MHz"],
+            ["Operating Modes", "Full mode (SSB/CW/AM/FM + data)"],
+            ["Additional RX", "WFM broadcast, aviation band"],
+            ["Built-in Features", "ATU, modem, preset messages, Bluetooth, WiFi"],
+            ["USB Interface", "One-cable data, control, and CAT"],
+            ["Storage Temperature", "-10°C to +50°C"],
+            ["Battery", "Built-in lithium-ion (removable panel)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Radio won't start",
+          "description": "Short press power button until logo light turns green, then release. Wait at least 5 seconds after shutdown before restarting."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Radio overheating",
+          "description": "The device may get extremely hot after continuous transmitting (especially FT8). Reduce power to ≤5W for data modes, extend transmitting intervals, and improve ventilation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "WiFi/Bluetooth interference",
+          "description": "Other wireless devices (mouse, keyboard, router) in the same frequency band may cause unstable connections. Move away from other devices or stop using them."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Forced shutdown",
+          "description": "If the radio becomes unresponsive, a forced shutdown procedure is available - see SYSTEM menu for details."
+        }
+      ]
+    }
+  ]
+}

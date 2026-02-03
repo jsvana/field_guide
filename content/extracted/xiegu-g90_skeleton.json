@@ -1,0 +1,258 @@
+{
+  "radio": {
+    "id": "xiegu-g90",
+    "manufacturer": "Xiegu",
+    "model": "G90",
+    "revision": "V4.31",
+    "pdfFilename": "Xiegu_G90_User_Manual_V4.31.pdf"
+  },
+  "sections": [
+    {
+      "id": "xiegu-g90-operation-basics",
+      "title": "Operation Basics",
+      "sortOrder": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Operation Basics content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g90-menu-system-reference",
+      "title": "Menu System Reference",
+      "sortOrder": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Menu System Reference content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g90-cw-keyer-settings",
+      "title": "CW/Keyer Settings",
+      "sortOrder": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract CW/Keyer Settings content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g90-filters-and-dsp",
+      "title": "Filters & DSP",
+      "sortOrder": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Filters & DSP content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g90-power-and-battery",
+      "title": "Power & Battery",
+      "sortOrder": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Power & Battery content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g90-atu-operation",
+      "title": "ATU Operation",
+      "sortOrder": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract ATU Operation content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g90-specifications",
+      "title": "Specifications",
+      "sortOrder": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Specifications content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g90-quick-troubleshooting",
+      "title": "Quick Troubleshooting",
+      "sortOrder": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Quick Troubleshooting content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    }
+  ],
+  "_extractedTOC": [
+    {
+      "title": "INDEX \nAbout Radioddity",
+      "page": 3
+    },
+    {
+      "title": "Warnings",
+      "page": 4
+    },
+    {
+      "title": "Copyright",
+      "page": 4
+    },
+    {
+      "title": "Introduction",
+      "page": 5
+    },
+    {
+      "title": "Specifications",
+      "page": 8
+    },
+    {
+      "title": "Accessories and optional components",
+      "page": 10
+    },
+    {
+      "title": "Interface Definition",
+      "page": 11
+    },
+    {
+      "title": "Machine Interface - Rear Panel",
+      "page": 13
+    },
+    {
+      "title": "Hand Microphone Buttons",
+      "page": 16
+    },
+    {
+      "title": "Power Source Connection",
+      "page": 17
+    },
+    {
+      "title": "Button Functions",
+      "page": 18
+    },
+    {
+      "title": "Screen Display Icons",
+      "page": 19
+    },
+    {
+      "title": "Operation",
+      "page": 21
+    },
+    {
+      "title": "Transceiver start and shutdown",
+      "page": 21
+    },
+    {
+      "title": "Selection of Working Frequency Range",
+      "page": 22
+    },
+    {
+      "title": "Operating Mode Selection",
+      "page": 23
+    },
+    {
+      "title": "Volume adjustment",
+      "page": 23
+    },
+    {
+      "title": "Call Sign Editor",
+      "page": 24
+    },
+    {
+      "title": "Adjustment of RF Gain and Muting Level",
+      "page": 25
+    },
+    {
+      "title": "Reception and Transmission Operations using SPL and VFOA/B",
+      "page": 27
+    },
+    {
+      "title": "Voice Compression CMP",
+      "page": 30
+    },
+    {
+      "title": "CW Keyer settings",
+      "page": 31
+    },
+    {
+      "title": "SSB Voice Communication",
+      "page": 32
+    },
+    {
+      "title": "Voice-controlled Transmit - VOX",
+      "page": 33
+    },
+    {
+      "title": "Automatic Antenna Tuner",
+      "page": 34
+    },
+    {
+      "title": "Standing-wave Scanner SWR",
+      "page": 34
+    },
+    {
+      "title": "Line Input and Output",
+      "page": 36
+    },
+    {
+      "title": "Transmitter Power Setting",
+      "page": 37
+    },
+    {
+      "title": "Spectrum/ Waterfall Display",
+      "page": 40
+    },
+    {
+      "title": "Data Communication",
+      "page": 41
+    },
+    {
+      "title": "Cable connection steps",
+      "page": 42
+    },
+    {
+      "title": "Digital Mode Connections",
+      "page": 43
+    },
+    {
+      "title": "Factory Reset",
+      "page": 45
+    },
+    {
+      "title": "System Menu",
+      "page": 46
+    },
+    {
+      "title": "CiV Control Instructions",
+      "page": 49
+    },
+    {
+      "title": "Band Voltage Data",
+      "page": 51
+    },
+    {
+      "title": "Firmware upgrades",
+      "page": 52
+    }
+  ],
+  "_pageCount": 56
+}

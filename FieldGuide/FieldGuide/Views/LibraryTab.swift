@@ -7,7 +7,8 @@ import SwiftData
 import SwiftUI
 
 struct LibraryTab: View {
-    @Query(sort: \Radio.model) private var radios: [Radio]
+    @Query(sort: [SortDescriptor(\Radio.manufacturer), SortDescriptor(\Radio.model)]) private
+        var radios: [Radio]
 
     private let columns = [
         GridItem(.flexible()),

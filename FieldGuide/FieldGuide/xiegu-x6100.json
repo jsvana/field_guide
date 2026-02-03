@@ -1,0 +1,179 @@
+{
+  "radio": {
+    "id": "xiegu-x6100",
+    "manufacturer": "Xiegu",
+    "model": "X6100",
+    "revision": "2021-11-23",
+    "pdfFilename": "Xiegu_X6100_User_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Xiegu X6100 is an ultra-portable HF/50MHz transceiver using high-performing SDR software radio platform architecture. It features transmit/receive separated dual-channel structure, 24-bit sampling, and a large dynamic RF front-end unit for excellent radio performance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Power output is 10W with external power supply or 5W on battery. The radio integrates a 4-inch high-resolution color screen (800x480), 3000mAh 12V lithium battery, automatic antenna tuner, standing wave scanner, voice pager, and modem capabilities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Press and hold the power button to turn on. Press and hold for 1 second to turn off. Long press the Lock button (1s) to lock panel controls; press again to unlock. The indicator light is green when receiving, red when transmitting."
+        },
+        {
+          "type": "note",
+          "text": "Built-in Bluetooth and WiFi enable wireless audio, keyboard and mouse operation. Integrated USB supports line control and transmission with USB HOST capability."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The X6100 uses button-based menu access: GEN for general settings, KEY for keyer settings, DFN for digital functions, APP for function menu, MSG for messages, and DFL for digital filter."
+        },
+        {
+          "type": "menuEntry",
+          "name": "GEN (General Settings)",
+          "description": "Access main radio configuration including handle customization, charging settings, audio levels, and system parameters."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VOL/SQL/RFG Knob",
+          "description": "Default: volume control. Press once for squelch depth adjustment. Press again for RF gain adjustment."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MFK (Multi-Function Knob)",
+          "description": "Customizable dual-ring knob. Default inner ring adjusts frequency, outer ring can be configured for various functions."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Press KEY to access keyer settings. The KEY port is a 3.5mm stereo interface for manual or automatic keys. For straight keys with 6.5mm 2-core plugs, rewire to 3.5mm stereo with correct Di/Da connections."
+        },
+        {
+          "type": "warning",
+          "text": "Incorrect wiring or direct 2-core to 3-core adapters may keep the radio in CW transmit mode. Cut power before connecting/disconnecting keys. Plugging in while powered may trigger transmission."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The X6100 includes a variable bandwidth digital filter, digital noise reduction, digital notch, and direct decoding of amateur data modes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Press DFL to access digital filter settings with adjustable bandwidth. Press DFN for digital functions including noise reduction and notch filtering."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The X6100 has a built-in 3000mAh 12V lithium battery providing 5W output. External 13.8V DC power (minimum 3.5A capacity) enables 10W output. Use the supplied power cable and observe correct polarity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Use the accompanying charging adapter - plug AC into mains and output into DC interface (enable charging in General Settings Menu 1). Full charge takes about 6 hours."
+        },
+        {
+          "type": "specification",
+          "name": "Battery Capacity",
+          "value": "3000 mAh @ 12V"
+        },
+        {
+          "type": "specification",
+          "name": "External Power",
+          "value": "13.8V DC, 3.5A minimum"
+        },
+        {
+          "type": "specification",
+          "name": "Battery Life",
+          "value": "3-4 years, 300-500 charge cycles"
+        },
+        {
+          "type": "warning",
+          "text": "Do not apply AC power or exceed 15V DC. Do not reverse polarity. Store battery at 40-50% charge for long periods. Operating temperature range: -10°C to +55°C."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Press ATU briefly to bring the built-in automatic antenna tuner in-circuit. Long press ATU or press TUNER on the hand microphone to start automatic tuning."
+        },
+        {
+          "type": "paragraph",
+          "text": "The integrated standing wave scanner helps optimize antenna performance by showing SWR across a frequency range."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "X6100 Technical Specifications",
+          "rows": [
+            ["Frequency Range", "HF + 50 MHz"],
+            ["Operating Modes", "Full mode (SSB/CW/AM/FM + data)"],
+            ["Output Power", "10W (external) / 5W (battery)"],
+            ["Display", "4-inch color TFT (800x480)"],
+            ["Battery", "3000 mAh @ 12V built-in"],
+            ["Built-in Features", "ATU, Bluetooth, WiFi, USB Host"],
+            ["Clock Source", "High-stability TCXO"],
+            ["Operating Temperature", "-10°C to +55°C"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Radio overheating",
+          "description": "After continuous transmitting (especially FT8), extend transmitting intervals and improve external heat dissipation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Bluetooth/WiFi issues",
+          "description": "Other wireless devices in the same band may cause interference. Move away from other devices or stop using them."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Battery low warnings",
+          "description": "Transmit function disables at 7.4V. Radio forces shutdown at 7.2V to protect battery. Recharge promptly."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Stereo headphone issues",
+          "description": "The S/P port is stereo - using a mono plug will cause short circuit or silence. Use stereo plugs only."
+        }
+      ]
+    }
+  ]
+}

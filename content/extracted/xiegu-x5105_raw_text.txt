@@ -1,0 +1,2539 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+ 
+HF/50MHz Portable HF Transceiver 
+X5105 
+Instruction Manual 
+ 
+ 
+ 
+Chongqing Xiegu Technology Co.,Ltd. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                              
+                                            
+V1.0.04-02 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+Catalogue 
+1 
+Introduction………………………………………………………2 
+Panel Control & Switches.………………………………...3 
+Left-side Jack….....................................................6 
+Right-Side Jack……………………………………….…………7 
+Hand Microphone Functions…………………….………8  
+External Interface…………………………………….……….9  
+Internal Battery Charging & Maintenance……..10  
+External Power Supply Interface……………….….12  
+Menu Operation…………………………………….……….14  
+User menu…………………………………………..…….15  
+LCD……………………………..……………………...…….16 
+   On/Off Transceiver………………..…….……….……17  
+Battery level / voltage……………………...……….18  
+Operating Band Selection……………….…………19  
+Operating Mode Selection…………….……..…..20  
+Adjusting the Audio Volume Level………..……21  
+Adjusting Power output (Po)……………….….…22 
+Built-in PTT button………………………………..…..23  
+Setting operating frequency………………..…….24  
+Automatic antenna tuner (ATU)……………..….25 
+Receiver Incremental Tuning(RIT) ………….….26  
+Automatic gain control(AGC)……………….….27 
+Pre-amplification/Front end Attenuator....28 
+Noise Blanker(NB)………………………………..…29 
+Data Modem (MDN)……………………..………..30 
+SPL & VFO Setting…………………………….…….31 
+VFO/MEMO mode Switching…………………..32 
+Locking Front Panel Controls/Turning The 
+Poor Light On /Off……………………………….….33 
+CW transmission………………………………..…..34 
+CW AUTO transmission……………………………36 
+Standing Wave Ratio Scanner(SWR)…………37 
+Digital Audio Filter (AFF)…………………...……38 
+Built-in or External MIC / line Input 
+Selection……………………………………………….…39 
+    Speaker/Headset Mode Switching(SPK)……40 
+    Memory Storage( MW)………………….……….41 
+    Channel Tag (TAG) ………………………………….42 
+    Card Sign Number(CSN)……………….…………43 
+    Data communication with computer……...44 
+  Deploying System Parameter……………….……45 
+  Reset…………………………………….………….………..47 
+Parameter Configuration Chart…………….……….48 
+Computer control Command…………….………..….49 
+Band Voltage Data Chart…………………….………….49  
+Specifications………………………..……..…………………50 
+Packing List……………………..………………..……….…..51  
+XieGu Radio Products Connections With XPA125 
+Amplifier Chart………………………………………….….52  
+CE-19 expansion card interfacing……………...….53  
+
+============================================================
+PAGE 3
+============================================================
+
+Panel button 
+2 
+X5105 is a short-wave all-mode transceiver that is pretty interfaceable, which integrates all the functions required for 
+shortwave amateur radio operation in a very limited volume, and realizes a interfaceable / mobile shortwave device in a real 
+sense. Its powerful functions and performances make it easy for you to respond to various situations and receive signals 
+from around the world. 
+ 
+HF+50MHz all mode 5W output 
+ 
+Extremely small size, about 168*93*47mm,interfaceable 
+ 
+3.6-inch large screen lattice LCD 
+ 
+Built-in large-capacity lithium battery pack（3800mAh @ 12V） 
+ 
+Built-in automatic antenna tuner 
+ 
+Built-in digital baseband, can achieve many advanced functions:  
+ 
+Digital noise reduction NR 
+ 
+Digital NOTCH 
+ 
+Digital filter 
+ 
+Direct decoding of amateur radio data mode 
+ 
+With external adapters, data communication can be done directly without the need for a PC or a separate modem 
+ 
+CW automatic calling unit 
+ 
+Built-in high stability TCXO 
+ 
+Manual button / automatic button mode switch 
+ 
+Wide working voltage range 
+For a better experience of this machine , read this manual carefully before use so as to fully understand the operation 
+method of the X5105 . 
+
+============================================================
+PAGE 4
+============================================================
+
+Panel button 
+3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+11
+22
+23
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+A
+B
+C
+
+============================================================
+PAGE 5
+============================================================
+
+Panel button 
+4 
+1   Power switch 
+Press this  button for one second to turn 
+on or off the radio. 
+2   MODE button 
+short press this button changes the 
+current mode of work and cycles in the 
+following order:  
+[ LSB-USB-CW-CWR-NFM-AM ] 
+3   PRE/ATT button 
+Short press this button will turn on or off 
+the preamplifier or attenuator in the 
+following state:  
+[ PRE=ON---ATT=ON---PRE/ATT=OFF
+ ] 
+4   RIT button 
+Short press this button to turn on receive 
+frequency trim function. 
+5   NB button 
+Short press this button will turn NB 
+function on or off. 
+6   MENU button 
+Short press this button will switch the 
+multifunction menu currently displayed. 
+7～10  Multifunction menu button 
+Short press these four buttons to turn on 
+or off the corresponding functionality 
+displayed in the menu area on the current 
+screen. 
+11  LOCK button 
+Short press this button will lock all 
+button, knob action on the panel; 
+Long press this button for 1s, sets the 
+screen backlight to turn off / on. 
+12  Main knob 
+      The main tuning knob of the station, it 
+can be used not only for frequency 
+regulation, 
+but 
+also 
+for 
+setting 
+parameters. 
+13  ATU button 
+      Short press this button, the automatic 
+antenna tuner will be connected to the 
+antenna 
+interface;Long 
+press 
+this 
+button to tune the automatic antenna 
+tuner . 
+14  Po button 
+      Short press this button, and with the 
+main tuning knob, you can adjust the 
+transmission power. The adjustment 
+range is from 0.5 W to 0.5 W, and the 
+stepping is to 0.5 W. 
+15  A/B button 
+  Short press this button, switching 
+between VFOA / VFOB. 
+16  <  button 
+ Short press this button, the current 
+frequency step moves one bit to the left. 
+17  >  button 
+  Short press this button, the current 
+frequency step moves one bit to the left. 
+18  V/M button 
+  Short press this button will switch 
+between VFO mode and MEMO mode. 
+19  UP button 
+
+============================================================
+PAGE 6
+============================================================
+
+Panel button 
+5 
+  Short press this button, will switch to 
+higher frequency band. 
+20  DN button 
+Short press this button, will switch to 
+lower frequency band. 
+21  Volume-  button 
+Short press this button to reduce the 
+current volume. 
+22  Volume+  button 
+Short press this button to increase the 
+current volume . 
+23  PTT button 
+Press this button and the station will 
+go into launch mode. 
+ 
+A  T/R pilot lamp 
+In receiving state,It shows green 
+In setting state,It shows red 
+B  DATA pilot lamp 
+The pilot lamp will flicker when data 
+communication occurs. 
+C  Link pilot lamp 
+When the host is connected to the 
+peripheral, the indicator lights up. 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+Left interface 
+6 
+24  Antenna interface 
+BNC interface, impedance 50Ω. 
+25  Intermediate frequency signal outlet 
+The output receives the first intermediate frequency 
+signal. 
+26  Left supinterface 
+Break out the bracket when use it. After using, retract the side 
+guard. 
+27  Earphone interface 
+This interface is a 3.5mm stereo socket (3 wires) for connecting 
+earphone devices. 
+*this interface function of different versions of the X5105  is 
+different, be careful to distinguish. 
+28  DC power interface 
+   External DC power input interface, using the distribution of power 
+wires to the external DC power supply to this interface. External 
+DC power must be able to provide 13.8 V @ 3A power output. The 
+interface is also used to charge the battery inside the machine. 
+ 
++
+-
+EXT DC
+24
+25
+26
+27
+28
+
+============================================================
+PAGE 8
+============================================================
+
+Right interface 
+7 
+29  ACC interface 
+The interface is an 8PIN miniature DIN interface, which can be used for external power amplifier connection control, PTT control, band signal 
+transmission, and it can also be used to do data communication when the audio signal input / output. 
+30  button interface 
+The interface is a 3.5mm stereo interface for connecting manual / automatic Telegraph buttons. 
+The button connection is shown 
+ in the figure:  
+For manual button,  
+"di" and "da" need to  
+be connected together. 
+31  ATU interface 
+The interface is a 3.5mm interface (3-wire) for external day-tuning control. 
+*This interface function is not yet available. 
+32  COM  interface 
+The interface is a 3.5mm interface (3-wire) for computer-aided control  
+system connections and firmware updates. 
+33  Right supinterface 
+Break out the bracket when used. After using, retract the side guard. 
+34  MIC（microphone ） interface 
+Connect the configured multifunctional hand-held microphone to this interface.
+ACC
+KEY
+ATU
+COM
+MIC
+29
+30
+31
+33
+32
+34
+
+============================================================
+PAGE 9
+============================================================
+
+Hand-held microphone function 
+8 
+1、LOCK button 
+Lock button 
+ 
+2、PTT button 
+Launch control button 
+3、Up / Down 
+Frequency increase, minus button 
+4、Transceiver pilot lamp 
+Hand operation pilot lamp 
+5、Digital button region 
+Digital buttonboard area 
+6、FIL button 
+Filter selection 
+7、MODE button 
+Host mode selection 
+8、Functional pilot lamp 
+Temporary no indication 
+9、Function button 
+F1/F2 custom setting button 
+10、MW button 
+Store operation 
+11、V/M button 
+Frequency / channel switching 
+12、XFC button 
+Temporary no function 
+13、TUNER button 
+Long press to start automatic sky 
+modulation tuning in Machine 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+External interface description 
+9 
+1、 Microphone interface 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2、 CIV interface 
+ 
+ 
+ 
+ 
+ 
+ 
+3、 Earphone interface 
+ 
+ 
+ 
+ 
+ 
+4、ACC interface 
+ 
+ 
+ 
+ 
+ 
+ 
+5、button connection 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Note：滴（di）嗒（da）公共（public）
+MIC
+MDATA
+GND
+MIC
+MICE
+PTT
+MSVSW
+NC
++8V
+TXD
+RXD
+GND
+信号
+信号
+GND
+PTT
+BAND
+AF_IN
+AF_OUT
+ALC
+DATA
++8V
+GND
+
+============================================================
+PAGE 11
+============================================================
+
+Charge and maintenance of battery in machine 
+10 
+X5105 has built-in 3800mAh polymer lithium battery pack. When the external power supply is not connected , a power supply is supplied to the whole 
+machine by a battery pack ;When the external power supply is connected , the internal circuit of the machine is automatically switched to the external power supply . 
+Screen display information in shutdown charging  
+    Vext: Display external supply voltage 
+    Vbat: Displays the current real - time voltage of 
+         the battery 
+ 
+5、The maximum charge time is about 10～12 hours. When the battery is fully charged, the 
+charge will automatically stop, and the screen will show the end of the charge, as shown in 
+the right picture. 
+After charging, the battery voltage is generally between 12. 1 V and 12. 5 V, which are all 
+normal. 
+ 
+Charging method:  
+1、 In the MENU - 7,【CHG】option is the charging switch. 
+2、 Select "Charger ON" and open the charging function. 
+3、 Select "Charger off "and turn off charging. 
+4、 Set the external power supply voltage between 13.5V and 
+15.0V, connect to the X5105 external power supply 
+interface, the host will start charging automatically. 
+Note: on shutdown, the X 5105 will automatically be 
+ Charging… 
+Vext=13800mV 
+Vbat=11800mV 
+Charge  Finish 
+Vext=13800mV 
+Vbat=12200mV 
+ 
+Display information on screen after charging 
+
+============================================================
+PAGE 12
+============================================================
+
+Charge and maintenance of battery in machine 
+11 
+○ In battery-powered mode, when the battery power is running out, the charge indicator in the upper-right corner of the screen is displayed as 
+ ,indicating that power should be charged or switched to an external power source immediately. During the charging process, the shell has 
+a slight heating phenomenon. 
+ 
+○ In normal use, the battery life is limited. When there is a significant drop in capacity or a charge failure, contact the dealer to replace it（The battery 
+quality guarantee period is 3 months, It needs to be paid for replacement exceed the quality guarantee period ） . 
+ 
+ 
+When using external power supply, do not exceed the rated voltage range of the equipment, 
+otherwise it will cause damage to the equipment. 
+ 
+ 
+ 
+ 
+ 
+When abnormal heating occurs at the bottom of the housing near the battery, shut down immediately and 
+place the equipment in a safe and ventilated place. Please contact us as soon as the safety condition is 
+confirmed. 
+
+============================================================
+PAGE 13
+============================================================
+
+Connection of external power supply 
+12 
+The X5105 can use a 13.8V external DC power supply. The current load capacity of DC power supply is at least 3A. The randomly attached power 
+cord can be used to connect the station to the DC power supply. 
+When connecting DC power, please carefully follow the logo below to avoid the power polarity reverse connection. 
+The white wire is connected with the positive pole of the power supply , and the metal shield wire is connected 
+with the negative electrode of the power supply . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Note：金属屏蔽线（Metal shielded wire）；白色线（White line） 
+ 
+ 
++
+-
+EXT DC
+POWER SUPPLY
+VOLT ADJ
++
+-
+白色线
+金属屏蔽线
+ON
+OFF
+X5105
+
+============================================================
+PAGE 14
+============================================================
+
+Connection of external power supply 
+13 
+In order to prevent the external interference from entering the radio station through the power supply and the radio frequency interference radiating 
+through the power wire, the EMC magnetic ring can be installed on the power supply wire when the X5105 uses the external power supply. The magnetic 
+ring shall be installed as close as possible to the side of the power plug. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Note：电源线在磁环上绕两圈（Wrap around two turns.）；尽可能靠近接头（As close as possible.） 
+ 
+ 
+In the use of external power supply, please carefully check the polarity of power wires to avoid polarity back 
+wiring. 
+ 
+The limited warranty of this radio does not include damage caused by external power connection error or 
+abnormal supply voltage. 
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+Operation 
+14 
+A multi - function menu mode is used in X5105 to perform various functions for use or shutdown . All functions are distributed in 9 menu pages, 
+with four options per page. 
+ 
+The menu is switched as follows: 
+ 
+Short press MENU button, the menu page number in the lower left corner 
+of the screen starts flashing; 
+ 
+Rotate the large  button to the desired menu page. 
+ 
+ 
+ 
+ 
+The four multifunctional  buttons below the  
+screen correspond to the displayed function menu. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Menu page number 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+Multifunction 
+button 
+
+============================================================
+PAGE 16
+============================================================
+
+User menu 
+15 
+ 
+Menu page 
+Function  
+1 
+ 
+ 
+ 
+ 
+Copy the current VFO to the 
+background 
+Different frequency transceiver 
+Digital noise reduction 
+Digital NOTCH 
+2 
+ 
+ 
+ 
+ 
+AGC 
+Filter selection 
+Scanning receiving mode 
+Standing wave scanner 
+3 
+ 
+ 
+ 
+ 
+Write channel information to 
+VFO 
+Store current settings 
+Clear current channel 
+Custom channel name 
+ 
+ 
+ 
+Long press to enter 
+editor 
+4 
+ 
+ 
+ 
+ 
+CW insert state 
+button manual / automatic mode 
+switching 
+Automatic buttoning rate 
+adjustment 
+/ 
+5 
+ 
+ 
+ 
+ 
+Preset CW message 1 
+Preset CW message 2 
+Preset CW message 3 
+When starting up display 
+call sign editor 
+Long press to enter message 
+editing 
+Long press to enter message editing 
+Long press to enter message 
+editing 
+Long press to enter the 
+editor 
+6 
+ 
+ 
+ 
+ 
+noise elimination 
+voice compression  
+Multifunction menu switching 
+Power / voltage display 
+switch 
+7 
+ 
+ 
+ 
+ 
+charges switch 
+Internal, external MIC/ external audio 
+input 
+IF output  
+Firmware version display 
+8 
+ 
+ 
+ 
+ 
+Digital MODEM 
+Carrier tracking（MDN=ON） 
+Frequency tracking（MDN=ON） 
+/ 
+9 
+ 
+ 
+ 
+ 
+Digital audio filter 
+High-pass filter 
+Low pass filter 
+Speaker / headset mode 
+selection 
+
+============================================================
+PAGE 17
+============================================================
+
+Operation 
+16 
+The X5105 uses a 3.6 inch black and white lattice LCD screen to display all the status information on the machine for easy observation. The visibility 
+in the outdoor sun is also pretty good. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 18
+============================================================
+
+Operation 
+17 
+Dear users, hello. In order to make you become familiar with the functions of X5105 interfaceable transceiver as soon as possible and be proficient in 
+the operation, please read the instructions of this manual carefully and understand the powerful function of X5105. Here we go! 
+ 
+Turn on / off the transceiver 
+ 
+1、Turn on the transceiver: Press       button for one second. 
+2、Turn off transceiver: When the machine is on,  
+Press       button for one second. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Hard reset: when the host system is in a dead state, such as button not responding, or unable to exit the launch state and button not responding, 
+Long press switch button and hold for more than 8 seconds, reset MCU and force shutdown. 
+ 
+ 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+开关键
+
+============================================================
+PAGE 19
+============================================================
+
+Operation 
+18 
+ 
+Battery power / voltage display 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+If the X5105 transceiver is not used for more than 30 days, we recommend that you connect the external power to charge the device until the display 
+is complete.  See the operating instructions in the [ charging ]section for the specific operation steps. 
+ 
+ 
+ 
+1、 The upper-right corner of the LCD screen will show the 
+current percentage of the battery remaining when using 
+a built-in battery to power the transceiver. 
+2、 When using an external power supply, switch to page 6 of 
+the menu and press [VLT] button, which displays the 
+
+============================================================
+PAGE 20
+============================================================
+
+Operation 
+19 
+ 
+Operating Frequency Selection 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Operation method:  
+Press DN or UP button to switch to the next or previous operation band, respectively. 
+ 
+ 
+ 
+ 
+The opening of the 5 MHz band depends on the laws and regulations of the country (or region) in which it is located. 
+ 
+The frequency of different versions of the machine varies according to the laws and regulations of the country in which it is located. 
+ 
+VFO-A and VFO-B are two independent VFO modes, which can be set to different working states respectively, see [VFO settings]. 
+3.5MHz
+7.0MHz
+10MHz
+14MHz
+18MHz
+21MHz
+24MHz
+1.8MHz
+28MHz
+5.2MHz
+50MHz
+The frequency range of X5105 covers 
+0.5～54MHz. The amateur frequency in this 
+range is divided into multiple bands, which can 
+PTT
+DN
+UP
+HF+50MHz TRANSCEIVER
+频段向下
+频段向上
+
+============================================================
+PAGE 21
+============================================================
+
+Operation 
+20 
+Work mode selection 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Press [mode] button to switch between all modes in the 
+following fixed order:  
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+模式
+
+============================================================
+PAGE 22
+============================================================
+
+Operation 
+21 
+Volume Control 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                                     Note：音量加（volume +），音量减（volume -） 
+ 
+When using the AF IN / OUT interface of ACC interface, please set the volume level in the system menu. 
+ 
+ 
+ 
+ 
+Press [volume +, -] button to adjust the 
+output volume. 
+PTT
+DN
+UP
+HF+50MHz TRANSCEIVER
+音量加
+音量减
+
+============================================================
+PAGE 23
+============================================================
+
+Operation 
+22 
+Regulate transmit power 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+When using the X5105 transceiver for the first time without knowing the current antenna state, please reduce the set transmit power value as far as 
+possible. 
+ 
+ 
+ 
+Press [Po] transmit power settings button, you 
+can set the transmit power. 
+ 
+Operation method:  
+1、 Short press[Po] button, enter the power 
+setting state, and the screen will display Po 
+power settings. 
+2、 Rotate the big knob and set the power, the 
+stepping is 0.5 W. 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+发射功率设置
+Transmit power setting 
+
+============================================================
+PAGE 24
+============================================================
+
+Operation 
+23 
+ 
+Using native PTT button 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+You can try using the native PTT button and work with the built-in MIC (select MSL as INT) to make the device a handheld application. 
+ 
+ 
+ 
+ 
+The X 5105 is with a PTT button, which can be 
+used to launch the transceiver. 
+ 
+Operation method:  
+1、 Press this button to start the transmitter 
+launch function; 
+2、 Talk to the built-in MIC hole next to the 
+knob and complete the connection. 
+PTT
+DN
+UP
+HF+50MHz TRANSCEIVER
+本机PTT
+
+============================================================
+PAGE 25
+============================================================
+
+Operation 
+24 
+Set working frequency 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2、Using multifunctional manual frequency setting 
+ 
+Press [F-INP ENT] button, X5105 goes into the frequency setting state and the cursor flashes the first bit on the left of the frequency display 
+bit; 
+ 
+Enter the frequency value you want to set in turn, and press[F-INP ENT] button again to complete the frequency setting. 
+    For example, set the current frequency to 51.50000MHz, press button in the following order:  
+1. 
+First press the[F-INP ENT] button; 
+2. 
+Press the5  1  .  0  5  0  0  0  0  numbering button in turn; 
+3. 
+Press[F-INP ENT] button again to complete the setup. 
+ 
+ 
+The X 5 105 sets the frequency in two ways, including a large 
+knob to set the frequency, and a multi-function handheld 
+frequency setting. 
+ 
+Operation method:  
+1、 Frequency setting with a large knob 
+ 
+Press the cursor of button [<] and [>] to move the 
+frequency bit left or right, and select the 
+frequency bit of the desired stepping; 
+ 
+Rotate the frequency knob to set the frequency of 
+the current step carry. 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+大旋钮
+步进位选择按键
+Step bit selection 
+Large knob 
+
+============================================================
+PAGE 26
+============================================================
+
+Operation 
+25 
+Automatic antenna tuner 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Note: 
+1. 
+Short press [ATU] button, the " TUNE " character appears at the top of the screen, indicating that the diatonic function is turned on. It is only open, 
+and the sky tune is not started. 
+2. 
+In order to use the sky tone, it must be tuned once the sky tone function is opened. 
+3. 
+After tuning, the "SWR" icon appears at the top of the screen and flashes, indicating that the standing wave of the current antenna is still large and 
+needs to be tuned again.  
+4. 
+When the antenna resonates naturally to the current frequency band, be sure to turn off the sky tune. 
+ 
+X5105 transceiver integrated a high 
+efficiency automatic antenna tuner, which can 
+help you easily complete the antenna erection 
+and debugging work. 
+ 
+ 
+Short press[ATU] button, will access 
+the built - in antenna tuner above the 
+screen and will display the " TUNE " 
+sign above the screen . 
+ 
+Long press [ATU] button for 1 second, 
+automatic tuning of ATU will be 
+activated. Upon completion of tuning, 
+the received state is automatically 
+returned. 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+调谐按键
+Tuning button 
+
+============================================================
+PAGE 27
+============================================================
+
+Operation 
+26 
+ 
+RIT reception frequency fine-tuning 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The RIT function can set the offset of the 
+actual receiving frequency from the maximum 
+±1.5 kHz of the set frequency. 
+ 
+Operation method:  
+1、 Short press[RIT] button, start the RIT 
+function; 
+2、 By rotating the knob, the frequency of the 
+receiver can be changed in the range of ±1.5 
+kHz. The corresponding area on the screen 
+shows the change in frequency. 
+3、 If you want to clear the RIT offset value, 
+long press[RIT] button for about 2 seconds, 
+the value of the RIT setting is cleared after 
+the prompt tone of “Di”. 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+频率微调
+Frequency fine tuning 
+
+============================================================
+PAGE 28
+============================================================
+
+Operation 
+27 
+ 
+Automatic gain control AGC 
+ 
+By adjusting the AGC automatic gain control speed, the receiving effect can be optimized. 
+ 
+Operation method:  
+1、 Switch to the page 2 menu, short press[ AGC ] Functional button; 
+2、 The AGC function will be selected in the following order:  
+ 
+ 
+ 
+ 
+3、 When "AGC-AUTO" is selected, it is actually "AGC-FAST" in CW mode, and is "AGC-SLOW" in phonetic mode. 
+ 
+ 
+ 
+If " AGC-OFF" is selected, the AGC system shuts down, the S table display will also stop.  
+ 
+ 
+ 
+ 
+ 
+AGC-
+FAST
+AGC-
+SLOW
+AGC-
+AUTO
+AGC-
+OFF
+
+============================================================
+PAGE 29
+============================================================
+
+Operation 
+28 
+Preamplifier / pre-attenuator  PRE/ATT 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2、The switching order will follow the following cycle: 
+ 
+ 
+ 
+ 
+ 
+The preamplifier can be turned off when the shortwave low frequency band (less than 10MHz) is in operation. At the moment, the signal 
+direct access is more conducive to the improvement of the reception effect and avoid the obstruction of the receiver caused by the strong 
+interference signal. In general, as long as the S table is observed to be changing, the preamplifier may not be turned on. 
+Preamplifier (PRE) and pre-attenuator 
+(ATT) 
+can 
+improve 
+receiver 
+listening 
+performance. When the signal is weak, the 
+preamplifier can be turned on to improve the 
+signal intensity. When the signal is strong, the 
+front attenuator can be turned on and the signal 
+intensity can be reduced. You can also choose 
+to turn off the circuit unit to get the signal 
+through. 
+Operation method:  
+1、 Short 
+press[PRE/ATT] 
+button,this 
+function can be activated. 
+ 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+PRE/ATT
+ATT
+PRE
+OFF
+
+============================================================
+PAGE 30
+============================================================
+
+Operation 
+29 
+Noise Blanker NB 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+NB function can only inhibit certain types of impulse noise, and can not replace NR noise reduction function. 
+ 
+ 
+The 
+noise 
+blanker 
+can 
+effectively 
+eliminate 
+some 
+specific 
+impulsive 
+interference, especially the noise generated by 
+the automobile ignition system, and can 
+improve the receiving effect significantly. 
+Operation method:  
+ 
+ 
+1、 Short 
+press[NB] 
+button, 
+the 
+corresponding 
+prompt 
+information 
+appears on the screen, and the NB 
+function is turned on. 
+2、 Once again short press [NB] buttonturns, 
+will the NB noise blanker. 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+噪音抑制
+Noise suppression 
+
+============================================================
+PAGE 31
+============================================================
+
+Operation 
+30 
+ 
+Data modem  MDN 
+ 
+X5105 has built-in amateur radio with commonly used data communication modem. You can use X5105 to demodulate data communication directly. 
+ 
+Operation method:  
+1、 Menu to the page 8, go to the data modem page, select [MDN], open the data function;[CAR]is carrier tracking mode; 
+2、 [AFC] is frequency tracking mode; 
+When the PSK31 * signal is received, the spectrum chart shows the spectrum of the corresponding signal, at the same time below will automatically 
+demodulate the PSK31 mode modulation information. 
+3、 Press [MDN] button again to exit the data MODEM state; 
+ 
+ 
+ 
+* Currently only PSK31 mode decoding is supported. Direct coding and demodulation of other modes will be supported through firmware updates and 
+external input device interfaces 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 32
+============================================================
+
+Operation 
+31 
+ 
+Different frequency transceiver operation SPL and VFOA / B settings 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Different frequency transceiver SPL operation method:  
+1、 Set the reception frequency and mode first（VFO-A）; 
+2、 Then set up the launch frequency and mode.（VFO-B）; 
+3、 Short press[MENU] button, switch to the first page menu, select the SPL function, and on the different frequency transceiver mode. 
+ 
+ 
+It can make full use of VFOA / B to set different frequencies or modes, and to switch two frequency points quickly in real time. 
+There are two separate VFO inside the 
+X5105 transceiver, which can set different 
+frequencies and modes respectively. With SPL 
+function, it can easily achieve the operation of 
+different frequency transceiver. 
+ 
+VFO settings:  
+1、 Short 
+press[A/B] 
+button, 
+can 
+switch 
+between VFO-A and VFO-B; 
+2、 When switching to a certain VFO state, you 
+can 
+set 
+the 
+current 
+VFO 
+operating 
+frequency, mode and other settings. 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+VFOA/B
+
+============================================================
+PAGE 33
+============================================================
+
+Operation 
+32 
+VFO mode / MEMO mode switch  V/M 
+ 
+The transceiver can switch between VFO mode and MEMO mode, and the flexible operation mode is realized. 
+ 
+ 
+Operation method:  
+1、 Short press[V/M] button, You can switch between VFO 
+(frequency) mode and MEMO (channel) mode. 
+2、 In the current mode, short press [V / M] button will 
+switch to another mode state. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+V/M切换键
+V/M switch button 
+
+============================================================
+PAGE 34
+============================================================
+
+Operation 
+33 
+ Button lock / backlight off LOCK 
+ 
+Lock button (LOCK) can avoid incorrect triggering of transceivers and handsets in outdoor operation. .After the lock function is started, the other 
+host panel button, knob and hand onamot button action are all invalid except PTT button and this button. 
+ 
+Operation method:  
+1、 Short press[LOCK] button to start lock; 
+2、 Again Short press[LOCK] button to release 
+lock. 
+3、 After locking, the corresponding area on the 
+screen will have a lock symbol display. 
+4、 Long press[LOCK] button, can completely 
+turn off the screen backlight.  Once again 
+long press it, light will be turned on. This 
+function is still in effect when the lock is 
+turned on. 
+ 
+ 
+ 
+ 
+ 
+X5105
+T/R           DATA         LINK
+LOCK
+PRE
+ATT
+MODE
+MENU
+V/M
+A/B
+NB
+RIT
+ATU
+Po
+<
+锁定按键
+Key lock 
+
+============================================================
+PAGE 35
+============================================================
+
+Operation 
+34 
+ 
+CW communications 
+ 
+Operate using a hand button or external buttoning device. 
+ 
+Operation method:  
+1、 Insert the button body (three-wire) plug into the button interface on the right side; 
+2、 Press [MODE]button, Switching mode to CW (or CWR); 
+3、 Long press[MENU] button, select the multifunctional button [ < ] and [ > ],turn out Menu #2（CW T/Rx Delay Time）,press the right entity button [<] 
+and [>] and cooperate with the main knob,  and set the delay time (Default: 500ms). Press the [YES] button at the bottom of the screen to save the 
+new settings and exit the system menu mode; 
+4、 Short press[MENU] button, switch to the Page 4 menu and select the BK function . 
+5、 Press the button, you can carry out CW communication. 
+ 
+Practice mode 
+You can use X5105 as a CW code exerciser. Operation method is as follows:  
+Short press[MENU] button,  switch to the Page 4 menu and select the BK function“OFF”.  
+In this state, when pressing the button, the transceiver has a CW side sound,  
+but does not transmit a signal. 
+ 
+6、 The volume of the CW side sound can be adjusted through the system menu. The methods are as follows:  
+① Long press[MENU] button, enter system menu mode; 
+
+============================================================
+PAGE 36
+============================================================
+
+Operation 
+35 
+② Turn out system menu # 15（BEEP Volume）; 
+③ Rotate the main knob, select the desired volume size, range from 1 to 7 is adjustable;  
+④ When you are done, press the [YES] button at the bottom of the screen to save the new settings and exit menu mode. 
+7、 The tone of the CW side tone can be adjusted through the system menu # 3（CW Rx Side Tone. The methods are as follows:  
+① Long press[MENU] button,  enter system menu mode; 
+② Turn out system menu # 3（CW Rx Side Tone）; 
+③ Press the panel button [<] and [>] and rotate the master knob to select the desired tone, The range is adjustable from 50 Hz to 1200 Hz, with the 
+default value of 800 Hz;  
+④ When you are done, press the [YES] button at the bottom of the screen to save the new settings and exit menu mode. 
+8、 The choice of left and right hand Mode in CW Mode,  can be adjusted through the system menu # 4 [ button ]. The methods are as follows:  
+① Short press[MENU] button,  rotate the master knob to the page 4 of menu; 
+② Press [button] button to select manual / left / right hand mode; 
+9、 The methods for adjusting the automatic buttoning rate are as follows:  
+① Short press[MENU] button,  rotate the master knob to the page 4 of menu; 
+② Press [KSP] button. rotate the main knob to adjust the automatic buttoning rate. 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 37
+============================================================
+
+Operation 
+36 
+CW call maker   RE1～RE3 
+ 
+The X 5105 host computer provides three sets of CW preset message storage to realize the automatic call in CW mode. 
+ 
+Operation method:  
+1、 Short press[MENU] button,  switch to page 5 in menu; 
+2、 Long press[ RE1 ]～[ RE3 ] function button for 2 seconds,  enter the preset message editor; 
+3、 Under the text editor window, the tools used in text editing are provided at the bottom of the screen, press the corresponding function button can 
+enable the corresponding function; 
+4、 After editing, press [save] button, save the edited message and return to normal operation; 
+5、 Short press[ RE1 ]～[ RE3 ] function button,  the CW automatic call can be started. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 38
+============================================================
+
+Operation 
+37 
+Standing wave scanner SWR 
+ 
+The X 5105 host has the function of antenna standing wave scanning, which can scan the standing wave parameters of the current antenna and facilitate 
+the user to adjust the antenna. 
+ 
+Operation method:  
+1、 Short press[MENU] button,  rotate the main knob to page 2 in menu; 
+2、 Press [SWR] button to activate the standing wave scanning function; 
+3、 Under the scanner interface, the standing wave of the current antenna can be observed intuitively; 
+4、 Press [BW] function button, you can set the standing wave scanning bandwidth; 
+5、 Press[ QUIT ] button to exit the standing wave scanner; 
+ 
+ 
+ 
+There may be some errors in the scanning results of the standing wave scanner. If you need to accurately measure the antenna standing wave and 
+other data, please use a professional antenna analysis equipment to measure. 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 39
+============================================================
+
+Operation 
+38 
+ 
+Digital filter  AFF 
+ 
+This machine has built-in digital audio filter, which can realize narrow band filter function and enhance signal identification. 
+ 
+Operation method:  
+1、 Short press[MENU] button, rotate the main knob and switch to the page 9 in menu; 
+2、 Select [AFF] to turn on the digital filter function. At this point, the [HPF] and [LPF] functionality options are displayed; 
+3、 [HPF] is a high-pass filter option, and [LPF]is a low-pass filter option. Select any filter and rotate the main knob to adjust the filter parameters. The 
+two groups of filters can be collocated to form an ultra-narrow band filter, which can significantly improve the hearing sensitivity and identification 
+degree of the signal. 
+4、 Press [AFF] function button again to turn off the digital filter function. 
+5、When you open the digital filter, the firmware default setting parameters are as follows: 
+SSB mode: HPF is 300Hz,LPF is 2200Hz. 
+CW mode: HPF is 500Hz,LPF is 900Hz. 
+ 
+ 
+You can adjust the filter parameters according to your listening preferences to get the best sense of hearing. 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 40
+============================================================
+
+Operation 
+39 
+Built-in and External MIC/ wire input selection 
+ 
+X5105 has 3 audio input channels, which are built-in MIC、external MIC、ACC interface's AF_IN wire input. When using, select the appropriate input 
+item correctly. 
+ 
+Operation method:  
+In the user menu Menu-7, the 【MSL】 option is a built-in and external MIC / wires option. Short press this item to switch. 
+ 
+When use external MIC, select: EXT MIC 
+ 
+When use built-in MIC: select: INT MIC 
+ 
+When use ACC interface wire input, select: AUX wire IN 
+ 
+ 
+ 
+Note: when doing digital communication and using the ACC interface for audio input, select AUX wire IN. And make sure the wire's volume is 
+high enough. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 41
+============================================================
+
+Operation 
+40 
+Loudspeaker / headphone mode switching SPK 
+ 
+X5105 can select speaker / headset mode for audio output in different use environments. 
+ 
+Operation method:  
+1、 
+Short press[MENU] button, rotate the main knob to the page 9 in menu; 
+2、 
+Select [SPK] to switch between loudspeaker / headphone modes. At this point, the left side of the screen will display the corresponding horn icon or 
+headphone icon, used to distinguish the two modes; 
+ 
+ 
+ 
+In loudspeaker mode, do not insert headphones directly to avoid damaging your hearing and earphone devices. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 42
+============================================================
+
+Operation 
+41 
+Channel storage MW 
+ 
+Channel storage:  
+1. 
+In VFO mode, adjust the required frequency, mode, advanced functional state and other parameters; 
+2. 
+Short press[MENU] button, rotate the master knob to the page 3 in menu, select [MW] function to start channel storage operation; 
+3. 
+Rotate the master knob to select the channel number that needs to be stored, short press[ YES ] button, the channel storage can be completed; 
+4. 
+If the current channel has stored information, and then use this channel number to store, the channel information will be cleared and the current 
+channel information will be saved. 
+ 
+Turn out storage channel:  
+1、 If in VFO mode, short press [V/M] button on the panel, it will enter the channel mode; 
+2、 Rotate the encoder to switch the current channel. 
+ 
+Clear channel storage:  
+1、 In channel mode, press the [MC] function button to activate the channel clearance function; 
+2、 At this point, the channel number starts flashing. Rotate the main knob to the corresponding channel number, short press[ YES ] button, then the 
+channel clearance can be completed. 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 43
+============================================================
+
+Operation 
+42 
+Channel naming TAG 
+ 
+The stored channel can be named after a “ label” consisting of letters and numbers. 
+ 
+Operation method:  
+1、Turn out the channel you want to name; 
+2、Short press[MENU]button, rotate the main knob to the page 3 in menu, Long press [ TAG ] button for 2 seconds to release, and enter the text editor; 
+3、In the text editor, the tools used in text editing are provided at the bottom of the screen, press the corresponding function button can enable the 
+corresponding function; 
+4、After editing, press[ SAVE ]button, save the text content and return to normal operation state; 
+5、In channel mode, short press[ TAG ] button, you can switch between channel numbers / custom channel names. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 44
+============================================================
+
+Operation 
+43 
+Call sign setting for boot interface CSN 
+ 
+This machine can set up the call sign information displayed on the boot interface. 
+ 
+Operation method:  
+1、Short press[MENU] button, rotate the main knob to page 5 in menu, select [CSN] function, enter call sign editor; 
+2、In the editor, the tools used in text editing are provided at the bottom of the screen, press the corresponding function button can enable the 
+corresponding function; 
+3、After editing, press [ SAVE ] button, save the text content and return to normal operation state; 
+4、When you boot again, the boot interface will display the text information you edit. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 45
+============================================================
+
+Operation 
+44 
+Amateur radio data communication with computer connections 
+ 
+X5105 transceiver can connect with computer and complete all kinds of data communication with corresponding computer software. 
+ 
+Operation wire method:  
+1、From the ACC interface (MINI-DIN8), the computer audio output / input is connected to X5105. 
+2、Insert the data wire of the distribution into com (or CIV) interface, and connect the X5105 to the computer, and ensure that the data wire computer 
+driven and installed correctly with PC software can control the X5105 transceiver; 
+3、Adjust the volume of the X5105 ACC interface input / output volume to the appropriate, observe the software interface to avoid too much audio to 
+communicate. 
+4、Select the corresponding working mode, you can carry out data communication. 
+ 
+ 
+ 
+To prevent interference , the station and computer must be grounded well , and the data cables and audio wires should be fitted with EMC magnetic 
+rings and installed as close as possible to the end of the station . 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 46
+============================================================
+
+System parameter configuration 
+45 
+System parameter configuration 
+ 
+System settings menu can be personalized transceiver settings to make it more in wire with your use habits. 
+Operation method:  
+1、Long press [menu] button for 1 second, enter the system settings menu; 
+2、Press the [ < ] and[ > ] multi-function button below to screen,  turn out the menu items you want to set. 
+3、Press [<] and [>] button on the panel and rotate the encoder to set the parameters you want; 
+4、When the setup is complete, short press[YES] button, save the current settings and exit menu mode. 
+      
+ 
+In step 4 above, if Short press [ NO ]  button, the new settings will not be saved and the system menu mode will be exited. 
+ 
+ 
+ 
+                                                 System menu description 
+Menu item 
+Function declaration  
+Configurable value 
+Default 
+01 
+RF  GAIN 
+Receiving RF gain 
+0~100% 
+65% 
+02 
+CW T/Rx Delay Time 
+CW emission delay 
+0~5000ms 
+200ms 
+03 
+CW Rx Side Tone 
+CW receiving side tone 
+50~1200Hz 
+800Hz 
+04 
+Tx AF Gain SSB 
+MIC gain in SSB Mode 
+0~100% 
+ 
+05 
+Tx AF Gain AM 
+MIC gain in AM Mode 
+0~100% 
+50% 
+06 
+Tx AF Gain NFM 
+MIC gain in NFM Mode 
+0~100% 
+100% 
+
+============================================================
+PAGE 47
+============================================================
+
+Operation 
+46 
+07 
+RX AF Gain SSB 
+SSB mode receiving audio gain 
+10~100% 
+40% 
+08 
+RX AF Gain AM 
+AM mode receiving audio gain 
+10~100% 
+90% 
+09 
+RX AF Gain NFM 
+NFM mode receiving audio gain 
+10~100% 
+90% 
+10 
+LCD Backlight Level 
+Screen back brightness adjustment 
+0~100% 
+80% 
+11 
+Ref  Clock 
+System reference clock 
+26000000Hz 
+Don't change! 
+12 
+NFM TX IF 
+NFM mode transmit intermediate frequency 
+10697000Hz 
+Don't change! 
+13 
+Misc Option 
+Digital baseband configuration 
+0x7A5C3360 / 0x59A03360 
+ 
+14 
+Beep Volum 
+System volume 
+1~7 
+4 
+15 
+AUX AFIN Volum 
+External input audio volume of ACC interface 
+0~7 
+7 
+16 
+AUX AFOUT  Volum 
+ACC interface output volume 
+0~31 
+3 
+17 
+User Key F1 
+Hand onamot F1 button Custom 
+/ 
+TS- 
+18 
+User Key F2 
+Hand onamot F2 button Custom 
+/ 
+TS- 
+19 
+Ext MIC Bias 
+External MIC bias setting 
+Disable / Enable 
+Enable 
+20 
+CTCSS Tone 
+Launch sub tone setting 
+ 
+69.3Hz 
+21 
+CTCSS(Tx only) 
+Transmit sub tone switch 
+Disable / Enable 
+Enable 
+22 
+Reset ALL 
+Reset all system parameters 
+No / YES 
+No 
+ 
+ 
+ 
+The default parameters ensure that the transceiver works in a better state. You can also fine-tune the above parameter settings according to your 
+own use habits. 
+ 
+
+============================================================
+PAGE 48
+============================================================
+
+System parameter configuration 
+47 
+Restoration of factory setting 
+When the system parameter setting error causes the host to be unable to work, the reset operation can be used to reset the transceiver. At that time, all 
+system parameters on the transceiver will be restored to the factory default data. 
+ 
+Operation method:  
+Enter the system menu, select item 22 【Reset ALL】menu, rotate the main knob to set it to "YES" and press [YES] button below the screen. 
+ 
+ 
+ 
+After reset, all system parameters will revert to the factory default status. 
+ 
+According to the serial number of your device, combined with the [configuration parameter list ], the system menu part of the project will be 
+reconfigured and saved. 
+ 
+When all settings are complete, press [ YES ] button to save. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 49
+============================================================
+
+Operation 
+48 
+Configuration parameter list 
+After updating the firmware, be sure to configure X5105 as described in this document, otherwise the device will not work properly!  
+ 
+After the firmware is updated, go directly to item 21 of the system menu【Reset ALL】and reset the system parameters. 
+ 
+After the reset is complete , consult the appropriate configuration parameters in accordance with the serial number of the serial number of the host . 
+Configuration one:  
+Application range: X0300001～X0300150  /  0300001～0300220 
+Menu Item 
+Function Description 
+Recommended setting 
+4 
+Tx AF Gain SSB 
+MIC gain in SSB mode 
+60% 
+14 
+Misc Option 
+Digital baseband configuration 
+0x7A5C3360 
+20 
+Ext MIC Bias 
+External MIC offset setting 
+Enable 
+Configuration two:  
+Application range:  X0300151 and its follow-up  /  0300221and its follow-up 
+Menu Item 
+Function Description 
+Recommended setting 
+4 
+Tx AF Gain SSB 
+MIC gain in SSB mode 
+80% 
+14 
+Misc Option 
+Digital baseband configuration 
+0x59A03360 
+20 
+Ext MIC Bias 
+External MIC offset setting 
+Enable 
+1. 
+After setting up, click SAVE to save, exit system menu. Execute a boot and shutdown immediately. 
+2. 
+When you first use it, check if the SQL、NR、NTH project is set up. If the settings are in place, please clear them all manually. And press all 
+button .  
+3. 
+When using a preset message for the first time, please manually delete all scrambled symbols in RE1～RE3. 
+ 
+
+============================================================
+PAGE 50
+============================================================
+
+System parameter configuration 
+49 
+Computer control instruction 
+ 
+A standard CIV instruction set is used to enable you to remotely control the transceiver with the standard instructions of this instruction set , the 
+control instruction part of other software can also be configured to realize the control of X5105. 
+ 
+ 
+ 
+ 
+Band voltage data 
+ 
+The ACC interface of X5105 provides band data for each frequency band. The band data can control the peripheral equipment to switch band 
+automatically or give other equipment to identify band information. 
+ 
+Wave Band 
+Voltage 
+Wave Band 
+Voltage 
+Wave Band 
+Voltage 
+Wave Band 
+Voltage 
+1.8MHz 
+230mV 
+7MHz 
+920mV 
+18MHz 
+1610mV 
+28MHz 
+2300mV 
+3.5MHz 
+460mV 
+10MHz 
+1150mV 
+21MHz 
+1840mV 
+50MHz 
+2530mV 
+5.0MHz 
+690mV 
+14MHz 
+1380mV 
+24MHz 
+2070mV 
+/ 
+/ 
+ 
+ 
+ 
+
+============================================================
+PAGE 51
+============================================================
+
+Performance parameter  
+50 
+General parameters 
+Frequency range: 
+receive: 
+0.5MHz～30MHz 
+ 
+ 
+50MHz～54MHz 
+ 
+launch: 
+160m～6m （Amateur 
+radio band only） 
+Launch mode: 
+A1A(CW),A3E(AM), J3E(USB/LSB), 
+F3E(FM) 
+Minimum stepping: 
+1Hz 
+Antenna impedance: 
+50Ω 
+Working temperature range: 
+-10℃ ～ +50℃ 
+Frequency stability: 
+1～60minutes after boot is ±4ppm 
+ 
+@25℃: 1ppm/ hour 
+Supply voltage : 
+Normal: 13.8VDC±15%,Negative 
+grounding 
+ 
+operation: 9.0～15.0VDC,Negative 
+grounding 
+Current consumption : 
+receive: 600mA@ Max 
+ 
+launch: 2.5A@ Max 
+Battery capacity : 
+3800mAh @12V 
+Fuselage size: 
+168*93*47mm（WxHxT） (excluding 
+protrusions) 
+Weight: 
+About 0.94kg (host only) 
+ 
+ 
+Transmitter parameters 
+ 
+RF output power: 
+5W(SSB/CW/FM)1.5W(AM signal 
+carrier)  @13.8VDC 
+Modulation type: 
+SSB: balanced modulation 
+ 
+AM: Low level amplitude modulation 
+ 
+FM: Variable reactance frequency 
+modulation 
+FM maximum frequency 
+offset: 
+±5kHz 
+Stray radiation : 
+-55dB 
+Carrier suppression : 
+＞40dB 
+Sideband stray: 
+＞50dB 
+SSB frequency response: 
+400Hz-2800Hz（-6dB） 
+Microphone impedance: 
+200～10k（routine 600Ω） 
+Receiver parameters 
+ 
+Circuit type: 
+Secondary frequency conversion 
+superheterodyne +audio frequency DSP 
+IF-FRE: 
+First IF:70.455MHz 
+ 
+Second IF:10.695MHz 
+ 
+Third IF:455kHz（NFM） 
+Sensitivity:  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(PRE=on, ATT=off, NB=off, NR=off, SSB/CW/AM = 10dB S/N, FM = 12dB SINAD) 
+ 
+Mirror suppression degree : 
+70dB 
+IF Inhibition degree : 
+60dB 
+selectivity: 
+SSB: -6dB:2.4kHz/-60dB:4.6kHz 
+ 
+CW: -6dB:500Hz/-60dB:2000Hz 
+ 
+AM: -6dB:6.0kHz/-60dB:25.0kHz 
+ 
+FM: -6dB:12.0kHz/-60dB:25.0kHz 
+ 
+Audio output: 0.6W （8Ω,≤10% THD） 
+Audio output impedance:  4～16Ω 
+ 
+ 
+The above specifications may be adjusted without notice. 
+ 
+The frequency range of transceiver will vary according to the machine version.  
+Please consult the dealer for details. 
+SSB/CW
+AM
+FM
+≤1.8MHz
+0.6uV
+10uV
+/
+1.8MHz-
+28MHz
+0.25uV
+2uV
+/
+28MHz-
+30MHz
+0.25uV
+2uV
+0.35uV
+50MHz-
+54MHz
+0.25uV
+2uV
+0.35uV
+
+============================================================
+PAGE 52
+============================================================
+
+Accessories and optional accessories 
+51 
+Standard packing items 
+ 
+Item 
+Quantity 
+X5105 Host (installed battery) 
+1 pcs 
+Multifunctional hand onamot 
+1 pcs 
+power wire  
+1 pcs 
+data wire   
+1 pcs 
+instructions 
+1 pcs 
+Certification 
+1 pcs 
+warranty card 
+1 pcs 
+ 
+Optional accessories 
+ 
+Item 
+Description 
+CE-19 
+ACC extended wiring card 
+XPA125 
+120W all-in-one machine of power amplifier and 
+sky modulation 
+ 
+ 
+
+============================================================
+PAGE 53
+============================================================
+
+Annex 1 
+52 
+Schematic diagram of connection between existing models and XPA125 of Xiegu Communications 
+ 
+ 
+ 
+ 
+ 
+ 
+X5105
+CE- 19
+XPA125 
+8 core wire
+ACC 口 
+6 core wire
+TO XPA125 
+X108 G 
+XPA125
+6 core wire
+ACC port directly connected
+X108
+CN- 172
+XPA125 
+RJ 45  
+MIC port 
+6core wire
+
+============================================================
+PAGE 54
+============================================================
+
+ 
+53 
+CE-19 Extension Card interface schematic 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PTT CON          PTT signal / BAND signal output. This interface PTT signal is completely isolated from the host, providing a "low level" trigger 
+associated with the host. 
+TO XPA125        XPA125 power amplifier and sky modulation the all-in-one machine special interface . 
+AF CON           Audio input / output. The audio output of this interface is demodulated after direct output, no filter. 
+DATA CON         Data output interface in NFM mode. This interface two terminals are parallel relations, both output the same signal. 
+ 
+ 
+ 
+
+============================================================
+PAGE 55
+============================================================
+
+Copyright Notice 
+54 
+ 
+Copyright 2018 
+Shenzhen Xiegu Communication Technology Co., Ltd. reserves all rights to this manual and shall not copy any part thereof 
+without permission. 
+------------------------------------------------------------------------------------------------ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1010160203-C 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 56
+============================================================
+
+ 
+55 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                              Chongqing Xiegu Technology Co.,Ltd. 
+www.cqxiegu.com 
+ 

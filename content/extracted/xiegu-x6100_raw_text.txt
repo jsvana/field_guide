@@ -1,0 +1,1324 @@
+
+============================================================
+PAGE 1
+============================================================
+
+1
+X6100, an ultra-portable short-wave transceiver that adopts high-performing SDR software radio platform
+architecture, powerful baseband and RF units, transmitting and receiving separated dual-channel structure
+and 24bit sampling and large dynamic RF front-end unit, can obtain extremely high radio transmitting and
+receiving indicators.
+The whole device integrates rich and varied operation functions and desktop-like functions, such as
+recording call, variable bandwidth digital filter, digital noise reduction and so on,
+which brings you a new
+cognition and experience on amateur radio. With its compact structure and appearance, you can immediately
+set forth on a journey with it, get close to nature, and enjoy the fun of outdoor communication.
+●
+HF/50MHZ full mode (supporting data communication)
+●
+Transmitting power: external power supply: 10W, battery: 5W
+●
+4-cun high-resolution color screen (800*480)
+●
+Built-in large capacity lithium battery pack (3000mAh, 12V)
+●
+Built-in efficient automatic antenna tuner
+●
+Integrated standing wave scanner and voice pager
+●
+Integrated modem, preset message, CW automatic call
+●
+Built-in Bluetooth/WLAN function, which can realize wireless audio, keyboard and mouse operation
+●
+Integrated USB line control/transmission, supporting USBHOST.
+●
+Standard high-stability TCX0 internal clock source
+We strongly recommend you to read through this Manual to rapidly keep abreast of the operation & control
+method of the X6100 before using it.
+
+To carry out effective transmission, it is necessary to obtain the corresponding amateur radio operation qualification and
+apply for the station setup license.
+
+Transmission activities shall not be carried out in non-amateur frequency bands.
+
+============================================================
+PAGE 2
+============================================================
+
+2
+Safety Precautions
+Do not use this device in lightning weather.
+Disconnect the power supply and antenna in advance.
+Do not touch the antenna during the transmission of the device.
+Do not apply AC power to the DC interface on the side panel of transceiver.
+Otherwise it may cause fire or
+damages to the device.
+Do not apply more than 15VDC voltage to the DC interface on the side panel of transceiver.
+Otherwise it may
+cause fire or damages to the device.
+Do not reverse the polarity of the power cable.
+Otherwise it may cause fire or damages to the device.
+Do not operate or touch the device with wet hands.
+Otherwise it may cause electric shock or damages to the device.
+In case of smoke or peculiar smell, cut off the power supply immediately, remove the power cable, and then contact
+the supplier.
+Do not use the device in areas, vehicles or aircraft where it is prohibited.
+Do not use this device while driving or operating engineering equipment.
+Do not use the device in petrol stations, gas stations or the place with combustible gas around.
+Do not use the device in hospitals or in an environment where people wear medical devices.
+Do not expose the device to rain, snow or any liquid.
+Otherwise it may cause damages to the device.
+Do not use headphones at high volume.
+Do not disassemble or modify the device.
+Do not place the device near the heat source or in direct sunlight.
+Do not place the device in a dusty or damp place.
+Do not place the device in a poorly ventilated place and do not block any radiator on the device.
+Otherwise, the
+deceive may be damaged due to overheating.
+Do not wipe the device with organic solvents, such as benzene or alcohol.
+This may damage the surface of the
+equipment.
+Do not apply impact force on the device.
+Otherwise it may cause fire or damages to the device.
+Do not place the device in the area with temperature range beyond -10°C~+55°C.
+Cut off the power supply and remove the external power cable if the device is not used for a long time.
+
+============================================================
+PAGE 3
+============================================================
+
+3
+Battery Precautions
+This device contains lithium-ion battery components, so improper use may result in dangers such as smoke,
+fire or battery rupture.
+■
+The battery pack is installed inside the backplane of the equipment.
+Do not hit the backplane of the
+device.
+■
+Do not place the device in a place where the temperature is higher than 60°C; otherwise, the battery
+pack may rupture or catch fire.
+■
+Do not place the back of the device near heat sources, such as stove fire or direct sunlight.
+■
+Do not weld, disassemble or modify battery components by your won.
+This can lead to protection
+failure and battery damage, which can further lead to fire and other hazards.
+■
+In case of obvious deformation, seepage or peculiar smell at the installation place of the battery pack,
+the device shall not be further used, and distributor shall be contacted immediately for assistance.
+■
+Do not use the device beyond its temperature range; otherwise, the service life of the device and
+battery pack may be reduced or damaged.
+■
+Do not leave the battery pack in fully charged or fully discharged state for a long time. Otherwise, the
+service life of battery pack will be shortened.
+Please maintain the electric quantity of battery pack within
+40%~50% if the device is to be left unused for a long time, and then keep it properly.
+■
+The service life of the built-in battery pack is about 3~4 years generally. Please replace the battery
+pack once its service life reaches this period.
+Even if the battery still works, its performance will be
+significantly reduced and service time will be greatly shortened.
+The battery pack can be generally charged
+and discharged for 300~500 times.
+This depends on specific usage conditions.
+■
+Do not charge the device with other non-compliant chargers.
+■
+Pay attention to the condition of the device when charging.
+Stop charging immediately in case of any
+abnormality.
+■
+Do not charge the device in vehicles under direct sunlight.
+Important Note
+■
+Make sure you have had relevant operating certificates or permissions before making a call on the
+frequency band of amateur radio.
+■
+Make sure the antenna feed system meets the transmitting requirements before actual transmitting.
+■
+The device may be hot after continuous and long-term transmitting (such as FT8 operation).
+Please
+appropriately extend transmitting interval and strengthen external heat dissipation.
+■
+Please place the device in a safe and reliable place and keep it away from children or unauthorized
+persons.
+Electromagnetic Interference
+It shall be noted when using wireless LAN or Bluetooth devices that when other wireless devices, such as
+wireless mouse, wireless keyboard and wireless router, work in the same frequency band, they may interfere
+with each other, resulting in unstable or interrupted connection of the device.
+In such case, please keep
+away from other devices or stop using those devices.
+
+============================================================
+PAGE 4
+============================================================
+
+4
+I. Panel Instructions
+Front panel
+1
+GEN button
+9
+DFL button
+Press it to bring up the general settings menu.
+Press it to bring up digital filter settings interface
+2
+KEY button
+10~14
+Multi-function button
+Press it to bring up tapper settings menu.
+Press it to execute functions displayed on screen.
+3
+DFN button
+15
+Main knob
+Press it to bring up the menu of digital functions.
+Rotate it to adjust frequency.
+4
+MFK multi-function knob
+16
+Lock button
+Default:
+Long press for 1s to lock the keys operation on panel.
+Customize:
+Long press for 1s again to unlock.
+5
+VOL/SQL/RFG knob
+17
+Power supply/TR indication
+Default: volume control.
+The indicator light is green after startup.
+Press the knob to adjust SQL muting depth.
+Press the knob again to adjust RFG gain.
+6
+Power button
+Press and hold it to turn on the power supply of
+transceiver.
+Press and hold it for 1s to turn off the power supply of
+transceiver.
+7
+APP button
+Press it to bring up function menu.
+8
+MSG button
+Press it to bring up information editing and storage
+interface.
+When the transceiver is in transmitting state, the indicator light
+is red.
+
+============================================================
+PAGE 5
+============================================================
+
+5
+Left plate
+18
+ANT
+BNC interface, 50Ω, for antenna connection.
+19
+I/Q OUT
+IQ signal output port 3.5mm stereo socket.
+20
+DC IN
+External power input port, 5525 type.
+Note: input voltage shall not be higher than 15V DC.
+Right plate
+21
+CARD
+microSD memory card slot
+22
+DEV
+USB port.
+Slave interface
+23
+HOST
+USB port.
+Host interface.
+24
+S/P
+External
+speaker/headphone
+interface,
+with
+speaker or headphone output can be set via menu.
+It is a 3.5mm stereo interface achieving stereo
+output.
+Note: short circuit or silence will be caused if
+plugging the single track plug externally.
+25
+KEY
+It is a 3.5mm stereo interface used to connect
+manual/auto tapper. See page 8 for connection.
+26
+ACC
+It is a 3.5mm stereo interface. See page 8 for
+interface definitions.
+27
+MIC
+Hand microphone interface.
+The interface is of
+type RJ45.
+
+============================================================
+PAGE 6
+============================================================
+
+6
+Top button
+28
+PTT
+PTT button on device body.
+29
+AM|FM
+AM/FM mode switch button.
+30
+CW
+CW mode switch button
+31
+SSB
+SSB mode switch button
+32
+V/M
+VF0/MEM0 status switch
+33
+AGC
+AGC switch/speed selection button
+34
+FST
+Fast step selection button
+35
+ATU
+Built-in antenna tuner access/tuning button
+36
+PRE
+Pre-amplifier/pre-attenuator switch
+37
+A/B
+VF0A-VF0B switch button
+38~39
+Left and right switch
+Frequency band/channel increase and decrease switch
+
+============================================================
+PAGE 7
+============================================================
+
+7
+Hand microphone button
+1. LOCK button
+Lock button
+2. PTT button
+Transmitting control button
+3. Up/down
+Frequency increase/decrease button (user-defined, detailed in system
+menu 1)
+4. Transceiver indicator light
+Hand microphone operation indicator light
+5. Figure button area
+Figure keyboard area
+6. FIL button
+Filter selection
+7. MODE button
+Selection of working mode of host
+8. Functional indicator light
+No
+9. Function button
+F1/F2 key (user-defined, detailed in system menu 2&3)
+10. MW button
+Memory operation
+11. V/M button
+Frequency/channel switching
+12. XFC button
+No function temporarily
+13. TUNER button
+Long press to start antenna automatic tuning
+
+============================================================
+PAGE 8
+============================================================
+
+8
+Interface Definition
+Microphone port
+Definition of ACC interface
+Connection of S/P Port
+Definition of I/Q OUT interface
+Connection of KEY Port
+Connect manual/automatic tapper according to
+the schematic diagram shown in the right figure.
+Note :
+●
+If the connector of the manual tapper is a
+6.5mm 2-core plug, please change it to a 3-core
+3.5mm stereo plug according to the wiring
+method shown in the right figure, and connect the
+trigger end of the electric key to the "Di" or "Da"
+terminal.
+●
+Take care that direct use of the 2-core to
+3-core adapter or incorrect wiring may result
+the radio in CW transmission status all the
+time.
+●
+Using plugs of other specifications may damage the socket.
+●
+X6100 may switch to transmitting mode if plugging in or unplugging the tapper plug when it is
+working.
+●
+Please cut off the power supply of X6100 before connecting or disconnecting the tapper.
+Di
+Di
+Da
+Da
+Com
+Com
+
+============================================================
+PAGE 9
+============================================================
+
+9
+Power source wiring
+13.8V external DC power supply can be used for X6100.
+The current load capacity of DC power supply
+shall be at least 3.5A.
+Attached power lines can be used to connect to radio and DC power supply.
+DC power supply shall be connected in strict accordance with following figure to avoid reverse polarity
+connection.
+■
+EMC magnet ring can be applied on power lines to prevent external disturbance from entering radio
+via power lines and radio-frequency interference in radio from radiating externally via power lines when
+external power supply is adopted for X6100. Magnet ring shall be installed at the side closing to radio to
+greatest extent.
+Charging
+When the battery voltage is lower than 7.4V, X6100 will temporarily turn off the transmission function; when the
+battery voltage is lower than 7.2V, X6100 will be forced to turn off in order to protect the battery.
+Please use the accompanying charging adapter to charge the X6100 transceiver. Insert the AC terminal of the charging
+adapter into the mains power supply and the output terminal into the DC interface on the left side of the X6100 to charge the
+internal battery (the charging switch should be turned on in the Menu 1 of General setting). It takes about 6 hours for fully
+charging, and the battery voltage is about 8.3V~8.4V. After charging, X6100 will automatically disconnect the internal
+charging circuit.
+During shutdown and charging, the status indication of TR indicator is as follows:
+
+Green flashing: charging
+
+The green light is always on: the battery is full
+
+Red flashing: battery failure
+
+No light: charging turned off
+Note :
+■
+Polarity of power lines shall be carefully inspected to avoid reverse polarity connection when external
+power supply is adopted.
+■
+Reverse connection of power may cause severe damage to the radio.
+■
+Do not charge the radio with any other charger that does not meet the specifications. Otherwise, the
+device may be damaged
+Caution!
+1. The charging adapter can only charge the X6100 and cannot be used for transmitting as there is a risk of
+damaging the device.
+2. Under no circumstances shall the DC port on the left of the X6100 be connected to a voltage higher than
+15VDC. Otherwise, serious device damage may occur.
+
+============================================================
+PAGE 10
+============================================================
+
+10
+II. Screen Display Interface
+①Status display area 1
+This area displays SPL, ATU, SQL, NB, NR and
+ANF switch status.
+②Volume tag
+Display volume/noise level/RF gain adjustment.
+Short press the volume knob to switch the above
+three status.
+③Multi-function tag
+The
+figure
+shows
+the
+transmitting
+power
+adjustment tag. Items of the tag displayed can be
+rapidly set via menu.
+④Spectrum display area
+It displays the signal strength of about -122dBm
+at minimum
+⑤Waterfall plot display area
+⑥Multi-function menu area
+Short press the corresponding button at the
+bottom of the screen to operate corresponding
+functions.
+⑦Main VFO frequency display area
+⑧Status display area 2
+This
+area
+displays
+the
+status
+including
+lock/USB
+port/Bluetooth/WLAN/battery/volume.
+⑨VFOB display area
+⑩Status display area 3
+This area displays PRE/ATT/mode /AGC status
+Table header area
+This area displays S table and CW frequency aligned
+windows
+Signal strength dBm display
+⑬Audio spectrum display area
+
+============================================================
+PAGE 11
+============================================================
+
+11
+Basic Operation
+Turn on/off radio
+1.
+Press the on-off button for 1s to turn on the
+radio.
+2.
+Press the on-off button for 1s again to turn
+off the radio.
+Adjust audio volume
+1.
+Turn the volume knob to the left or right to
+adjust the output volume.
+2.
+Short press the volume knob to switch
+volume/muting depth/RF gain adjustment.
+Operating frequency band and mode selection
+Follow the instructions below to select the
+amateur band and set mode.
+●
+Frequencies beyond the amateur band can
+only be received while cannot be transmitted.
+1.
+Press the corresponding mode button at the top of the radio to switch to corresponding mode.
+2.
+Press left or right [←]\[→] button to orderly switch operation frequency band:
+1.8MHz◄-►3.5MHz◄-►7MHz◄-►10MHz◄-►14MHz◄-►18MHz
+21MHz◄-►24MHz◄-►28MHz◄-►50MHz
+3.
+Figure buttons on hand microphone can be used to directly switch to corresponding wave band.
+
+============================================================
+PAGE 12
+============================================================
+
+12
+Set operation frequency
+1.
+Rotate large knob to set the frequency.
+Clockwise
+rotate
+the
+knob
+to
+increase
+the
+operating frequency and anticlockwise rotate the
+knob to decrease the operating frequency.
+2.
+Press the top [FST] button to change the
+frequency adjustment bit for fast adjustment.
+3.
+Set frequency by multi-function hand microphone
+●
+Press [F-INP ENT] key on hand microphone, and the X6100 will be in frequency setting state, and
+cursor will be flickering at the first place on the left of frequency display bit;
+●
+Input expected frequency values one by one, and press [F-INP ENT] key again to complete the
+frequency setting.
+For example, press buttons in following sequence to set current frequency
+as 14.25000MHz:
+1.
+Press [F-INP ENT] key firstly;
+2.
+Press
+number keys one by one;
+3.
+Press [F-INP ENT] key again to complete the setting.
+Adjustment of RF gain and muting level
+Proper RF gain can facilitate to improve the quality of signal received. In general, appropriately reducing the
+RF gain value at some low-frequency ranges with strong interference can significantly improve the hearing.
+Adjustment methods of RF gain:
+1. Short press the volume knob to bring up the RF GAIN setting items. The tag on the left side of the screen
+will display RF GAIN.
+2. Rotate the volume knob to adjust the RF gain value.
+SQL setting
+When muting is necessary for signals or noise less than a certain amplitudes, appropriate muting level can be
+set to disable the audio switch without signal so that the speaker can be muted.
+Operation methods:
+1. Short press the volume knob to bring up the RFGAIN setting items. The tag on the left side of the screen
+will display SQLLevel.
+2、Rotate the volume knob to set the muting level. At the same time, the muting grade will display on the
+screen.
+■
+The muting grade gradually strengthens from S1 ~S9, corresponding to strength. For example, when
+the muting grade is set to be S3, it indicates that the speaker will sound when the signal strength is more than
+S3. Otherwise, the speaker will in the silent mode.
+
+============================================================
+PAGE 13
+============================================================
+
+13
+Pre-amplifier/pre-attenuator
+The pre-amplifier can improve the receiving
+effect of some weak signals of high frequency
+range and the sensitivity of the receiver.
+Pre-attenuator can improve barrage jamming
+caused by strong signals and the performance of
+receiver.
+Operation method:
+1.
+Short press the [PRE] button at the top, and the character PRE appears at the top of the screen, indicating that the
+pre-amplifier has been turned on.
+2. Short press [PRE] button again and the character ATT will appear on the top of the screen, indicating that
+the pre-attenuator has been turned on.
+3. Short press [PRE] button again and no character will appear on the top of the screen, indicating that the
+current state is shoot-through state.
+■
+Before they are used in frequency range less than 14MHz, disabling the pre-amplifier is recommended
+so that the radio can be in the shoot-through state, which is conducive to strengthen the front-end
+performance of the receiver and reduce the influence of interference signals.
+■
+When the level displays that the received signals exceed _40dBm, turning on the pre-attenuator is
+recommended to avoid the decreasing of the dynamics of the receiver due to strong signals.
+Automatic gain control (AGC)
+Select appropriate AGC control parameters in
+different work modes to achieve a good receiving
+effect.
+Operation method:
+1.
+Press [AGC] key at the bottom of the screen in a short time, enable/ disable or select different AGC
+modes and circulate them in the following order:
+AGC-AUTO
+AGC-OFF
+AGC-SLOW
+AGC-FAST
+AGC-S: slow AGC control
+AGC-F: fast AGC control
+AGC-A: automatic AGC control
+AGC--: AGC off
+Recommended settings: AM mode: AGC-S
+SSB/CW mode: AGC-F
+2.
+When the AGC-A mode is selected, the radio will automatically select the appropriate AGC control
+parameter according to the current work mode.
+
+It is recommended to turn on AGC, which will improve the performance of the receiver and will not
+affect the receiving sensitivity index.
+
+============================================================
+PAGE 14
+============================================================
+
+14
+Transmitting (SSB/AM/FM mode)
+1.
+Press the PTT button on the microphone to start transmitting. Please speak to the microphone in a
+normal voice.
+2.
+During the transmitting, the TX indicator light on X6100 will turn red, as will the indicator light on
+hand microphone.
+3.
+Release the PTT button to return to the receiving state.
+Transmitting (CW mode)
+Use manual tapper or external keying unit to insert into the KEY port at the tail of the radio. (See page 5 for
+the definition of connection)
+1. Insert keys into the KEY port;
+2. Press [CW] button on the top of radio to switch mode to CW (or CWR);
+3. Turn on QSK function in menu and set appropriate QSK time;
+4. Press the tapper to enable CW communication.
+●
+Disable the QSK function in menu. There will be only CW sidetone of transceiver after pressing tapper
+under such conditions, but signals will not be transmitted externally.
+Automatic Antenna Tuner
+There is an efficient ATU integrated inside the
+X6100 radio to help you quickly erect and debug
+antenna.
+1. Short press [ATU] button to connect with built-in antenna tuner. There will be an antenna icon at the top
+of screen.
+2. In the case that the antenna tuner is accessed, long press the [ATU] key for 1s to start ATU automatic
+tuning functions. It will automatically return to receiving state after the tuning.
+Note :
+1. Short press [ATU] key, and there will be an ATU icon at the top of screen, indicating that antenna tuning
+functions are enabled. The functions are only enabled but not working.
+2. After the antenna tuner is tuned, the antenna tuner must remain to be open before the antenna tuner in the
+machine is used.
+3. If "SWR" icon is displayed at the top of the screen and flashes once transmitting is enabled after the
+tuning, it indicates that standing-wave of current antenna is still large and tuning is required to be carried out
+again.
+4. Antenna tuning shall be turned off once natural resonance of antenna reaches current frequency band.
+5. When a whip antenna is used and the internal antenna tuning is started for tuning, strong radio frequency
+interference may be caused to the unit or electronic equipment.
+
+============================================================
+PAGE 15
+============================================================
+
+15
+Use the build-in PTT of radio for transmitting
+The X6100 radio integrates PTT button and
+build-in microphone, which make it convenient
+when using the radio outdoors.
+1.
+Press the PTT button on the top of the device and speak to the built-in microphone hole at the left of
+large knob to transmit voice.
+2.
+Release the PTT button after transmitting to return to receiving status.
+Note :
+■
+Do not place the antenna very close to or near exposed parts of the body, especially the face or eyes,
+when transmitting in hands.
+It is required to get close to antenna, transmitting can be carried out at a low
+power.
+Lock main knob / screen backlight adjustment
+GEN
+APP
+KEY
+MSG
+DFN
+DFL
+HF/50MHz TRANSCEIVER
+X6100
+VOL -
+SQL
+- RFG
+MFK
+Operation methods:
+1、
+Long press the lock button to lock the operation of the main knob, and the symbol of "Lock" will be
+displayed at the upper right of the screen.
+2、Short press this key in the unlocked state to adjust the brightness of the screen backlight step by step.
+Lock button
+
+============================================================
+PAGE 16
+============================================================
+
+16
+Multifunctional operation
+Operation methods:
+1.
+Function buttons in the left area of the panel can directly access the common function operation menu.
+2.
+After selecting a direct button, the corresponding menu will appear at the bottom of the screen. Press the
+corresponding button below to operate the function.
+3. After selecting a function, rotate the large knob or MFK multi-function knob to adjust the corresponding
+parameter value. The adjustment parameters are displayed in the numeric part of the Function menu tab.
+Directly access to functional
+button area
+Multifunctional button area
+
+============================================================
+PAGE 17
+============================================================
+
+17
+GEN function operation
+After short pressing the [GEN] key, the Default menu will appear at the bottom of the screen, as shown in the following
+figure:
+Short press the key corresponding to [RADIO SETTING 1] to enter the "General setting 1" submenu, as shown in the
+following figure:
+Menu functions are defined as follows:
+AGC KENN
+AGC SLOPE
+AGC HANG
+TX POWER
+MIC SEL
+AGC start control
+level
+AGC control
+gradient
+AGC hold
+Transmitting
+power
+Microphone
+selection
+(built-in
+microphone / hand microphone)
+I-MIC GAIN
+H-MIN GAIN
+LINE IN LV
+LINE OUT LV
+MONI LEVEL
+Built-in
+microphone gain
+Hand
+microphone gain
+Line input level
+Line output level
+Monitor level
+PTT MODE
+BANDSTACK
+S/P MODE
+CHARGER
+------
+PTT mode
+Band display
+mode
+Headphone port output selection
+(headphone/external loudspeaker)
+Charging switch
+-------
+Menu line
+Operation methods:
+1、
+Rotate the MFK knob and scroll
+to select the item to be adjusted. As
+shown in the right figure, select the
+"LINE IN LV".
+2、
+Rotate the main knob to adjust
+the value of the current item.
+Restore defaults
+Manual
+decrease
+Manual
+increase
+Set as shortcut tag
+Exit the menu
+Operation icon
+
+============================================================
+PAGE 18
+============================================================
+
+18
+Short press the key corresponding to [RADIO SETTING 2] to enter the "General setting 2" submenu, as shown in the
+following figure:
+Menu functions are defined as follows:
+RIT
+XIT
+SPLE
+IQ IUT EN
+-----
+Reception
+frequency tuning
+Transmission
+frequency tuning
+Split frequency
+operation switch
+IQ output switch
+-----
+DISPLAY SETTING Menu
+Short press the key corresponding to [DISPLAY SETTING] to enter the "Display setting" submenu, as shown in the
+following figure:
+Menu functions are defined as follows:
+RF FFT AVE
+RF FFT REF
+WF REF
+AF FFT AVE
+AF FFT REF
+RF spectrum
+display average
+RF spectrum
+display reference
+level
+Waterfall
+reference offset
+level
+Audio spectrum
+display average
+Audio spectrum
+display reference
+level
+BL LEVEL
+---
+---
+---
+---
+Backlight
+brightness
+---
+---
+---
+---
+
+============================================================
+PAGE 19
+============================================================
+
+19
+SYSTEM SETTING Menu
+Short press the key corresponding to [SYSTEM SETTING] to enter the "System setting" submenu, as shown in the
+following figure:
+Menu functions are defined as follows:
+TIME
+FW UPGRADE
+---
+---
+---
+Time setting
+Firmware update
+---
+---
+---
+
+============================================================
+PAGE 20
+============================================================
+
+20
+MEMORY SETTING Menu
+Short press the key corresponding to [MEMORY SETTING] to enter the "Memory setting" submenu, as shown in the
+following figure:
+Example of Memory Channel Operation:
+The current frequency is VF0A: 14.270000/USB, VF0B: 7.050000/LSB
+1、
+Short press [SAVE VF0] to save the current frequency, mode, etc. into a blank channel.
+2、
+Short press [TAG] to name the current channel.
+3、
+Short press [MARK] to mark the current channel, and the symbol of a small house will be displayed on the channel
+tag.
+Example of Clearing Channel Operation:
+1、
+Turn the main knob to select the channel tag you want to clear.
+2、
+Short press [ERASE MEMO] to clear the channel information of the memory.
+Edit tag name
+Set mark
+Clear the
+current
+channels
+Store
+the
+current
+VF0 into channels
+Exit the menu
+Operation icon
+SAVE VFO
+SAVE VFO
+
+============================================================
+PAGE 21
+============================================================
+
+21
+APP function operation
+Short press [APP] key to enter the sub-menu of the "Application", as shown in the figure below:
+Menu functions are defined as follows:
+MODEM
+SWR SCAN
+VOICE CALL
+---
+---
+Enter the modem interface
+Enter the standing-wave scanner interface
+Recording call
+---
+---
+MODEM Menu
+Short press the corresponding key of [MODEM] to enter the sub-menu of the "Modem", as shown in the figure below:
+Sub-menu <1> Definitions are as follows:
+<1>
+MODE
+FC/TONE
+RATE/SPEED
+RTTY
+SHIFT
+Select RTTY/CW/BPSK mode
+Carrier / Side tone frequency
+Baud rate / code rate
+Offset
+Sub-menu <2> Definitions are as follows:
+<2>
+AFC
+SQL
+CLEAR
+EXIT
+Carrier tracking
+Modem muting
+Clear text
+Exit
+Automatic message decoding display area
+
+============================================================
+PAGE 22
+============================================================
+
+22
+Automatic Sending of Preset Information under MODEM
+In the MODEM interface, short press the [MSG] key on the left side of the panel to enter the automatic message sending
+interface, as shown in the figure below:
+Operation methods:
+1、
+When a tag has pre-stored information, there is information preview under the tag. The above figure shows that:
+MSG1 tag already has pre-stored information; the tag has information preview, which is convenient for users to
+quickly find the required call tag.
+2、
+Press the corresponding tag, X6100 will start sending the preset text information in the tag in the mode selected
+by MODEM until the sending of information is completed.
+
+============================================================
+PAGE 23
+============================================================
+
+23
+SWR
+SCAN Menu
+The X6100 has the antenna standing-wave scanner, which can scan the standing-wave parameters of the current antenna to
+help users adjust the antenna.
+Short press the corresponding key of [SWR SCAN] to enter the sub-menu of the "Standing-wave Scanner", as shown in the
+figure below:
+Menu functions are defined as follows:
+---
+---
+SPAN
+SPEED
+QUIT
+---
+---
+Scanning bandwidth
+Scanning speed
+Exit
+SPAN: short press this key to change the scanning bandwidth.
+SPEED: short press this key to change the scanning speed.
+QUIT: exit the standing-wave scanner interface
+
+============================================================
+PAGE 24
+============================================================
+
+24
+Automatic Call by Calling Preset Recording under Voice Mode
+X6100 has a built-in recording caller, which can record and store the call voice in the machine in advance, and the stored
+voice can be used for call transmission.
+Key sequence:
+[APP] - [VOICE CALL], enter the recording call interface, as shown in the figure below:
+Operation methods:
+1. When a tag has pre-stored information, there is a prompt under the tag to facilitate users to quickly find the required
+call tag.
+2. Press the corresponding tag, X6100 will start sending the preset recording information in the tag until the sending of
+information is completed.
+*For the recording method of voice messages, see the relevant operation chapter of "MSG" key in later part.
+
+============================================================
+PAGE 25
+============================================================
+
+25
+KEY function operation
+Short press [KEY] to enter the menu of KEY items, as shown in the figure below:
+Menu <1> Definitions of functions are as follows:
+KEY TYPE
+KEY SPEED
+IAMBIC
+TONE
+TONE LEVEL
+Manual / automatic mode selection
+Automatic key rate
+Iambic mode
+Side tone frequency
+Side tone volume
+Press the [KEY] key again to enter the menu on the second page of KEY items:
+Menu <2> Definitions of functions are as follows:
+QSK TIME
+DI/DA RATIO
+CW TRAINER
+---
+---
+QSK Time
+Dot-and-dash ratio
+Training mode switch
+---
+---
+
+============================================================
+PAGE 26
+============================================================
+
+26
+MSG function setting operation
+Short press [MSG] to enter the text preset menu on the first page of MSG, as shown below:
+Preset message list
+X6100 can pre-store 5 preset messages. These messages can be used for automatic transmission of CW, RTTY and BPSK.
+Click any MGS label to enter the editing interface, as shown below:
+Open the virtual keyboard as shown below:
+Virtual keyboard switch
+Delete characters
+Insert
+spaces
+Save and exit
+Exit
+Icon function
+1、
+Rotate the MFK knob to
+select the character to enter.
+2、
+Rotate to the ENTER key
+and press the MFK knob to
+determine to enter the current
+character.
+3、
+Rotate to the ○
+X symbol in
+the lower left corner and select it
+to exit the virtual keyboard. Or
+press [KEYBOARD] again to exit
+the virtual keyboard.
+
+============================================================
+PAGE 27
+============================================================
+
+27
+Press [MSG] again to enter the voice recording menu page on the second page of MSG options:
+X6100 can pre-store 5 voice messages. These messages can be used for automatic transmission of voice mode. Click
+any MGS label to enter the editing interface, as shown below:
+Recording operation method:
+1、
+Pick up the hand microphone and keep it about 5~10cm away from the lips.
+2、
+Press the "Record" key and start speaking at a normal volume until the speech is finished.
+3、
+Press the "Stop" key to stop recording.
+4、
+Press the "Play" key to listen to the voice just recorded.
+5. Press the "EXIT" key to exit the current page.
+Note:
+The maximum duration of each recording is 1 minute and 30 seconds.
+Preset recording list
+Icon function
+Record
+Play
+Stop
+Exit
+
+============================================================
+PAGE 28
+============================================================
+
+28
+DFN function setting and operation
+Short press [DFN] to enter the DFN option menu, as shown below:
+Menu <1> Definitions of functions are as follows:
+NR
+NR DEPTH
+NB
+NB WIDTH
+NB LEVEL
+Noise reduction switch
+Noise reduction depth
+Pulse blanking switch
+Pulse width
+Pulse depth
+Press [DFN] again to enter the menu on the second page of DFN options:
+Menu <2> Definitions of functions are as follows:
+DNF
+DNF CENTER
+DNF WIDTH
+---
+---
+Digital trap switch
+Trap center frequency point
+Trap bandwidth
+---
+---
+
+============================================================
+PAGE 29
+============================================================
+
+29
+DFL function setting and operation
+Short press [DFL] to enter the DFL option menu, as shown below:
+Operation methods:
+1. Select any filter from FILTER1~3 to enter.
+2. Short press the MFK knob to switch and select different edge-cut filters. The blue trapezoidal box is the high-cut filter
+(H-CUT), and the red trapezoidal box is the low-cut filter (L-CUT).
+3. Rotate the MFK knob to adjust the parameters of the filter according to the actual use. After adjustment, the current filter
+parameters will be automatically stored in the corresponding filter label.
+4. Short press [DEFAULT] to restore the filter parameters selected currently to the default parameters.
+5. Short press [CLOSE] to exit the current interface.
+6. As shown in the figure above, the start frequency and cut-off frequency of the filter can be adjusted respectively to set the
+filter. The overlapping region of the two schematic trapezoidal filter graphs is the actual action range of the filter. The
+details are as follows:
+Filter composition diagram:
+As shown in the figure on the right, the
+filter
+is
+acted
+by
+L-CUT
+and
+H-CUT
+together
+to
+form
+an
+effective
+filter
+bandwidth.
+L-CUT controls the low boundary frequency
+and can effectively cut off the low frequency
+component;
+H-CUT
+controls
+the
+high
+boundary
+frequency and can effectively cut off the
+high frequency component;
+In daily use, it can be adjusted according to
+own habits to achieve the best listening
+effect.
+*Note: If the actual bandwidth of the filter is
+smaller than that of the useful signal, the
+useful signal will be completely cut off,
+resulting in no signal to be heard.
+
+============================================================
+PAGE 30
+============================================================
+
+30
+Appendix 1
+Connection between X6100 and XPA125B (L4001 cable)
+After the X6100 connects with XPA125B power amplifier and antenna tuner AIO through the L4001 cables,
+the output power can be expanded to 100W.
+After connection, the X6100 can automatically control the wave band switching of XPA125B. Moreover, the
+ALC control will be built between two machines. When the X6100 output power exceeds the power limit of
+the XPA125B, the AACL control will automatically decrease the output power of the radio so that the output
+power of the XPA125B will be kept to be about 100W.
+We suggest to set the output power of the X6100 to be ≤2.5W to protect the amplifier equipment.
+■
+XPA125B power amplifier and L4001 cable need to be separately ordered.
+L4001 cable
+
+============================================================
+PAGE 31
+============================================================
+
+31
+Appendix 2
+Connection between X6100 and PC (Type-c)
+1. As shown in the figure above, connect the Type-C cable to the DEV port on the right side of the X6100.
+2. The CH342 port driver needs to be installed.
+3. Select the model "XIEGU X108G" on the data communication software (or Control Software) side to
+complete the connection.
+4. Select the virtual sound card option through the control software to get sound input and output.
+Note: If choose other rig that be compatible with CIV instructions, there may be incompatibility.
+Connect with N1MM to automatically transmit CW
+The connection method is the same as above, and the port is also connected to the DEV port on the right side
+of the X6100. After configuring the settings of the N1MM terminal, the PC can be used to control the X6100
+to send CW telegrams.
+External mouse 、keyboard equipment
+Connect the mouse, keyboard or other external input devices to the HOST interface on the right side of the
+X6100, and then you can operate the X6100 by the external mouse or keyboard.
+
+============================================================
+PAGE 32
+============================================================
+
+32
+Parameter & specification
+Frequency range: receiving: 0.5MHz~30MHz
+50.00~54MHz
+Transmitting:
+1.8~2.0MHz
+3.5~3.9MHz
+7.0~7.2MHz
+10.1~10.15MHz
+14.0~14.35MHz
+18.068~18.168MHz
+21.0~21.45MHz
+24.89~24.99MHz
+28.0~29.7MHz
+50.00~53.99MHz
+Working mode: CW, AM, SSB, FM
+Minimum stepping: 1Hz
+Antenna impedance: 50Ω
+Working temperature range: 0°C~+55°C
+Frequency stability: ±1.5ppm within 10~30min after startup
+@25°C: 1ppm/hour
+Supply voltage: 9.0~15.0VDC, negative electrode grounding
+Current consumption: receiving: 330mA@Max
+transmitting: 3A@Max
+Dimensions: 180*86*49mm (L*W*H) (not including protrusions)
+Weight: about 880g (host only)
+Transmitter parameters
+RF output power: 10W (SSB/CW/FM) @13.8VDC
+2.5W (AM carrier wave) @13.8VDC
+5W (SSB/CW/FM) @ battery
+1.5W (AM carrier wave) @ battery
+Spurious suppression: 1.8~29.6MHz: ≥50dB
+5(T54MHz:≥60dB
+Carrier suppression: ≥50dB
+Microphone impedance:
+200~10k (600Ω in general)
+Receiver parameters
+Circuit type: ZIF
+Sideband suppression: Ω50dB
+MDS:-138dB
+Sensitivity:
+Frequency band mode
+SSB/CW
+FM
+AM
+0.5~1.79999MHz
+/
+/
+10uV
+1.8~1.99999MHz
+0.35uV
+/
+10uV
+2.0~27.9999MHz
+0.20uV
+/
+2uV
+28.0~30.0MHz
+0.20uV
+0.22uV
+2uV
+50.0~54.0MHz
+0.20uV
+0.22uV
+2uV
+
+============================================================
+PAGE 33
+============================================================
+
+33
+(PRE=o50.0 ~ 54.0MHz
+N, ATT=off,
+NB=off, NR=off, SSB/CW/AM=l0dB S/N, FM=12dB SINAD)
+Audio output: 0.4W(8Ω, ≤10%THD)
+Audio output impedance: 4~16Q
+Antenna tuner
+Tuning range of antenna tuner VSWR: 1:4.5
+First tuning time: ≤15s
+Memory load tuning: ≤0.2s
+Wireless network/Bluetooth
+Wireless LAN standard: IEEE802.11b/g/n
+Authentication and encryption: WEP (64/128bit)
+WPA-PSK(TKIP)
+WPA2-PSK(AES)
+Frequency band: 2.4G
+Bluetooth version: 4.0
+〇
+Above specifications are typical values and subject to change without prior notice.
+〇
+Working frequency range of transceiver varies from version of the equipment. Ask local dealer for
+details.
+Packing List
+X6100 host: 1 pc.
+Type-C cable: 1 pc.
+Multifunction hand microphone: 1 pc.
+Charger adapter: 1 pc.
+Power cable: 1 pc.
+Warranty card: 1 pc.
+Manual: 1 pc.
+Quality certificate: 1 pc.

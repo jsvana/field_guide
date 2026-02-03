@@ -1,0 +1,259 @@
+{
+  "radio": {
+    "id": "xiegu-g90",
+    "manufacturer": "Xiegu",
+    "model": "G90",
+    "revision": "V4.31",
+    "pdfFilename": "Xiegu_G90_User_Manual_V4.31.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Xiegu G90 is an amateur radio portable 20W HF transceiver using 24-bit SDR technology. Based on a 24bit-CODEC, the G90 brings superior transceiver performance and a highly configurable user experience. The detachable head design allows flexibility in positioning the radio's main body."
+        },
+        {
+          "type": "paragraph",
+          "text": "To start the transceiver, press the power button for a short period. To shut down, press and hold the power button for 1 second. While powered on, a quick press of the power button turns off the LCD screen to save electricity - the radio continues to work normally."
+        },
+        {
+          "type": "paragraph",
+          "text": "Press the MODE button to cycle through transmission modes: LSB - L-D - USB - U-D - CW - CWR - NFM - AM. The two data modes (L-D and U-D) automatically route audio through the ACC port and mute the microphone for digital operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The BAND buttons cycle through amateur bands. System menu option 8 controls whether shortwave broadcast bands are included in the rotation - transmission is only allowed on amateur bands."
+        },
+        {
+          "type": "note",
+          "text": "As a Software Defined Radio, features can change with firmware updates. Ensure your G90 is at the latest firmware level. If instructions don't work as expected, you may be on a different firmware version."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hold the FUNC button for 1-2 seconds to enter the system menu. Use PREV/NEXT to navigate pages, the main tuning dial to change values, and SAVE to confirm changes or EXIT to discard."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Handle up/down",
+          "description": "Customize the hand microphone up/down buttons. Options: FREQCH+/- (frequency/channel), BAND+/-, VOLUM+/-. Default: FREQCH+/-"
+        },
+        {
+          "type": "menuEntry",
+          "name": "Handle F1/F2",
+          "description": "Customize hand microphone F1 and F2 button functions. Options: PRE/ATT, SPLT, NB, COMP, AGC. Defaults: F1=PRE/ATT, F2=SPLT"
+        },
+        {
+          "type": "menuEntry",
+          "name": "LCD BL",
+          "description": "Set display backlight brightness from 10% to 100%. Default: 80%"
+        },
+        {
+          "type": "menuEntry",
+          "name": "AUX IN/OUT Volum",
+          "description": "Set ACC port audio input/output levels (0-15). Used for digital mode audio routing. Defaults: IN=8, OUT=15"
+        },
+        {
+          "type": "menuEntry",
+          "name": "RCLK Tune",
+          "description": "Adjust the internal frequency reference (-1000Hz to +1000Hz). If showing a consistent frequency offset, adjust here to recalibrate. Default: 0Hz"
+        },
+        {
+          "type": "menuEntry",
+          "name": "Band Stack Mode",
+          "description": "Include or exclude shortwave broadcast bands when cycling with band buttons. Options: HAM Band (amateur only), FULL Band (amateur + broadcast). Default: HAM Band"
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KEY interface is a 3.5mm stereo jack for manual or paddle keys. If using a 6.5mm 2-wire plug, change it to a 3-wire 3.5mm stereo plug with both key contacts going to the appropriate terminals."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SPEED",
+          "description": "Set automatic keyer rate. Access via FUNC + KEY button, adjust with main tuning knob."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Volume",
+          "description": "Set sidetone volume. Access via FUNC + KEY button (second function)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW TONE",
+          "description": "Set sidetone frequency. Long press the M/L/R button to access."
+        },
+        {
+          "type": "menuEntry",
+          "name": "QSK",
+          "description": "Toggle full break-in (QSK) on/off. When enabled, you can hear between transmitted elements."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MODE (Iambic)",
+          "description": "Switch between Iambic A and Iambic B keyer modes."
+        },
+        {
+          "type": "warning",
+          "text": "Direct use of 2-core to 3-core adapters or incorrect wiring may put the radio into CW transmission mode permanently."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G90 has a built-in variable digital filter with continuously adjustable bandwidth. Firmware v1.79b02 introduced a 2-BPF mode allowing two preset filters per mode that can be quickly switched."
+        },
+        {
+          "type": "paragraph",
+          "text": "Short press the MFK button to switch between BPF1/BPF2 (color changes slightly). Turn the MFK encoder to adjust the selected filter. Long press MFK or FUNC to exit."
+        },
+        {
+          "type": "specificationTable",
+          "title": "Default Filter Bandwidths",
+          "rows": [
+            ["Mode", "BPF Range", "Bandwidth"],
+            ["SSB", "300-3000 Hz", "2700 Hz"],
+            ["SSB DIG", "100-3100 Hz", "3000 Hz"],
+            ["CW", "-250 to +250 Hz", "500 Hz"],
+            ["AM", "-3000 to +3000 Hz", "6000 Hz"],
+            ["NFM", "-4500 to +4500 Hz", "9000 Hz"]
+          ]
+        },
+        {
+          "type": "note",
+          "text": "In CW mode, the digital filter can be made as narrow as 50Hz, but there will be obvious deterioration of audio at such extreme settings. 300-500 Hz is normally ideal."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G90 operates from 10.5-16.5V DC with negative ground. Current capability of the DC power supply should be at least 8 amps. The transmitter is designed so that dropping supply voltage from a weak battery has little effect on output power until 10.5V is reached."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "10.5-16.5V DC"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Receive)",
+          "value": "700 mA max"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Transmit)",
+          "value": "6 A max"
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect the red wire to positive and black wire to negative. A ferrite choke on the power wires (closest to the radio) helps prevent RF interference. Although the G90 has reverse polarity protection, reverse connection should be avoided."
+        },
+        {
+          "type": "warning",
+          "text": "Operation above the maximum voltage (16.5V) will seriously damage the radio! The warranty does not cover damage caused by incorrect power connection or improper voltage."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G90 has a built-in wide-range automatic antenna tuner capable of matching a very wide range of antennas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Press TUNE momentarily to bring the ATU in-circuit (antenna icon appears). To initiate tuning, hold TUNE for >2 seconds - 'Tuning' will be displayed. After tuning completes, leave the ATU ON to provide the antenna match during operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The SWR scanner (long press POW) scans the connected antenna's SWR across frequencies. Press the button below BW to change scan step, FAST/SLOW for scan speed, and QUIT to exit. The bottom of the screen shows the frequency of lowest SWR (antenna resonance)."
+        },
+        {
+          "type": "warning",
+          "text": "If the SWR icon flashes while transmitting even after tuning, the antenna SWR is too high. Another tuning attempt may help, but this could also indicate a faulty antenna."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "G90 Technical Specifications",
+          "rows": [
+            ["Frequency Range (RX)", "0.5-30 MHz"],
+            ["Frequency Range (TX)", "1.8-29.7 MHz (amateur bands)"],
+            ["Output Power", "20W (SSB/CW/FM/AM) @ 13.8V"],
+            ["Operating Modes", "USB/U-D/LSB/L-D/CW/CWR/AM/FM"],
+            ["Minimum Step", "10 Hz"],
+            ["Frequency Stability", "±1.5 ppm (10-60 min after startup)"],
+            ["Sensitivity (SSB/CW)", "0.25 µV (2-30 MHz)"],
+            ["Spurious Suppression", "≥50 dB"],
+            ["Audio Output", "0.5W (8 ohm, ≤10% THD)"],
+            ["Size", "120x45x210 mm (case only)"],
+            ["Weight", "About 1.63 kg (main body)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Radio won't power on",
+          "description": "Check DC power connections and polarity. Verify supply voltage is 10.5-16.5V. Try a different power source."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No audio output",
+          "description": "Check if in headphone mode (speaker icon). Press volume knob to toggle. Verify volume is turned up."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Can't transmit",
+          "description": "Verify you're on an amateur band (not broadcast). Check that PTT or key is properly connected. Ensure SWR is acceptable."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Digital modes not working",
+          "description": "Use U-D or L-D mode (not USB/LSB). Check AUX IN/OUT volume settings in system menu. Verify ACC port audio connections."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Frequency display seems off",
+          "description": "Use RCLK Tune in system menu to calibrate the reference oscillator if you notice a consistent offset."
+        },
+        {
+          "type": "warning",
+          "text": "Do not insert the USB-serial cable into the COMM socket before powering on the G90 - this may trigger firmware update mode and require a firmware reinstall."
+        }
+      ]
+    }
+  ]
+}

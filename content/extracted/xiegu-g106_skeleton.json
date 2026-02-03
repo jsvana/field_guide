@@ -1,0 +1,162 @@
+{
+  "radio": {
+    "id": "xiegu-g106",
+    "manufacturer": "Xiegu",
+    "model": "G106",
+    "revision": "V1.31",
+    "pdfFilename": "Xiegu_G106_User_Manual_V1.31.pdf"
+  },
+  "sections": [
+    {
+      "id": "xiegu-g106-operation-basics",
+      "title": "Operation Basics",
+      "sortOrder": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Operation Basics content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g106-menu-system-reference",
+      "title": "Menu System Reference",
+      "sortOrder": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Menu System Reference content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g106-cw-keyer-settings",
+      "title": "CW/Keyer Settings",
+      "sortOrder": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract CW/Keyer Settings content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g106-filters-and-dsp",
+      "title": "Filters & DSP",
+      "sortOrder": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Filters & DSP content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g106-power-and-battery",
+      "title": "Power & Battery",
+      "sortOrder": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Power & Battery content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g106-atu-operation",
+      "title": "ATU Operation",
+      "sortOrder": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract ATU Operation content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g106-specifications",
+      "title": "Specifications",
+      "sortOrder": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Specifications content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-g106-quick-troubleshooting",
+      "title": "Quick Troubleshooting",
+      "sortOrder": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Quick Troubleshooting content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    }
+  ],
+  "_extractedTOC": [
+    {
+      "title": "Table of Contents \nWarnings",
+      "page": 3
+    },
+    {
+      "title": "About Radioddity",
+      "page": 4
+    },
+    {
+      "title": "FRONT PANEL",
+      "page": 6
+    },
+    {
+      "title": "Top Panel Buttons",
+      "page": 6
+    },
+    {
+      "title": "Rear panel",
+      "page": 7
+    },
+    {
+      "title": "INSTRUCTIONS FOR EXTERNAL INTERFACE CONNECTIONS",
+      "page": 9
+    },
+    {
+      "title": "CONNECTION OF EXTERNAL POWER SUPPLY",
+      "page": 10
+    },
+    {
+      "title": "STORING NEW FREQUENCIES IN CHANNEL MEMORIES",
+      "page": 17
+    },
+    {
+      "title": "COMPUTER CONTROL INSTRUCTIONS",
+      "page": 20
+    },
+    {
+      "title": "BAND INDICATION VOLTAGE LEVELS",
+      "page": 21
+    },
+    {
+      "title": "PACKING LIST",
+      "page": 22
+    },
+    {
+      "title": "SPECIFICATIONS",
+      "page": 23
+    },
+    {
+      "title": "FIRMWARE DOCUMENTATION",
+      "page": 24
+    }
+  ],
+  "_pageCount": 25
+}

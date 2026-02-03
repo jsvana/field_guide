@@ -1,0 +1,199 @@
+{
+  "radio": {
+    "id": "xiegu-x5105",
+    "manufacturer": "Xiegu",
+    "model": "X5105",
+    "revision": "V3.0",
+    "pdfFilename": "Xiegu_X5105_Instruction_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Xiegu X5105 is an HF+50MHz all-mode 5W portable transceiver with an extremely compact size (168x93x47mm). It integrates all functions required for shortwave amateur radio in a truly portable package with a 3.6-inch large lattice LCD display."
+        },
+        {
+          "type": "paragraph",
+          "text": "Press the power button for one second to turn on or off. The T/R indicator shows green when receiving, red when transmitting. The DATA indicator flickers during data communication, and the LINK indicator lights when connected to peripherals."
+        },
+        {
+          "type": "paragraph",
+          "text": "Press MODE to cycle through modes: LSB - USB - CW - CWR - NFM - AM. Press MENU to switch between multi-function menu pages. The four multi-function buttons correspond to on-screen functions."
+        },
+        {
+          "type": "note",
+          "text": "Features include digital noise reduction (NR), digital notch, digital filter, direct decoding of amateur data modes, CW automatic calling unit, and built-in high-stability TCXO."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Press MENU to switch between displayed multi-function menus. Press the corresponding button to activate each function. Some functions require pressing SAVE after adjustment."
+        },
+        {
+          "type": "menuEntry",
+          "name": "V/M",
+          "description": "Switch between VFO mode and MEMO (channel memory) mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "A/B",
+          "description": "Switch between VFOA and VFOB for split operation or quick frequency comparison."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MW (Memory Write)",
+          "description": "Store the current frequency and settings to a memory channel."
+        },
+        {
+          "type": "menuEntry",
+          "name": "< and > Buttons",
+          "description": "Move the current frequency step position left or right, changing the tuning rate."
+        },
+        {
+          "type": "menuEntry",
+          "name": "TAG",
+          "description": "Add an alphanumeric tag/label to a memory channel."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CSN (Call Sign)",
+          "description": "Set your call sign for display on startup."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KEY interface is a 3.5mm stereo socket for manual or automatic keys. For a manual key, connect 'di' and 'da' together."
+        },
+        {
+          "type": "paragraph",
+          "text": "CW AUTO transmission allows automatic sending of preset messages. The CW automatic calling unit can store and transmit common exchanges."
+        },
+        {
+          "type": "note",
+          "text": "The X5105 supports both manual button and automatic button mode switching for flexible operation."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The digital baseband enables advanced features including digital noise reduction (NR), digital NOTCH filter for removing interference, and adjustable digital filtering (AFF - Audio Filter Function)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The modem function (MDN) enables direct decoding of amateur data modes. With external adapters, data communication can be done directly without a PC or separate modem."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The X5105 features a built-in large-capacity lithium battery pack (3800mAh @ 12V) and also accepts external DC power. The wide working voltage range adds flexibility for various power sources."
+        },
+        {
+          "type": "paragraph",
+          "text": "External DC power must provide 13.8V @ 3A minimum. Use the supplied power cable to connect - observe the interface definitions on the left panel."
+        },
+        {
+          "type": "specification",
+          "name": "Internal Battery",
+          "value": "3800 mAh @ 12V lithium pack"
+        },
+        {
+          "type": "specification",
+          "name": "External Power",
+          "value": "13.8V DC, 3A minimum"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "5W"
+        },
+        {
+          "type": "note",
+          "text": "The DC power interface also serves as the internal battery charging port. Retract the side guards after use to protect the interfaces."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Press ATU briefly to connect the automatic antenna tuner to the antenna interface. Long press ATU to initiate automatic tuning."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Standing Wave Ratio Scanner (SWR) function allows you to scan and visualize antenna performance across frequencies, helping with antenna adjustment and troubleshooting."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "X5105 Technical Specifications",
+          "rows": [
+            ["Frequency Range", "HF + 50 MHz"],
+            ["Operating Modes", "LSB/USB/CW/CWR/NFM/AM"],
+            ["Output Power", "5W"],
+            ["Display", "3.6-inch lattice LCD"],
+            ["Battery", "3800 mAh @ 12V built-in"],
+            ["Built-in ATU", "Yes"],
+            ["Clock Source", "High-stability TCXO"],
+            ["Size", "168 x 93 x 47 mm"],
+            ["Features", "Digital NR, Notch, Filter, Modem"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Controls not responding",
+          "description": "Press LOCK to check if controls are locked. Short press unlocks all buttons and knobs."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No display backlight",
+          "description": "Long press LOCK for 1 second to toggle the screen backlight on/off."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Factory reset",
+          "description": "Use the Reset function in system parameters to restore default settings if configuration becomes problematic."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Data mode setup",
+          "description": "Connect computer via ACC interface for audio and COM interface for CAT control. See manual for XPA125 amplifier and CE-19 expansion card connections."
+        }
+      ]
+    }
+  ]
+}

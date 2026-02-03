@@ -70,6 +70,30 @@ make generate-manifest  # Generate content manifest.json
 
 See `content/CURATION_GUIDE.md` for full documentation and copy-paste templates.
 
+## Adding a New Radio to the App
+
+To add a new radio to the Library, complete ALL of these steps:
+
+1. **Add to download script** (`tools/download_pdfs.py`):
+   - Add entry to `MANUALS` dict with manufacturer, name, url, filename, revision
+
+2. **Download PDF**: `make download-pdfs`
+
+3. **Extract content**: `cd tools && source venv/bin/activate && python extract_content.py <radio-id>`
+
+4. **Create content JSON** in `FieldGuide/FieldGuide/<radio-id>.json`:
+   - Use the extracted raw text and skeleton as reference
+   - Follow field requirements above (use `text` not `content`, etc.)
+
+5. **Register in app** (`FieldGuide/FieldGuide/FieldGuideApp.swift`):
+   - Add radio ID to `bundledRadios` array (alphabetical within manufacturer)
+
+6. **Copy to content directory**: `cp FieldGuide/FieldGuide/<radio-id>.json content/<radio-id>/content.json`
+
+7. **Update FILE_INDEX.md**: Add entry to Content section
+
+**Missing any step will cause the radio to not appear in the Library tab.**
+
 ## Code Standards
 
 - Swift 6 with strict concurrency

@@ -65,6 +65,13 @@ struct FieldGuideApp: App {
         // Venus
         "venus-sw3b",
         "venus-sw6b",
+        // Xiegu
+        "xiegu-g1m",
+        "xiegu-g90",
+        "xiegu-g106",
+        "xiegu-x5105",
+        "xiegu-x6100",
+        "xiegu-x6200",
         // Yaesu
         "yaesu-ft710",
         "yaesu-ft891",

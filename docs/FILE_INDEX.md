@@ -65,6 +65,12 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `lnr-mtr5b/content.json` | Curated content for LNR Precision MTR 5B |
 | `lnr-ld5/content.json` | Curated content for LNR Precision LD-5 |
 | `yaesu-ft891/content.json` | Curated content for Yaesu FT-891 |
+| `xiegu-g90/content.json` | Curated content for Xiegu G90 |
+| `xiegu-g106/content.json` | Curated content for Xiegu G106 |
+| `xiegu-g1m/content.json` | Curated content for Xiegu G1M |
+| `xiegu-x5105/content.json` | Curated content for Xiegu X5105 |
+| `xiegu-x6100/content.json` | Curated content for Xiegu X6100 |
+| `xiegu-x6200/content.json` | Curated content for Xiegu X6200 |
 | `extracted/*_skeleton.json` | Raw extracted text skeletons (not curated) |
 
 ## Documentation (`docs/`)

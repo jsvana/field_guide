@@ -1,0 +1,1002 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+Page 1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+“The uncomplicated, easy to use, small sized HF portable radio” 
+ 
+Version 1.31 June 2023 (firmware v1.3).
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+Page 2 
+ 
+ 
+Table of Contents 
+Warnings ..................................................................................................................................................3 
+About Radioddity .................................................................................................................................4 
+INTRODUCTION: .......................................................................................................................................5 
+FRONT PANEL .....................................................................................................................................6 
+Top Panel Buttons .........................................................................................................................6 
+Rear panel .........................................................................................................................................7 
+INSTRUCTIONS FOR EXTERNAL INTERFACE CONNECTIONS .......................................................9 
+CONNECTION OF EXTERNAL POWER SUPPLY ..............................................................................10 
+OPERATION: ...........................................................................................................................................11 
+BASIC OPERATION: .........................................................................................................................12 
+ADJUSTING THE AUDIO VOLUME / OUTPUT DEVICE: .............................................................13 
+SELECTING OPERATIONAL MODE AND BAND: ..........................................................................13 
+Setting the Tuning Step (TS) frequency. .........................................................................14 
+ENABLING THE RECEIVE PREAMPLIFIER. .................................................................................14 
+CW MODE OPERATION. ..................................................................................................................15 
+LOCKING THE RADIO’S CONTROLS .............................................................................................15 
+ANTENNA: ..........................................................................................................................................16 
+LISTENING TO FM BROADCAST STATIONS WITH THE G106 .............................................16 
+View Software (Firmware) version information: ..........................................................16 
+STORING NEW FREQUENCIES IN CHANNEL MEMORIES .........................................................17 
+DELETING A STORED CHANNEL: ..................................................................................................17 
+SETTING THE START-UP DISPLAY TEXT (CALL SIGN): ........................................................18 
+G106 operational display definition: ..................................................................................18 
+Enable / disable keypad tone: ...............................................................................................18 
+Factory reset: ................................................................................................................................18 
+Connection with XPA125B and computer .......................................................................19 
+COMPUTER CONTROL INSTRUCTIONS .............................................................................................20 
+BAND INDICATION VOLTAGE LEVELS ..............................................................................................21 
+PACKING LIST ........................................................................................................................................22 
+SPECIFICATIONS ...................................................................................................................................23 
+UPDATING THE RADIO’S FIRMWARE: ...............................................................................................24 
+FIRMWARE DOCUMENTATION .......................................................................................................24 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+ 
+Page 3 
+ 
+Warnings 
+1. 
+Please read this manual fully before operation so as to get a good 
+understanding of the G-106’s capabilities and functions. 
+2. 
+When using an external mains power supply or battery, carefully 
+check the polarity of the power cord and do not reverse the polarity. 
+The warranty of this radio does not cover damage caused by an 
+incorrect external power connection error or damage caused by 
+improper power supply voltage. 
+3. 
+Only qualified technicians shall service this equipment. 
+4. 
+Do not tamper with the transceiver for any reason. 
+5. 
+Do not operate the transceiver with a damaged antenna. If part of an 
+antenna comes into contact with your skin, a minor burn can result. 
+6. 
+Turn off your transceiver prior to entering any area with explosive or 
+flammable materials. Do not operate your transceiver in any area near 
+explosive or flammable materials. Turn off your transceiver before 
+entering any blasting area. 
+7. 
+To avoid electromagnetic interference, please turn off your transceiver 
+in any area where notices instruct you to do so. 
+8. 
+Turn off your transceiver before boarding an aircraft; any use of a 
+radio must be in accordance with airline regulations and crew 
+instructions. 
+9. 
+Do not place the transceiver over any airbag deployment area in 
+vehicles containing airbags. 
+10. Do not expose the transceiver to direct sunlight over a long period of 
+time, nor place it close to any heat source. 
+11. When transmitting with the transceiver, hold the microphone 3 to 4 
+centimetres away from your lips and keep a safe distance away from 
+the antenna in accordance with the ICNIRP and any additional local 
+regulations. 
+Copyright 
+All rights reserved 2023 Chongqing Xiegu Technology Co., Ltd. 
+Reproduction of any part of this manual is prohibited without permission. 
+ 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+Page 4 
+About Radioddity 
+“You, our friend and customer, are at the forefront of what we do.” 
+Thank you for purchasing a XIEGU product from Radioddity. The strong 
+partnership we have with XIEGU allows us to bring you the latest technology 
+from the XIEGU brand and on behalf of the Customer Support team, we strive 
+to fulfil our promise to better meet your needs every day. 
+In order to protect your rights please read the terms on the XIEGU Warranty 
+Card carefully and know the Warranty Policy. 
+ 
+ 
+Feedback Survey：scan to share your suggestions!  
+We look forward to improving our products based on 
+customer experience, and any ideas would be appreciated!  
+ 
+ 
+If you have any suggestions for new XIEGU products, you’re welcome to 
+contact us via < support@radioddity.com >. 
+Radioddity thanks Ed Durrant DD5LP for his assistance with revisions to this  document
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+Page 5 
+INTRODUCTION: 
+ 
+The G106 is a basic 5W portable QRP transceiver with an SDR infrastructure 
+using 16bit CODEC sampling to deliver superior performance. The radio 
+supports three transmission modes SSB, CW & AM as well as FM (88-108MHz) 
+on receive only. Local FM broadcasts can be listened to while operating 
+portable. A digital CW filter with three bandwidths helps when receiving weak 
+CW signals. With the external DE-19 digital adapter unit (optional) the G106 
+can be easily connected to a computer to support digital data modes such as 
+FT-8. As an entry-level portable robust SDR transceiver, the G106 is well 
+suited to QRP CW and FT-8 operations while also supporting SSB and AM 
+modes.  
+Basic features: 
+ High performance SDR infrastructure 
+ Compact and robust physical structure 
+ Coverage of all HF amateur radio bands between 3.5 and 29.7MHz 
+ FM broadcast receive coverage 
+ Continuous receive coverage across all HF frequencies 
+ Amateur data communication modes are possible by connection to 
+a computer with the appropriate software installed. 
+ Computer based remote control is available via a CAT port. 
+Please read this Manual carefully for a better experience and full 
+understanding of the operation of the G106. 
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+Page 6 
+FRONT PANEL 
+ 
+ 
+1   Volume knob 
+Turn the knob to increase or decrease the 
+volume. Short-press to switch audio 
+output between the internal speaker and 
+the speaker-microphone. 
+2   Microphone interface 
+External speaker microphone interface 
+(RJ10) 
+3 Display 
+High contrast monochrome display 
+ 
+ 
+ 
+4   T/R indicator  
+Transmit/receive status indicator  
+5 Main-knob 
+Tuning knob, used to change the radio’s 
+frequency.  
+6 Multi-function buttons 
+Short-press these buttons to execute the 
+corresponding functions displayed on the 
+screen.
+Top Panel Buttons 
+ 
+ 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Page 7 
+ 
+7    Power button/backlight 
+ 
+Long-press this button to power the radio on/ off. 
+ 
+Short-press the button after power on to turn on/off the display backlight 
+ 
+8 MODE Button 
+ 
+ 
+Short-press this button to switch between operating modes 
+ 
+Long-press this button to turn on/off the preamplifier. 
+ 
+9 and 10 Band switch / Tuning step / lock radio
+ 
+ 
+ 
+When on the HF bands, a short-press of these buttons switches between bands 
+(depending upon what is set in the Band Switch Mode (BSM) this will be just the 
+Ham bands (Ham) or Shortwave broadcast and Ham bands (Full). A long press (2 
+sec) on these butting changes the cursor position in the frequency display so 
+changing the “tuning step” amount when the main tuning knob is turned. 
+ 
+A short-press of these buttons in the FM mode switches between stored FM radio 
+stations. 
+ 
+Pressing both these buttons at the same time locks all buttons and knobs on the 
+radio. 
+ 
+Pressing both buttons at the same time again unlocks the radio’s controls. 
+ 
+Rear panel
+ 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+ 
+Page 8 
+ 
+11 Antenna Socket 
+50 Ω BNC antenna socket.   
+12 CW KEY Socket 
+3.5mm stereo socket (3-wire), used to 
+connect a manual or automatic key (see 
+next page for connections) 
+ 13 ACC interface 
+8-pin (not 6-pin as shown in picture) 
+Mini-Din interface (see next page for 
+connections)
+ 
+14 Grounding-nut 
+Connect this to your station earth.  
+ 
+15 COM Interface 
+3.5mm stereo jack communication 
+interface for CAT control and firmware 
+updates.(speed 19200 bps). 
+ 
+16 DCIN external DC power 
+5.5/2.5mm DC power supply socket 
+
+============================================================
+PAGE 9
+============================================================
+
+ 
+Page 9 
+ 
+INSTRUCTIONS FOR EXTERNAL INTERFACE CONNECTIONS 
+ 
+(2)  RJ10 MIC interface 
+ 
+Note: There is a bias voltage on the MIC 
+cable (pin 2). Avoid shorting it to ground. 
+(15) COM interface
+(13)   ACC interface 
+ 
+ (12)  Key wiring diagram 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   Connect your straight key/paddle Morse key  
+   according to the diagram shown in the figure  
+   above. 
+ 
+Note: 
+ 
+If the connector on your straight key is 
+a 6.5mm 2-pole plug, please change it  
+to a 3-pole 3.5mm stereo plug following 
+the wiring shown in the figure above,  
+and connect the live wire of the Morse  
+key to either the "Di" or "Da" terminal. 
+Note: 
+ 
+Direct use of some2-pole to 3-pole  
+Adapters or incorrect wiring may result 
+in the radio sticking in CW transmit  
+mode. 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+ 
+Page 10 
+ 
+CONNECTION OF EXTERNAL POWER SUPPLY 
+ 
+A 9-16V external DC power supply can be used to power the G106. The current load capacity 
+of the power supply shall be at least 3A. The supplied power lead can be used to connect the 
+radio and DC power supply. 
+ 
+The DC power supply must be connected in strict accordance with following diagram to avoid 
+a reverse polarity connection. 
+ 
+The white centre-core wire is connected to the positive pole of the power supply, and the 
+metal-shield is connected to the negative pole of the power supply. 
+ 
+An EMC ferrite bead has been pre-fitted to the power lead supplied with the G106. Its 
+purpose is  to prevent external noise from entering the radio via its power lead and radio-
+frequency interference from radiating externally from the G106 over the power cable. The 
+other end of the cable is bare wires for the user to fit their own power connector as required. 
+It is recommended that the user add a fuse in the resulting power lead. 
+ 
+Before connection the polarity of the power lead should be carefully inspected 
+to avoid reverse polarity connection from the external PSU 
+The limited warranty of the radio does not cover damage caused by a fault in 
+the external power connection or damage caused by an out-of-range voltage 
+being applied.  
+ 
+
+============================================================
+PAGE 11
+============================================================
+
+ 
+Page 11 
+ 
+OPERATION: 
+The G106 accesses various functions through the multi-function menus. All 
+functions are allocated to different menu pages and there are 4 options on each 
+page. 
+ 
+ 
+The menu items can be selected and changed using the following method: 
+ 
+Short-press any multi-function button to call up the menu and turn the main tuning 
+knob to switch between the five menu pages in turn. 
+ 
+Press the multi-function button corresponding to the menu option displayed on 
+the screen to execute the corresponding function. 
+ 
+Some functions only work if you press "SAVE" after their adjustment. If you press 
+"QUIT", you will directly exit from the page and the changes will not be saved. 
+ 
+ 
+ 
+Page 
+Menu Item 
+1 / 5 
+           V/M
+            A/B
+           MW
+             MC
+  Freq/Ch mode 
+VFOA-VFOB switch  Mem Ch Write 
+ Mem Ch Clear 
+2 / 5 
+             CWF 
+             CWT 
+           CWR 
+            QSK 
+  CW filter selection      CW sidetone 
+CW dot-dash ratio       QSK switch 
+3 / 5 
+            KS
+            KM
+          IMB
+           CSN
+Automatic keyer rate       Keyer mode 
+    IAMBIC mode 
+ Startup text
+4 / 5 
+            SPL 
+             DIS 
+            BP 
+           VER 
+Split mode 
+    Display mode 
+    Keypad beep 
+   Version info 
+5 / 5 
+          WFM 
+BSM
+MG
+TXP
+    FM receiver 
+Full / Ham Bands
+Microphone gain Tx Power L/M/H 
+
+============================================================
+PAGE 12
+============================================================
+
+ 
+Page 12 
+ 
+The G106 uses a black and white dot matrix display screen to display all status information in 
+a user-friendly way. Visibility in sunlight is also better due to the contrast of a black & white 
+screen. 
+ 
+Alongside the S value is a moving scale that indicates signal strength on receive and power 
+output on transmit. This is meant to be a user guide only indicating operation.  
+ 
+BASIC OPERATION: 
+ 
+To turn the radio on and off: 
+ 
+1. A short-press on the power button will turn the radio on when it 
+is in a powered off state. 
+2. To turn the radio off a longer (about 2 seconds) press of the 
+power button is required. 
+ 
+To turn off the screen’s backlight during operation: 
+ 
+ A short-press of the power button while the radio is running 
+will turn off the backlight in the screen. 
+ 
+A second short press will turn it back on. 
+ 
+ 
+
+============================================================
+PAGE 13
+============================================================
+
+ 
+Page 13 
+ 
+ADJUSTING THE AUDIO VOLUME / OUTPUT DEVICE: 
+1. 
+Rotate the volume control knob at the top left-hand corner to adjust output 
+volume. 
+2. 
+Short press the volume control knob to switch between the in-built speaker and the 
+speaker in the hand microphone. A telephone-like symbol will appear at the top of 
+the display when the speaker-Mic is plugged in and selected. When you quick-press 
+the volume knob so that the internal speaker is used, the symbol will disappear. 
+3. If you wish to use your headphones, these can be plugged into the 3.5mm socket 
+on the bottom of the speaker microphone.
+ 
+SELECTING OPERATIONAL MODE AND BAND: 
+1. 
+Press the MODE on the top of the radio to switch to the required mode. 
+2. 
+Press the BAND left and right buttons to cycle through the bands 
+1.8MHz*↔3.5MHz↔5MHz↔7MHz↔10MHz↔14MHz↔18MHz↔21MHz↔24MHz↔28MHz 
+ 
+ 
+1.8MHz(160m) is receive only. 
+ 
+
+============================================================
+PAGE 14
+============================================================
+
+ 
+Page 14 
+ 
+Setting the Tuning Step (TS) frequency. 
+ 
+To select the step required when tuning (100Hz, 1 KHz etc) we use the BAND 
+buttons as follows: 
+Long-press the BAND left or right button for 2s to step up or down in the 
+displayed step value. 
+Once set, turn the main tuning knob to go to the required frequency. 
+ENABLING THE RECEIVE PREAMPLIFIER. 
+ 
+To turn on or off the pre-amplifier long-press the MODE button. When 
+enabled a P will be displayed at the top of the display. 
+Note: The pre-amplifier is rarely required on the lower HF bands and it is 
+recommended to turn it off on the higher bands if there are very strong 
+signals or interference present.  
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+ 
+Page 15 
+ 
+CW MODE OPERATION. 
+Insert your straight or paddle Morse key into the KEY interface on the 
+rear of the G106 (see earlier for the definition of connections). 
+Suggested configuration steps: 
+1. Turn on the QSK function through the menu settings and set the 
+required rate by long-pressing the QSK button which brings up the 
+adjustment. (note: if QSK is not enabled no CW will be transmitted 
+although in this mode the radio can be used as a CW practice oscillator). 
+2. Press on the Morse key to start CW communications. (do not press the 
+PTT on the microphone) 
+3. In the menu (2/5) select the CWF function to set the filter bandwidth to 
+the desired value (options are 500Hz, 250Hz and 50Hz) by turning the 
+main tuning knob. Press SAVE followed by EXIT. 
+4. Go back into menu (2/5) and this time select the CWT function to set 
+which sidetone you wish to hear. Again, press SAVE followed by EXIT to 
+set the value.  
+You should now be ready to operate on the CW mode however you may also 
+wish to adjust the following related settings to your taste or as required by 
+your key. KS: automatic keying rate KM: manual/auto keyer mode. IMB: 
+IAMBIC keying mode. 
+LOCKING THE RADIO’S CONTROLS 
+ 
+The controls on the radio can be locked or unlocked by pressing and holding 
+both BAND buttons at the same time for at least 2 seconds. Once locked a 
+lock symbol is displayed at the top of the display. 
+
+============================================================
+PAGE 16
+============================================================
+
+ 
+Page 16 
+ 
+ANTENNA: 
+ 
+The G106 requires an antenna that is resonant on the frequency in use. For 
+“wide-banded” non-resonant antennas an external ATU is required. 
+ 
+LISTENING TO FM BROADCAST STATIONS WITH THE G106 
+To have the G106 receive local VHF FM broadcast stations follow these steps: 
+ 
+1. Access the multi-function menu [5/5] and select the WFM function.  
+2. Functions of buttons while in Wide band FM receive mode: 
+① 
+</> button at the bottom of the screen: tune up and 
+down the FM band to automatically search for radio 
+stations. Automatically store the radio stations found 
+and stop. 
+② QUIT: Quit FM radio. 
+③ Main tuning knob: Manually adjust the radio frequency. 
+④ 
+BAND left and right buttons: Switch between the radio stations   
+that have been automatically stored.  
+⑤    Use the volume knob to change the volume. 
+ 
+View Software (Firmware) version information: 
+Access the multi-function menu [4/5] VER function to go to the firmware 
+version information display. The information is displayed as follows 
+(example – with v1.3 firmware this will show v1.3): 
+ 
+Press any button to exit the display. 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+ 
+Page 17 
+ 
+USE OF MEMORY CHANNELS: 
+ 
+STORING NEW FREQUENCIES IN CHANNEL MEMORIES 
+1. Select the desired frequency and mode. 
+2. Access the multi-function menu [1/5] MW (memory write) function. 
+Turn the main tuning knob to select a desired empty channel. Then, 
+a flashing "MW" will be displayed on the screen, next to which, 
+there is an icon "E", indicating that the current channel is empty and 
+can be stored to. Press "SAVE" to save the tuned frequency and 
+mode into the channel. If the channel you have chosen is not 
+indicated as empty the current data will overwrite the existing data. 
+3. If you press "QUIT", you will directly exit from the current page and 
+the channel will not be saved.  
+4. In channel mode, short-press the BAND left and right buttons to 
+switch between the stored channels. 
+DELETING A STORED CHANNEL: 
+1. In channel mode, select the channel to be deleted. 
+2. Access the multi-function menu [1/5], MC function and 
+select "CLR" to delete the current channel. If you press 
+"QUIT", you will directly exit from the current page and the 
+channel will not be deleted. 
+
+============================================================
+PAGE 18
+============================================================
+
+ 
+Page 18 
+ 
+SETTING THE START-UP DISPLAY TEXT (CALL SIGN): 
+Your radio station call sign can be displayed on the G106’s startup screen. 
+To do this, follow these steps: 
+1. Call the multi-function menu [3/5], CSN function to edit the startup 
+interface.  
+2. The three function buttons on the editor are as follows: 
+QUIT: give up editing and exit  
+BACK: delete the last character  
+SAVE: save and exit 
+3. Turn the main tuning knob to choose the desired character and press 
+the main knob in to select the character. 
+4. Press the SAVE button to save and exit. The information you set will now 
+be displayed at startup the next time you turn the radio on. 
+G106 operational display definition: 
+The display of G106 can be set to display different content as follows: 
+1. Access the multi-function menu [4/5], DIS function to go to the display 
+mode selection where three options are available SCOPE+S, SCOPE and BIG 
+SCOPE: 
+SCOPE+S: displays spectrum + signal strength S value  
+SCOPE: displays spectrum only 
+BIG SCOPE: displays a larger format spectrum 
+2. Turn the main knob to select the desired display mode, press SAVE to 
+save and exit. About 5s later, the interface will automatically switch to the 
+normal display state. 
+Tip: 
+If the display menu is already shown, you may short-press the main 
+tuning knob to quickly return to the spectrum display state. 
+Enable / disable keypad tone: 
+Access the multi-function menu [4/5], BP function and press the BP function 
+button again to enable or disable the keypad tone. 
+Factory reset: 
+Press & hold the Mode button when powering on. Answer the Y/N question 
+with the buttons below the display (saved channels are not affected). 
+
+============================================================
+PAGE 19
+============================================================
+
+ 
+Page 19 
+ 
+Connection with XPA125B and computer 
+ANT 
+FUSE 
+DC IN 
+TRX 
+ 
+ 
+ACC 
+COMM 
+ 
+ 
+ 
+ 
+PC 
+ 
+ 
+ 
+ 
+Type-A 
+USB   
+ 
+ 
+XPA125B (optional) 
+ 
+ 
+ 
+C 
+IV      CIV connecting line 
+ PA         L4001 cable 
+ACC 
+ACC connecting line 
+ 
+ 
+DE-19 adapter (optional) 
+G106 
+The G106 can be connected to a computer and an XPA125B using an optional DE-19 adapter, providing convenience for data communication 
+and power amplifier control. 
+1. Connect the units as shown in the diagram above. 
+2. Install the relevant CH342 port driver for the operating system in use (search online and download). 
+3. Select the model "XIEGU G106" in the data communication software (or control software) you are using (alt. Xiegu G90 or IC7000) 
+4. Choose the DE-19 virtual sound ports for sound input/output in your software. Note that different sound devices are required for input 
+and output. 
+ Note: If you choose a different radio model even one that supports C-IV instructions, some actions will not work. 
+
+============================================================
+PAGE 20
+============================================================
+
+ 
+Page 20 
+COMPUTER CONTROL INSTRUCTIONS 
+Once connected via the DE-19 unit or using a USB-to-serial (3.5mm) cable the 
+G106 accepts CIV instructions at 19200 bps speed (8 bits, no parity). Through 
+these instructions you can remotely control the transceiver based on 
+supported instructions (see below) or configure control instructions required 
+by other software (e.g. digital data modes). Select Xiegu G90 or ICOM IC7000 
+as the radio in the software if G106 is not shown. 
+
+============================================================
+PAGE 21
+============================================================
+
+ 
+Page 21 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BAND INDICATION VOLTAGE LEVELS 
+The ACC interface of G106 provides a different voltage for each of the 
+supported ham bands, which can be used to switch peripheral devices 
+automatically (e.g. automatic antenna switches and linear amplifiers). 
+Wave Band
+Voltage 
+Wave Band
+Voltage 
+Wave Band
+Voltage 
+Wave Band
+Voltage 
+/ 
+/ 
+7MHz 
+920mV 
+18MHz 
+1610mV 
+28MHz 
+2300mV 
+3.5MHz 
+460mV 
+10MHz 
+1150mV 
+21MHz 
+1840mV 
+/ 
+/ 
+5.0MHz 
+690mV 
+14MHz 
+1380mV 
+24MHz 
+2070mV 
+/ 
+/ 
+ 
+
+============================================================
+PAGE 22
+============================================================
+
+ 
+Page 22 
+PACKING LIST 
+Item Name 
+Qty. 
+G106 radio 
+1 
+Speaker microphone 
+1 
+Power cord 
+1 
+Warranty card 
+1 
+Manual 
+1 
+Certificate of conformity 
+1 
+ 
+ 
+Optional supporting products 
+ 
+DE-19: external USB communications adapter (applicable to G90, 
+G90S, G106, G106C), used for computer control and digital data mode 
+communications (audio & serial links). 
+ 
+XPA125B: 100W power amplifier with built-in antenna tuner (ATU) 
+ L4001 cable: dedicated control cable for connecting XPA125B 
+(applicable to X6100, G106) 
+ 
+
+============================================================
+PAGE 23
+============================================================
+
+ 
+Page 23 
+SPECIFICATIONS 
+Receive frequency range: 
+0.55-30MHz 
+88-108MHz (FM broadcast) 
+ 
+Transmit frequency ranges: 
+3.5-4.0MHz 
+5MHz (region specific) 
+ 
+ 
+ 
+ 
+7.0-7.3MHz 
+10.1-10.15MHz  
+ 
+ 
+ 
+ 
+14-14.35MHz 
+18.068-18.168MHz 
+ 
+ 
+ 
+ 
+21-21.45MHz 
+24.89-24.99MHz 
+ 
+ 
+ 
+ 
+28-29.7MHz 
+Operating modes: 
+ 
+SSB/CW/AM 
+(WFM receive only) 
+Receive sensitivity: 
+ 
+CW: 
+0.25µV @ 10dB S/N 
+ 
+ 
+ 
+ 
+ 
+SSB: 
+0.5µV @ 10dB S/N 
+ 
+ 
+ 
+ 
+ 
+AM: 
+10µV 
+@ 10dB S/N 
+Frequency stability: 
+ 
+±1.5ppm within 30min after power on 
+ 
+ 
+ 
+ 
+@25°C: 1ppm/hour 
+Spectrum scope width  
+48 kHz 
+Transmitted power 
+ 
+≥5W @ 13.8V DC 
+Transmission spurious suppression: 
+≥50dB 
+Audio output power: 
+ 
+0.3W 
+Operating voltage: 
+ 
+9-15V 
+Standby current consumption: 0.37A (max) 
+Current draw on transmit: 
+2.8A (max) 
+Dimensions: 
+ 
+ 
+120 x 40 x 135 mm 
+Weight (radio only) 
+ 
+720g 
+Copyright © 2023 
+All rights are reserved by Chongqing Xiegu Technology Co., Ltd. Reproduction of any 
+part of this manual without permission is prohibited.  
+o 
+All 
+specifications 
+are 
+typical 
+and 
+apply 
+to 
+amateur bands only. Due 
+to technical improvements 
+these specifications are 
+subject to change without 
+notice. 
+o 
+The operating frequency 
+range of transceivers sold 
+in different countries or 
+regions 
+will 
+be 
+set 
+according 
+to 
+local 
+regulations. Ask your local 
+dealer for details. 
+
+============================================================
+PAGE 24
+============================================================
+
+ 
+Page 24 
+UPDATING THE RADIO’S FIRMWARE: 
+ 
+When an update to the software in the radio is needed to either fix a 
+problem or add a feature a firmware update file will be supplied by 
+your radio dealer, mostly likely over their website. Unless the file is 
+marked as essential or contains some features that you wish to use, 
+you may choose not to update the radio. 
+Instructions on the step by step process is documented on both 
+Radioddity and Xiegu’s webpages. The use of the Teraterm program or 
+similar XModem capable software on a PC connected to the radio via 
+the USB interface (115200,8,N,1) is required and the process is started 
+by holding in the volume knob while turning on the radio. In Teraterm 
+make sure that you enable the 1K block option otherwise the upgrade 
+can fail, leaving the radio inoperative. If this happens, simply start the 
+upgrade process again. 
+This manual is based on a radio with the v 1.3 firmware which was 
+installed using this process. 
+FIRMWARE DOCUMENTATION 
+Changelog for v 1.1b01 firmware upgrade: 
+1. More precise CW keyer timing 
+2. Lowered the Tx audio gain to give a higher SNR for Tx 
+3. Added "MIC GAIN" option into menu [5/5] “MG” with the 
+   range=0-30, gain=0-15dB, step=0.5dB, default=20 
+4. Added "FACTORY RESET" option 
+   Press and hold the "MODE" button when powering on 
+   Note: this only resets the menu parameters to their 
+   defaults there is no change to any stored channels 
+5. Fixed AM transmission function. 
+ 
+Changelog for v 1.2b02 firmware upgrade: 
+1. Improved speech intelligibility on transmit & receive. 
+ 
+
+============================================================
+PAGE 25
+============================================================
+
+ 
+Page 25 
+Changelog for v 1.2b03 firmware upgrade: 
+1. Added Tx power adjustment option, menu [5/5], "TXP" 
+option: LOW: 10% MID: 50% HIGH: 100% 
+ 
+Changelog for v1.3 firmware upgrade: 
+1. To work with JTDX/WSJTX (and other data mode 
+software packages), added CI-V commands 0x25,0x26, 
+(set/read VFO frequency of either VFO, report/set data 
+mode U-D or L-D from the PC). 
+2. Added CI-V command 0x1D/0x19 to read the XIEGU 
+RADIO ID. (0106 for this radio) 
+3. Bug fix: Can't totally mute when RX volume set to 0 
+4. Bug fix: ACC TRX Pin is output only (now it's bidirectional) 
+5. Bug fix: Won't lock the long press key 
+6. Set RX audio bandwidth to 10-3300Hz in data mode 

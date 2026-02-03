@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Download radio PDF manuals."""
 
-import urllib.request
 import urllib.parse
+import urllib.request
 from pathlib import Path
 
 MANUALS = {
@@ -109,6 +109,49 @@ MANUALS = {
         "filename": "FT-891_Instruction_Manual.pdf",
         "revision": "1",
     },
+    # Xiegu
+    "xiegu-g90": {
+        "manufacturer": "Xiegu",
+        "name": "G90",
+        "url": "https://radioddity.s3.amazonaws.com/Xiegu_G90_User_Manual_V4.31_20230607.pdf",
+        "filename": "Xiegu_G90_User_Manual_V4.31.pdf",
+        "revision": "V4.31",
+    },
+    "xiegu-g106": {
+        "manufacturer": "Xiegu",
+        "name": "G106",
+        "url": "https://radioddity.s3.amazonaws.com/Xiegu_G106_User_Manual_V1.31_20230607.pdf",
+        "filename": "Xiegu_G106_User_Manual_V1.31.pdf",
+        "revision": "V1.31",
+    },
+    "xiegu-g1m": {
+        "manufacturer": "Xiegu",
+        "name": "G1M",
+        "url": "https://fcc.report/FCC-ID/2ANLH-G1M/5210936.pdf",
+        "filename": "Xiegu_G1M_User_Manual.pdf",
+        "revision": "V3.0",
+    },
+    "xiegu-x5105": {
+        "manufacturer": "Xiegu",
+        "name": "X5105",
+        "url": "https://xiegu.eu/wp-content/uploads/sites/4/2019/02/X5105-Instruction-Manual.pdf",
+        "filename": "Xiegu_X5105_Instruction_Manual.pdf",
+        "revision": "V3.0",
+    },
+    "xiegu-x6100": {
+        "manufacturer": "Xiegu",
+        "name": "X6100",
+        "url": "https://radioddity.s3.amazonaws.com/Xiegu_X6100_User_Manual_20211123.pdf",
+        "filename": "Xiegu_X6100_User_Manual.pdf",
+        "revision": "2021-11-23",
+    },
+    "xiegu-x6200": {
+        "manufacturer": "Xiegu",
+        "name": "X6200",
+        "url": "https://www2.randl.com/man2/xiegu/x6200.pdf",
+        "filename": "Xiegu_X6200_User_Manual.pdf",
+        "revision": "Rev 05",
+    },
 }
 
 
@@ -126,7 +169,7 @@ def download_pdf(radio_id: str, output_dir: Path) -> Path:
     # Use a proper User-Agent to avoid 403 errors from some servers
     request = urllib.request.Request(
         manual["url"],
-        headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"}
+        headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"},
     )
     with urllib.request.urlopen(request) as response:
         with open(output_path, "wb") as f:

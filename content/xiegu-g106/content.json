@@ -1,0 +1,210 @@
+{
+  "radio": {
+    "id": "xiegu-g106",
+    "manufacturer": "Xiegu",
+    "model": "G106",
+    "revision": "V1.31",
+    "pdfFilename": "Xiegu_G106_User_Manual_V1.31.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Xiegu G106 is a basic 5W portable QRP transceiver with an SDR infrastructure using 16-bit CODEC sampling. It supports three transmission modes (SSB, CW, AM) plus FM broadcast reception (88-108 MHz). As an entry-level robust SDR transceiver, the G106 is well suited to QRP CW and FT-8 operations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Long-press the power button to turn on or off. Short-press after power on to toggle the display backlight. The T/R indicator shows transmit/receive status. Turn the volume knob to adjust volume; short-press to switch between internal speaker and speaker-microphone output."
+        },
+        {
+          "type": "paragraph",
+          "text": "Short-press MODE to switch between operating modes. Long-press MODE to toggle the preamplifier. The < and > buttons switch bands (short press) or change tuning step position (long press 2 sec). Press both < and > together to lock/unlock all controls."
+        },
+        {
+          "type": "note",
+          "text": "With the external DE-19 digital adapter unit, the G106 can connect to a computer for digital modes like FT-8. Local FM broadcasts can be listened to while operating portable."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G106 uses a five-page multi-function menu system. Short-press any multi-function button to call up the menu, then turn the main tuning knob to switch between pages. Press the button corresponding to the displayed function. Some functions require pressing SAVE; pressing QUIT exits without saving."
+        },
+        {
+          "type": "menuEntry",
+          "name": "V/M",
+          "description": "Switch between frequency (VFO) mode and channel memory mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "A/B",
+          "description": "Switch between VFOA and VFOB."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MW (Memory Write)",
+          "description": "Store current frequency and settings to a memory channel."
+        },
+        {
+          "type": "menuEntry",
+          "name": "MC (Memory Clear)",
+          "description": "Delete a stored memory channel."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CSN (Call Sign)",
+          "description": "Set your call sign for the startup display."
+        },
+        {
+          "type": "menuEntry",
+          "name": "BSM (Band Switch Mode)",
+          "description": "Choose Ham bands only or Full (ham + shortwave broadcast) for band switching rotation."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KEY socket is a 3.5mm stereo jack for straight keys or paddles. For straight keys with 6.5mm 2-pole plugs, rewire to 3.5mm stereo with the key wire going to either 'Di' or 'Da' terminal."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CWF (CW Filter)",
+          "description": "Select digital CW filter bandwidth. Three bandwidths available to help receive weak CW signals."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CWT (CW Tone)",
+          "description": "Adjust the CW sidetone frequency to your preference."
+        },
+        {
+          "type": "warning",
+          "text": "Direct use of some 2-pole to 3-pole adapters or incorrect wiring may result in the radio sticking in CW transmit mode."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G106 includes a digital CW filter with three bandwidth settings to help copy weak CW signals. Access via the CWF menu option."
+        },
+        {
+          "type": "paragraph",
+          "text": "Long-press MODE to toggle the receive preamplifier on/off for improved sensitivity on weak signals."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G106 operates from 9-16V external DC power through a 5.5/2.5mm DC socket. The power supply must provide at least 3A current capacity. Use the supplied power lead with pre-fitted EMC ferrite bead."
+        },
+        {
+          "type": "paragraph",
+          "text": "The white center-core wire connects to positive, metal shield to negative. A user-added fuse in the power lead is recommended."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "9-16V DC"
+        },
+        {
+          "type": "specification",
+          "name": "Current Requirement",
+          "value": "3A minimum"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "5W"
+        },
+        {
+          "type": "warning",
+          "text": "Carefully check polarity before connection. The limited warranty does not cover damage from external power connection faults or out-of-range voltage."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The G106 does not have a built-in automatic antenna tuner. For antenna matching, use an external ATU or resonant antennas."
+        },
+        {
+          "type": "note",
+          "text": "The 50Ω BNC antenna socket connects directly to your antenna system. Ensure good SWR before transmitting at full power."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "G106 Technical Specifications",
+          "rows": [
+            ["Frequency Range (TX)", "3.5-29.7 MHz (amateur bands)"],
+            ["Frequency Range (RX)", "HF continuous + FM 88-108 MHz"],
+            ["Operating Modes", "SSB/CW/AM (TX), FM (RX only)"],
+            ["Output Power", "5W"],
+            ["Architecture", "SDR with 16-bit CODEC"],
+            ["Display", "High contrast monochrome"],
+            ["Supply Voltage", "9-16V DC"],
+            ["Antenna", "50Ω BNC"],
+            ["CAT Interface", "3.5mm stereo (19200 bps)"]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Controls locked",
+          "description": "Press both < and > buttons simultaneously to unlock all panel controls."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No backlight",
+          "description": "Short-press the power button after power on to toggle backlight."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Factory reset",
+          "description": "Use the factory reset function in the menu to restore default settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "FM stations not in rotation",
+          "description": "In FM mode, the < and > buttons switch between stored FM stations rather than bands."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keypad beep",
+          "description": "Enable or disable the keypad confirmation tone through the menu system."
+        }
+      ]
+    }
+  ]
+}

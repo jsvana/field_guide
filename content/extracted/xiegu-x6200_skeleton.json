@@ -1,0 +1,338 @@
+{
+  "radio": {
+    "id": "xiegu-x6200",
+    "manufacturer": "Xiegu",
+    "model": "X6200",
+    "revision": "Rev 05",
+    "pdfFilename": "Xiegu_X6200_User_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "xiegu-x6200-operation-basics",
+      "title": "Operation Basics",
+      "sortOrder": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Operation Basics content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-x6200-menu-system-reference",
+      "title": "Menu System Reference",
+      "sortOrder": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Menu System Reference content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-x6200-cw-keyer-settings",
+      "title": "CW/Keyer Settings",
+      "sortOrder": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract CW/Keyer Settings content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-x6200-filters-and-dsp",
+      "title": "Filters & DSP",
+      "sortOrder": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Filters & DSP content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-x6200-power-and-battery",
+      "title": "Power & Battery",
+      "sortOrder": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Power & Battery content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-x6200-atu-operation",
+      "title": "ATU Operation",
+      "sortOrder": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract ATU Operation content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-x6200-specifications",
+      "title": "Specifications",
+      "sortOrder": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Specifications content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "xiegu-x6200-quick-troubleshooting",
+      "title": "Quick Troubleshooting",
+      "sortOrder": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Quick Troubleshooting content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    }
+  ],
+  "_extractedTOC": [
+    {
+      "title": "CONTENTS\nPrecautions",
+      "page": 1
+    },
+    {
+      "title": "Safety precautions",
+      "page": 1
+    },
+    {
+      "title": "Operation permit",
+      "page": 1
+    },
+    {
+      "title": "Battery precautions",
+      "page": 2
+    },
+    {
+      "title": "Important tips",
+      "page": 2
+    },
+    {
+      "title": "Electromagnetic interference",
+      "page": 2
+    },
+    {
+      "title": "Panel Instructions",
+      "page": 4
+    },
+    {
+      "title": "Front panel",
+      "page": 4
+    },
+    {
+      "title": "Right side",
+      "page": 5
+    },
+    {
+      "title": "Left side",
+      "page": 5
+    },
+    {
+      "title": "Top button",
+      "page": 6
+    },
+    {
+      "title": "Interface Description",
+      "page": 8
+    },
+    {
+      "title": "Interface definitions",
+      "page": 8
+    },
+    {
+      "title": "Connection of Electric KEY Port",
+      "page": 8
+    },
+    {
+      "title": "Power supply wiring",
+      "page": 9
+    },
+    {
+      "title": "Charging",
+      "page": 9
+    },
+    {
+      "title": "Operation of MFK knob",
+      "page": 11
+    },
+    {
+      "title": "Select language",
+      "page": 11
+    },
+    {
+      "title": "Function description of each area on\nthe main interface",
+      "page": 12
+    },
+    {
+      "title": "Basic Operation",
+      "page": 14
+    },
+    {
+      "title": "Turn on/off radio",
+      "page": 14
+    },
+    {
+      "title": "Adjust audio volume",
+      "page": 14
+    },
+    {
+      "title": "Operating frequency band and mode\nselection",
+      "page": 14
+    },
+    {
+      "title": "Set operation frequency",
+      "page": 15
+    },
+    {
+      "title": "Adjustment of RF gain and muting\nlevel",
+      "page": 15
+    },
+    {
+      "title": "SSB/AM/NFM mode transmission",
+      "page": 16
+    },
+    {
+      "title": "Transmit in CW mode",
+      "page": 16
+    },
+    {
+      "title": "Automatic antenna tuner",
+      "page": 16
+    },
+    {
+      "title": "Use\nthe\nradio\nPPT\nkey\nfor\ntransmission",
+      "page": 17
+    },
+    {
+      "title": "FST/Lock button",
+      "page": 17
+    },
+    {
+      "title": "Multi-functional Menu Operation",
+      "page": 18
+    },
+    {
+      "title": "Basic operating methods",
+      "page": 18
+    },
+    {
+      "title": "GEN function operation",
+      "page": 19
+    },
+    {
+      "title": "Menu page-flipping operation",
+      "page": 19
+    },
+    {
+      "title": "DISPLAY menu",
+      "page": 25
+    },
+    {
+      "title": "SYSTEM menu",
+      "page": 29
+    },
+    {
+      "title": "MEMORY menu",
+      "page": 30
+    },
+    {
+      "title": "APP function operation",
+      "page": 31
+    },
+    {
+      "title": "MODEM menu",
+      "page": 31
+    },
+    {
+      "title": "Automatic\nsending\nof\npreset\ninformation",
+      "page": 32
+    },
+    {
+      "title": "SWR SCAN standing wave scanner\noperation",
+      "page": 33
+    },
+    {
+      "title": "Recording automatic call",
+      "page": 34
+    },
+    {
+      "title": "KEY function operation",
+      "page": 35
+    },
+    {
+      "title": "MSG function operation",
+      "page": 36
+    },
+    {
+      "title": "Voice recording",
+      "page": 37
+    },
+    {
+      "title": "DFN function operation",
+      "page": 38
+    },
+    {
+      "title": "DFL function operation",
+      "page": 39
+    },
+    {
+      "title": "Set\ntime/view\nsystem\ninformation/update\nfirmware/restore\nfactory settings",
+      "page": 40
+    },
+    {
+      "title": "Set wireless network parameters",
+      "page": 41
+    },
+    {
+      "title": "Set Bluetooth function",
+      "page": 42
+    },
+    {
+      "title": "Forced shutdown",
+      "page": 42
+    },
+    {
+      "title": "System downtime",
+      "page": 42
+    },
+    {
+      "title": "Computer for Data Communication &\nControl",
+      "page": 44
+    },
+    {
+      "title": "Setting method of radio end when\nusing\nremote\ncontrol\nsoftware\nWFSERVER",
+      "page": 45
+    },
+    {
+      "title": "Parameter",
+      "page": 46
+    },
+    {
+      "title": "Parameter Specifications",
+      "page": 46
+    },
+    {
+      "title": "Packing List",
+      "page": 47
+    }
+  ],
+  "_pageCount": 55
+}
