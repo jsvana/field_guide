@@ -1,23 +1,25 @@
 .PHONY: build test clean download-pdfs extract-content generate-manifest
 
 PROJECT := FieldGuide/FieldGuide.xcodeproj
-SCHEME := FieldGuide
+TARGET := FieldGuide
+TEST_TARGET := FieldGuideTests
 SIMULATOR := iPhone 16 Pro
 
 # Build for simulator (default)
 build:
-	xcodebuild -project $(PROJECT) -scheme $(SCHEME) \
-		-destination 'platform=iOS Simulator,name=$(SIMULATOR)' build
+	xcodebuild -project $(PROJECT) -target $(TARGET) \
+		-configuration Debug build
 
 # Run tests
 test:
-	xcodebuild -project $(PROJECT) -scheme $(SCHEME) \
+	xcodebuild -project $(PROJECT) -target $(TEST_TARGET) \
 		-destination 'platform=iOS Simulator,name=$(SIMULATOR)' test
 
 # Clean build artifacts
 clean:
-	xcodebuild -project $(PROJECT) -scheme $(SCHEME) clean
+	xcodebuild -project $(PROJECT) -target $(TARGET) clean
 	rm -rf ~/Library/Developer/Xcode/DerivedData/FieldGuide-*
+	rm -rf FieldGuide/build
 
 # Python tooling commands
 download-pdfs:

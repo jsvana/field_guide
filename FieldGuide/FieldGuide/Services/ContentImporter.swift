@@ -66,11 +66,11 @@ actor ContentImporter {
         }
 
         // Import sections
-        for sectionJSON in content.sections {
+        for (sectionIndex, sectionJSON) in content.sections.enumerated() {
             let section = Section(
                 id: sectionJSON.id,
                 title: sectionJSON.title,
-                sortOrder: sectionJSON.sortOrder
+                sortOrder: sectionJSON.sortOrder ?? sectionIndex
             )
             section.radio = radio
 
@@ -95,9 +95,9 @@ actor ContentImporter {
                     searchableText += (blockJSON.name ?? "") + " " + (blockJSON.description ?? "") + " "
 
                 case .specification:
-                    block.specLabel = blockJSON.label
+                    block.specLabel = blockJSON.name
                     block.specValue = blockJSON.value
-                    searchableText += (blockJSON.label ?? "") + " " + (blockJSON.value ?? "") + " "
+                    searchableText += (blockJSON.name ?? "") + " " + (blockJSON.value ?? "") + " "
 
                 case .specificationTable:
                     block.tableHeaders = blockJSON.headers
@@ -153,7 +153,7 @@ struct RadioJSON: Codable, Sendable {
 struct SectionJSON: Codable, Sendable {
     let id: String
     let title: String
-    let sortOrder: Int
+    let sortOrder: Int?
     let blocks: [BlockJSON]
 }
 

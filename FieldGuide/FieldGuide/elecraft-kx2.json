@@ -161,16 +161,16 @@
           "type": "specificationTable",
           "title": "KX2 Technical Specifications",
           "rows": [
-            { "name": "Frequency Range (RX)", "value": "500 kHz - 32 MHz" },
-            { "name": "Frequency Range (TX)", "value": "80/60/40/30/20/17/15/12/10 m" },
-            { "name": "Output Power", "value": "15 W max (80-20m), 12 W max (17-10m)" },
-            { "name": "Sensitivity (MDS)", "value": "-136 dBm typical (preamp on, 500 Hz BW)" },
-            { "name": "Frequency Stability", "value": "+/- 1 ppm typical at 25C after 5-min warmup" },
-            { "name": "Supply Voltage", "value": "8 V min, 15 V max" },
-            { "name": "Current (RX)", "value": "150 mA typical" },
-            { "name": "Current (TX)", "value": "1-2 A typical" },
-            { "name": "Size", "value": "2.8 x 5.8 x 1.6 in (7.2 x 14.7 x 4 cm)" },
-            { "name": "Weight", "value": "13 oz (0.37 kg) without battery" }
+            ["Frequency Range (RX)", "500 kHz - 32 MHz"],
+            ["Frequency Range (TX)", "80/60/40/30/20/17/15/12/10 m"],
+            ["Output Power", "15 W max (80-20m), 12 W max (17-10m)"],
+            ["Sensitivity (MDS)", "-136 dBm typical (preamp on, 500 Hz BW)"],
+            ["Frequency Stability", "+/- 1 ppm typical at 25C after 5-min warmup"],
+            ["Supply Voltage", "8 V min, 15 V max"],
+            ["Current (RX)", "150 mA typical"],
+            ["Current (TX)", "1-2 A typical"],
+            ["Size", "2.8 x 5.8 x 1.6 in (7.2 x 14.7 x 4 cm)"],
+            ["Weight", "13 oz (0.37 kg) without battery"]
           ]
         }
       ]

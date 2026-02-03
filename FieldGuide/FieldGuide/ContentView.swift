@@ -3,22 +3,26 @@
 //  FieldGuide
 //
 
+import SwiftData
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         TabView {
-            Tab("Library", systemImage: "books.vertical") {
-                LibraryTab()
-            }
+            LibraryTab()
+                .tabItem {
+                    Label("Library", systemImage: "books.vertical")
+                }
 
-            Tab("Search", systemImage: "magnifyingglass") {
-                SearchTab()
-            }
+            SearchTab()
+                .tabItem {
+                    Label("Search", systemImage: "magnifyingglass")
+                }
 
-            Tab("Settings", systemImage: "gear") {
-                SettingsTab()
-            }
+            SettingsTab()
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
         }
     }
 }
