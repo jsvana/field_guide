@@ -1,0 +1,321 @@
+{
+  "radio": {
+    "id": "yaesu-ft891",
+    "manufacturer": "Yaesu",
+    "model": "FT-891",
+    "revision": "1",
+    "pdfFilename": "FT-891_Instruction_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-891 is a rugged HF/50 MHz transceiver for mobile and portable operation. It provides 100 W output on 160-6 meters with SSB, CW, AM, FM, and digital modes. The detachable front panel allows flexible installation."
+        },
+        {
+          "type": "paragraph",
+          "text": "To turn the transceiver ON or OFF, press and hold the [PWR/LOCK] key. While on, briefly press [PWR/LOCK] to engage/disengage the MAIN DIAL knob lock."
+        },
+        {
+          "type": "paragraph",
+          "text": "To select the operating band, press [BAND] to display the band selection screen, then rotate the MAIN DIAL to select your band. The selection is confirmed automatically after 0.5 seconds."
+        },
+        {
+          "type": "paragraph",
+          "text": "To select the operating mode, press and hold [BAND(MODE)] for one second to display the mode selection screen, then rotate the MAIN DIAL to choose SSB, CW, RTTY, DATA, AM, or FM."
+        },
+        {
+          "type": "paragraph",
+          "text": "The MULTI function knob provides quick access to many features. Press it to adjust frequency in 500 kHz steps, or use it to navigate menus and adjust settings when a function is active."
+        },
+        {
+          "type": "note",
+          "text": "The [A], [B], and [C] programmable keys provide quick access to frequently used functions. Default assignments are: [A]=IF SHIFT, [B]=SCOPE, [C]=Noise Blanker."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To access the Menu mode, press and hold the [F] key for one second. Rotate the MULTI knob to select a menu item, press the knob to enter edit mode, rotate to adjust, then press again to save. Press [F] to exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "01-01 AGC FAST DELAY",
+          "description": "Sets the AGC recovery time for FAST setting. Range: 20-4000 msec. Default: 300 msec."
+        },
+        {
+          "type": "menuEntry",
+          "name": "02-01 LCD CONTRAST",
+          "description": "Adjusts the LCD display contrast. Range: 1-15. Default: 8."
+        },
+        {
+          "type": "menuEntry",
+          "name": "02-02 DIMMER BACKLIT",
+          "description": "Adjusts the backlight brightness. Range: 1-15. Default: 8."
+        },
+        {
+          "type": "menuEntry",
+          "name": "05-05 RF/SQL VR",
+          "description": "Selects the function of the RF/SQL knob: RF (RF gain control) or SQL (squelch control). Default: RF."
+        },
+        {
+          "type": "menuEntry",
+          "name": "05-18 CLAR SELECT",
+          "description": "Sets clarifier operation mode: RX (receive offset only), TX (transmit offset only), or TRX (both). Default: RX."
+        },
+        {
+          "type": "menuEntry",
+          "name": "14-01 QUICK DIAL",
+          "description": "Sets the frequency step when using the MULTI knob: 50, 100, or 500 kHz. Default: 500 kHz."
+        },
+        {
+          "type": "menuEntry",
+          "name": "16-07 SSB MIC GAIN",
+          "description": "Adjusts SSB microphone gain. Range: 0-100. Default: 50."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a key or keyer paddle to the rear panel KEY jack. Select CW mode by holding [BAND(MODE)] and rotating the MAIN DIAL. Press [F] to access CW SETTING mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "BK-IN",
+          "description": "Enables/disables semi break-in operation. When enabled, the transmitter engages automatically when keying, and returns to receive after the configured delay."
+        },
+        {
+          "type": "menuEntry",
+          "name": "KEYER",
+          "description": "Enables/disables the built-in electronic keyer. Enable when using a paddle, disable when using a straight key or external keyer."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SPEED",
+          "description": "Adjusts the keyer speed from 4 to 60 WPM. Press the MULTI knob in CW SETTING mode, then rotate to adjust."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PITCH",
+          "description": "Sets the CW sidetone pitch from 300 to 1050 Hz. This also affects the receive tone frequency."
+        },
+        {
+          "type": "menuEntry",
+          "name": "APF (Audio Peak Filter)",
+          "description": "Activates a narrow audio filter centered on the CW pitch to improve weak signal copy. Adjustable within ±250 Hz."
+        },
+        {
+          "type": "menuEntry",
+          "name": "ZIN",
+          "description": "Zero-in function automatically adjusts the receive frequency to match an incoming CW signal. Press and hold to output a CW tone for tuning."
+        },
+        {
+          "type": "menuEntry",
+          "name": "07-09 CW BK-IN DELAY",
+          "description": "Sets the delay before returning to receive after the last CW element. Range: 30-3000 msec. Default: 200 msec."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-891 features comprehensive DSP filtering including IF SHIFT, IF WIDTH, CONTOUR, IF NOTCH, Noise Reduction, and Auto-Notch functions."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IF SHIFT (SFT)",
+          "description": "Moves the DSP filter passband up to ±1.2 kHz without changing the receive pitch. Press the assigned [A] key, then rotate the MULTI knob to reduce interference. Press and hold MULTI to reset to center."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NB (Noise Blanker)",
+          "description": "Reduces pulse-type noise from ignition systems. Available in SSB/CW/RTTY/DATA/AM modes. Adjust the blanking level with the MULTI knob; excessive levels may distort audio."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNR (Digital Noise Reduction)",
+          "description": "Activates DSP noise reduction with 15 selectable algorithms. Rotate the MULTI knob to choose the algorithm that best reduces background noise."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNF (Digital Notch Filter)",
+          "description": "Enables/disables the DSP Auto Notch Filter to automatically remove interfering carriers."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CNT (Contour)",
+          "description": "Shapes the audio frequency response for more natural sound. Activate and rotate the MULTI knob to achieve optimal audio quality."
+        },
+        {
+          "type": "menuEntry",
+          "name": "AGC",
+          "description": "Automatic Gain Control with selectable recovery times: FAST (300ms), MID (700ms), SLOW (3000ms), or AUTO. Press to toggle; press MULTI to turn AGC OFF."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-891 requires a 13.8 V DC power source with at least 23 A capacity. Use only the supplied DC power cable and connect directly to a 12 V car battery (negative ground) or regulated power supply."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "13.8 V DC ±15%, negative ground"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Receive)",
+          "value": "2.0 A typical (signal present)"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Transmit)",
+          "value": "23 A maximum"
+        },
+        {
+          "type": "specification",
+          "name": "Fuse",
+          "value": "25 A blade fuse"
+        },
+        {
+          "type": "warning",
+          "text": "Do not use the cigarette lighter connector as a power source. High current during transmission requires direct battery connection."
+        },
+        {
+          "type": "warning",
+          "text": "The Limited Warranty does not cover damage caused by AC voltage, reverse polarity DC, or DC voltage outside the specified 13.8 V ±15% range."
+        },
+        {
+          "type": "note",
+          "text": "For mobile installations, route the DC cable at least 20 cm away from engine control units, transmission electronics, ECS/EPS/ABS systems, and air conditioner controls."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-891 does not include an internal antenna tuner but supports optional external tuners: the FC-50 and FC-40 automatic antenna tuners, and the ATAS-120A active tuning antenna."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect the optional FC-40 or FC-50 tuner to the rear panel TUN/LIN jack using the supplied control cable. Enable the tuner via Menu mode 16-15 [TUNER SELECT] set to EXTERNAL."
+        },
+        {
+          "type": "paragraph",
+          "text": "For the ATAS-120A antenna, enable ATAS SETTING in Menu mode 05-12, then access the ATAS controls by pressing [F] repeatedly. Use the up/down controls to raise or lower the antenna element."
+        },
+        {
+          "type": "note",
+          "text": "The FT-891 is designed for 50 ohm resistive impedance. Maintain SWR of 1.5:1 or less for maximum performance and transmitter protection."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "General",
+          "rows": [
+            { "name": "Frequency Range (TX)", "value": "1.8-54 MHz (Amateur bands only)" },
+            { "name": "Frequency Range (RX)", "value": "30 kHz - 56 MHz" },
+            { "name": "Modes", "value": "SSB, CW, AM, FM, RTTY, DATA" },
+            { "name": "Channel Steps", "value": "2/5/10 Hz (SSB, CW); 10/100 Hz (AM, FM)" },
+            { "name": "Frequency Stability", "value": "±0.5 ppm (-10°C to +50°C)" },
+            { "name": "Antenna Impedance", "value": "50 ohms, unbalanced" },
+            { "name": "Operating Temperature", "value": "-10°C to +50°C (14°F to 122°F)" },
+            { "name": "Dimensions (W×H×D)", "value": "155 × 52 × 218 mm (6.1 × 2.0 × 8.6 in)" },
+            { "name": "Weight", "value": "1.9 kg (4.18 lb)" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Transmitter",
+          "rows": [
+            { "name": "Power Output", "value": "100 W (40 W AM carrier)" },
+            { "name": "FM Deviation", "value": "±5.0 kHz (Wide), ±2.5 kHz (Narrow)" },
+            { "name": "Spurious Radiation (HF)", "value": "Better than -50 dB" },
+            { "name": "Spurious Radiation (50 MHz)", "value": "Better than -63 dB" },
+            { "name": "Microphone Impedance", "value": "600 ohms (200-10k ohms)" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Receiver",
+          "rows": [
+            { "name": "Circuit Type", "value": "Triple-conversion (SSB/CW/AM), Double-conversion (FM)" },
+            { "name": "Sensitivity (SSB/CW)", "value": "0.16 μV (10 dB S/N)" },
+            { "name": "Sensitivity (AM)", "value": "1.6 μV (10 dB S/N)" },
+            { "name": "Sensitivity (FM)", "value": "0.35 μV (12 dB SINAD)" },
+            { "name": "Selectivity (SSB/CW)", "value": "2.4 kHz (-6 dB), 3.6 kHz (-60 dB)" },
+            { "name": "Selectivity (CW-N)", "value": "500 Hz (-6 dB), 750 Hz (-60 dB)" },
+            { "name": "Audio Output", "value": "2.5 W into 4 ohms (10% THD)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quick-troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "No power on",
+          "description": "Check DC power cable connections and 25 A fuse. Verify power source provides 13.8 V DC with adequate current capacity (23 A minimum)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Dial locked",
+          "description": "Press [PWR/LOCK] briefly to toggle the dial lock. The LOCK icon appears on the display when engaged."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No transmit audio",
+          "description": "Check microphone connection and gain settings in Menu 16-07 (SSB), 16-08 (AM), or 16-09 (FM). Verify the correct PTT source is selected."
+        },
+        {
+          "type": "menuEntry",
+          "name": "High SWR reading",
+          "description": "Check antenna connections and feedline. Verify antenna is properly tuned for the operating frequency. Use an external antenna tuner if necessary."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Ignition noise",
+          "description": "Enable the Noise Blanker ([C] key or FUNCTION-2 menu). Adjust the blanking level for best noise reduction without audio distortion."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Factory reset",
+          "description": "To reset all settings: Press and hold [F], select Menu 17-01 [RESET], choose ALL, then press and hold MULTI to confirm. The transceiver will restart with factory defaults."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW not keying",
+          "description": "Verify break-in (BK-IN) is enabled in CW SETTING mode. Check that the keyer is enabled if using a paddle, or disabled if using a straight key."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3812 @@
+
+============================================================
+PAGE 1
+============================================================
+
+HF/50MHz  TRANSCEIVER
+FT-891
+Operating Manual
+
+============================================================
+PAGE 2
+============================================================
+
+Introduction.................................................... 1
+Safety Precautions......................................... 2
+Accessories & Options.................................. 5
+Supplied Accessories.................................... 5
+Optional Accessories..................................... 5
+Installing the Radio........................................ 6
+Antenna considerations................................. 6
+About coaxial Cable....................................... 6
+Connection of Antenna and Power Cables.... 6
+Important 
+precautions 
+for 
+mobile 
+radio 
+operation........................................................ 6
+Precautions during installation....................... 7
+Install the Antenna......................................... 7
+Install the main body...................................... 8
+Install the Front Panel.................................... 8
+Installation location when used in a mobile 
+unit.............................................................. 8
+Connection of Antenna and Power Cables.... 9
+About Antenna............................................... 9
+Before You Begin......................................... 10
+Installing the Microphone............................. 10
+MH-31A8J Microphone Key Buttons............11
+Control Panel Switch & Connectors........... 12
+Adjusting the Main tuning DIAL torque........ 12
+Base Station Tilt Stand................................ 13
+Resetting the Microprocessor.................... 14
+All Reset.................................................... 14
+Resetting Memories (only)........................ 14
+Function Resetting.................................... 15
+Adjusting the display settings.................... 16
+Display Contrast.......................................... 16
+Display Dimmer........................................... 16
+Front Panel Controls & Switches............... 17
+About the Display......................................... 23
+About the Rear Panel................................... 24
+Begin Using Your New Transceiver............ 27
+Turning the Transceiver ON and OFF......... 27
+Adjusting the Audio Volume Level............... 27
+Operating Band and Mode Selection........... 27
+Setting the Operating Frequency................. 28
+Changing frequency up and down quickly 
+with the MULTI function Knob................... 28
+Using the UP/DWN keys of the Supplied MH-
+31A8J Hand Microphone.......................... 29
+Mode Selection............................................ 29
+Transmission (SSB/AM/FM mode).............. 30
+QMB (Quick Memory Bank) Channels........ 31
+QMB Channel Storage.............................. 31
+QMB Channel Recall................................ 31
+Erasing QMB Data.................................... 31
+Operating Instructions 1.............................. 32
+DIAL knob Lock........................................... 32
+NB (Noise Blanker) (SSB/CW/RTTY/DATA/AM 
+Modes)......................................................... 32
+Operating Instructions 2.............................. 33
+Clarifier (Offsets the receive frequency on the 
+SSB/CW mode)........................................... 33
+Operating Instructions 3.............................. 34
+IF SHIFT Operation (SSB/CW/RTTY/DATA 
+Modes)......................................................... 34
+Operating Instructions 4.............................. 35
+Meters.......................................................... 35
+VOX............................................................. 35
+Speech Processor....................................... 35
+Parametric Microphone Equalizer............... 35
+Scope............................................................ 36
+Operation on 60-Meter (5 MHz) Band (U.S. 
+and U.K. Version Only)................................ 37
+Memory Operation....................................... 38
+Normal Memory Storage............................. 38
+Naming a Memory Channel...................... 38
+Memory Groups........................................ 38
+Memory Channel Recall.............................. 39
+Moving Memory Data to the VFO-A.......... 39
+Erasing Memory Channel Data................... 40
+Restoring Memory Channel Data................ 40
+Scanning Operation..................................... 41
+VFO Scanning............................................. 41
+Scan Resume Options.............................. 41
+Memory Scanning........................................ 42
+Scan Resume Options.............................. 42
+Programmable Memory Scan (PMS)........ 42
+CW Mode Operation..................................... 43
+Transmission (CW mode)............................ 43
+Adjusting the CW delay time..................... 43
+Adjusting the Sidetone volume level......... 43
+Adjusting the Keyer Speed....................... 43
+Setting Modes............................................... 44
+Setting Modes Display................................. 44
+Using the Setting Modes........................... 44
+Changing the function assigned to the [A]/[B]/
+[C] keys..................................................... 45
+FUNCTION-1............................................ 46
+FUNCTION-2............................................ 47
+CW SETTING........................................... 48
+FM SETTING............................................ 49
+REC SETTING.......................................... 50
+ATAS SETTING......................................... 50
+Menu Mode................................................... 51
+Specifications............................................... 56
+Contents
+
+============================================================
+PAGE 3
+============================================================
+
+1
+FT-891 Operating Manual
+Introduction
+The FT-891 is a rugged and innovative, multiband, multimode, mobile/portable transceiver 
+for Operation in the amateur radio HF/50 MHz bands. Providing coverage of the 160 - 6 
+meter bands, the FT-891 includes operation in the SSB, CW, AM and FM modes, yielding 
+the most comprehensive performance package available for mobile and field operation.
+Engineered for high performance, the FT-891 transceiver outputs 100 watts of power on 
+the 160 through 6 meter bands.
+The display includes bar-graph indications of: power output, ALC voltage, SWR, speech 
+processor compression level, drain current of the final stage FET, and signal strength. 
+Also included are a number of operating status icons, as well as function displays for the 
+three operating function keys ([A], [B], and [C]).
+Many advanced features that are included in the FT-891, have formerly only been 
+incorporated in large base station transceivers. These include:
+r	Split-Frequency operation using the Dual VFOs
+r Digital Signal Processing (IF SHIFT, IF WIDTH, CONTOUR, IF NOTCH, Noise 
+Reduction, Auto-Notch)
+r	SSB Clarifier operation to permit offset adjustment of the receive frequency on SSB 
+mode.
+r	IF Noise Blanker
+r	AGC Fast/Middle/Slow/Auto selection
+r	RF Gain and Squelch control
+r	IPO (Intercept Point Optimization) and a receiver front-end Attenuator
+r	AM Broadcast reception
+r	VOX
+r	Built-in Electronic Keyer with Memories and a Beacon mode
+r	Adjustable CW Pitch
+r	Spectrum Scope
+r	99 Memories and Band-limiting Memories
+r	Alpha-Numeric Labeling of Memories
+r	Automatic Power-Off (APO) and Time-Out Timer (TOT) functions
+r	Computer Interface capability
+We urge you to read this manual and also the Advance Manual (available for download 
+on the Yaesu website) in its entirety, to gain a full understanding of the amazing capability 
+of the exciting new FT-891 Transceiver.
+
+============================================================
+PAGE 4
+============================================================
+
+2
+FT-891 Operating Manual
+Safety Precautions
+Note beforehand that the company shall not be liable for any damages suffered by the customer or 
+third parties in using this product, or for any failures and faults that occur during the use or misuse of 
+this product, unless otherwise provided for under the law.
+Type and meaning of the marks
+ DANGER
+This symbol indicates the possibility of death or serious injury being inflicted on 
+the user and the surrounding people when these instructions are ignored and the 
+product is mishandled.
+ WARNING
+This symbol indicates the possibility of death or serious injury being inflicted on 
+the user and the surrounding people when these instructions are ignored and the 
+product is mishandled.
+ CAUTION
+This symbol indicates the possibility of physical impediments occurring or impedi-
+ments being inflicted on the user and the surrounding people when these instruc-
+tions are ignored and the product is mishandled.
+Type and meaning of symbols
+Prohibited actions that must not be attempted, in order to use this radio safely.
+For example, 
+  signifies that disassembly is prohibited.
+Precautions that must be adhered to in order to use this radio safely. For example, 
+ signifies that the 
+power supply is to be disconnected.
+ DANGER
+Do not use the device in “regions or air-
+crafts and vehicles where its use is prohib-
+ited” such as in hospitals and airplanes.
+This may exert an impact on electronic and 
+medical devices.
+Do not use this product while driving or 
+riding a motorbike. This may result in ac-
+cidents.
+Make sure to stop the car in a safe location 
+first before use if the device is going to be 
+used by the driver.
+Do not operate the device when flammable 
+gas is generated.
+Doing so may result in fire and explosion.
+Do not transmit in crowded places in con-
+sideration of people who are fitted with 
+medical devices such as heart pacemak-
+ers.
+Electromagnetic waves from the device may 
+affect the medical device, resulting in acci-
+dents caused by malfunctions.
+Never touch the antenna during transmis-
+sion.
+This may result in injury, electric shock and 
+equipment failure.
+When an alarm goes off with the external 
+antenna connected, cut off the power sup-
+ply to this radio immediately and discon-
+nect the external antenna from this radio.
+If not, this may result in fire, electric shock and 
+equipment failure.
+Do not touch any liquid leaking from the 
+liquid display with your bare hands.
+There is a risk of chemical burns occurring 
+when the liquid comes into contact with the 
+skin or gets into the eyes. In this case, seek 
+medical treatment immediately.
+
+============================================================
+PAGE 5
+============================================================
+
+3
+Safety Precautions
+FT-891 Operating Manual
+ WARNING
+Do not use voltages other than the speci-
+fied power supply voltage.
+Doing so may result in fire and electric shock.
+Do not transmit continuously for long pe-
+riods of time.
+This may cause the temperature of the main 
+body to rise and result in burns and failures 
+due to overheating.
+Do not dismantle or modify the device.
+This may result in injury, electric shock and 
+equipment failure.
+Do not handle the power plug and connec-
+tor etc. with wet hands. Also do not plug 
+and unplug the power plug with wet hands.
+This may result in injury, liquid leak, electric 
+shock and equipment failure.
+When smoke or strange odors are emitted 
+from the radio, turn off the power and dis-
+connect the power cord from the socket.
+This may result in fire, liquid leak, overheat-
+ing, damage, ignition and equipment failure. 
+Please contact our company amateur custom-
+er support or the retail store where you pur-
+chased the device.
+Keep the power plug pins and the sur-
+rounding areas clean at all times.
+This may result in fire, liquid leak, overheating, 
+breakage, ignition etc.
+Disconnect the power cord and connec-
+tion cables before incorporating items sold 
+separately and replacing the fuse.
+This may result in fire, electric shock and 
+equipment failure.
+Never cut off the fuse holder of the DC 
+power cord.
+This may cause short-circuiting and result in 
+ignition and fire.
+Do not use fuses other than those speci-
+fied.
+Doing so may result in fire and equipment 
+failure.
+Do not allow metallic objects such as wires 
+and water to get inside the product.
+This may result in fire, electric shock and 
+equipment failure.
+Do not place the device in areas that may 
+get wet easily (e.g. near a humidifier).
+This may result in fire, electric shock and 
+equipment failure.
+When connecting a DC power cord, pay 
+due care not to mix up the positive and 
+negative polarities.
+This may result in fire, electric shock and 
+equipment failure.
+Do not use DC power cords other than the 
+one enclosed or specified.
+This may result in fire, electric shock and 
+equipment failure.
+Do not bend, twist, pull, heat and modify 
+the power cord and connection cables in 
+an unreasonable manner.
+This may cut or damage the cables and result 
+in fire, electric shock and equipment failure.
+Do not pull the cable when plugging and 
+unplugging the power cord and connec-
+tion cables.
+Please hold the plug or connector when un-
+plugging. If not, this may result in fire, electric 
+shock and equipment failure.
+Refrain from using headphones and ear-
+phones at a loud volume.
+Continuous exposure to loud volumes may 
+result in hearing impairment.
+Do not use the device when the power cord 
+and connection cables are damaged, and 
+when the DC power connector cannot be 
+plugged in tightly.
+Please contact our company amateur custom-
+er support or the retail store where you pur-
+chased the device as this may result in fire, 
+electric shock and equipment failure.
+Follow the instructions given when install-
+ing items sold separately and replacing the 
+fuse.
+This may result in fire, electric shock and 
+equipment failure.
+Do not use the device when the alarm goes 
+off.
+For safety reasons, please pull the power plug 
+of the DC power equipment connected to the 
+product out of the AC socket.
+Never touch the antenna as well. This may 
+result in fire, electric shock and equipment 
+failure due to thunder.
+
+============================================================
+PAGE 6
+============================================================
+
+4
+Safety Precautions
+FT-891 Operating Manual
+ CAUTION
+Do not place this device near a heating in-
+strument or in a location exposed to direct 
+sunlight.
+This may result in deformation and discolor-
+ation.
+Do not place this device in a location where 
+there is a lot of dust and humidity.
+Doing so may result in fire and equipment 
+failure.
+Stay as far away from the antenna as pos-
+sible during transmission.
+Long-term exposure to electromagnetic radia-
+tion may have a negative effect on the human 
+body.
+Do not wipe the case using thinner and 
+benzene etc.
+Please use a soft and dry piece of cloth to 
+wipe away the stains on the case.
+Keep out of the reach of small children.
+If not, this may result in injuries to children.
+Do not put heavy objects on top of the 
+power cord and connection cables.
+This may damage the power cord and connec-
+tion cables, resulting in fire and electric shock.
+Do not transmit near the television and 
+radio.
+This may result in electromagnetic interfer-
+ence.
+Do not use optional products other than 
+those specified by our company.
+If not, this may result in equipment failure.
+When using the device in a hybrid car or 
+fuel-saving car, make sure to check with 
+the car manufacturer before using.
+The device may not be able to receive trans-
+missions normally due to the influence of nois-
+es from the electrical devices (inverters etc.) 
+fitted in the car.
+For safety reasons, switch off the power 
+and pull out the DC power cord connect-
+ed to the DC power connector when the 
+device is not going to be used for a long 
+period of time.
+If not, this may result in fire and overheating.
+Do not throw or subject the device to 
+strong impact forces.
+This may result in equipment failure.
+Do not the put this device near magnetic 
+cards and video tapes.
+The data in the cash card and video tape etc. 
+may be erased.
+Do not turn on the volume too high when 
+using a headphone or earphone.
+This may result in hearing impairment.
+Do not place the device on an unsteady 
+or sloping surface, or in a location where 
+there is a lot of vibration.
+The device may fall over or drop, resulting in 
+fire, injury and equipment failure.
+Do not stand on top of the product, and do 
+not place heavy objects on top or insert 
+objects inside it.
+If not, this may result in equipment failure.
+Do not use a microphone other than those 
+specified when connecting a microphone 
+to the device.
+If not, this may result in equipment failure.
+Do not touch the heat radiating parts.
+When used for a long period of time, the tem-
+perature of the heat radiating parts will get 
+higher, resulting in burns when touched.
+Do not open the case of the product except 
+when replacing the fuse and when install-
+ing items sold separately.
+This may result in injury, electric shock and 
+equipment failure.
+
+============================================================
+PAGE 7
+============================================================
+
+5
+FT-891 Operating Manual
+Accessories & Options
+Supplied Accessories
+Microphone
+MH-31A8J
+Mobile Mounting Bracket
+MMB-82
+(Attachment screw set)
+DC power cable w/Fuse
+Operating Manual
+Quick Manual
+Warranty Card
+Spare fuse (25 A)
+Optional Accessories
+MH-31A8J	
+Microphone
+MH-36E8J	
+DTMF Microphone
+M-1	
+Reference Microphone
+MD-200A8X	
+Ultra-High-Fidelity Desktop Microphone
+MD-100A8X	
+Desktop Microphone
+MLS-100	
+High-Power External Speaker
+YH-77STA	
+Lightweight Stereo Headphone
+VL-1000/VP-1000	
+Linear Amplifier / AC Power Supply
+FC-40	
+External Automatic Antenna Tuner
+FC-50	
+External Automatic Antenna Tuner
+ATAS-120A	
+Active Tuning Antenna (Automatic Type)
+ATAS-25	
+Active Tuning Antenna (Manual Type)
+ATBK-100	
+Antenna Base Kit
+FH-2	
+Remote Control Keypad
+YSK-891	
+Separation Kit
+MMB-82	
+Mobile Mounting Bracket
+SCU-17	
+USB Interface Unit
+CT-58	
+VL-1000 Linear Amplifier Connection Cable
+CT-39A	
+Packet Interface Cable
+FP-1030A	
+AC Power Supply (25 A) (USA and Asian market only)
+
+============================================================
+PAGE 8
+============================================================
+
+6
+FT-891 Operating Manual
+Installing the Radio
+Antenna considerations
+The FT-891 is designed for 50 Ohm resistive impedance at the amateur operating frequencies.
+Select the proper antenna (dipole antenna, YAGI antenna, cubical quad antenna, etc.) suitable 
+for the chosen operation and bands.
+Construct the antenna and coaxial cable, or use a suitable antenna tuner, to maintain the impedance
+presented to the FT-891 antenna connector for an SWR of 1.5 or less. Careful preparation of the 
+antenna and/or tuner will permit maximum performance and protect the transceiver from damage.
+High voltages may be present on the antenna; install it so it will not be easily touched when in 
+operation. 
+r	Create a loop (slack) in the co-axial cable directly underneath the antenna and fasten it so that the 
+weight of the cable does not pull on the antenna or connector itself.
+r	Install the antenna taking into consideration the securing supports and how the guying wires are 
+positioned, so that the antenna does not fall over or get blown away in strong winds.
+About coaxial Cable
+Use high-quality 50-Ohm coaxial cable for the lead-in to your FT-891 transceiver.
+Connection of Antenna and Power Cables
+Please follow the outline in the illustration regarding the proper connection of antenna coaxial cables.
+FUSE: 25 A
+RED
+GND
+ANTENNA
+Use an external power source capable of 
+supplying DC 13.8 V, a current capacity of 
+23 A or more.
+BLACK
+To prevent damage from lightning, atmospheric 
+electricity, electrical shock etc., please provide a good 
+earth ground. Use a short, thick, braided cable to 
+connect your station equipment to the buried ground rod (or 
+alternative earth ground system).
+Important precautions for mobile radio operation
+r	The use of protective tape or covering is recommended to protect the wiring and the power cord 
+inside the vehicle.
+r	When installing the unit inside a vehicle, locate the radio, antenna, co-axial cable, etc. at least 20 
+cm (8 inches) away from the following control equipment:
+ 
+●Engine-related: Fuel injection equipment and engine control
+	
+●Transmission-related: Transmission and 4WD electronic control unit
+	
+●Others: ECS/EPS/ABS/ETACS/Fully automatic air-conditioner/Auto-heater control unit/G sensor
+
+============================================================
+PAGE 9
+============================================================
+
+7
+Installing the Radio
+FT-891 Operating Manual
+r	Install the antenna and co-axial cable away from the control unit and wiring harness.
+	
+Place all cables so they do not entangle and impede the driver or passengers. Never place any 
+equipment in a location where it may pose a danger to the passengers, where it may interfere with 
+driving, or obstruct the driver field of view.
+r	Do not install any apparatus in such a way that it may interfere with the proper operation of the air 
+bags.
+r	After installing the radio, check that the brake lamp, head lamp, turning indicator lights, wiper, etc. 
+are working normally with the radio power switched on.
+r	Keep full attention on driving, do not operate the radio controls or look at the radio display while 
+driving. Stop the vehicle at a safe location, before operating the radio controls or looking at the 
+display.
+r	Do not drive the car in such a way that external sounds required for safe driving cannot be heard. 
+Most areas and districts prohibit the use of earphones and headphones while driving.
+r	If operation of the radio transmitter appears to have abnormal effects on the control equipment of 
+the vehicle, stop the engine, turn off the transceiver power supply, and disconnect the power cord. 
+Resolve the problem before continuing to operate the radio equipment.
+r	When using the radio in an electric or hybrid car, the receiver may experience high RF interference 
+and noise from the inverters that are built into the electric vehicle.
+Precautions during installation
+Note the following when installing this radio.
+r	Do not install the radio in a place where there is extreme vibration, where there is a lot of dust, 
+excessive humidity or high temperature, or where it is exposed to direct sunlight.
+r	Install the radio in a well ventilated position, so heat release is not obstructed because the heat 
+sink gets hot when transmitting repeatedly.
+Install the Antenna
+r	Ensure that the antenna base is securely fixed.
+r	Ensure that the antenna base is securely grounded to the car body.
+r	Avoid routing the co-axial cable enclosed with a commercial car antenna cable.
+r	Do not place the co-axial cable or connectors inside the car where rain water or moisture may 
+penetrate them.
+
+============================================================
+PAGE 10
+============================================================
+
+8
+Installing the Radio
+FT-891 Operating Manual
+Install the main body
+Install the main body using the provided MMB-82 bracket.
+r	Do not install the FT-891 in a place with intense vibration.
+r	Attach the bracket firmly with the supplied screws, so it will not become loose.
+1.	 Holes in the location where the bracket is to be 
+mounted
+Drill four 6 mm diameter holes in the location where 
+the bracket is to be mounted matching the positions of 
+the bolting holes of the bracket.
+2.	 Attach the bracket
+Using the provided bolts, nuts and washers.
+3.	 Fasten the transceiver to the bracket
+Using the provided flange bolts, as shown in the 
+drawing.
+r	The mounting angle can be changed depending 
+on the securing position of the flange bolts.
+Bolt
+Nut
+Washer
+Washer
+Bracket
+Flange bolt
+Main Body
+Install the Front Panel
+Install the front panel using the optional bracket.
+r	The bracket can be bent by hand to match the location where the controller is going to be installed. 
+Take due care not to injure yourself when bending the bracket.
+r	Select a stable, flat location with as few dents and protrusions as possible.
+Installation location when used in a mobile unit
+Front Panel
+It is recommended that the front panel be 
+installed on top of the car dash board.
+Main body
+It is recommended that the main body be 
+installed below the car dash board.
+r	Do not install the front panel, the 
+transceiver or the wire cables near the 
+air bags. In case of emergency, the 
+transceiver may  interfere with air bag 
+deployment and result in accidents and 
+injury. The wire cables may also cause 
+the air bag to malfunction.
+Radio main body
+Controller
+
+============================================================
+PAGE 11
+============================================================
+
+9
+Installing the Radio
+FT-891 Operating Manual
+Connection of Antenna and Power Cables
+Please follow the outline in the illustration regarding the proper connection of antenna coaxial cables, 
+as well as the DC power cable.
+High current is carried during transmissions. The DC power supply cable must connect directly to the 
+negative ground, 12 V car battery.
+Black
+DC power supply
+cable (supplied)
+DC 12 V battery
+Fuse holder
+FUSE: 25 A
+ANTENNA
+Red
+r	Use the transceiver only in a car with a negative ground 12 V DC system, where the minus (-) pole 
+of the battery is connected to the car body.
+r	Do not connect the radio to the 24 V battery of a large vehicle.
+r	Do not use a DC power cable other than the one that is supplied or specified.
+r	High current is carried during transmissions; do not use the cigarette lighter connector inside the 
+car as a power source.
+High RF voltage is present in the TX RF section of the transceiver while transmitting.
+Absolutely! Do not touch the TX RF section while transmitting.
+Permanent damage can result when improper supply voltage, or reverse polarity voltage, 
+is applied to the FT-891. The Limited Warranty on this transceiver does not cover damage 
+caused by application of AC voltage, reverse polarity DC, or DC voltage outside the specified 
+range of 13.8 V ±15 %. When replacing fuses, be certain to use a fuse of the proper rating. 
+The FT-891 requires a 25 Amp blade fuse.
+About Antenna
+The FT-891 is designed for 50 Ohm resistive impedance at the amateur operating frequencies.
+Select the proper antenna, suitable for the chosen operation and bands. Maintain the impedance 
+presented to the FT-891 antenna connector for an SWR of 1.5 or less.
+Careful preparation of the antenna and/or tuner will permit maximum performance and protect the 
+transceiver from damage.
+High voltages may be present on the antenna; install it so it will not be easily touched when in 
+operation.
+
+============================================================
+PAGE 12
+============================================================
+
+10
+FT-891 Operating Manual
+Before You Begin
+Installing the Microphone
+1.	 To separate the Front Panel, use your thumb to push the latch on the right-hand side of the panel 
+slightly rearward, and then slide the Front Panel to the left and away from the transceiver.
+FT-891
+MODE
+HF/50MHz TRANSCEIVER
+Push the latch rearward
+Slide the Front Panel
+2.	 Insert the microphone plug into the recessed jack 
+on the transceiver, as shown in the illustration.
+NOTE:	 When disconnecting the microphone, 
+pull the cable while pressing the connec-
+tor latch.
+3.	 The microphone cable may be positioned 
+so that it will exit from the side or the bot-
+tom of the transceiver. Just route the cable 
+into the appropriate channel provided, as 
+shown in the illustration.
+4.	 Install the Front Panel by sliding it into the 
+position shown; you will hear a “click” when 
+the panel locks into place.
+FT-891
+MODE
+HF/50MHz TRANSCEIVER
+Slide the Front Panel
+
+============================================================
+PAGE 13
+============================================================
+
+11
+Before You Begin
+FT-891 Operating Manual
+MH-31A8J Microphone Key Buttons
+	PTT Switch
+Switches transmit/receive.
+Press to transmit and release to 
+receive.
+	DWN key
+Press the DWN (Down) key to 
+scan the frequency downward.
+	FST key
+Changes the frequency step, this 
+key works in the same way as the 
+[FAST] key on the transceiver top 
+panel.
+①
+⑤
+③
+②
+④
+⑥
+	UP key
+Press the UP key to scan the frequency upward.
+	Microphone
+Speak into the microphone in a normal tone of voice with the microphone 5 cm away 
+from your mouth.
+	TONE Switch
+Alters transmit sound quality. Slide the switch to the “1” position for a “flat transmit 
+audio response, Slide the switch to the “2” position to emphasize transmit audio.
+
+============================================================
+PAGE 14
+============================================================
+
+12
+FT-891 Operating Manual
+Control Panel Switch & Connectors
+②
+①         
+CONTROL Jack
+	SP-PH switch
+If you use earphones with this transceiver, move this switch to the “PH” position before 
+inserting the earphone plug into the SP/PH Jack, to prevent injury your ears.
+	SP/PH jack
+This 3.5-mm, 2-pin jack provides adjustable audio 
+output for an external speaker (4 Ω ~ 16 Ω impedance) 
+or earphones. The audio level varies according to the 
+setting of the front panel AF knob.
+Important Note:	 When an earphone plug is inserted 
+into this jack, the SP-PH slide switch (located on the back side of 
+the front panel) MUST BE set to the “PH” position, to prevent the 
+possibility of injury to your ears.
+Adjusting the Main tuning DIAL torque
+The torque (drag) of the Main Tuning DIAL knob may be adjusted for your operating 
+preferences. Slide the lever clockwise to reduce the drag, or counter-clockwise to 
+increase the drag.
+Reduce
+Increase
+SIGNAL GND
+
+============================================================
+PAGE 15
+============================================================
+
+13
+FT-891 Operating Manual
+Base Station Tilt Stand
+The sturdy stand on the bottom of the transceiver allows the transceiver to be tilted upward 
+for better viewing. Simply fold the stand forward to raise the front of the transceiver, and 
+fold it back against the bottom case to lower the front of the FT-891.
+
+============================================================
+PAGE 16
+============================================================
+
+14
+FT-891 Operating Manual
+Resetting the Microprocessor
+All Reset
+Use this procedure to restore all settings to their original factory defaults. All Memories will 
+be cleared by this procedure.
+1.	Press and hold in the 
+ [F] key for one sec-
+ond to activate the Menu mode.
+2.	Rotate the 
+ MULTI function knob to select 
+Menu Mode “17-01 [RESET]”.
+3.	Press the 
+ MULTI function knob, and then 
+rotate the 
+ MULTI function knob to select 
+“ALL”.
+4.	Press and hold the 
+ MULTI function knob 
+to reset and automatically restart the trans-
+ceiver.
+Resetting Memories (only)
+Use this procedure to reset (clear) the previously stored Memory channels, without 
+affecting any configuration changes you may have made to the Menu settings.
+NOTE:	The FT-891 cannot erase the memory channels “01” (and “501” through “510”: 
+U.S. version).
+1.	Press and hold in the 
+ [F] key for one sec-
+ond to activate the Menu mode.
+2.	Rotate the 
+ MULTI function knob to select 
+Menu Mode “17-01 [RESET]”.
+3.	Press the 
+ MULTI function knob, and then 
+rotate the 
+ MULTI function knob to select 
+“DATA”.
+4.	Press and hold the 
+ MULTI function knob 
+to reset and automatically restart the trans-
+ceiver.
+
+============================================================
+PAGE 17
+============================================================
+
+15
+Resetting the Microprocessor
+FT-891 Operating Manual
+Function Resetting
+Use this procedure to restore Menu and Programmable Multi Function 
+ [A]/[B]/[C] key 
+settings to their factory defaults, without affecting the programmed memories.
+1.	Press and hold in the 
+ [F] key for one sec-
+ond to activate the Menu mode.
+2.	Rotate the 
+ MULTI function knob to select 
+Menu Mode “17-01 [RESET]”.
+3.	Press the 
+ MULTI function knob, and then 
+rotate the 
+ MULTI function knob to select 
+“FUNC”.
+4.	Press and hold the 
+ MULTI function knob 
+to reset and automatically restart the trans-
+ceiver.
+
+============================================================
+PAGE 18
+============================================================
+
+16
+FT-891 Operating Manual
+Adjusting the display settings
+Display Contrast
+The LCD contrast may be adjusted using the Menu Mode.
+1.	Press and hold in the 
+ [F] key for one sec-
+ond to activate the Menu mode.
+2.	Rotate the 
+ MULTI function knob to select 
+Menu Mode “02-01 [LCD CONTRAST]”.
+3.	Press the 
+ MULTI function knob, and then 
+rotate it to adjust the contrast. The contrast 
+change may be observed as the knob is ad-
+justed.
+4.	When the adjustment is satisfactory, press the 
+ MULTI function knob.
+5.	Press the 
+ [F] key to save the new setting and exit the Menu mode to normal oper-
+ation.
+Display Dimmer
+The LCD illumination level may also be adjusted using the Menu Mode.
+1.	Press and hold in the 
+ [F] key for one sec-
+ond to activate the Menu mode.
+2.	Rotate the 
+ MULTI function knob to select 
+Menu Mode “02-03 [DIMMER LCD]”.
+3.	Press the 
+ MULTI function knob, and then 
+rotate it to adjust the display illumination for 
+a comfortable brightness level. The change 
+may be observed as the knob is adjusted.
+4.	When the adjustment is completed, press the 
+ MULTI function knob.
+5.	Press the 
+ [F] key to save the new setting and exit the Menu mode to normal oper-
+ation.
+
+============================================================
+PAGE 19
+============================================================
+
+17
+FT-891 Operating Manual
+Front Panel Controls & Switches
+FT-891
+MODE
+HF/50MHz TRANSCEIVER
+①
+②
+③
+④
+⑥
+⑦
+⑧
+⑩
+⑤
+⑪
+⑫
+⑬
+⑭
+⑮
+⑰
+⑯
+⑨
+	LCD Display
+The LCD (Liquid Crystal Display) shows the operating frequency and indicates of the 
+status of other transceiver functions.
+	TX/BUSY Indicator
+The Indicator glows green:	 While the squelch opens on receiving signals.
+The Indicator glows blue:	
+While Zeroing during CW mode.
+	
+On receiving a signal with a CTCSS/DCS tone matching 
+the squelch tone code setting of the transceiver.
+The Indicator glows red:	
+When transmit is engaged.
+	[PWR/LOCK] key
+Press and hold this key to turn the transceiver ON or OFF.
+Briefly press the key while the transceiver is ON to engage the 
+ MAIN DIAL knob lock.
+This key toggles the 
+ MAIN DIAL knob lock ON/OFF.
+	[FAST] key
+Press this key to change the tuning of the 
+ MAIN DIAL to a higher step rate.
+The “
+” will be displayed at the bottom right corner of the screen.
+The tuning steps for the 
+ MAIN DIAL knob are set at the factory to 10 Hz -100 Hz 
+for one step and 20 kHz for each dial rotation, in the SSB/AM/CW/RTTY/DATA Mode 
+(One kHz for each step and 200 kHz for each dial rotation in the FM Mode).
+
+============================================================
+PAGE 20
+============================================================
+
+18
+Front Panel Controls & Switches
+FT-891 Operating Manual
+	[BAND (MODE)] key
+●	Press this key to display the “BAND SELECT” screen (Operating band selection 
+screen).
+	 Rotate the 
+ MAIN DIAL knob to select the desired frequency band (operating 
+band).
+	 The selected frequency band will be set automatically in one second and the display 
+will return to normal operation.
+●	Press and hold this key to display the “MODE SELECT” screen.
+	 Rotate the 
+ MAIN DIAL knob to select the radio modulation form (operating 
+mode).
+	 The selected operating mode will be set automatically in one second and the dis-
+play will return to normal operation in the selected operating mode. (The mode is 
+automatically preset for each operating band, it is only necessary to set “MODE 
+SELECT” when a change is desired).
+	[A/B] key
+Pressing this key momentarily, exchanges the frequency and memory channel data 
+of VFO-A and VFO-B.
+Press and hold this key for one second to set VFO-A and VFO-B to the same frequen-
+cy and data values.
+	[V/M] key
+This key toggles frequency control between the VFO and the memory systems.
+●	When the memory channel data is recalled, the previously selected Memory channel 
+number is displayed like “
+”.
+●	Rotate the 
+ MULTI function knob to change the memory channel number.
+●	While operating on a memory channel, if the 
+ MAIN DIAL knob is turned, the 
+“Memory Channel Number” will be replaced by the MEMORY TUNE indicator “
+”; 
+this indicates that the operating frequency of the Memory Channel is temporarily 
+changed. Pressing the [V/M] key while in the MEMORY TUNE state will restore the 
+previous memory channel data.
+	[VuM] key
+This key is used to save the data from VFO-A to a memory channel.
+Press this key to display the “MEMORY CHANNEL” list screen.
+Rotate the 
+ MULTI function knob to select the desired memory channel.
+Press this key again to copy the VFO-A operating data to the selected memory 
+channel.
+●	When the “MEMORY CHANNEL” list screen is displayed, press the 
+ [A]/[B]/[C] 
+key to edit the selected memory channel.
+	[MuV] key
+This key will copy the saved data from a written memory channel to VFO-A.
+Press this key to display the “MEMORY CHANNEL” list screen.
+Rotate the 
+ MULTI function knob to select the desired previously written memory 
+
+============================================================
+PAGE 21
+============================================================
+
+19
+Front Panel Controls & Switches
+FT-891 Operating Manual
+channel.
+Press this key again to copy the currently selected memory channel data to VFO-A.
+	[QMB] key
+Press and hold this key for more than one second to write the frequency and the 
+data presently displayed on VFO-A to the quick memory bank (QMB).
+●	Once all 5 QMB memories have data written on them, the previous data will be 
+over-written on a first-in, first-out basis.
+●	5 QMB memory channels are provided. Press this key briefly to recall the data writ-
+ten onto the quick memory banks (QMB) one by one.
+●	To change the frequency in the recalled quick memory bank (QMB), rotate the 
+ 
+MAIN DIAL.
+NOTE:	For details on the Quick Memory Bank function, see page 31.
+	[F] key
+Repeatedly press this key momentarily to step through the Setting Modes as 
+follows:
+à FUNCTION-1 à FUNCTION-2 à CW SETTING à
+●	Select the desired function from the Setting Modes, and then press the 
+ MULTI 
+function knob to switch the selected function ON or OFF.
+●	While in the Setting Modes, to assign the Setting Modes to the 
+ [A]/[B]/[C] keys, 
+rotate the 
+ MULTI function knob to select the desired function, and then press and 
+hold the 
+ [A]/[B]/[C] key.
+●	FM SETTING, REC SETTING and ATAS SETTING function screens may be en-
+abled via Menu mode “05-10”, “05-11” or “05-12”.
+●	To return to normal operation, rotate the 
+ MAIN DIAL or press another key.
+Press and hold this key to activate the Menu mode.
+	Programmable Multi Function [A]/[B]/[C] keys
+These three keys are user programmable, allowing quick access to often used func-
+tions.
+●	[A]/[B]/[C] keys are assigned the following functions as default settings:
+● [A] (SFT): IF SHIFT function
+In the SSB mode, IF SHIFT permits moving the DSP filter passband higher or lower, 
+without changing the pitch of the incoming signal, and thus reduces or eliminates 
+interference.
+1.	Press this key to display the IF SHIFT screen.
+2.	Rotate the 
+ MULTI function knob to the left or right to reduce interfering sig-
+nals.
+3.	Press and hold the 
+ MULTI function knob to restore the IF SHIFT setting to the 
+factory default.
+
+============================================================
+PAGE 22
+============================================================
+
+20
+Front Panel Controls & Switches
+FT-891 Operating Manual
+● [B] (SCP): The SCOPE function
+The SCOPE function provides a spectrum display of the band conditions.
+Press this key to display the band condition (spectrum).
+When the SCOPE function is active, the [A]/[B]/[C] keys are automatically changed 
+to the below operations.
+[A](SPN) key:	
+This key changes the displayed bandwidth. Available selections 
+are 750 kHz, 375 kHz, 150 kHz, 75 kHz, or 37.5 kHz ranges.
+[B](SWP) key:	 Each time the [B](SWP) key is pressed, a new scan of the spec-
+trum scope is shown on the LCD display.
+	
+The SWP icon blinking on the LCD is confirmation that the “Contin-
+uous Sweeping mode” is running.
+●	Since the FT-891 has only one receiver the audio will be muted while the spectrum 
+scope is scanning. To stop scanning and turn the receiver on, set the desired 
+frequency and press the [B](SWP) key again.
+[C](LV1-3) key:	 This key changes the gain.
+●	While the Spectrum Scope is activated, Press the 
+ MULTI function knob, and 
+then rotate it to adjust the operating frequency tuning steps of VFO-A by the 500 
+kHz.
+● [C] (NB): Noise Blanker function
+The IF Noise Blanker can significantly reduce the noise that is caused by automo-
+tive ignition systems.
+	[CLAR] key
+During reception, press this key, and then rotate the 
+ MULTI function knob to adjust 
+the VFO-A RX clarifier offset value up to ±9.998 kHz.
+● The clarifier offset value (frequency) can be restored to “0 (zero)” by pressing the 
+ 
+MULTI function knob for more than one second.
+NOTE:	For details on the clarifier function, see “Clarifier (Offsets the receive frequen-
+cy on the SSB/CW mode)” on page 33.
+	MAIN DIAL
+This is the main tuning dial for the transceiver. Rotate this knob clockwise to increase 
+the operating frequency and rotate it counterclockwise to decrease the operating fre-
+quency.
+● Pressing the 
+ [FAST] key will change the tuning of the MAIN DIAL to a higher 
+step rate.The frequency steps available are 10Hz and 100Hz per step (2kHz and 
+20kHz per rotation).
+● Pressing the 
+ [PWR/LOCK] key briefly will engage or release the DIAL knob lock.
+	AF Knob
+The (inner) AF knob adjusts the receiver audio volume level of the internal or external 
+speaker. Clockwise rotation increases the volume level.
+
+============================================================
+PAGE 23
+============================================================
+
+21
+Front Panel Controls & Switches
+FT-891 Operating Manual
+	RF/SQL knob
+Rotate this knob counter-clockwise to reduce the background noise and the system 
+gain. Rotate this knob fully clockwise to set the gain to the highest level for normal 
+operations. Counter-clockwise rotation will raise the start position of the S-Meter 
+indication. When receiving a strong signal, the noise is reduced and the signal is 
+emphasized.
+●	Rotate this knob slightly counter-clockwise to the point where the “stationary” meter 
+indication is set just about the same as the receiver noise level.
+●	This control may be changed to function as the squelch control by selecting “SQL” 
+on Menu Mode “05-05 [RF/SQL VR]”.
+NOTE:	For additional details, refer to the Advanced Manual which may be downloaded 
+from the Yaesu website.
+	MULTI function knob
+This knob incorporates multiple tasks and makes it very convenient to operate the 
+various functions of the FT-891.
+1	 Adjusts the operating frequency of VFO-A in 500 kHz Steps (except the 
+for AM and FM modes)
+By pressing the MULTI function Knob momentarily until the“
+”is displayed, the 
+operating frequency steps of VFO-A may be adjusted in 500 kHz steps.
+By rotating the DIAL knob while “
+” is displayed, the 500 kHz step adjustment of the 
+MULTI function knob is canceled (the “
+” indication will be returned to “
+”).
+If you want to adjust the operating frequency steps of VFO-A by the 500 kHz again, 
+make sure that the “
+” is displayed on the screen.
+●	The operating frequency 500 kHz steps of VFO-A can be changed via Menu mode 
+14-01”[QUICK DIAL]” 
+2	 Adjusts the operating frequency of VFO-B
+By pressing MULTI function Knob momentarily until the “
+” is displayed, the operating 
+frequency of VFO-B may be adjusted.This function is convenient for changing the 
+transmit frequency on split operation.
+3	 Operates the 
+ [A]/[B]/[C]/ 
+ [CLAR] key function
+When the 
+ [A] key is assigned to the IF SHIFT function:
+Pressing the 
+ [A] key will display the IF SHIFT pop-up screen, and then rotation of 
+the MULTI function Knob will adjust the DSP filter passband.
+●	An indication mark is displayed to the left of the function key status icon.
+●	Press and hold the MULTI function Knob to restore the IF SHIFT setting to factory 
+defaults.
+●	When another function assigned to an 
+ [A]/[B]/[C] key has no setting that can be 
+adjusted by the MULTI function Knob, the MULTI function Knob is not active.
+4	 Selects the Desired memory channel
+When the “MEMORY CHANNEL” list screen is displayed, the desired memory channel 
+can be selected by rotating and pressing MULTI function Knob.
+
+============================================================
+PAGE 24
+============================================================
+
+22
+Front Panel Controls & Switches
+FT-891 Operating Manual
+5	 Switches the Setting Modes ON/OFF
+Operates the Setting Modes that are displayed by pressing the 
+ [F] key:
+●	Select menu functions (Rotate the MULTI function Knob)
+●	Switch the function ON or OFF (Press the MULTI function Knob)
+●	Change the setting values (Press the MULTI function Knob, to turn the functions ON 
+and then rotate it)
+●	Reset the setting values to the factory default value (Rotate the MULTI function 
+Knob to select the function, and then press and hold the MULTI function Knob)
+6	 Changes the Menu Mode setting values
+Refer to the “Menu Mode” on page 51.
+
+============================================================
+PAGE 25
+============================================================
+
+23
+FT-891 Operating Manual
+About the Display
+Operation Frequency
+Operating Mode
+(see table below)
+VFO-B data
+Clarifier operation
+Mode
+Meter
+Meters
+(see table below)
+Icons
+(see table below)
+VFO-B
+ø Display examples of the Function key （in the case of Noise Blanker）
+	
+ :	 Function “OFF”.
+	
+ :	 Function “ON”.
+	
+ :	 Function “ON” and then turn the 
+ MULTI function knob to change the 
+assigned feature setting.
+Operating Mode Indicators
+Meters
+ / 
+VFO-A
+Displays transmitter output power
+ / 
+Memory Channel Number
+Displays ALC voltage
+ / 
+Programmable Memory Scanning
+Displays Standing Wave Ratio
+ / 
+Operating with the Quick Memory 
+Bank
+Displays the speech processor 
+compression level
+ / 
+Memory tune
+Displays the drain current of the 
+final stage FET transistors
+ / 
+Recalling the emergency contact 
+frequency
+ø The Indication of each meter is not precise but 
+is a relative value and  a rough indication. 
+Icons
+Antenna Tuner
+Running split operation
+Active Tuning Antenna System
+The receiver preamplifier is OFF
+Connecting the linear amplifier
+The attenuator is in use
+The VOX function is in use
+The Narrow IF DSP filter is in use
+The Speech Processor function is 
+in use
+The noise blanker is in use
+MAIN DIAL at a higher step rate.
+The Monitor function is in use
+Function Key Statusø
+(see page 45)
+Clarifier
+(see page 33)
+Lock Feature Active
+(see page 32)
+
+============================================================
+PAGE 26
+============================================================
+
+24
+FT-891 Operating Manual
+About the Rear Panel
+②
+①
+③
+⑤
+⑥⑦
+④
+⑩
+⑨
+⑧
+	GND
+Use this terminal to connect the transceiver to a good earth ground, for safety and 
+optimum performance.
+Use a large diameter, short braided cable to make the ground connections.
+	Firmware update switch
+Use this switch when updating the firmware. When a new firmware update for the 
+FT-891 is available, go to the YAESU website to download the programming data and 
+update the FT-891 to its newest state.
+To update the firmware, connect the USB Jack 
+ to a computer.
+	TUN/LIN
+Connect the optional external antenna tuner “FC-50”, “FC-40” or the linear amplifier 
+“VL-1000”.
+Connect a Linear Amplifier “VL-1000” with an optional “CT-58” Linear Amplifier 
+Connection Cable.
+Connect an External Automatic Antenna Tuner FC-40,FC-50 with the control cable 
+supplied with the tuner.
+NOTE: For details, refer to the Advanced Manual (download from the Yaesu website).
++13V OUT
+TX INH
+RESET (BAND D)
+BAND C
+RX D (BAND B)
+TX D (BAND A)
+GND
+TX GND
+
+============================================================
+PAGE 27
+============================================================
+
+25
+About the Rear Panel
+FT-891 Operating Manual
+	RTTY/DATA
+This is the input/output jack to connect a terminal unit for RTTY and TNC for packet 
+communications.
+Connect a terminal unit with the optional “CT-39A” Packet Interface Cable.
+NOTE: For details, refer to the Advanced Manual (download from the Yaesu website).
+SQL
+SHIFT
+PTT
+DATA OUT
+GND
+DATA IN
+	USB Jack
+Control the transceiver remotely from a computer using the CAT commands.
+Transmission control, can also be done from the computer.
+Connect the computer with a commercially available USB cable.
+NOTE:To control the transceiver remotely from the computer, a USB driver is required.
+For details on the USB driver, visit the Yaesu website.
+	REM/ALC
+Connect the optional remote control keypad “FH-2”.
+When a device such as a linear amplifier is connected, this is an external ALC current 
+input jack.
+EXT ALC
+TX REQ
+GND
+         REMOTE
+NC
+GND
+	KEY Jack
+Connect a telegraph key or electronic keyer paddle to use for CW mode operation.
+KEY
+KEY
+NC GND
+GND
+When connecting a single straight key       When connecting an electronic keyer paddle
+DOT DASH COMMON
+DOT DASH
+COMMON
+This 3.5 mm, 3-contact jack accepts a CW key or keyer paddles (for the built-in 
+electronic keyer), or the output from an external electronic keyer. Contact connections 
+are shown below. Keyup is 5 volts, and key down current is 1 mA. Use only the 3.5 mm 
+3 contact type plug. An incorrect size plug may damage the jack. If the Keyer plug is 
+inserted into and removed from the jack while the FT-891 is in operation, the FT-891 
+may be switched to the transmit mode.
+
+============================================================
+PAGE 28
+============================================================
+
+26
+About the Rear Panel
+FT-891 Operating Manual
+Always turn off the power of the FT-891 before connecting or disconnecting the Keyer.
+	EXT SPKR
+This is the monaural jack to connect an external speaker (4 Ω to 8 Ω).
+Connecting an external speaker to this jack will deactivate the internal speaker.
+SIGNAL GND
+	ANT Jack
+This is the M-type coaxial connector to connect HF band and 50 MHz band antennas 
+(50 ohms).
+	DC IN Jack
+This is the DC power supply connection for the transceiver. Use the supplied DC cable 
+to connect directly to a DC power supply, which must be capable of supplying at least 
+23 A @13.8 VDC.
+
+============================================================
+PAGE 29
+============================================================
+
+27
+FT-891 Operating Manual
+Begin Using Your New Transceiver
+Turning the Transceiver ON and OFF
+1.	To turn the transceiver ON, press and hold 
+the 
+ [PWR/LOCK] key for one second.
+2.	To turn the transceiver OFF, again press and 
+hold the 
+ [PWR/LOCK] key for one sec-
+ond.
+Adjusting the Audio Volume Level
+Rotate the 
+ AF knob to set a comfortable lis-
+tening level.
+Operating Band and Mode Selection
+Follow the below instructions to easily select the Amateur Bands and preset modes.
+Frequencies outside the Amateur Bands may only be received(No Transmit).
+1.	Press the 
+ [BAND(MODE)] key.
+The “BAND SELECT” screen will appear in 
+the display.
+2.	Rotate the DIAL knob to select the desired 
+operating band.
+The selections available are:
+...ó 1.8 MHz ó 3.5 MHz ó
+ó 7.0 MHz ó 10 MHz ó 14 MHz ó
+ó 18 MHz ó 21 MHz ó 24 MHz ó
+ó 28 MHz ó 50 MHz ó...
+NOTE:	When the desired operating Band is 
+selected, the display will automati-
+cally return to normal operation after 
+0.5 second.
+
+============================================================
+PAGE 30
+============================================================
+
+28
+Begin Using Your New Transceiver
+FT-891 Operating Manual
+Setting the Operating Frequency
+Rotate the DIAL knob to set the frequency. 
+Rotate clockwise to increases the operating 
+frequency and rotate counter-clockwise to de-
+crease the operating frequency.
+r	Two settings, one “normal” and one “fast”, are available for each operating mode. 
+Pressing the 
+ [FAST] key engages the “Fast” tuning selection (see table below).
+Operating Mode
+1 Step 1 Step (FAST key) 1 Dial Rotation 1 Dial Rotation (FAST key)
+SSB, AM
+10 Hz
+100 Hz
+2 kHz
+20 kHz
+CW, RTTY, DATA
+5 Hz
+100 Hz
+1 kHz
+20 kHz
+FM
+100 Hz
+1 kHz
+20 kHz
+200 kHz
+r	The Main Tuning Dial tuning step default settings are: SSB,AM (10 Hz); CW/RTTY/
+DATA (5 Hz); and FM (100 Hz). The step settings may be changed according to 
+operator preference via MENU items “14-02” to “14-05”.
+Changing frequency up and down quickly with the MULTI function Knob
+Press the 
+ MULTI function knob, and then 
+rotate it to adjust the frequency up and down.
+NOTE:	If the frequency is not changed by rotat-
+ing the 
+ MULTI function knob, press 
+the 
+ MULTI function knob repeatedly 
+to restore the up and down function.
+r	The frequency steps can be changed via Menu mode “14-01 [QUICK DIAL]”, “14-06 
+[AM CH STEP]” and “14-07 [FM CH STEP]”.
+Operating Mode
+Frequency Step
+SSB, CW, RTTY, DATA
+50, 100, 500 (kHz)
+AM
+2.5, 5, 9, 10, 12.5, 25 (kHz)
+FM
+5, 6.25, 10, 12.5, 15, 20, 25 (kHz)
+(Default: Bold Italic)
+
+============================================================
+PAGE 31
+============================================================
+
+29
+Begin Using Your New Transceiver
+FT-891 Operating Manual
+Using the UP/DWN keys of the Supplied MH-31A8J Hand Microphone
+The UP/DWN keys on the supplied MH-31A8J Hand Microphone may also be used to 
+manually scan the frequency upward or downward.
+In modes other than AM/FM, the frequency changes by 
+the same step as the main dial.
+When the microphone [FST] key is pressed, the tuning 
+rate increases by a factor of ten, in the same manner as 
+the transceiver top panel 
+ [FAST] key.
+DWN
+UP
+FST
+Mode Selection
+1.	Press and hold the 
+ [BAND(MODE)] key 
+for one second.
+The “MODE SELECT” screen will appear in 
+the display.
+2.	Rotate the DIAL knob to select the desired 
+radio operating mode.
+The selections available are:
+... ó SSB ó CW ó RTTY ó
+ó DATA ó AM ó FM ó ...
+NOTE:	When the desired radio operating 
+mode is selected, the display will 
+automatically return to normal oper-
+ation after 0.5 second.
+r	After changing the selected operating mode on an amateur band, that same mode will 
+automatically be selected when returning to that band.
+
+============================================================
+PAGE 32
+============================================================
+
+30
+Begin Using Your New Transceiver
+FT-891 Operating Manual
+Transmission (SSB/AM/FM mode)
+1.	Press the microphone PTT switch to begin transmit-
+ting; speak into the microphone in a normal voice 
+level.
+r	The 
+ TX/BUSY indicator will glow red during 
+transmission.
+r	Normally, the factory default microphone gain set-
+ting will provide a good transmit audio level. 
+r	To adjust the microphone gain, utilize Menu mode 
+“16-07 [SSB MIC GAIN]”, “16-08 [AM MIC GAIN]” 
+or “16-09 [FM MIC GAIN]”.
+r	When transmitting in the AM mode, set a maximum 
+(carrier) power output of 25 Watts via Menu mode 
+“16-02 [HF AM PWR]” or “16-05 [50M AM PWR]”.
+2.	Release the PTT switch to return to receive mode.
+PTT
+
+============================================================
+PAGE 33
+============================================================
+
+31
+FT-891 Operating Manual
+QMB (Quick Memory Bank) Channels
+The Quick Memory Bank consists of five memories independent from the regular and 
+PMS memories. The QMB memories can quickly store operating parameters for later 
+recall.
+QMB Channel Storage
+1.	Tune in the desired frequency and set the operating mode on VFO-A.
+2.	Press and hold in the 
+ [QMB] key until 
+“beeps” are heard. The beep provides au-
+dible confirmation that the data has been 
+stored into the QMB memory.
+Repeated one second presses of the 
+ [QMB] 
+key will write the VFO-A contents to successive 
+QMB memories. Once all five QMB memories 
+have data on them, previous data will be over-
+written on a first-in, first-out basis.
+QMB Channel Recall
+1.	Press the 
+ [QMB] key momentarily. The 
+current QMB channel data will be shown on 
+the frequency display area.
+The “QMB” icon will appear on the LCD.
+2.	Repeated brief presses of the 
+ [QMB] key 
+will toggle through the QMB channels.
+QMB Channel
+Erasing QMB Data
+1.	Press the 
+ [F] key to find the “FUNCTION-2” list screen.
+2.	Rotate the 
+ MULTI function knob to select “QMB”.
+3.	Press the 
+ MULTI function knob to display the “QMB CHANNEL” list screen.
+4.	Rotate the 
+ MULTI function knob to select the memory channel that you would like 
+to erase.
+5.	Press and hold the 
+ [C](ERS) key for one second or press the 
+ MULTI function 
+knob, to erase the contents of the selected QMB channel.
+6.	To exit from QMB mode and return to the VFO mode, press the 
+ [A](BCK) key.
+
+============================================================
+PAGE 34
+============================================================
+
+32
+FT-891 Operating Manual
+Operating Instructions 1
+DIAL knob Lock
+The DIAL knob may be locked to prevent accidental frequency change.
+To lock the DIAL knob, press the 
+ [PWR/
+LOCK] key.
+The “LOCK” icon will appear on the LCD.
+To unlock the DIAL setting, and restore normal 
+tuning, press the 
+ [PWR/LOCK] key again.
+NB (Noise Blanker) (SSB/CW/RTTY/DATA/AM Modes)
+The FT-891 includes an effective IF Noise Blanker, which can significantly reduce noise 
+caused by automotive ignition systems.
+1.	 Press the assigned 
+ [C](NB) key to turn the 
+Noise Blanker ON/OFF (When turning ON, 
+ and 
+ will appear), the blank-
+ing level pop-up screen will be displayed.
+NOTE:	The noise blanker is most effective 
+on certain pulse type noise, it may 
+not have a pronounced effect on oth-
+er types of noise.
+r If the “NB” function is not assigned to an 
+ [A], [B] or [C] key, press the 
+ [F] key 
+ 
+repeatedly to find the “FUNCTION-2” list screen. à Rotate the 
+ MULTI function 
+knob to select “NB” à Press and hold the 
+ [A], [B] or [C] key to assign the function
+r Rotate the 
+ MULTI function knob to select “NB” in the “FUNCTION-1” list screen, 
+and then press the knob, to switch the Noise Blanker function ON/OFF.
+2.	When The blanking level pop-up screen is displayed, rotate the 
+ MULTI function 
+knob to adjust the blanking level to the point where the offending noise is best reduced 
+or eliminated.
+NOTE:	Increasing the noise blanking level may distort the audio.
+	
+To reset the blanking level to the factory default value, press and hold the 
+ 
+MULTI function knob.
+3.	Press any key, except the 
+ [A], [B], [C], 
+ [CLAR] keys, or the 
+ MULTI function 
+knob, to save the new setting and return to normal operation.
+r	 When “
+” is shown (after pressing the 
+ [C](NB) key), rotate the 
+ MULTI 
+function knob to adjust the blanking level. The blanking level may also be adjusted 
+from the “FUNCTION-1” list screen (see page 46).
+
+============================================================
+PAGE 35
+============================================================
+
+33
+FT-891 Operating Manual
+Operating Instructions 2
+Clarifier (Offsets the receive frequency on the SSB/CW mode)
+The 
+ [CLAR] key and 
+ MULTI function knob are used to offset the receive frequency, 
+the transmit frequency, or both, from the VFO-A frequency setting. A small four digit 
+indication on the display will show the current Clarifier offset. The Clarifier functions on the 
+FT-891 allow offsetting the receive and transmit frequencies (up to ±9.998 kHz), without 
+actually re-tuning, and then activating it by pressing Clarifier 
+ [CLAR] key. This feature 
+is ideal for following a drifting station, or for setting the small frequency offsets sometimes 
+utilized in DX “Split” work.
+r	To change the clarifier operation (RX/TX/TRX), utilize Menu mode “05-18 [CLAR 
+SELECT]”.The factory default setting is “RX”.
+r	The RX clarifier does not change the transmit frequency, but permits slight adjustment 
+of the receiver for improved audio.
+r	Remember to reset the Clarifier offset to zero when the QSO is completed, so the 
+transmit and the receive frequencies will be combined again.
+Here is the technique for utilizing the Clarifier:
+1.	Press the 
+ [CLAR] key. The programmed 
+offset will be applied to the receive frequen-
+cy.
+2.	Rotation of the 
+ MULTI function knob will 
+allow adjustment of the initial offset on the 
+fly. Offsets of up to ±9.998 kHz may be set 
+using the Clarifier.
+3.	To cancel Clarifier operation, press the 
+[CLAR] key.
+r	Turning the Clarifier off merely cancels 
+the application of the programmed offset 
+from the receive and/or the transmit fre-
+quencies. To clear the Clarifier offset, and 
+reset it to “zero”, press and hold the 
+ 
+MULTI function knob.
+r	To change the clarifier operation (RX/
+TX/TRX), utilize Menu mode “05-18 
+[CLAR SELECT]”.
+RX Clarifier
+TX Clarifier
+TRX Clarifier
+
+============================================================
+PAGE 36
+============================================================
+
+34
+FT-891 Operating Manual
+Operating Instructions 3
+IF SHIFT Operation (SSB/CW/RTTY/DATA Modes)
+IF SHIFT permits moving the DSP filter passband higher or lower, without changing the 
+pitch of the incoming signal, and thus reduces or eliminates interference. Because the 
+tuned carrier frequency is not varied, there is no need to retune the operating frequency 
+to eliminate the interference. The total passband tuning range for the IF SHIFT system is 
+±1.2 kHz.
+1.	Press the assigned 
+ [A](SFT) key to acti-
+vate the IF SHIFT (
+ will appear), the 
+SHIFT adjustment pop-up screen will be dis-
+played.
+r If the IF SHIFT function is not assigned 
+to an 
+ [A], [B] or [C] key, press 
+ [F] 
+key repeatedly to find the “FUNCTION-1” 
+list screen. à  Rotate the 
+ MULTI func-
+tion knob to select the “SFT” à Press and 
+hold any of the 
+ [A]/[B]/[C] keys to as-
+sign the IF SHIFT function.
+r Rotate the 
+ MULTI function knob to select “SFT” in the “FUNCTION-1” list screen, 
+and then press the knob, to switch the IF SHIFT function ON/OFF.
+2.	Rotate the 
+ MULTI function knob to the left or right to reduce interfering signals.
+NOTE:	To reset the IF SHIFT tuning to the factory default value, press and hold the 
+ 
+MULTI function knob.
+3.	Press any key except the 
+ [A], [B], [C], 
+ [CLAR] keys, or the 
+ MULTI function 
+knob to save the new setting and return to normal operation.
+r	 Press the 
+ [A](SFT) key, while the “ 
+ “ indicator is displayed, and then ro-
+tate the 
+ MULTI function knob to adjust the IF SHIFT tuning. The IF SHIFT may 
+also be adjusted by accessing the “FUNCTION-1” list screen (see page 46).
+Referring to Figure (A), note the de-
+piction of the IF DSP filter as the thick 
+line, with 
+ MULTI function knob in 
+the 12 o’clock position. In Figure (B), 
+an interfering signal has appeared in-
+side the original passband. In Figure 
+(C), you can see the effect of rotating 
+the 
+ MULTI function knob. The inter-
+ference level is reduced by moving the 
+filter passband so that the interference 
+is outside of the passband.
+Desired Signal
+(A)
+(B)
+(C)
+Desired Signal
+Desired Signal
+QRM
+IF BANDWIDTH
+IF BANDWIDTH
+IF BANDWIDTH
+MULTI
+MULTI
+MULTI
+QRM
+
+============================================================
+PAGE 37
+============================================================
+
+35
+FT-891 Operating Manual
+Operating Instructions 4
+Meters
+The following function information can be displayed on the meter in the transmit mode.
+ : Displays transmitter output power
+ : Displays ALC voltage
+ : Displays Standing Wave Ratio
+ : Displays the speech processor compression level
+ : Displays the drain current of the final stage FET transistors
+1.	Press the 
+ [F] key repeatedly to find the “FUNCTION-2” list screen.
+2.	Rotate the 
+ MULTI function knob to select the “MTR”.
+3.	Press the 
+ MULTI function knob to activate the meters function.
+4.	When the Meter information screen is appeared, rotate and press the 
+ MULTI func-
+tion knob to select the desired information.
+When the desired information is set, the display will return to “FUNCTION-2” list screen 
+automatically.
+5.	Press and hold the 
+ [F] key, or rotate the 
+ MAIN DIAL, to return to normal oper-
+ation.
+VOX
+The VOX (Voice Operated Xmit) circuit will engage the transmitter automatically when 
+you speak into the microphone.。
+Press the 
+ [F] key to find the “FUNCTION-1” list screen. à Rotate the 
+ MULTI function 
+knob to select “VOX”. à Press the 
+ MULTI function knob to switch “VOX” ON or OFF.
+Speech Processor
+The Speech Processor increases the average power output while operating in the SSB 
+mode. Press the 
+ [F] key repeatedly to find the “FUNCTION-1” list screen. à Rotate the 
+ MULTI function knob to select “PRC”. à Press the 
+ MULTI function knob to display 
+the compression level pop-up screen. à Rotate the 
+ MULTI function knob to adjust the 
+compression level.
+Parametric Microphone Equalizer
+In the SSB and AM transmit modes, the Three-Band Parametric Microphone Equalizer 
+may be used to provide precise, independent control over the low, mid and treble frequency 
+ranges in the voice waveform. Press the 
+ [F] key repeatedly to find the “FUNCTION-2” 
+list screen. à Rotate the 
+ MULTI function knob to select “MEQ”. à Press the 
+ MULTI 
+function knob to switch the microphone equalizer ON or OFF.
+
+============================================================
+PAGE 38
+============================================================
+
+36
+FT-891 Operating Manual
+Scope
+The Scope function provides a spectrum display of the band conditions. Both strong 
+and weak signals can be clearly displayed on the LCD display. In the “Manual mode”, 
+the scope frequency spectrum is scanned one time and displayed. In the “Continuous 
+Sweeping mode”, the scope spectrum is repeatedly swept and displayed. The scope 
+sweep and span may be optimized according to your preferences and purposes.
+NOTE:	Since the FT-891 has only one receiver the audio will be muted during the 
+Continuous sweeping mode.
+1.	Press the assigned 
+ [B](SCP) key to dis-
+play the band conditions (spectrum).
+r	If the SCOPE function is not assigned to 
+an 
+ [A], [B] or [C] key, follow the instruc-
+tion below. 
+	
+Press the 
+ [F] key repeatedly to find the 
+“FUNCTION-2” list screen. à Rotate the 
+ MULTI function knob to select “SCP” 
+à Press and hold any of the 
+ [A]/[B]/
+[C] keys to assign this function.
+r Rotate the 
+ MULTI function knob to select “SCP” in the “FUNCTION-2” list 
+screen, and then press the knob, to switch the SCOPE function ON/OFF. The band 
+conditions (spectrum) will appear. Press and hold the 
+ [F] key to return to normal 
+operation.
+2.	Press, or press and hold the 
+ [B]（SCP） key, to sweep in  the Manual mode or the 
+Continuous sweep mode.
+	
+Manual mode (default)
+Each time the 
+ [B](SWP) key is pressed, a new scan of the spectrum scope 
+is shown on the LCD display, and then the receiver audio returns to the speaker.
+	
+Continuous sweeping mode
+Press and hold the 
+ [B](SWP) key for one second. The audio is muted and 
+the spectrum scope is scanned continuously. Press 
+ [B](SWP) key to stop the 
+scanning.
+r	While the Spectrum Scope is activated, press the 
+ [A](SPN) key to change the 
+displayed bandwidth. Available selections are 750 kHz (default), 375 kHz, 150 kHz, 75 
+kHz, or 37.5 kHz ranges.
+r	While the Spectrum Scope is activated, press the 
+ [C](LV1/LV2/LV3) key to change 
+the reference level.
+r	The sweeping interval may be set in Menu mode “13-01 [SCP START CYCLE]”.
+r	Width of scope display may be set in Menu mode “13-02 [SCP SPAN FREQ]”.
+3.	Press one of the 
+ [F]/ 
+ [CLAR]/ 
+ [MuV]/ 
+ [VuM]/ 
+ [V/M] keys to return to 
+normal operation.
+
+============================================================
+PAGE 39
+============================================================
+
+37
+FT-891 Operating Manual
+Operation on 60-Meter (5 MHz) Band (U.S. and U.K. Version Only)
+The recently authorized 60-meter band is covered, in the FT-891, by fixed memory 
+channels. These channels are set to USB or CW, and they appear between the “last” 
+PMS channel (“P9U”) and the first “regular” memory channel (“M01”):
+1.	While operating in the VFO mode, press the 
+ [V/M] key to enter the Memory mode.
+2.	Rotate the 
+ MULTI function knob to select 
+the desired memory channel.
+Memory channels (“501” through “510”) 
+are preprogrammed, at the factory, with the 
+permitted frequencies in the 5 MHz band, 
+and the USB or CW mode is automatically 
+selected on these channels.
+NOTE:	In each of the following conditions, 
+memory channels may be selected 
+by pressing and then rotating the 
+ 
+MULTI function knob:
+●	When the mark is indicated to the 
+left of the function key status icon.
+●	When the display of channel num-
+ber status is “
+” (example of 
+channel number “501”).
+3.	To exit from 60-meter (5 MHz) operation and 
+return to the VFO mode, just press the 
+[V/M] or 
+ [A/B] key.
+Channel Number
+Channel Number
+Mark
+Channel
+Number
+Frequency
+U.S. Version
+U.K. Version
+501
+5.332000 MHz (SSB)
+5.260000 MHz (SSB)
+502
+5.348000 MHz (SSB)
+5.280000 MHz (SSB)
+503
+5.358500 MHz (SSB)
+5.290000 MHz (SSB)
+504
+5.373000 MHz (SSB)
+5.368000 MHz (SSB)
+505
+5.405000 MHz (SSB)
+5.373000 MHz (SSB)
+506
+5.332000 MHz (CW)
+5.400000 MHz (SSB)
+507
+5.348000 MHz (CW)
+5.405000 MHz (SSB)
+508
+5.358500 MHz (CW)
+-
+509
+5.373000 MHz (CW)
+-
+510
+5.405000 MHz (CW)
+-
+
+============================================================
+PAGE 40
+============================================================
+
+38
+FT-891 Operating Manual
+Memory Operation
+Most Memory operation will be conducted in the “regular” memory registers. There are 99 
+memory channels available for storage and recall of your desired essential frequencies.
+Normal Memory Storage
+1.	In the VFO mode, select the frequency, mode, and status, the values you want to have 
+stored.
+2.	Press the 
+ [VuM] key to display the “MEM-
+ORY CHANNEL” list screen, which may be 
+used to find an unused memory channel. 
+Rotate the 
+ MULTI function knob to select 
+the channel number on which you wish to 
+store the current frequency data.
+3.	Press the 
+ [VuM] key to store the frequen-
+cy and other data into the selected memory 
+channel. 
+For details about operation of the following functions, refer to the Advanced Manual 
+(download from the Yaesu website).
+Naming a Memory Channel
+You may also append an alphanumeric “Tag” (label) to each memory, to aid in recollection 
+of the channel’s use (such as club name, etc.).
+Memory Groups
+Memory channels may be arranged into as many as six convenient groups, for easier 
+identification and selection.
+
+============================================================
+PAGE 41
+============================================================
+
+39
+Memory Operation
+FT-891 Operating Manual
+Memory Channel Recall
+1.	While operating in the VFO mode, press the 
+ [V/M] key to enter the Memory mode.
+2.	Rotate the 
+ MULTI function knob to select 
+the desired memory channel.
+NOTE:	In each of the following conditions, 
+memory channels may be selected 
+by pressing and then rotating the 
+MULTI function knob:
+● When the mark is indicated to the 
+left of the function key status icon.
+r	While operating on a memory channel, 
+you may tune off of the original memory 
+channel frequency by rotating the DIAL 
+knob; the “Memory Channel Number” will 
+be replaced by one which indicates “MT” 
+(Memory Tune). Press the 
+ [V/M] key 
+to return to the original memory channel 
+frequency.
+3.	To exit from memory mode and return to the 
+VFO mode, press the 
+ [V/M] or 
+ [A/B] 
+key.
+Memory Channel
+The example of channel number“
+”
+Memory Tune
+Moving Memory Data to the VFO-A
+Data stored on memory channels can easily be copied to VFO-A.
+1.	Press the 
+ [MuV] or 
+ [VuM] key to display the “MEMORY CHANNEL” list screen.
+2.	Rotate the MULTI function knob to select the desired memory channel.
+3.	Pressing the 
+ [MuV] key, copies the data from the selected memory to VFO-A. Pre-
+vious data in VFO-A will be overwritten.
+
+============================================================
+PAGE 42
+============================================================
+
+40
+Memory Operation
+FT-891 Operating Manual
+Erasing Memory Channel Data
+1.	Press the 
+ [MuV] or 
+ [VuM] key to dis-
+play the “MEMORY CHANNEL” list screen.
+2.	Rotate the 
+ MULTI function knob to select 
+the memory channel that is to be erased.
+NOTE:	The FT-891 cannot erase memory 
+channel “01” (and channels “501” 
+through “510”: U.S. version).
+3.	Press the 
+ [C](ERS) key to erase the con-
+tents of the selected memory channel.
+4.	To exit from memory mode and return to the 
+VFO-A mode, press the 
+ [A](BCK) key.
+Restoring Memory Channel Data
+If you make a mistake and wish to restore the memory contents, repeat step (3) above.
+
+============================================================
+PAGE 43
+============================================================
+
+41
+FT-891 Operating Manual
+Scanning Operation
+You may scan either the VFO or the memories of the FT-891, and the radio will halt 
+scanning on any frequency with a signal strong enough to open the receiver squelch.
+VFO Scanning
+1.	Set VFO-A to the frequency on which you would like to begin scanning.
+2.	The 
+ [RF/SQL] knob may be changed 
+from the “RF” Function to the “SQL” Function 
+via Menu mode “05-05 [RF/SQL VR]”.
+3.	Rotate the [RF/SQL] knob so that the back-
+ground noise is just silenced.
+4.	Press and hold in the microphone [UP] or 
+[DWN] key for one second to start scanning 
+in the specified direction on the VFO fre-
+quency.
+NOTE:	Set the “Microphone Automatic 
+Scanning” function to ON or OFF via 
+Menu Mode “05-15 [MIC SCAN]”.
+5.	If the scanner halts on an incoming signal, 
+the decimal point between the “MHz” and 
+“kHz” digits of the frequency display will 
+blink.
+DWN
+UP
+PTT
+r	If the incoming signal disappears, scanning will resume in about five seconds.
+r	If the scan has paused on a signal, pressing the microphone [UP] or [DWN] key,  will 
+cause scanning to resume instantly.
+r	If the Main Tuning DIAL knob is rotated while scanning is in progress, the scanning 
+will continue up or down in frequency according to the direction of the DIAL Knob 
+rotation. (in other words, if the dial is rotated to the left when scanning toward a 
+higher frequency, the direction of the scan will reverse.)
+r	On the SSB/CW and SSB-based Data modes, the scanner will pause on a received 
+signal, then will step across the signal very slowly, giving you time to stop the scan, 
+if you like. However, In these modes on the VFO, the scanner does not stop.
+6.	To cancel scanning, press the PTT switch.
+r	If you press the microphone PTT switch during scanning, the scanner will halt at 
+once. However, pressing the PTT switch during scanning will not cause transmis-
+sion.
+Scan Resume Options
+The manner in which the scanner resumes after it has paused on a signal may be selected 
+by using Menu mode “05-16 [MIC SCAN RESUME]”.
+
+============================================================
+PAGE 44
+============================================================
+
+42
+Scanning Operation
+FT-891 Operating Manual
+Memory Scanning
+1.	The 
+ [RF/SQL] knob may be changed from the “RF” Function to the “SQL” Function 
+via Menu mode “05-05 [RF/SQL VR]”.
+2.	Set the transceiver to the “Memory” mode by pressing the 
+ [V/M] key, if necessary.
+3.	Rotate the 
+ [RF/SQL] knob so that the 
+background noise is just silenced.
+4.	Press and hold in the microphone [UP] or 
+[DWN] key for one second to start scanning 
+in the specified direction.
+NOTE:	Set the “Microphone Automatic 
+Scanning” function to ON or OFF via 
+Menu mode “05-15 [MIC SCAN]”.
+r	During Memory Group operation, only 
+the channels within the current Memory 
+Group will be scanned.
+5.	If the scanner halts on an incoming signal, 
+the decimal point between the “MHz” and 
+“kHz” digits of the frequency display will 
+blink.
+r	If the incoming signal disappears, scan-
+ning will resume in about five seconds.
+DWN
+UP
+PTT
+r	If the scan has paused on a signal, pressing the microphone [UP] or [DWN] key, will 
+cause scanning to resume instantly.
+r	If the Main Tuning DIAL knob is rotated while scanning is in progress, the memory 
+channel scanning will continue up or down in accordance with the direction of the 
+DIAL Knob rotation. (In other words, if the dial is rotated to the left when scanning 
+toward a higher channel number, the direction of the scan will reverse.)
+6.	To cancel scanning, press the PTT switch.
+r	If the microphone PTT switch is pressed during scanning, the scanner will halt at 
+once. However, pressing the PTT switch during scanning will not cause transmis-
+sion.
+Scan Resume Options
+The manner in which the scanner resumes after it has paused on a signal may be selected 
+by using Menu mode “05-16 [MIC SCAN RESUME]”.
+Programmable Memory Scan (PMS)
+When scanning the dedicated PMS memory channels, only the frequencies within the 
+specified frequency range will be scanned.
+NOTE:	For additional details, refer to the Advanced Manual which may be downloaded 
+from the Yaesu website.
+
+============================================================
+PAGE 45
+============================================================
+
+43
+FT-891 Operating Manual
+CW Mode Operation
+Transmission (CW mode)
+1.	Before starting, connect a key or keyer pad-
+dle line to the rear panel KEY jack. 
+2.	Press and hold the 
+ [BAND(MODE)] key 
+for one second.
+The “MODE SELECT” screen will appear in 
+the display.
+3.	 Rotate the DIAL knob to select the “CW” mode.
+4.	Press the 
+ [F] key to find the “CW SET-
+TING” list screen.
+5.	Rotate the 
+ MULTI function knob to select 
+“BK-IN”.
+6.	Press the 
+ MULTI function knob to engage 
+the “break-in” system.
+7.	When using the keyer paddle, rotate the 
+ 
+MULTI function knob to select “KEYER”.
+8.	Press the 
+ MULTI function knob to engage 
+the built-in Electronic Keyer.
+9.	Press and hold the 
+ [F] key for one second 
+to exit the “CW SETTING” list screen and re-
+sume normal operation.
+10.	When the key or the keyer paddle is 
+pressed, the transmitter will automatically 
+be engaged.
+11.	When the key or paddle is released, the re-
+ceiver audio will return, after a brief delay.
+KEY Jack
+Adjusting the CW delay time
+The CW “hang time” (the delay after the last character is sent, until the transceiver returns 
+to the receive mode) can be adjusted via MENU item “07-09 [CW BK-IN DELAY].
+Adjusting the Sidetone volume level
+The CW sidetone volume level can be adjusted via the “FUNCTION-1” list screen.
+NOTE:	For additional details, refer to the Advanced Manual which may be downloaded 
+from the Yaesu website.
+Adjusting the Keyer Speed
+The keyer speed can be adjusted via the “CW SETTING” list screen.
+NOTE:	For additional details, refer to the Advanced Manual which may be downloaded 
+from the Yaesu website.
+
+============================================================
+PAGE 46
+============================================================
+
+44
+FT-891 Operating Manual
+Setting Modes
+Setting Modes Display
+Press the 
+ [F] key momentarily to step through the Setting Modes as follows:
+à FUNCTION-1 à FUNCTION-2 à CW SETTING à
+The FM SETTING, the REC SETTING and the ATAS SETTING function screens may 
+be enabled via Menu modes “05-10”, “05-11” or “05-12”. With the factory default setting, 
+These functions are not displayed on the LCD When the 
+ [F] key is pressed.
+Once the function is set, it is not usually changed. Press and hold the 
+ [F] key to 
+activate the Menu mode.
+Using the Setting Modes
+1.	Repeatedly press the 
+ [F] key momentari-
+ly until the desired function appears.
+2.	Rotate the 
+ MULTI function knob to select 
+the desired function.
+3.	 Press (or press and hold) the 
+ MULTI func-
+tion knob to switch the function on or off.
+r	Depending on the function, the pop-up 
+screen appears by switching the function 
+“ON”.
+	
+The setting values may be changed by 
+rotating the MULTI function Knob.
+r	While the pop-up screen is displayed, 
+press the 
+ MULTI function knob to 
+close the pop-up screen.
+4.	Press and hold the 
+ [F] key for one second, or rotate the DIAL knob to exit the “Set-
+ting Modes” screen and resume normal operation.
+
+============================================================
+PAGE 47
+============================================================
+
+45
+Setting Modes
+FT-891 Operating Manual
+Changing the function assigned to the [A]/[B]/[C] keys
+The default setting are:
+ [A](SFT) key:	 IF SHIFT function
+ [B](SCP) key:	 The SCOPE function
+ [C](NB) key:	
+Noise Blanker function
+1.	Repeatedly press the 
+ [F] key momentari-
+ly until the desired function appears.
+2.	Rotate the 
+ MULTI function knob to select 
+the desired function.
+3.	Press and hold any of the 
+ [A]/[B]/[C] keys 
+to assign the function.
+The desired function is saved and the display 
+returns to normal operation.
+NOTE: Examples of the Function 
+ [A]/[B]/[C] key display as shown in the case of the 
+Noise Blanker
+	
+ :	 Function “OFF”.
+	
+ :	 Function “ON”.
+	
+ :	 Function “ON” and then turn the 
+ MULTI function knob to change the 
+assigned feature setting.
+
+============================================================
+PAGE 48
+============================================================
+
+46
+Setting Modes
+FT-891 Operating Manual
+FUNCTION-1
+ MULTI 
+Knob
+Function
+TNR
+Press
+Enable/Disable the optional FC-40/FC-50 Automatic Antenna tuner or ATAS-120A 
+Auto Active-Tuning Antenna System.
+VOX
+Press
+Enable/Disable the VOX (voice-operated transmitter switching system) in the SSB, 
+AM, FM and DATA modes.
+PRC
+Press
+•	Activate the speech processor for SSB transmissions, the processor level pop-up 
+screen will appear. Rotate the MULTI function knob to adjust the processor level 
+(1 - 100), then press the MULTI function knob to close the pop-up screen.
+•	Press the MULTI function knob to turn the speech processor OFF.
+MON
+Press
+•	Activate the MONITOR feature, the monitor audio level pop-up screen will appear. 
+Rotate the MULTI function knob to adjust the monitor audio level (0 - 100), then press 
+the MULTI function knob to close the pop-up screen.
+•	Press the MULTI function knob to turn the MONITOR feature OFF.
+SPL
+Press
+Enable/Disable Split frequency operation between VFO-A and VFO-B.
+Press and hold
+Sets a one-touch +5 kHz offset with respect to the VFO-B frequency.
+IPO
+Press
+Enable/Disable the receiver preamplifier, thereby activating Intercept Point Optimi-
+zation for improved strong signal overload characteristics.
+ATT
+Press
+Enable/Disable the receiver front-end attenuator, which will reduce all signals and 
+noise by approximately 12 dB.
+NAR
+Press
+Enable/Disable the low-deviation mode.
+NB
+Press
+•	Activate the receiver IF Noise Blanker, the blanker level pop-up screen will appear. 
+Rotate the MULTI function knob to adjust the noise blanker level (0 - 10), then press 
+the MULTI function knob to close the pop-up screen.
+•	Press the MULTI function knob to turn the Noise Blanker OFF.
+SFT
+Press
+•	Activate the IF SHIFT feature, the SHIFT adjustment pop-up screen will appear. Ro-
+tate the MULTI function knob to the left or right to reduce interfering signals, then 
+press the MULTI function knob to close the pop-up screen.
+•	Press the MULTI function knob to turn the IF SHIFT feature OFF.
+WDH
+Press
+•	Activate the WIDTH tuning feature, the WIDTH adjustment pop-up screen will ap-
+pear. Rotate the MULTI function knob counter-clockwise to narrow the bandwidth 
+and reduce interference, then press the MULTI function knob to close the pop-up 
+screen.
+•	Press the MULTI function knob to turn the WIDTH tuning feature OFF.
+NCH
+Press
+•	Activate the IF NOTCH filter feature, the “null” position adjustment pop-up screen 
+will appear. Rotate the MULTI function knob to adjust the “null” position of the 
+Notch filter, then press the MULTI function knob to close the pop-up screen.
+•	Press the MULTI function knob to turn the IF NOTCH filter feature OFF.
+NOTE: For details, refer to the Advanced Manual (download from the Yaesu website).
+
+============================================================
+PAGE 49
+============================================================
+
+47
+Setting Modes
+FT-891 Operating Manual
+FUNCTION-2
+ MULTI Knob
+Function
+MTR
+Press
+Rotate the MULTI function knob to select the display function of the meter 
+in the transmit mode.
+SCP
+Press
+Enable/Disable the Spectrum Scope Monitor feature.
+AGC
+Press
+•	Activate the receiver AGC system, then rotate the MULTI function knob 
+to select the desired receive AGC recovery time constant.
+•	Press the MULTI function knob to turn the receiver AGC system OFF.
+DNR
+Press
+•	Activate the DSP Noise Reduction system, the 15 algorithms pop-up 
+screen will appear. Rotate the MULTI function knob to choose one of 
+15 algorithms that best reduces the noise level, then press the MULTI 
+function knob to close the pop-up screen.
+•	Press the MULTI function knob turn the DSP Noise Reduction system 
+OFF.
+DNF
+Press
+Enable/Disable the DSP Auto Notch Filter.
+CNT
+Press
+•	Activate the CONTOUR function, the adjustment pop-up screen will 
+appear. Rotate the MULTI function knob to achieve the most natural 
+sounding audio reproduction of the incoming signal, then press the 
+MULTI function knob to close the pop-up screen.
+•	Press the MULTI function knob to turn the CONTOUR function OFF.
+MOX
+Press and hold
+Pressing and holding the MULTI function knob will engage the transmit-
+ter.
+TXW
+Press and hold
+During a split operation, to listen on the transmit frequency.
+MEQ
+Press
+Enable/Disable the Parametric Microphone Equalizer.
+QMB
+Press
+To display the “QMB CHANNEL” list screen.
+NOTE: For details, refer to the Advanced Manual (download from the Yaesu website).
+
+============================================================
+PAGE 50
+============================================================
+
+48
+Setting Modes
+FT-891 Operating Manual
+CW SETTING
+This setting mode is used for the CW mode functions.
+ MULTI 
+Knob
+Function
+SPEED
+Press
+Rotate the MULTI function knob to adjust the CW sending speed (4 - 
+60 wpm).
+ZIN
+Press
+Automatically zero-in the receive frequency to match the received CW 
+signal.
+Press and hold The CW tone is output from the speaker.
+APF
+Press
+•	Activate the receiver APF (Audio Peak Filter) function, the adjustment 
+pop-up screen will appear. Rotate the MULTI function knob to set the 
+sound volume to a comfortable level (± 250 Hz), then press the MULTI 
+function knob to close the pop-up screen.
+•	Press the MULTI function knob to turn the APF (Audio Peak Filter) 
+function OFF.
+PITCH
+Press
+Rotate the MULTI function knob to adjust the PITCH (300 - 1050 Hz).
+KEYER
+Press
+Enable/Disable the built-in Electronic Keyer.
+BK-IN
+Press
+Enable/Disable the CW “Semi break-in” operation.
+NOTE: For details, refer to the Advanced Manual (download from the Yaesu website).
+
+============================================================
+PAGE 51
+============================================================
+
+49
+Setting Modes
+FT-891 Operating Manual
+FM SETTING
+This setting mode is used for the FM mode functions.
+(This screen may be enabled/disabled via Menu Mode “05-10 [FM SETTING]”. Default: Disable)
+ MULTI 
+Knob
+Function
+T/DCS
+Press
+•	Activate the CTCSS or DCS operation on FM mode, the CTCSS/DCS 
+function selection pop-up screen will appear. Rotate the MULTI function 
+knob to select the desired CTCSS/DCS function, then press the MULTI 
+function knob to close the pop-up screen.
+•	Press the MULTI function knob to turn the CTCSS or DCS operation OFF.
+TONE
+Press
+Rotate the MULTI function knob to select the CTCSS tone frequency (see 
+table below), then press the MULTI function knob to close the pop-up screen.
+DCS
+Press
+Rotate the MULTI function knob to select the DCS code (see table below), 
+then press the MULTI function knob to close the pop-up screen.
+RPT
+Press
+Rotate the MULTI function knob to select the offset direction of the uplink 
+frequency shift (+, – or simplex) during FM repeater operation, then press the 
+MULTI function knob to close the pop-up screen.
+REV
+Press
+Reverse the transmit and receive frequencies while working through a re-
+peater.
+NOTE: For details, refer to the Advanced Manual (download from the Yaesu website).
+CTCSS TONE FREQUENCY (Hz)
+67.0
+69.3
+71.9
+74.4
+77.0
+79.7
+82.5
+85.4
+88.5
+91.5
+94.8
+97.4
+100.0
+103.5
+107.2
+110.9
+114.8
+118.8
+123.0
+127.3
+131.8
+136.5
+141.3
+146.2
+151.4
+156.7
+159.8
+162.2
+165.5
+167.9
+171.3
+173.8
+177.3
+179.9
+183.5
+186.2
+189.9
+192.8
+196.6
+199.5
+203.5 206.5
+210.7
+218.1
+225.7
+229.1
+233.6
+241.8
+250.3
+254.1
+-
+-
+-
+-
+DCS CODE
+023
+025
+026
+031
+032
+036
+043
+047
+051
+053
+054
+065
+071
+072
+073
+074
+114
+115
+116
+122
+125
+131
+132
+134
+143
+145
+152
+155
+156
+162
+165
+172
+174
+205
+212
+223
+225
+226
+243
+244
+245
+246
+251
+252
+255
+261
+263
+265
+266
+271
+274
+306
+311
+315
+325
+331
+332
+343
+346
+351
+356
+364
+365
+371
+411
+412
+413
+423
+431
+432
+445
+446
+452
+454
+455
+462
+464
+465
+466
+503
+506
+516
+523
+526
+532
+546
+565
+606
+612
+624
+627
+631
+632
+654
+662
+664
+703
+712
+723
+731
+732
+734
+743
+754
+-
+-
+-
+-
+-
+-
+
+============================================================
+PAGE 52
+============================================================
+
+50
+Setting Modes
+FT-891 Operating Manual
+REC SETTING
+This setting mode is used for the recording functions.
+(This screen may be enabled/disabled via Menu Mode “05-11 [REC SETTING]”. Default: Disable)
+ MULTI 
+Knob
+Function
+DEC
+Press
+Decrement (decrease) the current Contest Number by one number (i.e. 
+from #198 to #197, etc.).
+PB
+Press
+Enable/Disable automatic transmit activation when playing recorded 
+messages.
+MEM
+Press
+Store either a Voice Memory or a Contest Keyer Memory.
+CH1
+Press
+Send the CW message which is prerecorded in CW MEMORY 1.
+CH2
+Press
+Send the CW message which is prerecorded in CW MEMORY 2.
+CH3
+Press
+Send the CW message which is prerecorded in CW MEMORY 3.
+CH4
+Press
+Send the CW message which is prerecorded in CW MEMORY 4.
+CH5
+Press
+Send the CW message which is prerecorded in CW MEMORY 5.
+NOTE: For details, refer to the Advanced Manual (download from the Yaesu website).
+ATAS SETTING
+This setting mode is used when connecting the Active Tuning Antenna “ATAS-120A”.
+(This screen may be enabled/disabled via Menu Mode “05-12 [ATAS SETTING]”. Default: Disable)
+MULTI Knob
+Function
+p
+Press and hold
+Raise the tuned frequency (lower the ATAS-120A antenna).
+q
+Press and hold
+Lower the tuned frequency (raise the ATAS-120A antenna).
+NOTE: For details, refer to the Advanced Manual (download from the Yaesu website).
+
+============================================================
+PAGE 53
+============================================================
+
+51
+FT-891 Operating Manual
+Menu Mode
+The FT-891 Menu mode, already described in parts of many previous chapters, is easy to 
+activate and setup. The Menus may be used to configure many of transceiver parameters, 
+some of which have not been detailed previously. Use the following procedure to activate 
+the Menu mode:
+1.	Press and hold in the 
+ [F] key for one sec-
+ond to activate the Menu mode.
+2.	Rotate the 
+ MULTI function knob to select 
+the Menu Item to be adjusted.
+3.	Press the 
+ MULTI function knob, and then 
+rotate it to adjust the selected Menu item.
+4.	When the adjustment is satisfactory, press 
+the 
+ MULTI function knob to save the new 
+setting.
+5.	Press the 
+ [F] key to exit the Menu mode 
+and return to normal operation.
+NOTE:	For additional details, refer to the Advanced Manual which may be downloaded 
+from the Yaesu website.
+Menu / Item
+Available Values
+Default
+AGC
+01-01
+AGC FAST DELAY
+20 - 4000 (msec)
+300msec
+01-02
+AGC MID DELAY
+20 - 4000 (msec)
+700msec
+01-03
+AGC SLOW DELAY
+20 - 4000 (msec)
+3000msec
+DISPLAY
+02-01
+LCD CONTRAST
+1 - 15
+8
+02-02
+DIMMER BACKLIT
+1 - 15
+8
+02-03
+DIMMER LCD
+1 - 15
+8
+02-04
+DIMMER TX/BUSY
+1 - 15
+8
+02-05
+PEAK HOLD
+OFF/0.5/1.0/2.0 (sec)
+OFF
+02-06
+ZIN LED
+ENABLE/DISABLE
+DISABLE
+02-07
+POP-UP MENU
+UPPER/LOWER
+LOWER
+DVS
+03-01
+DVS RX OUT LVL
+0 - 100
+50
+03-02
+DVS TX OUT LVL
+0 - 100
+50
+KEYER
+04-01
+KEYER TYPE
+OFF/BUG/ELEKEY-A/ELEKEY-B/
+ELEKEY-Y/ACS
+ELEKEY-B
+04-02
+KEYER DOT/DASH
+NOR/REV
+NOR
+04-03
+CW WEIGHT
+2.5 - 4.5
+3.0
+04-04
+BEACON INTERVAL
+OFF/1 - 240 (sec) (1 sec/step)
+270 - 690 (sec) (30 sec/step)
+OFF
+04-05
+NUMBER STYLE
+1290/AUNO/AUNT/A2NO/
+A2NT/12NO/12NT
+1290
+04-06
+CONTEST NUMBER
+0 - 9999
+1
+04-07
+CW MEMORY 1
+TEXT/MESSAGE
+TEXT
+04-08
+CW MEMORY 2
+TEXT/MESSAGE
+TEXT
+
+============================================================
+PAGE 54
+============================================================
+
+52
+Menu Mode
+FT-891 Operating Manual
+Menu / Item
+Available Values
+Default
+04-09
+CW MEMORY 3
+TEXT/MESSAGE
+TEXT
+04-10
+CW MEMORY 4
+TEXT/MESSAGE
+TEXT
+04-11
+CW MEMORY 5
+TEXT/MESSAGE
+TEXT
+GENERAL
+05-01
+NB WIDTH
+1/3/10 (msec)
+3msec
+05-02
+NB REJECTION
+10/30/50 (dB)
+30dB
+05-03
+NB LEVEL
+0 - 10
+5
+05-04
+BEEP LEVEL
+0 - 100
+30
+05-05
+RF/SQL VR
+RF/SQL
+RF
+05-06
+CAT RATE
+4800/9600/19200/38400 (bps)
+4800bps
+05-07
+CAT TOT
+10/100/1000/3000 (msec)
+10ms
+05-08
+CAT RTS
+ENABLE/DISABLE
+ENABLE
+05-09
+MEM GROUP
+ENABLE/DISABLE
+DISABLE
+05-10
+FM SETTING
+ENABLE/DISABLE
+DISABLE
+05-11
+REC SETTING
+ENABLE/DISABLE
+DISABLE
+05-12
+ATAS SETTING
+ENABLE/DISABLE
+DISABLE
+05-13
+QUICK SPL FREQ
+-20 (kHz) - 0 - 20 (kHz)
+5kHz
+05-14
+TX TOT
+OFF/1 - 30 (min)
+OFF (10 minø)
+05-15
+MIC SCAN
+ENABLE/DISABLE
+ENABLE
+05-16
+MIC SCAN RESUME
+PAUSE/TIME
+TIME
+05-17
+REF FREQ ADJ
+-25 - 0 - 25
+0
+05-18
+CLAR SELECT
+RX/TX/TRX
+RX
+05-19
+APO
+OFF/1/2/4/6/8/10/12 (h)
+OFF
+05-20
+FAN CONTROL
+NORMAL/CONTEST
+NORMAL
+MODE AM
+06-01
+AM LCUT FREQ
+OFF /100 - 1000 (Hz)
+OFF
+06-02
+AM LCUT SLOPE
+6 / 18 (dB/oct)
+6dB/oct
+06-03
+AM HCUT FREQ
+700 - 4000 (Hz) / OFF
+OFF
+06-04
+AM HCUT SLOPE
+6 / 18 (dB/oct)
+6dB/oct
+06-05
+AM MIC SELECT
+MIC/REAR
+MIC
+06-06
+AM OUT LEVEL
+0 - 100
+50
+06-07
+AM PTT SELECT
+DAKY/RTS/DTR
+DAKY
+MODE CW
+07-01
+CW LCUT FREQ
+OFF /100 - 1000 (Hz)
+250Hz
+07-02
+CW LCUT SLOPE
+6 / 18 (dB/oct)
+18dB/oct
+07-03
+CW HCUT FREQ
+700 - 4000 (Hz) / OFF
+1200Hz
+07-04
+CW HCUT SLOPE
+6 / 18 (dB/oct)
+18dB/oct
+07-05
+CW OUT LEVEL
+0 - 100
+50
+07-06
+CW AUTO MODE
+OFF/50M/ON
+OFF
+07-07
+CW BFO
+USB/LSB/AUTO
+USB
+07-08
+CW BK-IN TYPE
+SEMI/FULL
+SEMI
+07-09
+CW BK-IN DELAY
+30 - 3000 (msec)
+200msec
+07-10
+CW WAVE SHAPE
+2/4 (msec)
+4msec
+07-11
+CW FREQ DISPLAY
+FREQ/PITCH
+PITCH
+07-12
+PC KEYING
+OFF/DAKY/RTS/DTR
+OFF
+07-13
+QSK DELAY TIME
+15/20/25/30 (msec)
+15msec
+ø: European Version.
+
+============================================================
+PAGE 55
+============================================================
+
+53
+Menu Mode
+FT-891 Operating Manual
+Menu / Item
+Available Values
+Default
+MODE DAT
+08-01
+DATA MODE
+PSK/OTHERS
+PSK
+08-02
+PSK TONE
+1000/1500/2000 (Hz)
+1000Hz
+08-03
+OTHER DISP
+-3000 - 0 - 3000 (Hz)
+0Hz
+08-04
+OTHER SHIFT
+-3000 - 0 - 3000 (Hz)
+0Hz
+08-05
+DATA LCUT FREQ
+OFF /100 - 1000 (Hz)
+300Hz
+08-06
+DATA LCUT SLOPE
+6 / 18 (dB/oct)
+18dB/oct
+08-07
+DATA HCUT FREQ
+700 - 4000Hz / OFF
+3000Hz
+08-08
+DATA HCUT SLOPE
+6 / 18 (dB/oct)
+18dB/oct
+08-09
+DATA IN SELECT
+MIC/REAR
+REAR
+08-10
+DATA PTT SELECT
+DAKY/RTS/DTR
+DAKY
+08-11
+DATA OUT LEVEL
+0 - 100
+50
+08-12
+DATA BFO
+USB/LSB
+LSB
+MODE FM
+09-01
+FM MIC SELECT
+MIC/REAR
+MIC
+09-02
+FM OUT LEVEL
+0 - 100
+50
+09-03
+PKT PTT SELECT
+DAKY/RTS/DTR
+DAKY
+09-04
+RPT SHIFT 28MHz
+0 - 1000 (kHz)
+100kHz
+09-05
+RPT SHIFT 50MHz
+0 - 4000 (kHz)
+1000kHz
+09-06
+DCS POLARITY
+Tn-Rn/Tn-Riv/Tiv-Rn/Tiv-Riv
+Tn-Rn
+MODE RTY
+10-01
+RTTY LCUT FREQ
+OFF /100 - 1000 (Hz)
+300Hz
+10-02
+RTTY LCUT SLOPE
+6 / 18 (dB/oct)
+18dB/oct
+10-03
+RTTY HCUT FREQ
+700 - 4000 (Hz) / OFF
+3000Hz
+10-04
+RTTY HCUT SLOPE
+6 / 18 (dB/oct)
+18dB/oct
+10-05
+RTTY SHIFT PORT
+SHIFT/DTR/RTS
+SHIFT
+10-06
+RTTY POLARITY-R
+NOR/REV
+NOR
+10-07
+RTTY POLARITY-T
+NOR/REV
+NOR
+10-08
+RTTY OUT LEVEL
+0 - 100
+50
+10-09
+RTTY SHIFT FREQ
+170/200/425/850 (Hz)
+170Hz
+10-10
+RTTY MARK FREQ
+1275/2125 (Hz)
+2125Hz
+10-11
+RTTY BFO
+USB/LSB
+LSB
+MODE SSB
+11-01
+SSB LCUT FREQ
+OFF /100 - 1000 (Hz)
+100Hz
+11-02
+SSB LCUT SLOPE
+6 / 18 (dB/oct)
+6dB/oct
+11-03
+SSB HCUT FREQ
+700 - 4000 (Hz) / OFF
+3000Hz
+11-04
+SSB HCUT SLOPE
+6 / 18 (dB/oct)
+6dB/oct
+11-05
+SSB MIC SELECT
+MIC/REAR
+MIC
+11-06
+SSB OUT LEVEL
+0 - 100
+50
+11-07
+SSB BFO
+USB/LSB/AUTO
+AUTO
+11-08
+SSB PTT SELECT
+DAKY/RTS/DTR
+DAKY
+11-09
+SSB TX BPF
+100-3000/100-2900/200-2800/300-
+2700/400-2600
+300-2700
+RX DSP
+12-01
+APF WIDTH
+NARROW/MEDIUM/WIDE
+MEDIUM
+12-02
+CONTOUR LEVEL
+-40 - 0 - 20
+-15
+12-03
+CONTOUR WIDTH
+1 - 11
+10
+12-04
+IF NOTCH WIDTH
+NARROW/WIDE
+WIDE
+
+============================================================
+PAGE 56
+============================================================
+
+54
+Menu Mode
+FT-891 Operating Manual
+Menu / Item
+Available Values
+Default
+SCOPE
+13-01
+SCP START CYCLE
+OFF/3/5/10 (sec)
+OFF
+13-02
+SCP SPAN FREQ
+37.5/75/150/375/750 (kHz)
+750kHz
+TUNING
+14-01
+QUICK DIAL
+50/100/500 (kHz)
+500kHz
+14-02
+SSB DIAL STEP
+2/5/10 (Hz)
+10Hz
+14-03
+AM DIAL STEP
+10/100 (Hz)
+10Hz
+14-04
+FM DIAL STEP
+10/100 (Hz)
+100Hz
+14-05
+DIAL STEP
+2/5/10 (Hz)
+5Hz
+14-06
+AM CH STEP
+2.5/5/9/10/12.5/25 (kHz)
+5kHz
+14-07
+FM CH STEP
+5/6.25/10/12.5/15/20/25 (kHz)
+5kHz
+TX AUDIO
+15-01
+EQ1 FREQ
+OFF/100 - 700
+OFF
+15-02
+EQ1 LEVEL
+-20 - 0 - 10
+5
+15-03
+EQ1 BWTH
+1 - 10
+10
+15-04
+EQ2 FREQ
+OFF/700 - 1500
+OFF
+15-05
+EQ2 LEVEL
+-20 - 0 - 10
+5
+15-06
+EQ2 BWTH
+1 - 10
+10
+15-07
+EQ3 FREQ
+OFF/1500 - 3200
+OFF
+15-08
+EQ3 LEVEL
+-20 - 0 - 10
+5
+15-09
+EQ3 BWTH
+1 - 10
+10
+15-10
+P-EQ1 FREQ
+OFF/100 - 700
+200
+15-11
+P-EQ1 LEVEL
+-20 - 0 - 10
+0
+15-12
+P-EQ1 BWTH
+1 - 10
+2
+15-13
+P-EQ2 FREQ
+OFF/700 - 1500
+800
+15-14
+P-EQ2 LEVEL
+-20 - 0 - 10
+0
+15-15
+P-EQ2 BWTH
+1 - 10
+1
+15-16
+P-EQ3 FREQ
+OFF/1500 - 3200
+2100
+15-17
+P-EQ3 LEVEL
+-20 - 0 - 10
+0
+15-18
+P-EQ3 BWTH
+1 - 10
+1
+TX GNRL
+16-01
+HF SSB PWR
+5 - 100
+100
+16-02
+HF AM PWR
+5 - 40
+25
+16-03
+HF PWR
+5 - 100
+100
+16-04
+50M SSB PWR
+5 - 100
+100
+16-05
+50M AM PWR
+5 - 40
+25
+16-06
+50M PWR
+5 - 100
+100
+16-07
+SSB MIC GAIN
+0 - 100
+50
+16-08
+AM MIC GAIN
+0 - 100
+50
+16-09
+FM MIC GAIN
+0 - 100
+50
+16-10
+DATA MIC GAIN
+0 - 100
+50
+16-11
+SSB DATA GAIN
+0 - 100
+50
+16-12
+AM DATA GAIN
+0 - 100
+50
+16-13
+FM DATA GAIN
+0 - 100
+50
+16-14
+DATA DATA GAIN
+0 - 100
+50
+16-15
+TUNER SELECT
+OFF/EXTERNAL/ATAS/LAMP
+OFF
+16-16
+VOX SELECT
+MIC/DATA
+MIC
+16-17
+VOX GAIN
+0 - 100
+50
+
+============================================================
+PAGE 57
+============================================================
+
+55
+Menu Mode
+FT-891 Operating Manual
+Menu / Item
+Available Values
+Default
+16-18
+VOX DELAY
+30 - 3000 (msec)
+500msec
+16-19
+ANTI VOX GAIN
+0 - 100
+50
+16-20
+DATA VOX GAIN
+0 - 100
+50
+16-21
+DATA VOX DELAY
+30 - 3000 (msec)
+100msec
+16-22
+ANTI DVOX GAIN
+0 - 100
+0
+16-23
+EMERGENCY FREQ
+ENABLE/DISABLE
+DISABLE
+RESET
+17-01
+RESET
+ALL/DATA/FUNC
+---
+VERSION
+18-01
+MAIN VERSION
+---
+---
+18-02
+DSP VERSION
+---
+---
+18-03
+LCD VERSION
+---
+---
+
+============================================================
+PAGE 58
+============================================================
+
+56
+FT-891 Operating Manual
+Specifications
+General
+Frequency Range:	
+Tx: 1.8 MHz - 54 MHz (Amateur bands only)
+	
+Rx: 30 kHz - 56 MHz
+	
+1.8 MHz - 54 MHz
+	
+(Specified performance, Amateur bands only)
+Channel Step:	
+2/5/10 Hz (SSB, CW)
+	
+10/100 Hz (AM, FM)
+Frequency Stability:	
+SSB/CW/AM:
+	
+±0.5 ppm [14 °F to +122 °F (-10 °C to +50 °C)]
+	
+FM:
+	
+±1 kHz [14 °F to +122 °F (-10 °C to +50 °C)]
+Modes of Emission :	
+A1A (CW), A3E (AM), J3E (LSB, USB), F3E (FM)
+Antenna Impedance:	
+50 Ohms, unbalanced
+Supply voltage:	
+13.8 V DC ±15%, negative ground
+Current Consumption (typical):	
+Rx: 2.0 A (signal present)
+	
+Tx: 23 A
+Operating Temperature Range:	
+14 °F to +122 °F (-10 °C to +50 °C)
+Case Size (W x H x D):	
+6.1” x 2.0” x 8.6” (155 x 52 x 218 mm) (w/o knobs)
+Weight (Approx.):	
+4.18 lb (1.9 kg)
+Transmitter
+Power Output:	
+100 W (40 W AM carrier)
+Modulation Type:	
+J3E (SSB): Balanced,
+	
+A3E (AM): Low-Level,
+	
+F3E (FM): Variable Reactance
+Maximum Deviation:	
+±5.0 kHz (Wide)
+	
+±2.5 kHz (Narrow)
+Spurious Radiation:	
+Better than -50 dB (1.8 MHz - 30 MHz Amateur bands)
+	
+Better than -63 dB (50 MHz Amateur bands)
+Microphone Impedance:	
+600 Ohms (200 Ohms to 10 k Ohms)
+
+============================================================
+PAGE 59
+============================================================
+
+57
+Specifications
+FT-891 Operating Manual
+Receiver
+Circuit Type:	
+SSB/CW/AM: Triple-conversion Superheterodyne
+	
+FM: Double Conversion Superheterodyne
+Intermediate Frequencies:	
+SSB/CW/AM:	1st: 69.450 MHz
+	
+	
+2nd: 450 kHz
+	
+	
+3rd: 24 kHz
+	
+FM:	
+1st: 69.450 MHz
+	
+	
+2nd: 450 kHz
+Sensitivity:	
+SSB/CW (S/N 10 dB)
+	
+	
+0.16 μV (1.8 MHz - 30 MHz)
+	
+	
+0.16 μV (50 MHz - 54 MHz)
+	
+AM (S/N 10 dB)
+	
+	
+5 μV (0.5 MHz - 1.8 MHz)
+	
+	
+1.6 μV (1.8 MHz - 30 MHz)
+	
+	
+1.6 μV (50 MHz - 54 MHz)
+	
+FM (12 dB SINAD)
+	
+	
+0.35 μV (29 MHz, 50 MHz - 54 MHz)
+Selectivity	
+Mode	
+-6 dB	
+-60 dB
+	
+SSB/CW	 2.4 kHz or better	
+3.6 kHz or less
+	
+CW-N	
+500 Hz or better	
+750 Hz or less
+	
+AM	
+6 kHz or better	
+15 kHz or less
+	
+FM	
+12 kHz or better	
+30 kHz or less (-50dB)
+	
+FM-N	
+9 kHz or better	
+25 kHz or less (-50dB)
+Maximum AF Output:	
+2.5 W into 4 ohms with 10% THD
+Audio Output Impedance:	
+4 Ohms to 16 Ohms (8 Ohms: nominal)
+Conducted Radiation:	
+Less than 4 nW
+Specifications are subject to change, in the interest of technical improvement, without 
+notice or obligation, and are guaranteed only within the amateur bands.
+Symbol placed on the equipment
+ Direct current
+
+============================================================
+PAGE 60
+============================================================
+
+58
+FT-891 Operating Manual
+This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of 
+the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential 
+installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in 
+accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee 
+that interference will not occur in a particular installation.
+If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the 
+equipment off and on, the user is encouraged to try to correct the interference by one or more of the following measures:
+	
+Increase the separation between the equipment and receiver.
+	
+Connect the equipment into an outlet on a circuit different from that to which the receiver is connected.
+	
+Consult the dealer or an experienced radio/TV technician for help.
+1.	 Changes or modifications to this device that are not expressly approved by YAESU MUSEN could void the user’s 
+authorization to operate this device.
+2.	 This device complies with part 15 of the FCC Rules. Operation is subject to the following two conditions: (1) This device may 
+not cause harmful interference, and (2) this device must accept any interference including received, interference that may 
+cause undesired operation.
+3.	 The scanning receiver in this equipment is incapable of tuning, or readily being altered, by the User to operate within the 
+frequency bands allocated to the Domestic public Cellular Telecommunications Service in Part 22.
+This device complies with Industry Canada license-exempt RSS standard(s). Operation is subject to the following two 
+conditions: (1) this device may not cause interference, and (2) this device must accept any interference, including interference 
+that may cause undesired operation of the device.
+Le présent appareil est conforme aux CNR d’Industrie Canada applicables aux appareils radio exempts de licence. L’exploitation 
+est autorisée aux deux conditions suivantes : (1) l’appareil ne doit pas produire de brouillage, et (2) l’utilisateur de l’appareil 
+doit accepter tout brouillage radioélectrique subi, même si le brouillage est susceptible d’en compromettre le fonctionnement.
+DECLARATION BY MANUFACTURER
+The Scanner receiver is not a digital scanner and is incapable of being converted or modified to a digital scanner receiver by 
+any user.
+WARNING: MODIFICATION OF THIS DEVICE TO RECEIVE CELLULAR RADIOTELEPHONE SERVICE SIGNALS IS 
+PROHIBITED UNDER FCC RULES AND FEDERAL LAW.
+CAN ICES-3 (B) / NMB-3 (B)
+European Users should note that operation of this unit in Transmit mode requires the operator to have a valid Amateur Radio 
+License from their respective Countries Amateur Radio Licensing Authority for the Frequencies and Transmitter Power levels 
+that this Radio transmits on. Failure to comply may be unlawful and liable for prosecution.
+Disposal of your Electronic and Electric Equipment
+Products with the symbol (crossed-out wheeled bin) cannot be disposed as household waste.
+Electronic and Electric Equipment should be recycled at a facility capable of handling these 
+items and their waste by products.
+In EU countries, please contact your local equipment supplier representative or service center 
+for information about the waste collection system in your country.
+Attention in case of use
+This transceiver works on frequencies which are not generally per-
+mitted.
+As for the actual usage, the user has to possess an amateur radio 
+license.
+Usage is allowed only in the frequency bands which are allocated 
+for amateur radios.
+List of national codes
+AT
+BE
+BG
+CY
+CZ
+DE
+DK
+ES
+EE
+FI
+FR
+GB
+GR
+HR
+HU
+IE
+IT
+LT
+LU
+LV
+MT
+NL
+PL
+PT
+RO
+SK
+SI
+SE
+CH
+IS
+LI
+NO
+–
+–
+–
+–
+
+============================================================
+PAGE 61
+============================================================
+
+Yaesu UK Ltd 
+Unit 12, Sun Valley Business Park 
+Winnall Close 
+Winchester SO23 OLB 
+United Kingdom 
+Tel: +44 (0)1962 866667 
+Fax: +44 (0)1962 856801 
+Email: sales@yaesu.co.uk 
+Declaration of Conformity 
+Nr. YUK-DOC-0601-16 
+We, Yaesu UK Ltd. certify and declare under our sole responsibility that the following equipment 
+complies with the essential requirements of the Directive 1999/5/EC and 2011/65/EU. 
+ 
+Type of Equipment  
+HF/50MHz Transceiver  
+Brand Name  
+YAESU 
+Model Number  
+FT-891 
+Manufacturer 
+YAESU MUSEN CO. LTD. 
+Address of Manufacturer 
+Tennozu Parkside Building, 2-5-8 Higashi-Shinagawa, 
+Shinagawa-ku, Tokyo, 140-0002 Japan 
+Applicable Standards: 
+This equipment is tested to and conforms to the essential requirements of directive, as included 
+in following standards: 
+Health 
+1999/5/EC Art. 3 (1) (a) 
+EN 62311:2008 
+ 
+ 
+Safety  
+1999/5/EC Art. 3 (1) (a) 
+EN 60950-1:2006 + A2:2013 
+ 
+ 
+EMC 
+1999/5/EC Art. 3 (1) (b) 
+EN 301 489-01 V1.9.2 
+EN 301 489-15 V1.2.1 
+ 
+Radio Spectrum 
+1999/5/EC Art. 3 (2) 
+EN 301 783-02 V1.2.1 
+ 
+ 
+ROHS2 
+2011/65/EU Art. 7 (b) 
+EN 50581:2012 
+ 
+ 
+The technical documentation as required by the Conformity Assessment procedures is kept at 
+the following address: 
+Company 
+Yaesu UK Ltd 
+Address 
+Unit 12, Sun Valley Business Park, Winnall Close 
+Technical Construction file 
+ 
+Winchester, Hampshire UK SO23 0LB 
+Issued by: 
+Yaesu Musen Co. Ltd, Tokyo Japan 
+File No:  
+YETA00416 
+Drawn up in: 
+Winchester, Hampshire UK 
+Date: 
+06-Jun 2016 
+ 
+ 
+Signed for and on behalf of Yaesu UK Ltd 
+ 
+ 
+ 
+ 
+ 
+ 
+Name and position:     PCJ Bigwood 
+     Technical Sales Manager 
+
+============================================================
+PAGE 62
+============================================================
+
+Copyright 2016
+YAESU MUSEN CO., LTD.
+All rights reserved.
+No portion of this manual may be
+reproduced without the permission of
+YAESU MUSEN CO., LTD.
+1611A-BO-2
+Printed in Japan
+YAESU MUSEN CO., LTD.
+Tennozu Parkside Building
+2-5-8 Higashi-Shinagawa, Shinagawa-ku, Tokyo 140-0002 Japan
+YAESU USA
+6125 Phyllis Drive, Cypress, CA 90630, U.S.A.
+YAESU UK
+Unit 12, Sun Valley Business Park, Winnall Close
+Winchester, Hampshire, SO23 0LB, U.K.

@@ -1,0 +1,402 @@
+{
+  "radio": {
+    "id": "yaesu-ft891",
+    "manufacturer": "Yaesu",
+    "model": "FT-891",
+    "revision": "1",
+    "pdfFilename": "FT-891_Instruction_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "yaesu-ft891-operation-basics",
+      "title": "Operation Basics",
+      "sortOrder": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Operation Basics content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "yaesu-ft891-menu-system-reference",
+      "title": "Menu System Reference",
+      "sortOrder": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Menu System Reference content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "yaesu-ft891-cw-keyer-settings",
+      "title": "CW/Keyer Settings",
+      "sortOrder": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract CW/Keyer Settings content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "yaesu-ft891-filters-and-dsp",
+      "title": "Filters & DSP",
+      "sortOrder": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Filters & DSP content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "yaesu-ft891-power-and-battery",
+      "title": "Power & Battery",
+      "sortOrder": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Power & Battery content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "yaesu-ft891-atu-operation",
+      "title": "ATU Operation",
+      "sortOrder": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract ATU Operation content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "yaesu-ft891-specifications",
+      "title": "Specifications",
+      "sortOrder": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Specifications content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "yaesu-ft891-quick-troubleshooting",
+      "title": "Quick Troubleshooting",
+      "sortOrder": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Quick Troubleshooting content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    }
+  ],
+  "_extractedTOC": [
+    {
+      "title": "Introduction",
+      "page": 1
+    },
+    {
+      "title": "Safety Precautions",
+      "page": 2
+    },
+    {
+      "title": "Accessories & Options",
+      "page": 5
+    },
+    {
+      "title": "Supplied Accessories",
+      "page": 5
+    },
+    {
+      "title": "Optional Accessories",
+      "page": 5
+    },
+    {
+      "title": "Installing the Radio",
+      "page": 6
+    },
+    {
+      "title": "Antenna considerations",
+      "page": 6
+    },
+    {
+      "title": "About coaxial Cable",
+      "page": 6
+    },
+    {
+      "title": "Connection of Antenna and Power Cables",
+      "page": 6
+    },
+    {
+      "title": "Important \nprecautions \nfor \nmobile \nradio \noperation",
+      "page": 6
+    },
+    {
+      "title": "Precautions during installation",
+      "page": 7
+    },
+    {
+      "title": "Install the Antenna",
+      "page": 7
+    },
+    {
+      "title": "Install the main body",
+      "page": 8
+    },
+    {
+      "title": "Install the Front Panel",
+      "page": 8
+    },
+    {
+      "title": "Installation location when used in a mobile \nunit",
+      "page": 8
+    },
+    {
+      "title": "Connection of Antenna and Power Cables",
+      "page": 9
+    },
+    {
+      "title": "About Antenna",
+      "page": 9
+    },
+    {
+      "title": "Before You Begin",
+      "page": 10
+    },
+    {
+      "title": "Installing the Microphone",
+      "page": 10
+    },
+    {
+      "title": "Control Panel Switch & Connectors",
+      "page": 12
+    },
+    {
+      "title": "Adjusting the Main tuning DIAL torque",
+      "page": 12
+    },
+    {
+      "title": "Base Station Tilt Stand",
+      "page": 13
+    },
+    {
+      "title": "Resetting the Microprocessor",
+      "page": 14
+    },
+    {
+      "title": "All Reset",
+      "page": 14
+    },
+    {
+      "title": "Function Resetting",
+      "page": 15
+    },
+    {
+      "title": "Adjusting the display settings",
+      "page": 16
+    },
+    {
+      "title": "Display Contrast",
+      "page": 16
+    },
+    {
+      "title": "Display Dimmer",
+      "page": 16
+    },
+    {
+      "title": "Front Panel Controls & Switches",
+      "page": 17
+    },
+    {
+      "title": "About the Display",
+      "page": 23
+    },
+    {
+      "title": "About the Rear Panel",
+      "page": 24
+    },
+    {
+      "title": "Begin Using Your New Transceiver",
+      "page": 27
+    },
+    {
+      "title": "Turning the Transceiver ON and OFF",
+      "page": 27
+    },
+    {
+      "title": "Adjusting the Audio Volume Level",
+      "page": 27
+    },
+    {
+      "title": "Operating Band and Mode Selection",
+      "page": 27
+    },
+    {
+      "title": "Setting the Operating Frequency",
+      "page": 28
+    },
+    {
+      "title": "Changing frequency up and down quickly \nwith the MULTI function Knob",
+      "page": 28
+    },
+    {
+      "title": "Mode Selection",
+      "page": 29
+    },
+    {
+      "title": "QMB Channel Storage",
+      "page": 31
+    },
+    {
+      "title": "QMB Channel Recall",
+      "page": 31
+    },
+    {
+      "title": "Erasing QMB Data",
+      "page": 31
+    },
+    {
+      "title": "DIAL knob Lock",
+      "page": 32
+    },
+    {
+      "title": "Meters",
+      "page": 35
+    },
+    {
+      "title": "VOX",
+      "page": 35
+    },
+    {
+      "title": "Speech Processor",
+      "page": 35
+    },
+    {
+      "title": "Parametric Microphone Equalizer",
+      "page": 35
+    },
+    {
+      "title": "Scope",
+      "page": 36
+    },
+    {
+      "title": "Memory Operation",
+      "page": 38
+    },
+    {
+      "title": "Normal Memory Storage",
+      "page": 38
+    },
+    {
+      "title": "Naming a Memory Channel",
+      "page": 38
+    },
+    {
+      "title": "Memory Groups",
+      "page": 38
+    },
+    {
+      "title": "Memory Channel Recall",
+      "page": 39
+    },
+    {
+      "title": "Moving Memory Data to the VFO-A",
+      "page": 39
+    },
+    {
+      "title": "Erasing Memory Channel Data",
+      "page": 40
+    },
+    {
+      "title": "Restoring Memory Channel Data",
+      "page": 40
+    },
+    {
+      "title": "Scanning Operation",
+      "page": 41
+    },
+    {
+      "title": "VFO Scanning",
+      "page": 41
+    },
+    {
+      "title": "Scan Resume Options",
+      "page": 41
+    },
+    {
+      "title": "Memory Scanning",
+      "page": 42
+    },
+    {
+      "title": "Scan Resume Options",
+      "page": 42
+    },
+    {
+      "title": "CW Mode Operation",
+      "page": 43
+    },
+    {
+      "title": "Adjusting the CW delay time",
+      "page": 43
+    },
+    {
+      "title": "Adjusting the Sidetone volume level",
+      "page": 43
+    },
+    {
+      "title": "Adjusting the Keyer Speed",
+      "page": 43
+    },
+    {
+      "title": "Setting Modes",
+      "page": 44
+    },
+    {
+      "title": "Setting Modes Display",
+      "page": 44
+    },
+    {
+      "title": "Using the Setting Modes",
+      "page": 44
+    },
+    {
+      "title": "CW SETTING",
+      "page": 48
+    },
+    {
+      "title": "FM SETTING",
+      "page": 49
+    },
+    {
+      "title": "REC SETTING",
+      "page": 50
+    },
+    {
+      "title": "ATAS SETTING",
+      "page": 50
+    },
+    {
+      "title": "Menu Mode",
+      "page": 51
+    },
+    {
+      "title": "Specifications",
+      "page": 56
+    }
+  ],
+  "_pageCount": 62
+}

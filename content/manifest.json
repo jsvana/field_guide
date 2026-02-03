@@ -3,6 +3,46 @@
   "lastUpdated": "2026-02-03",
   "radios": [
     {
+      "id": "elecraft-k1",
+      "manufacturer": "Elecraft",
+      "model": "K1",
+      "revision": "J",
+      "contentURL": "https://example.com/field-guide-content/elecraft-k1/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-k1/E740016_K1_manual_rev_J.pdf",
+      "pdfSize": 3488249,
+      "contentSize": 9590
+    },
+    {
+      "id": "elecraft-k2",
+      "manufacturer": "Elecraft",
+      "model": "K2",
+      "revision": "I",
+      "contentURL": "https://example.com/field-guide-content/elecraft-k2/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-k2/E740001_K2_Owners_Manual_Rev_I.pdf",
+      "pdfSize": 5473560,
+      "contentSize": 9855
+    },
+    {
+      "id": "elecraft-kh1",
+      "manufacturer": "Elecraft",
+      "model": "KH1",
+      "revision": "B4",
+      "contentURL": "https://example.com/field-guide-content/elecraft-kh1/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-kh1/KH1_Owners_Manual_rev_B4.pdf",
+      "pdfSize": 2793223,
+      "contentSize": 9497
+    },
+    {
+      "id": "elecraft-kx1",
+      "manufacturer": "Elecraft",
+      "model": "KX1",
+      "revision": "E",
+      "contentURL": "https://example.com/field-guide-content/elecraft-kx1/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-kx1/KX1_Owners_Manual_Rev_E.pdf",
+      "pdfSize": 2757502,
+      "contentSize": 9385
+    },
+    {
       "id": "elecraft-kx2",
       "manufacturer": "Elecraft",
       "model": "KX2",
@@ -13,34 +53,14 @@
       "contentSize": 10241
     },
     {
-      "id": "elecraft-kx1",
+      "id": "elecraft-kx3",
       "manufacturer": "Elecraft",
-      "model": "KX1",
-      "revision": "E",
-      "contentURL": "https://example.com/field-guide-content/elecraft-kx1/content.json",
-      "pdfURL": "https://example.com/field-guide-content/elecraft-kx1/KX1_Owners_Manual_Rev_E.pdf",
-      "pdfSize": 2500000,
-      "contentSize": 8500
-    },
-    {
-      "id": "elecraft-k1",
-      "manufacturer": "Elecraft",
-      "model": "K1",
-      "revision": "J",
-      "contentURL": "https://example.com/field-guide-content/elecraft-k1/content.json",
-      "pdfURL": "https://example.com/field-guide-content/elecraft-k1/E740016_K1_manual_rev_J.pdf",
-      "pdfSize": 3200000,
-      "contentSize": 9000
-    },
-    {
-      "id": "elecraft-k2",
-      "manufacturer": "Elecraft",
-      "model": "K2",
-      "revision": "I",
-      "contentURL": "https://example.com/field-guide-content/elecraft-k2/content.json",
-      "pdfURL": "https://example.com/field-guide-content/elecraft-k2/E740001_K2_Owners_Manual_Rev_I.pdf",
-      "pdfSize": 4500000,
-      "contentSize": 10500
+      "model": "KX3",
+      "revision": "C5",
+      "contentURL": "https://example.com/field-guide-content/elecraft-kx3/content.json",
+      "pdfURL": "https://example.com/field-guide-content/elecraft-kx3/E740163_KX3_Owners_man_Rev_C5.pdf",
+      "pdfSize": 3620054,
+      "contentSize": 9715
     },
     {
       "id": "hamgadgets-cft1",
@@ -53,34 +73,14 @@
       "contentSize": 6080
     },
     {
-      "id": "penntek-tr45l",
-      "manufacturer": "PennTek",
-      "model": "TR-45L",
-      "revision": "V2",
-      "contentURL": "https://example.com/field-guide-content/penntek-tr45l/content.json",
-      "pdfURL": "https://example.com/field-guide-content/penntek-tr45l/TR-45L_Instructions_V2.pdf",
-      "pdfSize": 374268,
-      "contentSize": 8299
-    },
-    {
-      "id": "penntek-tr35",
-      "manufacturer": "PennTek",
-      "model": "TR-35",
-      "revision": "1",
-      "contentURL": "https://example.com/field-guide-content/penntek-tr35/content.json",
-      "pdfURL": "https://example.com/field-guide-content/penntek-tr35/TR-35_Operating_Instructions.pdf",
-      "pdfSize": 225991,
-      "contentSize": 7405
-    },
-    {
-      "id": "lnr-mtr4b-v2",
+      "id": "lnr-ld5",
       "manufacturer": "LNR Precision",
-      "model": "MTR 4B V2",
-      "revision": "2021-01-12",
-      "contentURL": "https://example.com/field-guide-content/lnr-mtr4b-v2/content.json",
-      "pdfURL": "https://example.com/field-guide-content/lnr-mtr4b-v2/MTR_4B_V2_Manual.pdf",
-      "pdfSize": 261366,
-      "contentSize": 9048
+      "model": "LD-5",
+      "revision": "2015-07-13",
+      "contentURL": "https://example.com/field-guide-content/lnr-ld5/content.json",
+      "pdfURL": "https://example.com/field-guide-content/lnr-ld5/LD-5_Manual.pdf",
+      "pdfSize": 908611,
+      "contentSize": 8827
     },
     {
       "id": "lnr-mtr3b-v4",
@@ -93,6 +93,16 @@
       "contentSize": 8292
     },
     {
+      "id": "lnr-mtr4b-v2",
+      "manufacturer": "LNR Precision",
+      "model": "MTR 4B V2",
+      "revision": "2021-01-12",
+      "contentURL": "https://example.com/field-guide-content/lnr-mtr4b-v2/content.json",
+      "pdfURL": "https://example.com/field-guide-content/lnr-mtr4b-v2/MTR_4B_V2_Manual.pdf",
+      "pdfSize": 261366,
+      "contentSize": 9048
+    },
+    {
       "id": "lnr-mtr5b",
       "manufacturer": "LNR Precision",
       "model": "MTR 5B",
@@ -103,14 +113,34 @@
       "contentSize": 8461
     },
     {
-      "id": "lnr-ld5",
-      "manufacturer": "LNR Precision",
-      "model": "LD-5",
-      "revision": "2015-07-13",
-      "contentURL": "https://example.com/field-guide-content/lnr-ld5/content.json",
-      "pdfURL": "https://example.com/field-guide-content/lnr-ld5/LD-5_Manual.pdf",
-      "pdfSize": 908611,
-      "contentSize": 8827
+      "id": "penntek-tr35",
+      "manufacturer": "PennTek",
+      "model": "TR-35",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/penntek-tr35/content.json",
+      "pdfURL": "https://example.com/field-guide-content/penntek-tr35/TR-35_Operating_Instructions.pdf",
+      "pdfSize": 225991,
+      "contentSize": 7405
+    },
+    {
+      "id": "penntek-tr45l",
+      "manufacturer": "PennTek",
+      "model": "TR-45L",
+      "revision": "V2",
+      "contentURL": "https://example.com/field-guide-content/penntek-tr45l/content.json",
+      "pdfURL": "https://example.com/field-guide-content/penntek-tr45l/TR-45L_Instructions_V2.pdf",
+      "pdfSize": 374268,
+      "contentSize": 8299
+    },
+    {
+      "id": "yaesu-ft891",
+      "manufacturer": "Yaesu",
+      "model": "FT-891",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/yaesu-ft891/content.json",
+      "pdfURL": "https://example.com/field-guide-content/yaesu-ft891/FT-891_Instruction_Manual.pdf",
+      "pdfSize": 20671641,
+      "contentSize": 14210
     }
   ]
 }

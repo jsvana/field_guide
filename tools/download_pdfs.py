@@ -101,6 +101,14 @@ MANUALS = {
         "filename": "LD-5_Manual.pdf",
         "revision": "2015-07-13",
     },
+    # Yaesu
+    "yaesu-ft891": {
+        "manufacturer": "Yaesu",
+        "name": "FT-891",
+        "url": "https://static.dxengineering.com/global/images/instructions/ysu-ft-891_it.pdf",
+        "filename": "FT-891_Instruction_Manual.pdf",
+        "revision": "1",
+    },
 }
 
 
