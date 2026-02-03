@@ -1,6 +1,6 @@
 .PHONY: build test clean download-pdfs extract-content generate-manifest
 
-PROJECT := FieldGuide.xcodeproj
+PROJECT := FieldGuide/FieldGuide.xcodeproj
 SCHEME := FieldGuide
 SIMULATOR := iPhone 16 Pro
 

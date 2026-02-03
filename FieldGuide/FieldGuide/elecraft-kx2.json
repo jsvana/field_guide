@@ -1,0 +1,209 @@
+{
+  "radio": {
+    "id": "elecraft-kx2",
+    "manufacturer": "Elecraft",
+    "model": "KX2",
+    "revision": "B2",
+    "pdfFilename": "KX2_owners_man_B2.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Elecraft KX2 is a compact 80-10 m, SSB/CW/AM/FM/data transceiver designed for portable, mobile, and hand-held operation. Weighing just 13 oz (0.35 kg), it's the perfect \"grab and go\" HF radio with up to 15 W output."
+        },
+        {
+          "type": "paragraph",
+          "text": "To turn the KX2 on or off, press and hold the RATE and A/B switches simultaneously for about two seconds, then release. This dual-switch power on/off method reduces the likelihood of accidental power-on in a backpack or carrying case."
+        },
+        {
+          "type": "paragraph",
+          "text": "All KX2 switches have two functions: Tap to activate the function labeled on a switch (e.g., RATE), or hold for about 0.5 second to activate the function labeled below a switch (e.g., FREQ). The AF/MON knob normally controls receiver AF gain; tapping the knob switches to MON (monitor level)."
+        },
+        {
+          "type": "note",
+          "text": "Always turn the KX2 off using the switch combination before turning off or disconnecting the power source. This will ensure that settings are saved."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To access the menu, hold MENU until the BKLIGHT (LCD brightness) menu entry appears. Rotate VFO A to change settings, and use the OFS/B knob to scroll through menu entries. Tap DISP to exit. Hold MENU for 3 seconds while in the menu to show help information about the current entry."
+        },
+        {
+          "type": "menuEntry",
+          "name": "BKLIGHT",
+          "description": "LCD backlight on/off. The display is transflective, so it can be seen in sunlight with the backlight turned off. Turning it off will extend battery life."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VOX MD",
+          "description": "Voice-operated transmit mode. Set to ON for automatic transmit when speaking (SSB) or keying (CW). Set to OFF for PTT (push-to-talk) mode requiring manual transmit activation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VOX DLY",
+          "description": "Sets the VOX delay time in seconds. A setting of about 0.5 seconds will keep the radio in transmit mode during typical continuous speech. In CW mode, a setting of 0.00 provides full break-in (QSK)."
+        },
+        {
+          "type": "note",
+          "text": "Up to four often-used menu entries can be assigned to programmable functions PF1-PF4 using the PFn switch for quick access."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KX2 has two CW keying inputs: an attached KXPD2 keyer paddle via thumb screws on the front, and the KEY jack for any hand key, keyer paddle, or external keying device. A stereo plug is required at the KEY jack, even if only the tip contact is used."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW KEY1",
+          "description": "Configures the KEY jack. Set to TIP=DOT for normal paddle operation, TIP=DASH for reversed paddles, or HAND for use with a hand key or external keyer."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW KEY2",
+          "description": "Configures the attached KXPD2/KXPD3 paddle. Set to LFT=DOT (normal), LFT=DASH (reverse), or HAND to use either lever as a hand key."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PITCH",
+          "description": "Sets the CW sidetone pitch in kHz (0.40-0.80). This is also the pitch of CW signals when centered in the receiver's passband. 500-700 Hz is typically used with headphones."
+        },
+        {
+          "type": "warning",
+          "text": "In CW mode with VOX off (PTT-CW), hitting the key without first tapping XMIT will generate only a sidetone without transmitting. This is useful for code practice but may be unexpected during operation."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Filters in the KX2 are implemented entirely within the digital signal processor (DSP). Tap FIL to enter FIL ADJ mode: rotate AF/MON to adjust filter width, and rotate KYR/MIC to shift the passband left or right. Tap AF/MON to normalize to the standard per-mode setting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Noise reduction (NR) removes random background noise (hiss or static). Hold NR to toggle and adjust the level. Noise blanking (NB) eliminates repetitive noise from power lines, appliances, and ignition systems. Hold NB to toggle and adjust."
+        },
+        {
+          "type": "menuEntry",
+          "name": "APF (Audio Peaking Filter)",
+          "description": "In CW mode, holding APF-AN turns on a very narrow filter to improve copy of weak CW signals at the noise floor. VFO tuning changes to 1 Hz steps. In SSB/AM modes, this activates auto-notch to suppress audible carriers."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "For fixed-station use, a low-noise 12-14 VDC power supply or battery is recommended. The KX2 has internal and external DC jacks that are diode-isolated; the higher voltage will power the transceiver. Power output varies with supply voltage."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "8 V minimum, 15 V maximum"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Receive)",
+          "value": "150 mA typical (backlight off, preamp off, no signal)"
+        },
+        {
+          "type": "specification",
+          "name": "Current (Transmit)",
+          "value": "1 to 2 A typical"
+        },
+        {
+          "type": "note",
+          "text": "The KXBT2 internal battery (11V, 2.6Ah Li-ion) provides up to 8 hours of typical transceive operation and up to 10W output. Charge using the KXBC2 external charger or KXIBC2 internal charger only."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The KXAT2 internal ATU allows the KX2 to work with non-resonant antennas by finding a good match (low SWR). Tap ATU to start automatic matching, which takes an average of 4 seconds initially. Settings are recalled on band change or when transmitting after moving the VFO significantly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Set MENU:ATU MD to AUTO for normal operation, or BYP to bypass the tuner. Two ATU data sets are available via MENU:ATU DATA for home and field use with different antennas."
+        },
+        {
+          "type": "warning",
+          "text": "With difficult loads, try tapping ATU a second time within 5 seconds to search for a lower SWR. If the ATU cannot find a match, the antenna system may need adjustment."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "KX2 Technical Specifications",
+          "rows": [
+            { "name": "Frequency Range (RX)", "value": "500 kHz - 32 MHz" },
+            { "name": "Frequency Range (TX)", "value": "80/60/40/30/20/17/15/12/10 m" },
+            { "name": "Output Power", "value": "15 W max (80-20m), 12 W max (17-10m)" },
+            { "name": "Sensitivity (MDS)", "value": "-136 dBm typical (preamp on, 500 Hz BW)" },
+            { "name": "Frequency Stability", "value": "+/- 1 ppm typical at 25C after 5-min warmup" },
+            { "name": "Supply Voltage", "value": "8 V min, 15 V max" },
+            { "name": "Current (RX)", "value": "150 mA typical" },
+            { "name": "Current (TX)", "value": "1-2 A typical" },
+            { "name": "Size", "value": "2.8 x 5.8 x 1.6 in (7.2 x 14.7 x 4 cm)" },
+            { "name": "Weight", "value": "13 oz (0.37 kg) without battery" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Common problems and solutions for field operation. Most issues are related to control settings. Check all menu settings and use MENU help (hold MENU for 3 seconds) for details on each entry."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VFO frequency doesn't change",
+          "description": "You may have the VFO locked. Tap RATE to unlock. If this doesn't work, check that you're turning the correct knob (VFO A is the large knob)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Can't transmit in CW mode",
+          "description": "Ensure key/paddle is plugged into the correct jack. Check MENU:VOX MD - if set to OFF (PTT-CW), you must tap XMIT before sending. Also verify you're not in SPLIT mode with VFO B set to a different mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Low power output",
+          "description": "Check supply voltage using DISP special display. Verify antenna SWR - high SWR causes automatic power reduction. Try redoing transmit gain calibration if voltage and SWR are normal."
+        },
+        {
+          "type": "menuEntry",
+          "name": "BAT LOW warning appears",
+          "description": "Check battery voltage using DISP. If voltage is normal, MENU:BAT MIN may be set incorrectly. Default 10.0V is appropriate for most 12V batteries and the internal 11V Li-ion pack."
+        }
+      ]
+    }
+  ]
+}
