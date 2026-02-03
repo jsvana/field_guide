@@ -2,6 +2,22 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## File Discovery Rules
+
+**FORBIDDEN:**
+- Scanning all `.swift` files (e.g., `Glob **/*.swift`, `Grep` across entire repo)
+- Using Task/Explore agents to "find all files" or "explore the codebase structure"
+- Any broad file discovery that reads more than 5 files at once
+
+**REQUIRED:**
+- Use the File Index below to locate files by feature/purpose
+- Read specific files by path from the index
+- When editing files, update this index if adding/removing/renaming files
+
+## File Index
+
+See [docs/FILE_INDEX.md](docs/FILE_INDEX.md) for the complete file-to-purpose mapping.
+
 ## Building and Testing
 
 **NEVER build, run tests, or use the iOS simulator yourself. Always prompt the user to do so.**

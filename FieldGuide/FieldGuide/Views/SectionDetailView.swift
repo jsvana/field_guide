@@ -16,14 +16,20 @@ struct SectionDetailView: View {
     var body: some View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 16) {
+                // Custom header that wraps instead of truncating
+                Text(section.title)
+                    .font(.largeTitle.bold())
+                    .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.bottom, 8)
+
                 ForEach(sortedBlocks) { block in
                     ContentBlockView(block: block)
                 }
             }
             .padding()
         }
-        .navigationTitle(section.title)
-        .navigationBarTitleDisplayMode(.large)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
@@ -57,7 +63,7 @@ struct ParagraphBlock: View {
     let text: String
 
     var body: some View {
-        Text(text)
+        Text(highlightAllCapsReferences(in: text))
             .font(.body)
     }
 }
@@ -70,7 +76,7 @@ struct MenuEntryBlock: View {
         VStack(alignment: .leading, spacing: 4) {
             Text(name)
                 .font(.subheadline.weight(.semibold).monospaced())
-            Text(description)
+            Text(highlightAllCapsReferences(in: description))
                 .font(.body)
                 .foregroundStyle(.secondary)
         }
@@ -160,7 +166,7 @@ struct NoteBlock: View {
         HStack(alignment: .top, spacing: 8) {
             Image(systemName: style.icon)
                 .foregroundStyle(style.color)
-            Text(text)
+            Text(highlightAllCapsReferences(in: text))
                 .font(.subheadline)
         }
         .padding()
@@ -168,6 +174,36 @@ struct NoteBlock: View {
         .background(style.color.opacity(0.15))
         .clipShape(RoundedRectangle(cornerRadius: 12))
     }
+}
+
+// MARK: - Text Highlighting
+
+/// Highlights all-caps references (like MENU, VFO A, RATE) as monospace text
+private func highlightAllCapsReferences(in text: String) -> AttributedString {
+    var result = AttributedString(text)
+
+    // Pattern matches:
+    // - 2+ uppercase letters/numbers/slashes/dashes (e.g., MENU, AF/MON, PF1-PF4)
+    // - Optionally followed by space and single uppercase letter (e.g., VFO A, VFO B)
+    let pattern = #"\b[A-Z][A-Z0-9/\-]+(?:\s+[A-Z]\b)?"#
+
+    guard let regex = try? NSRegularExpression(pattern: pattern) else {
+        return result
+    }
+
+    let nsRange = NSRange(text.startIndex..., in: text)
+    let matches = regex.matches(in: text, range: nsRange)
+
+    for match in matches {
+        guard let range = Range(match.range, in: text),
+              let attributedRange = Range(range, in: result) else {
+            continue
+        }
+
+        result[attributedRange].font = .body.monospaced()
+    }
+
+    return result
 }
 
 #Preview {
