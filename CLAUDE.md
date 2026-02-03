@@ -101,10 +101,24 @@ To add a new radio to the Library, complete ALL of these steps:
 - Follow [Carrier Wave Design Language](~/projects/carrier_wave/docs/design-language.md)
 - Offline-first: all content works without network after download
 
+## Version and Changelog
+
+When making user-facing changes:
+
+1. **Update version** in `FieldGuide/FieldGuide.xcodeproj/project.pbxproj`:
+   - `MARKETING_VERSION` = user-visible version (e.g., 1.1)
+   - `CURRENT_PROJECT_VERSION` = build number (increment for each build)
+
+2. **Update CHANGELOG.md** following [Keep a Changelog](https://keepachangelog.com/) format:
+   - Add entries under `## [Unreleased]` during development
+   - Move to versioned section (e.g., `## [1.1] - 2026-02-03`) on release
+   - Categories: Added, Changed, Deprecated, Removed, Fixed, Security
+
 ## Key References
 
 | Purpose | Location |
 |---------|----------|
+| Changelog | `CHANGELOG.md` |
 | Content curation guide | `content/CURATION_GUIDE.md` |
 | Design document | `docs/plans/2026-02-02-field-guide-design.md` |
 | Implementation plan | `docs/plans/2026-02-02-field-guide-implementation.md` |
