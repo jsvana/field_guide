@@ -1,0 +1,336 @@
+
+============================================================
+PAGE 1
+============================================================
+
+MTR3B V4 Currahee Version 
+The Mountain Topper 
+The original Miniature QRP Transceiver 
+ 
+Features 
+Bands: 40M, 20M, 15M 
+Power out: 5 typical at 13.8V Supply 
+Power & SWR Readout 
+Minimum detectable signal: ~0.1 uV 
+Push button operation 
+Color display 
+Real Time Clock 
+Five (5) 62 character CW message memories 
+Nine (9) Frequence memories per band 
+Adjustable Volume Control 
+Adjustable Side Tone 
+Specifications 
+Unit Weight: 5.72oz (133.8g) 
+Dimensions: 3.90”L x 2.625”W x 1.09”T (99.88mmL x 66.25mmW x 28.6mmT) 
+Display Dimensions: 1.06” x 1.04” (27mm x 26.3mm) 
+Internal Battery: CR2032 (supplied at purchase, replaceable with common brand) 
+Display Definitions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+BAND 
+CURRENT FUNCTION 
+RIT 
+CODE SPEED 
+TIME 
+OP-Frequency 
++00.000 
+RIT delta frequency 
+when enabled 
+Supply Voltage 
+
+============================================================
+PAGE 2
+============================================================
+
+Display is organized in 5 lines. 
+* Lines 1 and 2 always display the same information. Operating band, time, and operating frequency. 
+* Lines 3 and 5 change depending on the currently selected function. 
+Operation 
+Band Selection: 
+• Bands are selected using the (3) three position slide switch to the left of the display 
+• All three switches must be in the same “column” for proper operation 
+• The top switch selects the band, which is enunciated by the Morse number 4, 2, or 1 
+when selected. 
+• The lower two switches select the proper filters for that band. 
+• When selecting the 20M band (switches in the middle position), start with all three 
+switches to the right OR left, and then click them to the middle position going from 
+top to bottom.  
+Button Operation: 
+The MTR3B is controlled by four push button switches. The switches are used to access 
+various functions depending on how long it is held closed. From right to left, these are: 
+•       [Tune Down] and         [Tune Up] – Increment/decrement numerical values 
+• [RIT] – Activate send CW message mode – toggles RIT mode on/off – access set time 
+and CAL mode 
+• [Fn] – Function or also referred to as “Keyer Switch” – Change code speed, 
+frequency memory store/recall, enter/store CW message. 
+ 
+Frequency Tuning: 
+The single step tuning rate is set to 50 Hz per “Tap” of the Tune Up or Tune Down button. 
+Fast Tuning: 
+• If the [Tune Up] or [Tune Down] switch is held down for more than 500 ms, fast tune 
+mode will activate. Tuning will now be at a 100 Hz per step rate and auto-advance 
+every 50 ms. The decade cursor will shift to underline the 100 Hz decade. 
+Really Fast Tuning: 
+• TAP the [Fn] switch while in fast tuning mode. Tuning rate will change to 1 kHz steps. 
+The decade cursor will shift to underline the 1 kHz decade. 
+
+============================================================
+PAGE 3
+============================================================
+
+• Release the switch to drop back down to 100 Hz steps. 
+ 
+[Fn] Keyer Switch: 
+To change code speed: 
+• Tap [Fn] 
+o Line 4 [Code Speed] 
+o Line 5 [20wmp  13.8V] Code speed value turns RED. 
+o Use the Tune Down or Dash paddle to decrease code speed. 
+o Use the Tun Up or Dot paddle to increase the code speed. 
+o A “beep” sounds as the speed is changed. 
+o Range is 5 to 30WPM 
+o Tap [Fn] to exit. 
+ 
+To access Frequency Memory: 
+• HOLD [Fn] for 1 second 
+o There are 9 memory locations available for each band. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• Line 3 indicates the contents of the selected memory location. If the location is 
+blank, “empty” is displayed. 
+• Line 4 indicates the currently selected memory location 1 to 9. 
+o Use [Tune Up] and [Tune Down] to select the desired location. 
+o Tune Up will roll over from 9 to 1, but Tune Down stops at 1. 
+• Line 5 switch function labels: 
+o EN (Fn)– performs the currently selected function. 
+o R/S (RIT) – toggles between Load memory [LD] and Store Memory [SR]. 
+40M          23:59 
+       030.000 
+         empty 
+   1 F-MEMORY 
+    EN  R/S  (LD) 
+Current Memory 
+location selected 
+Enter 
+Op-Frequency 
+Contents of selected location 
+Current enabled function 
+Toggle between recall and store 
+
+============================================================
+PAGE 4
+============================================================
+
+o Loading an empty location returns to current frequency. 
+o A frequency stored in location 1 will become the default power on frequency. 
+To access Message Memory Mode: 
+• HOLD [Fn] for 3 seconds. Note: This mode is NOT available while in straight-key 
+mode. 
+ 
+ 
+ 
+ 
+ 
+• Tap [EM](Fn) to start the enter message mode. 
+• Tap [X](RIT) to exit the mode. 
+• Enter message mode: 
+o Line 5 [CK X] 
+o Key in your message, up to 62 characters, word spaces count as characters. 
+o Ideal timing is used to determine character and word spaces. The most 
+critical is the letter space timing. There needs to be between 3 to 7 dot time 
+lengths between elements to capture a letter. After a 7 dot length pause, a 
+word space is inserted. The most common mistake is to not leave enough 
+time at the end of a letter group, so it runs into the next letter elements and 
+becomes very confusing. But pausing too long inserts a word space. It can 
+take some practice. 
+o If while entering the message you know you made a mistake, tap [X](RIT) to 
+restart entering the message. A “beep” will sound to acknowledge the switch 
+press. 
+o When the message has finished being keyed in, tap [CK](Fn) to review the 
+message.  
+o You can now either store the message in one of the memory locations or exit 
+back to the enter message mode and start again. 
+o Storing a message returns you to the enter message mode. This allows you to 
+enter another message before exiting for good. 
+ 40M          23:59 
+        030.000 
+          
+      K-MEMORY 
+    EM  X 
+Enter Message 
+Exit 
+Current function 
+
+============================================================
+PAGE 5
+============================================================
+
+ 
+ 
+ 
+ 
+ 
+ 
+RIT: 
+This switch has five timed functions. TAP and hold until the desired function is displayed. 
+• Tap – activate Send CW Message location selection. 
+o TAP [RIT (X)] to escape. 
+o TAP M0, M1, M2 or tap Dot or Dash paddle to Exit or Pause the message 
+stored there. 
+o If the location selected is empty, the mode is exited. 
+o Paddle memories are not available in straight key mode. 
+• While a message is being sent, it can be paused or terminated by using the paddle. 
+o To Pause, close the Dash paddle. Receive will be restored as long as the 
+paddle is held closed. 
+o The paddle state is detected between letters. 
+ 
+ 
+ 
+ 
+ 
+ 
+• Hold for (1) one second: RIT mode activated. 
+o Display – Line 3 – [+00.000] the difference between transmit and receive 
+frequencies. 
+o Range: +99,000 kHz, -60,000 kHz 
+o HOLD [RIT] to exit mode 
+ 40M          23:59 
+        030.000 
+          
+      Store?MSG 
+    M0  X  M1  M2 
+Exit back to enter message 
+Memory locations. Dot and 
+Dash also available 
+ 40M          00:00 
+        030.000 
+          
+      SEND MSG  
+    M0  X   M1   M2 
+Exit 
+Memory Location 
+Current function 
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• Hold for (4) four seconds: Set time mode: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• The clock numbers turn Red to indicate set minutes mode. 
+• Set Minutes: 
+o Set the minutes to current time +1 minute. 
+▪ [Tune Down] increments the 10’s digit. [Tune Up] increments the 1’s 
+digit. 
+o Tap [E] (Fn/Keyer) 
+o Set Hours: 
+▪ Clock numbers turn Blue to indicate set hours mode. 
+▪ [Tune Down] – increments the 10’s digit, 0-1-2 [Tune Up] – increments 
+the 1’s digit, 0 to 9. 
+o Tap [E] (Fn/Keyer) 
+▪ TAP the [E] switch when the reference time rolls over to the time you 
+set. Reference a clock with seconds displayed. 
+▪ Clock numbers turn Yellow for normal display. 
+ 
+• Hold for (8) eight seconds: CAL mode 
+ 40M          23:59 
+        030.000 
+        +00.000 
+  RIT 
+  20wpm      13.8V 
+RIT delta freq 
+Current function 
+ 40M          00:00 
+        030.000 
+          
+ SET TIME  
+    E    MIN    10/1 
+Enter 
+Enter Time Mode 
+Current function 
+Switch Decade TD=10’s 
+TU=1’s 
+MIN for set minutes 
+HRS for set hours 
+
+============================================================
+PAGE 7
+============================================================
+
+o This mode calibrates the Local Oscillator and for adjusting the BFO 
+frequency.  
+o This modes should only be used if you have the proper test equipment, an 
+accurate frequency meter and an oscilloscope. 
+• Display [CAL   10MHz] 
+o A 10 MHz signal is produced at TP3, located between U7 and U6 and above 
+the Ferrite PA choke coil.  
+o Use the [Tune Up] or [Tune Down] switches to adjust the frequency to exactly 
+10.000.000 MHz. 
+o TAP [Fn/Keyer] to advance.  
+o Display [ADJ BFO] 
+o The audio is un-muted. With an oscilloscope on TP3, peak the signal with the 
+BFO trimmer cap located on top of the board.  
+o TAP [Fn/Keyer] to store and exit the Calibration routine.  
+▪ Display [Done…] 
+▪ Program reset to the currently selected band. 
+Straight key mode: 
+• SWR and power output is shown on the bottom line of the display while transmitting 
+in straight key mode [1.0 SWR  5.0 W] 
+• Straight key mode can be enabled two ways: 
+o Automatic – use a MONO plug in the key jack (ground Dash input). This must 
+be inserted when the power is off. 
+o Manual – TAP RIT switch while in “speed adjust mode”. Speed readout will 
+change to [SK] in red. 
+Tune Mode – Measure Power out and SWR: 
+• TAP and HOLD [Fn] switch until TUNE is show on the 3rd line of the display. Bottom 
+line will display Power Out and SWR.  
+ 
+Voltage Display: 
+• The voltage is displayed in Green while in safe range. 
+• The voltage display turns Red if the voltage is below 9.0 volts or above 14.0 volts. 
+• Accuracy is +/- 0.2V 
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+Side Tone Volume: 
+• A trimmer resistor is accessed through a hole in the battery/jack inside the case. 
+ 
+Audio output level: 
+• A trimmer resistor accessed through a hole in the front of the case allows setting the 
+base volume for headphone or external speaker use. The audio AGC limits the 
+maximum audio output to about 350 mV RMS.  
+ 
+Paddle Jack Wiring: Tip = Dot, RING = Dash 
+Headphone: 3.5mm Stereo wired for mono. Tip/Ring connected. 
+Power Jack: 5.5mm/2.1mm 
+Antenna: BNC 
+ 
+ 
+ 
+ 

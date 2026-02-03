@@ -1,0 +1,262 @@
+{
+  "radio": {
+    "id": "venus-sw3b",
+    "manufacturer": "Venus",
+    "model": "SW-3B",
+    "revision": "1.0",
+    "pdfFilename": "SW-3B_Manual.pdf"
+  },
+  "sections": [
+    {
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "The Venus SW-3B is an ultra-portable 3-band CW QRP transceiver covering 40m, 30m, and 20m bands. Weighing just 180g, it's designed for portable and backpack operations."
+        },
+        {
+          "type": "paragraph",
+          "content": "Power on by pressing the power button on the front panel. The LCD display shows frequency, VFO status, and signal indicators. Use the main tuning knob for frequency adjustment."
+        },
+        {
+          "type": "paragraph",
+          "content": "Band selection is performed using the dedicated band button. Each press cycles through 40m, 30m, and 20m bands in sequence."
+        },
+        {
+          "type": "paragraph",
+          "content": "The radio supports dual VFO operation (VFO A/B) for split frequency work. Toggle between VFOs using the VFO button."
+        },
+        {
+          "type": "note",
+          "content": "Connect a 50-ohm antenna with SWR below 2:1 for optimal performance. High SWR may trigger the protection circuit."
+        }
+      ],
+      "id": "operation-basics"
+    },
+    {
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "Access the menu system by pressing and holding the FUNC button. Navigate using the main tuning knob and confirm selections with a short press of FUNC."
+        },
+        {
+          "type": "menuEntry",
+          "number": "01",
+          "name": "CW Speed",
+          "description": "Adjusts internal keyer speed from 5-40 WPM"
+        },
+        {
+          "type": "menuEntry",
+          "number": "02",
+          "name": "Sidetone Frequency",
+          "description": "Sets CW sidetone pitch from 400-800 Hz"
+        },
+        {
+          "type": "menuEntry",
+          "number": "03",
+          "name": "Sidetone Volume",
+          "description": "Adjusts sidetone level from 0-10"
+        },
+        {
+          "type": "menuEntry",
+          "number": "04",
+          "name": "Keyer Mode",
+          "description": "Selects straight key, Iambic A, or Iambic B mode"
+        },
+        {
+          "type": "menuEntry",
+          "number": "05",
+          "name": "Display Brightness",
+          "description": "Sets LCD backlight level from 1-5"
+        },
+        {
+          "type": "menuEntry",
+          "number": "06",
+          "name": "Auto Power Off",
+          "description": "Sets auto power off timer: OFF, 30, 60, 90 minutes"
+        },
+        {
+          "type": "menuEntry",
+          "number": "07",
+          "name": "TX Power",
+          "description": "Adjusts output power level"
+        }
+      ],
+      "id": "menu-system"
+    },
+    {
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "The SW-3B features a built-in iambic keyer supporting both Iambic A and Iambic B modes. Speed is adjustable from 5-40 WPM via the menu system."
+        },
+        {
+          "type": "paragraph",
+          "content": "Connect a paddle to the 3.5mm keyer jack on the side panel. The tip is for dit, ring is for dah, and sleeve is ground."
+        },
+        {
+          "type": "paragraph",
+          "content": "Straight key operation is also supported. Select 'Straight Key' mode in Menu 04 when using a straight key."
+        },
+        {
+          "type": "paragraph",
+          "content": "Sidetone frequency and volume can be adjusted independently. The sidetone is heard through the built-in speaker or connected headphones."
+        },
+        {
+          "type": "note",
+          "content": "For paddle reversal (swap dit/dah), check if a paddle swap option is available in the extended menu settings."
+        }
+      ],
+      "id": "cw-keyer"
+    },
+    {
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "The SW-3B uses a crystal filter for IF selectivity, providing effective CW bandwidth for weak signal work."
+        },
+        {
+          "type": "paragraph",
+          "content": "The receiver features good sensitivity suitable for QRP operations. AGC helps maintain consistent audio levels across varying signal strengths."
+        },
+        {
+          "type": "note",
+          "content": "This compact radio prioritizes portability over advanced DSP features. For operation in crowded band conditions, careful tuning is required."
+        }
+      ],
+      "id": "filters-dsp"
+    },
+    {
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "The SW-3B operates from an external DC power source of 9-14V. A 2.1mm DC jack is provided for power input (center positive)."
+        },
+        {
+          "type": "paragraph",
+          "content": "Current consumption is approximately 30mA on receive and up to 1.5A during transmit at full power. A 3S LiPo battery pack is ideal for portable operation."
+        },
+        {
+          "type": "paragraph",
+          "content": "The radio includes low voltage protection that will reduce output power or shut down when battery voltage drops too low."
+        },
+        {
+          "type": "warning",
+          "content": "Do not exceed 14V input voltage. Overvoltage may damage the radio. Do not reverse polarity."
+        },
+        {
+          "type": "note",
+          "content": "For extended portable operation, a 2000-3000mAh 3S LiPo provides several hours of operating time depending on duty cycle."
+        }
+      ],
+      "id": "power-battery"
+    },
+    {
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "The SW-3B does not include an internal automatic antenna tuner. An external ATU is recommended when using antennas that may not present a 50-ohm load on all bands."
+        },
+        {
+          "type": "paragraph",
+          "content": "When using a resonant antenna such as a linked dipole or band-specific vertical, an ATU may not be necessary."
+        },
+        {
+          "type": "note",
+          "content": "For multi-band random wire antennas, a small portable ATU like the Elecraft T1 or LDG Z-11 Pro II works well with this radio."
+        }
+      ],
+      "id": "atu-operation"
+    },
+    {
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "entries": [
+            {
+              "label": "Frequency Coverage",
+              "value": "40m, 30m, 20m bands"
+            },
+            {
+              "label": "Mode",
+              "value": "CW"
+            },
+            {
+              "label": "Output Power",
+              "value": "5W"
+            },
+            {
+              "label": "Receiver Type",
+              "value": "Superheterodyne"
+            },
+            {
+              "label": "Operating Voltage",
+              "value": "9-14V DC"
+            },
+            {
+              "label": "Current Consumption (RX)",
+              "value": "~30mA"
+            },
+            {
+              "label": "Current Consumption (TX)",
+              "value": "~1.5A at 5W"
+            },
+            {
+              "label": "Antenna Connector",
+              "value": "BNC"
+            },
+            {
+              "label": "Keyer Jack",
+              "value": "3.5mm stereo"
+            },
+            {
+              "label": "Weight",
+              "value": "180g"
+            },
+            {
+              "label": "Keyer Speed",
+              "value": "5-40 WPM"
+            },
+            {
+              "label": "Keyer Modes",
+              "value": "Straight, Iambic A, Iambic B"
+            }
+          ]
+        }
+      ],
+      "id": "specifications"
+    },
+    {
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "content": "No power: Check DC voltage (9-14V required). Verify polarity is correct (center positive). Check for blown fuse if applicable."
+        },
+        {
+          "type": "paragraph",
+          "content": "No RF output: Verify antenna is connected. Check SWR - high SWR may trigger protection. Ensure TX is not inhibited."
+        },
+        {
+          "type": "paragraph",
+          "content": "Keyer not working: Check paddle connections at 3.5mm jack. Verify keyer mode setting matches your paddle type. Try straight key mode to isolate the issue."
+        },
+        {
+          "type": "paragraph",
+          "content": "Weak receive signals: Check antenna connections. Verify band selection. Clean contacts if audio is scratchy."
+        },
+        {
+          "type": "paragraph",
+          "content": "Display issues: Adjust brightness in menu. Allow radio to warm up in cold conditions. LCD may be slow at very low temperatures."
+        }
+      ],
+      "id": "troubleshooting"
+    }
+  ]
+}

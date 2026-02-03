@@ -1,0 +1,345 @@
+{
+  "radio": {
+    "id": "icom-ic705",
+    "manufacturer": "ICOM",
+    "model": "IC-705",
+    "revision": "1",
+    "pdfFilename": "IC-705_Basic_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The ICOM IC-705 is a portable HF/VHF/UHF all-mode transceiver featuring RF direct sampling, a 4.3 inch color touchscreen, D-STAR capability, GPS, Bluetooth, and WLAN connectivity. It operates from 160m through 70cm with 10W output on external power or 5W on battery."
+        },
+        {
+          "type": "paragraph",
+          "text": "To turn the transceiver ON, push the POWER button. To turn OFF, hold the POWER button for 1 second until 'POWER OFF...' is displayed. Settings are automatically saved when powered off properly."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rotate the VOLUME/RF GAIN/SQUELCH control to adjust audio level. Push this control to access RF gain and squelch settings, then rotate to adjust. The main dial changes the operating frequency."
+        },
+        {
+          "type": "paragraph",
+          "text": "To change bands, touch the MHz digits on the display to open the Band Stacking Register screen, then touch the desired band key. Each band has 3 memory positions that store frequency and mode."
+        },
+        {
+          "type": "paragraph",
+          "text": "To change modes, touch the mode icon (USB, LSB, CW, etc.) on the display to open the MODE screen, then touch the desired mode. Available modes are SSB, CW, RTTY, AM, FM, WFM (RX only), and DV (D-STAR)."
+        },
+        {
+          "type": "note",
+          "text": "The VFO/MEMORY icon at the bottom of the display switches between VFO mode, Memory mode, and Call channel mode. In VFO mode, there are two VFOs (A and B) for split operation."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Access the SET menu by pushing the MENU button, then touching SET. Navigate by touching items or scrolling with the main dial. The menu is organized in a tree structure - touch an item to enter, push EXIT to go back a level."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Power Save",
+          "description": "Reduces current drain when operating on battery. Options are OFF, Auto (Short), Auto (Middle), and Auto (Long). Disabled when using external power, scanning, or displaying the spectrum scope."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Max TX Power (Battery Pack)",
+          "description": "Sets maximum transmit power when using battery pack: 0.5W, 1W, 2.5W, or 5W. Lower settings extend battery life for portable operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Max TX Power (DC 13.8V)",
+          "description": "Sets maximum transmit power when using external DC power: 0.5W, 1W, 2.5W, 5W, or 10W."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Time-Out Timer",
+          "description": "Prevents accidental prolonged transmission. Options: OFF, 3, 5, 10, 20, or 30 minutes. Transmission is automatically terminated when the timer expires."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PTT Lock",
+          "description": "When ON, inhibits all transmissions to prevent accidental operation. Useful when transporting the radio."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Auto Power OFF",
+          "description": "Automatically powers off after inactivity. Options: OFF, 30, 60, 90, or 120 minutes. A warning beeps 5 seconds before shutdown."
+        },
+        {
+          "type": "note",
+          "text": "To reset any menu item to its default, push the QUICK button while in the setting screen and touch 'Default'."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a paddle or straight key to the KEY jack using a 3.5mm stereo plug. The internal electronic keyer supports paddle, straight key, and external keyer operation. Access keyer settings through MENU > KEYER > EDIT/SET."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Key Type",
+          "description": "Selects key input type: Paddle (default), Straight, or External keyer. Access via KEYER > EDIT/SET > CW-KEY SET > Key Type."
+        },
+        {
+          "type": "menuEntry",
+          "name": "KEY SPEED",
+          "description": "Sets keying speed from 6 to 48 WPM. Adjust using the Multi-function control after pushing it and touching KEY SPEED in CW mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW PITCH",
+          "description": "Sets received CW audio pitch and sidetone from 300 to 900 Hz in 5 Hz steps. Adjust via Multi-function menu in CW mode. Typical range is 500-700 Hz."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Side Tone Level",
+          "description": "Adjusts CW sidetone volume. Access via KEYER > EDIT/SET > CW-KEY SET > Side Tone Level."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Paddle Polarity",
+          "description": "Reverses dot and dash paddles if needed. Access via KEYER > EDIT/SET > CW-KEY SET > Paddle Polarity."
+        },
+        {
+          "type": "paragraph",
+          "text": "For Break-in operation, push the VOX/BREAK-IN button to toggle between Semi Break-in (BKIN), Full Break-in (F-BKIN), and OFF. Hold the button for 1 second to adjust break-in delay time."
+        },
+        {
+          "type": "note",
+          "text": "The CW Auto Tune function automatically tunes to a received CW signal. Push the AUTO TUNE button in CW mode. A warning beep sounds if no signal is found within the IF bandwidth."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-705 uses digital IF filters implemented in the FPGA. Three filter widths (FIL1, FIL2, FIL3) are available per mode. Touch the filter icon for 1 second to access the FILTER screen and adjust bandwidth."
+        },
+        {
+          "type": "paragraph",
+          "text": "Digital Twin PBT (Passband Tuning) allows narrowing or shifting the IF passband to reject interference. Push the PBT control to select PBT1 or PBT2, then rotate to adjust shift. Hold for 1 second to clear settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Noise Blanker (NB)",
+          "description": "Eliminates pulse-type noise from ignition and electrical equipment. Touch NB on the FUNCTION screen to toggle. Hold for 1 second to adjust LEVEL (threshold), DEPTH (attenuation), and WIDTH (blanking time)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Noise Reduction (NR)",
+          "description": "Reduces random noise and enhances signals. Touch NR on FUNCTION screen to toggle. Hold for 1 second to adjust level (0-15). Higher values increase noise reduction but may affect signal quality."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Auto Notch (AN)",
+          "description": "Automatically attenuates beat tones and carriers. Available in SSB, AM, and FM modes. Touch NOTCH on FUNCTION screen to select."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Manual Notch (MN)",
+          "description": "Manually attenuates interfering carriers. Available in SSB, CW, RTTY, and AM modes. Hold NOTCH for 1 second to adjust frequency and select width (WIDE, MID, NAR)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "AGC",
+          "description": "Automatic Gain Control with FAST, MID, and SLOW presets. Touch AGC on FUNCTION screen to select. Hold for 1 second to customize time constants for each mode."
+        },
+        {
+          "type": "note",
+          "text": "Filter shape can be set to SHARP (ideal for tight passband) or SOFT (rounded shoulders like analog filters, better for weak signals). Access via the FILTER screen."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-705 operates from the BP-272 Li-ion battery pack (7.4V, 2350mAh) or external 13.8V DC power. The battery pack provides up to 5W output, while external power enables 10W operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Charge the battery via USB (2A port recommended), external DC power supply, or the optional BC-202IP2 charger. Charging takes approximately 2.3 hours with DC power, 3.2 hours with USB, or 2 hours with the rapid charger."
+        },
+        {
+          "type": "specification",
+          "name": "Battery Operating Time",
+          "value": "Approximately 3-5 hours of typical operation (varies with TX/RX ratio and power level)"
+        },
+        {
+          "type": "specification",
+          "name": "External Power",
+          "value": "13.8V DC +/-15%, minimum 5A capacity"
+        },
+        {
+          "type": "specification",
+          "name": "Current (RX Standby)",
+          "value": "0.3A typical (external DC), 0.5A typical (battery)"
+        },
+        {
+          "type": "specification",
+          "name": "Current (TX 10W)",
+          "value": "3.0A (external DC only)"
+        },
+        {
+          "type": "specification",
+          "name": "Current (TX 5W)",
+          "value": "2.5A (battery)"
+        },
+        {
+          "type": "warning",
+          "text": "Never charge the battery outside the temperature range of 10C to 40C (50F to 104F). At temperatures around 0C or below, the battery protection function limits power to 0.5W."
+        },
+        {
+          "type": "note",
+          "text": "Even when off, the transceiver draws a small current. Remove the battery pack when storing for extended periods to prevent discharge."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-705 supports external antenna tuners via the TUNER jack (3.5mm stereo). An optional external ATU designed for the IC-705 provides automatic matching capability. Connect the tuner control cable to the TUNER jack."
+        },
+        {
+          "type": "paragraph",
+          "text": "To operate the tuner, push FUNCTION and touch TUNER to turn it ON. Touch TUNER for 1 second to start manual tuning. When enabled, the tuner icon appears on the display."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Tuner (PTT Start)",
+          "description": "When ON (default), automatically starts tuning when PTT is pressed after a significant frequency change. Thresholds: more than 0.5% shift on 1.9-10 MHz bands, more than 1% shift on 14-50 MHz bands."
+        },
+        {
+          "type": "paragraph",
+          "text": "Monitor the SWR meter during operation. The IC-705 will automatically reduce power if SWR is too high. For best results, use an antenna system that presents a reasonable match (SWR below 3:1) before engaging the tuner."
+        },
+        {
+          "type": "note",
+          "text": "The TUNER jack outputs a start/stop control signal for compatible external tuners. The transmitter can provide low power for tuning when initiated."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "General Specifications",
+          "rows": [
+            { "name": "Frequency Range (RX)", "value": "0.030-199.999 MHz, 400-470 MHz" },
+            { "name": "Frequency Range (TX)", "value": "160m-70cm amateur bands" },
+            { "name": "Operating Modes", "value": "SSB, CW, RTTY, AM, FM, DV (D-STAR), WFM (RX only)" },
+            { "name": "Memory Channels", "value": "500 (in 100 groups)" },
+            { "name": "Antenna Impedance", "value": "50 ohm unbalanced (BNC connector)" },
+            { "name": "Frequency Stability", "value": "Less than +/-0.5 ppm (-10C to +60C)" },
+            { "name": "Frequency Resolution", "value": "1 Hz minimum" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Transmitter",
+          "rows": [
+            { "name": "Output Power (External DC)", "value": "10W max (SSB, CW, FM, RTTY, DV), 2.5W max (AM)" },
+            { "name": "Output Power (Battery)", "value": "5W max (SSB, CW, FM, RTTY, DV), 1.25W max (AM)" },
+            { "name": "Spurious Emission", "value": "Less than -50 dB (HF), -60 dB (VHF/UHF)" },
+            { "name": "Carrier Suppression", "value": "More than 50 dB" },
+            { "name": "Microphone Impedance", "value": "2.2 kohm" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Receiver",
+          "rows": [
+            { "name": "Receive System", "value": "RF Direct Sampling (below 25 MHz), Down Conversion (above 25 MHz)" },
+            { "name": "SSB/CW Sensitivity (HF)", "value": "Less than 0.20 uV (10 dB S/N)" },
+            { "name": "SSB/CW Sensitivity (VHF/UHF)", "value": "Less than 0.11 uV (10 dB S/N)" },
+            { "name": "FM Sensitivity (VHF/UHF)", "value": "Less than 0.18 uV (12 dB SINAD)" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Physical",
+          "rows": [
+            { "name": "Dimensions (W x H x D)", "value": "200 x 83.5 x 82 mm (7.9 x 3.3 x 3.2 in)" },
+            { "name": "Weight", "value": "1.1 kg (2.4 lb) with battery" },
+            { "name": "Operating Temperature", "value": "-10C to +60C (14F to 140F)" },
+            { "name": "Display", "value": "4.3 inch color TFT touch LCD" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Common issues encountered during portable operation and their solutions. Most problems relate to settings or antenna conditions."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No power / won't turn on",
+          "description": "Check battery charge status. If using external DC, verify polarity and voltage (13.8V +/-15%). Ensure DC power cable fuse is intact. For battery operation, try charging or replacing the battery pack."
+        },
+        {
+          "type": "menuEntry",
+          "name": "OVF (Overflow) displayed",
+          "description": "An excessively strong signal is being received. Reduce RF gain using the VOLUME control (push, select RF GAIN, rotate). Or enable the Attenuator: FUNCTION > P.AMP/ATT (touch for 1 second to select ATT)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Cannot transmit",
+          "description": "Check PTT Lock setting (SET > Function > PTT Lock). Verify you're on an amateur band frequency. In Split mode, confirm TX frequency is within band limits. Check Time-Out Timer hasn't expired."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Low power output",
+          "description": "Check power source voltage using the Vd meter (touch meter display to select). High SWR causes automatic power reduction. Verify Max TX Power setting matches your power source (battery vs. external DC)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "High SWR / power foldback",
+          "description": "Antenna mismatch. Check antenna connections and coax. Try a different antenna or frequency. If using an external tuner, ensure it's properly matched. The IC-705 reduces power automatically for protection."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No audio on receive",
+          "description": "Check volume level. Verify squelch is not set too high (push VOLUME control, touch SQL, adjust). Check SP Jack Function setting if using external speaker/headphones (SET > Connectors > SP Jack Function)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "GPS not acquiring satellites",
+          "description": "GPS antenna is under the top panel - don't cover it. Move outdoors or near a window. GPS won't work near 440.205 MHz due to internal interference. Check SET > GPS > GPS Select is not set to Manual."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Battery drains quickly",
+          "description": "Enable Power Save mode (SET > Function > Power Save). Reduce display brightness. Lower maximum TX power. Disable GPS, Bluetooth, and WLAN when not needed. Use external power when available."
+        }
+      ]
+    }
+  ]
+}

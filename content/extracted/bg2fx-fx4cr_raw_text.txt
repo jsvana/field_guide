@@ -1,0 +1,884 @@
+
+============================================================
+PAGE 1
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+1/10
+HF/50MHz TRANSCEIVER
+FX-4CR
+bg2fx.com
+Operation manual
+Table of contents
+1 - Specifications
+2 - Panel description
+3 - Display
+4 - Keypad function
+5 - Basic operation
+5.1 - Switching power (ON or OFF)
+5.2 - Volume adjustment (VOL)
+5.3 - Squelch (AF)
+5.4 - Frequency selection (TUNE)
+5.5 - Band selection (F)
+5.6 - Mode selection (SSB)
+5.7 - Mode selection (CW)
+5.8 - Mode selection (AM.FM)
+5.9 - VFO A.B (A.B)
+5.10 - Offset frequency (RIT)
+5.11 - Automatic Gain Control (AGC)
+5.12 - Attenuator (ATT)
+5.13 - Bandwidth (FILTER)
+5.14 - DSP noise reduction (NR)
+5.15 - Impulse noise blanker (NB)
+5.16 - Microphone Gain (MG)
+5.17 - Transmit power (PWR)
+5.18 - Receive mode only (RX)
+5.19 - Key lock (LOCK)
+5.20 - Menu (MENU)
+6 - Menu setting
+7 - Data communication
+7.1 - USB and Bluetooth Cat control
+7.2 - Digital mode operation
+7.3 - Setup for WSJT-X
+8 - Connectors
+9 - Firmware update
+10 - Development mode
+10.1 - Enter in development mode
+10.2 - Calibrate output power
+10.3 - Calibrate the power limits of each band
+10.4 - Receive IQ balance setting
+
+============================================================
+PAGE 2
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+2/10
+1 - Specifications
+Transmission: 3.5 MHz - 54 MHz (amateur radio frequencies)
+Reception: 3.5 MHz - 54 MHz
+Operating modes: USB, LSB, CW, AM, FM
+Frequency steps: 10 Hz, 100 Hz, 1 kHz, 5 kHz, 10 kHz, 100 kHz
+Receiving sensitivity: -121 dBm (0,20 µv)
+Filter bandwidth:
+SSB: 1,5 kHz, 1,8 kHz, 2,1 kHz, 2,4 kHz, 2,7 kHz, 3,0 kHz
+CW : 50 Hz, 100 Hz, 200 Hz, 300 Hz, 500 Hz, 800 Hz
+AM : 6 kHz, 9 kHz
+FM : 5 kHz, 10 kHz
+Power range: 0,1 - 20 W continuously adjustable (54 MHz/5 W)
+Frequency stability: +- 0.5 PPM
+Spurious emission: -43 dB (Second and third harmonic)
+Carrier Suppression: -50 dB
+Antenna impedance: 50 Ohms
+Microphone impedance: 2,2 kOhms
+Audio output power: 1 W
+Voltage range: 10 V – 18 V DC
+(~ 14 V recommended, keep maximum voltage below 16V for long term operation)
+Power consumption:
+Receive: ~ 210 mA (DC - 13.8 V)
+Transmit: ~ 3.3 - 4.0 A (20 W)
+Operating temperature: -20 ℃, +40 ℃
+Overall size: length: 107 mm, width: 65 mm, height: 43 mm
+Radio weight: 0,46kg
+Functional characteristics:
+2.0″ TFT display screen
+SDR receiver circuit design (24 kHz digital intermediate frequency)
+Spectrum display and waterfall plot
+Adjustable DSP noise reduction
+Dual VFO operation VFO-A and VFO-B with split operation mode
+Dial speed acceleration
+Build-in microphone
+Bluetooth and USB connection for sound card and serial port
+Ultra wide input voltage: 10 V - 18 V
+Quick switching among various frequency bands and convenient operation
+Included Items:
+Transceiver
+Hand microphone
+Power cable with spare fuses
+USB data cable
+Instruction manual
+Box Carrying Case
+
+============================================================
+PAGE 3
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+3/10
+2 - Panel description
+FX-4CR
+SDR HF.Transceiver
+AF
+(mic)
+TUNE
+CW
+10
+AM.FM
+14
+RIT
+18
+SSB
+3.5
+M.V
+5
+A.B
+7
+F
+FILTER
+50
+MENU
+28
+PWR
+24
+IF.ATT
+21
+IF.ATT
+Press to switch attenuator between ATT, ATT1, ATT2 (ATT=none)
+Press and hold and then turn AF to adjust the AGC setting.
+PWR
+Press to power on.
+Press and hold to power off.
+Press and then turn AF to adjust the power setting.
+MENU
+Press to change loudspeaker or earphone.
+Press and hold to enter the menu.
+FILTER
+Press to change the filter bandwidth.
+F
+Press to enter band selection mode.
+Press and hold to lock the keypad.
+SSB
+Press to switch to SSB mode.
+Press to select LSB or USB.
+Press and hold in SSB mode to turn Noise Reduction ON or OFF.
+Press and hold in CW mode to select the upper or lower carrier.
+M.V
+Temporarily unavailable. (This function will be restored later by a firmware update)
+A.B
+Press to switch between VFO A and VFO B.
+Press and hold to swap vfo.
+CW
+Press to enter CW (Iambic electronic Keyer or Straight key).
+Press and hold to reverse the dit and dah paddles.
+AM.FM
+Press to switch to AM and FM mode.
+Press and hold to activate wideband receive mode (RX only).
+RIT
+Press to turn RIT ON or OFF.
+Can be set as PTT when you want to use the internal microphone.
+AF
+Turn to adjust the volume.
+Press and then turn to adjust the squelsh.
+In SSB mode adjusts mic gain and DSP.
+In CW mode adjusts the speed, volume and pitch of the CW monitor.
+TUNE
+Turn to adjust the frequency.
+Press or press and turn to adjust the tuning step.
+PHONES
+EXT.SP
+MIC
+ANT
+-
++
+USB
+CW.KEY PTT.OUT
+USB
+USB connector
+PHONES
+Earphone connector
+CW.KEY
+Keyer connector
+EXT.SP
+Loudspeaker connector
+PTT.OUT
+PTT control output connector
+MIC
+Handheld microphone connector
+-   +
+Power XT60 type connector
+ANT
+Antenna BNC type connector
+
+============================================================
+PAGE 4
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+4/10
+3 - Display
+7. 016. 80
+ 30. 000. 00
+T=R 
+ATT2
+F 
+13.6V
+A
+VFO
+E
+--
+CW M
+29
+VOL
+CW L
+SQL        0
+KEYSP  20
+SITON 700
+SIVOL   21
+RIT +       0
+200Hz
+20 40 60dB
+1 3 5 7 9 
+2           10             20w
+S
+Po
+CW mode
+Po
+7. 090. 00
+ 30. 000. 00
+T=R 
+ATT1
+M
+13.6V
+A
+VFO
+NR
+NB
+29
+VOL
+LSB
+SQL        0
+RIT +       0
+20 40 60dB
+1 3 5 7 9 
+2           10             20w
+S
+MIC       80
+DSP      15
+LEN       60
+2.4k
+LSB mode
+14. 074. 00
+ 30. 000. 00
+T=R 
+ATT
+DIG  M
+13.6V
+A
+VFO
+29
+VOL
+USB
+SQL        0
+20 40 60dB
+1 3 5 7 9 
+S
+Po
+3.0k
+NR
+NB
+2           10             20w
+-124dB
+2.7 W
+1.3
+SWR
+RIT +       0
+MIC       80
+DSP      15
+LEN       60
+USB DIGITAL mode (transmission)
+9. 550. 00
+ 30. 000. 00
+RX 
+ATT1
+S
+13.6V
+A
+VFO
+29
+VOL
+AM
+SQL        0
+RIT +       0
+9.0k
+20 40 60dB
+1 3 5 7 9 
+2           10             20w
+S
+Po
+NR
+NB
+MIC       80
+DSP      15
+LEN       60
+AM (RX only)
+T≠R T=R RX
+Split, Normal or RX only
+ATT ATT1 ATT2 Receive attenuator
+Bluetooth connection
+Loudspeaker or earphone
+S M F
+AGC speed (slow, middle, fast)
+DIG
+Digital mode (no sound)
+13.6V
+Supply voltage
+7.016.80
+VFO A
+30.000.00
+VFO B
+-124dB
+Current RSSI
+CW L
+Current mode
+VFO A
+Current VFO
+200Hz
+Filter bandwidth
+S Po
+S-meter or Pwr indicator
+2.7W
+Current power output
+SWR 1.3
+Current SWR
+CW M --E
+Electronic or straight key
+AF 29
+Volume
+SQL 0
+Squelch
+RIT+ 0
+Offset frequency
+KEYSP 20
+Auto keyer speed
+NB NR
+Noise reduction, noise blanker
+MIC 80
+Microphone Gain
+DSP 15
+Depth digital noise reduction
+LEN 60
+Noise reduction network length
+
+============================================================
+PAGE 5
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+5/10
+4 - Keypad function
+Each button or knob has several functions
+Press: just hit it
+Press and hold: press and hold more than one second
+Turn: turn right or left to change values
+Press then turn: hold down the knob and turn right or left to change the values
+Note
+When a setting is selected it's apair highlighted with red contour.
+To exit a setting, it is necessary to press button or knob again. If no action is taken, the transceiver will
+automatically exit the setting after a few seconds.
+5 - Basic operation
+5.1 - Switching power (ON or OFF)
+Press PWR to power on.
+Press and hold PWR to power off.
+5.2 - Volume adjustment (VOL)
+Turn AF to adjust the audio volume. (The volume setting ranges from 0 to 99).
+When (NR) is active, press to cycle through DSP, LEN.
+5.3 - Squelch (AF)
+Press and hold AF until SQL is highlighted, then turn AF to adjust the squelsh.
+Press and hold AF again to exit the squelsh setting.
+5.4 - Frequency selection (TUNE)
+Turn TUNE to adjust the frequency.
+Press then turn TUNE to select the tuning step of
+10 Hz, 100 Hz, 1 kHz, 5 kHz, 10 kHz or 100 kHz.
+5.5 - Band selection (F)
+Press F to enter the band selection menu.
+Turn TUNE or select a band by pressing the BUTTON containing the band name in the lower right corner.
+Press F again to exit the band selection menu.
+Band selection (T=R, T≠R mode)
+80m (3.500 4.000), 60m (5.350 5.365), 40m (7.000 7.350), 30m (9.998-10.150), 20m (14.000-14.350),
+17m (18.068-18.168), 15m (21.000 21.450), 12m (24.800 25.000), 10m (27.000 30.000), 6m (50.000 54.000)
+Band selection (RX mode)
+90m (3.200 3.900), 75m (3.900 4.000), 60m (4.700 5.600), 49m (5.900 7.000),
+41m (7.100 7.800), 31m (9.400 9.900), 25m (11.600 13.100), 22m (13.570 13.870),
+19m (15.100 15.800), 16m (17.480 17.900), 13m (21.450 21.750), 11m (25.600 27.405), 10m (28.000 29.999)
+5.6 - Mode selection (SSB)
+Press SSB to select SSB mode.
+Press SSB to switch between (LSB), (DIG_L), (USB) and (DIG_U).
+Use (DIG_L) and (DIG_U) modes for digital mode operation.
+(In DIG mode the speaker is muted and the filter is set to 3.0 kHz).
+5.7 - Mode selection (CW)
+Press CW to select CW mode.
+Press CW to switch between the Iambic electronic keyer (CW A) and the straight key (CW M).
+In (CW A) press and hold CW to reverse the dit and dah paddles.
+Press and hold SSB to select the higher or lower carrier. (Which can be useful to avoid interference on nearby
+frequencies).
+Press then turn AF to adjust keyer speed KEYSP, press again to adjust monitor frequency SITON, and press again to
+adjust monitor volume SIVOL.
+5.8 - Mode selection (AM.FM)
+Press AM.FM to select (AM) and (FM) mode.
+Press AM.FM to switch between (AM) and (FM).
+
+============================================================
+PAGE 6
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+6/10
+5.9 - VFO A.B (A.B)
+Press A.B to toggle between VFO A and VFO B.
+Press and hold A.B to swap frequencies.
+5.10 - Offset frequency (RIT)
+Press RIT to turn (RIT) ON or OFF. (RIT) will be highlighted when active.
+Press TUNE to adjust the reception offset.
+Press TUNE to select the frequency step.
+(See MENU RIT_PTT to define function)
+5.11 - Automatic Gain Control (AGC)
+Press and hold IF.ATT and then turn AF to adjust AGC level.
+5.12 - Attenuator (ATT)
+Press IF.ATT to switch attenuator between ATT, ATT1, ATT2. Indicator appears on top of the screen.
+(For ATT1, the incoming signal power is reduced by 15dB and for ATT2 it's reduced by 35dB)
+5.13 - Bandwidth (FILTER)
+Press FILTER to toggle between filter bandwidth options in each mode.
+BLU: 1,5 kHz, 1,8 kHz, 2,1 kHz, 2,4 kHz, 2,7 kHz, 3,0 kHz
+CW : 50 Hz, 100 Hz, 200 Hz, 300 Hz, 500 Hz, 800 Hz
+FM : 5 kHz, 10 kHz
+AM : 6 kHz, 9 kHz
+5.14 - DSP noise reduction (NR)
+Press and hold SSB to turn noise reduction ON or OFF. (NR) will be highlighted when active.
+Press and hold AF until DSP is highlighted, then turn AF to adjust DSP and LEN strength.
+(The DSP may be unstable in some scenarios. If the noise reduction system freezes, reset it by turning the device
+OFF and ON, then turning the (DSP) back on).
+5.15 - Impulse noise blanker (NB)
+Press and hold M.V to turn Noise Blanker ON or OFF. (NB) will be highlighted when active.
+5.16 - Microphone Gain (MG)
+Press AF to enter microphone setting, then turn AF to adjust the microphone gain.
+Press AF again to exit the microphone setting.
+5.17 - Transmit power (PWR)
+Press PWR to enter power setting, then turn AF to adjust the power.
+Press PWR again to exit the power setting.
+(The power setting ranges from 0.1 to 20 W, 54 MHz/5 W).
+5.18 - Receive mode only (RX)
+Press and hold AM.FM until (RX) appears on the top of the screen.
+Press and hold AM.FM until (T=R) appears to return to transceiver mode.
+5.19 - Key lock (LOCK)
+Press and hold F until LOCK is appears on the top of the screen.
+Press and hold F until LOCK disappears.
+5.20 - Menu (MENU)
+Press and hold MENU to enter the menu.
+Press and hold MENU again to exit the menu.
+Turn AF or press MENU to scroll through menu options, then turn TUNE to change the value of the selected menu
+item.
+
+============================================================
+PAGE 7
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+7/10
+6 - Menu setting
+(Note values ​here before any changes) →   Notes 
+0
+MENU Changes the automatic menu exit delay.
+ 
+1
+IF 1
+The intermediate frequency of the device is 24.000 kHz.
+The IF setting ranges from 20.000 kHz to 28.000 kHz.
+(Can effectively avoid some interference in the intermediate frequency part)
+ 
+2
+CW_DELAY Adjusts the delay between CW transmit and receive after input. (by * 10mS, 10=100mS)  
+3
+AGC_SPEED
+Selects the time constant for the Automatic Gain Control circuit:
+0. Slow
+1. Medium
+2. Fast
+ 
+4
+BLUETOOTH
+Wireless Bluetooth. (name: FX-4CR)
+0. OFF
+1. ON
+ 
+5
+RIT_PTT
+The RIT can be used as PTT when you want to use internal microphone.
+0. OFF (RIT as RIT)
+1. ON (RIT as PTT)
+ 
+6 ENCODE_FREQ
+The tuning step automatically changes, depending on the TUNE rotating speed.
+0. current step * 1
+1. current step * 2
+2. current step * 3
+3. current step * 4
+4. current step * 5
+5. current step * 6
+ 
+7
+TX_FILTER
+TX Filter Bandwidth:
+0. 1.5kHz
+1. 1.8kHz
+2. 2.1kHz
+3. 2.4kHz
+4. 2.7kHz
+5. 3.0kHz
+ 
+8
+TR_DIFFERE
+Transmit and Receive
+0. Transmit and receive on main frequency
+1. Transmit on secondary frequency and receive on main frequency
+(In split mode cross-band operation is possible).
+ 
+7 - Data communication
+7.1 - USB and Bluetooth Cat control
+When you connect bluetooth with FT8CN (an Android based FT8 software) the transceiver appear as 'FX-4CR'.
+On FT8CN settings set Rig to FX-4CR or TS-590 and refer to FT8CN (for detailed settings).
+When you connect the transceiver to the computer with the supplied USB cable, one COM port and one AUDIO port
+are recognized on the computer.
+On digital mode software set Rig to Kenwood TS-590S, Baud Rate to 115200 and PTT to RTS.
+7.2 - Digital mode operation
+Connect the USB cable to the transceiver and the computer and turn on the transceiver.
+Verify that the computer detects the USB cable.
+Set digital mode by pressing SSB until DIG_U appears on the top of the screen.
+(The speaker should be muted and the filter will be set to 3.0 kHz).
+Set the Volume to 3 by turning AF
+Set the computer audio output volume to 50%.
+Open the digital mode software and adjust the settings.
+
+============================================================
+PAGE 8
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+8/10
+7.3 - Setup for WSJT-X
+1. Go to File -> Settings -> Radio
+2. Select TS-590S for RIG. Select the COM port for the USB connection. Choose RTS mode for PTT and test PTT.
+3. Select USB audio sources for input and output under Sound Card settings.
+4. Monitor WSJT-X cascade to verify FT8 signals are visible.
+5. Check received audio power using dB meter at bottom to left of the WSJT-X main screen.
+6. Adjust AF until it reads about 60 dB.
+7. Select a free frequency on the band and start transmitting.
+8. Monitor the power meter during transmission.
+9. Adjust the mic gain to achieve output power close to the power setting selected in the power menu.
+Important
+Monitor SWR and output power when using digital modes, especially when using higher supply voltages.
+Using high powers with high SWR can damage the radio, especially when running high duty cycle digital modes.
+SSB mode can use 20W.
+CW mode must use less than 10W.
+FT8 power usage is limited to 5W.
+8 - Connectors
+Usb
+GND 5V D-
+D+
+Key
+GND
+KEY
+KEY
+Ptt.out
+GND LOW HI
+Phones
+GND
+AF
+AF
+Ext.sp
+AF
+GND
+Mic
+GND PTT
+IN
+Ptt.out, LOW: low level when transmit, HI: hight level when transmit.
+(LOW and HI are the complement to adapt with different PA, TTL level)
+9 - Firmware update
+Important
+Plug the USB cable on the FX-4CR side first, and then plug the computer side.
+Unplug the USB cable on the computer side, and unplug the USB cable on the FX-4CR side, in the reverse order as
+the first time.
+Be sure to follow the entire sequence closely to avoid damage to your computer.
+On transceiver
+1. Start by connecting computer and transceiver in respect of procedure.
+2. Press and hold F first, then press PWR and then release F and KEEP HOLDING PWR (remember not to let go
+during the entire download process !)
+3. After the download is completed, let go PWR
+On computer
+1. The latest BG2FX firmware: https://bg2fx.com/downlaods
+2. The STM32Cube programming software: https://www.st.com/en/development-tools/stm32cubeprog.html
+3. Install and run STM32Cube.
+4. Select USB from the top right menu of the STM32 Cube application.
+5. Click on Connect.
+6. Click Download and select the latest firmware file: (Example: FX-4CR_2023.xx.xx.hex)
+7. Click Start Schedule and wait for the schedule to complete.
+8. Once programming is complete, click Disconnect.
+
+============================================================
+PAGE 9
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+9/10
+10 - Development mode
+Important
+This section describes how to calibrate your radio.
+Before any modification note the values ​present in this mode.
+ANY INCORRECT VALUES CAUSE DYSFUNCTIONS
+(Note values ​here before any changes)
+0
+POW_CORRE Internal Power Meter Calibration
+ 
+ 
+ 
+ 
+1
+AGC_STARE AGC starting threshold
+ 
+ 
+ 
+ 
+2
+S_CORRECT RSSI display Calibration
+ 
+ 
+ 
+ 
+3
+TCXO TCXO Calibration
+25000000  
+ 
+ 
+4
+SPE_DISPLAY Transmit spectrum display
+ 
+ 
+ 
+ 
+5
+RX_AMP_MA Manual / automatic IQ balance
+(receive IQ balance)
+ 
+ 
+ 
+ 
+6
+ALC_START MIC ALC start point setting
+ 
+ 
+ 
+ 
+7
+ALC_MIC MIC maximum gain setting
+60
+ 
+ 
+ 
+8
+TX_AMP_80M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+9
+TX_PHASE_80M Emission spurious setting phase
+ 
+ 
+ 
+ 
+10
+TX_AMP_60M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+11
+TX_PHASE_60M Emission spurious setting phase
+ 
+ 
+ 
+ 
+12
+TX_AMP_40M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+13
+TX_PHASE_40M Emission spurious setting phase
+ 
+ 
+ 
+ 
+14
+TX_AMP_30M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+15
+TX_PHASE_30M Emission spurious setting phase
+ 
+ 
+ 
+ 
+16
+TX_AMP_20M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+17
+TX_PHASE_20M Emission spurious setting phase
+ 
+ 
+ 
+ 
+18
+TX_AMP_17M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+19
+TX_PHASE_17M Emission spurious setting phase
+ 
+ 
+ 
+ 
+20
+TX_AMP_15M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+21
+TX_PHASE_15M Emission spurious setting phase
+ 
+ 
+ 
+ 
+22
+TX_AMP_12M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+23
+TX_PHASE_12M Emission spurious setting phase
+ 
+ 
+ 
+ 
+24
+TX_AMP_10M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+25
+TX_PHASE_10M Emission spurious setting phase
+ 
+ 
+ 
+ 
+26
+TX_AMP_6M Emission spurious setting amplitude
+ 
+ 
+ 
+ 
+27
+TX_PHASE_6M Emission spurious setting phase
+ 
+ 
+ 
+ 
+10.1 - Enter in development mode
+Press and hold MENU and then PWR keep holdding MENU until enter development mode.
+
+============================================================
+PAGE 10
+============================================================
+
+17/03/2023 19:02
+FX-4CR-User-Manual (V1.1)
+file:///home/daniel/Documents/Personnel/Radio/BG2FX/FX-4CR-User-Manuel/FX-4CR-User-Manuel-US.html
+10/10
+10.2 - Calibrate output power
+1. Set 40m band: freq 7.050Mhz.
+Press PWR and set 20W.
+Set CW M and press Straight Key.
+Read the value on an external power meter connected on dummy load and compare with value on screen.
+Turn off the radio.
+2. Enter development mode.
+Adjust value [0-POW_CORRE]
+(if the output power is lower than the value on screen, decrease this value otherwise increase it)
+Exit MENU turn off the radio and repeat the operation until the desired result.
+10.3 - Calibrate the power limits of each band
+For eatch band (80m, 10m) press PWR and set 20W (5W for 6m band).
+Set CW M and press Straight Key.
+Adjust AF to read 20W on the screen.
+10.4 - Receive IQ balance setting
+Press and hold IF.ATT and then PWR keep holdding IF.ATT until two lines of setting appear.
+The receiver must be set to CW and be tuned to the generator frequency + 48Khz.
+The image signal is suppressed by adjusting the [AMP] and [PHASE] values.
+The two sets of values are adjusted in conjunction with each other.
+Usually [PHASE] only needs to be adjusted once.
+In normal use, you can adjust [AMP] without entering the hidden menu.
+To do this press and hold FILTER and a line of setting values ​appears at the bottom of the screen.
+Band
+Receiver
+Generator
+80M band
+3.648Mhz
+3.600Mhz
+60M band
+5.360Mhz
+5.312Mhz
+40M band
+7.148Mhz
+7.100Mhz
+30M band
+10.148Mhz
+10.100Mhz
+20M band
+14.148Mhz
+14.100Mhz
+17M band
+18.100Mhz
+18.052Mhz
+15M band
+21.148Mhz
+21.100Mhz
+12M band
+24.800Mhz
+24.752Mhz
+10M band
+28.448Mhz
+28.400Mhz
+6M band
+50.148Mhz
+50.100Mhz
+Example of frequency tunning
+Thank you for your support and purchase
+Copyright © 2023 HAM DIY - BG2FX - All Rights Reserved.
+User manuel by F5BUD
+Other informations: https://bg2fx.com/about-us

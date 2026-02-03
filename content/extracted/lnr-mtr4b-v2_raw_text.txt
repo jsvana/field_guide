@@ -1,0 +1,316 @@
+
+============================================================
+PAGE 1
+============================================================
+
+MTR-4B V2 
+“The Mountain Topper”  
+ 
+ 
+ 
+ 
+The LNR Precision MTR transceivers are designed to be efficient portable CW rigs. Whether climbing 
+a mountain and operating SOTA or just out for an afternoon in the park, the MTR's small size, light 
+weight and meager battery requirements makes it a great choice for these activities. 
+ 
+This is a newly re-designed version (V2) of the Original MTR4b. Now offered in a Deep Red 
+Machined Aluminum Powder Coated enclosure that is much smaller and lighter than the original and 
+includes a built-in SWR Meter! 
+ 
+Dimensions: 5.150″ Length x 3.0″ Wide x 1.075″ Thick 
+Weight: 7.95 oz 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 2
+============================================================
+
+Features: 
+ Four bands - 80M, 40M, 30M and 20M 
+ Very low receiver noise floor 
+ Low current for maximum battery life 
+ Wide operating voltage range – 5.5V to 13V  
+ Full 5W “QRP” gallon with 12.0 Volt supply 
+ 2 line, back lighted LCD display 
+ SWR – RF Power display 
+ Built in Real Time Clock 
+ Internal Iambic B mode keyer, 5 to 31 WPM in 1 WMP increments.  
+ Three Morse message memories with beacon mode.   
+ 
+Specifications: 
+ 80 meter, 40 meter, 30 meter and 20 meter operation.  
+ Receiver sensitivity : ~ 0.5 uV 
+ Receiver audio bandwidth: ~ 400 Hz centered at 600 Hz.  
+ Receiver current: ~ 27 ma 
+ Transmit output power: 5 watts typical at 12.0 Volt input 
+ Transmit current: 750 ma Max with 5 watt output  
+ Transmit spurious outputs: -50 dBc or better  
+ Supply voltage 5.5 volts minimum, 13 volts maximum. 6 to 12 recommended.  
+ Antenna Jack: BNC 
+ Power Jack: 5.5mm with 2.5mm pin.  
+ 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+Operation: 
+ 
+Power:  
+ 
+A power on/off switch is located in the upper right corner. It may take a second or two for everything 
+to get initialized and the display come on.  
+ 
+Band selection: 
+ 
+A column of  three slide switches to the left of the display select the operating band. All three switches 
+must be in the same position for proper operation. The easiest way to ensure this is to move each switch 
+one position in sequence down the column. The bottom slide switch tells the processor which  band is 
+selected.  
+  
+When the band is changed, a Morse number for the band selected will be sounded in the headphones. 
+“8” for 80M, “4” for 40 meters, “3” for 30 meters and “2” for 20 meters. 
+  
+On initial, first time power up the default operating frequency will be loaded. The defaults are the QRP 
+calling frequency for each band. 3.560 MHz, 7.030 MHz, 10.118 MHz and 14.060 MHz. After first 
+time power up, the last used frequency for the selected band is loaded.  
+ 
+Tuning: 
+ 
+The operating frequency is changed using two push button switches, labeled with up and down arrows.  
+ 
+ The tuning step is fixed at 50 Hz per step.  
+ A short click of a tuning switch will advance/decrement 50 Hz 
+ Holding a tuning switch closed for longer then one (1) second will start a fast auto stepping at a 
+100 Hz rate. 
+ While auto stepping, closing the Fn (function) switch will start very fast auto stepping for 
+quickly moving up or down the band.  
+ 
+RIT: Receive Incremental Tuning.  
+ 
+RIT allows changing the receive frequency while locking the transmit frequency. The range is limited 
+to +/- 2.000 kHz. When active, the bottom line of the display will show the offset (difference) between 
+the transmit frequency and the current receive frequency.  
+ 
+ To active RIT, hold the RIT switch closed for one (1) second.  
+ To exit, again hold the RIT switch closed for one (1) one second.  
+ To check for activity on the transmit frequency, click the Fn switch. The offset display will be 
+replaced by [ R=T ] to indicate the receive frequency is now the same as the transmit 
+frequency.  
+ Click the Fn switch again to exit back to RIT offset.  
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+The Fn (Function) switch: 
+ 
+Clicking and holding closed the Fn switch will cycle through the menu options. Release the switch 
+when the desired function is displayed on the bottom line of the display.  A Morse character is sounded 
+in the headphones for each function as it comes up. Morse annunciation is sent at 20 WPM.  
+ 
+ “S” -  [ ADJ K SPEED] change keyer speed 
+ “D” - [ DFE ] – Direct Frequency Entry 
+ “M” - [ ENTER MSG ] Enter Morse message 
+ “T” -  [SET TIME ] Set the Real Time Clock 
+ “P” -  [CONFIG ]  Enable/Disable Morse annunciation and display features.  
+ 
+Code Speed: 
+ 
+ A short click of the Fn switch enables the adjust keyer speed mode.  
+ Use the paddle or tuning up/down switches to change the keyer speed.  
+ The current code speed is shown on the bottom left of the display [ csXX] default is 20 WPM.  
+ Straight key mode can be enabled/disabled by clicking the RIT switch.  
+ Exit by clicking the Fn switch again.  
+ 
+DFE: 
+ 
+This mode allows you to jump to a specific frequency using the paddle to enter the numbers. The 
+frequency is entered with the 100 kHz digit first. 
+ 
+Display : Top line [ xx.---.-00] where (-) indicates the digit to be entered.  
+                Bottom line [ EXIT  RE LD ] 
+ 
+ Click the Fn switch (under the “EXIT” label) to exit if this mode was enabled accidentally. 
+ Click the RIT switch (under the “RE” label) to clear and re-enter a frequency 
+ Click the Tune Down switch (under the LD label) to load the new frequency.  
+ Note: Clicking the LD switch before all four digits have been entered will fill the blank decades 
+with zeros. If on the 80M band, the 100 kHz decade must have a 5-6-7-8 or 9 entered  first or it 
+will not pass the band limit test.  
+ 
+ Enter Message: 
+ 
+This mode allows you to enter up to three Morse messages, each having a limit of 62 characters 
+(including word spaces).  
+ 
+Display: Top line      [ ENTER MSG ] 
+               bottom line [ EXIT CK RE BS]  
+ 
+ The characters entered via the paddle are displayed on the top line. This helps in getting the 
+character and word space timing correct. Ideal timing is used to determine when all the 
+elements of a character are entered or when to insert a word space. Three (3) dot time between 
+characters, Seven (7) dot time between words. Word spaces are indicated by a star [CQ * CQ 
+*]. 
+ The (Tune Up) switch (under the BS label) can be used to back space to erase a miss sent 
+
+============================================================
+PAGE 5
+============================================================
+
+character or eliminate a word space.  
+ Once the message has been entered, click the (RIT) switch (under the CK label) to check the 
+message and hear how it sounds.  
+ After the message has played, the display will change to [ M1 RE M2 M3]  
+ If you wish to change the message, click the switch under the [RE] label (RIT)  
+ If you are satisfied with the message, store it in one of the three locations by clicking the M1, 
+M2 or M3 switch.  
+ The display will show [STORING] and sound a beep when done.  
+ The display will return to the message entry mode so you can enter another message if you like 
+ If done, click the EXIT switch (Fn).  
+ 
+SET TIME: 
+ 
+This mode is used to set the Real Time Clock. The clock is not displayed until it is set. 24 hour mode is 
+used for simplicity.  
+ 
+Display:  Bottom line [ SET T  0:00 ] 
+ 
+ Use the Tune Down switch to advance the Hours 
+ Use the Tune Up switch to advance the minutes.  
+ Click the Fn switch to enable the clock and exit.  
+ 
+Note: The clock timer is held in reset and the seconds counter cleared until the Fn switch is clicked. Set 
+the time for one minute past the current time, then watch the seconds sweep on an accurate clock and 
+click Fn when it hits 12. This will make the clock the most accurate.  
+ 
+CONFIG: 
+ 
+This mode allows turning on or off optional Morse features. You can choose to decode and display 
+what your sending with the paddle. You can also choose to enunciate the operating frequency in Morse.  
+ 
+Display:  [ EXIT   MD MA] 
+ 
+ EXIT (Fn switch)  
+ MD (Tune down) Morse Display. Toggle on or off. Morse annunciation – “ON” or “OFF”  
+ This mode enables the decoding and displaying of the Morse characters your sending via the 
+paddle. This can be either helpful or annoying. Characters are written to the top line of the 
+display. The frequency display will return after a pause in keying determined by current code 
+speed, equivalent to a couple of word spaces. Characters will scroll across the display until the 
+62nd character is reached, then the buffer needs to be rest. Take a short pause and let the display 
+clear.  
+ 
+ MA (Tune up) Morse Frequency Annunciation. Morse annunciation – “ON” or “OFF”  
+ This mode will enunciate the current operating frequency in Morse. Only the 100 kHz to 100 
+Hz decades are sent. Zeros are sent as a cut number “T”.  This mode maybe helpful to the 
+visually impaired.  
+ 
+ To read the frequency in Morse, click the Fn switch. Note that when this mode is active, the Fn 
+switch will need to be held closed a bit longer then usual to enter the keyer speed adjust mode.    
+
+============================================================
+PAGE 6
+============================================================
+
+ 
+ Straight key mode and SWR / Power readout. 
+ 
+SWR and power output is shown on the bottom line of the display while transmitting in straight key 
+mode  [ 1.0 SWR  5.0 W ]  
+ 
+Straight key mode maybe enabled in two ways; 
+ 
+1. Using a MONO plug in the paddle jack (must be inserted when power is off)  
+2. By clicking the RIT switch when in ADJ K SPEED mode. This allows keying the transmitter 
+with the DOT paddle if checking SWR or power output is desired.  
+ 
+Straight key mode is indicated by “cs” being replaced by SK in the speed display.  
+ 
+Note: When Straight key mode is enabled, only the ADJ K SPEED mode is available from the Fn mode 
+switch. This is because DFE and Message functions require a paddle for input.  
+ 
+ Code speed can be changed in SK mode by using the tune up and down switches.  
+ Message memories can be used if previously loaded.  
+ Only “cancel message” is available. Pause is not implemented since it needs a Dash paddle 
+input. See below.  
+ 
+Sending a stored Morse message: 
+ 
+ A message is started by first clicking the RIT switch, then within ½ second, push the M1 (Fn), 
+M2 (Tune down) or M3 (Tune Up) switch to send the desired message.  
+ 
+Once a message has started sending, it can be paused or terminated with the paddle or set to Beacon 
+mode. Paddles are sensed during letter spaces.  
+ 
+ To Pause: Close the Dash Paddle.  
+ To Terminate: Close the Dot paddle. 
+ 
+Beacon mode: 
+ 
+ To start the Beacon mode, while the message is sending, press the associated memory location 
+switch. The switch will be sensed during a letter space.  
+ Display: [ BEACON 2 ] where 2 is the time in seconds between repeates.  
+ The time between repeats can be set to between 2 and 9 seconds by using the up and down 
+tuning switches. These are sensed during a letter space.  
+ Beacon mode is terminated by tapping the Dot Paddle.  
+ Message is paused by holding the Dash paddle closed.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+ 
+Power supply options: 
+ 
+The MTR-4B V2 is designed to put out about 5 watts with a 12.0 V supply. This makes it a good match  
+to a 3S Li-ion pack which produces a bit over 12V when fully charged.   
+ 
+A 2S pack can also be used, with reduced power output. But also with reduced transmit current draw, 
+which will extend battery life. Operation is possible down to the minimum discharge voltage for the 
+cells, about 6V, and still produce over 1 Watt of output power. 
+ 
+A 4S pack produces a bit too much voltage to safely power the rig, but a low dropout regulator can be 
+added to bring the voltage down to one more suitable for the rig.  
+ 
+A 9V smoke alarm battery (once used in transistor radios) can power the MTR-4B for several hours. A 
+tad expensive to do regularly though. But it is fun to see how many contacts you can make using one 
+during a contest sprint.  A 9 or 12V battery pack made of AA cells is more long lasting.  
+ 
+A 13.8V bench supply can be used, but this will bring the output power up to 6 to 7 watts. This is fine 
+so long as the SWR is low. At 7 watts, the transmit current is near the maximum the PA FETs can 
+handle and near the point at which the resettable internal fuse will trip (1 A). A high SWR will increase 
+the current in the PA and either trip the fuse or damage the PA.  
+ 
+A simple way of making a 13.8V supply safe to use is to add two silicon rectifier diodes in series with 
+the positive power lead, such as 1N4001 diodes.  This will drop the supply voltage to the MTR by 
+about 1.5 volts.  
+ 
+Battery back up: 
+ 
+A CR2032 battery is used to power the processor while main power is off. This keeps the clock running 
+and retains the various settings stored in RAM.  
+ 
+Only a minuscule amount of current is used, just a few uA so the battery will last a long time. Even so, 
+if the rig is not to be used for some time, it would be a good idea to disable the battery by slipping a 
+piece of paper or plastic between the battery and the holder contacts.  
+ 
+Eventually, the battery will run down to the point the processor will not reliably run. If the rig “locks 
+up” or otherwise behaves unreliably, it is time to change the battery.   
+ 
+Instructions for changing coin battery as well as video can also be found on www.LNRprecision.com 
+ 

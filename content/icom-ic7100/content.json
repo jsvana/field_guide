@@ -1,0 +1,332 @@
+{
+  "radio": {
+    "id": "icom-ic7100",
+    "manufacturer": "ICOM",
+    "model": "IC-7100",
+    "revision": "1",
+    "pdfFilename": "IC-7100_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The ICOM IC-7100 is an HF/VHF/UHF all-mode transceiver featuring IF DSP, a touchscreen controller, D-STAR capability, and SD card storage. It covers 160m through 70cm with output power up to 100W on HF/6m, 50W on 2m, and 35W on 70cm."
+        },
+        {
+          "type": "paragraph",
+          "text": "To turn the transceiver ON, push the [PWR] switch. To turn OFF, hold it down for 1 second. The [AF] control adjusts audio output level by rotating the same knob."
+        },
+        {
+          "type": "paragraph",
+          "text": "The [RF/SQL] control adjusts RF gain and squelch. The 12 to 1 o'clock position is recommended for most effective use. In SSB/CW/RTTY modes, it operates as RF gain only (squelch fixed open). In AM/FM/WFM/DV modes, it operates as squelch only (RF gain fixed at maximum)."
+        },
+        {
+          "type": "paragraph",
+          "text": "To change bands, touch the MHz digits on the display to enter the Band Selection screen, then touch the desired band (1.8 to 430 or GENE for general coverage). Each band has 3 memory positions (Band Stacking Registers) that store frequency and mode."
+        },
+        {
+          "type": "paragraph",
+          "text": "To change modes, touch the mode indicator on the display. Available modes are SSB, CW, RTTY, AM, FM, WFM (RX only), and DV (D-STAR digital voice)."
+        },
+        {
+          "type": "note",
+          "text": "The controller unit is separated from the main unit and connects via the supplied 3.5m control cable. The main unit should be installed in a location with adequate ventilation as the rear panel can become hot during extended operation."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Access the SET mode by pushing the [SET] button. The menu is organized into categories: Voice Memo, Call Sign, RX History, DV Memory, My Station, DV Set, GPS, SPEECH, QSO/RX Log, Function, Tone Control, Connectors, Display, Time Set, SD Card, and Others."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RF/SQL Control",
+          "description": "Selects how the RF/SQL control operates: Auto (RF gain for SSB/CW/RTTY, squelch for AM/FM/DV), SQL (squelch only), or RF+SQL (combined control). Found in SET > Function."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Quick Tuning Step",
+          "description": "Sets the tuning step when Quick Tuning is active. Options: 0.1, 1, 5, 6.25, 9, 10, 12.5, 20, 25, 50, and 100 kHz. Touch the kHz digits for 1 second to access."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Auto Power OFF",
+          "description": "Automatically powers off after inactivity. Options: OFF, 30, 60, 90, or 120 minutes. Found in SET > Time Set."
+        },
+        {
+          "type": "menuEntry",
+          "name": "LCD Backlight",
+          "description": "Adjusts the LCD backlight brightness from 0% to 100%. Found in SET > Display."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CI-V Baud Rate",
+          "description": "Sets the CI-V command transfer speed: 300, 1200, 4800, 9600, 19200, or Auto. Found in SET > Connectors > CI-V."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DATA MOD",
+          "description": "Selects the modulation input connector when data mode is used: MIC, ACC, MIC+ACC, or USB. Found in SET > Connectors."
+        },
+        {
+          "type": "note",
+          "text": "Push the [QUICK] button in any setting screen, then touch 'Default' to reset that setting to factory default."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a paddle to the [ELEC-KEY] jack on the controller front panel, or a straight key/external keyer to the [KEY] jack on the main unit rear panel. Both use 3.5mm stereo plugs."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Key Type",
+          "description": "Selects key input type: Paddle (internal keyer), Straight key, or External keyer. Found in SET > Function > CW-KEY SET."
+        },
+        {
+          "type": "menuEntry",
+          "name": "KEY SPEED",
+          "description": "Sets internal keyer speed from 6 to 48 WPM. Push [SPEED/PITCH] then rotate [M-CH] to adjust."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW PITCH",
+          "description": "Sets received CW audio pitch and sidetone from 300 to 900 Hz in 5 Hz steps. Push [SPEED/PITCH] then rotate [BANK] to adjust."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Paddle Polarity",
+          "description": "Reverses dot and dash paddles if needed. Found in SET > Function > CW-KEY SET."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Side Tone Level",
+          "description": "Adjusts CW sidetone volume. Found in SET > Function > CW-KEY SET."
+        },
+        {
+          "type": "paragraph",
+          "text": "For Break-in operation, select Semi or Full break-in in the Function menu. Full break-in (QSK) allows hearing between transmitted elements. Semi break-in uses an adjustable delay time before returning to receive."
+        },
+        {
+          "type": "note",
+          "text": "The [AUTO TUNE] button automatically zeros in on a received CW signal. Push it in CW mode to activate. An error beep sounds if no signal is detected within the IF bandwidth."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-7100 uses IF DSP for filtering, noise reduction, and notch functions. Three filter widths (FIL1, FIL2, FIL3) are available per mode with adjustable passband width."
+        },
+        {
+          "type": "paragraph",
+          "text": "Twin PBT (Passband Tuning) shifts the IF passband to reject interference. Push [M-CH] to select PBT mode (PBT LED lights green), then rotate [M-CH] and [BANK] to adjust inner and outer edges. Hold [CLR] for 1 second to reset."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Noise Blanker (NB)",
+          "description": "Reduces pulse-type noise from ignition systems. Push [NB] to toggle ON/OFF. Hold for 1 second to adjust Level, Depth, and Width parameters. Available in SSB/CW/RTTY/AM modes."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Noise Reduction (NR)",
+          "description": "DSP noise reduction for random noise. Push [NR] to toggle ON/OFF. Hold for 1 second to adjust level (0-15). Higher values increase reduction but may affect signal quality."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Auto Notch (AN)",
+          "description": "Automatically attenuates beat tones and carriers. Push [NOTCH] to cycle through Auto, Manual, and OFF. Available in SSB/AM/FM modes."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Manual Notch (MN)",
+          "description": "Manually adjustable notch filter. Hold [NOTCH] for 1 second to adjust frequency. Notch range varies by mode: SSB/RTTY -1040 to +4040 Hz, AM -5060 to +5100 Hz."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Preamplifier",
+          "description": "P.AMP1 is a wide dynamic range preamp for 1.8-21 MHz. P.AMP2 is a high-gain preamp for 24-70 MHz. Push [P.AMP ATT] to cycle through options."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Attenuator",
+          "description": "Reduces signal levels to prevent overload from strong signals. Hold [P.AMP ATT] for 1 second to activate. Push again to turn OFF."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-7100 requires 13.8V DC power. Connect using the supplied DC power cable with fuse holder. The cable has ATC 30A fuses for protection."
+        },
+        {
+          "type": "warning",
+          "text": "NEVER apply more than 16V DC or reverse polarity to the DC connector. NEVER cut the DC power cable between the plug and fuse holder. NEVER apply AC power to the DC connector."
+        },
+        {
+          "type": "specificationTable",
+          "title": "Power Requirements",
+          "rows": [
+            { "name": "Supply Voltage", "value": "13.8V DC +/-15%" },
+            { "name": "Current (RX Standby)", "value": "Approx. 2.5A" },
+            { "name": "Current (TX Max)", "value": "Approx. 23A (HF 100W)" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "RF Output Power",
+          "rows": [
+            { "name": "HF/50 MHz", "value": "2-100W (AM: 1-30W)" },
+            { "name": "70 MHz", "value": "2-50W (AM: 1-15W) - version dependent" },
+            { "name": "144 MHz", "value": "2-50W" },
+            { "name": "430 MHz", "value": "2-35W" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "During mobile operation, always run the vehicle engine to prevent battery drain. Make sure transceiver power is OFF before starting the engine to avoid damage from ignition voltage spikes."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-7100 supports optional external antenna tuners: the AH-4 and AT-180 automatic antenna tuners. Connect the tuner control cable to the [TUNER] socket on the rear panel."
+        },
+        {
+          "type": "paragraph",
+          "text": "To use the tuner, push [TUNER/CALL] to turn the tuner ON (HF and 50 MHz bands only). The tuner icon appears on the display when active."
+        },
+        {
+          "type": "paragraph",
+          "text": "To manually tune, hold [TUNER/CALL] for 1 second. The transceiver transmits a tuning signal while the tuner adjusts. If tuning cannot complete within 20 seconds, the tuning circuit is automatically bypassed."
+        },
+        {
+          "type": "note",
+          "text": "The [TUNER/CALL] button functions as a CALL channel button on 144 MHz and 430 MHz bands, not as a tuner control."
+        },
+        {
+          "type": "warning",
+          "text": "When using a linear amplifier, ensure the transceiver's RF output power is less than the amplifier's maximum input level to prevent damage."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "General",
+          "rows": [
+            { "name": "Frequency Coverage (RX)", "value": "0.03-199.999, 400-470 MHz" },
+            { "name": "Frequency Coverage (TX)", "value": "1.8-29.7, 50-54, 144-148, 430-450 MHz (varies by version)" },
+            { "name": "Operating Modes", "value": "SSB, CW, RTTY, AM, FM, WFM (RX), DV" },
+            { "name": "Frequency Stability", "value": "+/-0.5 ppm" },
+            { "name": "Antenna Impedance", "value": "50 ohms unbalanced" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Transmitter",
+          "rows": [
+            { "name": "HF/50 MHz Output", "value": "2-100W (SSB/CW/RTTY/FM), 1-30W (AM)" },
+            { "name": "144 MHz Output", "value": "2-50W" },
+            { "name": "430 MHz Output", "value": "2-35W" },
+            { "name": "Spurious Emissions", "value": "Better than -50dB (HF), -60dB (VHF/UHF)" },
+            { "name": "Carrier Suppression", "value": "Better than 50dB" },
+            { "name": "Unwanted Sideband", "value": "Better than 50dB" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Receiver",
+          "rows": [
+            { "name": "Receiver Type", "value": "Triple conversion superheterodyne" },
+            { "name": "IF Frequencies", "value": "64.455 MHz (1st), 36 MHz (2nd), 450 kHz (3rd)" },
+            { "name": "SSB/CW Sensitivity", "value": "0.16 uV (HF), 0.11 uV (VHF/UHF)" },
+            { "name": "FM Sensitivity (12dB SINAD)", "value": "0.32 uV (VHF/UHF)" },
+            { "name": "Selectivity (SSB)", "value": "2.4 kHz/-6dB, 3.6 kHz/-60dB" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Physical",
+          "rows": [
+            { "name": "Main Unit Dimensions", "value": "167 x 58 x 230 mm (W x H x D)" },
+            { "name": "Controller Dimensions", "value": "170 x 65 x 50 mm (W x H x D)" },
+            { "name": "Weight (Main Unit)", "value": "Approx. 2.3 kg" },
+            { "name": "Weight (Controller)", "value": "Approx. 0.5 kg" },
+            { "name": "Operating Temp", "value": "-10°C to +60°C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "No power",
+          "description": "Check DC power connection and fuses (ATC 30A in cable, ATC 5A internal). Verify supply voltage is 13.8V +/-15%."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No audio",
+          "description": "Check [AF] volume control. Verify squelch is not set too high. Check if an external speaker is connected to [SP] jack."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Cannot transmit",
+          "description": "Check if frequency is within amateur band limits. Verify antenna connection. Check if VOX or MOX is properly configured."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Dial doesn't change frequency",
+          "description": "Check if Lock function is ON (lock icon displayed). Hold [SPEECH] for 1 second to toggle lock OFF."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Display shows LMT during TX",
+          "description": "Output power is being limited due to high temperature or high SWR. Reduce power or check antenna system."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Spurious signals received",
+          "description": "This is normal near some frequencies due to internal circuits and does not indicate a malfunction."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Faint noise while rotating RF GAIN",
+          "description": "This comes from the DSP unit and is normal operation, not a malfunction."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SD card not recognized",
+          "description": "Use SD cards up to 32GB SDHC. Format the card in FAT32 format. Ensure card is fully inserted."
+        }
+      ]
+    }
+  ]
+}

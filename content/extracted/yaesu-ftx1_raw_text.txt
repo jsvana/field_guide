@@ -1,0 +1,5746 @@
+
+============================================================
+PAGE 1
+============================================================
+
+HF/50/144/430MHz ALL MODE TRANSCEIVER
+Operation Manual
+
+============================================================
+PAGE 2
+============================================================
+
+Table of Contents
+General Description.......................................2
+Safety Precautions.........................................4
+Accessories & Options..................................6
+Supplied Accessories...................................6
+Available options...........................................6
+Installation and Interconnections.................7
+Installing the Battery Pack............................7
+Charging the Battery Pack............................7
+Microphone, Headphone, Key and 
+Keyer Connections........................................8
+Field Head Controls & Switches...................9
+Switching the operation of the
+[AF/RF/SQL] knob......................................9
+Rear Panel of the Field Head 
+(FTX-1 Field).................................................15
+Rear Panel of the Main Body 
+(FTX-1 optima)..............................................16
+Display Indications......................................17
+Dual band screen (Left/Right).....................17
+Dual band screen (Up/Down)......................18
+Single band screen.....................................18
+SSM-75E Microphone Switches..................19
+Display Details..............................................20
+Frequency Display......................................20
+Keyboard Frequency Entry.......................20
+Tuning in 1 MHz or 1 kHz Steps...............20
+Meter Display..............................................20
+Filter Function Display................................21
+Turn the spectrum display OFF................21
+Information displayed on the 
+scope screen...............................................21
+Operation of the display [FUNC] knob........22
+Important Receiver Settings.......................24
+ATT (Attenuator).......................................24
+IPO............................................................24
+AMP..........................................................24
+DNF (Digital NOTCH Filter)......................24
+AGC (Automatic Gain Control).................24
+Information displayed on the 
+scope screen...............................................25
+Scope Display Setting.................................26
+CENTER/CURSOR/FIX...........................26
+CENTER...................................................26
+CURSOR..................................................26
+FIX............................................................27
+3DSS........................................................27
+MULTI.......................................................27
+SPAN........................................................28
+SPEED......................................................28
+Set with the FUNC knob...........................29
+LEVEL.......................................................29
+PEAK........................................................29
+MARKER..................................................30
+COLOR.....................................................30
+Adjust contrast..........................................30
+Adjusting the brightness (DIMMER).........30
+PMG (Primary Memory Group) 
+for VHF/UHF...............................................31
+PMG Screen................................................31
+Register the frequency to PMG..................31
+Unregister the Channel 
+(Frequency) registered in PMG...................32
+DSP interference removal functions...........34
+Adjusting the GAIN of the 
+CONTOUR Circuit....................................36
+Sets the Bandwidth (“Q”) of the 
+CONTOUR Circuit....................................37
+Split.............................................................37
+Voice Communications (SSB and AM).......38
+Speech Processor......................................39
+RF Power output control.............................39
+MONITOR...................................................39
+CLAR (Clarifier)...........................................40
+RX Clarifier...............................................40
+Adjust transmit frequency to the
+offset frequency........................................40
+TX Clarifier...............................................40
+To offset the frequency with the 
+TX Clarifier Adjust receive frequency......40
+QRP Mode..................................................41
+DNR (Digital Noise Reduction)...................41
+Voice Memory.............................................42
+Recording Your Own Voice in Memory....42
+Checking the Recording...........................42
+Transmitting the Recorded Message.......42
+Record the received audio..........................43
+Recording the received audio..................43
+Play the recorded content........................43
+Erase the recorded content......................43
+Using the Automatic Antenna Tuner...........44
+ATU Operation..........................................44
+CW Mode Operation.....................................46
+Adjusting the Sidetone Audio level.............46
+CW Spotting (Zero-Beating).......................46
+ZIN............................................................46
+SPOT........................................................46
+CW Delay Time Setting...............................47
+Setting of the Electronic Keyer...................47
+Adjusting the Keyer Speed.......................47
+Setting the Keyer Weight 
+(Dot/Dash) Ratio.......................................47
+Reversing the Keyer Polarity....................47
+Selecting the Keyer Operating Mode.......47
+Contest Memory Keyer...............................48
+Message Memory.....................................48
+Storing a Message into Memory..............48
+Message Memory Programming..............48
+(Using your Paddle)..................................48
+Checking the CW Memory Contents........48
+On-The-Air CW Message Playback.........48
+
+============================================================
+PAGE 3
+============================================================
+
+1
+Text Memory...............................................49
+Text Memory Storage...............................49
+Text Message Programming....................49
+Checking the CW Memory Contents........49
+On-The-Air CW Message Playback.........49
+FM / C4FM Mode Operation.........................51
+Selecting the Communication Mode...........51
+Using AMS (Automatic Mode Select)
+function for VHF/UHF...............................51
+Fixing the Communication Mode.............51
+Repeater Operation....................................51
+DATA (FT8 / RTTY / PSK) Operation...........52
+Connecting to a Personal Computer..........52
+FT8 Operation.............................................52
+Change the [PRESET] setting.................53
+RTTY Operation..........................................54
+PSK Operation............................................54
+Memory Operation.......................................55
+Memory Storage.........................................55
+Recall a Memory Channel other.................55
+than the last used VFO frequency..............55
+Moving Memory Data to the 
+VFO register.............................................55
+Transfer last used memory to VFO..........56
+Memory Tune Operation..........................56
+Recall only memories in the same 
+frequency band (Band) using the ...............57
+MAG (Memory Auto Grouping) function.....57
+Registering frequently used memory
+ channels in M-GRP (Memory Group).....58
+Unregistering memory from
+M-GRP (Memory Group)..........................58
+Edit memory................................................59
+Erasing Memory Channel Data................59
+Check Memory Channel Status...............59
+Labeling Memories...................................59
+Scan Skip Setting.....................................60
+60-Meter (5 MHz) Band 
+(U.S. and U.K. Version only)....................60
+VFO and Memory Scanning........................62
+VFO/Memory Scan.....................................62
+Other Functions...........................................63
+Band Stack Operation.................................63
+TOT (Time Out Timer).................................63
+Operation on Alaska Emergency
+Frequency: 5167.5kHz................................63
+Using the microSD Card.............................64
+microSD Cards that can be used.............64
+Installing the microSD card......................64
+Removing the microSD card....................64
+Formatting a microSD card......................64
+Reading Memory and Set Menu data......66
+Setting Menu.................................................67
+Using the Menu...........................................67
+Tables of Menu list Operations...................68
+Optional Accessories..................................74
+FC-40 External Automatic Antenna 
+Tuner (for Wire Antenna).............................74
+Interconnections to FTX-1 optima............74
+Setup the transceiver...............................75
+Tuning Operation......................................75
+FC-80 Automatic Antenna Tuner................75
+Setup the transceiver...............................75
+Tuning Operation......................................75
+Active-Tuning Antenna System
+(ATAS-120A)................................................76
+Interconnections to FTX-1........................76
+Setup the transceiver...............................77
+Tuning Operation......................................77
+Manual Tuning..........................................77
+Bluetooth Unit BU-6....................................78
+Side Carry Handle MHG-1..........................78
+Resetting the Microprocessor....................79
+Specifications...............................................80
+General........................................................80
+Transmitter..................................................80
+Receiver......................................................81
+YAESU LIMITED WARRANTY......................82
+Display the Certifications of FCC...............84
+
+============================================================
+PAGE 4
+============================================================
+
+2
+General Description
+The FTX-1 can be used in a variety of ways, from field operation using batteries to mobile opera-
+tion.
+FTX-1 Field
+The included high-capacity lithium-ion battery “SBR-52LI” can be mounted on the back, allow-
+ing for long-term field operation of approximately 9 hours on the HF ​band in SSB with trans-
+mission output of 6W (5W in QRP mode).
+When connected to an external power source (DC 13.8V), operating with a transmission out-
+put of 10W is possible.
+The battery and antenna tuner “FC-80” (optional) can be installed at the same time, so anten-
+na tuning can be performed even in field operation.
+When performing continuous transmission such as data communication using an external 
+power source, the cooling fan “SCF-1” (optional) can be attached to efficiently cool the heat 
+generated by the radio.
+FTX-1 optima
+High power output of 100W*
+1 allows for full-scale fixed station operation.
+The panel can be removed from the main unit and attached to a commercially available stand, 
+etc., to operate at your preferred angle.
+*1: 50W for 144MHz and 430MHz bands
+Full coverage of HF to UHF bands in all modes
+Full coverage of amateur radio bands from 1.8 to 430MHz in all modes (SSB/CW/AM/FM/C4FM 
+digital). General coverage reception from 30kHz to 174MHz and 400 to 470MHz is possible.
+Supports simultaneous reception of two bands* and simultaneous C4FM/
+C4FM digital playback
+Supports simultaneous reception of two bands*. It can be used in a variety of ways, such as enjoy-
+ing DX in SSB mode on HF while monitoring local club stations in C4FM digital on V/U.
+* Simultaneous reception of HF/HF is not supported.
+High-brightness TFT full-color display with touch-panel functionality
+The FTX-1 is equipped with a 4.3-inch full-color TFT display. Operating functions, including the re-
+ceiving band noise and signal interference reduction tools, are graphically displayed. Even while in-
+volved in rigorous operations, such as DXpeditions and contests, the operator may instantly grasp 
+the status of each function.
+Filter Function Display monitors the status of the passband
+In the display, a filter function display presents the state of the pass-band. In addition to the operat-
+ing state of the interference removal functions, the filter function information is displayed. Not only 
+can you grasp the operating status of WIDTH, SHIFT, NOTCH and CONTOUR at a glance, you can 
+also view the status of the RF spectrum in the passband.
+3DSS method adopted
+In addition to the conventional waterfall display, a 3DSS (3 Dimensions Spectrum Stream) image 
+method has been adopted. The 3DSS image uses the horizontal axis (X axis) for frequency, the 
+vertical axis (Y axis) for signal intensity, and the Z axis for time. Compared to the conventional wa-
+terfall method, the signal strength is displayed in three dimensions as well as in color, recognition of 
+changes in the band conditions is instant, convenient and intuitive.
+
+============================================================
+PAGE 5
+============================================================
+
+3
+Two selectable RF Stages amplify the desired signals from low band to 
+high band
+RF amplifier AMP1, and AMP2 are low noise negative feedback RF amplifiers that may be selected 
+or combined in series as is needed for various low-band, high-band, frequency and noise condi-
+tions.  In addition, the IPO (Intercept Point Optimization) function maximizes the dynamic range and 
+enhances the close multi-signal and inter-modulation characteristics of the receiver. The influence 
+of strong broadcasting stations, especially in the low bands, can be minimized.
+Monitor 5 channels in the VHF/UHF band and operate efficiently using
+PMG (Primary Memory Group)
+The PMG function scans up to 5 channels registered to the PMG. The receive status of each chan-
+nel is simultaneously displayed in real time with a bar graph.
+* Frequencies between 108MHz and 470MHz can be registered.
+Super-DX
+The Super DX function increases the sensitivity of the RF amplifier when the received signal is 
+weak, expanding the calling range.
+MAG (Memory Channel Band Auto Grouping)
+The memory channels are automatically categorized in each band, so that memory channels can 
+be easily and quickly recalled.
+High quality sound and loud volume from 2-way front speakers
+Equipped with two speakers of different diameters, the sound is emitted from the opening at the 
+bottom of the front panel, reproducing high quality sound at a volume sufficient for field operation.
+The FTX-1 optima has a large 66mm, 2.5W high quality speaker on top of the rear case, ensuring 
+sufficient volume for fixed station operation.
+QRP mode allows you to set the maximum transmission output to 5W
+Equipped with a QRP mode that allows you to set the maximum transmission output to “5W” on all 
+bands. This is useful for QRP contests.
+About TFT Displays
+FTX-1 series utilizes a TFT liquid-crystal display.
+Although TFT liquid-crystal displays are made using very precise technology, they are prone 
+to develop dead pixels (dark dot) or pixels that are always on (bright dot). Please under-
+stand that such phenomena do not constitute product defects or malfunctions. Rather, this 
+phenomenon occurs due to limitations in the manufacturing technology with respect to TFT 
+liquid-crystal displays.
+Depending on the viewing angle, unevenness in color or brightness may occur. Please note 
+that any unevenness observed is inherent to the construction of TFT liquid crystal displays 
+and therefore does not constitute a product defect or malfunction.
+If your TFT liquid-crystal display becomes dirty, please use a dry soft cloth or tissue to wipe 
+the display clean. If it is extremely dirty, moisten it with water or lukewarm water and wipe it 
+off with a soft cloth that has been wrung out tightly. Use of glass cleaner, household cleaners, 
+organic solvents, alcohol, abrasives, and/or like substance may damage the TFT liquid-crys-
+tal display.
+
+============================================================
+PAGE 6
+============================================================
+
+4
+ WARNING
+Do not use the device in “regions or aircrafts and 
+vehicles where its use is prohibited” such as in 
+hospitals and airplanes.
+This may exert an impact on electronic and medical 
+devices.
+Do not use this product while driving or riding a 
+motorbike. This may result in accidents.
+Make sure to stop the car in a safe location first 
+before use if the device is going to be used by the 
+driver.
+Do not operate the device when flammable gas 
+is generated.
+Doing so may result in fire and explosion.
+Never touch the antenna during transmission.
+This may result in injury, electric shock and equip-
+ment failure.
+Do not transmit in crowded places in consider-
+ation of people who are fitted with medical devic-
+es such as heart pacemakers.
+Electromagnetic waves from the device may affect 
+the medical device, resulting in accidents caused by 
+malfunctions.
+When an alarm goes off with the external anten-
+na connected, cut off the power supply to this 
+radio immediately and disconnect the external 
+antenna from this radio.
+If not, this may result in fire, electric shock and equip-
+ment failure.
+Do not touch any liquid leaking from the liquid 
+display with your bare hands.
+There is a risk of chemical burns occurring when 
+the liquid comes into contact with the skin or gets 
+into the eyes. In this case, seek medical treatment 
+immediately.
+Do not use voltages other than the specified power 
+supply voltage.
+Doing so may result in fire and electric shock.
+Do not transmit continuously for long periods of time.
+This may cause the temperature of the main body 
+to rise and result in burns and failures due to over-
+heating.
+Do not dismantle or modify the device.
+This may result in injury, electric shock and equip-
+ment failure.
+Do not handle the power plug and connector etc. 
+with wet hands. Also do not plug and unplug the 
+power plug with wet hands.
+This may result in injury, liquid leak, electric shock 
+and equipment failure.
+When smoke or strange odors are emitted from 
+the radio, turn off the power and disconnect the 
+power cord from the socket.
+This may result in fire, liquid leak, overheating, dam-
+age, ignition and equipment failure. Please contact 
+our company amateur customer support or the retail 
+store where you purchased the device.
+Keep the power plug pins and the surrounding 
+areas clean at all times.
+This may result in fire, liquid leak, overheating, 
+breakage, ignition etc.
+Disconnect the power cord and connection ca-
+bles before incorporating items sold separately 
+and replacing the fuse.
+This may result in fire, electric shock and equipment 
+failure.
+Be sure to read these important precautions, and use this product safely. 
+Yaesu is not liable for any failures or problems caused by the use or misuse of this product by the 
+purchaser or any third party. Also, Yaesu is not liable for damages caused through the use of this product 
+by the purchaser or any third party, except in cases where ordered to pay damages under the laws.
+Types and meanings of the marks
+ DANGER
+This mark indicates an imminently hazardous situation, which, if not 
+avoided, could result in death or serious injury.
+ WARNING
+This mark indicates a potentially hazardous situation, which, if not 
+avoided, could result in death or serious injury.
+ CAUTION
+This mark indicates a potentially hazardous situation, which, if not avoided, 
+may result in minor or moderate injury or only property damage. 
+Types and meanings of symbols
+These symbols signify prohibited actions, which must not be done to use this product safely. 
+For example: 
+ indicates that the product should not be disassembled.
+These symbols signify required actions, which must be done to use this product safely. For 
+example,:
+ 
+ 
+indicates that the power plug should be disconnected.
+ DANGER
+Safety Precautions
+
+============================================================
+PAGE 7
+============================================================
+
+5
+ CAUTION
+Never cut off the fuse holder of the DC power cord.
+This may cause short-circuiting and result in ignition 
+and fire.
+Do not allow metallic objects such as wires and 
+water to get inside the product.
+This may result in fire, electric shock and equipment 
+failure.
+Do not place the device in areas that may get wet 
+easily (e.g. near a humidifier).
+This may result in fire, electric shock and equipment 
+failure.
+When connecting a DC power cord, pay due care 
+not to mix up the positive and negative polarities.
+This may result in fire, electric shock and equipment 
+failure.
+Do not use DC power cords other than the one 
+enclosed or specified.
+This may result in fire, electric shock and equipment 
+failure.
+Do not bend, twist, pull, heat and modify the pow-
+er cord and connection cables in an unreason-
+able manner.
+This may cut or damage the cables and result in fire, 
+electric shock and equipment failure.
+Do not pull the cable when plugging and unplug-
+ging the power cord and connection cables.
+Please hold the plug or connector when unplugging. 
+If not, this may result in fire, electric shock and equip-
+ment failure.
+Refrain from using headphones and earphones 
+at a loud volume.
+Continuous exposure to loud volumes may result in 
+hearing impairment.
+Do not use the device when the power cord and 
+connection cables are damaged, and when the 
+DC power connector cannot be plugged in tightly.
+Please contact our company amateur customer 
+support or the retail store where you purchased the 
+device as this may result in fire, electric shock and 
+equipment failure.
+Follow the instructions given when installing 
+items sold separately and replacing the fuse.
+This may result in fire, electric shock and equipment 
+failure.
+Do not use the device when the alarm goes off.
+For safety reasons, please pull the power plug of the 
+DC power equipment connected to the product out 
+of the AC socket.
+Never touch the antenna as well. This may result 
+in fire, electric shock and equipment failure due to 
+thunder.
+Do not place this device near a heating instru-
+ment or in a location exposed to direct sunlight.
+This may result in deformation and discoloration.
+Do not place this device in a location where there 
+is a lot of dust and humidity.
+Doing so may result in fire and equipment failure.
+Stay as far away from the antenna as possible 
+during transmission.
+Long-term exposure to electromagnetic radiation 
+may have a negative effect on the human body.
+Do not wipe the case using thinner and benzene etc.
+Please use a soft and dry piece of cloth to wipe away 
+the stains on the case.
+Keep out of the reach of small children.
+If not, this may result in injuries to children.
+Do not put heavy objects on top of the power 
+cord and connection cables.
+This may damage the power cord and connection 
+cables, resulting in fire and electric shock.
+Do not transmit near the television and radio.
+This may result in electromagnetic interference.
+Do not use optional products other than those 
+specified by our company.
+If not, this may result in equipment failure.
+When using the device in a hybrid car or fu-
+el-saving car, make sure to check with the car 
+manufacturer before using.
+The device may not be able to receive transmissions 
+normally due to the influence of noises from the elec-
+trical devices (inverters etc.) fitted in the car.
+For safety reasons, switch off the power and pull 
+out the DC power cord connected to the DC pow-
+er connector when the device is not going to be 
+used for a long period of time.
+If not, this may result in fire and overheating.
+Do not throw or subject the device to strong im-
+pact forces.
+This may result in equipment failure.
+Do not the put this device near magnetic cards 
+and video tapes.
+The data in the cash card and video tape etc. may 
+be erased.
+Do not turn on the volume too high when using a 
+headphone or earphone.
+This may result in hearing impairment.
+Do not place the device on an unsteady or slop-
+ing surface, or in a location where there is a lot 
+of vibration.
+The device may fall over or drop, resulting in fire, 
+injury and equipment failure.
+Do not stand on top of the product, and do not 
+place heavy objects on top or insert objects in-
+side it.
+If not, this may result in equipment failure.
+Do not use a microphone other than those speci-
+fied when connecting a microphone to the device.
+If not, this may result in equipment failure.
+Do not touch the heat radiating parts.
+When used for a long period of time, the temperature 
+of the heat radiating parts will get higher, resulting in 
+burns when touched.
+Do not open the case of the product except when 
+replacing the fuse and when installing items sold 
+separately.
+This may result in injury, electric shock and equip-
+ment failure.
+
+============================================================
+PAGE 8
+============================================================
+
+6
+Accessories & Options
+Supplied Accessories
+Hand Microphone....................................................................................SSM-75E
+DC Power Cord
+Spare Fuse (25A)
+Rechargeable Li-Ion Battery Pack..........................................................SBR-52LI (10.8V, 6400mAh)
+Rubber Cap (for DC 13.8V terminal)
+Rubber Cap (for EXT SPKR, TUNER/LINEAR terminal)
+Plate
+Operation Manual
+World Map
+Sticker
+Available options
+• Hand Microphone (equivalent to the supplied microphone)............................................SSM-75E
+• Reference Microphone....................................................................................................M-1
+• Dual Element Microphone...............................................................................................M-100
+• Desktop Microphone........................................................................................................M-90D
+• Microphone Stand Kit......................................................................................................M-90MSkit
+• Desktop Microphone........................................................................................................M-70D
+• Lightweight Stereo Headphone.......................................................................................YH-77STA
+• 100W (144/430MHz: 50W) RF Power Amplifier (supplied with FTX-1 optima)...............SPA-1
+• Rechargeable Li-Ion Battery Pack (equivalent to the supplied Battery)..........................SBR-52LI
+• HF/50MHz 10W Automatic Antenna Tuner (supplied with spacer)..................................FC-80
+• HF/50MHz 10W Long wire/50Ω compatible Automatic Antenna Tuner...........................FC-90
+• Long wire compatible External Auto Antenna Tuner........................................................FC-40
+• Active Tuning Antenna (Automatic Type).........................................................................ATAS-120A
+• Antenna Base Kit (for ATAS-120A)..................................................................................ATBK-100
+• Active Tuning Antenna (Manual Type).............................................................................ATAS-25
+• Cooling Fan.....................................................................................................................SCF-1
+• GPS Antenna Unit............................................................................................................FGPS-5
+• Bluetooth Unit..................................................................................................................BU-6
+• Bluetooth Headset ..........................................................................................................SSM-BT20
+• Protection Guard..............................................................................................................SPG-1
+• Side Carry Handle (for SPA-1 only).................................................................................MHG-1
+
+============================================================
+PAGE 9
+============================================================
+
+7
+Installation and Interconnections
+Installing the Battery Pack
+Connect the terminal
+into the connector of
+the FTX-1
+click
+Charging the Battery Pack
+The SBR-52LI can be charged in one of the following ways:
+Charges when attached to the FTX-1
+Charging the SBR-52LI by itself
+DC 13.8V, 5A
+USB PD
+45W, 15V
+Red: Charging
+Green: Charge Complete
+Blinks Red and Green: Charge Error
+The LED glows blue when the
+transceiver power is on, whether 
+the transceiver is still charging
+or fully charged.
+USB PD
+45W, 15V 2A
+Red: Charging
+Red (blinks): Charge Error
+None: Charge Complete
+•	 Do not attach the SBR-52LI to the FTX-1 while charging via USB PD. Doing so may damage the battery.
+•	If the external power supply voltage is below 13.8V, the battery may not be fully charged.
+•	To charge via the USB Type-C terminal, a commercially available USB PD (Power Delivery) charger 
+(output 45W or more, DC15V 2A output compatible) and a Type-C cable compatible with PD are 
+required.
+•	It takes approximately 7 hours to fully charge the SBR-52LI battery pack when the transceiver 
+is turned OFF. If the transceiver is turned ON, the charging time will be longer.
+•	Depending on the battery status, the charging time might be increased.
+•	9-hour stand-alone operating time with 6W on HF bands (SSB), and 8-hour operating time with 
+6W on V/UHF bands (FM) are available (6-6-48 duty cycle).
+Relationship between connected power source, charging, and transmission/reception
+When connected to USB PD
+Receive
+Transmit
+Charge to SBR-52LI
+When SBR-52LI is installed
+Yes
+Yes
+Stops when sending
+When SBR-52LI is not installed
+Yes
+No
+---
+When connected to USB PD and external power DC 13.8V or external power DC 13.8V only
+Receive
+Transmit
+Charge to SBR-52LI
+When SBR-52LI is installed
+Yes
+Yes
+Stop when sending
+When SBR-52LI is not installed
+Yes
+Yes
+---
+
+============================================================
+PAGE 10
+============================================================
+
+8
+Microphone, Headphone, Key and Keyer Connections
+FAST
+GND
+PTT
+MIC
+MIC GND
++5V
+UP
+DOWN
+(as as viewed from side panel)
+●
+　
+●
+　
+A two-contact plug cannot be
+used in this jack.
+Key-up voltage is +5.0 V DC,
+and keydown current is 3 mA.
+FTX-1
+φ3.5mm
+
+============================================================
+PAGE 11
+============================================================
+
+9
+Field Head Controls & Switches
+ SUB DIAL
+Tune the frequency of the SUB-side.
+Each press key swaps the MAIN-side and 
+SUB-side.
+ ON/OFF (LOCK) Switch
+Press and hold this switch for one second to 
+turn the transceiver ON or OFF.
+When the power is ON, press this switch briefly 
+to engage, or release the DIAL or SUB DIAL lock.
+•	The LED glows blue when the trans-
+ceiver power is ON, whether the trans-
+ceiver is still charging or fully charged.
+•	When the transceiver is powered OFF, 
+the LED glows red while charging, turns 
+green when charging is complete, and 
+blinks red and green in case of a charg-
+ing error.
+ AF/RF/SQL - MAIN
+ / SUB
+AF (default setting)
+Rotate the Knob to adjust the audio volume 
+level.
+MAIN-side:	AF/RF/SQL - MAIN
+ knob
+SUB-side:	 AF/RF/SQL - SUB
+ knob
+Press
+The operation changes depending on the oper-
+ating mode (see table below).
+AM / AM-N / FM / FM-N
+C4FM / D-FM / D-FM-N
+VW
+Functions as the 
+Squelch level adjust-
+ment knob.
+LSB / USB / CW-L / CW-U
+DATA-L / DATA-U / RTTY-L
+RTTY-U / PSK
+Functions as the 
+RF gain adjustment 
+knob.
+RF
+The RF Gain control provides manual adjust-
+ment of the gain levels for the receiver RF 
+and IF stages, to account for noise and signal 
+strength conditions at the moment.
+[AF/RF/SQL] knob is normally in the fully clock-
+wise position.
+It does not operate in FM/FM-N/DATA-FM 
+and D-FM-N mode.
+SQL
+The squelch system allows the back-ground 
+noise to be muted when no signal is being re-
+ceived.
+Normally, the squelch is not used during SSB 
+or CW operation.
+Rotate the [AF/RF/SQL] knob to adjust the 
+squelch until the noise disappears.
+If the squelch knob is turned too far to the 
+right, weak signals cannot be heard.
+•	Switching the operation of the 
+[AF/RF/SQL] knob
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING]→[GENER-
+AL] → [RF/SQL VR].
+3.	 Select “RF”, “SQL” or “AUTO”.
+RF
+Functions as the RF gain adjustment 
+knob.
+SQL
+Functions as the Squelch level adjust-
+ment knob.
+AUTO
+Functions as the squelch level adjust-
+ment knob in FM, FM-N, DATA-FM and 
+D-FMN modes, and as the RF gain ad-
+justment knob in other modes.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Touch [BACK] several times to return to 
+normal operation.
+
+============================================================
+PAGE 12
+============================================================
+
+10
+ VFO mode indicator
+Shows the current operating status of the VFO 
+at a glance. The indicator lights up in the fol-
+lowing colors according to the operating status 
+(factory default settings).
+Blue: Operation on VFO mode
+Green: Operation on Memory mode
+Red: Clarifier Operation
+The lighting colors can be changed by the fol-
+lowing operations:
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [DISPLAY SETTING] → [VFO IND 
+COLOR].
+3.	 Select the item whose color you want to 
+change.
+4.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to select the Col-
+or.
+Select the color of the “3” mark in the table 
+below for each item.
+Blue
+Green
+Red
+White
+None
+VFO
+3
+3
+–
+3
+3
+Memory
+3
+3
+–
+3
+3
+Clarifier
+–
+–
+3
+–
+3
+5.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+6.	 Press the [BACK] key several times to re-
+turn to normal operation.
+ QMB
+The current operation status can be stored in a 
+dedicated memory channel (QMB: Quick Mem-
+ory Bank) with one touch.
+QMB Channel Storage
+The initial number is 5 QMB memories, 
+but this can be increased to 10 channels.
+1.	  Tune to the desired frequency on the VFO 
+mode.
+2.	 Press and hold the [QMB] key. The “beep” 
+will confirm that the VFO contents have 
+been written to the currently available QMB 
+memory.
+•	Repeated pressing and holding of the 
+[QMB] key will write the VFO contents 
+to successive QMB memories.
+•	Once all five (or ten) QMB memories 
+have data on them, previous data will 
+be over-written on a first-in, first-out ba-
+sis.
+QMB Channel Recall
+1.	 Press the [QMB] key.
+The current QMB channel data will be 
+shown on the frequency display area.
+The “VFO” or “Memory Channel number” 
+will be replaced by “QMB”.
+2.	 Repeatedly pressing the [QMB] key will step 
+through the QMB channels:
+3.	 Press the [V/M
+] key to return to the 
+VFO mode.
+Changing the number of QMB channels
+The QMB channels can be selected from “5 
+channels” or “10 channels”.
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [BAND/
+SCAN] → [QMB CH].
+3.	 Select “5ch” or “10ch”.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the [BACK] key several times to re-
+turn to normal operation.
+ BUSY/TX indicator
+This indicator glows green* (Blue:C4FM) when 
+the squelch opens, and glows red during trans-
+mit.
+* Glows green only when the [AF/RF/SQL] 
+knob is set to “SQL” or “AUTO”.
+ CLAR
+The clarifier is used to adjust the transceiver 
+receive frequency to match the other station 
+transmit frequency and improve the audio; or to 
+shift the transmit frequency of this station when 
+the transmit frequency of the contact station is 
+shifted.
+The display will indicate “CLAR RX” → “CLAR 
+TX” → “CLAR RXTX” in red, each time the 
+[CLAR] key is pressed, and the clarifier will ac-
+tivate.
+To adjust the offset frequency of the clarifier, 
+turn the “MAIN DIAL” for the MAIN-side and 
+the “SUBDIAL” for the SUB-side.
+To turn the clarifier OFF, repeatedly press the 
+[CLAR] key until the Clarifier status is not dis-
+played.
+To clear out the programmed clarifier offset al-
+together, and reset it to “zero,” press and hold 
+the [CLAR] key.
+For details, see “CLAR (Clarifier)” on page 
+40.
+
+============================================================
+PAGE 13
+============================================================
+
+11
+ BACK
+Press
+Press the this key to return to the previous 
+screen.
+Press and hold
+Press and hold while setting the DSP inter-
+ference removal function (SHIFT, WIDTH, 
+NOTCH, CONTOUR, APF), and the setting will 
+return to the default value.
+ MAIN DIAL
+Tune the frequency of the MAIN-side.
+The amount of frequency change depends on 
+the operation mode (default setting: see table 
+below).
+Operating Mode
+1 Step
+LSB / USB
+CW-L / CW-U
+20Hz / [1Hz] / (200Hz)
+DATA-L / DATA-U
+RTTY-L / RTTY-U
+PSK
+10Hz / [1Hz] / (100Hz)
+AM / AM-N
+FM / FM-N / C4FM
+DATA-FM / D-FM-N
+100Hz / [10Hz] / (1kHz)
+[    ]: FINE tuning
+(    ): FAST tuning
+ FINE/FAST
+FINE Tuning (Tuning of 1Hz)
+In the LSB, USB, CW-L, CW-U, DATA-L, DA-
+TA-U, RTTY-L, RTTY-U or PSK mode, the fre-
+quency can be adjusted in 1 Hz steps.
+● The AM, AM-N, FM, FM-N, DATA-FM and 
+D-FM-N modes may be adjusted in 10 Hz 
+steps.
+1.	 Press the [FINE/FAST] key.
+The “FINE” indicator lights in the display.
+2.	 Rotate the MAIN/SUB DIAL knob.
+3.	 Press the [FINE/FAST] key again to return 
+to the original frequency step.
+FAST Tuning (Tuning of 10 times)
+The frequency can be adjusted in 10 times 
+steps.
+1.	 Press and hold the [FINE/FAST] key.
+The “FAST” indicator lights in the display.
+2.	 Rotate the MAIN/SUB DIAL knob.
+3.	 Press the [FINE/FAST] key again to return 
+to the original frequency step.
+ FUNC
+Easily change the menu settings.
+The last function used is remembered, so once 
+you select a function, you can easily change 
+the settings by simply turning the knob.
+For details, see “FUNC knob operation display” 
+on page 22.
+ DISP
+Press
+Switches the Operation screen each time the 
+key is pressed.
+Press and hold
+Turns off the display.
+The screen will reappear, if you touch the 
+screen or perform any other operation on the 
+FTX-1.
+ Screw hole for bracket
+The screw hole size is 1/4 inch.
+Mounting holes on the back and bottom.
+When attaching a stand to the bottom, you can 
+tilt it by about 5 degrees using the supplied 
+plate.
+
+============================================================
+PAGE 14
+============================================================
+
+12
+ 
+Turn the GM (group monitor) function ON/OFF.
+(For details on the function, refer to the GM 
+Function Instruction Manual which may be 
+downloaded from the Yaesu website.)
+ S-DX
+Press
+Enable the Super DX function to increase sen-
+sitivity.
+Press and hold
+The display on the TFT screen may be saved 
+on the microSD card.
+ PMG
+Press
+Displays PMG (Primary Memory Group).
+Press and hold
+Register the displayed frequency in PMG.
+For details, see “PMG (Primary Memory 
+Group)” on page 31.
+ MAG
+In VFO mode
+Each key press switches the operating fre-
+quency band.
+Press and hold the [BAND] key, the operation 
+band selection screen appears on the display, 
+so touch the desired band. When you touch it, 
+the band will be confirmed for about 1 second 
+and then return to the operating screen.
+In Memory mode
+Each time the key is pressed, only memory 
+channels of the same frequency band are au-
+tomatically recalled as a group.
+For details, see “MAG (Memory Channel Band 
+Auto Grouping)” on page 57.
+ N/W
+Press
+To set the DSP (digital) IF filters to Narrow 
+bandwidth.
+Press and hold
+Switch the operating mode.
+The operation mode selection screen appears 
+on the display, so touch the desired mode.
+Touch [PRESET] to display the settings 
+that apply to the FT8 operation.
+ 
+A powerful capability of the FTX-1 is its flexibili-
+ty in Split Frequency operation using the MAIN-
+side and SUB-side frequency registers. This 
+makes the FTX-1 especially useful for high-lev-
+el DX-peditions.
+For details, see “SPLIT” on page 37.
+
+============================================================
+PAGE 15
+============================================================
+
+13
+ V/M
+Press
+This key toggles frequency control between 
+VFO and the memory system.
+Press and hold
+The memory channel list will be displayed.
+From the channel list, touch and select the de-
+sired memory channel.
+For details, see “Memory Operation” on 
+page 55.
+ M►V
+Press
+Data saved in a memory channel can be trans-
+ferred to the VFO.
+For details, see “Moving Memory Data to 
+the VFO register” on page 55.
+Press and hold
+You may freely tune off from any memory chan-
+nel in a “Memory Tune” mode, this is similar 
+to VFO operation. So long as you do not over-
+write the contents of the current memory, Mem-
+ory Tune operation will not alter the contents of 
+the memory channel.
+● The “MT” notation will appear instead of the 
+“M-nnn”.
+Press the [V/M
+] key to return to the origi-
+nally memorized frequency of the current mem-
+ory channel.
+
+============================================================
+PAGE 16
+============================================================
+
+14
+ PHONE Jack
+Connect headphones to this standard ϕ3.5 ste-
+reo jack.
+Inserting a headphone plug into this jack will 
+deactivate the internal and external speakers.
+GND
+AUDIO
+AUDIO
+ KEY
+This 3.5-mm, 3-contact jack accepts a CW key 
+orkeyer paddle. A two-contact plug cannot be 
+used in this jack. Key-up voltage is +5.0V DC, 
+and keydown current is 3mA.
+KEY
+NC
+GND
+When connecting a single straight key
+DOT
+DASH
+COMMON
+When connecting an electronic keyer paddle
+ GPS
+This is the terminal for connecting the optional 
+GPS antenna unit “FGPS-5”.
+ USB (Type-C)
+You can charge the lithium-ion battery SBR-
+52LI attached to this unit using a commercially 
+available USB PD (Power Delivery) charger 
+(output 45W or more, DC15V 2A output com-
+patible) and a PD-compatible Type-C cable.
+For information on charging and transmis-
+sion/reception when a USB PD charger 
+is connected, see “Relationship between 
+connected power source, charging, and 
+transmission/reception” (page 7).
+Connecting to a computer from this jack with 
+a commercially available USB cable allows 
+remote control by CAT commands from a com-
+puter. The jack can also be used for input and 
+output of audio signals and transmitter control. 
+A USB driver is required for remote control 
+from a computer. Download the driver from the 
+Yaesu website (http://www.yaesu.com).
+ MIC jack
+This 8-pin jack accepts input from a micro-
+phone utilizing the traditional YAESU HF trans-
+ceiver pinout.
+FAST
+GND
+PTT
+MIC
+MIC GND
++5V
+UP
+DOWN
+ Bluetooth
+This is the terminal for connecting the optional 
+Bluetooth unit “BU-6”.
+ microSD card slot
+Insert a commercially available micro SD card 
+to backup the various radio settings, memory 
+channels, recordings of received audio, etc.
+
+============================================================
+PAGE 17
+============================================================
+
+15
+Rear Panel of the Field Head (FTX-1 Field)
+ ANT (HF/50MHz)
+This is the BNC-type coaxial connnector for the 
+HF band to 50MHz antennas (50 ohms).
+ ANT (144/430MHz)
+This is the BNC-type coaxial connnector for the 
+144MHz band and 430MHz band antennas (50
+ohms).
+ GND
+Use this terminal to connect the transceiver 
+to a good earth ground, for safety and optimal 
+performance.
+ DC 13.8V
+This is the DC power supply connection for the 
+transceiver.
+Use the supplied DC cable to connect directly 
+to a DC power supply.
+The white-and-black wire is positive polarity, 
+and the black wire is negative.
+Supplied DC cable
+ EXT SPKR
+This 3.5-mm, 2-contact, jack provides audio 
+output for a external loudspeaker.
+SIGNAL
+GND
+ TUNER/LINEAR
+This 10-pin output jack is used to connect to 
+the External Automatic Antenna Tuner or a Lin-
+ear Amplifier.
+TX GND
++13.8V OUT
+GND
+TX D(BAND A)
+EXT ALC
+TX INH
+TX REQ
+TRST(BAND D)
+EXTS(DET)BAND C
+RX D(BAND B)
+Refer to the table below for the TUNER/LIN-
+EAR terminal levels when using a linear ampli-
+fier.
+BAND
+BAND DATA
+BAND
+BAND DATA
+A
+B
+C
+D
+A
+B
+C
+D
+400k
+H
+L
+H
+H
+21
+H
+H
+H
+L
+1
+L
+H
+H
+H
+24.5
+L
+L
+L
+H
+1.8
+H
+L
+L
+L
+28
+H
+L
+L
+H
+3.5
+L
+H
+L
+L
+50
+L
+H
+L
+H
+5 / 7
+H
+H
+L
+L
+70
+H
+H
+H
+H
+10
+L
+L
+H
+H
+144
+H
+H
+L
+H
+14
+H
+L
+H
+L
+430
+L
+L
+H
+H
+18
+L
+H
+H
+L
+
+============================================================
+PAGE 18
+============================================================
+
+16
+Rear Panel of the Main Body (FTX-1 optima)
+ ANT (144/430MHz)
+This is the M-type coaxial connector for the 
+144 MHz band and 430 MHz band antennas (50 
+ohms).
+ DC 13.8V
+This is the DC power supply connection for the 
+transceiver.
+Use the supplied DC cable to connect directly 
+to a DC power supply, which must be capable 
+of supplying at least 25 A @13.8 VDC.
+ TUNER
+Connect the optional external antenna tuner 
+“FC-40”.
+RESET
+TX INH
+N.C
+RX D
+TX D
+TX GND
++13V OUT
+GND
+ EXT SPKR
+This 3.5-mm, 2-contact, jack provides audio 
+output for a external loudspeaker. The imped-
+ance at the jack is 4-8 Ohms.
+ ANT 1/2 (HF/50MHz)
+This is the M-type coaxial connector to con-
+nect HF band and 50 MHz band antennas (50 
+ohms).
+ GND
+Use this terminal to connect the transceiver 
+to a good earth ground, for safety and optimal 
+performance.
+Grounding
+To prevent damage from lightning, atmospheric electrical discharges, electric shock etc., pro-
+vide a good earth ground.
+Use a short, thick, braided cable to connect the station equipment to the buried ground rod (or 
+alternative earth ground system).
+
+============================================================
+PAGE 19
+============================================================
+
+17
+Display Indications
+Each time you press the [DISP] key, the screen display will change as follows. You can also press 
+and hold the [DISP] key to temporarily turn off the screen display. The screen will reappear when 
+you perform any FTX-1 operation, such as touching the screen.
+Dual band screen (Left/Right)
+Dual band screen (Up/Down)
+Single band screen
+Dual band screen (Left/Right)
+This is a dual band screen that displays the MAIN and SUB frequencies on the left and right. The 
+scope screen allows you to intuitively visualize changes in the band condition.
+Scope screen 
+settings
+・ Displays the mode
+・ sweep speed
+・ span width
+Displays the 
+passband status 
+of the Digital filter.
+Displays the 
+passband status 
+of the Digital filter.
+MAIN Frequency
+SUB Frequency
+Meter of SUB side
+Operating Mode
+FUNC knob set to
+Meter of MAIN side
+Operating Mode
+MAIN side
+SUB side
+Status of SUB side
+Status of MAIN side
+
+============================================================
+PAGE 20
+============================================================
+
+18
+Dual band screen (Up/Down)
+This is the screen for dual band operation, where MAIN and SUB frequencies are displayed above 
+and below.
+MAIN side
+SUB side
+Important Receiver Settings for MAIN side
+Important Receiver Settings for SUB side
+Single band screen
+This is the screen for single band operation where only the MAIN or SUB frequency is displayed. 
+Each time you press the SUB DIAL knob, it switches between MAIN and SUB.
+
+============================================================
+PAGE 21
+============================================================
+
+19
+SSM-75E Microphone Switches
+ PTT Switch
+Switches Transmit/Receive.
+Press to transmit and release to receive.
+ DWN/UP
+The [UP]/[DWN] keys may also be used to 
+manually scan the frequency upward or down-
+ward.
+ MUTE
+While pressing the MUTE key, the receiver au-
+dio from the speaker will be muted.
+ Microphone
+Speak into the microphone in a normal tone of 
+voice with the microphone 5 cm away from the 
+mouth.
+ P1
+This key toggles the ON/OFF lock for the MAIN 
+Dial knob and SUB Dial. When “Lock” is ON, 
+the MAIN or SUB Dial knob can still be turned, 
+but the frequency will not change, and “LOCK” 
+appears in the display.
+It is the same function as the [Power] key on 
+the front panel of the transceiver.
+ P2
+The current operation status can be stored in a 
+dedicated memory channel (QMB: Quick Mem-
+ory Bank) with one touch.
+It is the same function as the [QMB] key on the 
+front panel of the transceiver.
+ P3
+Pressing this key momentarily, change to a 
+higher Operation Band.
+It is the same function as the [MAG 
+] 
+key on the front panel of the transceiver.
+ P4
+This key toggles frequency control between 
+VFO and the memory system.
+It is the same function as the [V/M 
+] key 
+on the front panel of the transceiver.
+MUTE
+P1
+P2
+P3
+P4
+
+============================================================
+PAGE 22
+============================================================
+
+20
+Display Details
+Frequency Display
+Displays the transmit and receive frequencies.
+Simultaneous reception of HF/HF is not 
+supported.
+•	Keyboard Frequency Entry
+1.	 Touch the “Hz” area of the frequency dis-
+play.
+2.	 Enter the frequency using the numeric keys.
+Clear all entered numbers.
+The entered frequency is 
+confirmed.
+The display returns to the 
+previous screen when 
+back is touched.
+Erases the rightmost digit.
+● If there is no operation within 10 seconds, 
+the input will be canceled.
+3.	 Touch [ENT] to confirm.
+● A short-cut for frequencies ending in zero 
+-touch [ENT] after the last non-zero digit.
+Example:
+To enter 7.00.000MHz
+[0] → [0] → [7] → [ENT]
+or [7] → [.]→ [ENT]
+To enter 7.03.000MHz
+[7] → [.]→ [0] → [3] → [ENT]
+•	Tuning in 1 MHz or 1 kHz Steps
+To temporarily set the dial knob to 1MHz or 
+1kHz steps, touch the “MHz” or “kHz” area of 
+the frequency display.
+Meter Display
+S-Meter
+RF power Output
+When the meter display screen is touched, the 
+transmit meter selection screen is shown (the 
+default setting is “PO”).
+Touch the meter area
+AMC gain control display
+(Displays compression level during 
+speech processor operation)
+Make adjustments by press and hold the [FUNC] 
+knob → touch [AMC LEVEL] → rotate the [FUNC]
+knob.
+Relative ALC voltage
+Final amplifier
+drain current
+Final amplifier temperature
+RF power Output
+Final amplifier
+drain voltage
+Standing Wave Ratio
+
+============================================================
+PAGE 23
+============================================================
+
+21
+Filter Function Display
+Displays the passband status of the Digital filter. The operation of WIDTH, SHIFT, NOTCH, CON-
+TOUR etc. can be observed.
+State of CONTOUR
+State of NOTCH
+Passband status of DSP filter
+(SHIFT, WIDTH)
+SSB Mode
+CW Mode
+DSP filter bandwidth
+RTTY Mode
+PSK/DATA Mode
+Touch the filter display to reveal and check the setting value of the last used function from SHIFT, 
+WIDTH, NOTCH, CONTOUR, and APF.
+Example: When the last function used is the NOTCH function
+Touch the filter display to display the NOTCH function setting value.
+•	Turn the spectrum display OFF
+To display only the Digital filter bandwidth information, press and hold the spectrum area of the filter 
+function display to clear the spectrum view. To display it, press and hold again.
+Information displayed on the scope screen
+Scope screen information
+CENTER
+CURSOR
+FIX
+SLOW1
+SLOW2
+FAST1
+FAST2
+FAST3
+STOP
+SPAN nnnkHz
+The receive frequency is always shown at the center of 
+the screen and spectrum display.
+The band spectrum is shown within the range set by 
+“SPAN”. The CENTER mode is convenient for monitoring 
+the signal activity around the operating frequency.
+Monitors the spectrum within the range set with “SPAN”. 
+When the frequency (marker) exceeds the upper limit or 
+the lower limit of the range, the screen is automatically 
+scrolled and the status beyond the setting range can be 
+observed.
+Enter the start frequency of the scope.
+sweep speed	
+Slow
+sweep speed	
+↑
+sweep speed	
+Normal
+sweep speed	
+↓
+sweep speed	
+Fast
+Temporarily hold the operation of 3DSS display and wa-
+terfall display.
+Scope Screen frequency span (display range).
+
+============================================================
+PAGE 24
+============================================================
+
+22
+Operation of the display [FUNC] knob
+Displays the multiple functions that may be op-
+erated when the [FUNC] knob is pressed.
+Normally, it is recommended to adjust the lev-
+el of the spectrum scope with the [D-LEVEL] 
+knob.
+The last used function is recalled when the 
+[FUNC] knob is pressed. Therefor you can eas-
+ily call up and then set a function by turning the 
+[FUNC] knob.
+To change the function of the [FUNC] knob, 
+touch the desired item that appears on the 
+function screen when the [FUNC] knob is press 
+and hold, or turn the [FUNC] knob to select an 
+item and then press the [FUNC] knob.
+The last function used is stored as the 
+FUNC knob and displayed in the upper 
+right corner of the screen.
+Can be easily called up and set by 
+turning the [FUNC] knob.
+Wait for about 3 seconds or press the
+FUNC knob, or the [BACK] key to confirm
+the settings and return to the operating 
+screen.
+
+============================================================
+PAGE 25
+============================================================
+
+23
+PAGE 1/3     SSB
+D-LEVEL
+Adjust the LEVEL of the scope for the best image on the screen.
+D-PEAK
+Adjust the color density with respect to the signal level on the scope screen in 5 steps (LV1to 
+LV5).
+D-MARKER
+ON/OFF Marker indicates the transmit and receive frequency position within the Scope 
+Display image.
+D-COLOR
+Changes the scope screen display or the Frequency color.
+D-CONTRAST
+Adjust the TFT display contrast (difference between light and dark) in 21 steps.
+DIMMER
+Adjust the TFT display brightness in 21 steps.
+MOX
+Engages the PTT (Push to Talk) circuit to activate the transmitter.
+ATT
+Turns the ATT (Attenuator) ON/OFF.
+IPO (AMP)
+Activates the IPO.
+DNF
+Turns the DNF (Digital Notch Filter) ON/OFF.
+AGC
+Adjust the AGC receiver-recovery time.
+MIC EQ
+Three-Band Parametric Microphone Equalizer is turned ON/OFF.
+PROC LEVEL
+Adjusts the Speech Processor Gain.
+ANT TUNE
+Starts automatic antenna tuning.
+TUNER
+Turns the built-in antenna tuner ON/OFF. (FTX-1 optima only)
+NB
+Activates the NB (Noise blanker) function.
+DNR
+Activates the DNR (Digital Noise Reduction) function.
+ANT
+Selects the ANT 1 or ANT 2 connector on the rear panel. (FTX-1 optima only)
+TXW
+During split operation, touch [TXW] to listen on the transmitter frequency.
+RF POWER
+Transmit power setting.
+MIC GAIN
+Adjusts the microphone gain.
+AMC LEVEL
+Adjusts the AMC (Automatic Microphone Gain Control) Gain.
+VOX
+Turn the VOX function ON/OFF.
+VOX GAIN
+VOX gain setting.
+VOX DELAY
+VOX delay setting.
+PAGE 2/3     CW
+MONI LEVEL
+Monitor level adjustment.
+KEYER
+Built-in electronic keyer is turned ON/OFF.
+BK-IN
+CW Break-in function is turned ON/OFF.
+CW SPEED
+Adjusts the desired sending speed.
+CW PITCH
+Adjusts the CW tone when receiving the CW signal and the side tone monitor.
+BK-DELAY
+Adjust the hang time after the CW transmitting ends.
+ZIN
+Press to activate the auto-zero-in function.
+CW SPOT
+Press and hold to activate the sidetone.
+MESSAGE
+CW text memory or Voice memory function.
+PLAY
+Check the CW Memory Content or Check the Voice Recording Content.
+RECORD
+Voice recording function.
+PAGE 3/3     FM/C4FM
+DTMF
+Set the DTMF auto dialer channel and code.
+T-CALL
+Transmits the T-CALL(1750 Hz).
+RPT SHIFT
+Sets the repeater shift direction.
+REV
+Reverses the transmit and receive frequencies in repeater mode or split memory.
+DG-ID TX
+Setting the transmit DG-ID number.
+DG-ID RX
+Setting the receive DG-ID number.
+APRS S.LIST
+Displays the APRS function station list.
+APRS M.LIST
+Displays the message list of the APRS function.
+APRS BEACON
+Set APRS Automatic beacon transmitting ON/OFF.
+APRS BCN-TX
+Transmitting an APRS beacon manually.
+CH STEP
+Change frequency in set step intervals.
+SQL TYPE
+Select a squelch type.
+TONE FREQ
+Set the CTCSS Tone Frequency.
+DCS
+Set the DCS code.
+HOME
+Recalls the HOME channel.
+RADIO SETTING
+SSB, AM, FM, Data, RTTY & Digital operating mode Menu.
+CW SETTING
+CW operation Setting Menu.
+OPERATION SETTING
+Comprehensive settings such as: Transmit & Receive, Interference Reduction, Scan, etc.
+DISPLAY SETTING
+Display Setting Menu.
+EXTENSION SETTING
+Date, SD Card Settings, Firmware Version Display & Reset Operation.
+APRS SETTING
+APRS operation Setting Menu.
+
+============================================================
+PAGE 26
+============================================================
+
+24
+Important Receiver Settings
+The status of various operations that are important during receive, are shown at the bottom of the 
+display. To change a setting, touch the appropriate location on the display.
+Important setting items when receiving
+•	ATT (Attenuator)
+Displays the current ATT (Amount of receive 
+input signal attenuation).
+When the desired signal is extremely strong or 
+the noise level is high on a low frequency band, 
+activate the attenuator to reduce the incoming 
+signal or noise from the antenna.
+After touching [ATT], touch the ON or OFF.
+•	The ATT feature is only available in the 
+HF - 50MHz band.
+•	The ATT is set independently for each 
+operation band.
+•	IPO
+The IPO (Intercept Point Optimization) function 
+can establish the gain of the RF amplifier sec-
+tion to accommodate the connected antenna 
+and the received signal conditions. IPO can be 
+selected from three operating conditions.
+AMP1:	One stage RF amplifier is connected.
+This is a well-balanced operation of 
+receiver sensitivity and characteristics 
+(Approximately 10 dB gain).
+AMP2:	Two RF amplifiers are connected in 
+series to give top priority to sensitivity 
+(Approximately 20 dB gain).
+IPO:	
+The received signal is input to the IF 
+mixer without passing through the RF 
+amplifier. This can greatly improve 
+receiving, especially in the harsh low 
+band signal environment.
+After touching [IPO], touch the desired operat-
+ing condition.
+•	The IPO feature is only available in the 
+HF - 50MHz band.
+•	IPO is set independently for each oper-
+ation band.
+•	AMP
+Increases the sensitivity of the RF amplifier 
+when the received signal is weak.
+After touching [AMP], touch the ON or OFF.
+The AMP feature is only available in the 
+AIR band, 144MHz and 430MHz band.
+•	DNF (Digital NOTCH Filter)
+The Digital NOTCH Filter (DNF) is an effective 
+beat-canceling filter that can null out a number 
+of interfering beat notes inside the receiver 
+passband.
+Because this is an Auto-Notch feature, there is 
+no djustment knob associated with this filter.
+•	AGC (Automatic Gain Control)
+Displays the currently selected AGC setting.
+The AGC system is designed to help compen-
+sate for fading and other propagation effects. 
+The AGC characteristics can be individually set 
+for each operating mode. The basic objective 
+of AGC is to maintain a constant audio output 
+level once a certain minimum threshold of sig-
+nal strength is achieved.
+After touching [AGC], touch the desired time 
+constant.
+● AGC can be set for each operation band.
+● The “AUTO” selection mode selects the opti-
+mum receiver-recovery time for the reception 
+mode.
+
+============================================================
+PAGE 27
+============================================================
+
+25
+Information displayed on the scope screen
+ / 
+ / 
+ :
+The battery condition is displayed in 
+3 steps.
+ :	
+Charging
+ :	
+Appears when the lock function is 
+enabled.
+ :	A warning display to indicate an an-
+tenna system error.
+ :	
+Voice memory playing
+ :	
+Blinks → Voice memory recording 
+standby
+Appears → Voice memory recording
+ :	
+FINE Tuning
+ :	
+FAST Tuning
+ :	
+Appears when the Super DX func-
+tion is enabled.
+ :	
+Appears when the VOX function is 
+enabled.
+ :	
+Appears → Satellites are acquired.
+Blinks → Satellites cannot be ac-
+quired.
+ :	
+Appears when the Bluetooth func-
+tion is activated.
+Appears → Bluetooth device is con-
+nected.
+Blinks →	
+Bluetooth device not 
+connected.
+MAIN :	
+MAIN-side icon
+SUB :	
+SUB-side icon
+VFO :	
+VFO mode
+ :	 Recalls all memory channels regard-
+less of frequency band.
+ :	 Recalls only memory channels in the 
+HF band.
+ :	 Recalls only memory channels in the 
+50MHz band.
+ :	 Recalls only memory channels in the 
+AIR band.
+ :	 Recalls only memory channels in the 
+VHF band.
+ :	 Recalls only memory channels in the 
+UHF band.
+ :	 Channels, regardless of the band, 
+can be registered in advance and 
+called up as frequently used memory 
+channels in the M-GRP.
+PROC :	 Appears when the Speech Processor 
+function is activated.
+KEYER :	Appears when the Built-in electronic 
+keyer is activated.
+MONI :	
+Appears when the MONITOR func-
+tion is activated.
+TUNE :	 Appears when the internal Automatic 
+Antenna Tuner is activated.
+	
+Blinks during tuning.
+BK-IN :	 Appears when the CW Break-in func-
+tion is activated.
+ / 
+ :	 Lights in plus (+) or negative (-) shift 
+(repeater operation).
+ANT1 / ANT2 (optima only):
+	
+The currently selected antenna termi-
+nal is displayed.
+
+============================================================
+PAGE 28
+============================================================
+
+26
+Scope Display Setting
+In addition to the conventional two-dimensional waterfall spectrum display, Yaesu has added the 
+3-Dimension Spectrum Stream (3DSS) color display. The constantly changing band conditions and 
+signals are depicted in real time and color. The frequency span is shown on the horizontal X axis, 
+the vertical Y axis depicts the signals and their strengths, and the time is represented on the reced-
+ing Z axis. The FTX-1 operator can intuitively grasp the band and signal conditions at any instant.
+•	CENTER/CURSOR/FIX
+Switches the Spectrum Scope operation each time the key is touched.
+•	When the display area is touched, the 
+receive frequency is moved to that point.
+•	In CENTER mode, the frequency 
+touched becomes the center.
+•	In CURSOR and FIX mode, the marker 
+and the receive frequency move to the 
+touched position.
+•	CENTER
+The receive frequency is always shown at the 
+center of the screen and spectrum display. The 
+band spectrum is shown within the range set 
+by “SPAN”. The CENTER mode is convenient 
+for monitoring the signal activity around the op-
+erating frequency.
+	Marker*
+	Current display mode (CENTER)
+	Sweep Speed
+	Scope Screen frequency span (display 
+range).
+*At factory shipment, marker display is ON.
+•	CURSOR
+Monitors the spectrum within the range set with 
+“SPAN”. When the frequency (marker) exceeds 
+the upper limit or the lower limit of the range, 
+the screen is automatically scrolled and the 
+status beyond the setting range can be ob-
+served.
+	The lower limit frequency of the display 
+area.
+	Marker* (Receive Frequency)
+	Marker* (Transmit Frequency)
+	Current display mode (CURSOR)
+	Sweep Speed
+	Scope Screen frequency span (display 
+range).
+	The upper limit frequency of the display 
+area.
+*At factory shipment, marker display is ON.
+
+============================================================
+PAGE 29
+============================================================
+
+27
+•	FIX
+To use Fixed Mode, enter the start frequency of 
+the scope.
+	Display area start frequency
+	Marker* (Reception Frequency)
+	Marker* (Transmit Frequency)
+	Current display mode (FIX)
+	Sweep Speed
+	Scope Screen frequency span (display 
+range).
+	The upper limit frequency of the display 
+area.
+*At factory shipment, marker display is ON.
+•	3DSS
+Switch between the 3DSS display and the wa-
+terfall display.
+The display will change each time it is touched:
+3DSS type
+Waterfall type
+•	MULTI
+In addition to the scope display, the oscillo-
+scope and AF-FFT are also presented.
+Touch again to return to the original screen.
+Touch this area to set
+the attenuator.
+Touch this area to set the
+level and sweep speed.
+
+============================================================
+PAGE 30
+============================================================
+
+28
+•	SPAN
+Set the frequency span (display range) of the 
+scope screen. After touching, select the desired 
+span.
+The display level changes when SPAN is 
+changed, so reset the optimum display 
+level with [D-LEVEL] each time.
+•	SPEED
+Sets the Scope Display sweep speed. After 
+touching, select the desired speed.
+SLOW1	: sweep speed	
+Slow
+SLOW2	: sweep speed	
+↑
+FAST1	 : sweep speed	
+Normal
+FAST2	 : sweep speed	
+↓
+FAST3	 : sweep speed	
+Fast
+STOP	
+: Touch [STOP] to temporarily hold the 
+3DSS display and waterfall display 
+operations. Touch [STOP] again or 
+another speed, to release the hold.
+
+============================================================
+PAGE 31
+============================================================
+
+29
+•	LEVEL
+Adjust the level to make it easier to distinguish
+between the desired signal and noise. The dis-
+play level changes depending on antenna gain, 
+condition, frequency band, SPAN and so on.
+Always adjust the LEVEL for the best image on 
+the screen.
+Press and hold the [FUNC] knob then touch 
+[D-LEVEL], and then turn the [FUNC] knob to 
+select the desired level.
+•	On the 3DSS screen, weak signals may 
+be more easily observed by adjusting the 
+LEVEL so that the noise level can be seen 
+only a little, so always adjust the LEVEL 
+and use it at the optimum position.
+•	Be sure to make adjustments when 
+changing bands or changing SPAN.
+•	If the level is changed, the signal strength 
+also appears to change, but it does not 
+affect the actual signal input level.
+•	PEAK
+The color density may be adjusted to the level 
+of the signal. Touch PEAK and then select the 
+desired color concentration.
+Press and hold the [FUNC] knob then touch 
+[PEAK], and then turn the [FUNC] knob to se-
+lect the desired level.
+LV1	
+Slow
+LV2	
+↑
+LV3	
+Normal
+LV4	
+↓
+LV5	
+Fast
+•	Set with the FUNC knob
+Operate the [FUNC] knob to make the following settings related to the display.
+D-LEVEL
+D-PEAK
+D-MARKER
+D-COLOR
+D-CONTRAST
+DIMMER
+: Adjust the LEVEL of the scope for the best image on the screen.
+: Adjust the color density with respect to the signal level on the scope screen in 5 
+steps (LV1 to LV5).
+: ON/OFF Marker indicates the transmit and receive frequency position within the 
+Scope Display image.
+: Changes the scope screen display color from 12 types.
+Changes the font color of the frequency from 3 types.
+: Adjust the TFT display contrast (difference between light and dark) in 21 steps.
+: Adjust the TFT display brightness in 21 steps.
+FUNC knob
+The last function used is retained in the [FUNC] knob so it can be easily set by operating the [FUNC]
+knob. Normally, it is suggested to utilize the [FUNC] knob as the [D-LEVEL] knob for the spectrum 
+scope.
+
+============================================================
+PAGE 32
+============================================================
+
+30
+•	MARKER
+Displays markers that indicates the position of 
+the current receive and the transmit frequen-
+cies in the spectrum.
+Press and hold the [FUNC] knob then touch 
+[MARKER] to turn the MARKER ON or OFF. 
+Normally leave it ON.
+Receive Frequency
+Transmit Frequency
+•	COLOR
+The display color of the scope screen or font 
+color of the frequency can be changed.
+Press and hold the [FUNC] knob then touch 
+[COLOR], then touch the desired color from the 
+color selection screen.
+•	Adjust contrast
+Adjust the contrast of the TFT display.
+Press and hold the [FUNC] knob then touch 
+[D-CONTRAST], and then turn the [FUNC] 
+knob to adjust the contrast.
+•	Adjusting the brightness (DIMMER)
+Adjust the brightness of the TFT display.
+Press and hold the [FUNC] knob then touch 
+[DIMMER], and then turn the [FUNC] knob to 
+adjust the brightness.
+
+============================================================
+PAGE 33
+============================================================
+
+31
+PMG (Primary Memory Group) for VHF/UHF
+The PMG function scans up to 5 channels registered to the PMG. The receive status of each chan-
+nel is simultaneously displayed in real time with a bar graph. In addition, two channels with signals 
+are simultaneously received, allowing convenient standby.
+Operation differs between “Manual mode” and “Auto mode”.
+In manual mode, transmit and receive are performed on the selected channel. If a signal is received 
+on another channel, it can be received at the same time.
+In auto mode, when a signal is received on a scanned channel, the radio automatically switches to 
+the channel with the signal for transmit and receive.
+If a signal is received on another channel, it can be received at the same time.
+To register the currently displayed VFO or memory channel to the PMG, simply press and hold the 
+key on the frequency.
+The PMG feature is only available in the AIR band, 144MHz and 430MHz band.
+PMG Screen
+White
+Orange
+: Manual Mode
+: Auto Mode
+Line under the bar graph
+Channel bar
+Current Frequency
+When there is a signal,
+a bar graph is displayed 
+Press the [                ]
+: Receiving signal
+: Previously received signals Bar graph
+P2
+•	If there are no registered Channels in PMG, the PMG screen will not be displayed even if the 
+[PMG
+] key is pressed.
+•	To adjust the squelch during PMG operation, press the MAIN-side AF/RF/SQL knob and turn 
+it. The adjustment is reflected in all channels registered in PMG.
+•	To adjust the volume during PMG operation, rotate the MAIN-side AF/RF/SQL knob.
+•	Press and hold the [PMG
+] key to cancel the registration of the currently selected PMG 
+channel.
+Register the frequency to PMG
+• Press and hold the [PMG
+] key to register the 
+current frequency in PMG.
+• Up to 5 channels can be registered in PMG.
+Up to 5 channels can be registered in PMG. 
+When registering more than five Frequencies, 
+older frequencies will be deleted in order from 
+PMG.
+Press and the [                ]
+
+============================================================
+PAGE 34
+============================================================
+
+32
+Unregister the Channel (Frequency) registered in PMG
+1.	 Select the channel (frequency) to be unregistered 
+by rotating the MAIN DIAL knob.
+2.	 Press and hold the [PMG
+] key to cancel the 
+registration.
+Press and the [                ]
+Press and hold the [SUB DIAL] knob to switch 
+between “PMG Auto Mode” and “PMG Manual 
+Mode”.
+Press and hold
+Manual Mode
+• While continuously receiving and transmitting on the PMG channel selected, if a signal is re-
+ceived on another channel, it can be received at the same time.
+• Transmission is on the selected channel.
+• Displays historical received signal strengths in gray (Disappears the signal is lost).
+• When a signal is received on another channel, the signal strength is displayed as a bar graph 
+and it is simultaneously heard, but the transmit channel does not change. Turn the DIAL knob 
+or touch the screen to change the transmit channel.
+Select the desired channel (e.g. P2).
+P2
+P4
+Receive a signal on P2
+Receive a signal on P4
+Receive a signal on P2.
+Scan P1, P3 to P5.
+While listening to received
+audio on P2, P1 & P3 to P5
+are scanned.
+・P2 and P4 received audio can be
+   heard at the same time.
+・Transmission will be on P2.
+・To transmit on P4, rotate the DIAL
+   to select P4 or touch the P4 bar
+   graph.
+・When the P4 signal disappears,
+   While listening to received audio
+   on P2, P1 & P3 to P5 are scanned.
+
+============================================================
+PAGE 35
+============================================================
+
+33
+Auto Mode
+• When a signal is received on the channels being scanned, the radio will automatically switch to 
+that channel. If a signal is received on another channel, it can be received at the same time.
+• When a signal disappears, scanning resumes.
+• Transmission is automatically performed on the channel that received the signal.
+• Displays historical received signal strengths in gray (Disappears the signal is lost).
+Receive a signal on P4
+Receive a signal on P2
+Receive a signal on P2.
+Scan P1, P3 to P5.
+・The channel will automatically
+  change to P4.
+・While listening to received audio
+  on P4.
+・P1 to P3 & P5 are scanned.
+・Transmit will also be set to P4.
+・P2 and P4 received audio can be
+   heard at the same time.
+・Transmission will be on P4.
+・To transmit on P2, rotate the DIAL
+   to select P2 or touch the P2 bar
+   graph.
+P4
+P4
+P2
+
+============================================================
+PAGE 36
+============================================================
+
+34
+DSP interference removal functions
+Press and hold the [MAIN
+] or [SUB
+] knob, then rotate the [MAIN
+] or 
+[SUB
+] knob to exchanges the SHIFT, 
+WIDTH, NOTCH, CONTOUR and APF.
+The “MAIN” side is set with the 
+[MAIN
+] knob, and the “SUB” side is 
+set with the [SUB
+] knob.
+1. SHIFT
+IF SHIFT permits moving the Digital filter pass-
+band higher or lower, without changing the 
+pitch of the incoming signal, and thus reduce 
+or eliminate interference. Because the tuned 
+carrier frequency is not varied, there is no need 
+to re-tune the operating frequency to eliminate 
+the interference.
+The total passband tuning range for the IF 
+SHIFT system is ±1.2kHz.
+2. WIDTH
+The IF WIDTH tuning system allows you to 
+vary the width of the DSP IF passband, to re-
+duce or eliminate interference.
+Moreover, the bandwidth may actually be 
+expanded from its default setting, should you 
+wish to enhance incoming signal fidelity when 
+interference on the band is low.
+3. NOTCH
+The IF NOTCH filter is a highly effective system 
+that allows removing an interfering beat note 
+or other carrier signal from within the receiver 
+passband.
+4. CONTOUR
+The CONTOUR filter system provides a gen-
+tle perturbation of the IF filter passband. The 
+CONTOUR is set to either suppress, or boost 
+specific frequency components, and thus en-
+hances the sound and readability of a received 
+signal
+5. APF
+During CW operation, when interference or 
+noise is present, the center frequency is auto-
+matically set to the PITCH frequency, making it 
+easier to hear the desired signal
+●Setting method
+The following explanation describes how 
+to set up the “MAIN” side.
+To set up the “SUB” side, perform the 
+same operation using the [SUB
+] 
+knob.
+1.	 Press and hold the [MAIN
+] knob or 
+touch the spectrum area.
+2.	 Rotate the [MAIN
+] knob to select the 
+function, then press the [MAIN
+] knob.
+(The function may also be selected by 
+touching the function name.)
+3.	 Rotate the [MAIN
+] knob to set the de-
+sired value.
+4.	 Press the [MAIN
+] knob to confirm the 
+setting.
+
+============================================================
+PAGE 37
+============================================================
+
+35
+1. SHIFT
+1.	 Press and hold the [MAIN
+] knob.
+2.	 Rotate the [MAIN
+] knob to select 
+“SHIFT”, then press the [MAIN
+] knob.
+(The function may also be selected by 
+touching “SHIFT”.)
+3.	 Rotate the [MAIN
+] knob to the left or 
+right to reduce interfering signals.
+4.	 Press the [MAIN
+] knob to save the 
+setting.
+Press and hold the [BACK] key to quickly 
+move the filter passband to center.
+Refer to Figure “A” and notice the de-
+piction of the IF DSP filter as a thick line 
+in the center of the passband. In Figure 
+“B", you can see the effect of rotating the 
+[MAIN
+] knob.
+The interference level is reduced by mov-
+ing the filter passband so that the interfer-
+ence is outside of the passband.
+A
+B
+IF BANDWIDTH
+IF BANDWIDTH
+Desired Signal
+QRM
+QRM
+Desired Signal
+2. WIDTH
+1.	 Press and hold the [MAIN
+] knob.
+Rotate the [MAIN
+] knob to select 
+“WIDTH”, then press the [MAIN
+] knob. 
+(The function may also be selected by 
+touching “WIDTH”.)
+2.	 Rotate the [MAIN
+] knob counter-clock-
+wise to narrow the bandwidth and reduce 
+interference.
+3.	 Press the [MAIN
+] knob to save the 
+setting.
+Press and hold the [BACK] key to reset the 
+digital filter bandwidth to its initial value.
+The default bandwidths, and total bandwidth 
+adjustment range, will vary according to the 
+operating mode (see table below).
+Operating Mode
+IF BANDWIDTH
+LSB / USB
+300Hz - 4000Hz
+(default: 3000Hz)
+CW-L / CW-U
+RTTY-L / RTTY-U
+50Hz - 4000Hz
+(default: 500Hz)
+DATA-L / DATA-U
+PSK
+50Hz - 4000Hz
+(default: 3200Hz)
+AM
+9000Hz (Fixed)
+AM-N
+6000Hz (Fixed)
+The figure below is a conceptual diagram 
+of WIDTH.
+IF BANDWIDTH
+MAIN        / SUB         knob
+
+============================================================
+PAGE 38
+============================================================
+
+36
+3. NOTCH
+1.	 Press and hold the [MAIN
+] knob
+2.	 Rotate the [MAIN
+] knob to select 
+“NOTCH”, then press the [MAIN
+] 
+knob.
+(The function may also be selected by 
+touching “NOTCH”.)
+3.	 Rotate the [MAIN
+] knob to adjust the 
+“null” position of the Notch filter.
+4.	 Press the [MAIN
+] knob to save the 
+setting.
+Press and hold the [BACK] key to return the 
+center frequency to its initial value.
+The bandwidth of the NOTCH filter 
+(either narrow or wide) may be ad-
+justed using Menu item [OPERATION 
+SETTING] → [RX DSP] → [IF NOTCH 
+WIDTH].
+The factory default setting is “WIDE”.
+The performance of the IF Notch filter is 
+shown in Figure “A", where the effect of 
+rotation of the [MAIN
+] knob is depict-
+ed. In Figure “B” you can see the notching 
+effect of the IF Notch filter as you rotate 
+the [MAIN
+] knob to eliminate the in-
+coming interference.
+B
+A
+Notch
+QRM (Heterodyne)
+Desired Signal
+IF BANDWIDTH
+IF BANDWIDTH
+MAIN        /SUB         knob
+4. CONTOUR
+“CONTOUR” function does not work in 
+CW-L and CW-U modes.
+1.	 Press and hold the [MAIN
+] knob
+2.	 Rotate the [MAIN
+] knob to select 
+“CONTOUR”, then press the [MAIN
+] 
+knob.
+(The function may also be selected by 
+touching “CONTOUR”.)
+3.	 Rotate the [MAIN
+] knob to achieve the 
+most natural-sounding audio reproduction 
+of the incoming signal.
+4.	 Press the [MAIN
+] knob to save the 
+setting.
+Press and hold the [BACK] key to return the 
+center frequency to its initial value.
+The figure below is a conceptual diagram 
+of CONTOUR.
+MAIN        / SUB         knob
+IF BANDWIDTH
+IF BANDWIDTH
+IF BANDWIDTH
+•	Adjusting the GAIN of the 
+CONTOUR Circuit
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [RX 
+DSP] → [CONTOUR LEVEL].
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to set the CON-
+TOUR circuit gain.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the  [BACK] key several times to re-
+turn to normal operation.
+
+============================================================
+PAGE 39
+============================================================
+
+37
+•	Sets the Bandwidth (“Q”) of the 
+CONTOUR Circuit
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [RX 
+DSP] →  [CONTOUR WIDTH].
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to set bandwidth 
+(“Q”) of the CONTOUR circuit.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the  [BACK] key several times to re-
+turn to normal operation.
+5. APF
+“APF” function only works in CW-L and 
+CW-U modes.
+1.	 Press and hold the [MAIN
+] knob
+2.	 Rotate the [MAIN
+] knob to select 
+“APF”, then press the [MAIN
+] knob.
+(The function may also be selected by 
+touching “APF”.)
+3.	 Rotate the [MAIN
+] knob to the left or 
+right to reduce any interference.
+4.	 Press the [MAIN
+] knob to save the 
+setting.
+5.	 Press and hold the [BACK] key to restore 
+the APF peak center frequency setting to 
+“0Hz”, and disable the APF function.
+The APF bandwidth can be selected 
+from NARROW / MEDIUM / WIDE via 
+the Menu item [OPERATION SET-
+TING] → [RX DSP] → [APF WIDTH].
+Split
+A powerful capability of the FTX-1 is its flexibili-
+ty in Split Frequency operation using the MAIN-
+side and SUB-side frequency registers. This 
+makes the FTX-1 especially useful for high-lev-
+el DX-peditions.
+The Split operation capability is very advanced 
+and easy to use.
+1.	 To set the MAIN-side VFO frequency to the 
+desired receive frequency.
+2.	 Press and hold the [
+] key, and 
+then set the SUB-side VFO frequency to the 
+desired transmit frequency.
+During Split operation, the MAIN-side VFO reg-
+ister will be used for reception, while the SUB-
+side VFO register will be used for transmission.
+Press and hold the [
+] key again to 
+cancel Split operation.
+● During split operation, touch [TXW] after 
+press and hold the [FUNC] knob, to receive 
+the transmit frequency press the [FUNC] 
+knob.
+
+============================================================
+PAGE 40
+============================================================
+
+38
+Voice Communications (SSB and AM)
+When transmitting in SSB or AM mode The FTX-1 transmit audio circuit can be set to the optimum 
+operating level by individually adjusting the input and output gains of the microphone amplifier.
+The AMC (Automatic Microphone Gain Control) regulates the microphone audio so that dis-
+tortion does not occur, even if excessive audio is input.
+1. Adjust Microphone gain
+Touch the Meter Display and then touch “ALC” 
+to select the ALC Meter.
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [MIC GAIN].
+3.	 Key TX and adjust the [FUNC] knob to set 
+the input level of the Microphone Amplifier 
+to the position where the ALC Meter needle 
+does not exceed the ALC zone on the audio 
+peaks.
+2. Adjust the AMC gain
+Touch the Meter Display and then touch 
+“COMP” to select the COMP Meter.
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [AMC LEVEL].
+3.	 Activate the transmit and speak into the mi-
+crophone while adjusting the AMC level with 
+the [FUNC] knob.
+Adjust the AMC to a point where the COMP 
+Meter deflection does not exceed “10dB” on 
+the audio peaks.
+Setup is completed.
+The AMC function only works in LSB, 
+USB, AM, AM-N, DATA-L, DATA-U and 
+PSK modes.
+It does not work in other modes.
+
+============================================================
+PAGE 41
+============================================================
+
+39
+Speech Processor
+The FTX-1 Speech Processor is designed to 
+increase “talk power” by increasing the average 
+power output of the transmitted SSB signal.
+The speech processor function only 
+works in LSB/USB mode. It does not 
+work in other modes.
+1.	 Adjust the MIC gain as described on the 
+previous page.
+2.	 Press and hold the [FUNC] knob.
+3.	 Touch [PROC LEVEL].
+4.	 Touch the Meter area on the display to se-
+lect the “COMP” meter.
+5.	 The transmit meter becomes the “COMP” 
+meter.
+6.	 Press the PTT switch on the microphone, 
+and speak into the microphone in a normal 
+voice level.
+7.	 Adjust the [FUNC] knob to set the compres-
+sion level within 10 dB.
+● The Transmit Monitor is a helpful aid to 
+verify proper adjustment of the Compres-
+sion level.
+● The “PROC” indicator lights in the display.
+Rotate the [FUNC] knob to the left to turn the 
+speech processor function “OFF”.
+The speech processor can distort the 
+transmit waveform when used to increase 
+the average TX power, so it is not used in 
+normal communication.
+RF Power output control
+Turn the [FUNC] knob to adjust the RF power
+output.
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [RF POWER].
+3.	 Rotate the [FUNC] knob to adjust the RF 
+power.
+MONITOR
+Use the Monitor feature to listen to the quality 
+of the transmitted signal.
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [MONI LEVEL].
+3.	 Rotate the [FUNC] knob to adjust the Moni-
+tor level.
+Transmit audio monitor is not activate in 
+the FM, FM-N, DATA-FM, D-FM-N, AM 
+and AM-N modes.
+● If you are using the speaker for monitor-
+ing, instead of headphones, excessive 
+advancement of the Monitor level can 
+cause feedback to occur. Additionally, this 
+feedback can cause the VOX system to 
+hang up in a loop, making it impossible 
+to return to receive. Therefore, we rec-
+ommend the use of headphones, if at all 
+possible, or the minimum usable setting 
+of the Monitor level, if the speaker must 
+be used.
+4.	 To cancel the monitor function, turn the 
+[FUNC] knob to set “MONI LEVEL” to “OFF”.
+
+============================================================
+PAGE 42
+============================================================
+
+40
+CLAR (Clarifier)
+The clarifier is used to adjust the transceiver 
+receive frequency to match the other station 
+transmit frequency and improve the audio; or to 
+shift the transmit frequency of this station when 
+the transmit frequency of the contact station is 
+shifted.
+The display will indicate “CLAR RX” → “CLAR 
+TX” → “CLAR RXTX” in red, each time the 
+[CLAR] key is pressed, and the clarifier will ac-
+tivate.
+To adjust the offset frequency of the clarifier, 
+turn the “MAIN DIAL” for the MAIN-side, or the 
+“SUB DIAL” for the SUB-side.
+To turn the clarifier OFF, repeatedly press the 
+[CLAR] key until the Clarifier status is not dis-
+played.
+To clear out the programmed clarifier offset al-
+together, and reset it to “zero,” press and hold 
+the [CLAR] key.
+•	RX Clarifier
+If the transmit frequency of the contact station 
+deviates, this receiver clarifier frequency can 
+be changed leaving this transmit frequency un-
+changed.
+1.	 Press the [CLAR] key.
+2.	 Rotate the MAIN dial knob to change only 
+the receive frequency.
+When the receive frequency is offset by +20Hz.
+Offsets of up to ±9995Hz may be set us-
+ing the Clarifier.
+•	Adjust transmit frequency to the 
+offset frequency
+After changing the receiver frequency with RX 
+Clarifier, the transmitter frequency can be set 
+to the same frequency as the receiver.
+1.	 After offsetting the receiver frequency, press 
+the [CLAR] key twice.
+The transmit frequency becomes the same 
+as the receive frequency. “CLAR RX” of the 
+display changes to “CLAR RXTX”.
+2.	 Press the [CLAR] key twice, only the re-
+ceive frequency returns to the offset state.
+“CLAR RXTX” of the display changes to 
+“CLAR RX”.
+•	TX Clarifier
+The transmit frequency can be changed with-
+out moving the receive frequency of the trans-
+ceiver. Normally, the clarifier is used to move 
+only the receive frequency and compensate for 
+the deviation of the transmission frequency of 
+the contact station, however alternatively, only 
+the transmit frequency can be moved without 
+changing the transmitter. When responding to 
+an operator that is called by a large number of 
+stations such as in a contest, etc.,
+the response rate may increase if the transmit 
+frequency is moved slightly.
+1.	 Press the [CLAR] key twice.
+2.	 Rotate the MAIN dial knob to change only 
+the transmit frequency.
+Offsets of up to ±9995Hz may be set us-
+ing the Clarifier.
+3.	 To cancel Clarifier operation, press the 
+[CLAR] key twice.
+To clear out the programmed clarifier offset al-
+together, and reset it to “zero”, press and hold 
+the [CLAR] key.
+•	To offset the frequency with the 
+TX Clarifier Adjust receive frequency
+When the transmit frequency is offset with 
+the TX Clarifier, it can be reset to the same 
+frequency as the TX frequency offset from the 
+receive frequency.
+1.	 After offsetting the transmit frequency, press 
+the [CLAR] key.
+The receive frequency becomes the same 
+as the transmit frequency. “CLAR TX” of the 
+display changes to “CLAR RXTX”.
+2.	 Press the [CLAR] key three times, only 
+the transmit frequency returns to the offset 
+state. “CLAR RXTX” of the display changes 
+to “CLAR TX”.
+
+============================================================
+PAGE 43
+============================================================
+
+41
+QRP Mode
+Equipped with a QRP mode that allows you to 
+set the maximum transmission output to “5W” 
+on all bands. This is useful for QRP contests.
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [TX 
+GNRL].
+3.	 Rotate the [FUNC] knob to select [QRP 
+MODE].
+4.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to select “ON” or 
+“OFF”.
+5.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+DNR (Digital Noise Reduction)
+The Digital Noise Reduction (DNR) system is 
+designed to reduce the level of ambient noise . 
+The (DNR) system is especially effective during 
+SSB operation. Any of 10 different noise-reduc-
+tion algorithms can be selected; each of these 
+algorithms was created to deal with a different 
+noise profile. You will want to experiment with 
+the DNR system to find the best setting corre-
+sponding to the noise currently being experi-
+enced.
+The DNR function can be operated individually 
+for MAIN-side and SUB-side.
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [DNR].
+3.	 Rotate the [FUNC] knob to adjust the DNR 
+level.
+The “DNR” indicator lights in the display.
+4.	 Rotate the [FUNC] knob to the left to turn 
+the DNR function “OFF”.
+
+============================================================
+PAGE 44
+============================================================
+
+42
+Voice Memory
+The Voice Memory capability of the FTX-1 may be used to store and replay often repeated mes-
+sages. The Voice Memory includes five memories.
+When performing Voice memory, a commercially available microSD card is necessary.
+•	Recording Your Own Voice in Memory
+1.	 Insert a commercially available microSD 
+memory card into the SD card slot on the 
+left side of the transceiver.
+2.	 Select the LSB, USB, AM, AM-N, FM or 
+FM-N mode.
+3.	 Press and hold the [FUNC] knob.
+4.	 Touch [MESSAGE].
+The “MESSAGE MEMORY” screen will be 
+displayed.
+5.	 Touch [MEM] on the display.
+A blinking “REC” will appear in the display.
+6.	 Touch [1] through [5] on the display to select 
+that memory storage register.
+7.	 Press the microphone PTT switch momen-
+tarily.
+The “REC” icon will glow steadily and re-
+cording will begin.
+● “REC” lights up on the display while re-
+cording is in progress.
+● Remember that the time limit for recording 
+any message is 90 seconds.
+8.	 Release the PTT switch to complete the 
+message storage process.
+•	Checking the Recording
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [BK-IN] to turn OFF the BK-IN func-
+tion.
+3.	 Touch [MESSAGE].
+The “MESSAGE MEMORY” screen will be 
+displayed.
+4.	 Touch [1] through [5] on the display (which-
+ever register was just recorded in). The 
+“MSG” icon will appear in the display and 
+the audio recorded in the Voice Memory will 
+be heard.
+● To adjust the playback volume level, turn 
+the [FUNC] knob or touch [RX LEVEL] 
+when not playing, and then turn the 
+[FUNC] knob to adjust.
+•	Transmitting the Recorded Message
+1.	 Select the LSB, USB, AM, AM-N, FM or 
+FM-N mode.
+2.	 Press and hold the [FUNC] knob.
+3.	 Touch [BK-IN] to turn ON the BK-IN func-
+tion.
+4.	 Touch [MESSAGE] .
+5.	 Touch [1] through [5] on the display (which-
+ever memory was recorded in). A “MSG” 
+icon will appear in the display and the mes-
+sage will be transmitted.
+● To adjust the output level during transmit, 
+touch [TX LEVEL] and turn the [FUNC] 
+knob.
+
+============================================================
+PAGE 45
+============================================================
+
+43
+Record the received audio
+You can record and play the received audio on the microSD memory card.
+Record and play of the received audio may be operated from the Display Panel.
+•	Only audio from the MAIN side will be recorded. The SUB side audio cannot be recorded.
+•	When performing record and play of the received audio, a commercially available microSD 
+card is necessary.
+•	The maximum recording time for one file is about 16 hours. (Maximum file size limit approx. 
+3.5GB) Recording stops automatically when the maximum file size limit is exceeded.
+•	Audio files other than those recorded by this unit cannot be played.
+•	Recording the received audio
+1.	 Insert a commercially available microSD 
+memory card into the SD card slot on the 
+left side of the transceiver.
+2.	 Press and hold the [FUNC] knob.
+3.	 Touch [RECORD].
+A “S.REC” icon will blink and recording will 
+begin.
+The recording time depends on the capacity 
+of the SD memory card used.
+4.	 Touch [STOP] to end recording.
+“S.REC” on the display turns OFF.
+•	Play the recorded content
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [PLAY].
+The “PLAY LIST” screen will be displayed.
+3.	 Rotate the [FUNC] knob to select the file 
+name you want to play.
+You can also select it by touching [ꞁ◄◄] or 
+[►►ꞁ ].
+4.	 Touch [►] to start playback.
+File name
+Selected file name
+Recorded time
+Start playback
+Frequency
+Mode
+5.	 Rotate the [FUNC] knob during playback to 
+adjust the volume.
+You can also adjust the volume by touching 
+[RX LEVEL] and turning the [FUNC] knob 
+when not playing.
+Playback elapsed time
+pause
+Volume
+Advance for 5 seconds
+Back for 5 seconds
+6.	 Touch [BACK] to return to normal operation.
+•	Erase the recorded content
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [PLAY].
+The “PLAY LIST” screen will be displayed.
+3.	 Rotate the [FUNC] knob to select the file 
+name you want to delete.
+4.	 Touch [DELETE].
+5.	 Touch [OK] to delete it.
+
+============================================================
+PAGE 46
+============================================================
+
+44
+Using the Automatic Antenna Tuner (FTX-1 optima only)
+The Automatic Antenna Tuner (ATU) is built into each FTX-1 optima. The ATU is designed to ensure 
+that a 50-Ohm antenna impedance load is presented to the final amplifier stage of the transmitter.
+•	Because the FTX-1 optima ATU is located inside transceiver, it can only adjust the imped-
+ance presented to the transceiver end of the coaxial cable feedline. It does not “tune” the 
+SWR at the antenna feed point itself.
+•	When designing and building an antenna system, we recommend that every effort be made 
+to also ensure a low SWR at the antenna feed point.
+•	The ATU in the FTX-1 optima is designed to match impedances within the range of 16.7 
+Ohms to 150 Ohms, corresponding to an SWR of 3:1 or less on the HF amateur bands (6 
+m amateur band: 25 Ohms to 100 Ohms, corresponding to an SWR of 2:1 or less). Accord-
+ingly, simple non-resonant whip antennas, along with random-length wires and the “G5RV” 
+antenna (on most bands) may not be within the impedance matching range of the ATU.
+•	The built-in antenna tuner cannot be used with an antenna connector connected to an exter-
+nal antenna tuner.
+•	ATU Operation
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [TUNER] to place the ATU in the 
+transmit line (no adjustment or tuning will 
+occur yet).
+While the ATU function is activated, the 
+“TUNE” will be displayed.
+3.	 Touch [ANT TUNE] key to begin automatic 
+tuning.
+The transmitter will be engaged, and “TUNE” 
+will be blinks while tuning is in progress.
+●	 Always listen on the operating frequen-
+cy before beginning the tuning process, 
+to be sure tuning will not interfere with 
+others who may already be using the fre-
+quency.
+●	 When the optimum tuning point has been 
+achieved, the transceiver will return to 
+receive.
+●	 It is normal to hear the sound of the re-
+lays while tuning is in progress.
+4.	 To disengage the ATU from the transmit 
+line, touch [TUNE].
+About ATU Memories
+SWR (After tuning) Less than 2:1
+The tuner settings are stored in the ATU 
+memory.
+SWR (After tuning) Greater than 2:1
+Tuning data will not be retained in memory.
+If operation is returned to the same frequen-
+cy, the tuning process must be repeated.
+SWR (After tuning) Greater than 3:1
+The “HI-SWR” icon will light up, and the 
+tuner settings, if achieved, will not be mem-
+orized.
+Investigate the high SWR condition and re-
+solve the problem before attempting further 
+operation using this antenna.
+
+============================================================
+PAGE 47
+============================================================
+
+45
+For additional details on the following Functions, refer to the Advanced Manual which may 
+be downloaded from the Yaesu website.
+Tone squelch feature
+The tone squelch opens the speaker audio only when a signal containing the specified CTCSS 
+tone is received. By matching the CTCSS tone frequency with the partner stations, quiet standby 
+monitoring is possible.
+DCS (Digital Code squelch) feature
+The DCS (Digital Coded Squelch) function allows audio to be heard only when signals containing 
+the same DCS code are received.
+DG-ID (Digital Group ID) feature
+Digital Group ID (DG-ID) function allows using the two-digit ID numbers to communicate only with 
+specific group members.
+DP-ID (Digital Personal ID) feature
+DP-ID (Digital Personal ID) feature opens the speaker audio only when a C4FM signal set to the 
+same DP-ID in the Digital Mode is received.
+Parametric Microphone Equalizer
+The FTX-1 includes a unique Three-Band Parametric Microphone Equalizer that provides precise, 
+in- dependent control over the low, mid and treble ranges in the voice waveform. One group of set-
+tings may be utilized when the Speech Processor is Off, and an alternate group of settings when 
+the Speech Processor is On (SSB mode only).
+Adjustable Receiver Audio Filter
+The FTX-1 incorporates an adjustable receiver audio filter, that affords precision control of the lower 
+and upper audio ranges independently.
+Change the sound quality of the received audio
+You can change each of the high, mid, and low frequencies of the received audio to your liking. It 
+can be set for each mode.
+
+============================================================
+PAGE 48
+============================================================
+
+46
+CW Mode Operation
+The impressive CW operating capabilities of the FTX-1 permit operating with an Electronic Keyer 
+Paddle, a “Straight Key”, or a computer based keying device.
+1.	 Before starting, connect the key cable to the 
+left side panel KEY jack.
+2.	 Set the operating mode to CW-U.
+The normal “CW” mode utilizes USB-side 
+carrier injection.
+3.	 Press and hold the [FUNC] knob.
+4.	 Touch [BK-IN] to turn ON the BK-IN func-
+tion.
+5.	 Touch [MONI LEVEL] and then turn the 
+[FUNC] knob to adjust the volume of the 
+monitor.
+6.	 When using the keyer paddle, press and 
+hold the [FUNC] knob and then touch 
+[KEYER] to turn ON the Electronic Keyer.
+7.	 When the key or the keyer paddle is 
+pressed, the transmitter will automatically 
+be engaged.
+As shipped from the factory, the FTX-1 CW TX/
+RX is configured for “Semibreak-in” operation. 
+However, using Menu item “CW BK-IN TYPE”, 
+this setup may be changed to full break-in 
+(QSK) operation, wherein the switching is quick 
+enough to hear incoming signals in the spaces 
+between the dots and dashes of the transmis-
+sion. This may prove very useful during contest 
+and traffic handling operations.
+Adjusting the Sidetone Audio level
+The CW sidetone audio level may be adjusted 
+by press and hold the [FUNC] knob, then touch 
+[MONI LEVEL], and then rotating the [FUNC] 
+knob.
+CW Spotting (Zero-Beating)
+“Spotting” (zeroing in on another CW station) 
+is a handy technique to ensure the transceiver 
+and the other station are operating precisely on 
+the same frequency.
+The Tuning Offset Indicator in the display may 
+also be moved to adjust the receiver frequency 
+to center on the incoming station with the CW 
+pitch corresponding to that of the transmit sig-
+nal.
+Turn OFF the Tuning Offset Indicator using 
+Menu item “CW INDICATOR”.
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [CW SETTING] → [MODE CW].
+3.	 Rotate the [FUNC] knob to select [CW INDI-
+CATOR].
+4.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to select “ON” or 
+“OFF”.
+5.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+•	ZIN
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [ZIN] to cause the receiving frequen-
+cy to zero-in automatically while receiving 
+the CW signal.
+•	SPOT
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [CW SPOT].
+3.	 While you are pressing and holding the 
+[FUNC] knob, the tone is output from the 
+speaker.
+●	 The Spot tone audio level may be adjust-
+ed by press and hold the [FUNC] knob, 
+then touching [MONI LEVEL], and rotat-
+ing the [FUNC] knob.
+
+============================================================
+PAGE 49
+============================================================
+
+47
+CW Delay Time Setting
+During semi-break-in (not QSK) operation, the 
+hang time of TX, after the transmitting ends 
+may be adjusted to a comfortable value corre-
+sponding with the sending speed.
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [BK-DELAY].
+3.	 Rotate the [FUNC] knob to adjust the hang 
+time for comfortable operation.
+4.	 Press and hold the [FUNC] knob to save 
+the setting.
+Setting of the Electronic Keyer
+•	Adjusting the Keyer Speed
+Keyer speed can be adjusted by rotating the 
+[FUNC] knob.
+Press [FUNC], then touch [CW SPEED], and 
+rotate the [FUNC] knob to set the desired 
+sending speed (4 wpm - 60 wpm).
+•	Setting the Keyer Weight (Dot/Dash) Ratio
+This Menu item may be used to adjust the dot/
+dash ratio for the built-in Electronic Keyer. The 
+default weighting is 3:0 (a dash is three times 
+longer than a dot).
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [CW SETTING]→[KEYER]→[CW 
+WEIGHT].
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to set the weight 
+to the desired value. The available adjust-
+ment range is a Dot/Dash ratio of 2.5 - 4.5 
+(default value: 3.0).
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the [BACK] key several times to 
+return to normal operation.
+•	Reversing the Keyer Polarity
+The Keyer polarity can be reversed easily in 
+the Menu mode without changing the keyer 
+connections (the default setting is “NOR”).
+Example: for left-handed operators in a contest.
+In the Keyer modes described on the 
+chart at the right, BUG and OFF modes 
+are not changed.
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [CW SETTING] → [KEYER].
+3.	 Select [KEYER DOT/DASH].
+4.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to set the “REV”.
+5.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+6.	 Press the [BACK] key several times to 
+return to normal operation.
+•	Selecting the Keyer Operating Mode
+The configuration of the Electronic Keyer may 
+be customized for the FTX-1. This permits utili-
+zation of Automatic Character Spacing (ACS), 
+if desired.
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [CW SETTING]→[KEYER].
+3.	 Select [KEYER TYPE].
+4.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to set the keyer 
+to the desired operating mode, see the table 
+below.
+5.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+6.	 Press the [BACK] key several times to 
+return to normal operation.
+OFF
+The built-in Electronic Keyer is turned 
+OFF ("straight key” mode).
+BUG
+Dots will be generated automatically 
+by the keyer, but dashes must be 
+sent manually.
+ELEKEY-A
+A code element (“Dot” or “Dash” side) 
+is transmitted upon releasing both 
+sides of the paddle.
+ELEKEY-B
+Releasing both sides of the paddle 
+transmits the currently generated 
+“Dash” side followed by “Dot” side (or 
+reverse order).
+ELEKEY-Y
+Pressing both sides of the paddle 
+transmits the currently generated 
+“Dash” side followed by “Dot” side (or 
+reverse order).
+While transmitting the “Dash” side, 
+the first transmitted “Dot” side will not 
+be stored.
+ACS
+Same as “ELEKEY” except that 
+the spacing between characters is 
+precisely set by the keyer to be the 
+same length as a dash (three dots in 
+length).
+Morse
+“E” & “T”
+Morse
+“E” & “T”
+ACS
+OFF
+Inter-character
+Spacing too short
+ACS
+ON
+
+============================================================
+PAGE 50
+============================================================
+
+48
+Contest Memory Keyer
+The CW message capability of the FTX-1 may be controlled either from the Transceiver Front Panel.
+•	Message Memory
+Five CW memory channels capable of retaining 50 characters each are available (using the PARIS 
+standard for characters and word length).
+Example: CQ CQ CQ DE W6DXC K (19 characters)
+-- • -- •
+-- -- • --
+-- • -- •
+-- -- • --
+-- • -- •
+-- -- • --
+-- • •
+•
+• -- --
+-- • • • •
+-- • •
+-- • • --
+-- • -- •
+-- • --
+C
+Q
+C
+Q
+C
+Q
+D
+E
+W
+6
+D
+X
+C
+K
+•	Storing a Message into Memory
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [CW SETTING] →[KEYER].
+3.	 Select the CW Memory Register (“CW 
+MEMORY 1” to “CW MEMORY 5”) into 
+which the message is to be stored; for now, 
+the message entry technique is being set to 
+“Keyer Entry” for the selected CW Memory 
+register.
+4.	 Set the selected CW Memory Register to 
+“MESSAGE”. To use the Keyer Paddle for 
+message entry on all the memories, set all 
+five Menu items to “MESSAGE”.
+5.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+6.	 Press the [BACK] key several times to re-
+turn to normal operation.
+•	Message Memory Programming
+(Using your Paddle)
+1.	 Set the operating mode to CW.
+2.	 Press and hold the [FUNC] knob.
+3.	 Touch [BK-IN] to turn it “OFF”.
+4.	 Touch [KEYER] to turn it “ON”.
+The built-in Electronic Keyer is activated.
+5.	 Touch [MESSAGE] .
+The “MESSAGE MEMORY” screen will be 
+displayed.
+6.	 Touch [MEM] on the display.
+A blinking “REC” will appear in the display.
+7.	 Touch [1] through [5] on the display to select 
+that memory storage register.
+● The “REC” will glow steadily.
+8.	 Send the desired CW message using the 
+keyer paddle.
+9.	 Touch [MEM] on the display to end mes-
+sage recording.
+Care must be exercised in sending to 
+ensure the spaces between letters and 
+words are accurately applied.
+If the timing is off, the spacing may not be 
+correct in the stored message. For ease 
+in setting up the keyer memories, we 
+recommend setting Menu item “KEYER 
+TYPE” to “ACS” (Automatic Character 
+Spacing) while programming the keyer 
+memories.
+•	Checking the CW Memory Contents
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [BK-IN] to turn it “OFF”.
+3.	 Touch [MONI LEVEL] and then turn the 
+[FUNC] knob to adjust the volume of the 
+monitor.
+4.	 Press and hold the [FUNC] knob.
+5.	 Touch [MESSAGE].
+The “MESSAGE MEMORY” screen will be 
+displayed.
+6.	 Touch [1] - [5] on the display, whichever 
+memory was just recorded. The message 
+will be played and heard in the sidetone 
+monitor, but no RF energy will be transmit-
+ted.
+● The “MSG” will appear in the display.
+•	On-The-Air CW Message Playback
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [BK-IN] to turn it “ON”.
+3.	 Touch [MESSAGE].
+The “MESSAGE MEMORY” screen will be 
+displayed.
+4.	 Touch [1] - [5] on the display to transmit the 
+recorded CW Memory Register message.
+The programmed message will be transmit-
+ted on the air.
+● During a transmission, the same key may 
+be pressed again to immediately end the 
+transmission.
+Transmitting in the Beacon Mode
+In “Beacon” mode, any programmed mes-
+sage, (either via Paddle, or via “Text” input 
+method) may be repeatedly transmitted.
+The time delay between message repeats 
+may be set from 1 to 60 seconds, in one 
+second steps, via Menu item “REPEAT IN-
+TERVAL”.
+To transmit the message:
+1.	 Touch and hold [1] - [5] on the display.
+Repetitive transmission of the Beacon 
+message will begin.
+2.	 Press the same key again to cancel the 
+Beacon Mode.
+
+============================================================
+PAGE 51
+============================================================
+
+49
+Text Memory
+The five channels of CW message memory (up to 50 characters each) may also be programmed 
+using a text-entry technique.
+This technique is somewhat slower than sending the message directly from the keyer paddle, but 
+accuracy of character spacing is ensured. Be sure to enter the character “}” at the end of the text 
+message.
+Example 1: CQ CQ CQ DE W6DXC K} (20 characters)
+The sequential Contest Number (“Count up”) feature is another impressive feature of the CW Mem-
+ory Keyer.
+Example 2: 599 10 200 # K} (15 characters)
+•	Text Memory Storage
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [CW SETTING] →[KEYER].
+3.	 Select the CW Memory Register (“CW 
+MEMORY 1” to “CW MEMORY 5”) into 
+which a message is to be stored. For now, 
+the message entry technique is being set 
+to (Text entry) for the selected CW Memory 
+Register.
+4.	 If Text Message entry is to be used for all 
+five memories, set all five CW Memory Reg-
+ister Menu items to “TEXT”.
+5.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+6.	 Press the [BACK] key several times to 
+return to normal operation.
+•	Text Message Programming
+1.	 Set the operating mode to CW.
+2.	 Press and hold the [FUNC] knob.
+3.	 Touch [MESSAGE].
+The “MESSAGE MEMORY” screen will be 
+displayed.
+4.	 Touch [MEM] on the display.
+5.	 Touch [1] through [5] on the display to select 
+that memory storage register.
+The text input screen will appear.
+The following texts are programmed to 
+MEMORY 4 and MEMORY 5 in factory 
+default.
+MEMORY 4: DE FTX-1 K}
+MEMORY 5: R 5NN K}
+6.	 Touch the character keys on the display to 
+enter the letters, numbers, or symbols of 
+the desired label. Use the “#” character to 
+designate the position where the Contest 
+Number will appear.
+7.	 When the text entry is completed, touch 
+[ENT].
+8.	 When all the characters have been pro-
+grammed, touch [BACK] to exit.
+•	Checking the CW Memory Contents
+1.	 Set the operating mode to CW.
+2.	 Press and hold the [FUNC] knob.
+3.	 Touch [BK-IN] to turn it “OFF”.
+4.	 Touch [MONI LEVEL] and then turn the 
+[FUNC] knob to adjust the volume of the 
+monitor.
+5.	 Press and hold the [FUNC] knob.
+6.	 Touch [MESSAGE].
+The “MESSAGE MEMORY” screen will be 
+displayed.
+7.	 Touch [1] - [5] on the display, whichever 
+memory that was recorded in. The message 
+will be played, and heard in the sidetone 
+monitor, but no RF energy will be transmit-
+ted.
+● “MSG” will appear in the display.
+•	On-The-Air CW Message Playback
+1.	 Set the operating mode to CW.
+2.	 Press and hold the [FUNC] knob.
+3.	 Touch [BK-IN] to turn it “ON”.
+4.	 Touch [MESSAGE].
+The “MESSAGE MEMORY” screen will be 
+displayed.
+5.	 Touch [1] - [5] on the display, depending on 
+the CW Memory Register message to be 
+transmitted.
+The programmed message will be transmit-
+ted on the air.
+● During transmit, press the same key 
+again, to immediately cancel the trans-
+mission.
+
+============================================================
+PAGE 52
+============================================================
+
+50
+Contest Number
+If “#” is entered in the CW message, the contest number will automatically increment (count 
+up) each time the message is sent. See below to set the contest number.
+Contest Number Programming
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [CW SETTING] → [KEYER] → [CONTEST NUMBER].
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” on either side of the value to set the Contest 
+Number to the desired value.
+4.	 Press the [FUNC] knob, or wait for about 3 seconds to save the setting.
+5.	 Press the [BACK] key several times to return to normal operation.
+Decrementing the Contest Number
+Use this process if the current contest number gets ahead of the actual number. For example: 
+in case of a duplicate QSO,).
+Touch [DECnnnn] on “MESSAGE MEMORY” screen. The current Contest Number will be re-
+duced by one. If you go too far, use the “Contest Number Programming” technique described 
+above.
+
+============================================================
+PAGE 53
+============================================================
+
+51
+FM / C4FM Mode Operation
+Selecting the Communication Mode
+•	Using AMS (Automatic Mode Select)
+function for VHF/UHF
+The FTX-1 transceiver is equipped with the 
+AMS (Automatic Mode Select) function which 
+automatically selects the communication mode 
+corresponding to the received signal.
+To utilize the AMS function.
+1.	 Press and hold the [N/W
+] key.
+The operation mode selection screen ap-
+pears on the display.
+2.	 Touch [AMS].
+When a signal is received, the communica-
+tion mode is automatically switched and the 
+communication mode display changes.
+•	Fixing the Communication Mode
+1.	 Press and hold the [N/W
+] key.
+The operation mode selection screen ap-
+pears on the display.
+2.	 Touch [FM], [C4FM] or [VW].
+Communication Mode
+Icon
+Description of Modes
+V/D mode
+(Voice & Data are 
+transmitted
+simultaneously)
+C4FM
+This is the standard 
+digital mode.
+Calls are less prone 
+t o  i n t e r r u p t i o n s 
+caused by detection
+and correction of the 
+received digital voice 
+signal.
+Voice FR mode
+(Voice Full Rate Mode)
+VW
+H i g h  s p e e d  d a t a 
+communication using 
+entire 12.5 kHz
+b a n d .  E n a b l e s 
+high-quality voice 
+communication.
+FM mode
+FM
+Analog communica-
+tion using FM mode.
+Repeater Operation
+1.	 Set the operating mode to FM.
+2.	 Set to the desired repeater output frequency 
+(downlink from the repeater).
+3.	 Press and hold the [FUNC] knob.
+4.	 Select [RADIO SETTING] → [MODE FM] → 
+[RPT SHIFT].
+5.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to select the de-
+sired repeater shift direction. The selections 
+are:
+“–” → “SIMP” → “+” → “ARS”
+● To program the proper repeater shift, use 
+Menu items “RPT SHIFT(28MHz)”, “RPT 
+SHIFT(50MHz)”, “RPT SHIFT(144MHz)” 
+and “RPT SHIFT(430MHz)” as appropri-
+ate.
+6.	 Rotate the [FUNC] knob to select [SQL 
+TYPE].
+7.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to select “ENC”.
+8.	 Rotate the [FUNC] knob to select [TONE 
+FREQ].
+9.	 Rotate the [FUNC] knob, or touch “<” or 
+“>” on either side of the value to select the 
+desired CTCSS Tone to be used. A total of 
+50 standard CTCSS tones are provided (see 
+the CTCSS Tone Chart).
+10.	Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+11.	Press the [BACK] key several times to 
+return to normal operation.
+Press and hold the microphone PTT switch to 
+begin transmitting.
+CTCSS Tone Frequency (Hz)
+67.0
+69.3
+71.9
+74.4
+77.0
+79.7
+82.5
+85.4
+88.5
+91.5
+94.8
+97.4
+100.0
+103.5
+107.2
+110.9
+114.8
+118.8
+123.0
+127.3
+131.8
+136.5
+141.3
+146.2
+151.4
+156.7
+159.8
+162.2
+165.5
+167.9
+171.3
+173.8
+177.3
+179.9
+183.5
+186.2
+189.9
+192.8
+196.6
+199.5
+203.5
+206.5
+210.7
+218.1
+225.7
+229.1
+233.6
+241.8
+250.3
+254.1
+-
+-
+-
+-
+-
+-
+•	Tone Calling (1750 Hz)
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [T-CALL] to generates a 1750 Hz 
+burst tone to access the European repeater.
+3.	 Once access to the repeater has been 
+gained, you may touch [T-CALL] again, and 
+use the PTT switch for activating the trans-
+mitter thereafter.
+
+============================================================
+PAGE 54
+============================================================
+
+52
+DATA (FT8 / RTTY / PSK) Operation
+The transceiver and a PC may be connected with a commercially available USB cable (Type-C) to 
+operate data communications using commercially available software and freeware.
+Before connecting a RTTY communications TU (Terminal unit) or DATA Communications Device to 
+the transceiver, also refer to the instruction manual of the connected device.
+Connecting to a Personal Computer
+To connect to a PC using a USB cable, a Virtual COM port driver must be installed on the PC.
+Visit the Yaesu website http://www.yaesu.com/ to download the Virtual COM port driver and 
+Installation Manual.
+Commercially available
+USB Type-C (A-C) cable
+To USB port
+FT8 Operation
+The multiple settings required for FT8 operation may be set with one touch of [PRESET]. In addi-
+tion, the FT8 settings can be returned to the prior settings with one touch.
+1.	 Touch the operation mode area, or press 
+and hold the [N/W
+] key.
+2.	 The operation MODE selection screen ap-
+pears on the display, then touch [PRESET], 
+or rotate the [FUNC] knob to select [PRE-
+SET] then press the [FUNC] knob.
+Touch [PRESET] or select [PRESET] via the 
+[FUNC] knob, the settings will be confirmed 
+and then the operating screen will return.
+3.	 Touch [PRESET] again, the [PRESET] set-
+tings are canceled and the original settings 
+are restored.
+The color of the [PRESET] shows the current 
+state.
+Blue:	 Enable the [PRESET] settings
+Gray:	 Disable the [PRESET] settings
+
+============================================================
+PAGE 55
+============================================================
+
+53
+•	Change the [PRESET] setting
+Five channels of the 15 listed in the table below are registered in [PRESET]. These settings may be
+changed as needed.
+Function
+Available Settings (Default: Bold)
+CAT-1 RATE
+4800bps / 9600bps / 19200bps / 38400bps / 115200bps
+CAT-1 TIME OUT TIMER
+10msec / 100msec / 1000msec / 3000msec
+CAT-1 CAT-3 STOP BIT
+1bit / 2bit
+AGC FAST DELAY
+20msec - 160msec - 4000msec (20msec/step)
+AGC MID DELAY
+20msec - 500msec - 4000msec (20msec/step)
+AGC SLOW DELAY
+20msec - 1500msec - 4000msec (20msec/step)
+LCUT FREQ
+OFF / 100Hz - 1000Hz (50Hz/step)
+LCUT SLOPE
+6dB/oct / 18dB/oct
+HCUT FREQ
+OFF / 700Hz - 3200Hz - 4000Hz (50Hz/step)
+HCUT SLOPE
+6dB/oct / 18dB/oct
+USB OUT LEVEL
+0 - 50 - 100
+TX BPF SEL
+50-3050Hz / 100-2900Hz / 200-2800Hz / 300-2700Hz / 400-2600Hz
+MOD SOURCE
+MIC / USB / Bluetooth / AUTO
+USB MOD GAIN
+0 - 50 - 100
+RPTT SELECT
+OFF / RTS / DTR
+1.	 Touch and hold [PRESET], the operation 
+mode selection screen appears on the dis-
+play.
+2.	 Touch the PRESET 1 to 5 settings to be 
+changed.
+3.	 Touch the desired item, or rotate the [FUNC] 
+knob to select the desired item, then press 
+the [FUNC] knob.
+4.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value setting that is to 
+be changed.
+5.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+6.	 Press the [BACK] key twice to return to the 
+operation MODE selection screen. After 
+about 5 seconds, the operation screen will 
+return.
+
+============================================================
+PAGE 56
+============================================================
+
+54
+RTTY Operation
+1.	 Before operating with RTTY, set the Menu items in the chart to the below.
+Setting Menu
+Available Values (Bold is the default)
+RADIO SETTING
+→ MODE RTTY
+→ RPTT SELECT
+OFF
+Not available
+RTS/DTR
+Controls the RTTY transmit signal from the USB virtual COM/
+RTS or DTR ports.
+RADIO SETTING
+→ MODE RTTY
+→ MARK FREQUENCY
+1275Hz
+2125Hz
+Normally use at 2125 Hz.
+RADIO SETTING
+→ MODE RTTY
+→ SHIFT FREQUENCY
+170Hz
+200Hz
+425Hz
+850Hz
+Normally use at 170 Hz.
+RADIO SETTING
+→ MODE RTTY
+→ POLARITY TX
+NOR
+The shift direction of the RTTY transmit space frequency will 
+be lower than the mark frequency.
+REV
+The shift direction of the RTTY transmit mark frequency will 
+be lower than the space frequency.
+2.	 Set the operating mode to RTTY-L.
+Generally, amateur band stations operate RTTY in LSB.
+Align the peak of the received signal with the mark frequency and shift frequency marker of the TFT 
+screen.
+PSK Operation
+1.	 For PSK operation, set the Menu items as indicated in the below chart.
+Setting Menu
+Available Values (Bold is the default)
+RADIO SETTING
+→ MODE DATA
+→ MOD SOURCE
+MIC
+Audio is input from the MIC jack.
+USB
+Audio/Data is input from the USB jack.
+Bluetooth
+Audio/Data is input from the Bluetooth.
+AUTO
+Modulation is automatically selected according to the trans-
+mission method.
+PTT:	
+The MIC jack on the front panel.
+MOX:	
+The MIC jack on the front panel.
+CAT:	
+The USB jack on the front panel.
+RTS:	
+The USB jack on the front panel.
+DTR:	
+The USB jack on the front panel.
+VOX:	
+Terminal set with “VOX SELECT”.
+RADIO SETTING
+→ MODE DATA
+→ RPTT SELECT
+OFF
+Not available
+RTS/DTR
+Controls the DATA transmit signal from the USB virtual 
+COM/RTS or DTR ports.
+2.	 Set the operating mode to PSK.
+Set the operation mode of the data communication software application on the PC to “DATA-U”.
+Align the peak of the received signal with the mark frequency and shift frequency marker of the TFT 
+screen.
+
+============================================================
+PAGE 57
+============================================================
+
+55
+Memory Operation
+ V/M
+This key toggles frequency control between 
+VFO and the memory system.
+Memory Storage
+1.	 Set the frequency, mode, and status, as 
+desired.
+2.	 Press and hold the [V/M 
+] key.
+The memory channel list will be displayed.
+3.	 From the channel list, touch and select the 
+desired memory channel Alternately, the 
+memory channel may be selected by rotat-
+ing the [FUNC] knob.
+4.	 Press and hold the [V/M 
+] key to store 
+the frequency and other data into the se-
+lected memory channel.
+● This method may also be used to over-
+write the contents previously stored to a 
+memory channel.
+5.	 Touch [BACK], the memory is stored and 
+the screen returns to normal.
+The information saved in the memory 
+may be lost due to incorrect operation, 
+static electricity or electrical noise. Data 
+may also be lost due to component fail-
+ures and repairs.
+Make sure to write down the information 
+registered in the memories on a piece of 
+paper or by using a microSD card.
+Recall a Memory Channel other
+than the last used VFO frequency
+Rotate the MAIN DIAL/SUB DIAL knob
+to select a memory
+1.	 Press the [V/M 
+] key.
+2.	 Rotate the MAIN DIAL/SUB DIAL knob, to 
+select the desired memory channel.
+Touch the display to select a memory
+1.	 Press and hold the [V/M 
+] key.
+The memory channel list will be displayed.
+2.	 From the channel list, touch and select the 
+desired memory channel.
+Alternately, the memory channel may be 
+selected by rotating the [FUNC] knob.
+3.	 Press the [FUNC] knob.
+4.	 To exit from memory mode and return to the 
+VFO mode, press the [V/M 
+] key.
+ M►V
+•	Moving Memory Data to the VFO register
+The contents of the currently selected Memory 
+Channel may be transferred into the VFO reg-
+ister:
+1.	 Press and hold the [V/M 
+] key while 
+operating in either VFO mode, or memory 
+channel mode.
+The memory channel list will be displayed.
+2.	 From the channel list, touch the memory 
+channel to select it and transfer it to the 
+VFO.
+Alternately, the memory channel may be 
+selected by rotating the [FUNC] knob.
+3.	 Press the [M►V
+] key, the data in the 
+selected memory channel will now be trans-
+ferred to the VFO.
+
+============================================================
+PAGE 58
+============================================================
+
+56
+•	Transfer last used memory to VFO
+When in VFO mode, the last used VFO memo-
+ry may be copied to VFO.
+Press the [M►V
+] key, copy to the VFO.
+The memory last used by MAIN-side is copied 
+to MAIN-side VFO, and the memory last used 
+by SUB-side is copied to SUB-side VFO.
+•	Memory Tune Operation
+You may freely tune off from any memory chan-
+nel in a “Memory Tune” mode, this is similar 
+to VFO operation. So long as you do not over-
+write the contents of the current memory, Mem-
+ory Tune operation will not alter the contents of 
+the memory channel.
+1.	 When in memory mode, press and hold the 
+[M►V
+] key.
+● The “MT” notation will appear instead of 
+the “M-nnn”.
+2.	 Rotate the MAIN DIAL/SUB DIAL knob; you 
+will now observe that the memory channel 
+frequency is changing.
+3.	 Press the [M►V
+] key to return to the 
+originally memorized frequency of the cur-
+rent memory channel.
+
+============================================================
+PAGE 59
+============================================================
+
+57
+Recall only memories in the same frequency band (Band) using the 
+MAG (Memory Auto Grouping) function
+With the MAG (Memory Auto Grouping) function, only memory channels in the same frequency 
+band (Band) can be called.
+In the memory mode, each time the key is pressed, 
+only memory channels of the specified frequency 
+band are automatically recalled as a group, as shown 
+below:
+M-VHF
+M-AIR
+M-UHF
+M-HF
+50MHz
+M-GRP
+M-ALL
+Press the [                      ]
+Group
+Selectable Memory Channels
+M-ALL
+Recalls all memory channels regardless of frequency band.
+M-HF
+Recalls only memory channels in the HF band.
+50MHz
+Recalls only memory channels in the 50MHz band.
+M-AIR
+Recalls only memory channels in the AIR band.
+M-VHF
+Recalls only memory channels in the VHF band.
+M-UHF
+Recalls only memory channels in the UHF band.
+M-GRP
+Channels, regardless of the band, can be registered in advance and called up as 
+frequently used memory channels in the M-GRP.
+Refer to the next page for instructions to register with M-GRP.
+
+============================================================
+PAGE 60
+============================================================
+
+58
+•	Registering frequently used memory channels in M-GRP (Memory Group)
+1.	 Press the [V/M 
+] key.
+The memory channel list will be displayed.
+2.	 Rotate the [FUNC] knob to select the mem-
+ory channel to be registered in the M-GRP, 
+then press the [FUNC] knob.
+3.	 Touch [M-GRP].
+The memory channel numbers registered in the
+M-GRP are changed in white to Blue.
+•	Unregistering memory from 
+M-GRP (Memory Group)
+1.	 Press the [V/M 
+] key.
+The memory channel list will be displayed.
+2.	 Rotate the [FUNC] knob to select the mem-
+ory channel to be unregistered.
+3.	 Touch [M-GRP].
+
+============================================================
+PAGE 61
+============================================================
+
+59
+Edit memory
+•	Erasing Memory Channel Data
+The contents written to the memory channel 
+may be erased.
+1.	 Press the [V/M 
+] key.
+The memory channel list will be displayed.
+2.	 From the channel list, touch and select the 
+memory channel to be erased.
+Alternately, the memory channel may be 
+selected by rotating the [FUNC] knob.
+3.	 Touch [ERASE] to clear the contents of the 
+selected memory channel.
+4.	 Touch [BACK] to return to the previous 
+screen.
+Memory channels “M-001” and “5-01” 
+through “5-15” cannot be erased.
+•	Check Memory Channel Status
+Before programming a memory channel, the 
+current contents of that channel may be ver-
+ified without the danger of over-writing the 
+channel.
+1.	 Press the [V/M 
+] key.
+The memory channel list will be displayed.
+2.	 From the channel list, touch and select the 
+memory channel and check, or change the 
+operation mode.
+Alternately, the memory channel may be 
+selected by rotating the [FUNC] knob.
+● Press the [FUNC] knob to enter memory 
+mode on the selected channel.
+3.	 To change the operation mode, touch 
+[MODE], rotate the [FUNC] knob to select 
+the mode then press the [FUNC] knob.
+4.	 Touch [BACK] to return to the previous 
+screen.
+•	Labeling Memories
+Alphanumeric labels (“Tags”) may be append-
+ed to memory channels, to aid in recollection 
+of the channel’s use (such as a club name, a 
+location etc.).
+1.	 Press the [V/M 
+] key.
+The memory channel list will be displayed.
+2.	 From the channel list, touch and select the 
+desired memory channel.
+Alternately, the memory channel may be 
+selected by rotating the [FUNC] knob.
+3.	 Touch [NAME] area on the screen.
+The character input screen will be dis-
+played.
+4.	 Touch a character key on the display to en-
+ter the letters, numbers, or symbols of the 
+desired label.
+Up to 12 characters may be used in the cre-
+ation of a label.
+5.	 Touch [ENT].
+To add a label to another memory, repeat 
+steps 2 to 5 above.
+6.	 Touch [BACK] to save the new settings and 
+return to normal operation.
+
+============================================================
+PAGE 62
+============================================================
+
+60
+•	Scan Skip Setting
+Each memory channel can be set to be skipped
+during memory scan.
+1.	 Press the [V/M 
+] key.
+The memory channel list will be displayed.
+2.	 From the channel list, touch and select 
+the Memory Channel to be skipped during 
+scanning.
+Alternately, the memory channel may be 
+selected by rotating the [FUNC] knob.
+3.	 Touch [SCAN MEMORY] area on the 
+screen.
+4.	 Rotate the [FUNC] knob to select “SKIP”.
+● “X” lights up for channels for which “SKIP” 
+is set.
+5.	 Touch [BACK] to return to the previous 
+screen.
+To re-institute a channel into the scanning
+loop, select “SCAN” in step 4 above.
+60-Meter (5 MHz) Band
+(U.S. and U.K. Version only)
+Memory channels (U.S. version: “5-01” through 
+“5-15”, U.K. version: “5-01” through “5-07”) 
+are pre-programmed, at the factory, with the 
+permitted frequencies in the 5 MHz band, and 
+the USB, CW-U or DATA-U (U.S. version only) 
+mode is automatically selected on these chan-
+nels.
+These channels appear after the “last” PMS 
+channel (“P-50U”).
+U.S. Version
+Channel Number
+Frequency
+5-01
+5.332.000 MHz (USB)
+5-02
+5.348.000 MHz (USB)
+5-03
+5.358.500 MHz (USB)
+5-04
+5.373.000 MHz (USB)
+5-05
+5.405.000 MHz (USB)
+5-06
+5.332.000 MHz (CW-U)
+5-07
+5.348.000 MHz (CW-U)
+5-08
+5.358.500 MHz (CW-U)
+5-09
+5.373.000 MHz (CW-U)
+5-10
+5.405.000 MHz (CW-U)
+5-11
+5.332.000 MHz (DATA-U)
+5-12
+5.348.000 MHz (DATA-U)
+5-13
+5.358.500 MHz (DATA-U)
+5-14
+5.373.000 MHz (DATA-U)
+5-15
+5.405.000 MHz (DATA-U)
+U.K. Version
+Channel Number
+Frequency (U.K. Version)
+5-01
+5.260.000 MHz (USB)
+5-02
+5.280.000 MHz (USB)
+5-03
+5.290.500 MHz (USB)
+5-04
+5.368.000 MHz (USB)
+5-05
+5.373.000 MHz (USB)
+5-06
+5.400.000 MHz (USB)
+5-07
+5.405.000 MHz (USB)
+
+============================================================
+PAGE 63
+============================================================
+
+61
+For additional details on the following Functions, refer to the Advanced Manual which may 
+be downloaded from the Yaesu website.
+PMS (Programmable Memory scan)
+This function scans only the range of frequencies between the lower and upper limits registered in 
+a pair of PMS (Programmable Memory channel). 50 sets of PMS memory channels (P-01L/P-U01U 
+to P-50L/P-50U) are available.
+Split Memory
+Two different frequencies, one for receive and another for transmit, can be registered to a memory 
+channel.
+HOME Channel
+A special one-touch “HOME” channel is available for HF, 50MHz, AIR, 144MHz and 430MHz bands, 
+to allow quick recall of a favorite operating frequency /on each band.
+
+============================================================
+PAGE 64
+============================================================
+
+62
+VFO and Memory Scanning
+Either the VFO or the memory channels of the FTX-1 may be scanned, and the receiver will halt 
+scanning on any frequency with a signal strong enough to open the receiver squelch.
+In the SSB/CW and SSB-based Data modes, the decimal points in the frequency display area will 
+blink and the scanner will slow down (but does not stop).
+VFO/Memory Scan
+1.	 Set the frequency or Memory channel at 
+which scanning is to begin.
+2.	 Rotate the [AF/RF/SQL] knob so that the 
+background noise is just silenced (page 
+9).
+3.	 Pressing and holding the UP or DWN key 
+on the microphone will start the scanning.
+● The operation when a signal is received 
+during scanning varies depending on the 
+mode type.
+Other than 
+LSB, USB
+CW-L, CW-U
+Scanning will pause.
+LSB, USB
+CW-L, CW-U
+Scanning speed will be 
+slower, but scanning will not 
+be paused.
+● If the scan has paused on a signal, press-
+ing the microphone UP or DWN button 
+will cause scanning to resume instantly.
+● If the MAIN Tuning Dial (MAIN-side)/SUB 
+DIAL (SUB-side) knob is rotated while scan-
+ning is in progress, the VFO scanning or 
+memory channel scanning will continue up or 
+down in accordance with the direction of the 
+Dial Knob rotation. (In other words, if the dial 
+is rotated to the left when scanning toward a 
+higher frequency or memory channel num-
+ber, the direction of the scan will reverse.)
+To cancel scanning, press the PTT switch.
+If the microphone PTT button is pressed during 
+scanning, the scanner will halt at once. Howev-
+er, pressing the PTT button while scanning will 
+not cause transmission.
+● During MAG operation, only the channels 
+within the current Group will be scanned.
+● The manner in which the scanner resumes 
+after it has paused on a signal may be se-
+lected by using Menu item [OPERATION 
+SETTING] → [BAND/SCAN] → [SCAN RE-
+SUME].
+The default “BUSY” setting will cause the 
+scan will continue to pause while receiving 
+the signal.
+
+============================================================
+PAGE 65
+============================================================
+
+63
+Other Functions
+Band Stack Operation
+The FTX-1 employs a triple band-stack VFO 
+selection technique that permits storing up to 
+three favorite frequencies and modes onto 
+each band VFO register.
+A typical setup, for the 14MHz band, might be 
+arranged like this:
+1.	 Program 14.0250 MHz, CW-U Mode, then 
+press and hold the [MAG
+] key then 
+touch [14].
+2.	 Program 14.0800 MHz, RTTY-L Mode, then 
+press and hold the [MAG
+] key then 
+touch [14].
+3.	 Program 14.1950 MHz, USB Mode, then 
+press and hold the [MAG
+] key then 
+touch [14].
+With this configuration, successive momen-
+tary press and hold the [MAG
+] key 
+and then touching [14] will step sequentially 
+through the three Band Stack VFOs.
+【MAG         】【14】
+【MAG         】【14】
+【MAG         】
+【14】
+TOT (Time Out Timer)
+The “Time-Out Timer” (TOT) shuts the trans-
+mitter OFF after continuously transmitting for 
+the programmed time.
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [GEN-
+ERAL] → [TX TIME OUT TIMER].
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to select the TOT 
+countdown time (1 -30 min or OFF).
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the [BACK] key several times to re-
+turn to normal operation.
+Operation on Alaska Emergency
+Frequency: 5167.5kHz
+Section 97.401(d) of the regulations govern-
+ing amateur radio in the United States permit 
+emergency Amateur communications on the 
+spot frequency of 5167.5 kHz by stations in 
+(or within 92.6 km of) the state of Alaska. This 
+frequency is only to be used when the imme-
+diate safety of human life and/or property are 
+threatened, and is never to be used for routine 
+communications.
+The FTX-1 is capable of transmitting and re-
+ceiving on 5167.5 kHz under such emergency 
+conditions. Use the Setting Menu to activate 
+the Alaska Emergency Frequency feature:
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [TX 
+GNRL] → [EMERGENCY FREQ TX].
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to select “ON”.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the [BACK] key several times to re-
+turn to normal operation.
+Emergency communication on this spot fre-
+quency is now possible.
+6.	 Press the [V/M
+] key, as necessary, to 
+enter the Memory mode.
+7.	 Rotate the MAIN dial (MAIN-side)/SUB 
+DIAL (SUB-side) knob to select the emer-
+gency channel (“EMG”), which is found after 
+the channel “5-15”.
+
+============================================================
+PAGE 66
+============================================================
+
+64
+Using the microSD Card
+The following operations can be completed 
+with the use of an microSD card in the trans-
+ceiver:
+● Record/Play of received audio
+● Voice memory (voice recording for transmis-
+sion)
+● Saving the Memory Channel information
+● Saving the Set-up Mode settings
+● Transceiver firmware update
+● Save a screen capture of the TFT display
+•	microSD Cards that can be used
+YAESU has tested with the 2GB microSD card, 
+and 4GB, 8GB, 16GB and 32GB microSDHC 
+cards, most can be used in this radio.
+Please format (initialize) the microSD card 
+used for the first time on this unit with this 
+transceiver.
+•	The microSD or microSDHC cards are 
+not provided with the product.
+•	Not all microSD and microSDHC cards 
+sold commercially are guaranteed to 
+work with this product.
+•	Do not touch the contacts of the 
+microSD card with your hands.
+•	microSD cards formatted on other de-
+vices may not properly save information 
+when used with this transceiver. Format 
+microSD cards again with this transceiv-
+er when using memory cards formatted 
+with another device.
+•	Do not remove the microSD card or turn 
+the transceiver OFF, while saving data 
+to the microSD card is in progress.
+•	When a single microSD card is used for 
+a long period of time, writing and dele-
+tion of data may become disabled. Use 
+a new microSD card when data can no 
+longer be written or erased.
+•	Note that Yaesu shall not be liable for 
+any damages suffered as a result of 
+data loss or corruption in use of the mi-
+croSD card.
+•	Installing the microSD card
+1.	 Turn OFF the transceiver.
+2.	 Insert the microSD card into the SD card 
+slot, with the contact face on the front, until 
+a click sound is heard.
+To prevent the microSD card from pop-
+ping out, insert and remove the microSD 
+card firmly.
+Contact face
+•	Removing the microSD card
+1.	 Turn OFF the transceiver.
+2.	 Push in on the microSD card.
+A click sound will be heard and the microSD 
+card will be pushed outward.
+•	Formatting a microSD card
+When using a new microSD card, format it ac-
+cording to the following procedure.
+Formatting a microSD card erases all 
+data saved on it. Before formatting the 
+microSD card, be sure to check the data 
+previously saved on it.
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [EXTENSION SETTING] → [SD 
+CARD].
+3.	 Touch “DONE” on the “FORMAT” item.
+The format confirmation screen will be dis-
+played.
+4.	 Touch “OK”, the SD card will be initialized.
+Touch “CANCEL” to cancel the initialization.
+5.	 “FORMAT COMPLETED” will be displayed 
+when initialization is completed.
+6.	 Touch the screen to end formatting.
+7.	 Press the [BACK] key several times to re-
+turn to normal operation.
+
+============================================================
+PAGE 67
+============================================================
+
+65
+Saving Memory data and Setting Menu data
+The Memory Channel data, and the Setting Menu data can be saved to the microSD Card:
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [EXTENSION SETTING] → [SD 
+CARD].
+3.	 Touch “DONE” for the data item to be 
+saved.
+Saving memory data
+Save setting menu data
+4.	 To save the file with a new name, touch 
+“NEW”.
+To overwrite previously saved data, touch 
+the file name, and touch “OK” when the 
+overwrite confirmation screen appears.
+Touch “CANCEL” to cancel overwrite 
+save.
+When overwriting
+When saving with a new file name
+5.	 Enter the file name (maximum 15 charac-
+ters) on the file name input screen.
+If the file name is not to be changed, pro-
+ceed to step 6 as it is.
+6.	 Touch “ENT” to start saving data, or touch 
+“BACK” to cancel the name input.
+7.	 “FILE SAVED” is displayed when data sav-
+ing is completed.
+8.	 Touch the screen to end saving data.
+9.	 Press the [BACK] key several times to re-
+turn to normal operation.
+
+============================================================
+PAGE 68
+============================================================
+
+66
+•	Reading Memory and Set Menu data
+The Memory and Setting Menu data saved on 
+the microSD card may be read to the Trans-
+ceiver.
+1.	 Press the [FUNC] knob.
+2.	 Select [EXTENSION SETTING] → [SD 
+CARD].
+3.	 Touch “DONE” of the data item to be read.
+Reading memory data
+Loading setting menu data
+4.	 Touch the file name to be loaded.
+Touch “BACK” to cancel reading data.
+5.	 When the overwrite confirmation screen ap-
+pears, touch “OK”.
+6.	 “FILE LOADED” is displayed when the data
+7.	 reading is completed.
+8.	 Touch the TFT screen to finish loading the 
+data.
+9.	 Once the power is turned OFF, the power is 
+turned ON automatically afterwards.
+With some OEM microSD cards, the 
+screen may not be displayed, even when 
+the power is turned ON. If the screen 
+does not appear, remove the microSD 
+card and the screen will appear.
+For additional details on the following Functions, refer to the Advanced Manual which may 
+be downloaded from the Yaesu website.
+Screen capture
+The display on the TFT screen may be saved on the microSD card.
+Display the microSD Card Information
+The memory free space of the microSD card may be checked.
+Adjusting the Date and Clock
+If the time stamp of the saved file is not correct, adjust the date and time by the following oper-
+ation.
+Adjusting the Date
+1.	 Press and hold the [FUNC] knob → Select [EXTENSION SETTING] → [DATE&TIME].
+2.	 Select the item “DAY”, “MONTH” or “YEAR”.
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” on either side of the value to select the “day", 
+“month” and “year", then press the [FUNC] knob.
+4.	 Press the [FUNC] knob, or wait for about 3 seconds to save the setting.
+5.	 Press the [BACK] key several times to return to normal operation.
+Adjusting the Clock
+1.	 Press and hold the [FUNC] knob → Select [EXTENSION SETTING] → [DATE&TIME].
+2.	 Select the item “HOUR” or “MINUTE”.
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” on either side of the value to select the “hour” 
+and “minute”, then press the [FUNC] knob.
+4.	 Press the [FUNC] knob, or wait for about 3 seconds to save the setting.
+5.	 Press the [BACK] key several times to return to normal operation.
+
+============================================================
+PAGE 69
+============================================================
+
+67
+Setting Menu
+The Menu system of the FTX-1 provides extensive customization capability. The transceiver func-
+tions can be tailored for the most demanding operators. The Setting Menus are grouped into five 
+specific utilization categories.
+Date, SD Card Settings, Firmware
+Version Display, Reset Operation.
+APRS Setting
+SSB, AM, FM, Data & Digital
+Communication (such as RTTY)
+CW operating Setting
+Display Setting
+Comprehensive settings such as: Transmit & Receive,
+Interference Reduction, Memory, Scan, etc.
+Using the Menu
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch the category item that is to be set (see above).
+3.	 Touch the desired item, or rotate the [FUNC] knob to select the desired item, then press the 
+[FUNC] knob.
+4.	 Rotate the [FUNC] knob to select the desired item, then touch the item, or rotate the [FUNC] 
+knob to select the desired item, then press the [FUNC] knob.
+5.	 Rotate the [FUNC] knob, or touch “<” or “>” on either side of the value setting that is to be 
+changed.
+6.	 Press the [FUNC] knob, or wait for about 3 seconds to save the setting.
+7.	 Press the [BACK] key several times to return to normal operation.
+Reset the Setting Menu
+Use this procedure to restore the Menu settings to their factory defaults, without affecting the 
+Programmed Frequency Memories.
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [EXTENSION SETTING] → [RESET].
+3.	 Touch “DONE” of the “MENU CLEAR” item.
+The reset confirmation screen will be displayed.
+4.	 Touch “OK” or press the [FUNC] knob to reset.
+(Touch “CANCEL” to cancel the reset)
+5.	 Once the power is turned OFF, it will turn ON automatically afterwards.
+Setting Menu reset is complete.
+
+============================================================
+PAGE 70
+============================================================
+
+68
+Tables of Menu list Operations
+Note: For details, refer to the Advanced Manual (download from the Yaesu website).
+Menu Function
+Available Settings (Default: Bold)
+RADIO SETTING
+MODE SSB
+AF TREBLE GAIN
+-20 - 0 - 10
+AF MIDDLE TONE GAIN
+-20 - 0 - 10
+AF BASS GAIN
+-20 - 0 - 10
+AGC FAST DELAY
+20 - 300 - 4000 (20msec/step) 
+AGC MID DELAY
+20 - 1000 - 4000 (20msec/step) 
+AGC SLOW DELAY
+20 - 3000 - 4000 (20msec/step) 
+LCUT FREQ
+OFF / 100 - 1000 (50Hz/step) 
+LCUT SLOPE
+6dB/oct / 18dB/oct
+HCUT FREQ
+700 - 3000 - 4000 (50Hz/step) / OFF
+HCUT SLOPE
+6dB/oct / 18dB/oct
+USB OUT LEVEL
+0 - 50 - 100
+TX BPF SEL
+50-3050 / 100-2900 / 200-2800 / 300-2700 / 400-2600
+MOD SOURCE
+MIC / USB / Bluetooth / AUTO
+USB MOD GAIN
+0 - 50 - 100
+RPTT SELECT
+OFF / RTS / DTR
+NAR WIDTH
+300/400/600/850/1100/1200/1500/1650/1800/1950/
+2100/2250/2400/2450/2500/2600/2700/2800/2900/
+3000/3200/3500/4000 (Hz) 
+CW AUTO MODE
+OFF / 50M / ON
+MODE AM
+AF TREBLE GAIN
+-20 - 0 - 10
+AF MIDDLE TONE GAIN
+-20 - 0 - 10
+AF BASS GAIN
+-20 - 0 - 10
+AGC FAST DELAY
+20 - 1000 - 4000 (20msec/step) 
+AGC MID DELAY
+20 - 2000 - 4000 (20msec/step) 
+AGC SLOW DELAY
+20 - 4000 (20msec/step) 
+LCUT FREQ
+OFF / 100 - 1000 (50Hz/step) 
+LCUT SLOPE
+6dB/oct / 18dB/oct
+HCUT FREQ
+700 - 4000 (50Hz/step) / OFF
+HCUT SLOPE
+6dB/oct / 18dB/oct
+USB OUT LEVEL
+0 - 50 - 100
+TX BPF SEL
+50-3050 / 100-2900 / 200-2800 / 300-2700 / 400-2600
+MOD SOURCE
+MIC / USB / Bluetooth / AUTO
+USB MOD GAIN
+0 - 50 - 100
+RPTT SELECT
+OFF / RTS / DTR
+MODE FM
+AF TREBLE GAIN
+-20 - 0 - 10
+AF MIDDLE TONE GAIN
+-20 - 0 - 10
+AF BASS GAIN
+-20 - 0 - 10
+AGC FAST DELAY
+20 - 4000 (msec)  (20msec/step) 
+AGC MID DELAY
+20 - 240 - 4000 (msec)  (20msec/step) 
+AGC SLOW DELAY
+20 - 500 - 4000 (msec)  (20msec/step) 
+LCUT FREQ
+OFF / 100 - 300 - 1000 (Hz)  (50Hz/step) 
+LCUT SLOPE
+6dB/oct / 18dB/oct
+HCUT FREQ
+700 - 3000 - 4000 (Hz)  (50Hz/step) /OFF
+HCUT SLOPE
+6dB/oct / 18dB/oct
+
+============================================================
+PAGE 71
+============================================================
+
+69
+Menu Function
+Available Settings (Default: Bold)
+USB OUT LEVEL
+0 - 50 - 100
+MOD SOURCE
+MIC / USB / Bluetooth / AUTO
+USB MOD GAIN
+0 - 50 - 100
+RPTT SELECT
+OFF / RTS / DTR
+RPT SHIFT
+– / SIMP / + / ARS
+RPT SFT FREQ(28MHz)
+0 - 100 - 1000 (kHz)  (10kHz/step) 
+RPT SFT FREQ(50MHz)
+0 - 500 - 4000 (kHz)  (10kHz/step) 
+RPT SFT FREQ(144MHz)
+0.00 - 100 (MHz)  (50kHz/step) 
+RPT SFT FREQ(430MHz)
+0.00 - 5.00 - 100 (MHz)  (50kHz/step) 
+SQL TYPE
+OFF / ENC / TSQ / DCS / PR FREQ / REV TONE
+TONE FREQ
+67.0 - 100.0 - 254.1 (Hz) 
+DCS CODE
+023 - 754
+DCS RX REVERS
+NORMAL / REVERS / BOTH
+DCS TX REVERS
+NORMAL / REVERS
+PR FREQ
+300 - 1600 - 3000 (Hz)  (100Hz/step) 
+DTMF DELAY
+50 / 250 / 450 / 750 / 1000 (ms) 
+DTMF SPEED
+50 / 100 (ms) 
+DTMF MEMORY1 - 9
+–
+MODE DATA
+AF TREBLE GAIN
+-20 - 0 - 10
+AF MIDDLE TONE GAIN
+-20 - 0 - 10
+AF BASS GAIN
+-20 - 0 - 10
+AGC FAST DELAY
+20 - 160 - 4000 (20msec/step) 
+AGC MID DELAY
+20 - 500 - 4000 (20msec/step) 
+AGC SLOW DELAY
+20 - 1500 - 4000 (20msec/step) 
+LCUT FREQ
+OFF / 100 - 1000 (50Hz/step) 
+LCUT SLOPE
+6dB/oct / 18dB/oct
+HCUT FREQ
+700 - 3200 - 4000 (50Hz/step) /OFF
+HCUT SLOPE
+6dB/oct / 18dB/oct
+USB OUT LEVEL
+0 - 50 - 100
+TX BPF SEL
+50-3050 / 100-2900 / 200-2800 / 300-2700 / 400-2600
+MOD SOURCE
+MIC / USB / Bluetooth / AUTO
+USB MOD GAIN
+0 - 50 - 100
+RPTT SELECT
+OFF / RTS / DTR
+NAR WIDTH
+50/100/150/200/250/300/350/400/450/500/600/800/
+1200/1400/1700/2000/2400/3000/3200/3500/4000 (Hz) 
+PSK TONE
+1000 / 1500 / 2000 (Hz) 
+DATA SHIFT (SSB)
+0 - 1500 - 3000 (10Hz/step) 
+MODE RTTY
+AF TREBLE GAIN
+-20 - 0 - 10
+AF MIDDLE TONE GAIN
+-20 - 0 - 10
+AF BASS GAIN
+-20 - 0 - 10
+AGC FAST DELAY
+20 - 160 - 4000 (20msec/step) 
+AGC MID DELAY
+20 - 500 - 4000 (20msec/step) 
+AGC SLOW DELAY
+20 - 1500 - 4000 (20msec/step) 
+LCUT FREQ
+OFF / 100Hz - 300Hz - 1000Hz (50Hz/step) 
+LCUT SLOPE
+6dB/oct / 18dB/oct
+HCUT FREQ
+700Hz - 3000Hz - 4000Hz (50Hz/step) / OFF
+HCUT SLOPE
+6dB/oct / 18dB/oct
+USB OUT LEVEL
+0 - 50 - 100
+
+============================================================
+PAGE 72
+============================================================
+
+70
+Menu Function
+Available Settings (Default: Bold)
+RPTT SELECT
+OFF / RTS / DTR
+NAR WIDTH
+50/100/150/200/250/300/350/400/450/500/600/800/
+1200/1400/1700/2000/2400/3000/3200/3500/4000 (Hz)
+MARK FREQUENCY
+1275 / 2125 (Hz)
+SHIFT FREQUENCY
+170 / 200 / 425 / 850 (Hz)
+POLARITY TX
+NOR / REV
+DIGITAL
+DIGITAL POPUP
+OFF / 2 - 10 - 60 / CONTINUE
+LOCATION SERVICE
+OFF / ON
+STANDBY BEEP
+OFF / ON
+DP-ID LIST
+–
+RADIO ID
+– (cannot be edited)
+CW SETTING
+MODE CW
+AF TREBLE GAIN
+-20 - 0 - 10
+AF MIDDLE TONE GAIN
+-20 - 0 - 10
+AF BASS GAIN
+-20 - 0 - 10
+AGC FAST DELAY
+20 - 160 - 4000 (msec)  (20msec/step) 
+AGC MID DELAY
+20 - 500 - 4000 (msec)  (20msec/step) 
+AGC SLOW DELAY
+20 - 1500 - 4000 (msec) (20msec/step) 
+LCUT FREQ
+OFF / 100 - 250 - 1000 (Hz) (50Hz/step) 
+LCUT SLOPE
+6dB/oct / 18dB/oct
+HCUT FREQ
+700 - 1200 - 4000 (Hz)  (50Hz/step) /OFF
+HCUT SLOPE
+6dB/oct / 18dB/oct
+USB OUT LEVEL
+0 - 50 - 100
+RPTT SELECT
+OFF / RTS / DTR
+NAR WIDTH
+50/100/150/200/250/300/350/400/450/500/600/800/
+1200/1400/1700/2000/2400/3000/3200/3500/4000 (Hz) 
+PC KEYING
+OFF / RTS / DTR
+CW BK-IN TYPE
+SEMI / FULL
+CW FREQ DISPLAY
+DIRECT FREQ / PITCH OFFSET
+QSK DELAY TIME
+15 / 20 / 25 / 30 (msec)
+CW INDICATOR
+OFF / ON
+KEYER
+KEYER TYPE
+OFF / BUG / ELEKEY-A / ELEKEY-B / ELEKEY-Y / ACS
+KEYER DOT/DASH
+NOR / REV
+CW WEIGHT
+2.5 - 3.0 - 4.5
+NUMBER STYLE
+1290 / AUNO / AUNT / A2NO / A2NT / 12NO / 12NT
+CONTEST NUMBER
+1 - 9999
+CW MEMORY 1 - 5
+TEXT / MESSAGE
+REPEAT INTERVAL
+1 - 5 - 60 (sec)
+OPERATION SETTING
+GENERAL
+BEEP LEVEL
+0 - 30 - 100
+RF/SQL VR
+RF / SQL / AUTO
+TUN/LIN PORT SELECT
+OPTION / BAND DATA / CAT-3 / GPO
+TUNER SELECT
+OPTION / ATAS
+CAT-1 RATE
+4800 / 9600 / 19200 / 38400 / 115200 (bps) 
+CAT-1 TIME OUT TIMER
+10 / 100 / 1000 / 3000 (msec) 
+CAT-1 CAT-3 STOP BIT
+1bit / 2bit
+
+============================================================
+PAGE 73
+============================================================
+
+71
+Menu Function
+Available Settings (Default: Bold)
+CAT-2 RATE
+4800 / 9600 / 19200 / 38400 / 115200 (bps) 
+CAT-2 TIME OUT TIMER
+10 / 100 / 1000 / 3000 (msec) 
+CAT-3 RATE
+4800 / 9600 / 19200 / 38400 / 115200 (bps) 
+CAT-3 TIME OUT TIMER
+10 / 100 / 1000 / 3000 (msec) 
+TX TIME OUT TIMER
+OFF / 1 - 30 (min) 
+REF FREQ FINE ADJ
+-25 - 0 - 25
+CHARGE CONTROL
+OFF / ON
+SUB BAND MUTE
+OFF / ON
+SPEAKER SELECT
+Auto / INT / BOTH
+DITHER
+OFF / ON
+BAND/SCAN
+QMB CH
+5ch / 10ch
+BAND STACK
+OFF / ON
+BAND EDGE
+OFF / ON
+SCAN RESUME
+BUSY / HOLD / 1sec / 3sec / 5sec
+RX DSP
+IF NOTCH WIDTH
+NARROW / WIDE
+NB REJECTION
+LOW / MID / HIGH
+NB WIDTH
+NARROW / MEDIUM / WIDE
+APF WIDTH
+NARROW / MEDIUM / WIDE
+CONTOUR LEVEL
+-40 - 15 - 0 - 20
+CONTOUR WIDTH
+1 - 10 - 11
+TX AUDIO
+AMC RELEASE TIME
+FAST / MID / SLOW
+PRMTRC EQ1 FREQ
+OFF / 100 - 700 (100Hz/step) 
+PRMTRC EQ1 LEVEL
+-20 - 0 - 5 - 10
+PRMTRC EQ1 BWTH
+0 - 10
+PRMTRC EQ2 FREQ
+OFF / 700 - 1500 (100Hz/step) 
+PRMTRC EQ2 LEVEL
+-20 - 0 - 5 - 10
+PRMTRC EQ2 BWTH
+0 - 10
+PRMTRC EQ3 FREQ
+OFF / 1500 - 3200 (100Hz/step) 
+PRMTRC EQ3 LEVEL
+-20 - 0 - 5 - 10
+PRMTRC EQ3 BWTH
+0 - 10
+P PRMTRC EQ1 FREQ
+OFF / 100 - 700 (100Hz/step) 
+P PRMTRC EQ1 LEVEL
+-20 - 0 - 10
+P PRMTRC EQ1 BWTH
+0 - 2 - 10
+P PRMTRC EQ2 FREQ
+OFF / 700 - 1500 (100Hz/step) 
+P PRMTRC EQ2 LEVEL
+-20 - 0 - 10
+P PRMTRC EQ2 BWTH
+0 - 1 - 10
+P PRMTRC EQ3 FREQ
+OFF / 1500 - 3200 (100Hz/step) 
+P PRMTRC EQ3 LEVEL
+-20 - 0 - 10
+P PRMTRC EQ3 BWTH
+0 - 1 - 10
+TX GNRL
+MAX POWER(BAT)
+0.5 - 6.0 (W) 
+QRP MODE
+OFF / ON
+HF MAX POWER
+0.5 - 10.0 (W) 
+50M MAX POWER
+0.5 - 10.0 (W) 
+70M MAX POWER
+0.5 - 6.0 (W) 
+144M MAX POWER
+0.5 - 10.0 (W) 
+430M MAX POWER
+0.5 - 10.0 (W) 
+AM HF/50 MAX POWER
+0.5 - 2.5 (W) 
+
+============================================================
+PAGE 74
+============================================================
+
+72
+Menu Function
+Available Settings (Default: Bold)
+AM V/U MAX POWER
+0.5 - 2.5 (W) 
+VOX SELECT
+MIC / USB / BLUETOOTH
+EMERGENCY FREQ TX
+OFF / ON
+TX INHIBIT
+OFF / ON
+METER DETECTOR
+AVERAGE / PEAK
+KEY/DIAL
+SSB/CW DIAL STEP
+5 / 10 / 20 (Hz) 
+RTTY/PSK DIAL STEP
+5 / 10 / 20 (Hz) 
+FM DIAL STEP
+5 / 10 / 20 / Auto (Hz)
+CH STEP
+1 / 2.5 / 5 / 10 (kHz) 
+AM CH STEP
+2.5 / 5 / 9 / 10 / 12.5 / 25 (kHz) 
+FM CH STEP
+5 / 6.25 / 10 / 12.5 / 20 / 25 (kHz) 
+MAIN STEPS PER REV.
+50 / 100 / 200
+MIC P1 - MIC P4
+LOCK / QMB / A/B / V/M / TUNER / VOX/MOX /MODE / 
+ZIN_SPOT / SPLIT / FINE / NAR / NB /DNR / FREQ UP / 
+FREQ DOWN / BAND UP /BAND DOWN / ATT / IPO / 
+DNF / AGC
+MIC P1:	
+LOCK
+MIC P2:	
+QMB
+MIC P3:	
+BAND UP
+MIC P4:	
+V/M
+MIC UP:	
+FREQ UP
+MIC DOWN:	 FREQ DOWN
+MIC UP
+MIC DOWN
+MIC SCAN
+OFF / ON
+OPTION
+TUNER TYPE SEL ANT1
+INT / INT(FAST) / EXT / ATAS
+TUNER TYPE SEL ANT2
+INT / INT(FAST) / EXT / ATAS
+ANT2 OPERATION
+TRX / TX-ANT1,RX-ANT2 / TRX-ANT1,RX-ANT2
+HF ANT SELECT
+ANT1 / ANT2
+HF MAX POWER
+5 - 100 (W) 
+50M MAX POWER
+5 - 100 (W) 
+70M MAX POWER
+5 - 50 (W) 
+144M MAX POWER
+5 - 50 (W) 
+430M MAX POWER
+5 - 50 (W) 
+AM MAX POWER
+5 - 25 (W) 
+AM V/U MAX POWER
+5 - 13 (W) 
+GPS
+OFF / ON
+GPS PINNING
+OFF / ON
+GPS BAUDRATE
+4800 / 9600 / 19200 / 38400 / 115200
+BLUETOOTH
+OFF / ON
+BLUETOOTH DEVICE LIST
+DISCONNECT / CONNECT
+BLUETOOTH AUDIO
+FIX / AUTO
+DISPLAY SETTING
+DISPLAY
+MY CALL
+Max 10 characters (FTX-1) 
+MY CALL TIME
+OFF / 1 / 2 / 3 / 4 / 5 (sec) 
+POP-UP TIME
+FAST / MID / SLOW
+SCREEN SAVER
+OFF / 1 / 2 / 5 / 15 / 30 / 60 (min) 
+SCREEN SAVER(BAT)
+OFF / 1 / 2 / 5 / 15 / 30 / 60 (min) 
+SAVER TYPE
+Logo / DIMMER / DISP OFF
+AUTO POWER OFF
+OFF / 0.5 - 12 (hour)  (0.5hour/step) 
+LED DIMMER
+OFF / 1 - 20
+
+============================================================
+PAGE 75
+============================================================
+
+73
+Menu Function
+Available Settings (Default: Bold)
+UNIT
+POSITION UNIT
+MM.MM / MM.ss
+DISTANCE UNIT
+km / mile
+SPEED UNIT
+km/h / knot / mph
+ALTITUDE UNIT
+m / ft
+TEMP UNIT
+c / f
+RAIN UNIT
+mm / INCH
+WIND UNIT
+m/s / mph
+SCOPE
+RBW
+HIGH / MID / LOW
+SCOPE CTR
+FILTER / CARRIER
+2D DISP SENSITIVITY
+NORMAL / HI
+3DSS DISP SENSITIVITY
+NORMAL / HI
+AVERAGE
+OFF / 2 / 4 / 8
+VFO IND COLOR
+VMI COLOR VFO
+BLUE / GREEN / WHITE / NONE
+VMI COLOR MEMORY
+BLUE / GREEN / WHITE / NONE
+VMI COLOR CLAR
+RED / NONE
+EXTENSION SETTING
+DATE&TIME
+TIME ZONE
+-12.0 - 0.0 - 14.0
+DAY
+–
+MONTH
+–
+YEAR
+–
+HOUR
+–
+MINUTE
+–
+GPS TIME SET
+AUTO / MANUAL
+MY POSITION
+MY POSITION
+GPS / MANUAL
+MY POSITION LATITUDE
+N 00° 00.00’(00”)
+MY POSITION LONGTUDE
+E 000° 00.00’(00”)
+SD CARD
+MEM LIST LOAD
+–
+MEM LIST SAVE
+–
+MENU LOAD
+–
+MENU SAVE
+–
+INFORMATIONS
+–
+FIRMWARE UPDATE
+–
+FORMAT
+–
+SOFT VERSION
+–
+–
+CALIBRATION
+CALIBRATION
+–
+RESET
+MEMORY CLEAR
+–
+MENU CLEAR
+–
+ALL RESET
+–
+APRS SETTING
+Refer to the separate Operation Manual APRS Edition for details on the functions.
+
+============================================================
+PAGE 76
+============================================================
+
+74
+Optional Accessories
+FC-40 External Automatic Antenna Tuner (for Wire Antenna)
+The FC-40 makes use of the control circuitry built into the transceiver, which allows the operator to 
+control and monitor automatic operation of the FC-40, which mounts near the antenna feedpoint. 
+The FC-40 uses specially selected, thermally stable components, and is housed in a waterproof 
+case to withstand severe environmental conditions with high reliability.
+A carefully-chosen combination of solid-state switching components and high-speed relays allows 
+the FC-40 to match a wide variety of antennas to within a 2:1 SWR on any amateur band frequency 
+(160 through 6 meters), typically in less than eight seconds. Transmitter power required for match-
+ing may be as little as 4 - 60 Watts, and matching settings are automatically stored in memory for 
+instant recall when the same frequency range is selected later.
+Please see the FC-40 Operating Manual for detailed information.
+The FC-40 cannot be connected to the FTX-1 Field configuration.
+•	Interconnections to FTX-1 optima
+After mounting the FC-40, connect the cables from the FC-40 to the ANT and TUNER jacks on the 
+rear panel of the FTX-1 optima Transceiver.
+Turn OFF the external power supply switch and the FTX-1 power supply switch first before 
+connecting the cables.
+Install the supplied ferrite core as 
+close to the connector as possible.
+Wrap the ends of the waterproof
+cap with the supplied sealing 
+tape to protect against moisture
+ingress.
+Antennna
+Antennna
+Terminal
+Control Cable (supplied with FC-40) 
+GND Terminal
+Antenna Cable
+(supplied with FC-40)
+
+============================================================
+PAGE 77
+============================================================
+
+75
+•	Setup the transceiver
+The optional FC-40 Automatic Antenna Tuner 
+provides automatic tuning of a coaxial line to 
+present nominal 50-ohm impedance to the 
+FTX-1 optima’s ANT jack.
+Before tuning can begin, the FTX-1 optima 
+must be configured to recognize that the FC-40 
+is being used.
+Configuration is done using the Setting Menu 
+Mode:
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [GEN-
+ERAL] → [TUNER SELECT].
+3.	 Rotate the [FUNC] knob, or touch “<” or 
+“>” on either side of the value to select 
+“OPTION”.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Select [OPERATION SETTING] → [OP-
+TION] → [TUNER TYPE SEL ANT1] or 
+[TUNER TYPE SEL ANT2].
+6.	 Rotate the [FUNC] knob, or touch “<” or 
+“>” on either side of the value to select 
+“EXT”.
+7.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+8.	 Press the [BACK] key several times to re-
+turn to normal operation.
+•	Tuning Operation
+Depending on the installation and loca-
+tion of some antennas, it may not be pos-
+sible to tune to a low SWR.
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [TUNER].
+A “TUNE” icon will appear in the display; 
+and the tuner function is activated.
+3.	 Touch [ANT TUNE] key to begin automatic 
+tuning.
+The transmitter will be engaged, and “TUNE” 
+will be blinks while tuning is in progress.
+●	 When the optimum tuning point has been 
+reached, the transceiver will return to 
+receive, and the “TUNER” icon will again 
+glow steadily (instead of blinking).
+4.	 To disengage the ATU from the transmit 
+line, touch [TUNE].
+FC-80 Automatic Antenna Tuner
+The FC-80 Automatic Antenna Tuner responds 
+to control commands from the FTX-1 Field 
+Transceiver, providing microprocessor-based 
+impedance matching on the 160 through 6 me-
+ter Amateur bands.
+The FC-80 cannot be connected to the 
+FTX-1 optima configuration.
+•	Setup the transceiver
+Before tuning can begin, the FTX-1 Field must 
+be configured to recognize that the FC-80 is 
+being used.
+Configuration is done using the Setting Menu 
+Mode:
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [GEN-
+ERAL] → [TUNER SELECT].
+3.	 Rotate the [FUNC] knob, or touch “<” or 
+“>” on either side of the value to select 
+“OPTION”.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the [BACK] key several times to re-
+turn to normal operation.
+•	Tuning Operation
+Depending on the installation and loca-
+tion of some antennas, it may not be pos-
+sible to tune to a low SWR.
+1.	 Press and hold the [FUNC] knob.
+2.	 Touch [TUNER].
+A “TUNE” icon will appear in the display; 
+and the tuner function is activated.
+3.	 Touch [ANT TUNE] key to begin automatic 
+tuning.
+The transmitter will be engaged, and “TUNE” 
+will be blinks while tuning is in progress.
+●	 When the optimum tuning point has been 
+reached, the transceiver will return to 
+receive, and the “TUNER” icon will again 
+glow steadily (instead of blinking).
+4.	 To disengage the ATU from the transmit 
+line, touch [TUNE].
+
+============================================================
+PAGE 78
+============================================================
+
+76
+Active-Tuning Antenna System (ATAS-120A)
+ATAS-120A is a multi-band auto-tuning antenna that can be used in the amateur bands from the 
+HF band to the UHF band (7/14/21/28(29) /50/144/430). Using the active tuning mechanism, tuning 
+can be carried out automatically by the control signal from FTX-1. Please refer to the ATAS-120A 
+Operating Manual for the assembly and installation of ATAS-120A.
+The ATAS-120A cannot be used when operating on the Li-Ion Battery Pack SBR-52LI power 
+alone for the FTX-1 Field. An external 13.8V power supply must be used.
+DC 13.8V, 5A
+(Required w/ATAS-120A)
+DC 13.8V, 25A
+FTX-1 Field
+FTX-1 optima
+To switch between ANT 1 and ANT 2,
+press and hold the [FUNC] knob → touch [ANT] to switch.
+ATAS-120A
+ATAS-120A
+Commercial
+antenna
+duplexer
+Commercial
+antenna base
+Commercial
+antenna base
+Commercial
+antenna duplexer
+•	Interconnections to FTX-1
+Connect “ATAS-120A” to the ANT terminal of 
+the FTX-1 with a coaxial cable as shown in the 
+diagram below.
+
+============================================================
+PAGE 79
+============================================================
+
+77
+•	Setup the transceiver
+Before tuning can begin, the FTX-1 must be 
+configured to recognize that the ATAS-120A is 
+being used.
+Configuration is done using the Setting Menu 
+Mode:
+Setting for operation with the Field head only
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [GEN-
+ERAL] → [TUNER SELECT].
+3.	 Rotate the [FUNC] knob, or touch “<” or “>” 
+on either side of the value to select “ATAS”.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the [BACK] key several times to re-
+turn to normal operation.
+The “ATAS” icon will appear in the display.
+When attaching the Field Head to the 
+SPA-1 and using the SPA-1’s built-in tun-
+er, change the above setting to “OPTION.”
+Setting for operation with the FTX-1 optima
+1.	 Press and hold the [FUNC] knob.
+2.	 Select [OPERATION SETTING] → [OP-
+TION] → [TUNER TYPE SEL ANT1] or 
+[TUNER TYPE SEL ANT2].
+3.	 Rotate the [FUNC] knob, or touch “<” or 
+“>” on either side of the value to select 
+“ATAS”.
+4.	 Press the [FUNC] knob, or wait for about 3 
+seconds to save the setting.
+5.	 Press the [BACK] key several times to re-
+turn to normal operation.
+The “ATAS” icon will appear in the display.
+•	Tuning Operation
+Depending on the installation and loca-
+tion of some antennas, it may not be pos-
+sible to tune to a low SWR.
+The tuning of the ATAS-120A is carried out au-
+tomatically.
+When using the ATAS-120A for the first 
+time or when tuning for the first time after 
+resetting the FTX-1, tuning is not performed 
+for about 1 minute until the FTX-1 recogniz-
+es the ATAS-120A even if the touch [ANT 
+TUNE].
+Tuning is performed after recognizing the 
+ATAS-120A.
+Press the [TUNE] key to begin automatic tun-
+ing.
+● The transmitter will be engaged, and the 
+“ATAS” icon will blink while tuning is in prog-
+ress.
+● When the optimum tuning point has been 
+reached, the transceiver will return to re-
+ceive, and the “ATAS” icon will again glow 
+steadily (instead of blinking).
+•	Manual Tuning
+The tuning of the ATAS-120A may be carried 
+out manually.
+Press the PTT switch on the microphone to 
+transmit and then press the UP/DWN button on 
+the microphone to adjust the antenna until the 
+meter indicates the minimum SWR.
+The meter on the screen will automatically 
+change to the SWR meter.
+
+============================================================
+PAGE 80
+============================================================
+
+78
+Bluetooth Unit BU-6
+The FTX-1 can be equipped with the Bluetooth function by installing the optional Bluetooth unit 
+“BU-6”. Hands-free operation is possible using the optional Bluetooth headset (SSM-BT20) or a 
+commercially available Bluetooth headset.
+The BU-6 consists of a BU-5 and cover exclusively for the FTX-1.
+For additional details on the Bluetooth Functions, refer to the Advanced Manual which may 
+be downloaded from the Yaesu website.
+1.	 Turn the transceiver OFF.
+2.	 Remove the Bluetooth unit cover from the transceiver.
+3.	 Apply double-sided tape to Bluetooth unit.
+Double-sided tape is included with the BU-6.
+4.	 Align the Bluetooth unit connector with the connector on the board and install.
+5.	 Carefully attach the supplied cover.
+Bluetooth Unit
+Apply double-sided tape
+Supplied Cover
+Remove
+Side Carry Handle MHG-1
+Do not use an improper screw for mounting the MHG-1! An improper screw may cause a “short 
+circuit” to the internal circuitry, causing serious damage!
+Handle
+Handle end
+Handle end
+Mounting Screw
+Mounting Screw
+
+============================================================
+PAGE 81
+============================================================
+
+79
+Resetting the Microprocessor
+Memory channels, setting menus, and various settings can be initialized and returned to their factory 
+defaults.
+EXTENSION SETTING
+FUNC knob
+RESET
+DONE
+1.	 Display the reset item selection screen.
+Press and hold the [FUNC] knob → touch [EXTENSION SETTING] → touch [RESET]
+2.	 Touch “DONE” of the item you want to reset (see below).
+Or Select an item with the [FUNC] knob and press the [FUNC] knob.
+A confirmation screen for reset execution is displayed.
+MEMORY CLEAR (Memory Reset)
+Only the contents of the memory channel are initialized (factory default).
+All stored information will be erased, but channel M-001 will return to the initial setting of 
+7.000.000MHz, LSB.
+MENU CLEAR (Setting Menu Reset)
+Only the contents of the setting menu are returned to their default values (factory default).
+ALL RESET (All Reset)
+Initializes all settings of this unit, including various settings, memories, and setting menus, and 
+restores the factory settings.
+3.	 Touch [OK] or select [OK] with the [FUNC] knob and press the [FUNC] knob to execute the 
+reset.
+To cancel the reset, touch [CANCEL] or select [CANCEL] with the [FUNC] knob and press the 
+[FUNC] knob.
+4.	 The power is turned OFF once and then turned ON automatically.
+The reset is complete.
+
+============================================================
+PAGE 82
+============================================================
+
+80
+Specifications
+General
+Tx Frequency Range:	
+1.8MHz - 450MHz (Specified performance, Amateur bands only)
+	
+70MHz - 70.5MHz (Specified performance, UK Amateur bands only)
+Rx Frequency Range:	
+30kHz - 174MHz, 400MHz - 470MHz (operating)
+	
+1.8MHz band - 430MHz band
+	
+(specified performance, Amateur bands only)
+Emission Modes:	
+A1A (CW), A3E (AM), J3E (LSB, USB), F3E (FM), F7W (C4FM),
+	
+F1D, F2D
+Frequency Steps:	
+1*/5/10/20Hz (CW, SSB, AM), 5/10/20Hz (FM)  *FINE tuning “ON”
+Antenna Impedance:	
+50Ω, unbalanced
+Operating Temperature Range:	+14°F to +122°F (-10°C to +50°C)
+Frequency Stability:	
+±0.5ppm (after 1 minute @ +14°F to +122°F [-10°C to +50°C])
+Supply Voltage:	
+DC10.8V (SBR-52LI)
+	
+DC13.8V ± 15% (EXT DC Jack)
+Power Consumption (approx.)	 Rx (no signal) 0.6A
+	
+Rx (signal present) 0.9A
+	
+Tx (Field, 6W) 2.5A
+	
+Tx (Field, 10W) 3A
+	
+Tx (optima, HF/50MHz 100W) 21A
+	
+Tx (optima, 144MHz 50W) 9A
+	
+Tx (optima, 430MHz 50W) 12A
+Dimensions (WxHxD):	
+FTX-1 Field: 8.4” x 3.5” x 2.2” (213 x 89 x 55mm)
+	
+FTX-1 optima: 8.4” x 3.5” x 9.4” (213 x 89 x 240mm)
+Weight (approx.):	
+FTX-1 Field: 2.75 lbs (1.25kg)
+	
+FTX-1 optima: 8.6 lbs (3.9kg)
+Transmitter
+Power Output:	
+FTX-1 Field:	
+0.5 - 6W (0.5 - 2.5W AM Carrier) @ SBR-52LI
+	
+	
+0.5 - 10W (70MHz band: 0.5 - 6W)
+	
+	
+(0.5 - 2.5W AM Carrier) @ EXT DC 13.8V
+	
+FTX-1 optima:	 HF/50MHz band: 5 - 100W (5 - 25W AM Carrier)
+	
+	
+144/430MHz band: 5 - 50W  (5 - 13W AM Carrier)
+Modulation Types:	
+J3E (SSB): Balanced
+	
+A3E (AM): Low-Level (Early Stage)
+	
+F1D, F2D, F3E (FM): Variable Reactance
+	
+F7W (C4FM): 4-level FSK
+Maximum FM Deviation:	
+±5.0kHz / ±2.5kHz (Narrow)
+Harmonic Radiation:	
+Better than -50dB (1.8MHz - 29.7MHz Amateur bands)
+	
+Better than -60dB (50MHz Amateur band, FTX-1 Field 10W)
+	
+Better than -63dB (50MHz Amateur band, FTX-1 optima 100W)
+	
+Better than -51dB (70MHz Amateur band, FTX-1 Field 6W)
+	
+Better than -60dB (70/144/430MHz Amateur band, FTX-1 optima 50W)
+SSB Carrier Suppression:	
+At least 60dB below peak output
+Undesired Sideband Suppression:	At least 60dB below peak output
+Bandwidth:	
+3kHz (LSB, USB), 500Hz (CW), 6kHz (AM), 16kHz (FM/C4FM)
+Audio Response (SSB):	
+Not more than -6dB from 300 to 2700Hz
+Microphone Impedance:	
+600Ω (200 to 10kΩ)
+
+============================================================
+PAGE 83
+============================================================
+
+81
+Receiver
+Circuit Type:	
+Direct Sampling Superheterodyne (below 48MHz)
+	
+Single Conversion IF Sampling (48MHz and above)
+Intermediate Frequencies:	
+MAIN: 44.5 - 49.5MHz, SUB: 41.3 - 44.3MHz (48MHz and above)
+Sensitivity (typ):	
+SSB/CW (BW: 2.4kHz, 10dB S+N/N)
+	
+	
+1.8MHz - 30MHz	
+0.16µV (IPO: AMP2)
+	
+	
+50MHz - 54MHz	
+0.125µV (IPO: AMP2)
+	
+	
+70MHz - 70.5MHz	
+0.16µV (IPO: AMP2)
+	
+	
+144MHz - 148MHz	
+0.125µV (AMP: ON)
+	
+	
+430MHz - 450MHz	
+0.125µV (AMP: ON)
+	
+AM (BW: 6kHz, 10dB S+N/N, 30% modulation @400Hz)
+	
+	
+0.5MHz - 1.8MHz	
+7.9µV
+	
+	
+1.8MHz - 30MHz	
+2µV (IPO: AMP2)
+	
+	
+50MHz - 54MHz	
+1µV (IPO: AMP2)
+	
+	
+70MHz - 70.5MHz	
+2µV (IPO: AMP2)
+	
+	
+144MHz - 148MHz	
+1µV (AMP: ON)
+	
+	
+430MHz - 450MHz	
+1µV (AMP: ON)
+	
+FM (BW: 12kHz, 12dB SINAD, 3.5kHz DEV @1kHz )
+	
+	
+28MHz - 30MHz	
+0.25µV (IPO: AMP2)
+	
+	
+50MHz - 54MHz	
+0.2µV (IPO: AMP2)
+	
+	
+70MHz - 70.5MHz	
+0.25µV (IPO: AMP2)
+	
+	
+144MHz - 148MHz	
+0.125µV (AMP: ON)
+	
+	
+430MHz - 450MHz	
+0.125µV (AMP: ON)
+Selectivity (WIDTH: Center): 	Mode	
+–6dB	
+–60dB
+	
+CW (BW=0.5kHz)	
+0.5kHz or better	
+0.75kHz or less
+	
+SSB (BW=2.4kHz)	
+2.4kHz or better	
+3.6kHz or less
+	
+AM (BW=6kHz)	
+6kHz or better	
+15kHz or less
+	
+FM (BW=12kHz)	
+12kHz or better	
+25kHz or less
+Image Rejection:	
+70dB or better (1.8MHz - 28MHz Amateur bands)
+	
+60dB or better (50MHz, 70MHz, 144MHz, 430MHz Amateur bands)
+Maximum Audio Output:	
+FTX-1 Field: 1.5W (4Ω with 10% THD)
+	
+FTX-1 optima: 4W (1.5 + 2.5 W)  (4Ω with 10% THD)
+Audio Output Impedance:	
+4 to 16Ω (4Ω: nominal)
+Conducted Radiation:	
+Less than 4nW
+Specifications are subject to change, in the interest of technical improvement, without 
+notice or obligation, and are guaranteed only within the amateur bands.
+The typefaces included herein are solely developed by DynaComware Taiwan Inc.
+
+============================================================
+PAGE 84
+============================================================
+
+82
+YAESU LIMITED WARRANTY
+Limited Warranty is valid only in the country/region where this product was originally purchased.
+On-line Warranty Registration:
+Thank you for buying YAESU products! We are confident your new radio will serve your needs for many 
+years! Please register your product at www.yaesu.com - Owner’s Corner
+Warranty Terms:
+Subject to the Limitations of the Warranty and the Warranty Procedures described below, YAESU MUSEN 
+hereby warrants this product to be free of defects in materials and workmanship in normal use during the 
+“Warranty Period.” (the “Limited Warranty”).
+Limitations of Warranty:
+A.	YAESU MUSEN is not liable for any express warranties except the Limited Warranty described above.
+B.	The Limited Warranty is extended only to the original end-use purchaser or the person receiving this 
+product as a gift, and shall not be extended to any other person or transferee.
+C.	Unless a different warranty period is stated with this YAESU product, the Warranty Period is three years 
+from the date of retail purchase by the original end-use purchaser.
+D.	The Limited Warranty is valid only in the country/region where this product was originally purchased.
+E.	During the Warranty Period, YAESU MUSEN will, at its sole option, repair or replace (using new or re-
+furbished replacement parts) any defective parts within a reasonable period of time and free of charge.
+F.	The Limited Warranty does not cover shipping cost (including transportation and insurance) from you to 
+us, or any import fees, duties or taxes.
+G.	The Limited Warranty does not cover any impairment caused by tampering, misuse, failure to follow 
+instructions supplied with the product, unauthorized modifications, or damage to this product for any 
+reasons, such as: accident; excess moisture; lightning; power surges; connection to improper voltage 
+supply; damage caused by inadequate packing or shipping procedures; loss of, damage to or corrup-
+tion of stored data; product modification to enable operation in another country/purpose other than the 
+country/purpose for which it was designed, manufactured, approved and/or authorized; or the repair of 
+products damaged by these modifications.
+H.	The Limited Warranty applies only to the product as it existed at the time of the original purchase, by 
+the original retail purchaser, and shall not preclude YAESU MUSEN from later making any changes in 
+design, adding to, or otherwise improving subsequent versions of this product, or impose upon YAESU 
+MUSEN any obligation to modify or alter this product to conform to such changes, or improvements.
+I.	 YAESU MUSEN assumes no responsibility for any consequential damages caused by, or arising out of, 
+any such defect in materials or workmanship.
+J.	TO THE FULLEST EXTENT PERMITTED BY LAW, YAESU MUSEN SHALL NOT BE RESPONSIBLE 
+FOR ANY IMPLIED WARRANTY WITH RESPECT TO THIS PRODUCT.
+K.	If the original retail purchaser timely complies with the Warranty Procedures described below, and YAESU 
+MUSEN elects to send the purchaser a replacement product rather than repair the “original product”, then 
+the Limited Warranty shall apply to the replacement product only for the remainder of the original product 
+Warranty Period.
+L.	Warranty statutes vary from state to state, or country to country, so some of the above limitations may 
+not apply to your location.
+Warranty Procedures:
+1.	To find the Authorized YAESU Service Center in your country/region, visit www.yaesu.com. Contact the 
+YAESU Service Center for specific return and shipping instructions, or contact an authorized YAESU 
+dealer/distributor from whom the product was originally purchased.
+2.	Include proof of original purchase from an authorized YAESU dealer/distributor, and ship the product, 
+freight prepaid, to the address provided by the YAESU Service Center in your country/ region.
+3.	Upon receipt of this product, returned in accordance with the procedures described above, by the 
+YAESU Authorized Service Center, all reasonable efforts will be expended by YAESU MUSEN to cause 
+this product to conform to its original specifications. YAESU MUSEN will return the repaired product (or 
+a replacement product) free of charge to the original purchaser. The decision to repair or replace this 
+product is the sole discretion of YAESU MUSEN.
+Other conditions:
+YAESU MUSEN’S MAXIMUM LIABILITY SHALL NOT EXCEED THE ACTUAL PURCHASE PRICE PAID 
+FOR THE PRODUCT. IN NO EVENT SHALL YAESU MUSEN BE LIABLE FOR LOSS OF, DAMAGE TO 
+OR CORRUPTION OF STORED DATA, OR FOR SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR INDI-
+RECT DAMAGES, HOW EVER CAUSED; INCLUDING WITHOUT LIMITATION TO THE REPLACEMENT 
+OF EQUIPMENT AND PROPERTY, AND ANY COSTS OF RECOVERING, PROGRAMMING OR RE-
+PRODUCING ANY PROGRAM OR DATA STORED IN OR USED WITH THE YAESU PRODUCT.
+Some Countries in Europe and some States of the USA do not allow the exclusion or limitation of inciden-
+tal or consequential damages, or a limitation on how long an implied warranty lasts, so the above limita-
+tion or exclusions may not apply. This warranty provides specific rights, there may be other rights available 
+which may vary between countries in Europe or from state to state within the USA.
+This Limited Warranty is void if the label bearing the serial number has been removed or defaced.
+
+============================================================
+PAGE 85
+============================================================
+
+83
+Declaration of Conformity
+Type of Equipment:	
+HF/50MHz/144MHz/430MHz TRANSCEIVER
+Brand Name:	
+YAESU
+Model Number:	
+FTX-1
+Manufacturer:	
+YAESU MUSEN CO., LTD.
+Address of Manufacturer:	
+Omori Bell port D building 3F, 6-26-3 Minamioi,
+	
+Shinagawa-ku, Tokyo 140-0013 JAPAN
+This device complies with part 15 of the FCC Rules. Operation is subject to the following two condi-
+tions;
+(1) this device may not cause harmful interference, and (2) this device must accept any interference
+received, including interference that may cause undesired operation.
+The technical documentation as required by the Conformity Assessment procedures is kept at the
+following address:
+Company: Yaesu U.S.A.
+Address: 6125 Phyllis Drive, Cypress, CA 90630, U.S.A.
+Telephone: (714) 827-7600
+FCC Statements
+Federal Communications Commission (FCC) Statement
+15.105(b)
+This equipment has been tested and found to comply with the limits for a Class B digital device, pur-
+suant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against 
+harmful interference in a residential installation. This equipment generates, uses, and can radiate 
+radio frequency energy; and, if not installed and used in accordance with the instructions, may cause 
+harmful interference to radio communications. However, there is no guarantee that interference will not 
+occur in a particular installation.
+If this equipment does cause harmful interference to radio or television reception, which can be deter-
+mined by turning the equipment off and on, the user is encouraged to try to correct the interference by 
+one or more of the following measures:
+r Reorient or relocate the receiving antenna.
+r Increase the separation between the equipment and receiver.
+r Connect the equipment into an outlet on a circuit different from that to which the receiver is connect-
+ed.
+r Consult the dealer or an experienced radio/TV technician for help.
+15.19
+This device complies with part 15 of the FCC Rules. Operation is subject to the following two condi-
+tions:
+(1) This device may not cause harmful interference, and (2) this device must accept any interference 
+received, including interference that may cause undesired.
+15.21
+You are cautioned that changes or modifications not expressly approved by the part responsible for 
+compliance could void the user’s authority to operate the equipment.
+FCC RF Radiation Exposure Statement:
+1. This Transmitter must not be co-located or operating in conjunction with any other antenna or trans-
+mitter.
+2. For portable operation, this device has been tested and meets FCC RF exposure guidelines. When 
+used with an accessory that contains metal may not ensure compliance with FCC RF exposure 
+guidelines.
+WARNING: MODIFICATION OF THIS DEVICE TO RECEIVE CELLULAR RADIOTELEPHONE SER-
+VICE SIGNALS IS PROHIBITED UNDER FCC RULES AND FEDERAL LAW.
+CAN ICES-3 (B) / NMB-3 (B)
+
+============================================================
+PAGE 86
+============================================================
+
+84
+Display the Certifications of FCC
+1.	 Turn the transceiver OFF.
+2.	 While holding the [DISP] key in, press 
+and hold in the Power switch to turn the 
+transceiver ON.
+The Certifications of FCC is displayed.
+3.	 Touch [BACK] to return to normal opera-
+tion.
+
+============================================================
+PAGE 87
+============================================================
+
+Disposal of Electronic and Electrical Equipment
+Products with the symbol (crossed-out wheeled bin) cannot be disposed as 
+household waste.
+Electronic and Electrical Equipment should be recycled at a facility capable of 
+handling these items and their waste by-products.
+Please contact a local equipment supplier representative or service center for 
+information about the waste collection system in your country.
+ATTENTION – Condition of use
+This transceiver operates on frequencies that 
+are regulated. Use of the Transmitter in the EU 
+countries shown in the accompanying table is not 
+permitted without authorization. Users should con-
+sult their local spectrum management authority for 
+licensing conditions applicable to this equipment.
+AT
+BE
+BG
+CY
+CZ
+DE
+DK
+ES
+EE
+FI
+FR
+EL
+HR
+HU
+IE
+IT
+LT
+LU
+LV
+MT
+NL
+PL
+PT
+RO
+SK
+SI
+SE
+CH
+IS
+LI
+NO
+–
+–
+–
+–
+–
+EU Declaration of Conformity
+We, Yaesu Musen Co. Ltd of Tokyo, Japan, hereby declare that this radio equipment FTX-1 is 
+in full compliance with EU Radio Equipment Directive 2014/53/EU. The full text of the Decla-
+ration of Conformity for this product is available to view at http://www.yaesu.com/jp/red
+
+============================================================
+PAGE 88
+============================================================
+
+Printed in Japan
+Copyright 2025
+YAESU MUSEN CO., LTD.
+All rights reserved.
+No portion of this manual may be
+reproduced without the permission of
+YAESU MUSEN CO., LTD.
+YAESU MUSEN CO., LTD.
+Omori Bellport Building D-3F
+6-26-3 Minami-Oi, Shinagawa-ku, Tokyo, 140-0013, Japan
+YAESU USA
+6125 Phyllis Drive, Cypress, CA 90630, U.S.A.
+YAESU UK
+Unit 4, Concorde Park, Concorde Way, Segensworth North,
+Fareham, Hampshire PO15 5FG, United Kingdom
+2506E-DS

@@ -37,6 +37,8 @@ struct FieldGuideApp: App {
     }
 
     private static let bundledRadios = [
+        // BG2FX
+        "bg2fx-fx4cr",
         // Elecraft
         "elecraft-k1",
         "elecraft-k2",
@@ -46,16 +48,29 @@ struct FieldGuideApp: App {
         "elecraft-kx3",
         // HamGadgets
         "hamgadgets-cft1",
+        // ICOM
+        "icom-ic705",
+        "icom-ic7100",
+        "icom-ic7300",
+        "icom-ic7300mk2",
         // LNR Precision
         "lnr-ld5",
         "lnr-mtr3b-v4",
         "lnr-mtr4b-v2",
         "lnr-mtr5b",
         // PennTek
+        "penntek-tr25",
         "penntek-tr35",
         "penntek-tr45l",
+        // Venus
+        "venus-sw3b",
+        "venus-sw6b",
         // Yaesu
+        "yaesu-ft710",
         "yaesu-ft891",
+        "yaesu-ft991a",
+        "yaesu-ftdx101mp",
+        "yaesu-ftx1",
     ]
 
     @MainActor

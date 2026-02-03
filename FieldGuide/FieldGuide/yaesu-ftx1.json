@@ -1,0 +1,348 @@
+{
+  "radio": {
+    "id": "yaesu-ftx1",
+    "manufacturer": "Yaesu",
+    "model": "FTX-1",
+    "revision": "1",
+    "pdfFilename": "FTX-1_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Yaesu FTX-1 is an HF/50/144/430 MHz all-mode transceiver available in two configurations: FTX-1 Field for portable operation (6W on battery, 10W on external DC), and FTX-1 Optima for base station use (100W HF/50 MHz, 50W VHF/UHF)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The FTX-1 Field includes the SBR-52LI lithium-ion battery pack providing approximately 9 hours of operation on HF SSB at 6W. The optional FC-80 antenna tuner can be mounted simultaneously with the battery. QRP mode limits output to 5W on all bands."
+        },
+        {
+          "type": "paragraph",
+          "text": "The FTX-1 Optima features a detachable panel that can be mounted on a stand. It includes a 66mm, 2.5W speaker on the rear for ample volume during fixed station operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 4.3-inch TFT touch screen displays operating functions graphically with 3DSS spectrum display. The Filter Function Display shows WIDTH, SHIFT, NOTCH, and CONTOUR status at a glance along with the RF spectrum."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dual band reception is supported (HF/VHF or HF/UHF) with simultaneous C4FM digital playback. The PMG (Primary Memory Group) function monitors up to 5 VHF/UHF channels with real-time bar graph display."
+        },
+        {
+          "type": "note",
+          "text": "Simultaneous reception of HF/HF is not supported. Super-DX function increases RF amplifier sensitivity for weak signals. MAG (Memory Auto Grouping) automatically categorizes memory channels by band."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Access settings by pressing the [FUNC] knob. Navigate using touch or the knob. The menu system is consistent with other Yaesu SDR transceivers."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DIMMER",
+          "description": "Adjusts display brightness. Found in DISPLAY settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CONTRAST",
+          "description": "Adjusts display contrast. Found in DISPLAY settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PMG Settings",
+          "description": "Registers up to 5 VHF/UHF frequencies (108-470 MHz) for Primary Memory Group monitoring."
+        },
+        {
+          "type": "menuEntry",
+          "name": "M-GRP (Memory Group)",
+          "description": "Registers frequently used memory channels for quick access. Separate from automatic MAG grouping."
+        },
+        {
+          "type": "menuEntry",
+          "name": "AMS (Automatic Mode Select)",
+          "description": "Automatically switches between C4FM digital and analog FM based on received signal. For VHF/UHF operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "QRP Mode",
+          "description": "Limits maximum transmission output to 5W on all bands. Useful for QRP contests."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PRESET",
+          "description": "Configures settings for data modes (FT8/RTTY/PSK). Change preset for optimal digital operation."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a paddle or straight key to the KEY jack. The built-in electronic keyer supports iambic and straight key operation. CW Spotting (zero-beating) with ZIN and SPOT functions helps tune to received signals."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Speed",
+          "description": "Adjusts electronic keyer speed in WPM."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Weight",
+          "description": "Sets the dot/dash ratio for personalized timing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Polarity",
+          "description": "Reverses dot and dash paddles if needed."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Mode",
+          "description": "Selects operating mode: Straight, Bug, Iambic A, or Iambic B."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Delay Time",
+          "description": "Sets break-in delay time for semi break-in operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Sidetone Level",
+          "description": "Adjusts CW sidetone audio level."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contest Memory Keyer and TEXT Memory store CW messages for contest operation. Messages can be programmed using paddle input."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "DSP interference removal functions are accessed via the menu system. The Filter Function Display provides visual feedback of all DSP settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SHIFT",
+          "description": "Moves the IF passband to eliminate interference on one side."
+        },
+        {
+          "type": "menuEntry",
+          "name": "WIDTH",
+          "description": "Narrows bandwidth to extract weak signals from interference."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NOTCH",
+          "description": "Eliminates narrow heterodyne interference from the passband."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CONTOUR",
+          "description": "Provides gentle DSP passband shaping. Adjustable GAIN and bandwidth (Q) for effective noise reduction."
+        },
+        {
+          "type": "menuEntry",
+          "name": "APF",
+          "description": "Audio Peak Filter narrows audio passband around CW pitch frequency."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNR (Digital Noise Reduction)",
+          "description": "15-step adjustable noise reduction for different noise types."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNF (Digital Notch Filter)",
+          "description": "Automatic tracking filter that attenuates multiple interfering beat signals."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IPO",
+          "description": "Intercept Point Optimization maximizes dynamic range and reduces impact of strong signals on low bands."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "FTX-1 Field operates from the SBR-52LI battery (10.8V) or external DC 13.8V. FTX-1 Optima operates from external DC 13.8V +/-15%."
+        },
+        {
+          "type": "paragraph",
+          "text": "Battery operation provides approximately 9 hours on HF SSB at 6W (5W in QRP mode). When using external DC, output increases to 10W (6W on 70 MHz)."
+        },
+        {
+          "type": "specificationTable",
+          "title": "Power Consumption - FTX-1 Field",
+          "rows": [
+            { "name": "RX (no signal)", "value": "0.6A" },
+            { "name": "RX (signal present)", "value": "0.9A" },
+            { "name": "TX (6W, battery)", "value": "2.5A" },
+            { "name": "TX (10W, external DC)", "value": "3A" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Power Consumption - FTX-1 Optima",
+          "rows": [
+            { "name": "TX HF/50 MHz (100W)", "value": "21A" },
+            { "name": "TX 144 MHz (50W)", "value": "9A" },
+            { "name": "TX 430 MHz (50W)", "value": "12A" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "RF Output Power",
+          "rows": [
+            { "name": "FTX-1 Field (battery)", "value": "0.5-6W (0.5-2.5W AM)" },
+            { "name": "FTX-1 Field (external DC)", "value": "0.5-10W (70 MHz: 0.5-6W)" },
+            { "name": "FTX-1 Optima HF/50 MHz", "value": "5-100W (5-25W AM)" },
+            { "name": "FTX-1 Optima 144/430 MHz", "value": "5-50W (5-13W AM)" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "For continuous data transmission with external power, the optional SCF-1 cooling fan can be attached for efficient heat dissipation."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Multiple antenna tuner options are supported. The FC-80 automatic tuner can be mounted on FTX-1 Field simultaneously with the battery pack for portable operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The FC-40 external automatic antenna tuner connects to FTX-1 Optima for wire antenna matching. Configure the transceiver settings for FC-40 operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ATAS-120A active-tuning antenna system is supported for mobile operation. Connect to FTX-1 and configure transceiver settings. Manual tuning is also available."
+        },
+        {
+          "type": "note",
+          "text": "Set up the appropriate tuner in the menu before operation. Each tuner has specific interconnection and setup requirements."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "General",
+          "rows": [
+            { "name": "TX Frequency Range", "value": "1.8-450 MHz (amateur bands), 70-70.5 MHz (UK)" },
+            { "name": "RX Frequency Range", "value": "30 kHz-174 MHz, 400-470 MHz" },
+            { "name": "Operating Modes", "value": "CW, AM, LSB, USB, FM, C4FM" },
+            { "name": "Frequency Stability", "value": "+/-0.5 ppm (after 1 min, -10°C to +50°C)" },
+            { "name": "Frequency Steps", "value": "1/5/10/20 Hz (CW/SSB/AM), 5/10/20 Hz (FM)" },
+            { "name": "Antenna Impedance", "value": "50 ohms unbalanced" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Transmitter",
+          "rows": [
+            { "name": "Field Output (battery)", "value": "0.5-6W" },
+            { "name": "Field Output (external DC)", "value": "0.5-10W" },
+            { "name": "Optima Output (HF/50 MHz)", "value": "5-100W" },
+            { "name": "Optima Output (144/430 MHz)", "value": "5-50W" },
+            { "name": "Carrier Suppression", "value": "At least 60 dB below peak" },
+            { "name": "SSB Bandwidth", "value": "3 kHz, 300-2700 Hz response" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Receiver",
+          "rows": [
+            { "name": "Circuit Type (HF)", "value": "Direct sampling superheterodyne" },
+            { "name": "Circuit Type (VHF/UHF)", "value": "Single conversion IF sampling" },
+            { "name": "SSB/CW Sensitivity (HF)", "value": "0.16 uV (IPO: AMP2)" },
+            { "name": "SSB/CW Sensitivity (VHF/UHF)", "value": "0.125 uV (AMP ON)" },
+            { "name": "SSB Selectivity", "value": "2.4 kHz/-6dB, 3.6 kHz/-60dB" },
+            { "name": "Image Rejection (HF)", "value": "70 dB or better" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Physical",
+          "rows": [
+            { "name": "Field Dimensions", "value": "213 x 89 x 55 mm (8.4 x 3.5 x 2.2 in)" },
+            { "name": "Field Weight", "value": "1.25 kg (2.75 lb)" },
+            { "name": "Optima Dimensions", "value": "213 x 89 x 240 mm (8.4 x 3.5 x 9.4 in)" },
+            { "name": "Optima Weight", "value": "3.9 kg (8.6 lb)" },
+            { "name": "Operating Temperature", "value": "-10°C to +50°C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Reset microprocessor",
+          "description": "Reset options available to restore factory defaults if experiencing unusual behavior."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Battery charging",
+          "description": "Charge the SBR-52LI battery pack. Monitor battery level on display. Use external DC for extended operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Dual band reception issues",
+          "description": "HF/HF simultaneous reception is not supported. Use HF/VHF or HF/UHF combinations only."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PMG not scanning",
+          "description": "Register frequencies (108-470 MHz) to PMG slots. Up to 5 channels can be monitored simultaneously."
+        },
+        {
+          "type": "menuEntry",
+          "name": "C4FM mode issues",
+          "description": "Enable AMS for automatic mode switching. Verify communication mode is not fixed to FM only."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Overheating during data modes",
+          "description": "Attach optional SCF-1 cooling fan for continuous data transmission with external power source."
+        },
+        {
+          "type": "menuEntry",
+          "name": "microSD card issues",
+          "description": "Format microSD card using radio's format function. Used for settings backup, audio recording, and firmware updates."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Bluetooth connection",
+          "description": "Install optional BU-6 Bluetooth unit for wireless headset connectivity."
+        }
+      ]
+    }
+  ]
+}

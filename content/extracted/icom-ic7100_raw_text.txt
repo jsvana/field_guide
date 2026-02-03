@@ -1,0 +1,8454 @@
+
+============================================================
+PAGE 1
+============================================================
+
+INSTRUCTION MANUAL
+i7100
+HF/VHF/UHF ALL MODE TRANSCEIVER
+This device complies with Part 15 of the FCC Rules. Operation 
+is subject to the following two conditions: (1) this device may 
+not cause harmful interference, and (2) this device must accept 
+any interference received, including interference that may cause 
+undesired operation.
+WARNING: MODIFICATION OF THIS DEVICE TO RECEIVE 
+CELLULAR RADIOTELEPHONE SERVICE SIGNALS IS 
+PROHIBITED UNDER FCC RULES AND FEDERAL LAW. 
+
+============================================================
+PAGE 2
+============================================================
+
+i
+FOREWORD
+Thank you for purchasing this fine Icom product. The IC-7100 
+hf/vhf/uhf all mode transceiver is designed and build with 
+Icom’s superior technology and craftsmanship combining tra-
+ditional analog technologies with the new digital technology, 
+Digital Smart Technologies for Amateur Radio (D-STAR), for 
+a balanced package. With proper care, this product should 
+provide you with years of trouble-free operation.
+We thank you for making your IC-7100 your radio of choice, 
+and hope you agree with Icom’s philosophy of “technology 
+first.” Many hours or research and development went into the 
+design of your IC-7100.
+FEATURES
+❍ IF DSP features
+❍ All mode capability covering 160–2 m and 
+70 cm (depending on version)
+❍ Compact with separated front panel
+❍ ±0.5 ppm of high frequency stability
+❍ Baudot RTTY demodulator
+❍ Selectable SSB transmission passband 
+width (For both higher and lower pass 
+frequency)
+❍ Standard voice synthesizer/voice recorder
+❍ SD card slot ready for several memory 
+storage
+❍ Voice recorder to records your communication
+❍ DV mode (Digital voice + Low-speed data 
+communication) operation-ready
+	
+– Text message and call sign exchange
+	
+– Transmit position data
+❍ DR (D-STAR Repeater) mode and repeater 
+list allow you to easily operate using a 
+D-STAR repeater 
+EXPLICIT DEFINITIONS
+WORD
+DEFINITION
+R DANGER!
+Personal death, serious injury or an ex-
+plosion may occur.
+R WARNING!
+Personal injury, fire hazard or electric 
+shock may occur.
+CAUTION
+Equipment damage may occur.
+NOTE
+Recommended for optimum use. No risk 
+of personal injury, fire or electric shock.
+IMPORTANT
+READ ALL INSTRUCTIONS carefully and completely 
+before using the transceiver.
+SAVE THIS INSTRUCTION MANUAL— This 
+instruction manual contains important operating instructions 
+for the IC-7100.
+FCC INFORMATION
+• FOR CLASS B UNINTENTIONAL RADIATORS:
+This equipment has been tested and found to comply with the 
+limits for a Class B digital device, pursuant to part 15 of the 
+FCC Rules. These limits are designed to provide reasonable 
+protection against harmful interference in a residential instal-
+lation. This equipment generates, uses and can radiate radio 
+frequency energy and, if not installed and used in accordance 
+with the instructions, may cause harmful interference to radio 
+communications. However, there is no guarantee that inter-
+ference will not occur in a particular installation. If this equip-
+ment does cause harmful interference to radio or television 
+reception, which can be determined by turning the equipment 
+off and on, the user is encouraged to try to correct the inter-
+ference by one or more of the following measures:
+ 
+• Reorient or relocate the receiving antenna.
+ 
+• Increase the separation between the equipment and re-
+ceiver.
+ 
+• Connect the equipment into an outlet on a circuit different 
+from that to which the receiver is connected.
+ 
+• Consult the dealer or an experienced radio/TV technician 
+for help.
+Icom, Icom Inc. and the Icom logo are registered trademarks 
+of Icom Incorporated (Japan) in Japan, the United States, 
+the United Kingdom, Germany, France, Spain, Russia and/
+or other countries.
+Spurious signals may be received near some frequen-
+cies.
+These are created in the internal circuit and does not 
+indicate a transceiver malfunction.
+CAUTION: Changes or modifications to this device, 
+not expressly approved by Icom Inc., could void your 
+authority to operate this device under FCC regula-
+tions.
+“AI” means “Advanced Instructions.”
+“sec. MM” means section number.
+So when “(AI sec. MM)” is described on this manu-
+al, see the PDF type Advanced Instruction’s section 
+number for your reference.
+
+============================================================
+PAGE 3
+============================================================
+
+ii
+PRECAUTIONS
+R DANGER HIGH VOLTAGE! NEVER touch an an-
+tenna or internal antenna connector during transmission. This 
+may result in an electrical shock or burn.
+R WARNING RF EXPOSURE! This device emits 
+Radio Frequency (RF) energy. Extreme caution should 
+be observed when operating this device. If you have 
+any questions regarding RF exposure and safety stan-
+dards please refer to the Federal Communications 
+Commission Office of Engineering and Technology’s 
+report on Evaluating Compliance with FCC Guidelines 
+for Human Radio Frequency Electromagnetic Fields 
+(OET Bulletin 65).
+R WARNING! NEVER operate the transceiver while 
+driving a vehicle. Safe driving requires your full attention—
+anything less may result in an accident.
+R WARNING! NEVER operate the transceiver with 
+an earphone, headphones or other audio accessories 
+at high volume levels. Hearing experts advise against 
+continuous high volume operation. If you experience a 
+ringing in your ears, reduce the volume level or discon-
+tinue use.
+R WARNING! NEVER apply AC power to the [DC13.8V] 
+connector on the transceiver rear panel. This could cause a 
+fire or damage the transceiver.
+R WARNING! NEVER apply more than 16 V DC to the 
+[DC13.8V] connector on the transceiver rear panel or use re-
+verse polarity. This could cause a fire or damage the trans-
+ceiver.
+R WARNING! NEVER cut the DC power cable between 
+the DC plug and fuse holder. If an incorrect connection is 
+made after cutting, the transceiver might be damaged.
+R WARNING! NEVER let metal, wire or other objects 
+touch any internal part or connectors on the rear panel of the 
+transceiver. This may result in an electric shock or this could 
+cause a fire or damage the transceiver.
+R WARNING! NEVER operate or touch the trans-
+ceiver with wet hands. This may result in an electric 
+shock or may damage the transceiver.
+R WARNING! Immediately turn the transceiver power 
+OFF and remove the power cable if it emits an abnormal 
+odor, sound or smoke. Contact your Icom dealer or dis-
+tributor for advice.
+CAUTION: NEVER expose the transceiver to rain, snow 
+or any liquids.
+CAUTION: NEVER change the internal settings of 
+the transceiver. This may reduce transceiver perfor-
+mance and/or damage to the transceiver. 
+DO NOT operate the transceiver near unshielded elec-
+trical blasting caps or in an explosive atmosphere.
+DO NOT use harsh solvents such as benzine or al-
+cohol to clean the transceiver, as they will damage the 
+transceiver’s surfaces. If the transceiver becomes dusty 
+or dirty, wipe it clean with a soft, dry cloth.
+DO NOT use or place the transceiver in areas with tem-
+peratures below –10°C (+14°F) or above +60°C (+140°F). Be 
+aware that temperatures on a vehicle’s dashboard can ex-
+ceed +80°C (+176°F), resulting in permanent damage to the 
+transceiver if left there for extended periods.
+DO NOT place the transceiver in excessively dusty environ-
+ments or in direct sunlight.
+DO NOT place the transceiver against walls or putting any-
+thing on top of the transceiver. This will obstruct heat dissipa-
+tion.
+Place the transceiver in a secure place to avoid inadvertent 
+use by children.
+During mobile operation, NEVER place the transceiver 
+where air bag deployment may be obstructed.
+During mobile operation, DO NOT place the transceiver 
+where hot or cold air blows directly onto it.
+During mobile operation, DO NOT operate the transceiver 
+without running the vehicle’s engine. When the transceiver’s 
+power is ON and your vehicle’s engine is OFF, the vehicle’s 
+battery will soon become exhausted.
+Make sure the transceiver power is OFF before starting the 
+vehicle engine. This will avoid possible damage to the trans-
+ceiver by ignition voltage spikes.
+During maritime mobile operation, keep the transceiver and 
+microphone as far away as possible from the magnetic navi-
+gation compass to prevent erroneous indications.
+BE CAREFUL! The rear panel will become hot when op-
+erating the transceiver continuously for long periods of time.
+BE CAREFUL! If a linear amplifier is connected, set the 
+transceiver’s RF output power to less than the linear ampli-
+fier’s maximum input level, otherwise, the linear amplifier will 
+be damaged.
+Use Icom microphones only (supplied or optional). Other 
+manufacturer’s microphones have different pin assignments, 
+and connection to the IC-7100 may damage the transceiver.
+
+============================================================
+PAGE 4
+============================================================
+
+iii
+e
+SUPPLIED ACCESSORIES
+The following accessories are supplied with the transceiver.
+q	Hand microphone ...............................................  1
+w	Control cable.......................................................  1
+e	Ferrite EMI filter.................................................... 1 
+For European versions................ 2
+r	3.5 (d) mm plug.................................................... 1
+t	ACC cable............................................................. 1
+y	DC power cable* (OPC-1457) ............................  1
+or (OPC-1457R) ..........................  1
+u	Spare fuse (ATC 5 A) ..........................................  1
+i	USB cable............................................................. 1
+o	CD........................................................................ 1
+!0	Spare fuse (ATC 30 A) ........................................  2
+* Depending on the version.
+q
+w
+e
+r
+t
+y
+y
+u
+i
+o
+!0
+ABOUT THE SUPPLIED CD
+The following instructions and installers are included on 
+the CD.
+• Basic instructions
+	
+Instructions for the basic operations, the same as 
+this manual
+• Advanced Instructions
+	
+Instructions for the advanced operations and more 
+details are described than in this manual
+• Schematic diagram
+	
+Includes the schematic and block diagrams
+• HAM radio Terms
+	
+A glossary of HAM radio terms
+• Adobe® Reader® Installer
+	
+Installer for Adobe® Reader®
+A PC with the following Operating System is required.
+• Microsoft® Windows® 8, Microsoft® Windows® 7 , Mi-
+crosoft® Windows Vista® or Microsoft® Windows® XP
+Starting the CD
+D
+D
+Insert the CD into the CD drive.
+q
+q
+ 
+• Double click “Autorun.exe” on the CD.
+ 
+• Depending on the PC setting, the Menu screen shown 
+below is automatically displayed.
+Click the desired button to open the file.
+w
+w
+ 
+• To close the Menu screen, click [Quit].
+To read the guide or instructions, Adobe® Reader® is 
+required. If you have not installed it, please install the 
+Adobe® Reader® on the CD or downloaded it from Ado-
+be Systems Incorporated’s website.
+Quits the menu screen
+Installs the Adobe® Reader®
+Opens the
+Glossary
+Opens the
+Basic
+Instructions 
+(this manual)
+Opens the
+Advanced
+Instructions
+Opens the
+Schematic
+diagram 
+(See p. 2-7 for installation details)
+For European versions
+
+============================================================
+PAGE 5
+============================================================
+
+Controller — Front panel.........................................................1-2
+Controller — Function display................................................1-7
+Controller — Multi-function keys............................................1-10
+M-1 (M-1 menu) Display
+D
+D
+..........................................................1-10
+M-2 (M-2 menu) Display
+D
+D
+..........................................................1-10
+M-3 (M-3 menu) Display
+D
+D
+..........................................................1-10
+D-1 (D-1 menu) Display
+D
+D
+...........................................................1-10
+D-2 (D-2 menu) Display
+D
+D
+...........................................................1-10
+Function keys on M-1 display
+D
+D
+...................................................1-10
+Function keys on M-2 display
+D
+D
+...................................................1-10
+Function keys on M-3 display
+D
+D
+...................................................1-11
+Function keys on D-1 display
+D
+D
+...................................................1-12
+Function keys on D-2 display
+D
+D
+...................................................1-12
+Controller — Rear and bottom panels...................................1-13
+Main unit — Front panel..........................................................1-14
+Main unit — Rear panel...........................................................1-14
+ACC socket information
+D
+D
+...........................................................1-16
+DATA2 socket information
+D
+D
+........................................................1-17
+Microphone connector information
+D
+D
+...........................................1-17
+Microphone...............................................................................1-18
+HM-198 (Supplied)
+D
+D
+...................................................................1-18
+SM-50 
+D
+D
+(Option)........................................................................1-18
+SM-30 
+D
+D
+(Option)........................................................................1-18
+HM-151 
+D
+D
+(Option)......................................................................1-19
+Section 1  panel description
+Section 2  INSTALLATION AND CONNECTIONS
+Section 3  BASIC OPERATION
+Section 4  D-STAR INTRODUCTION
+Section 5  D-STAR OPERATION <BASIC>
+Section 6  SET MODE
+Section 7  INSTALLATION NOTES
+1-1
+Section 1
+PANEL DESCRIPTION
+1-1
+“AI” means “Advanced Instructions.”
+“sec. MM” means section number.
+So when “(AI sec. MM)” is described on this manual, see the PDF type 
+Advanced Instruction’s section number for your reference.
+
+============================================================
+PAGE 6
+============================================================
+
+1
+PANEL DESCRIPTION
+1-2
+Controller — Front panel
+q	POWER SWITCH•AF VOLUME [PWR]•[AF]
+  
+(p. 3-2)
+Push to turn ON the transceiver power.
+➥
+➥
+ 
+ 
+• First, confirm the DC power source is turned ON.
+Hold down for 1 second to turn OFF the power.
+➥
+➥
+Rotate to adjust the audio output level.
+➥
+➥
+Increases
+Decreases
+w	RF GAIN CONTROL/ SQUELCH CONTROL  
+[RF/SQL]
+ (p. 3-19)
+	
+Rotate to adjust the RF gain and squelch threshold 
+levels.
+	
+The squelch removes noise output to the speaker 
+when no signal is received. (closed condition)
+ 
+• The squelch is particularly effective for AM and FM, but 
+also works in other modes.
+ 
+• The 12 to 1 o’clock position is recommended for the most 
+effective use of the [RF/SQL] control.
+ 
+• [RF/SQL] operates as only an RF gain control in SSB, 
+CW and RTTY (Squelch is fixed open), or a squelch con-
+trol in AM, FM, WFM and DV (RF gain is fixed at maxi-
+mum sensitivity), when “Auto” is selected as the “RF/SQL 
+Control” item in the “Function” Set mode. (p. 6-5)
+	
+	 SET > Function > RF/SQL Control
+• When used as an RF gain/squelch control
+Maximum 
+RF gain
+S-meter 
+squelch
+Noise squelch (FM/DV modes)
+Squelch is 
+open.
+RF gain 
+adjustable
+range
+Recommended level
+• When used as an RF gain control 
+(Squelch is fixed open; SSB, CW and RTTY only)
+Minimum RF gain
+Adjustable
+range
+Maximum 
+RF gain
+While rotating the RF gain control, a faint noise may 
+be heard. This comes from the DSP unit and does 
+not indicate an equipment malfunction.
+• When used as a squelch control 
+(RF gain is fixed at maximum.)
+Squelch is 
+open.
+S-meter 
+squelch
+S-meter squelch
+threshold
+Noise squelch 
+threshold 
+(FM/DV modes)
+Shallow
+Deep
+Noise squelch (FM/DV modes)
+PBT
+RIT
+TX / RX
+PWR
+AF
+RF/SQL
+CLR
+M-CH
+BANK
+RIT
+TUNER/CALL
+MENU
+MIC/RF PWR
+NB
+SPEED/PITCH
+SET
+QUICK
+NOTCH
+DR
+AUTO TUNE RXCS
+XFC
+SPEECH
+MPAD
+NR
+P.AMP ATT
+i7100
+w
+q
+e
+y
+u
+i
+o
+!0
+!1
+t
+r
+
+============================================================
+PAGE 7
+============================================================
+
+1
+PANEL DESCRIPTION
+1-3
+e	TX/RX LED
+Lights green when the squelch opens, or a signal 
+➥
+➥
+is received.
+Lights red when transmitting.
+➥
+➥
+r	MEMORY BANK CONTROL [BANK]
+ 
+❍ When both the PBT and RIT LEDs are OFF
+	
+	
+Rotate to select a Memory bank.
+ 
+❍ When the PBT LED (y) lights green
+	
+	
+(Mode: SSB/CW/RTTY/AM)
+	
+	
+Rotate to adjust the receiver’s IF filter passband 
+width using the DSP circuit.
+ 
+❍ When the RIT LED (u) lights orange
+	
+	
+Disable this control.
+t	M-CH CONTROL•CLEAR SWITCH [M-CH]•[CLR]
+	
+Push to select the action of the [M-CH/BANK]
+ con-
+trols as the Memory/Bank selection, PBT control or 
+RIT control.
+ 
+❍ When the both RIT and PBT LEDs are OFF
+	
+	
+Rotate to select a Memory channel.
+ 
+❍ When the RIT LED lights orange
+	
+	
+➥	Rotate to adjust the RIT frequency shift.
+ 
+ 
+ 
+• The frequency shift range is ±9.99 kHz in 10 Hz 
+steps. The control tunes in 1 Hz steps when the op-
+erating frequency readout is set to the 1 Hz step. 
+	
+	
+➥	Hold down for 1 second to clear the RIT shift 
+frequency. 
+✔ What is the RIT function?
+The RIT (Receiver Incremental Tuning) shifts the re-
+ceive frequency without shifting the transmit frequency.
+This is useful for fine tuning stations calling you off-fre-
+quency, or when you prefer to listen to slightly different-
+sounding voice characteristics.
+ 
+❍ When the PBT LED lights green
+	
+	
+(Mode: SSB/CW/RTTY/AM)
+	
+	
+➥	Rotate to adjust the receiver’s IF filter pass-
+band width using the DSP circuit.
+	
+	
+➥ Hold down for 1 second to reset the PBT set-
+tings.
+ 
+ 
+ 
+• The PBT is adjustable in 50 Hz steps in the SSB/
+CW/RTTY modes, and 200 Hz in the AM mode. At 
+that time, the shift value changes in 25 Hz steps in 
+the SSB/CW/RTTY modes, and 100 Hz in the AM 
+mode.
+ 
+ 
+ 
+• The PBT controls function as an IF shift control.
+✔ What is the PBT control?
+The PBT function electronically modifies the IF pass-
+band width to reject interference. This transceiver uses 
+the DSP circuit for the PBT function.
+y	PBT LED
+	
+Lights green when the [M-CH/BANK]
+ controls act 
+as the PBT control.
+ 
+• Push the [M-CH]
+ switch to select PBT control.
+u	RIT LED
+Lights orange when the RIT function is turned ON.
+➥
+➥
+Lights orange when the [M-CH/BANK]
+➥
+➥
+ controls 
+act as the RIT control.
+ 
+ 
+• Push the [M-CH]
+ switch to select RIT control.
+ 
+ 
+• The RIT control is the inner control. The outer control 
+is disabled.
+i	RIT KEY RIT  (AI sec. 5)
+Push to turn the RIT function ON or OFF.
+➥
+➥
+ 
+ 
+• Use the [M-CH]
+ control to vary the RIT frequency.
+	
+➥	Hold down for 1 second to add the shift frequency 
+of the RIT function to, or subtract it from, the dis-
+played frequency.
+o	ANTENNA TUNER/CALL KEY TUNER/CALL
+	
+❍ ANTENNA TUNER KEY Operation (AI sec. 16)
+	
+	
+(Frequency band: HF, 50 MHz)
+	
+	
+➥ Push to turn an optional automatic antenna 
+tuner ON or OFF (bypass).
+	
+	
+➥ Hold down for 1 second to manually tune the 
+antenna tuner.
+ 
+ 
+ 
+• If the tuner cannot tune the antenna within 20 sec-
+onds, the tuning circuit is automatically bypassed.
+	
+❍ CALL KEY Operation (AI sec. 11)
+	
+	
+(Frequency band: 144/430 MHz)
+	
+	
+Push to select the Call channel.
+	
+In the 70 MHz band, push to sound an error beep.
+!0	MENU KEY MENU  (p. 1-10)
+	
+Push to change the set of functions assigned to the 
+touch keys.
+ 
+• Toggles the function display menu between M-1, M-2 and 
+M-3 menus or D-1 and D-2 menus.
+!1	MIC GAIN/RF POWER ADJUSTMENT KEY  
+MIC/RF PWR  (p. 3-24)
+	
+Push to open the MIC gain/RF power adjustment 
+display.
+ 
+• Rotate [M-CH]
+ to adjust the MIC gain.
+ 
+• Rotate [BANK]
+ to adjust the RF power.
+Frequency band
+RF output power range
+HF/50 MHz
+2 to 100 W	
+(AM: 1 to 30 W)
+70 MHz*
+2 to 50 W	
+(AM: 1 to 15 W)
+144 MHz
+2 to 50 W
+430 MHz
+2 to 35 W
+ 
+• Push again to close the window.
+* 70 MHz band transmission is available, depending on the 
+transceiver version.
+
+============================================================
+PAGE 8
+============================================================
+
+1
+PANEL DESCRIPTION
+1-4
+!2	NOISE BLANKER KEY NB  (AI sec. 5)
+	
+(Mode: SSB/CW/RTTY/AM)
+Push to turn the noise blanker ON or OFF. 
+➥
+➥
+	
+	
+The noise blanker reduces pulse-type noise such 
+as that generated by vehicle ignition systems. The 
+noise blanker is not effective for non-pulse-type 
+noise.
+ 
+ 
+• “NB” appears when the noise blanker is ON.
+Hold down for 1 second to display the “NB” screen. 
+➥
+➥
+Push to return to the previous screen.
+!3	KEY SPEED/CW PITCH ADJUSTMENT KEY  
+SPEED/PITCH  (AI sec. 4, 6)
+	
+Push to open the Key speed/CW pitch adjustment 
+display.
+ 
+• Rotate [M-CH]
+to adjust the keying speed of the inter-
+nal electronic CW keyer to between 6 wpm (minimum) 
+and 48 wpm (maximum).
+ 
+• Rotate [BANK]
+ to shift the received CW audio pitch 
+and the CW sidetone pitch without changing the operat-
+ing frequency.
+ 
+• The CW pitch can be adjusted from 300 to 900 Hz in ap-
+proximately 5 Hz steps.
+ 
+• Push again to close the window.
+!4	NOISE REDUCTION KEY NR  (AI sec. 5)
+Push to turn DSP noise reduction ON or OFF.
+➥
+➥
+ 
+ 
+• “NR” appears when noise reduction is ON.
+Hold down for 1 second to display the “NR” screen. 
+➥
+➥
+Push to return to the previous screen.
+ 
+ 
+• Rotate the Dial to adjust the DSP noise reduction 
+level. Set for maximum readability.
+!5	PREAMP•ATTENUATOR KEY P.AMP ATT
+	
+❍ PREAMP KEY Operation (AI sec. 5)
+	
+	
+(Frequency band: HF, 50/70 MHz)
+ 
+ 
+Push to select one of two receive RF preampli-
+fiers, or to bypass them.
+ 
+ 
+• “P. AMP1” is a wide dynamic range preamplifier. It is 
+most effective for the 1.8 to 21 MHz bands.
+ 
+ 
+• “P. AMP2” is a high-gain preamplifier. It is most effec-
+tive for the 24 to 70 MHz bands.
+ 
+ 
+• No indicator appears when the preamplifiers are not 
+selected.
+✔ What is the preamplifier?
+The preamplifier amplifies signals in the front end 
+to improve the S/N ratio and sensitivity. Select “P. 
+AMP1” or “P. AMP2” when receiving weak sig-
+nals.
+	
+	
+(Frequency band: 144/430 MHz)
+ 
+ 
+Push to turn the preamplifier ON or OFF.
+ 
+ 
+• “P.AMP” appears when the preamplifier is ON.
+	
+❍ ATTENUATOR KEY Operation (AI sec. 5)
+	
+ 
+➥ Hold down for 1 second to turn ON the attenu-
+ator.
+ 
+ 
+ 
+• “ATT” appears when the attenuator is ON.
+ 
+ 
+➥ Push to turn OFF the attenuator.
+ 
+ 
+ 
+• “ATT” disappears.
+✔ What is the attenuator?
+The attenuator prevents a desired signal from be-
+ing distorted when very strong signals are near it, 
+or when very strong electromagnetic fields, such 
+as from a broadcasting station, are near your lo-
+cation.
+Controller — Front panel (Continued)
+PBT
+RIT
+TX / RX
+PWR
+AF
+RF/SQL
+CLR
+M-CH
+BANK
+RIT
+TUNER/CALL
+MENU
+MIC/RF PWR
+NB
+SPEED/PITCH
+SET
+QUICK
+NOTCH
+DR
+AUTO TUNE RXCS
+XFC
+SPEECH
+MPAD
+NR
+P.AMP ATT
+i7100
+!2
+!4
+!3
+!5
+!7 !8
+!6
+@0
+@1
+!9
+
+============================================================
+PAGE 9
+============================================================
+
+1
+PANEL DESCRIPTION
+1-5
+!6	NOTCH KEY NOTCH  (AI sec. 5)
+	
+(Mode =	Auto notch:	
+SSB/AM/FM
+	
+	
+	
+	
+Manual notch:	SSB/CW/RTTY/AM)
+➥
+➥In the SSB and AM modes, push to toggle the 
+notch function between auto, manual and OFF. 
+ 
+ 
+• Either the Auto or Manual notch function can be turned 
+OFF in the “[NOTCH] Switch (SSB)/(AM)” items of the 
+“Function” Set mode. (6-21)
+	
+	 	 	 SET > Function > [NOTCH] Switch (SSB)
+	
+	 	 	 SET > Function > [NOTCH] Switch (AM)
+➥
+➥In the FM mode, push to turn the Auto Notch func-
+tion ON or OFF.
+	
+➥	In the CW or RTTY mode, push to turn the Manual 
+Notch function ON or OFF.
+ 
+ 
+• “MN” appears when the Manual Notch function is 
+ON.
+ 
+ 
+• “AN” appears when the Auto Notch function is ON.
+ 
+ 
+• No indicator appears when the notch filter is OFF.
+	
+➥	Hold down for 1 second to display the “NOTCH” 
+screen.
+	
+	
+Push to return to the previous screen.
+ 
+ 
+• Rotate the Dial to adjust the notch frequency to reject 
+an interfering signal when the manual function is ON.
+ 
+ 
+• Notch filter center frequency:
+	
+	
+SSB/RTTY:	–1040 Hz to +4040 Hz
+	
+	
+CW:	
+CW pitch frequency –2540 Hz to  
+CW pitch frequency +2540 Hz
+	
+	
+AM:	
+–5060 Hz to +5100 Hz
+✔ What is the notch filter?
+The notch filter is a narrow filter that eliminates un-
+wanted CW or AM carrier tones, while preserving 
+the desired voice signal. The DSP circuit automati-
+cally adjusts the notch frequency to effectively elimi-
+nate unwanted tones.
+!7	DR MODE KEY DR  (section 4, 5, AI sec. 9)
+	
+➥ Push to select the DR mode.
+ 
+ 
+• When the DR mode is selected, the transceiver auto-
+matically selects the DV mode.
+	
+➥ In the DR mode, push to cancel it.
+ 
+ 
+• The transceiver returns to the previous screen before 
+entering the DR mode.
+!8	SET MODE KEY SET (section 6)
+	
+➥ Push to enter or exit the SET mode.
+ 
+ 
+• “Voice Memo,” “Call Sign,” “RX History,” “DV Memory,” 
+“My Station,” “DV Set,” “GPS,” “SPEECH,” “QSO/RX 
+Log,” “Function,” “Tone Control,” “Connectors,” “Dis-
+play,” “Time Set,” “SD Card” and “Others” set group 
+are selectable.
+!9	QUICK MENU KEY QUICK
+	
+➥ Push to open or close the Quick Menu window.
+ 
+ 
+• The Quick Menu is used to quickly select various 
+functions.
+	
+➥ In the setting screen, push to open the Default 
+set window.
+ 
+ 
+• Touch “Default” to reset to the default setting.
+@0	AUTO TUNE•RXCS KEY AUTO TUNE RXCS  
+	
+❍ AUTO TUNE KEY Operation (AI sec. 4)
+	
+	
+(Mode: CW)
+ 
+ 
+➥ Push to automatically adjust for a zero beat 
+with the received signal.
+	
+	
+	
+Zero beat means that two signals are exactly the 
+same frequency.
+ 
+ 
+ 
+• “AUTO TUNE” blinks when the auto tune function 
+is activated.
+ 
+ 
+ 
+• When the RIT function is ON, the auto tune func-
+tion changes the RIT frequency, not the displayed 
+frequency.
+	
+❍ RX CALL SIGN CAPTURE KEY Operation  
+(p. 5-6)
+	
+	
+(Mode: DV, when the DR mode is selected)
+ 
+ 
+➥	Push to open the “RX>CS” screen. 
+	
+	
+	
+Push again to return to the previous screen.
+ 
+ 
+➥	Hold down for 1 second to set the received call 
+signs (station and repeaters) as the operating 
+call sign.
+@1	TRANSMIT FREQUENCY CHECK KEY XFC
+	
+➥	During split frequency or repeater operation, hold 
+down to listen to the transmit frequency. (AI sec. 4)
+ 
+ 
+• While holding down this switch, the transmit frequen-
+cy can be changed with the Dial or MPAD .
+ 
+ 
+• When the Split Lock function is turned ON in the Split 
+operation, hold down XFC  to cancel the Dial lock 
+function.
+	
+➥	When operating simplex, hold down to monitor 
+the frequency.
+ 
+ 
+• While holding down this key, the squelch is open and 
+the interference reject function is temporarily turned 
+OFF.
+	
+➥	When operating simplex and the RIT function is 
+turned ON, hold down to listen to the transmit fre-
+quency. The frequency is the same as when the 
+RIT is OFF.
+	
+➥	In the DV mode, hold down this key to select the 
+RX monitoring mode. (p. 6-3)
+
+============================================================
+PAGE 10
+============================================================
+
+1
+PANEL DESCRIPTION
+1-6
+@2	SPEECH•LOCK KEY SPEECH
+ 
+	
+❍ SPEECH KEY Operation (p. 3-20)
+	
+	
+Push to audibly announce the S-meter level, the 
+displayed frequency and the operating mode.
+ 
+ 
+• The S-Level announcement can be turned OFF in the 
+“S-Level SPEECH” item of the “SPEECH” Set mode. 
+(p. 6-4)
+	
+	 	 	 SET > SPEECH > S-Level SPEECH
+	
+	
+• When RIT is ON, the RIT offset is not included in the 
+frequency announcement.
+	
+❍ LOCK KEY Operation (AI sec. 5)
+	
+	
+Hold down for 1 second to turn the Lock function 
+ON or OFF.
+ 
+ 
+• The function electronically locks the Dial.
+ 
+ 
+• “
+” appears when the function is ON.
+ 
+ 
+• You can select the Dial lock and Panel lock in the 
+“Lock Function” item of the “Function” Set mode. (p. 
+6-6)
+	
+	 	 	 SET > Function > Lock Function
+	
+NOTE: The [SPEECH/LOCK] key operation to ac-
+tivate the voice synthesizer or the Lock functions 
+can be replaced in the “[SPEECH/LOCK] Switch” 
+item of the “Function” Set mode. (p. 6-6)
+	
+	
+	SET > Function > Lock Function
+@3	MEMO PAD KEY MPAD  (AI sec. 11)
+Push to sequentially call up the contents from the 
+➥
+➥
+memo pad.
+	
+	
+The 5 (or 10) most recently programmed frequen-
+cies and operating modes can be recalled, start-
+ing from the most recent.
+ 
+ 
+• The memo pad capacity can be increased from 5 to 
+10 in the “Memopad Numbers” item of the “Function” 
+Set mode (p. 6-6)
+	
+	 	 	 SET > Function > Memopad Numbers
+Hold down for 1 second to write the displayed 
+➥
+➥
+data into a memo pad.
+ 
+ 
+• The 5 most recent entries remain in the memo pad.
+@4	MAIN DIAL
+	
+Rotate to change the displayed frequency, select the 
+Set mode settings, and so on.
+@5	MAIN DIAL TENSION LATCH
+	
+Select the Dial drag.
+ 
+• Three positions are selectable. The top setting turns on 
+clicks as the dial is turned.
+Controller — Front panel (Continued)
+PBT
+RIT
+TX / RX
+PWR
+AF
+RF/SQL
+CLR
+M-CH
+BANK
+RIT
+TUNER/CALL
+MENU
+MIC/RF PWR
+NB
+SPEED/PITCH
+SET
+QUICK
+NOTCH
+DR
+AUTO TUNE RXCS
+XFC
+SPEECH
+MPAD
+NR
+P.AMP ATT
+i7100
+@4
+@5
+@2 @3
+
+============================================================
+PAGE 11
+============================================================
+
+1
+PANEL DESCRIPTION
+1-7
+q	TX ICON
+	
+Indicates either the displayed frequency can be 
+transmitted, or not.
+➥
+➥“
+” appears while the operating frequency is in 
+an amateur band. 
+➥
+➥“
+” appears while the operating frequency is 
+not in an amateur band. However, when the “Band 
+Edge Beep” item is set to “OFF” in the “Function” 
+Set mode (p. 6-5), “
+” does not appear.
+	
+	 	 SET > Function > Band Edge Beep
+“LMT” appears while the output power is de-
+➥
+➥
+creased because the Power FET’s temperature 
+is high.
+“HOT” appears while transmission is inhibited be-
+➥
+➥
+cause the Power FET’s temperature is too high.
+w	MODE ICONS (p. 3-17)
+Displays the selected operating mode.
+➥
+➥
+ 
+ 
+• “-D” appears when SSB data, AM data or FM data 
+mode is selected.
+Touch to enter the Mode selection screen.
+➥
+➥
+ 
+ 
+• On the Mode selection screen, touch the block to se-
+lect the operating mode.
+e PASSBAND WIDTH ICON (AI sec. 5)
+	
+Graphically displays the passband width for twin 
+PBT operation and the center frequency for IF shift 
+operation.
+r	TONE SQUELCH/DIGITAL SQUELCH ICONS
+	
+(Mode: FM)
+ 
+➥ “TONE” appears when the repeater tone function 
+is ON. (AI sec. 4)
+ 
+➥ “TSQL” appears when the tone squelch function 
+is ON. (AI sec. 4)
+ 
+➥ “DTCS” appears when the DTCS function is ON. 
+(AI sec. 4)
+	
+(Mode: DV)
+ 
+➥ “DSQL” appears when the digital call sign squelch 
+function is ON. (AI sec. 9)
+ 
+➥ “CSQL” appears when digital code squelch func-
+tion is ON. (AI sec. 9)
+t IF FILTER ICON (AI sec. 5)
+Shows the selected IF filter.
+➥
+➥
+Touch to select one of three IF filter settings.
+➥
+➥
+ 
+ 
+• The selected filter passband width and shifting value 
+are displayed for 2 seconds in the window.
+Touch for 1 second to display the “FILTER” screen 
+➥
+➥
+to adjust the filter passband width.
+➥
+➥When the “FILTER” screen is displayed, touch for 1 
+second to return to the previous screen.
+y QUICK TUNING ICON (p. 3-8)
+ 
+Appears when the Quick tuning mode is selected.
+ 
+• When “Z” is displayed, the frequency changes in preset 
+kHz or 1 MHz quick tuning steps.
+ 
+• When “Z” is not displayed, the frequency changes in 10 
+Hz or 1 Hz steps.
+u	GPS ICON (AI sec. 10)
+	
+➥ Appears when valid position data is received from 
+a GPS receiver that is connected to the [DATA1] 
+jack.
+	
+➥ Blinks when invalid data is received from the GPS 
+receiver.
+i	SD CARD ICON
+➥
+➥“
+” appears when an SD card is inserted.
+➥
+➥“
+” and “
+” alternately blinks while accessing the 
+SD card.
+Controller — Function display
+q
+w
+e
+t
+r
+i
+y u
+
+============================================================
+PAGE 12
+============================================================
+
+1
+PANEL DESCRIPTION
+1-8
+o	CLOCK READOUT
+ 
+Shows the current time.
+ 
+• UTC time or local time can be selected.
+!0	SPLIT ICON (AI sec. 6)
+ 
+“
+” appears when the Split function is turned 
+ON.
+!1 LOCK ICON (AI sec. 5)
+	
+“
+” appears when the Lock function is activated.
+	
+1⁄4 TUNING DIAL SPEED ICON (p. 3-10)
+	
+(Mode: SSB-D/CW/RTTY)
+	
+“
+” appears when the tuning dial speed is set so 
+that one rotation is equal to 1⁄4 of the normal rota-
+tion.
+ 
+• This function is selectable only when the quick tuning 
+function is turned OFF.
+!2	FREQUENCY READOUTS
+Displays the operating frequency.
+➥
+➥
+Touch the MHz digits to enter the Band selection 
+➥
+➥
+screen.
+Touch the MHz digits for 1 second to turn the 1 
+➥
+➥
+MHz quick tuning mode ON or OFF.
+Touch the kHz digits to turn the preset kHz quick 
+➥
+➥
+tuning mode ON or OFF.
+Touch the kHz digits for 1 second to enter the Tun-
+➥
+➥
+ing step selection screen.
+Touch the Hz digits to for 1 second to toggle be-
+➥
+➥
+tween 10 Hz and 1 Hz steps.
+!3	VFO/MEMORY ICONS (p. 3-4)
+“VFOA” or “VFOB” appears whether VFO A or 
+➥
+➥
+VFO B is selected.
+“MEMO” appears when the memory mode is se-
+➥
+➥
+lected.
+!4 MEMORY CHANNEL READOUT (AI sec. 11)
+Shows the selected memory channel, scan edge 
+➥
+➥
+channel or Call channel.
+ 
+ 
+• Memory bank indicator (A to E) appears to the left of 
+memory channel.
+Touch to toggle between the VFO and Memory 
+➥
+➥
+modes.
+!5	SELECT MEMORY CHANNEL ICON
+	
+“” appears when the selected memory channel is 
+set as a select memory channel. (AI sec. 12)
+!6	INFORMATION READOUT 
+	
+Displays the transmit frequency of the Split opera-
+tion, descriptions of the memory channel or Re-
+ceived Call sign in the DV mode, and so on.
+!7	FUNCTION DISPLAY (p. 1-10)
+	
+Shows the function of the Touch keys.
+ 
+• Push MENU  to change the set of functions assigned to 
+the touch keys.
+ 
+• Toggles the function display menu between M-1, M-2 and 
+M-3 menus or D-1 and D-2 menus.
+!8	MULTI-FUNCTION METER INDICATION
+➥
+➥Displays the signal strength while receiving.
+➥
+➥Displays the relative output power, SWR, ALC or 
+compression levels while transmitting.
+➥
+➥When the Meter Peak Hold function is ON, the 
+peak level of a received signal strength or the 
+output power is displayed for approximately 0.5 
+seconds.
+➥
+➥Touch to select the RF power, SWR, ALC or Com-
+pression meter.
+➥
+➥Touch for 1 second to display the Multi-function 
+meter.
+Controller — Function display (Continued)
+o
+!0
+!1
+!3
+!4
+!5
+!6
+!2
+!7
+!8
+!9
+
+============================================================
+PAGE 13
+============================================================
+
+1
+PANEL DESCRIPTION
+1-9
+!9	FUNCTION ICONS
+“VOX” appears when the VOX function is activat-
+➥
+➥
+ed. (AI sec. 6)
+The Break-in icons appear when the Break-in 
+➥
+➥
+function is turned ON. (AI sec. 6)
+ 
+ 
+• “F-BKIN” appears when the Full Break-in function is 
+turned ON.
+ 
+ 
+• “BK-IN” appears when the Semi Break-in function is 
+turned ON.
+The Preamp icons appear when a preamplifier is 
+➥
+➥
+turned ON. (AI sec. 5)
+ 
+ 
+• In the HF, 50/70 MHz frequency band, either 
+“P.AMP1” or “P.AMP2” is displayed when preamp 1 
+or preamp 2 is ON.
+ 
+ 
+• In the 144/430 MHz frequency band, “P.AMP” is dis-
+played when the preamp is ON.
+“ATT” appears when the Attenuator function is 
+➥
+➥
+turned ON.  (AI sec. 5)
+The AGC icons display the selected AGC time 
+➥
+➥
+constant. (AI sec. 5)
+ 
+ 
+• “AGC-F” for AGC fast; “AGC-M” for AGC mid; “AGC-S” 
+for AGC slow; “AGC-OFF” for AGC OFF.
+ 
+ 
+• In the FM, WFM and DV mode, “AGC-F” for AGC fast 
+is fixed.
+“DUP+” appears when plus duplex, “DUP –” ap-
+➥
+➥
+pears when minus duplex (repeater) operation is 
+selected. (AI sec. 4)
+	
+➥ “RIT” and the shift frequency are displayed when 
+the RIT function is turned ON. (AI sec. 5)
+“➥
+➥
+” appears when the Speech Compressor 
+function is turned ON.
+“➥
+➥
+” appears when the Noise Blanker function is 
+turned ON.  (AI sec. 5)
+“➥
+➥
+” appears when the Noise Reduction function 
+is turned ON.  (AI sec. 5)
+The Notch icons appear when the Notch filter 
+➥
+➥
+function is turned ON. (AI sec. 5)
+	 	
+(Mode: SSB/CW/RTTY/AM)
+ 
+ 
+• “
+” appears when the Manual Notch function is 
+turned ON.
+	
+	
+(Mode: SSB/AM/FM)
+ 
+ 
+• “
+” appears when the Automatic Notch function is 
+turned ON.
+“➥
+➥
+” appears when priority scan is turned ON. 
+(AI sec. 12)
+“➥
+➥
+” appears when the VSC (Voice Squelch 
+Control) function is turned ON.
+	 (Mode: DV)
+“➥
+➥
+” appears when the EMR (Enhanced Moni-
+tor Receive) communication mode is selected. (AI 
+sec. 9)
+ 
+ 
+• In the EMR communication mode, no call sign setting 
+is necessary when operating in the DV mode.
+“➥
+➥
+” blinks when receiving an EMR signal.
+➥
+➥“
+” appears when the BK (Break-in) function is 
+turned ON. (AI sec. 9)
+	
+	
+• The BK function allows you to break into a conversa-
+tion where the two other stations are communicating 
+with call sign squelch enabled.
+“➥
+➥
+” blinks when receiving a break-in call.
+
+============================================================
+PAGE 14
+============================================================
+
+1
+PANEL DESCRIPTION
+1-10
+Push 
+➥
+➥
+MENU  to change the set of functions assigned 
+to touch keys.
+ 
+• Toggles the function display menu between M-1, M-2 and 
+M-3 menus or D-1 and D-2 menus.
+ 
+• Functions vary, depending on the operating mode.
+ 
+• In the DR mode, the D-1 and D-2 menus can be select-
+ed.
+Touch or touch for 1 second to select the displayed 
+➥
+➥
+functions.
+M-1 (M-1 menu) Display
+D
+D
+M-2 (M-2 menu) Display
+D
+D
+	
+(Mode: SSB)
+	
+(Mode: SSB-D)
+	
+(Mode: CW)
+	
+(Mode: RTTY)
+	
+(Mode: AM/AM-D)
+	
+(Mode: FM/FM-D/WFM)
+	
+(Mode: DV)
+M-3 (M-3 menu) Display
+D
+D
+	
+(Mode: SSB/AM/AM-D)
+	
+(Mode: SSB-D/RTTY)
+	
+(Mode: CW)
+	
+(Mode: FM/FM-D/WFM/DV)
+D-1 (D-1 menu) Display
+D
+D
+	
+(Mode: DV, when the DR mode is selected)
+D-2 (D-2 menu) Display
+D
+D
+	
+(Mode: DV, when the DR mode is selected)
+Controller — Multi-function keys
+Function keys on M-1 display
+D
+D
+SCAN KEY [SCAN] (AI sec. 12)
+	 Touch to display the “SCAN” screen.
+• Push MENU  to return to the previous screen.
+SPLIT KEY [SPLIT] (AI sec. 6)
+ ➥	Touch to turn the split function ON or OFF.
+ 
+• “
+” appears when the split function is 
+ON.
+➥	Touch for 1 second to activate the quick 
+split function.
+ 
+• The transmit frequency shifts from the receive 
+frequency according to the “SPLIT Offset” op-
+tion in the “Function” Set mode. (AI sec. 6)
+SET > Function > SPLIT/DUP > SPLIT Offset
+ 
+• The quick split function can be turned OFF in 
+the “Quick SPLIT” item of the “Function” Set 
+mode. (AI sec. 6)
+SET > Function > SPLIT/DUP > Quick SPLIT
+VFO SELECT KEY [A/B] (p. 3-5)
+ ➥ Touch to select either VFO A or VFO B.
+➥ Touch for 1 second to equalize the undis-
+played VFO settings to that of the displayed 
+VFO.
+VFO/MEMORY KEY [V/M]
+ ➥ Touch to switch between the VFO and 
+memory modes. (p. 3-4)
+ 
+• Touching Memory channel also selects the 
+VFO or memory modes.
+➥ Touch for 1 second to copy the memory 
+contents to the displayed VFO. (AI sec. 
+11)
+MEMORY WRITE KEY [MW] (AI sec. 11)
+	 Touch for 1 second to store VFO data into the 
+selected memory channel.
+• This can be done in both the VFO and memory 
+modes.
+Function keys on M-2 display
+D
+D
+DUPLEX KEY [DUP] (AI sec. 4)
+ ➥ Touch to select the duplex direction, or to 
+turn OFF the function.
+ 	 • “DUP–” or “DUP+” is displayed during duplex 
+operation.
+➥ In the FM mode, touch for 1 second to 
+turn the one-touch repeater function ON 
+or OFF.
+
+============================================================
+PAGE 15
+============================================================
+
+1
+PANEL DESCRIPTION
+1-11
+AGC KEY [AGC] (AI sec. 5)
+(Mode: SSB/SSB-D/CW/RTTY/AM/AM-D)
+ ➥ Touch to select the time constant of the 
+AGC circuit.
+➥ Touch for 1 second to display the “AGC” 
+screen.
+ 
+• Push MENU  to return to the previous screen.
+TONE SQUELCH KEY [TONE] (AI sec. 4)
+(Mode: FM)
+ ➥ Touch to select a tone function between 
+subaudible (repeater) tone, tone squelch 
+and DTCS.
+➥ Touch for 1 second to display the “TONE” 
+screen of the selected tone function.
+ 
+• Push MENU  to return to the previous screen.
+DIGITAL SQUELCH KEY [DSQL] (AI sec. 9)
+(Mode: DV)
+ ➥ Touch to select a digital squelch function 
+between digital call sign squelch and digi-
+tal code squelch.
+➥ Touch for 1 second to display the “DSQL” 
+screen (digital squelch).
+ 
+• Push MENU  to return to the previous screen.
+VOICE RECORDER KEY [VOICE] (AI sec. 15)
+(Mode: SSB/AM/FM/DV)
+This function requires to insert an SD card.
+	 Touch to display the “VOICE TX” screen or 
+the “VOICE” (Root) screen, depending on the 
+“VOICE 1st Menu” option in the “Function” Set 
+mode (p. 6-6).
+SET > Function > VOICE 1st Menu
+• Push MENU  to return to the previous screen.
+MEMORY KEYER KEY [KEYER] (AI sec. 4)
+(Mode: CW)
+	 Touch to display the “KEYER SEND” screen 
+or the “KEYER” (Root) screen, depending on 
+the “KEYER 1st Menu” option in the “Function” 
+Set mode (p. 6-6).
+SET > Function > KEYER 1st Menu
+• Push MENU  to return to the previous screen.
+RTTY DECODER KEY [DEC] (AI sec. 4)
+	 Touch to display the RTTY Decoder screen.
+• Push MENU  to return to the previous screen.
+SPEECH COMPRESSOR KEY [COMP] (AI sec. 6)
+(Mode: SSB)
+ ➥ Touch to turn the speech compressor func-
+tion ON or OFF.
+ 	 • “
+” is displayed when the speech com-
+pressor is ON.
+➥ Touch for 1 second to display the “COMP” 
+screen.
+ 
+• Push MENU  to return to the previous screen.
+RTTY SET KEY [RTTY] (AI sec. 6)
+	 Touch to display the “RTTY SET” screen.
+• Push MENU  to return to the previous screen.
+CALL SIGN KEY [CS] (AI sec. 4)
+(Mode: DV)
+	 Touch to display the “CALL SIGN” screen.
+• The current call sign for DV operation appears.
+• Push MENU  to return to the previous screen.
+TRANSMISSION BANDWIDTH KEY [TBW] (AI sec. 6)
+(Mode: SSB)
+ ➥ Touch to display the selected transmission 
+bandwidth.
+➥ Touch for 1 second to select the transmis-
+sion bandwidth.
+ 
+• Bandwidth is selectable from wide (WIDE), 
+mid (MID) and narrow (NAR).
+1⁄4 TUNING FUNCTION KEY [1⁄4] (p. 3-10)
+(Mode: SSB-D/CW/RTTY)
+	 Touch to turn the 1⁄4 Tuning function ON or 
+OFF. 
+• “
+” is displayed when the 1⁄4 Tuning function 
+is ON.
+CALL RECORD KEY [CD] (AI sec. 9)
+(Mode: DV)
+	 Touch to display the “RX HISTORY” screen.
+• The call record channel appears. (RX01 to 
+RX20)
+• Push MENU  to return to the previous screen.
+Function keys on M-3 display
+D
+D
+MEMORY NAME KEY [MEMO] (AI sec. 11)
+	 Touch to display the “MEMO” (Memory menu) 
+screen.
+• Push MENU  to return to the previous screen.
+BAND SCOPE FUNCTION KEY [SCOPE] (AI sec. 5)
+	 Touch to display the “SCOPE” (Band scope) 
+screen.
+SWR GRAPH FUNCTION KEY [SWR] (AI sec. 6)
+	 Touch to display the “SWR” screen.
+• Push MENU  to return to the previous screen.
+DTMF MODE KEY [DTMF] (AI sec. 6)
+(Mode: FM/FM-D/DV)
+	 Touch to display the “DTMF” screen.
+• Push MENU  to return to the previous screen.
+
+============================================================
+PAGE 16
+============================================================
+
+1
+PANEL DESCRIPTION
+1-12
+Controller — Multi-function keys
+Function keys on M-3 display (Continued)
+D
+D
+VOX KEY [VOX] (AI sec. 6)
+(Mode: SSB/AM/FM/DV)
+ ➥ Touch to turn the VOX function ON or 
+OFF.
+➥ Touch for 1 second to display the “VOX” 
+screen. 
+ 
+• Push MENU  to return to the previous screen.
+✔ What is the VOX function?
+The VOX function (voice operated transmis-
+sion) automatically starts transmission when 
+you speak into the microphone, then auto-
+matically returns to receive when you stop 
+speaking.
+BK-IN KEY [BK-IN] (AI sec. 6)
+(Mode: CW)
+ ➥ Push to toggle the break-in operation be-
+tween semi break-in and full break-in, or to 
+turn OFF the break-in function.
+➥ Hold down for 1 second to display the 
+“BKIN” screen (Break-in). Push to return to 
+the previous screen display.
+✔ What is the break-in function?
+The break-in function automatically switches 
+between transmit and receive with your CW 
+keying. Using Full break-in function (QSK), 
+you can hear the receive frequency in-be-
+tween keying.
+Function keys on D-1 display
+D
+D
+(Mode: DV) (when the DR mode is selected)
+SCAN KEY [SCAN] (AI sec. 12)
+	 ➥ Touch to start or cancel the Access re-
+peater scan. 
+➥ Touch for 1 second to enter the “SCAN 
+SET” mode screen. 
+ 
+• Push MENU  to return to the previous screen.
+SKIP KEY [SKIP]
+	 ➥ Touch to set the Skip setting ON or OFF 
+for the Access repeater scan.
+ 
+• “
+” is displayed when the Skip setting is 
+ON.
+ 
+• When a repeater is set as a skip target, the re-
+peater cannot be selected in “FROM” (Access 
+repeater).
+VOICE RECORDER KEY [VOICE] (AI sec. 15)
+This function requires to insert an SD card.
+	 Touch to display the “VOICE TX” screen or 
+the “VOICE” (Root) screen, depending on the 
+“VOICE 1st Menu” option in the “Function” Set 
+mode (p. 6-6).
+SET > Function > VOICE 1st Menu
+• Push MENU  to return to the previous screen.
+CALL SIGN KEY [CS] (AI sec. 9)
+	 Touch to display the “CALL SIGN” screen.
+• The current call sign for DV operation appears.
+• Push MENU  to return to the previous screen.
+CALL RECORD KEY [CD] (AI sec. 9)
+	 Touch to display the “RX HISTORY” screen.
+• The call record channel appears. (RX01 to 
+RX20)
+• Push MENU  to return to the previous screen.
+Function keys on D-2 display
+D
+D
+(Mode: DV) (when the DR mode is selected)
+MEMORY WRITE SWITCH [MW] (AI sec. 11)
+ ➥ Touch to display the Memory channel 
+screen.
+ 
+• Touch [MW] for 1 second to store the DR mode 
+data into the selected memory channel.
+ 
+• Push MENU  to return to the previous screen.
+DIGITAL SQUELCH KEY [DSQL] (AI sec. 9)
+ ➥ Touch to select a digital squelch function 
+between digital call sign squelch and digi-
+tal code squelch.
+➥ Touch for 1 second to display the “DSQL” 
+screen (digital squelch).
+ 
+• Push MENU  to return to the previous screen.
+DTMF MODE KEY [DTMF] (AI sec. 6)
+	 Touch to display the “DTMF” screen.
+• Push MENU  to return to the previous screen.
+VOX KEY [VOX] (AI sec. 6)
+ ➥ Touch to turn the VOX function ON or 
+OFF.
+➥ Touch for 1 second to display the “VOX” 
+screen. 
+ 
+• Push MENU  to return to the previous screen.
+✔ What is the VOX function?
+The VOX function (voice operated transmis-
+sion) automatically starts transmission when 
+you speak into the microphone; then auto-
+matically returns to receive when you stop 
+speaking.
+
+============================================================
+PAGE 17
+============================================================
+
+1
+PANEL DESCRIPTION
+1-13
+Controller — Rear and bottom panels
+q	HEADPHONE/SPEAKER JACK [PHONES/SP]
+	
+Plug in standard stereo headphones (impedance: 8 
+to 16 ø).
+ 
+• Output power: More than 5 mW with an 8 ø load.
+ 
+• When headphones are connected, the internal speaker, 
+and any external speaker, are disabled.
+ 
+• When the [PHONES/SP] switch (y) on the bottom panel 
+is set to the SPEAKER position, an external speaker can 
+be used instead of headphones. This is convenient for 
+mobile or outdoor operation.
+w	ELECTRONIC KEYER JACK [ELEC-KEY]
+	
+Plug in a bug or paddle type key to use the internal 
+electronic keyer for CW operation. (AI sec. 4)
+ 
+• Set the keyer type to ELEC-KEY, BUG-KEY or Straight 
+key in the “Keyer Type” item of the “KEYER SET” mode.
+ 
+• When a straight key is connected, “Straight key” must be 
+selected in the “Keyer Type” item of the “KEYER SET” 
+mode. (AI sec. 4)
+ 
+• A straight key jack is located on the rear panel. See [KEY] 
+on pages 1-15 and 2-5.
+ 
+• You can reverse the keyer paddle polarity (dot and dash) 
+in the “Paddle Polarity” item of the “KEYER SET” mode. 
+(AI sec. 4)
+ 
+• Four keyer memory channels are available for your con-
+venience. (AI sec. 4)
+(dot)
+(com)
+(dash)
+A standard 3.5(d) mm/ 1⁄8 inch plug
+e	MICROPHONE CONNECTOR [MIC]
+	
+Plug in the supplied or an optional microphone.
+ 
+• See AI sec. 21 for appropriate microphones.
+ 
+• See p. 1-17 for microphone connector information.
+ 
+• The optional OPC-589 cable can be used to connect an 
+8-pin microphone such as the SM-30 or SM-50.
+ 
+• A microphone connector is also available on the Main 
+unit. 
+	
+	
+DO NOT simultaneously connect two microphones.
+r	MAIN UNIT CONNECTOR [MAIN UNIT]
+	
+Connects to the Main unit using with the supplied 
+OPC-2253 Control cable.
+ 
+• The OPC-2253 Control cable is 3.5 meter (11.5 feet) 
+long.
+	
+DO NOT use any third party’s Ethernet cables.
+t	STAND
+	
+The length of the stand can be adjusted in two 
+steps.
+ 
+• Adjust to the length not to incline back when you operate 
+the Front panel.
+y	PHONES/SPEAKER SWITCH [PHONE/SP]
+	
+Selects the [PHONES/SP] jack to connect a Head-
+phones or external speaker.
+u	SCREW HOLE FOR STAND
+	
+Accepts the screw of a tripod stand. (Third party 
+product.)
+i	SCREW HOLES FOR CONTROLLER BRACKET
+	
+Accepts the screws of the optional MBA-1 Controller 
+bracket.
+ 
+• The MBA-1 is required to install to the optional MBF-1 
+Mounting base.
+Bottom panel
+Rear panel
+q w
+e
+r
+Speaker
+t
+u
+i
+y
+
+============================================================
+PAGE 18
+============================================================
+
+1
+PANEL DESCRIPTION
+1-14
+Main unit — Front panel
+q	COOLING FAN
+	
+This is a cooling fan for heat dissipation.
+	
+Depending on the internal temperature, it rotates at 
+a Low, Mid or High speed.
+w	SD CARD SLOT [SD CARD]
+	
+Insert an SD card of  up to 32 GB SDHC.
+	
+See AI sec. 13 for details.
+Main unit — Rear panel
+q	ANTENNA CONNECTOR 1 [ANT1] 
+w	ANTENNA CONNECTOR 2 [ANT2] (p. 2-2)
+	
+Connect a 50 ø antenna with a PL-259 plug con-
+nector.
+ 
+• [ANT1] is used for the HF, 50/70 MHz frequency bands.
+ 
+• [ANT2] is used for the 144/430 MHz frequency bands.
+ 
+• [ANT1] is used below 74.8 MHz, and [ANT2] is used for 
+74.8 MHz or above.
+	
+When using an optional AH-4 or AT-180 hf/50 mhz 
+automatic antenna tuners, connect it to the 
+[ANT1] connector.
+e	GROUND TERMINAL [GND] (p. 2-2)
+	
+Connect this terminal to ground to prevent electrical 
+shocks, TVI, BCI and other problems.
+r	TUNER CONTROL SOCKET [TUNER] (p. 2-6)
+	
+Connect the control cable from an optional AH-4 hf/ 
+50 mhz automatic antenna tuner.
+t	DC POWER SOCKET [DC 13.8V] (p. 2-7)
+	
+Connect 13.8 V DC through the supplied DC power 
+cable.
+Rear panel view
+y	CONTROLLER CONNECTOR [CONTROLLER]
+	
+Connects to the Controller using with the supplied 
+OPC-2253 Control cable.
+ 
+• The OPC-2253 Control cable is 3.5 meter (11.5 feet) 
+length.
+ 
+• DO NOT use any third party’s Ethernet cables.
+q
+w
+q
+w
+e
+r
+t
+y
+u
+i
+o
+!0
+!1
+!2
+!3
+!4
+
+============================================================
+PAGE 19
+============================================================
+
+1
+PANEL DESCRIPTION
+1-15
+u	STRAIGHT KEY JACK [KEY] (p. 2-5)
+	
+Connect a straight key or external electronic keyer 
+using a standard 3.5(d) mm/ 1⁄8 inch plug.
+ 
+• To use the internal electronic keyer for CW operation, 
+connect to [ELEC-KEY] on the Front panel of the Con-
+troller. (p. 1-13)
+(+)
+(_)
+i	ACCESSORY SOCKET [ACC]
+	
+Connect control lines for external equipment such 
+as a linear amplifier, an automatic antenna selector/ 
+tuner, a TNC for data communications, and so on.
+ 
+• See page 1-16 for socket information.
+o	DATA1 JACK [DATA1] (p. 2-6)
+	
+➥ Connect a PC through the optional OPC-1529R 
+data communication cable, for low-speed data 
+communication in the DV mode. (AI sec. 9)
+	
+➥ Connect a GPS receiver through the optional 
+OPC-1529R data communication cable, for GPS 
+operation. (AI sec. 10)
+!0	DATA2 SOCKET [DATA2] (p. 2-6)
+	
+Connect a TNC (Terminal Node Controller), and so 
+on, for high speed data communications.
+!1	CI-V REMOTE CONTROL JACK [REMOTE]  
+(p. 2-6)
+	
+➥ Connect a PC, using the optional CT-17 ci-v level 
+converter, for external control of the transceiver.
+	
+➥ Use for the transceive function with another Icom 
+CI-V transceiver or receiver.
+	
+	
+When the transceive function is set to ON, chang-
+ing the frequency, operating mode and so on, on 
+the IC-7100 automatically changes those settings 
+on other Icom transceivers or receivers, and vice 
+versa.
+	
+➥ Connect another IC-7100, using a mini plug 
+cable*, for transceiver to transceiver cloning.
+	
+	 	  * Purchase separately
+!2	USB (Universal Serial Bus) PORT [USB]
+	
+Using a USB cable, connect a PC to do the follow-
+ing:
+	
+- Input modulation
+	
+- Remotely control the transceiver using CI-V com-
+mands (AI sec. 20)
+	
+- Send the received audio to the PC
+	
+- Send the decoded characters to the PC
+	
+- Low-speed data communication in the DV mode 
+(AI sec. 9)
+	
+- Cloning using the optional CS-7100 cloning soft-
+ware (AI sec. 21)
+	
+- Remote control operation using the optional RS-
+BA1 ip remote control software (AI sec. 21)
+ 
+• Two COM port numbers are assigned to the [USB] con-
+nector. One of them is “USB1,” used for cloning and CI-V 
+operation. The other one is “USB2,” whose function is se-
+lected in “USB2 Function” item of the “Connectors” Set 
+mode. (p. 6-8)
+SET > Connectors > USB2/DATA1 Function >  
+USB2 Function
+	
+About the USB driver:
+	
+The USB driver and the installation guide can be 
+downloaded from our website.
+	
+➥ http://www.icom.co.jp/world/index.html
+	
+The following items are required:
+	
+PC
+ 
+• Microsoft® Windows® XP, 
+Microsoft® Windows Vista®, 
+Microsoft® Windows® 7 or 
+Microsoft® Windows® 8 OS
+ 
+• A USB 1.1 or 2.0 port
+	
+Other items
+ 
+• USB cable (supplied with the transceiver)
+ 
+• PC software (such as the optional RS-BA1 or CS-
+7100)
+	
+NEVER connect the transceiver to a PC until the 
+USB driver installation has been completed.
+	
+About the modulation input:
+	
+Select “USB” in the “Connectors” Set mode item 
+“DATA OFF MOD” or “DATA MOD.” The modulation 
+input level from the USB jack can be set in the Set 
+mode item “USB MOD Level.” (AI sec. 6)
+SET > Connectors > DATA OFF MOD
+SET > Connectors > DATA MOD
+SET > Connectors > USB MOD Level
+While cloning using the CS-7100 software, DO NOT 
+connect anything to the [REMOTE] jack.
+!3	EXTERNAL SPEAKER JACK [SP]
+	
+Connect to an external speaker (4 to 8 ø).
+!4	MICROPHONE CONNECTOR [MIC]
+	
+Plug in the supplied or an optional microphone.
+ 
+• See AI sec. 21 for appropriate microphones.
+ 
+• See p. 1-17 for microphone connector information.
+ 
+• The optional OPC-589 cable can be used to connect an 
+8-pin microphone such as the SM-30 or SM-50.
+ 
+• A microphone connector is also available on the Control-
+ler. 
+	
+	
+DO NOT simultaneously connect two microphones.
+
+============================================================
+PAGE 20
+============================================================
+
+1
+PANEL DESCRIPTION
+1-16
+Main unit — Rear panel (Continued)
+ACC socket information
+D
+D
+• ACC socket
+ACC
+PIN No.
+NAME
+DESCRIPTION
+SPECIFICATIONS
+1
+2
+3
+4
+8
+7
+6
+5
+9
+10 11 12
+13
+Rear panel view
+Color refers to 
+the cable strands 
+of the supplied 
+cable.
+q brown
+w red
+e orange
+r yellow
+t green
+y blue
+u purple
+i
+o
+!0
+!1
+!2
+!3
+gray
+white
+black
+pink
+light
+blue
+light
+green
+1
+8 V
+Regulated 8 V output.
+Output voltage:
+Output current:
+8 V ± 0.3 V
+Less than 10 mA
+2
+GND
+Connects to ground.
+———
+3
+HSEND
+*1, 2
+Input/out-
+put pin.
+An external equipment 
+controls the transceiver.
+When this pin goes low, 
+the transceiver transmits.
+Input voltage (High):
+Input voltage (Low):
+Current flow:
+2.0 V to 20.0 V
+–0.5 V to +0.8 V
+Maximum 20 mA
+The transceiver outputs 
+a low signal to control 
+external equipment.
+Output voltage (Low):
+Current flow:
+Less than 0.1 V
+Maximum 200 mA
+4
+BDT
+Data line for the optional AT-180.
+———
+5
+NC 
+(BAND*3)
+*3 If the modification is performed, 
+band voltage output. (AI sec. 19)
+———
+Output voltage:
+0 to 8 V
+6
+ALC
+ALC voltage input.
+Control voltage:
+Input impedance:
+–4 V to 0 V
+More than 3.3 k˘
+7
+VSEND
+*1, 2
+Input/out-
+put pin.
+An external equipment 
+controls the transceiver.
+When this pin goes low, 
+the transceiver transmits.
+Input voltage (High):
+Input voltage (Low):
+Current flow:
+2.0 V to 20.0 V
+–0.5 V to +0.8 V
+Maximum 20 mA
+The transceiver outputs 
+a low signal to control 
+external equipment.
+Output voltage (Low):
+Current flow:
+Less than 0.1 V
+Maximum 200 mA
+8
+13.8 V
+13.8 V output when power is ON.
+Output current:
+Less than 1 A
+9
+TKEY
+Key line for the optional AT-180.
+———
+10
+FSKK
+Controls RTTY keying
+“High” level:
+“Low” level:
+Output current:
+More than 2.4 V
+Less than 0.6 V
+Less than 2 mA
+11
+MOD
+Modulator input.
+Input impedance:
+Input level:
+10 k˘
+Approx. 100 mV rms
+12
+AF*3
+AF detector output.
+Fixed level, regardless of the [AF] 
+control position.
+Output impedance:
+Output level:
+4.7 k˘
+100 to 300 mV rms
+13
+SQL S
+Squelch output.
+Grounded when squelch opens.
+SQL open:
+SQL closed:
+Less than 0.3 V/5 mA
+More than 6.0 V/100 µA
+*1	When the SEND terminal controls the inductive load (such as a relay), a counter-electromotive force can cause 
+the transceiver’s malfunction or damage. To prevent this, we recommend adding a switching diode, such as an 
+“1SS133,” on the load side of the circuit to the counter-electromotive force absorption.
+	 When the diode is added, a switching delay of the relay may occur. Be sure to check its switching action before 
+operation.
+eHSEND or
+uVSEND
+i13.8 V
+ACC socket
+Relay
+Switching diode
+To a non-Icom 
+linear amplifier
+[Example]
+*2	VSEND is used for the 144 MHz and 430 MHz bands, and HSEND is used for the HF, 50/70 MHz bands by default. 
+You can change this setting in “VSEND Select” of the “Connectors” Set mode. (p. 6-8)
+SET > Connectors > VSEND Select
+*3	You can change this setting in “ACC/USB Output Select” of the “Connectors” Set mode. (p. 6-8)
+SET > Connectors > ACC/USB Output Select
+
+============================================================
+PAGE 21
+============================================================
+
+1
+PANEL DESCRIPTION
+1-17
+DATA2 socket information
+D
+D
+DATA2
+PIN No.
+NAME
+DESCRIPTION
+SPECIFICATIONS
+q
+w
+e
+r
+t
+y
+Rear panel view
+1
+DATA IN
+Input terminal for data transmit. 
+(1200 bps: AFSK/ 
+9600 bps: G3RUH, GMSK)
+Input level (1200 bps):
+Input level (9600 bps):
+100 mV
+0.2 to 0.5 Vp-p
+2
+GND
+Common ground for DATA IN, DATA 
+OUT and AF OUT.
+———
+3
+PTT
+PTT terminal for packet operation. 
+Connect to ground to activate the 
+transmitter.
+Input voltage (High):
+Input voltage (Low):
+2.0 V to 20.0 V
+–0.5 V to +0.8 V
+4
+DATA OUT Data out terminal for 9600 bps opera-
+tion only.
+Output impedance:
+Output level:
+10 k˘
+1.0 Vp-p
+5
+AF OUT
+Data out terminal for 1200 bps opera-
+tion only.
+Output impedance:
+Output level:
+4.7 k˘
+100–300 mV rms
+6
+SQL
+Squelch out terminal. This pin is 
+grounded when the transceiver re-
+ceives a signal which opens the 
+squelch.
+• To avoid interfering transmissions, 
+connect squelch to the TNC to inhibit 
+transmission when squelch is open.
+• Keep RF gain at a normal level, other-
+wise a “SQL” signal will not be output.
+SQL open:
+SQL closed:
+Less than 0.3 V/ 
+5 mA
+More than 6.0 V/ 
+100 µA
+8
+1
+2
+3
+4
+7
+6
+5
+1
+2
+3
+4
+7
+6
+5
+q w e r
+t y u i
+o !0 !1 !2
+!3
+Connect to ACC socket
+ACC 1
+ACC 2
+q FSKK
+w GND
+e HSEND
+r MOD
+t AF
+y SQLS
+u 13.8 V
+i ALC
+q 8 V
+w GND
+e HSEND
+r BAND
+t ALC
+y VSEND
+u 13.8 V
+• When connecting the ACC conversion cable (OPC-599)
+Microphone connector information
+D
+D
+MIC
+PIN No.
+NAME
+DESCRIPTION
+SPECIFICATIONS
+1
+2
+3
+4
+5
+6
+7
+8
+Rear panel view
+1
+8 V
++8 V DC output.
+Maximum 10 mA
+2
+MIC U/D
+Frequency Up/Down
+UP: Ground
+DN: Ground through 470 ˘
+3
+M8V SW
+HM-151 connection
+Ground to indicate the HM-151 is connected.
+When the HM-151 is not connected; outputs an AF.*1
+—
+4
+PTT
+PTT input
+—
+5
+MIC E
+Microphone ground
+—
+6
+MIC
+Microphone input
+—
+7
+GND
+Ground
+—
+8
+DATA IN
+When the HM-151 is connected; HM-151 data input
+—
+SQL SW
+When the HM-151 is not connected; Squelch switch
+Open: ‘Low’ level
+Close: ‘High’ level
+*1	You can change this setting in “MIC AF Out” of the “Function” Set mode. (p. 6-6)
+SET > Function > MIC AF Out
+
+============================================================
+PAGE 22
+============================================================
+
+1
+PANEL DESCRIPTION
+1-18
+Microphone
+q	PTT SWITCH
+	
+Hold down to transmit, release to receive.
+w	UP/DOWN KEYS [UP]/[DN]
+Push either key to change the operating frequen-
+➥
+➥
+cy, memory channel, Set mode setting, and so on. 
+(p. 3-9, AI sec. 4, 11)
+Hold down either key for 1 second to start scan-
+➥
+➥
+ning.
+e	UP/DN LOCK SWITCH
+	
+Slide to turn the [UP]/[DN] keys lock function ON or 
+OFF.
+HM-198 (Supplied)
+D
+D
+ON
+OFF
+w
+q
+e
+q	PTT SWITCH
+	
+Hold down to transmit, release to receive.
+w	PTT LOCK SWITCH
+	
+Push to lock the PTT switch in the transmit mode.
+e	UP/DOWN SWITCHES [UP]/[DN]
+	
+Change the selected readout frequency or memory 
+channel.
+ 
+• Holding down continuously changes the frequency or 
+memory channel number.
+ 
+• While holding down XFC , the transmit readout frequen-
+cy can be controlled while in the split frequency mode.
+ 
+• The [UP]/[DN] switch can simulate a key paddle. Preset in 
+the “KEYER SET” mode (U/D KEY; MIC Up/Down Keyer). 
+(AI sec. 4)
+r	LOW CUT SWITCH
+	
+Push (SM-50)/Slide (SM-30) to cut out the low fre-
+quency components of input voice signals.
+t	PTT LOCK INDICATOR [LOCK]
+	
+(Only for the SM-30)
+	
+Lights red when the PTT lock switch (w) is ON.
+y	MIC GAIN VOLUME [MIC GAIN]
+	
+Rotate to adjust the microphone output level. 
+ 
+• Use this control as an addition to the microphone gain 
+setting of the connected transceiver.
+	
+Rotating the control too far clockwise may result 
+in an output level that is too high and transmit sig-
+nal distortion. 
+q
+r
+y
+w
+e
+D
+D SM-50 (Option)
+D
+D SM-30 (Option)
+q
+w
+t
+MIC GAIN
+ON
+OFF
+LOW CUT
+y
+r
+TOP VIEW
+BOTTOM VIEW
+The optional OPC-589 cable is required to connect these 8-pin microphones.
+
+============================================================
+PAGE 23
+============================================================
+
+1
+PANEL DESCRIPTION
+1-19
+q	SPCH/LOCK KEY [SPCH/LOCK]
+	
+❍ SPEECH KEY Operation (p. 3-20)
+	
+	
+Push to audibly announce the S-meter level, the 
+displayed frequency and the operating mode.
+ 
+ 
+• The S-Level announcement can be turned OFF in the 
+“S-Level SPEECH” item of the “SPEECH” Set mode. 
+(p. 6-4)
+	
+	
+	 SET > SPEECH > S-Level SPEECH
+ 
+ 
+• When RIT is ON, the RIT offset is not included in the 
+frequency announcement.
+	
+❍ LOCK KEY Operation (AI sec. 5)
+	
+	
+Hold down for 1 second to turn the Lock function 
+ON or OFF.
+ 
+ 
+• The function electronically locks the Dial.
+ 
+ 
+• “
+” appears when the function is ON.
+ 
+ 
+• You can select the Dial lock and Panel lock in the 
+“Lock Function” item of the “Function” Set mode (p. 
+6-6).
+	
+	
+SET > Function > Lock Function
+w	PTT SWITCH [PTT] (p. 3-23)
+ 
+Hold down to transmit, release to receive.
+e	UP/DOWN KEYS [Y]/[Z]
+ 
+Change the operating frequency.
+ 
+• Hold down to continuously change the frequency.
+ 
+• If the Quick tuning icon is not displayed, the tuning step 
+is 50 Hz.
+r	TRANSMIT LED 
+ 
+Lights red while transmitting.
+t	KEYPAD
+Pushing a key selects the operating band.
+➥
+➥
+ 
+ 
+• [(GENE)•] selects the general coverage band.
+Pushing the same key 2 or 3 times calls up other 
+➥
+➥
+stacked frequencies in the band. 
+ 
+ 
+• Icom’s triple band stacking register memorizes 3 fre-
+quencies in each band.
+ After pushing 
+➥
+➥
+[(F-INP)ENT], enter a numeric fre-
+quency, then press [(F-INP)ENT] again. 
+ 
+ 
+• Example: To enter 14.195 MHz, push [(F-INP)ENT] 
+[1] [4] [•] [1] [9] [5] [(F-INP)ENT].
+y	FILTER SELECTION KEY [FIL]
+Push to select one of three IF filter settings.
+➥
+➥
+ 
+ 
+• The selected filter passband width and shifting value 
+are displayed for 2 seconds in the window.
+Push for 1 second to display the “FILTER” screen 
+➥
+➥
+to adjust the filter passband width.
+➥
+➥When the “FILTER” screen is displayed, push for 1 
+second to return to the previous screen.
+D
+D HM-151 (Option)
+SPCH
+  /LOCK
+TUNER
+  /CALL
+XFC
+V/M
+F-1
+F-2
+FIL
+MODE
+GENE
+MW
+1
+2
+3
+4
+5
+6
+7
+8
+9
+.
+0
+CE
+F-INP
+ENT
+1.8
+3.5
+7
+10
+14
+18
+21
+24
+28
+50
+144
+430
+q
+e
+r
+t
+y
+w
+Mic element
+
+============================================================
+PAGE 24
+============================================================
+
+1
+PANEL DESCRIPTION
+1-20
+u	MODE KEY [MODE]
+Push to cycle through the operating modes:
+➥
+➥
+USB/LSB ➧ CW/CW-R ➧ RTTY/RTTY-R ➧ AM 
+➧ 
+FM	
+➧ 
+WFM	
+➧ 
+DV
+Hold down for 1 second to toggle the following 
+➥
+➥
+operating modes:
+	
+	
+USB	
+↔ LSB
+	
+	
+CW	
+↔ CW-R
+	
+	
+RTTY	 ↔ RTTY-R
+i	POWER LED
+ 
+Lights green when transceiver’s power is ON.
+o	PROGRAMMABLE FUNCTION KEYS [F-1]/[F-2]
+	
+Program and perform a selected function.
+ 
+• The functions can be assigned in the “RC MIC” item of 
+the “Function” Set mode (p. 6-6). The default settings for 
+[F-1] and [F-2] are “MPW” and “MPR.”
+	
+	 SET > Function > RC MIC
+!0	MEMORY WRITE KEY [MW] (AI sec. 11)
+	
+Hold down for 1 second to store VFO data into the 
+selected memory channel.
+ 
+• This can be done in both the VFO and memory modes.
+!1	VFO/MEMORY SELECTION KEY [V/M]
+Push to switch between the VFO and memory 
+➥
+➥
+modes. (p. 3-4)
+Hold down for 1 second to copy the memory con-
+➥
+➥
+tents to the displayed VFO. (AI sec. 11)
+!2	TRANSMIT FREQUENCY CHECK KEY [XFC] 
+	
+➥	During split frequency or repeater operation, hold 
+down to listen to the transmit frequency. (AI sec. 4)
+ 
+ 
+• While holding down this switch, the transmit frequen-
+cy can be changed with the Dial or MPAD .
+ 
+ 
+• When the Split Lock function is turned ON in the Split 
+operation, hold down [XFC] to cancel the Dial lock 
+function. (AI sec. 6)
+	
+➥	When operating simplex, hold down to monitor 
+the frequency.
+ 
+ 
+• While holding down this key, the squelch is open and 
+the interference reject function is temporarily turned 
+OFF.
+	
+➥	When operating simplex and the RIT function is 
+turned ON, hold down to listen to the transmit fre-
+quency. The frequency is the same as when the 
+RIT is OFF. (AI sec. 5)
+	
+➥	In the DV mode, hold down this key to select the 
+RX monitoring mode. (p. 6-3)
+!3	TUNER/CALL KEY [TUNER/CALL] 
+	
+❍ ANTENNA TUNER KEY Operation (AI sec. 16)
+	
+	
+(Frequency band: HF, 50/70* MHz)
+	
+	
+➥ Push to turn an optional antenna tuner ON or 
+OFF (bypass).
+	
+	
+➥ Hold down for 1 second to manually start the 
+antenna tuner.
+ 
+ 
+ 
+• If the tuner cannot tune the antenna within 20 sec-
+onds, the tuning circuit is automatically bypassed.
+	
+	
+* 70 MHz band transmission is available, depending on 
+the transceiver version.
+	
+❍ CALL KEY Operation (AI sec. 11)
+	
+	
+(Frequency band: 144/430 MHz)
+	
+	
+Push to select the Call channel.
+HM-151 (Option) (Continued)
+D
+D
+Microphone
+SPCH
+  /LOCK
+TUNER
+  /CALL
+XFC
+V/M
+F-1
+F-2
+FIL
+MODE
+GENE
+MW
+1
+2
+3
+4
+5
+6
+7
+8
+9
+.
+0
+CE
+F-INP
+ENT
+1.8
+3.5
+7
+10
+14
+18
+21
+24
+28
+50
+144
+430
+o
+!0
+!2
+!1
+!3
+Mic element
+i
+u
+
+============================================================
+PAGE 25
+============================================================
+
+2-1
+Section 2
+INSTALLATION AND CONNECTIONS
+Selecting a location.................................................................2-2
+Grounding.................................................................................2-2
+Antenna connection.................................................................2-2
+Connect controller to transceiver...........................................2-3
+The Main unit installation
+D
+D
+.........................................................2-3
+Connect to the controller........................................................2-4
+Required Connections to a Transceiver.................................2-5
+The External Units Connections to a Transceiver.................2-6
+Power Supply Connections.....................................................2-7
+Connecting the PS-126 power supply
+D
+D
+......................................2-7
+Connecting a non-Icom DC power supply
+D
+D
+...............................2-7
+Linear Amplifier Connections.................................................2-8
+Connecting the IC-PW1/EURO
+D
+D
+................................................2-8
+Connecting a non-Icom linear amplifier
+D
+D
+...................................2-8
+“AI” means “Advanced Instructions.”
+“sec. MM” means section number.
+So when “(AI sec. MM)” is described on this manual, see the PDF type 
+Advanced Instruction’s section number for your reference.
+Section 1  panel description
+Section 2  INSTALLATION AND CONNECTIONS
+Section 3  BASIC OPERATION
+Section 4  D-STAR INTRODUCTION
+Section 5  D-STAR OPERATION <BASIC>
+Section 6  SET MODE
+Section 7  INSTALLATION NOTES
+
+============================================================
+PAGE 26
+============================================================
+
+2
+INSTALLATION AND CONNECTIONS
+2-2
+Select a location for the transceiver that allows ad-
+equate air circulation, free from extreme heat, cold, 
+vibrations, away from TV sets, TV antenna elements, 
+radios and other electromagnetic sources.
+The base of the transceiver has adjustable feet for 
+desktop use. Set the feet to one of two angles, to meet 
+your operating preference.
+Selecting a location
+Grounding
+To prevent electrical shock, television interference 
+(TVI), broadcast interference (BCI) and other problems, 
+ground the transceiver using the GROUND terminal on 
+the rear panel.
+For best results, connect a heaviest gauge wire or strap 
+to a long ground rod. Make the distance between the 
+[GND] terminal and ground as short as possible.
+R WARNING! NEVER connect the [GND] ter-
+minal to a gas or electric pipe, since the connection 
+could cause an explosion or electric shock.
+Antenna connection
+For radio communications, the antenna is of critical im-
+portance, along with output power and receiver sensi-
+tivity. Select a well-matched 50 ø antenna and coaxial 
+cable feedline. We recommend 1.5:1 or better of Voltage 
+Standing Wave Ratio (VSWR) on your operating bands. 
+The transmission line should be a coaxial cable.
+When using a single antenna (for the HF, 50/70 MHz 
+bands), use the [ANT1] connector.
+CAUTION: Protect your transceiver from lightning by 
+using a lightning arrestor.
+30 mm
+10 mm (Tin)
+10 mm
+1–2 mm
+solder solder
+Tin
+Coupling ring
+PL-259 CONNECTOR INSTALLATION EXAMPLE
+q
+e
+r
+w
+Slide the coupling ring 
+down. Strip the cable 
+jacket and tin the 
+shield.
+Slide the connector 
+body on and solder it.
+Screw the coupling 
+ring onto the connector 
+body.
+Strip the cable as 
+shown at the left. Tin 
+the center conductor.
+(30 mm  9⁄8 in   10 mm  3⁄8 in   1–2 mm  1⁄16 in)
+Antenna connection
+Connect the cable from an HF, 50/70 MHz antenna to 
+the [ANT 1] connector.
+Connect the cable from a 144/430MHz antenna to 
+the [ANT 2] connector.
+Antenna SWR
+Each antenna is tuned for a specified frequency 
+range and the SWR usually increases outside the 
+range. When the SWR is higher than approximately 
+2.0:1, the transceiver automatically reduces the TX 
+power to protect the final transistors. In that case, an 
+antenna tuner is useful to match the transceiver and 
+antenna. Low SWR allows full power for transmit-
+ting. The IC-7100 has an SWR meter to continuously 
+monitor the antenna SWR.
+Slide in the
+direction of 
+arrow.
+Controller bottom view
+
+============================================================
+PAGE 27
+============================================================
+
+2
+INSTALLATION AND CONNECTIONS
+2-3
+Connect controller to transceiver
+The Main unit becomes hot when transmitted for long 
+period of time.
+DO NOT place anything on the transceiver. It may ob-
+struct radiation and cause mechanical trouble.
+Using Ferrite EMI filter*
+Depending on the installed condition of the transceiv-
+er, malfunction may occur by the wraparound of the 
+electric wave. This problem can be resolved by using
+the Ferrite EMI filter.
+* The filter connection is required for the European 
+versions.
+To the [MAIN UNIT] 
+connector
+Controller
+Rear panel
+To the [CONTROLLER] 
+connector
+Controller cable
+Ferrite EMI filter
+The Main unit installation
+D
+D
+Drill 5 mm holes for the bracket location.
+Drill 3 mm holes for the tapping screws.
+Nut
+Spring washer
+Flat washer
+Screw
+Frange bolt
+Using 
+tapping screws
+MB-62
+Main unit installation
+The MB-62 can be used for AT-180 as well.
+Adjust for the best viewing angle.
+IC-7100
+
+============================================================
+PAGE 28
+============================================================
+
+2
+INSTALLATION AND CONNECTIONS
+2-4
+dash
+dot
+com
+[PHONES/SP] （Headphone/External Speaker）Jack
+[MIC] Connector
+Controller
+Set the switch under con-
+troller to “PHONES” to use 
+headphone and set “SP” to 
+use speaker. 
+Bottom of the 
+controller
+SP-35 (optional)
+A jack to connect the paddle 
+with electrode control on the 
+end terminal.
+Connect to the [KEY] Jack 
+of the Main unit when using 
+an Electric keyer.（p. 2-5)
+※Set internal keyer in de-
+fault  but it can be changed 
+by the “Keyer” Set mode 
+(AI sec. 4)
+Connect to the [CONTROLLER]
+connector of the Main unit
+Do not connect 2 microphones at same time.
+Both microphone have transmission if they are 
+connected to controller and transceiver.
+OPC-589
+HM-36
+SM-50
+• External Keypad
+Control the CW memory keyer transmission from external keypad 
+by connecting control circuit to MIC connector. 
+Set the “Keyer” item in the “Connectors” Set mode to “ON,” to use 
+external keypad. (AI sec. 17)
+• Data transmission (AFSK)
+Connect TNC (Terminal Node Controller) to [MIC] connector to 
+enable data transmission（AFSK). (AI sec 18)
+HM-151
+HM-198
+Adapter cable＋Microphone
+External spaeaker
+Headphone
+[ELEC-KEY] （Electronic keyer） Jack
+CAUTION: NEVER connect or use the option-
+al HM-151 (microphone) with any other trans-
+ceiver. This could damage the transceiver. The 
+HM-151 is designed to use with the IC-7000/
+IC-7100 series ONLY.
+Connecting accessories to the controller
+The transceiver accepts head-
+phones with maximum 5 mW in 
+to an 8 Ω impedance.
+The sound level may differ, de-
+pending on the headphones.
+3.5(d) mm/1⁄8˝ plug
+3.5(d) mm/1⁄8˝ plug
+
+============================================================
+PAGE 29
+============================================================
+
+2
+INSTALLATION AND CONNECTIONS
+2-5
+Required Connections to a Transceiver
+[ANT2] 144/430MHz BANDS 
+CONNECTOR (p. 2-2)
+Connect a 50 Ω antenna for the 
+144/430 MHz frequency bands or 
+74.8 MHz and above.
+IC-7100
+[ANT1] HF, 50/70 MHz BANDS
+CONNECTOR (P. 2-3)
+Connect a 50 Ω antenna for the 
+HF, 50/70 MHz frequency bands or 
+below 74.8 MHz.
+[DC 13.8V] DC POWER SUPPLY
+(P. 2-7)
+Use a power 
+supply with 
+13.8 V DC 
+output and a 
+capacity of at 
+least 22 Am-
+peres.
+PS-126 
+(Optional)
+[MIC] MODULAR MICRO-
+PHONE CONNECTOR (p. 2-4)
+As with a microphone connec-
+tor of the controller, accepts 
+the supplied microphone.
+[GND] GROUND TERMINAL
+(p. 2-2)
+Connect this termi-
+nal to a station or 
+vehicle ground to 
+prevent electrical 
+shocks, TVI, BCI 
+and other problems.
+STRAIGHT KEY JACK
+Plug diameter: 3.5 mm/1⁄8˝ 
+Accepts a straight key or an 
+external electronic keyer. 
+Connect to the [MAIN UNIT] 
+connector of the Controller.
+(p. 2-4)
+
+============================================================
+PAGE 30
+============================================================
+
+2
+INSTALLATION AND CONNECTIONS
+2-6
+The External Units Connections to a Transceiver
+[DATA1] DATA1 JACK
+For GPS operation (AI sec. 10)
+• Connect a GPS receiver to the transceiv-
+er.
+• The optional OPC-1529R (Data commu-
+nication cable) and a 3rd party's GPS re-
+ceiver with RS-232C Port are required.
+For low-speed data communication in the DV mode 
+(AI sec. 9)
+• Connect the transceiver to a PC.
+• The USB cable can also be used for low-speed data commu-
+nication..
+OPC-1529R
+(Optional)
+[TUNER] TUNER CONTROL SOCKET (AI  sec.16)
+Connect the control 
+cable from an op-
+tional AH-4 (HF/50 
+MHz automatic an-
+tenna tuner).
+AH-4 (Optional)
+AH-2b (Optional) 
+• Connected to AH-4
+[SP] (EXTERNAL) SPEAKER JACK
+(p. 2-4) 
+Similar to the [PHONES/SP] jack 
+on the controller. Plug in an exter-
+nal speaker. 3.5(d) mm/1⁄8˝ plug
+[USB] USB (Universal Serial Bus) PORT
+• Remotely control the transceiver using CI-V commands
+(AI sec. 20)
+• Send the received audio to the PC
+• Input modulation (pp. 1-15, 6-8)
+• Send the decoded RTTY outputs to the PC
+• Low-speed data communication in the DV mode (AI sec. 9)
+• Cloning using the optional CS-7100 cloning software
+(AI sec. 19)
+• Remotely control using the optional RS-BA1
+[DATA2] DATA2 SOCKET 
+(AI sec. 18)
+Connect a TNC (Terminal Node Con-
+troller) for packet communication.
+[ACC] ACCESSORY 
+SOCKET (p. 1-16)
+Connect control lines 
+for external equipment 
+such as TNC or a PC.
+NOTE: By setting “ACC/USB output selection” of the 
+Connectors Set mode (AI sec. 17), the receiving tone 
+can normally be output from the [ACC] socket, and 
+the [USB] port can output an IF signal (12 kHz). This 
+is required for the Software-Defined Radio (SDR) op-
+eration. The Digital Radio Mondiale (DRM) broadcast 
+can be received using SDR.
+CAUTION: DO NOT connect any device to [RE-
+MOTE] when cloning using the optional CS-7100 
+cloning software.
+[REMOTE] REMOTE CONTROL JACK 
+• Remotely control the transceiver using CI-V commands. 
+(AI sec. 20)
+• Cloning between transceivers (AI sec.19)
+  3.5(d) mm/1⁄8˝ plug
+
+============================================================
+PAGE 31
+============================================================
+
+2
+INSTALLATION AND CONNECTIONS
+2-7
+Power Supply Connections
+Connect to 
+power supply
+For European versions
+OPC-1457R
+GND
+DC power socket
+Make sure the [POWER] switch is OFF before connect-
+ing the DC power cable.
+• We recommend using Icom’s optional power supply 
+(PS-126: DC13.8 V/25 A).
+D
+D Connecting the PS-126 power supply
+Rear panel
+GND
+PS-126
+Use the attached AC cable to con-
+nect to AC outlet.
+To 
+[DC 13.8V]
+The transceiver needs followings:
+• DC 13.8 V (Capacity: 22 A and over)
+• A power supply with an over current protective line 
+and with a less voltage fluctuation or ripple
+D
+D Connecting a non-Icom DC power supply
+Connect the black DC power cable to the (–) Negative 
+terminal, and the red DC power cable to the (+) Positive 
+terminal.
+Rear panel
+GND
+DC power socket
+Fuse
+holder
+RED
+BLACK
+Stabilized power supply
+AC outlet
+OPC-1457
+RWARNING! (About DC power supply)
+• Make sure DC power cable polarity is correct.
+	
+Red: Positive + terminal
+	
+Black: Negative – terminal
+• NEVER cut the DC power cable between the DC 
+plug and fuse holder.
+• DO NOT use unattached or undesignated DC pow-
+er cable.
+• DO NOT forcibly pull or bend the DC power cable. 
+Install the devices far enough from the place where 
+people might put things or step on the DC power 
+cable.
+
+============================================================
+PAGE 32
+============================================================
+
+2
+INSTALLATION AND CONNECTIONS
+2-8
+Linear Amplifier Connections
+EXCITER
+1
+1&2
+Remote Control 
+cable
+ACC cable
+To an antenna
+[ACC-1]
+[REMOTE]
+[ANT]
+IC-PW1/EURO
+Non-European versions: 100–120 / 200–240 V
+European version: 230 V
+[INPUT1]
+7-pin side
+[REMOTE]
+Coaxial cable
+[ANT1]
+IC-7100
+OPC-599 
+conversion 
+cable
+[ACC]
+GND
+GND
+GND
+D
+D Connecting the IC-PW1/EURO
+To connect the Icom IC-PW1/EURO, see the diagram below.
+For IC-PW1/EURO operation, refer to the amplifier’s instruction manual.
+AC outlet
+D
+D Connecting a non-Icom linear amplifier
+GND
+HSEND
+(Orange)
+/VSEND
+ALC (Blue)
+13.8 V (Gray)
+Relay
+RF IN
+RF OUT
+ALC
+SEND
+Non-Icom Linear amplifier
+To an antenna
+[ANT1]*2
+13-pin plug with ACC cable
+Switching diode
+ACC
+IC-7100
+To connect a non-Icom HF, 50/70*1 MHz bands linear amplifier, see the diagram below.
+*1 70 MHz band transmission is available, depending on the transceiver version.
+*2 When connecting a 144 MHz or 430 MHz band's liner am-
+plifier, connect to [ANT2].
+
+============================================================
+PAGE 33
+============================================================
+
+3-1
+Section 3
+BASIC OPERATION
+3-1
+Section 3
+BASIC OPERATION
+3-1
+Power ON..................................................................................3-2
+Before first applying power
+D
+D
+.......................................................3-2
+Tuning ON the power
+D
+D
+...............................................................3-2
+Selecting a Function menu.....................................................3-3
+Selecting VFO/Memory mode..................................................3-4
+VFO operation..........................................................................3-5
+Selecting VFO A or VFO B
+D
+D
+.......................................................3-5
+VFO equalization
+D
+D
+.....................................................................3-5
+Selecting a frequency band....................................................3-6
+Using the band stacking registers
+D
+D
+............................................3-6
+Setting frequency.....................................................................3-7
+Tuning with the Dial
+D
+D
+..................................................................3-7
+Quick Tuning function
+D
+D
+...............................................................3-8
+Selecting 
+D
+D
+‘kHz’ step..................................................................3-9
+Selecting 1 Hz step
+D
+D
+..................................................................3-9
+1/4 tuning step function
+D
+D
+............................................................3-10
+Auto tuning step function
+D
+D
+.........................................................3-10
+Direct frequency input
+D
+D
+..............................................................3-11
+Band edge warning beep
+D
+D
+.........................................................3-13
+Programming the user band edge
+D
+D
+...........................................3-14
+Selecting the Operating mode................................................3-17
+Selecting the Audio volume....................................................3-18
+Squelch and receive (RF) sensitivity......................................3-19
+Voice synthesizer operation....................................................3-20
+Tuning OFF the S-meter announcement
+D
+D
+..................................3-21
+Tuning ON the MODE announcement
+D
+D
+.....................................3-21
+Meter display selection............................................................3-22
+Basic transmit operation.........................................................3-23
+Transmitting
+D
+D
+..............................................................................3-23
+Microphone gain adjustment
+D
+D
+....................................................3-24
+Section 1  panel description
+Section 2  INSTALLATION AND CONNECTIONS
+Section 3  BASIC OPERATION
+Section 4  D-STAR INTRODUCTION
+Section 5  D-STAR OPERATION <BASIC>
+Section 6  SET MODE
+Section 7  INSTALLATION NOTES
+
+============================================================
+PAGE 34
+============================================================
+
+3
+BASIC OPERATION
+3-2
+PBT
+RIT
+TX / RX
+PWR
+AF
+RF/SQL
+CLR
+M-CH
+BANK
+RIT
+TUNER/CALL
+MENU
+MIC/RF PWR
+NB
+SPEED/PITCH
+SET
+QUICK
+NOTCH
+DR
+AUTO TUNE RXCS
+XFC
+SPEECH
+MPAD
+NR
+P.AMP ATT
+i7100
+NOTE: When turning OFF the power, the transceiver 
+memorizes the settings. Thus the transceiver restarts 
+with the settings before you turned OFF the power.
+Power ON
+Before first applying power
+D
+D
+Before turning ON your transceiver for the first time, 
+make sure all connections required for your system are 
+complete by reviewing them in Section 2 of this man-
+ual.
+After all connections have been made, set the [AF]
+(L) and [RF/SQL]
+(L) controls as shown in the illus-
+tration to the right.
+Partial Resetting
+A partial resetting CLEARS the operating param-
+eters and returns them to their default values (VFO 
+frequency, VFO settings, menu group’s contents) 
+without clearing certain data. 
+SET(C) > Others > Reset > Partial Reset
+• During start-up, the transceiver displays “PARTIAL RE-
+SET,” then its initial VFO frequencies when resetting is 
+complete.
+See the PDF type Advanced Instruction’s Section 19 
+for resetting details.
+Tuning ON the power
+D
+D
+Normal Power ON:
+Push [PWR]
+(L) to turn ON the transceiver.
+Power OFF:
+Hold down [PWR]
+(L) for 1 second to turn OFF the 
+transceiver.
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+[RF/SQL] control: 12 o'clock
+[AF] control: Max counterclockwise
+Initial VFO display
+[PWR]
+
+============================================================
+PAGE 35
+============================================================
+
+3
+BASIC OPERATION
+3-3
+Selecting a Function menu
+Push MENU (C) one or more times to select the “M-1” 
+screen (M-1 menu), “M-2” screen (M-2 menu) or “M-3” 
+screen (M-3 menu).
+• In the DR mode, push MENU (C) once or twice to select the 
+“D-1” screen (D-1 menu) or “D-2” screen (D-2 menu).
+• Functions vary, depending on the operating mode.  
+(p. 1-10 to p. 1-12)
+MENU
+Example: Menu selection in the SSB mode
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 36
+============================================================
+
+3
+BASIC OPERATION
+3-4
+Selecting VFO/Memory mode
+IC-7100 has VFO and Memory modes. 
+In the VFO mode, rotate the Dial to select the disired 
+frequency.
+In the Memory mode, rotate [M-CH]
+(L) to select the 
+preprogrammed memory channel.
+Push MENU (C) one or more times to select the “M-1” 
+screen (M-1 menu).
+• Touch [V/M](D) to select the VFO or memory mode.
+• Touch [V/M](D) for 1 second to copy the selected memory 
+channel contents to the VFO mode. (See the PDF type Ad-
+vanced Instruction’s Section 11 for details.)
+Touching the VFO/Memory mode icon or Memory chan-
+nel selects the VFO or Memory mode.
+Memory mode 
+icon
+Programming 10.12000 MHz/CW into 
+Memory channel A01.
+VFO mode icon
+“M-1” screen
+Touch [V/M]
+Touch [V/M]
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+VFO mode icon
+Touching the VFO/Mem-
+ory mode icon or Mem-
+ory channel selects the 
+VFO or Memory mode.
+Memory mode 
+icon
+
+============================================================
+PAGE 37
+============================================================
+
+3
+BASIC OPERATION
+3-5
+VFO operation
+The IC-7100 has two VFOs; “A” and “B,” and are conve-
+nient for quickly selecting two frequencies, or split fre-
+quency operation. You can use either VFO to call up a 
+frequency and operating mode.
+VFO is an abbreviation of Variable Frequency Oscilla-
+tor.
+Selecting VFO A or VFO B
+D
+D
+While in the VFO mode, push 
+q
+q
+MENU (C) one or more 
+times to select the “M-1” screen (M-1 menu).
+Touch [A/B](
+w
+w
+D) to switch between the VFO A and 
+VFO B.
+ 
+• “VFOA” or “VFOB” appears as each VFO is selected.
+VFO equalization
+D
+D
+Push 
+q
+q
+MENU (C) one or more times to select the 
+“M-1” screen (M-1 menu).
+Touch [A/B](
+w
+w
+D) for 1 second to equalize the data in 
+both VFOs.
+ 
+• Three beeps sound when the equalization is complete.
+Touch [A/B](
+e
+e
+D) to select the other VFO.
+ 
+• Selects VFO A or VFO B to display the VFO’s frequency.
+CONVENIENT!
+Use two VFOs as quick memories:
+When you find a new station, but wish to continue 
+searching, the dual VFO system can be used for quick 
+memory storage.
+q	Touch [A/B](D) for 1 second to store the displayed 
+contents into the undisplayed VFO.
+w	Continue searching for stations.
+e	Touch [A/B](D) to show the stored contents of the 
+undisplayed VFO.
+r	To continue searching for stations, touch [A/B](D) 
+again to show the previous VFO.
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+The selected 
+VFO icon
+Example: Equalize VFO B to VFO A
+Touch [A/B]
+Touch [A/B]  
+for 1 second
+Touch [A/B]
+VFO A is selected
+Selecting VFO B 
+displays same con-
+tents as VFO A.
+
+============================================================
+PAGE 38
+============================================================
+
+3
+BASIC OPERATION
+3-6
+BAND
+REGISTER 1
+REGISTER 2
+REGISTER 3
+	 1.8	 MHz*1
+	
+1.900000	 MHz CW
+	
+1.910000	 MHz CW
+	
+1.915000	 MHz CW
+	 3.5	 MHz*1
+	
+3.550000	 MHz LSB
+	
+3.560000	 MHz LSB
+	
+3.580000	 MHz LSB
+	 7	
+MHz
+	
+7.050000	 MHz LSB
+	
+7.060000	 MHz LSB
+	
+7.020000	 MHz CW
+	 10	 MHz*1
+	
+10.120000	 MHz CW
+	
+10.130000	 MHz CW
+	
+10.140000	 MHz CW
+	 14	 MHz
+	
+14.100000	 MHz USB
+	
+14.200000	 MHz USB
+	
+14.050000	 MHz CW
+	 18	 MHz
+	
+18.100000	 MHz USB
+	
+18.130000	 MHz USB
+	
+18.150000	 MHz USB
+	 21	 MHz
+	
+21.200000	 MHz USB
+	
+21.300000	 MHz USB
+	
+21.050000	 MHz CW
+	 24	 MHz
+	
+24.950000	 MHz USB
+	
+24.980000	 MHz USB
+	
+24.900000	 MHz CW
+	 28	 MHz
+	
+28.500000	 MHz USB
+	
+29.500000	 MHz USB
+	
+28.100000	 MHz CW
+	 50	 MHz*1
+	
+50.100000	 MHz USB
+	
+50.200000	 MHz USB
+	
+51.000000	 MHz FM
+	144	 MHz
+	
+145.000000	 MHz FM
+	
+145.100000	 MHz FM
+	
+145.200000	 MHz FM
+	430	 MHz*1
+	
+433.000000	 MHz FM
+	
+433.100000	 MHz FM
+	
+433.200000	 MHz FM
+General*1, 2
+	
+15.000000	 MHz USB
+	
+15.100000	 MHz USB
+	
+15.200000	 MHz USB
+*1 The default frequency and mode settings differ depending on the version. Above list shows the USA version’s.
+*2 [GENE] selects the general coverage band.
+Using the band stacking registers
+D
+D
+The triple band stacking register provides 3 memories 
+for each band key to store frequencies and operating 
+modes.
+This function is convenient when you operate 3 operat-
+ing modes on one frequency band.
+For example, one register can be used for a CW fre-
+quency, another for an SSB frequency and the other 
+one for an RTTY frequency.
+If a band key or [GENE] is touched for 1 second once, 
+the last used frequency and operating mode are called 
+up. When the key is touched for 1 second again, anoth-
+er stored frequency and operating mode are called up.
+See the table below for a list of the available frequency 
+bands and their default frequency and mode settings.
+Select the frequency band you want to use.
+Touch the MHz digits of the frequency readout to en-
+q
+q
+ter the Band selection screen.
+Touch a desired operating band, “1.8” to “430” or 
+w
+w
+“GENE.”
+ 
+• After touching the band, the display moves to the se-
+lected band, and returns to the frequency display.
+ 
+• Touch a band for 1 second to select the Band stacking 
+register, Register 1, Register 2 or Register 3 on the Band 
+selection screen.
+ 
+• Touch [F-INP] to enter the Direct input screen. (p. 3-11)
+ 
+• If desired, touch [](D) or push MENU (C) to exit the 
+screen.
+Selecting a frequency band
+The L, R, C or D in the instructions indicate the 
+part of the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+• Band selection screen
+Enters the Direct 
+input screen
+Example: Touch “21” in the above screen
+Cancel edit
+Operating mode
+Touch the MHz 
+digits.
+
+============================================================
+PAGE 39
+============================================================
+
+3
+BASIC OPERATION
+3-7
+Setting frequency
+You can select the transceiver’s frequency by using the 
+Dial, or you can enter it on the Direct input screen.
+Tuning with the Dial
+D
+D
+q	On the Band selection screen, select the desired fre-
+quency band. (p. 3-6)
+w	Rotate the Dial to set the desired frequency.
+ 
+• The default tuning step differs, depending on the operat-
+ing mode, frequency band and a version.
+If the frequency cannot be changed:
+Check the Lock function, and if it is ON, “
+” is dis-
+played, and the Dial does not function.
+In this case, hold down SPEECH
+(R) for 1 second to 
+turn OFF the Lock function.
+When “LOCK/SPEECH” is selected in the “[SPEECH/
+LOCK] Switch” item of the “Function” Set mode, push-
+ing [SPEECH/LOCK] turns OFF the lock function. 
+(p. 6-6)
+SET(C) > Function > [SPEECH/LOCK] switch
+Dial
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 40
+============================================================
+
+3
+BASIC OPERATION
+3-8
+Quick Tuning function
+D
+D
+The operating frequency can be changed in ‘kHz’ or 
+‘MHz’ steps for quick tuning.
+Select the desired tuning step in each operating fre-
+quency band and mode.
+q Touch the kHz digits to select the ‘kHz’ Quick Tuning 
+function step, or turn it OFF. Or touch the MHz digits 
+for 1 second to select the ‘MHz’ Quick Tuning func-
+tion step, or turn it OFF.
+ 
+• While the quick tuning icon “Z” is displayed above the 1 
+kHz or 1 MHz digit, the frequency will be changed in ‘kHz’ 
+or ‘MHz’ steps.
+ 
+• When the function is OFF, the frequency will be changed 
+in 10 Hz or 1 Hz steps.
+w	Rotate the Dial to change the frequency in the se-
+lected steps.
+Setting frequency (Continued)
+Touch the kHz 
+digits
+• ‘kHz’ Quick Tuning function
+• ‘MHz’ Quick Tuning function
+Quick tuning icon
+Quick tuning icon
+Touch the MHz 
+digits for 1 sec-
+ond
+Touch the MHz 
+digits for 1 sec-
+ond to turn it 
+OFF
+Touch the kHz 
+digits to turn it 
+OFF
+
+============================================================
+PAGE 41
+============================================================
+
+3
+BASIC OPERATION
+3-9
+Selecting 
+D
+D
+‘kHz’ step
+When the ‘kHz’ Quick Tuning is selected, the frequen-
+cy can be changed in the selected ‘kHz’ steps. The 
+steps can be memorized, depending on the operating 
+modes. 
+On the Mode selection screen, select the desired op-
+q
+q
+erating mode. (p. 3-17)
+Touch the kHz digits for 1 second to enter the Tuning 
+w
+w
+step selection screen.
+ 
+• The ‘kHz’ Quick Tuning function is turned ON, and then 
+the “Z” icon is displayed.
+Touch the desired tuning step to 
+e
+e
+select the desired 
+‘kHz’ step.
+ 
+• 0.1, 1, 5, 6.25, 9, 10, 12.5, 20, 25, 50 and 100 kHz  are 
+selectable.
+ 
+• If the desired step is not displayed, touch [Y] or [Z](D) 
+to select the page.
+ 
+• On the Tuning step selection screen, rotating the Dial 
+also selects the tuning step.
+ 
+• If desired, touch [](D) or push MENU (C) to return to 
+the normal operating screen.
+Repeat steps 
+r
+r
+q to e to select the Quick tuning 
+steps for other modes.
+Setting frequency (Continued)
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+Selecting 1 Hz step
+D
+D
+You can change the frequency in 1 Hz steps for fine 
+tuning.
+Touch the Hz digits for 1 second to turn the 1 Hz tun-
+➥
+➥
+ing step ON or OFF.
+NOTE:
+• When the RIT function is used, it also tunes in 1 Hz 
+tuning steps.
+• The frequency changes in 50 Hz steps when the 
+[UP]/[DN] switches of the microphone are used for 
+frequency tuning (if the quick tuning function is not 
+selected.)
+Touch the kHz dig-
+its for 1 second
+• Tuning step selection screen
+Selects pages
+Cancel edit
+Touch the Hz dig-
+its for 1 second
+1 Hz indication
+
+============================================================
+PAGE 42
+============================================================
+
+3
+BASIC OPERATION
+3-10
+Setting frequency (Continued)
+1/4 tuning step function
+D
+D
+(Mode: SSB-D/CW/RTTY)
+The dial speed is reduced to 1⁄4 of the normal speed 
+when the 1⁄4 tuning function is ON, for finer tuning con-
+trol.
+You can set the 1⁄4 tuning function in each operating 
+frequency band.
+This function is selectable only when the quick tuning 
+function is turned OFF.
+Push 
+q
+q
+MENU (C) one or more times to select the 
+“M-2” screen (M-2 menu).
+Touch [1/4](
+w
+w
+D) to turn the 1⁄4 tuning function ON or 
+OFF.
+ 
+• “
+” appears when the 1⁄4 tuning function is ON.
+Auto tuning step function
+D
+D
+When you rapidly rotate the Dial, the tuning speed can 
+automatically accelerate, depending on the “MAIN DIAL 
+Auto TS” option in the “Function” Set mode.
+Push 
+q
+q
+SET(C) to enter the Set mode.
+Touch the “MAIN DIAL Auto TS” item of the “Func-
+w
+w
+tion” Set mode.
+	
+Function > MAIN DIAL Auto TS
+ 
+• If the specified item is not displayed, touch [Y] or [Z](D) 
+one or more times to select the page.
+Touch the desired option to select 
+e
+e
+the HIGH or LOW 
+tuning speed acceleration, or to turn OFF the func-
+tion.
+ 
+• HIGH: When the tuning step is set to 1 kHz or small-
+er steps, the tuning speed is approximately five 
+times faster.
+	
+	
+	
+When the tuning step is set to 5 kHz or larger 
+steps, the tuning speed is approximately two times 
+faster.	
+(default)
+ 
+• LOW: Approximately two times faster
+ 
+• OFF: Auto tuning step is turned OFF.
+ 
+• If desired, touch the item for 1 second to open the Default 
+set window, then select the “Default” to reset to the de-
+fault setting.
+Push 
+r
+r
+SET(C) to exit the Set mode.
+The L, R, C or D in the instructions indicate the 
+part of the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+Touch [1/4]
+¹⁄₄ tuning icon
+Touch  
+“Function”
+Touch “MAIN 
+DIAL Auto TS”
+Push SET
+HIGH (Default)
+
+============================================================
+PAGE 43
+============================================================
+
+3
+BASIC OPERATION
+3-11
+Setting frequency (Continued)
+Direct frequency input
+D
+D
+The transceiver has a Direct input screen for direct fre-
+quency entry, as described below.
+• Operating frequency input
+Touch the MHz digits to enter the Band selection dis-
+q
+q
+play.
+Touch [F-INP](
+w
+w
+D) to enter the Direct input screen.
+Touch the desired number to enter the desired fre-
+e
+e
+quency.
+ 
+• If a most significant digit is inputted, it will be displayed at 
+the 10 Hz digit, and then next digit is inputted, a display 
+will be shifted to left side one by one.
+ 
+• If the numbers for the MHz digits are inputted, and then 
+“.” is touched, the inputted numbers will be shifted to the 
+MHz digits. 
+Touch [ENT](
+r
+r
+D) to input the frequency.
+ 
+• If a most significant digit is inputted, it will be displayed at 
+the 10 Hz digit, and then next digit is inputted, a display 
+shifts to left side one by one.
+ 
+• When not having inputted below a 100 kHz digit, touch 
+[ENT](D) to set all uninputted digits to “0.” 
+ 
+• If desired, touch “CE” to delete entering.
+ 
+• If desired, touch [](D) or push MENU (C) to exit the 
+Direct input screen.
+[Example]
+To enter the 14.025 MHz frequency:
+Touch [1], [4], [• (–)], [0], [2], [5] then [ENT].
+➥
+➥
+To enter the 18.0725 MHz frequency:
+Touch [1], [8], [• (–)], [0], [7], [2], [5] then [ENT].
+➥
+➥
+To enter the 706 kHz frequency:
+Touch [0], [• (–)], [7], [0], [6] then [ENT].
+➥
+➥
+To enter the 5.100 MHz frequency:
+Touch [5], [• (–)], [1] then [ENT].
+➥
+➥
+To enter the 7.000 MHz frequency:
+Touch [7] then [ENT].
+➥
+➥
+To change the 21.280 MHz to 21.245 MHz:
+Touch [• (–)], [2], [4], [5] then [ENT].
+➥
+➥
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+• Direct input screen
+Enter a “.” decimal point,
+or minus (–) input for Split offset
+Delete entering
+Enter the Split off-
+set
+Enter the Memory 
+channel
+Enter the frequen-
+cy
+Cancel edit
+Shows the input 
+digits
+Touch the MHz 
+digits
+Touch [F-INP]
+
+============================================================
+PAGE 44
+============================================================
+
+3
+BASIC OPERATION
+3-12
+Setting frequency (Continued)
+Direct frequency input (Continued)
+D
+D
+• Split offset frequency input
+Touch the MHz digits to enter the Band selection dis-
+q
+q
+play.
+Touch [F-INP](
+w
+w
+D) to enter the Direct input screen.
+If the Shift direction is minus, touch “• (–).”
+e
+e
+ 
+• [SPLIT] changes to [–SPLIT], and displays the Minus set-
+ting mode.
+Touch the desired number to enter the desired fre-
+r
+r
+quency shift.
+ 
+• –9.999 to +9.999 MHz can be set in 1 kHz steps.
+Touch [SPLIT] or [–SPLIT](
+t
+t
+D) to input the frequency 
+shift to the transmit frequency, and the Split function 
+is turned ON.
+[Example]
+To transmit on a 10 kHz higher frequency:
+Touch [1], [0] then [SPLIT].
+➥
+➥
+To transmit on 1.025 MHz lower frequency:
+Touch [• (–)], [1], [0], [2], [5] then [–SPLIT].
+➥
+➥
+• Memory channel selection
+Open the Direct input screen.
+q
+q
+Touch the desired memory channel number.
+w
+w
+ 
+• Selectable memory channels are 1 to 99 in the selected 
+memory bank A to E.
+	
+  The memory channels in the other memory banks cannot 
+be selected.
+ 
+• Scan edge channels and Call channels can also be se-
+lected. (Shown in the table to the right below.)
+Touch [MEMO](
+e
+e
+D) to select the channel.
+ 
+• The selected memory channel is displayed, and then exit 
+the Direct input screen.
+ 
+• If desired, touch “CE” to delete the entered digits.
+ 
+• If desired, touch [](D) or push MENU (C) to exit the 
+Direct input screen.
+[Example]
+To select the Memory channel 24:
+Touch [2], [4] then [ENT].
+➥
+➥
+To select the Scan edge channel 1B:
+Touch [1], [0], [1] then [ENT].
+➥
+➥
+To select the CALL2 channel on the 430 MHz band:
+Touch [1], [0], [9] then [ENT].
+➥
+➥
+• Scan edge channels and Call channels
+Channel
+Input
+Channel
+Input
+Scan 
+edge 
+channels
+1A
+100
+1B
+101
+2A
+102
+2B
+103
+3A
+104
+3B
+105
+Call  
+channels
+144 MHz CALL1
+106
+144 MHz CALL2
+107
+430 MHz CALL1
+108
+430 MHz CALL2
+109
+The L, R, C or D in the instructions indicate the 
+part of the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+• Direct input screen
+Enter a “.” decimal point,
+or minus (–) input for Split offset
+Delete entering
+Enter the Split off-
+set
+Enter the Memory 
+channel
+Enter the frequen-
+cy
+Cancel edit
+Shows the input 
+digits
+Touch the MHz 
+digits
+Touch [F-INP]
+
+============================================================
+PAGE 45
+============================================================
+
+3
+BASIC OPERATION
+3-13
+Setting frequency (Continued)
+Band edge warning beep
+D
+D
+You can hear a beep tone when you tune into or out 
+of an amateur band’s frequency range. A regular beep 
+sounds when you tune into a range, and an lower tone 
+error beep sounds when you tune out of a range.
+Push 
+q
+q
+SET(C) to enter the Set mode.
+Touch the “Band Edge Beep” item of the “Function” 
+w
+w
+Set mode.
+	
+Function > Band Edge Beep
+ 
+• If the specified item is not displayed, touch [Y] or [Z](D) 
+one or more times to select the page.
+Touch the desired option to 
+e
+e
+select the desired band 
+edge warning beep setting, or to turn OFF the func-
+tion.
+ 
+• OFF: 
+Band edge beep is OFF.
+ 
+• ON (Default): When you tune into or out of the default 
+amateur band’s frequency range, a beep 
+sounds.	
+ 
+• ON (User): 
+When you tune into or out of  a user pro-
+grammed amateur band’s frequency range, 
+a beep sounds.
+ 
+• ON (User) & TX Limit:
+	
+	
+	
+When you tune into or out of  a user pro-
+grammed amateur band’s frequency range, 
+a beep sounds. Also transmission is inhib-
+ited outside the programmed range.
+ 
+• If desired, touch the item for 1 second to open the Default 
+set window, then select the “Default” to reset to the de-
+fault setting.
+Push 
+r
+r
+SET(C) to exit the Set mode.
+If the “Beep Level” item is set to “0,” the Band edge 
+beep does not sound. The beep output level can be 
+set in the “Beep Level” item of the “Function” Set 
+mode. (p. 6-5)
+About the user band edge frequencies
+When “ON (User)” or “ON (User) & TX Limit” is selected 
+in the “Band Edge Beep” item, a total of 30 band edge 
+frequencies can be programmed in the “User Band 
+Edge” item. See the next page for details.
+If “OFF” or “ON (Default)” is selected, the “User Band 
+Edge” item does not appear in the “Function” Set 
+mode.
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+Touch 
+“Function”
+Push SET
+Touch “Band 
+Edge Beep”
+
+============================================================
+PAGE 46
+============================================================
+
+3
+BASIC OPERATION
+3-14
+Setting frequency (Continued)
+Programming the user band edge
+D
+D
+When “ON (User)” or “ON (User) & TX Limit” is selected 
+in the “Band Edge Beep” item, the “User Band Edge” 
+item appears in the “Function” Set mode.
+A total of 30 band edge frequencies can be programmed 
+in the “User Band Edge” item.
+NOTE:
+• All frequency ranges are set to default, so you 
+should delete or change them to add the desired 
+band edge frequency.
+• Program each channel from left to right and each 
+frequency must be higher than the preceding fre-
+quency.
+• The frequency that is duplicated, or out of a trans-
+mit frequency range, cannot be programmed.
+Push 
+q
+q
+SET(C) to enter the Set mode.
+Touch the “Band Edge Beep” item of the “Function” 
+w
+w
+Set mode.
+	
+Function > Band Edge Beep
+ 
+• If the specified item is not displayed, touch [Y] or [Z](D) 
+one or more times to select the page.
+Touch the “ON (USER)” or “ON (User) & TX Limit” 
+e
+e
+option.
+Touch the “User Band Edge” item of the “Function” 
+r
+r
+Set mode.
+	
+Function > User Band Edge
+Follow the instructions in the next topics to delete, 
+t
+t
+insert, edit, change or reset Band edges. 
+After you have finished, push 
+y
+y
+SET(C) to exit the Set 
+mode.
+• Deleting a Band edge
+Enter the “User Band Edge” screen.
+q
+q
+	
+SET(C) > Function > User Band Edge
+Touch for 1 second the Band edge to be deleted
+w
+w
+.
+ 
+• If the specified band edge is not displayed, touch [Y] or 
+[Z](D) one or more times to select the page.
+Touch “Delete.”
+e
+e
+ 
+• The selected Band edge has been deleted, and then re-
+turns to the User Band Edge screen.
+Touch [
+r
+r
+](D) or push MENU (C) to return to the 
+“Function” Set screen.
+The L, R, C or D in the instructions indicate the 
+part of the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+Touch 
+“Function”
+Push SET
+Touch “User 
+Band Edge”
+Touch for 1 sec-
+ond the Band 
+edge to be de-
+leted
+Touch “Delete”
+Example: Deletes the 1.800–1.999999MHz range
+
+============================================================
+PAGE 47
+============================================================
+
+3
+BASIC OPERATION
+3-15
+Setting frequency (Continued)
+Programming the user band edge (Continued)
+D
+D
+• Inserting a Band edge
+Enter the “User Band Edge” screen.
+q
+q
+	
+SET(C) > Function > User Band Edge
+Touch for 1 second the Band edge that you want to 
+w
+w
+insert a new Band edge above it.
+ 
+• If the desired Band edge is not displayed, touch [Y] or 
+[Z](D) one or more times to select the page.
+Touch “Insert.”
+e
+e
+ 
+• The frequency entry screen is displayed.
+Touch desired numbers to edit the lower edge fre-
+r
+r
+quency, and then touch [ENT](D).
+ 
+• The cursor moves to the upper frequency entry, and a 
+same frequency as lower frequency is automatically in-
+put.
+ 
+• Touch [t u](D) to toggle the lower or upper frequency 
+entry.
+ 
+• Touch [f] or [g](D) to move the cursor left or right.
+ 
+• Before entering the frequencies, touch [](D) or push 
+MENU (C) to insert a blank field.
+Touch desired numbers to edit the upper edge fre-
+t
+t
+quency, and then touch [ENT](D).
+Touch [
+y
+y
+](D) or push MENU (C) to return to the 
+“Function” Set screen.
+• Editing a new Band edge
+Enter the “User Band Edge” screen.
+q
+q
+	
+SET(C) > Function > User Band Edge
+Touch a blanked field.
+w
+w
+ 
+• If the desired blank field is not displayed, touch [Y] or 
+[Z](D) one or more times to select the page.
+ 
+• The frequency entry screen is displayed.
+Touch desired numbers to edit the lower edge fre-
+e
+e
+quency, and then touch [ENT](D).
+ 
+• The cursor moves to the upper frequency entry, and a 
+same frequency as lower frequency is automatically in-
+put.
+ 
+• Touch [t u](D) to toggle the lower or upper frequency 
+entry.
+ 
+• Touch [f] or [g](D) to move the cursor left or right.
+Touch desired numbers to edit the upper edge fre-
+r
+r
+quency, and then touch [ENT](D).
+Touch [
+t
+t
+](D) or push MENU (C) to return to the 
+“Function” Set screen.
+The L, R, C or D in the instructions indicate the 
+part of the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+Example: Inserts the 1.800–1.999999 MHz range
+Touch the Band 
+edge for 1 sec-
+ond 
+Touch “Insert”
+Edit the lower 
+edge frequency, 
+then touch [ENT]
+Edit the upper 
+edge frequency, 
+then touch [ENT]
+Same frequency as lower fre-
+quency is automatically input
+Enter the decimal point
+• The frequency entry screen
+Move the cursor
+Move the cursor
+Selects upper or 
+lower edges
+Enter
+Cancel edit
+Delete entering
+
+============================================================
+PAGE 48
+============================================================
+
+3
+BASIC OPERATION
+3-16
+Setting frequency (Continued)
+Programming the user band edge (Continued)
+D
+D
+• Changing the Band edge frequencies
+Enter the “User Band Edge” screen.
+q
+q
+	
+SET(C) > Function > User Band Edge
+Touch the Band edge to be changed.
+w
+w
+ 
+• If the desired Band edge is not displayed, touch [Y] or 
+[Z](D) one or more times to select the page.
+ 
+• The frequency entry screen is displayed.
+Touch desired numbers to edit the lower edge fre-
+e
+e
+quency, and then touch [ENT](D).
+ 
+• The cursor moves to the upper frequency entry.
+ 
+• Touch [t u](D) to toggle the lower or upper frequency 
+entry.
+ 
+• Touch [f] or [g](D) to move the cursor left or right.
+Touch desired numbers to edit the upper edge fre-
+r
+r
+quency, and then touch [ENT](D).
+Touch [
+t
+t
+](D) or push MENU (C) to return to the 
+“Function” Set screen.
+• Resetting the Band edges
+Enter the “User Band Edge” screen.
+q
+q
+	
+SET(C) > Function > User Band Edge
+Touch any band edges for 1 second.
+w
+w
+Touch “Default.”
+e
+e
+ 
+• “Initialize Edges?” is displayed.
+Touch [YES](
+r
+r
+D).
+ 
+• Resets all band edge frequencies to default settings.
+ 
+• If desired, touch “NO” to cancel resetting.
+Touch [
+t
+t
+](D) or push MENU (C) to return to the 
+“Function” Set screen.
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+Touch  
+“Default”
+Touch “YES”
+Touch the de-
+sired Band edge
+Edit the lower 
+edge frequency, 
+then touch [ENT]
+Edit the upper 
+edge frequency, 
+then touch [ENT]
+Enter the decimal point
+Move the cursor
+Move the cursor
+Selects upper or 
+lower edges
+Enter
+Cancel edit
+Delete entering
+Example: Change the 7.000–7.300000 MHz range
+• The frequency entry screen
+
+============================================================
+PAGE 49
+============================================================
+
+3
+BASIC OPERATION
+3-17
+Mode selection
+Operating mode
+SSB
+LSB
+USB
+CW
+CW
+CW-R
+RTTY
+RTTY
+RTTY-R
+AM
+AM*
+FM
+FM
+WFM
+WFM (Only RX)
+DV
+DV
+DATA
+LSB
+LSB data
+USB
+USB data
+AM
+AM data
+FM
+FM data
+Selecting the Operating mode
+The usable operating modes in the IC-7100 are listed 
+to the right below.
+You can select the desired operating mode by touching 
+the mode key on the Mode selection screen.
+NOTE:
+In the AM mode, you can transmit on only the HF, 
+50/70* MHz frequency bands.
+* 70 MHz band transmission is available, depending on the 
+transceiver version.
+Touch the Mode icon to enter the Mode selection 
+q
+q
+screen. 
+Touch an operating mode, “SSB,” “CW,” “RTTY,” “AM,” 
+w
+w
+“FM,” “WFM” or “DV.”
+ 
+• Touch the Operating mode to select the operating mode 
+as shown in the ‘Operating mode selection list.’
+ 
+• After touching, the display exits the Operating mode se-
+lection screen and returns to the previous screen.
+ 
+• While in the SSB, AM or FM mode “DATA” appears on the 
+Mode selection screen. Touch “DATA” to select the SSB 
+data, AM data or FM data modes.
+ 
+• If desired, touch [](D) or push MENU (C) to exit the 
+Mode selection screen.
+• Selecting the SSB mode
+ 
+• When operating above 10 MHz, USB is selected first; 
+when operating below 10 MHz, LSB is selected first.
+ 
+• In the SSB mode, touch “SSB” again to toggle between 
+the LSB and USB modes.
+• Selecting the CW/CW-R modes
+ 
+• The CW reverse mode may reduce the interfering tone 
+when it is near a desired signal.
+ 
+• In the CW mode, touch “CW” again to toggle between the 
+CW and CW-R modes.
+• Selecting the RTTY/RTTY-R modes
+ 
+• In the RTTY mode, touch “RTTY” again to toggle be-
+tween the RTTY and RTTY-R modes.
+• Selecting the DV mode (including DR mode)*
+ 
+• DV mode (digital voice + low-speed data communication) 
+allows you to exchange text messages and call signs, 
+and transmit position data with a third-party GPS receiv-
+er.
+ 
+• The DV mode is automatically selected when the DR 
+mode is ON.
+• Selecting the Data mode
+You can mute the microphone signals when the data 
+mode is selected, depending on the “DATA MOD” op-
+tion in the “Connectors” Set mode (p. 6-8).
+SET(C) > Connectors > DATA MOD
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+* On the 144 MHz or 430 MHz bands, only the RX operation 
+is available in the AM mode.
+• Operating mode selection list
+• Mode selection screen
+Cancel
+Touch the Mode 
+icon
+
+============================================================
+PAGE 50
+============================================================
+
+3
+BASIC OPERATION
+3-18
+Selecting the Audio volume
+Rotate [AF]
+➥
+➥
+(L) control clockwise to increase the 
+audio output level, counterclockwise to decrease it.
+[AF]
+Increases
+Decreases
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 51
+============================================================
+
+3
+BASIC OPERATION
+3-19
+Squelch and receive (RF) sensitivity
+Adjusts the RF gain and squelch threshold level. The 
+squelch removes noise output to the speaker when no 
+signal is received (closed squelch).
+• The squelch is particularly effective for AM and FM, but also 
+works in other modes.
+• The 12 to 1 o’clock position is recommended for the most 
+effective use of the [RF/SQL]
+(L) control.
+• The [RF/SQL]
+(L) control operates as only an RF gain 
+control (Squelch is fixed open), or a squelch control (RF 
+gain is fixed at maximum sensitivity) depending on the “RF/
+SQL Control” option in the “Function” Set mode. (p. 6-5)
+SET > Function > RF/SQL Control
+SET MODE 
+SETTING
+OPERATING 
+MODE
+[RF/SQL]  
+OPERATION
+AUTO
+AM/FM/WFM/
+DV
+Operates as only a squelch 
+control.
+• RF gain is fixed at maxi-
+mum sensitivity.
+SSB/CW/RTTY
+Operates as only an RF 
+gain control.
+• Squelch is fixed open.
+SQL
+ALL
+Operates as only a squelch 
+control.
+• RF gain is fixed at maxi-
+mum sensitivity.
+RF+SQL
+(default)
+FM/DV
+Operates as an RF gain 
+control, and a noise squelch 
+or S-meter squelch.
+SSB/CW/RTTY/
+AM
+Operates as an RF gain 
+control, and an S-meter 
+squelch.
+❍ Adjusting RF gain (Receive sensitivity)
+Normally, [RF/SQL]
+(L) is set to the 12 o’clock posi-
+tion.
+Rotate [RF/SQL]
+(L) to the 11 o’clock position for 
+maximum sensitivity.
+• Rotating counterclockwise from the maximum position re-
+duces sensitivity.
+• The S-meter indicates receive sensitivity.
+While rotating the RF gain control, a faint noise may 
+be heard. This comes from the DSP unit and does 
+not indicate an equipment malfunction.
+❍ Adjusting squelch (Removing non-signal noise)
+Rotate [RF/SQL]
+(L) clockwise when no signal is re-
+ceived, until the noise just disappears.
+• The TX/RX LED light goes out.
+• Rotating [RF/SQL]
+(L) past the threshold point activates 
+the S-meter squelch— this allows you to set a minimum sig-
+nal level needed to open the squelch.
+[RF/SQL]
+• When used as an RF gain/squelch control
+• When used as an RF gain control
+  (Squelch is fixed open; SSB, CW, RTTY only)
+• When used as a squelch control
+  (RF gain is fixed at maximum.)
+Maximum 
+RF gain
+S-meter 
+squelch
+Noise squelch (FM/DV modes)
+Squelch is 
+open.
+RF gain 
+adjustable
+range
+Recommended level
+Minimum RF gain
+Adjustable
+range
+Maximum 
+RF gain
+Squelch is 
+open.
+S-meter 
+squelch
+S-meter squelch
+threshold
+Noise squelch 
+threshold 
+(FM/DV modes)
+Shallow
+Deep
+Noise squelch (FM/DV modes)
+The L, R, C or D in the instructions indicate the 
+part of the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+
+============================================================
+PAGE 52
+============================================================
+
+3
+BASIC OPERATION
+3-20
+Voice synthesizer operation
+The IC-7100 has a built-in voice synthesizer to an-
+nounce the operating frequency, mode and S-meter 
+level in a clear, electronically-generated voice, in Eng-
+lish or Japanese.
+First, select the desired parameters to be announced in 
+the “Speech” Set mode. (p. 6-4)
+Initial values for the voice synthesizer parameters
+• RX Call Sign SPEECH:  ON (Kerchunk)
+• RX>CS SPEECH: 
+ ON
+• S-Level SPEECH: 
+ ON
+• MODE SPEECH: 
+ OFF
+• SPEECH Language: 
+ English
+• Alphabet: 
+ Normal
+• SPEECH Speed: 
+ Fast
+• SPEECH Level: 
+ 50%
+• [SPEECH/LOCK] Switch:  SPEECH/LOCK* 
+*See NOTE as described below.
+Push [SPEECH/LOCK] to announce the currently 
+➥
+➥
+selected frequency, mode and S-meter level*.
+	
+* The S-meter level announcement can be turned OFF. (p. 
+6-4)
+NOTE: If “SPEECH/LOCK” is not selected in the 
+“[SPEECH/LOCK] Switch” item of the “Function” 
+Set mode, you should hold down SPEECH
+(R) for 
+1 second to activate the voice synthesizer.
+Push a mode switch to announce the appropriate 
+➥
+➥
+mode, when the “MODE SPEECH” item is set to 
+“ON” in the “SPEECH” Set mode. (p. 6-4)
+	
+SET(C) > SPEECH > MODE SPEECH
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+SPEECH
+
+============================================================
+PAGE 53
+============================================================
+
+3
+BASIC OPERATION
+3-21
+Voice synthesizer operation (Continued)
+Tuning OFF the S-meter announcement
+D
+D
+The S-meter announcement can be turned OFF.
+Push 
+q
+q
+SET(C) to enter the Set mode.
+Touch the “S-Level SPEECH” item of the “SPEECH” 
+w
+w
+Set mode.
+	
+SPEECH > S-Level SPEECH
+ 
+• If the specified item is not displayed, touch [Y] or [Z](D) 
+one or more times to select the page.
+Touch the option to turn OFF the function.
+e
+e
+Push 
+r
+r
+SET(C) to exit the Set mode.
+Tuning ON the MODE announcement
+D
+D
+When this function is ON, the selected operating mode 
+is verbally announced when a mode is selected.
+Push 
+q
+q
+SET(C) to enter the Set mode.
+Touch the “MODE SPEECH” item of the “SPEECH” 
+w
+w
+Set mode.
+	
+SPEECH > MODE SPEECH
+ 
+• If the specified item is not displayed, touch [Y] or [Z](D) 
+one or more times to select the page.
+Touch the option to turn ON the function.
+e
+e
+Push 
+r
+r
+SET(C) to exit the Set mode.
+Touch 
+“SPEECH”
+Touch “S-Level 
+SPEECH”
+Touch “OFF”
+Touch 
+“SPEECH”
+Touch “MODE 
+SPEECH”
+Touch “ON”
+
+============================================================
+PAGE 54
+============================================================
+
+3
+BASIC OPERATION
+3-22
+Meter display selection
+The transmit meter can be toggled between four func-
+tions for your convenience.
+➥ Touch the Meter one or more times to select the TX 
+meter function, RF power meter, SWR meter, ALC 
+meter or COMP meter.
+ 
+• Po 
+: Displays the relative RF output power.
+ 
+• SWR : Displays the SWR of the antenna at the fre-
+quency.
+ 
+• ALC 
+: Displays the ALC level. When the meter move-
+ment shows the input signal level exceeds the 
+allowable level, the ALC limits the RF power. 
+In such cases, decrease the microphone gain 
+level.
+ 
+• COMP : Displays the compression level when the speech 
+compressor is in use.
+➥ Touch the Meter for 1 second to select the Multi-
+function meter.
+ 
+• Touch the Multi-function meter to cancel the meter.
+ALC zone
+Multi-function meter
+When ALC meter 
+is selected.
+RF output power is displayed in % (percent), 
+and it becomes the S-meter in receive.
+
+============================================================
+PAGE 55
+============================================================
+
+3
+BASIC OPERATION
+3-23
+Basic transmit operation
+Before transmitting, monitor the operating fre-
+quency to make sure transmitting won’t cause 
+interference to other stations on the same fre-
+quency. It’s good amateur practice to listen first, 
+and then, even if nothing is heard, ask “Is the fre-
+quency in use?” once or twice, before you begin 
+operating on that frequency.
+Transmitting
+D
+D
+CAUTION: Transmitting without an antenna may 
+damage the transceiver.
+In the AM mode, you can transmit on only the HF, 
+50/70* MHz frequency bands.
+* 70 MHz band transmission is available, depending on the 
+transceiver version.
+Push [PTT] on the microphone to transmit (or exter-
+q
+q
+nal transmit switch).
+ 
+• The TX/RX LED lights red.
+w	Release [PTT] again to receive (or external transmit 
+switch).
+✔ Adjusting the transmit output power
+Push 
+q
+q
+MIC/RF PWR (C) to open the MIC gain/RF power 
+adjustment display.
+Rotate [BANK]
+w
+w
+(L) to adjust the RF power.
+Push 
+e
+e
+MENU (C) to close the display.
+Frequency band
+RF output power range
+HF/50 MHz
+2 to 100 W	
+(AM: 1 to 30 W)
+70 MHz*
+2 to 50 W	
+(AM: 1 to 15 W)
+144 MHz
+2 to 50 W
+430 MHz
+2 to 35 W
+	
+* 70 MHz can be used, depending on transceiver ver-
+sions. 
+The L, R, C or D in the in-
+structions indicate the part 
+of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+TX/RX LED
+MIC/RF PWR
+MENU
+[BANK]
+Output power adjustment
+
+============================================================
+PAGE 56
+============================================================
+
+3
+BASIC OPERATION
+3-24
+Basic transmit operation (Continued)
+Microphone gain adjustment
+D
+D
+	
+(Mode: SSB/AM/FM/DV)
+Push 
+q
+q
+MIC/RF PWR (C) to open the MIC gain/RF power 
+adjustment display.
+Push [PTT] to transmit.
+w
+w
+ 
+• Speak into the microphone at your normal voice level.
+Rotate [M-CH]
+e
+e
+(L) to adjust the MIC gain.
+	
+When the MIC gain is adjusted too high, your 
+transmitted voice may be distorted.
+Release [PTT] to receive.
+r
+r
+Push 
+t
+t
+MENU (C) to close the display.
+❍ In the SSB mode:
+	
+Touch the TX meter to select the ALC meter. Then, 
+while speaking into the microphone, rotate [M-CH]
+(L) so that the ALC meter reading stays within 
+the ALC zone.
+❍ In the AM, FM and DV modes:
+	
+While speaking into the microphone, rotate 
+[M-CH]
+(L) with another station listening to your 
+voice for clarity.
+MIC/RF PWR
+MENU
+TX/RX LED
+[M-CH]
+MIC gain adjustment
+ALC zone
+When ALC meter 
+is selected.
+
+============================================================
+PAGE 57
+============================================================
+
+4-1
+Section 4
+D-STAR INTRODUCTION
+IMPORTANT!
+• The repeater list described in this manual may differ from your trans-
+ceiver’s preloaded contents.
+• Although Japanese repeaters are used in the setting examples, the 
+Japanese repeater node (port) letters are different from those in other 
+countries.
+	 Be sure to add a repeater node letter as the 8th digit in the call sign 
+field after a repeater call sign according to the repeater frequency band 
+shown below.
+	
+1200 MHz:	 A (B in Japan)
+	
+430 MHz:	
+B (A in Japan)
+	
+144 MHz:	
+C (no D-STAR repeaters in Japan)
+“MY” (Your own call sign) programming..............................4-2
+D-STAR Introduction..............................................................4-5
+About the DR (D-STAR Repeater) mode...............................4-5
+Communication Form in the DR mode.................................4-6
+“AI” means “Advanced Instructions.”
+“sec. MM” means section number.
+So when “(AI sec. MM)” is described on this manual, see the PDF type 
+Advanced Instruction’s section number for your reference.
+Section 1  panel description
+Section 2  INSTALLATION AND CONNECTIONS
+Section 3  BASIC OPERATION
+Section 4  D-STAR INTRODUCTION
+Section 5  D-STAR OPERATION <BASIC>
+Section 6  SET MODE
+Section 7  INSTALLATION NOTES
+
+============================================================
+PAGE 58
+============================================================
+
+4
+D-STAR INTRODUCTION
+4-2
+IMPORTANT!
+Before starting D-STAR, the following steps are needed. 
+STEP 1  Entering your call sign (MY) into the transceiver. 
+ STEP 2  Registering your call sign 
+(MY) to a gateway repeater. 
+ You have completed the steps!!
+“MY” (Your own call sign) programming
+You can store up to 6 “MY” call signs.
+Example: Enter “JA3YUA” as your own call sign into the 
+MY call sign memory [MY1].
+Display the My Call Sign Edit screen
+1.	
+Push 
+q
+q
+SET(C) to enter the Set mode.
+Touch the “MY Call Sign” item of the “My Station” Set 
+w
+w
+mode.
+	
+My Station > MY Call Sign
+ 
+• If the specified item is not displayed, touch [∫] or [√](D) 
+one or more times to select the page.
+Touch the desired call sign memory for 1 second.
+e
+e
+	
+(Example: 1:)
+Touch the “Edit” item.
+r
+r
+ 
+• The “MY CALL SIGN (MYM)” screen appears.
+	
+  The memory number, selected in the step e, is dis-
+played.
+	
+  (Example: MY1)
+The L, R, C or D in the instructions indicate the part of 
+the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+Continued on the next page
+☞
+☞
+Touch [√]
+Touch
+“My Station”
+Touch
+“MY Call Sign”
+Touch the call 
+sign memory 
+for 1 second
+(Example: 1:)
+Touch
+“Edit”
+
+============================================================
+PAGE 59
+============================================================
+
+4
+D-STAR INTRODUCTION
+4-3
+Enter the Call Sign
+2.	
+Touch the desired block one or more times to select 
+t
+t
+the desired character.
+	
+(Example: J)
+ 
+• A to Z, 0 to 9 and / are selectable.
+ 
+• Touch “AB⇔12” to toggle between the Alphabet input 
+and the Number input mode.
+ 
+• Touch [CLR](D) to delete the selected character, symbol 
+or number.
+ 
+• Touch “  ” to input a space.
+Touch [
+y
+y
+](D) to move the cursor backwards, or 
+touch [](D) to move the cursor forwards.
+Repeat steps 
+u
+u
+t and y to enter your own call sign of 
+up to 8 characters, including spaces.
+	
+(Example: First J, then A, then 3, then Y, then U, then A)
+Touch [ENT](
+i
+i
+D) to return to the “MY CALL SIGN” 
+screen.
+“MY” (Your own call sign) programming (Continued)
+Call sign edit screen
+Input a space
+Move the cursor
+Move the cursor
+Delete a character
+Select an input mode
+Enter
+Cancel edit
+Number input mode is selected.
+Alphabet input mode is selected.
+Enter “JA3YUA” into [MY1].
+q Touch “JKL”  
+to enter ‘J.’
+w Touch “ABC” 
+to enter ‘A.’
+e Touch 
+“AB⇔12.”
+o Touch [ENT]
+q
+y
+u
+i
+r
+e
+�
+w
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+Continued on the next page
+☞
+☞
+r Touch “3”  
+to enter ‘3.’
+t Touch 
+“AB⇔12.”
+y Touch “WXYZ” 
+three times  
+to enter ‘Y.’
+u Touch “TUV” 
+two times  
+to enter ‘U.’
+i Touch “ABC” 
+to enter ‘A.’
+o
+
+============================================================
+PAGE 60
+============================================================
+
+4
+D-STAR INTRODUCTION
+4-4
+“MY” (Your own call sign) programming
+Convenient!
+✓
+✓
+If necessary, enter a note of up to 4 characters, such as 
+the model of the transceiver, name, area name, and so 
+on, after your call sign.
+Touch [
+q
+q
+](D) one or more times until the cursor 
+moves to the right of the “/”.
+Repeat steps 
+w
+w
+t and y on the page 4-3 to enter a 
+desired 4 character note. 
+	
+(Example: 7100)
+Push SET 
+Appears
+Touch the entered call sign to set the call sign to be 
+o
+o
+used.
+!0	Push SET(C) to exit the Set mode.
+2. Enter the Call Sign (Continued)
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+Important!
+✓
+✓
+To use a repeater gateway, you must register your call 
+sign with a gateway repeater, usually one near your 
+home location.
+If needed, ask the gateway repeater administrator for 
+call sign registration instructions.
+Touch the  
+call sign
+(Example: 
+1:JA3YUA)
+
+============================================================
+PAGE 61
+============================================================
+
+4
+D-STAR INTRODUCTION
+4-5
+• In the original D-STAR (Digital Smart Technologies for 
+Amateur Radio) plan, JARL envisioned a system of 
+repeaters grouped together into Zones.
+• The D-STAR repeater enables you to call a HAM sta-
+tion on another repeater through the internet.
+• The transceiver can be operated in the digital voice 
+mode, including low-speed data operation, for both 
+transmit and receive.
+D-STAR Introduction
+The DR (D-STAR Repeater) mode is one mode you can 
+use for D-STAR repeater operation. In this mode, you 
+can select a preprogrammed repeater or frequency in 
+“FROM” (the access repeater or simplex), and UR call 
+sign in “TO” (destination), as shown to the right.
+NOTE: If the repeater, set to “FROM” (Access Re-
+peater) has no Gateway call sign, you cannot make 
+a gateway call.
+Destination
+(Repeater/Station)
+Access repeater
+or Simplex
+In the DR mode
+About the DR (D-STAR Repeater) mode
+
+============================================================
+PAGE 62
+============================================================
+
+4
+D-STAR INTRODUCTION
+4-6
+In the DR mode, the transceiver has three communica-
+tion forms, as shown below.
+• Local area call: To call through your local area (ac-
+cess) repeater.
+• Gateway call: To call through your local area (ac-
+cess) repeater, repeater gateway and 
+the internet to your destination re-
+peater or individual station’s last used 
+repeater, using call sign routing.
+• Simplex call: 
+To call another station not using a re-
+peater.
+NOTE:
+• Programming the repeater list is required for DR mode operation. (AI sec. 9)
+• Before operating in the DV mode, be sure to check whether the access repeater is busy, or not. If the repeater is 
+busy, wait until it is clear, or ask for a “break” using a method acceptable to your local procedures.
+• The transceiver has a Time-Out Timer function for digital repeater operation. The timer limits a continuous trans-
+mission to approximately 10 minutes. Warning beeps will sound approximately 30 seconds before time-out and 
+then again immediately before time-out.
+Communication Form in the DR mode
+INTERNET
+Local area call
+Access repeater
+Hamacho
+repeater
+Hamacho area
+Gateway call
+Hirano
+repeater
+Hirano area
+Sapporo
+repeater
+Sapporo area
+Simplex call
+
+============================================================
+PAGE 63
+============================================================
+
+5-1
+Section 5
+D-STAR OPERATION <BASIC>
+D-STAR Operating procedures.............................................5-2
+Making a Local area call
+D
+D
+........................................................5-2
+Making a Gateway call
+D
+D
+...........................................................5-3
+About “UR?” and “RPT?” error messages...........................5-5
+Shows 
+D
+D
+“UR?”..........................................................................5-5
+Shows 
+D
+D
+“RPT?” or “RX”...........................................................5-5
+Shows 
+D
+D
+“L”................................................................................5-5
+Capturing a call sign..............................................................5-6
+“FROM” (Access repeater) setting.......................................5-7
+U
+D
+D
+sing the preloaded repeater list...........................................5-8
+U
+D
+D
+sing the DR mode scan.......................................................5-9
+Using the Repeater Search function
+D
+D
+......................................5-10
+U
+D
+D
+sing the TX History..............................................................5-12
+“TO” (Destination) setting.....................................................5-13
+Using the “Local CQ” (Local Area call)
+D
+D
+...................................5-14
+Using the 
+D
+D
+“Gateway CQ” (Gateway call)................................5-15
+U
+D
+D
+sing the “Your Call Sign”......................................................5-16
+U
+D
+D
+sing the RX History.............................................................5-17
+U
+D
+D
+sing the TX History..............................................................5-18
+D
+D
+D
+irectly inputting (UR)............................................................5-19
+D
+D
+D
+irectly inputting (RPT)..........................................................5-20
+IMPORTANT!
+• The repeater list described in this manual may differ from your trans-
+ceiver’s preloaded contents.
+• Although Japanese repeaters are used in the setting examples, the 
+Japanese repeater node (port) letters are different from those in other 
+countries.
+	 Be sure to add a repeater node letter as the 8th digit in the call sign 
+field after a repeater call sign according to the repeater frequency band 
+shown below.
+	
+1200 MHz:	 A (B in Japan)
+	
+430 MHz:	
+B (A in Japan)
+	
+144 MHz:	
+C (no D-STAR repeaters in Japan)
+“AI” means “Advanced Instructions.”
+“sec. MM” means section number.
+So when “(AI sec. MM)” is described on this manual, see the PDF type 
+Advanced Instruction’s section number for your reference.
+Section 1  panel description
+Section 2  INSTALLATION AND CONNECTIONS
+Section 3  BASIC OPERATION
+Section 4  D-STAR INTRODUCTION
+Section 5  D-STAR OPERATION <BASIC>
+Section 6  SET MODE
+Section 7  INSTALLATION NOTES
+
+============================================================
+PAGE 64
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-2
+D-STAR Operating procedures
+This section describes the basic D-Star procedures.
+• When it is the first time to operate D-STAR, check 
+whether or not you can access your local area repeat-
+er (Access repeater), and if your signal is successfully 
+sent to a destination repeater.
+• If your call sign (MY) has not been set, or your call 
+sign has not been registered on a D-STAR repeater, 
+see pages 4-2 and 4-4.
+Making a Local area call
+D
+D
+Set “FROM” (Access repeater)
+1.	
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “FROM” is selected.
+w
+w
+ 
+• If “FROM” is not selected, touch the “FROM” field.
+Touch the “FROM” field.
+e
+e
+ 
+• The “FROM SELECT” screen appears.
+Touch “Repeater List.”
+r
+r
+ 
+• The “REPEATER GROUP” screen appears.
+Touch the repeater group where your access repeat-
+t
+t
+er is listed.
+ 
+• Example: “11: Japan”
+Touch your access repeater.
+y
+y
+ 
+• Example: “Hirano”
+ 
+• The transceiver returns to the DR mode screen, and the 
+selected repeater is set in “FROM.”
+Set “TO” (Destination)
+2.	
+Check whether or not “TO” is selected.
+u
+u
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+i
+i
+ 
+• The “TO SELECT” screen appears.
+Touch “Local CQ.”
+o
+o
+ 
+• The transceiver returns to the DR mode screen, and 
+“CQCQCQ” is set in “TO.”
+Hold down [PTT] to transmit
+3.	
+• While holding down [PTT], the TX/RX indicator lights red.
+See page 5-5 to check whether you can access the 
+repeater.
+The repeater list, described in this manual, may differ from 
+your transceiver’s preloaded list.
+Touch
+“Local CQ.”
+Transmitting
+Repeater area
+(Sub name)
+Repeater call sign
+“FROM” is selected.
+“Hirano” is set 
+on “FROM.”
+Touch
+“FROM.”
+Touch
+“Repeater List.”
+Touch the re-
+peater group
+(Example:  
+“11: Japan”)
+Touch your ac-
+cess repeater.
+(Example:  
+“Hirano”)
+Touch
+“TO.”
+“TO” is selected.
+“CQCQCQ” is 
+set on “TO.”
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 65
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-3
+D-STAR Operating procedures (Continued)
+Making a Gateway call
+D
+D
+Set “FROM” (Access repeater)
+1.	
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “FROM” is selected.
+w
+w
+ 
+• If “FROM” is not selected, touch the “FROM” field.
+Touch the “FROM” field.
+e
+e
+ 
+• The “FROM SELECT” screen appears.
+Touch “Repeater List.”
+r
+r
+ 
+• The “REPEATER GROUP” screen appears.
+Touch the repeater group where your access repeat-
+t
+t
+er is listed.
+ 
+• Example: “11: Japan”
+Touch your access repeater.
+y
+y
+ 
+• Example: “Hirano”
+ 
+• The transceiver returns to the DR mode screen, and the 
+selected repeater is set in “FROM.”
+Set “TO” (Destination)
+2.	
+Check whether or not “TO” is selected.
+u
+u
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+i
+i
+ 
+• The “TO SELECT” screen appears.
+Touch “Gateway CQ.”
+o
+o
+ 
+• The “REPEATER GROUP” screen appears.
+!0	Touch the repeater group where your destination re-
+peater is listed.
+ 
+• Example: “11: Japan”
+!1	Touch the destination repeater.
+ 
+• Example: “Hamacho”
+ 
+• The transceiver returns to the DR mode screen, and the 
+selected repeater is set in “TO.”
+Hold down [PTT] to transmit
+3.	
+• While holding down [PTT], the TX/RX indicator lights red.
+“FROM” is selected.
+“Hirano” is set 
+in “FROM.”
+Touch
+“FROM.”
+Touch your ac-
+cess repeater.
+(Example:  
+“Hirano”)
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+Touch
+“Gateway CQ.”
+Transmitting
+Touch
+“TO.”
+“Hamacho” is 
+set in “TO.”
+“TO” is selected.
+Touch the re-
+peater group
+(Example:  
+“11: Japan”)
+Touch the desti-
+nation repeater.
+(Example:  
+“Hamacho”)
+Repeater area
+(Sub name)
+Repeater
+call sign
+See page 5-5 to check whether you can access the 
+repeater.
+Convenient!
+✓
+✓
+The Gateway CQ call is used to call any repeater, but 
+you can call a specific station by simply saying their 
+call sign.
+
+============================================================
+PAGE 66
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-4
+D-STAR Operating procedures (Continued)
+INTERNET
+JA3YUA 
+calling 
+to 
+JP1YIU port A through 
+JP3YHH port B.
+JM1ZLK, 
+this 
+is 
+JA3YUA. 
+Thanks for the nice QSO and I 
+hope to talk to you again soon.
+This is JA3YUA now clear of 
+the JP3YHH repeater.
+JA3YUA, this is JM1ZLK.
+Hello, how are you?
+< Communication example for a Gateway call>
+•
+•
+•
+
+============================================================
+PAGE 67
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-5
+The transceiver includes a status message in the signal 
+received back from the access repeater, after transmit-
+ting.
+Shows “UR?”
+D
+D
+The call was successfully sent, but no station’s signal 
+was received within 3 seconds.
+The called station may have missed your call, so after 
+waiting for a while, try calling again.
+Shows “RPT?” or “RX”
+D
+D
+The destination repeater was not found, there is a pro-
+gramming error, or the destination repeater was busy.
+When “RPT?” is displayed, after waiting for a while, try 
+calling again, because in a gateway call, your signal is 
+sent even if the destination repeater is busy.
+NOTE: “RPT?” or “RX” is displayed when:
+• The repeater call sign programming is in error.
+• Your own call sign is not registered on a gateway re-
+peater, or the registration contents is not matched.
+• The destination call sign is not registered on a 
+gateway repeater, or the registration contents is not 
+matched.
+• The destination repeater call sign is not registered 
+on a gateway repeater, or the registration contents 
+is not matched.
+• The destination repeater cannot be accessed.
+• A blank MY call sign memory is selected. (“RX” is 
+displayed)
+Shows “L”
+D
+D
+While operating in the voice communication or low-
+speed data communication mode through the internet, 
+some packets may be lost due to network error, or the 
+caller’s signal is weak getting into the repeater. In such 
+a case, “L” is displayed to indicate that Packet Loss has 
+occurred.
+When the transceiver receives corrupted data, and 
+misidentifies it as Packet Loss, “L” is displayed, even 
+if it is a Local area call.
+Indicates packet loss
+“L” blinks while packet 
+loss is occurring.
+This means that your local area call was cor-
+rectly sent from the “Hirano” repeater.
+This means that your gateway call was correctly 
+sent from the “Hirano” repeater to the “Hama-
+cho” repeater.
+This means that your gateway call was sent 
+from the “Hirano” repeater to the “Hamacho” re-
+peater, but the “Hamacho” repeater was busy 
+at the time.
+About “UR?” and “RPT?” error messages
+
+============================================================
+PAGE 68
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-6
+After you receive the repeater’s signal, the calling sta-
+tion’s call sign can be captured by holding down the 
+Call Sign Capture key AUTO TUNE RXCS (R). Then you can 
+quickly and easily reply to the received call.
+Capturing a call sign
+Set the received call sign to the destination
+1.	
+Hold down AUTO TUNE RXCS (R) for 1 second.
+• After releasing, beeps sound, and the station call sign is an-
+nounced if the RX>CS Speech function is set to ON in the 
+“SPEECH” Set mode.
+  SET(C) > SPEECH > RX>CS SPEECH
+• If you want to select another call sign in the RX history, ro-
+tate [DIAL] while holding down AUTO TUNE RXCS (R).
+NOTE: When a received signal is weak, or during 
+DR mode scanning, the call sign may not be received 
+correctly. In that case, “--------” appears, an error 
+beep sounds, and a quick reply call cannot be 
+made.
+Hold down [PTT] to transmit
+2.	
+• While holding down [PTT], the TX/RX indicator lights red.
+NOTE: Push AUTO TUNE RXCS (R) or DR (C), or touch 
+“FROM” on the DR mode screen to cancel the Call 
+Sign Capture mode, and return to the previous call 
+sign setting.
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+AUTO TUNE RXCS
+When receiv-
+ing a call from 
+“JG3LUK.”
+Beeps
+JG3LUK
+Appears af-
+ter selecting 
+a call sign.
+While receiving
+While holding down
+AUTO TUNE RXCS (R)
+Transmitting
+After releasing
+AUTO TUNE RXCS (R)
+
+============================================================
+PAGE 69
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-7
+• When you know your access repeater
+From the repeater list (p. 5-8)
+When your access repeater is preloaded in your trans-
+ceiver’s repeater list, you can select it by selecting the 
+repeater area or name.
+• When you don't know which repeater you can access.
+• When the “FROM” data is stored in the TX History.
+Setting from the TX History (p. 5-12)
+Select a repeater that you have accessed before, from 
+the TX History record.
+Search for a repeater using the DR mode 
+scan (p. 5-9)
+Searches for DV signals from a repeater or a 
+simplex frequency.
+Search for the nearest repeater (p. 5-10)
+Searches for the nearest repeater by using your own 
+and the repeater’s location.
+The nearest repeaters in your transceiver’s repeater 
+list are displayed as the available choices.
+Your access repeater must be set to “FROM” when you 
+transmit a call in the DR mode.
+You have four ways to set the access repeater.
+Click the title shown below to jump to the specified 
+page.
+“Hirano” repeater 
+is set in “FROM.”
+Blinks
+While DR mode scanning
+DR mode screen
+Setting by the Dial
+Select the preset repeater by rotating the Dial or [M-CH]
+(L) on the DR mode screen.
+Or, rotating [BANK]
+(L) selects the repeater group.
+“FROM” (Access repeater) setting
+
+============================================================
+PAGE 70
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-8
+When your access repeater is preloaded in your trans-
+ceiver’s repeater list, you can select it from the repeater 
+list.
+By only selecting the repeater from the list, the call 
+sign, frequency, duplex and offset frequency settings 
+are automatically set for easy operation.
+Example: Select the “Hirano” repeater in Japan from 
+the repeater list.
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “FROM” is selected.
+w
+w
+ 
+• If “FROM” is not selected, touch the “FROM” field.
+Touch the “FROM” field.
+e
+e
+ 
+• The “FROM SELECT” screen appears.
+Touch “Repeater List.”
+r
+r
+ 
+• The “REPEATER GROUP” screen appears.
+Touch the repeater group where your access repeat-
+t
+t
+er is listed. (Example: “11: Japan”)
+Touch your access repeater to select the repeater 
+y
+y
+area or name. (Example: “Hirano”)
+ 
+• The transceiver returns to the DR mode screen, and the 
+selected repeater is set in “FROM.”
+Using the preloaded repeater list
+D
+D
+How to switch the repeater group:
+To switch the repeater group, while in the DR mode, 
+➥
+➥
+push QUICK (C), and then touch “Group Select” 
+“FROM” (Access repeater) setting (Continued)
+Repeater area
+(Sub name)
+Repeater call sign
+“FROM” is selected.
+“Hirano” is set on “FROM.”
+Touch
+“FROM.”
+Touch
+“Repeater List.”
+Touch the re-
+peater group
+(Example:  
+“11: Japan”)
+Touch your ac-
+cess repeater.
+(Example:  
+“Hirano”)
+The repeater list, described in this manual, may dif-
+fer from your transceiver’s preloaded list.
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 71
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-9
+Using the DR mode scan
+D
+D
+The DR mode scan is useful to find a repeater.
+To quickly find a repeater, the DR mode scan skips re-
+peaters that are not specified as an access repeater. 
+(The “USE (FROM)” setting is set to “NO” (SKIP is set) 
+on the repeater list.)
+Example: Select the “Hirano” repeater using the DR 
+mode scan.
+Push 
+q
+q
+DR (C) to select the DR mode.
+Push 
+w
+w
+MENU (C) to display the “D-1” screen (D-1 
+menu).
+Touch [SCAN](
+e
+e
+D) to start the DR mode scan.
+ 
+• The frequency decimal point and “FROM” blink while 
+scanning.
+ 
+• The repeaters in the repeater list are sequentially dis-
+played.
+ 
+• The scan pauses when a signal is received. The scan 
+resumes the same as other scans. (AI sec. 12)
+When the transceiver receives a signal from a re-
+r
+r
+peater, the scan stops, then touch [SCAN](D).
+ 
+• The DR mode scan is cancelled.
+You can skip certain repeaters as a scan target. You 
+can also skip all repeaters in certain groups from a 
+scan. See AI sec. 9 for details.
+NOTE: 
+Even if the transceiver receives a signal from a re-
+peater, the repeater may not receive the transceiv-
+er’s signal, because the repeater’s output power is 
+higher than the transceiver’s.
+“FROM” (Access repeater) setting (Continued)
+While receiving a signal 
+from a repeater
+While DR mode scanning
+Blinks
+The repeaters 
+are sequentially 
+displayed.
+“Hirano” repeater is selected in 
+“FROM.”
+Means “JM1ZLK” 
+is using the “Hi-
+rano” repeater.
+Touch [SCAN]
+Touch [SCAN]
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+The DR mode scan also scans simplex frequencies if 
+they are entered in the repeater list.
+While receiving a 
+signal on 438.030.
+Blinks
+
+============================================================
+PAGE 72
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-10
+Using the Repeater Search function
+D
+D
+The transceiver searches for the nearest repeater by 
+using your own and the repeater’s position.
+The nearest repeater in your transceiver’s repeater list 
+is displayed as the available choices.
+To receive your own position, connect an external 
+NMEA format compatible receiver to the transceiver 
+according to the instructions.
+(See AI sec. 10 for connecting the third party GPS re-
+ceiver)
+If you set your position into the “Manual” item of the 
+“GPS Set” Set mode, and if you use the transceiver as 
+a base station, you can use the Repeater Search func-
+tion without needing to receive any other position data.
+(See AI sec. 10 for Manual position entry)
+Receiving your own position from the GPS re-
+1.	
+ceiver
+Push 
+q
+q
+SET(C) to select the Set mode.
+Touch the “GPS Select” item of the “GPS Set” Set 
+w
+w
+mode.
+	
+GPS > GPS Set > GPS Select
+ 
+• If the specified item is not displayed, touch [∫] or [√](D) 
+one or more times to select the page.
+Touch “External GPS.”
+e
+e
+ 
+• When you know your position and operate as a base sta-
+tion, the Repeater Search function can be used if “Manu-
+al” is selected.
+Push 
+r
+r
+SET(C) to save, and exit the Set mode.
+ 
+• The GPS icon blinks when receiving data.
+	
+  - If “Manual” was selected, the icon does not appear.
+	
+   
+ ➪ 
+ ➪ 
+ ➪ (Disappears)
+ 
+• The GPS icon stops blinking when valid data is re-
+ceived.
+	
+   
+ 
+• It may take only a few seconds to receive. But depend-
+ing on the environment, it may take a few minutes. If you 
+have difficulties receiving, we recommend that you try a 
+different location.
+If the “DATA 1” item in the “Connectors” Set mode is 
+set to other than “GPS” (default), set to “GPS.” (p.6-
+8)
+Connectors > USB2/DATA1 Function >  
+DATA1 Function
+Set the “GPS Receiver Baud rate” item in the “GPS” 
+Set mode, according to your GPS receiver. (Default: 
+4800)
+GPS > GPS Set > GPS Receiver Baud rate
+“FROM” (Access repeater) setting (Continued)
+Appears when 
+valid data is 
+received.
+In the DR mode
+“GPS Select” screen
+Continued on the next page.
+☞
+☞
+The L, R, C or D in the instructions indicate the 
+part of the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+
+============================================================
+PAGE 73
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-11
+Selecting the access repeater from the Near Re-
+2.	
+peater list
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “FROM” is selected.
+w
+w
+ 
+• If “FROM” is not selected, touch the “FROM” field.
+Touch the “FROM” field.
+e
+e
+ 
+• The “FROM SELECT” screen appears.
+Touch “Near Repeater.”
+r
+r
+ 
+• The “NEAR REPEATER” screen appears.
+ 
+• Up to 20 of the nearest repeaters are displayed.
+Touch the repeater as your access repeater, accord-
+t
+t
+ing to the distance from your position to the repeat-
+er.
+ 
+• Example: “Hirano”
+ 
+• The transceiver returns to the DR mode screen, and the 
+selected repeater is set in “FROM.”
+*When the position data accuracy level is 
+set to “Approximate,” the direction data 
+is not displayed if the distance to the re-
+peater is under 5 kilometers. (AI sec. 9)
+NOTE: 
+When using the Repeater Search function, be sure to 
+first receive your own position data.
+• If no repeater is found in a 160 kilometers range, 
+screen 1, as shown to the right, will be displayed.
+• If the last received position can be used, screen 2, as 
+shown to the right, will be displayed.
+Screen 1
+Screen 2
+Using the Repeater Search function (Continued)
+D
+D
+Shows the dis-
+tance and direc-
+tion from your 
+position to the 
+repeater*
+Shows the call 
+sign of “Hirano.”
+When your station is in Hira-
+no-ku, Osaka-shi.
+“Hirano” repeater is selected in 
+“FROM.”
+“FROM” is 
+selected.
+Touch
+“FROM”
+Touch 
+“Near 
+Repeater”
+Touch the 
+repeater
+(Example:  
+Hirano)
+“FROM” (Access repeater) setting
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 74
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-12
+Using the TX History
+D
+D
+Repeaters you transmitted to in the DR mode are stored 
+in the TX History, and you can select a repeater from 
+the TX History as your access repeater.
+The TX History stores up to 10 of the latest “FROM” 
+(Access repeater) repeaters.
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “FROM” is selected.
+w
+w
+ 
+• If “FROM” is not selected, touch the “FROM” field.
+Touch the “FROM” field.
+e
+e
+ 
+• The “FROM SELECT” screen appears.
+Touch “TX History.”
+r
+r
+ 
+• The “TX HISTORY” screen appears.
+Touch the repeater to use as your access repeater.
+t
+t
+ 
+• Example: “Hirano”
+ 
+• The transceiver returns to the DR mode screen, and the 
+selected repeater is set in “FROM.”
+When you push QUICK (C) in the step r, you can 
+display detailed repeater information on the TX HIS-
+TORY screen, or delete it from there.
+“FROM” is 
+selected.
+Touch
+“FROM”
+Touch
+“TX History”
+“Hirano” repeater is selected in 
+“FROM.”
+Touch the 
+repeater
+(Example:  
+Hirano)
+“FROM” (Access repeater) setting (Continued)
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 75
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-13
+The destination repeater or station must be set to “TO” 
+when you transmit a call in the DV mode.
+You have eight ways to set the destination.
+Click the title shown below to jump to the specified 
+page.
+How to switch the repeater group:
+When “Local CQ” or “Gateway CQ” is se-
+lected, you can switch the repeater group.
+While in the DR mode, push 
+➥
+➥
+QUICK
+(C), and then touch “Group Select.”
+“Hamacho” 
+repeater is 
+set in “TO.”
+Setting by the Dial
+Rotate the Dial or [M-CH]
+(L) to select the preset 
+repeater or Your Call Sign that is displayed on the 
+DR mode screen. (This operation is disabled when 
+“CQCQCQ” is set.)
+Or, rotate [BANK]
+(L) to select the repeater group.
+“TO” (Destination) setting
+To make a Local Area CQ call
+“Local CQ” setting (p. 5-14)
+Set “CQCQCQ” in “TO” (Destination).
+To make a Gateway CQ call
+“Gateway CQ” setting (p. 5-15)
+Select a repeater from the repeater list, if you want 
+to make a Gateway CQ call.
+To make a call to a specific station
+“Your Call Sign” setting (p. 5-16)
+Select the station call sign in the Your Call Sign 
+memory.
+To select from RX History
+Setting from RX History (p. 5-17)
+When you receive a call, the repeater or caller sta-
+tion data is stored in RX History.
+You can select the destination from the record.
+To select from TX History
+Setting from TX History (p. 5-18)
+When you transmit a call, the destination repeater or 
+called station data is stored in TX History.
+You can select the destination from the record.
+To directly input the destination station call sign
+Direct Input (UR) (p. 5-19)
+Directly input the destination station call sign.
+To directly input the destination repeater call sign
+Direct Input (RPT) (p. 5-20)
+Directly input the destination repeater call sign.
+[TO SELECT] screen
+
+============================================================
+PAGE 76
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-14
+Using the “Local CQ” (Local Area call)
+D
+D
+When “Local CQ” is selected in the “TO SELECT” 
+screen, “CQCQCQ” is set in “TO.”
+Example: Making a Local area call by accessing the 
+“Hirano” repeater.
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “TO” is selected.
+w
+w
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+e
+e
+ 
+• The “TO SELECT” screen appears.
+Touch “Local CQ.”
+r
+r
+ 
+• The transceiver returns to the DR mode screen, and 
+“CQCQCQ” is displayed in “TO.”
+“CQCQCQ” is set in “TO.”
+“TO” (Destination) setting (Continued)
+“TO” is selected.
+Touch
+“TO.”
+Touch
+“Local CQ.”
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 77
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-15
+Using the 
+D
+D
+“Gateway CQ” (Gateway call)
+When “Gateway CQ” is selected in the “TO SELECT” 
+screen, the repeater to make a gateway CQ call can be 
+selected from the repeater list.
+Example: Making a gateway CQ call to (Japan; Hama-
+cho) from the “Hirano” repeater.
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “TO” is selected.
+w
+w
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+e
+e
+ 
+• The “TO SELECT” screen appears.
+Touch “Gateway CQ.”
+r
+r
+ 
+• The “REPEATER GROUP” screen is displayed.
+Touch the repeater group where your destination re-
+t
+t
+peater is listed.
+ 
+• Example: “11: Japan”
+Touch the destination repeater.
+y
+y
+ 
+• Example: “Hamacho”
+ 
+• The transceiver returns to the DR mode screen, and 
+“Hamacho” is displayed in “TO.”
+After selecting a repeater, you can select another re-
+peater preset in your transceiver by rotating [DIAL] or 
+[M-CH]
+(L).
+Or, you can select another repeater group by rotating 
+[BANK]
+(L).
+“Hamacho” is set in “TO.”
+Touch the desti-
+nation repeater
+(Example:  
+Hamacho)
+Touch the re-
+peater group
+(Example:  
+“11: Japan”)
+“TO” (Destination) setting (Continued)
+“TO” is selected.
+Touch
+“TO.”
+Touch
+“Gateway CQ.”
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 78
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-16
+Using the “Your Call Sign”
+D
+D
+The “Your Call Sign” memory stores the programmed 
+“UR” (destination) call sign.
+When you select an individual station call sign for the 
+“TO” (Destination) setting using “Your Call Sign,” a gate-
+way call can be made.
+When you call the destination through a gateway, the 
+signal is automatically sent to the last repeater that the 
+station accessed. 
+So, even if you don't know where the station is, you can 
+make a call.
+NOTE: If the repeater, set to “FROM” (Access Re-
+peater) has no Gateway call sign, you cannot make 
+a gateway call.
+Example: Select “TOM” from the “Your Call Sign.”
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “TO” is selected.
+w
+w
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+e
+e
+ 
+• The “TO SELECT” screen appears.
+Touch “Your Call Sign.”
+r
+r
+ 
+• The “YOUR CALL SIGN” screen is displayed.
+Touch the destination name or call sign.
+t
+t
+ 
+• Example: “TOM”
+ 
+• The transceiver returns to the DR mode screen, and 
+“TOM” is displayed in “TO.”
+After selecting a destination, you can select another 
+station preset in your transceiver by rotating the Dial 
+or [M-CH]
+(L).
+The name and call 
+sign of the selected 
+station is displayed.
+“TOM” is set in “TO.”
+Touch the 
+destination.
+(Example:  
+“TOM”)
+“TO” (Destination) setting (Continued)
+“TO” is selected.
+Touch
+“TO.”
+Touch
+“Your Call Sign.”
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 79
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-17
+Using the RX History
+D
+D
+When a call is received in the DV mode, the call data is 
+stored in the RX History.
+Up to 50 Callers, and only the last Called call signs can 
+be stored.
+Example: Select “TOM” from RX History.
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “TO” is selected.
+w
+w
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+e
+e
+ 
+• The “TO SELECT” screen appears.
+Touch “RX History.”
+r
+r
+ 
+• The “RX HISTORY” screen appears.
+Touch the destination name or call sign.
+t
+t
+ 
+• Example: “TOM”
+ 
+• The transceiver returns to the DR mode screen, and 
+“TOM” is displayed in “TO.”
+To add the selected RX HISTORY data to memory, 
+push QUICK (C) on the RX HISTORY screen, then 
+touch “Add To your Memory.”
+“TO” (Destination) setting (Continued)
+The name and call 
+sign of the selected 
+station is displayed.
+“TOM” is set in “TO.”
+Touch the 
+destination.
+(Example:  
+“TOM”)
+“TO” is selected.
+Touch
+“TO.”
+Touch
+“RX History.”
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 80
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-18
+Using the TX History
+D
+D
+The TX History stores the name and/or call sign of up 
+to 20 “TO” (Destination) settings that were used when 
+you made the calls.
+NOTE: If you never transmit a call in the DV mode, 
+you cannot select “TO” (destination) from the TX His-
+tory.
+Example: Select the “Dallas” repeater in the TX His-
+tory.
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “TO” is selected.
+w
+w
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+e
+e
+ 
+• The “TO SELECT” screen appears.
+Touch [
+r
+r
+Z] to display the next page.
+Touch “TX History.”
+t
+t
+ 
+• The “TX HISTORY” screen appears.
+Touch the destination name or call sign.
+y
+y
+ 
+• Example: “Dallas”
+ 
+• The transceiver returns to the DR mode screen, and “Dal-
+las” is displayed in “TO.”
+“Dallas” repeater’s 
+call sign is displayed.
+If you push QUICK (C) on the TX HISTORY screen, 
+you can add the selected TX HISTORY data to mem-
+ory, or delete it from there.
+“TO” (Destination) setting (Continued)
+“Dallas” is set in “TO.”
+“TO” is selected.
+Touch
+“TO.”
+Touch
+“TX History.”
+Touch
+[Z].
+The Sub name is 
+displayed when 
+a repeater is se-
+lected.
+The L, R, C or D in the instructions indicate the 
+part of the controller.
+L: Left side, R: Right side, C: Center bottom
+D: Display (Touch screen)
+
+============================================================
+PAGE 81
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-19
+Directly inputting (UR)
+D
+D
+The destination station call sign can be directly input.
+Example: Directly input the call sign “JM1ZLK.”
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “TO” is selected.
+w
+w
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+e
+e
+ 
+• The “TO SELECT” screen appears.
+Touch [
+r
+r
+Z] to display the next page.
+Touch “Direct Input (UR).”
+t
+t
+ 
+• The “DIRECT INPUT (UR)” screen appears.
+Touch the desired block one or more times to 
+y
+y
+select 
+the desired character or symbol.
+	
+(Example: J)
+ 
+• A to Z, 0 to 9 and / can be selected.
+ 
+• Touch “AB⇔12” to toggle between the Alphabet input 
+and Number input mode.
+ 
+• Touch [CLR](D) to delete the selected character, symbol 
+or number.
+ 
+• Touch “  ” to input a space.
+Touch [
+u
+u
+](D) to move the cursor backwards, or 
+touch [](D) to move the cursor forwards.
+Repeat steps 
+i
+i
+y and u to program a call sign of 
+up to 8 characters, including spaces, and then touch 
+[ENT](D).
+	
+(Example: First, J, then M, then 1, then Z, then L, 
+then K.)
+ 
+• The transceiver returns to the DR mode screen, and “JM-
+1ZLK” is displayed in “TO.”
+ 
+• After programming, you can correct the call sign in the 
+DIRECT INPUT (UR) screen.
+ 
+• The programmed call sign remains on the DIRECT IN-
+PUT (UR) screen, until inputting a new call sign.
+If the programmed call sign is duplicated in “Your Call 
+Sign” memory, the name is displayed. (Only when the 
+name has been programmed.)
+Program a call 
+sign, and touch 
+[ENT].
+“TO” (Destination) setting (Continued)
+“JM1ZLK” is set in “TO.”
+“TO” is selected.
+Touch 
+“TO.”
+Touch
+[Z].
+Touch
+“Direct Input 
+(UR)”
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 82
+============================================================
+
+5
+D-STAR OPERATION <BASIC>
+5-20
+Directly inputting (RPT)
+D
+D
+The destination repeater call sign can be directly input.
+Example: Directly input the call sign “JP3YDH”
+Push 
+q
+q
+DR (C) to select the DR mode.
+Check whether or not “TO” is selected.
+w
+w
+ 
+• If “TO” is not selected, touch the “TO” field.
+Touch the “TO” field.
+e
+e
+ 
+• The “TO SELECT” screen appears.
+Touch [
+r
+r
+Z] to display the next page.
+Touch “Direct Input (RPT).”
+t
+t
+ 
+• The “DIRECT INPUT (RPT)” screen appears.
+Touch the desired block one or more times to select 
+y
+y
+the desired character or symbol.
+	
+(Example: J)
+ 
+• A to Z, 0 to 9 and / can be selected.
+ 
+• Touch “AB⇔12” to toggle between the Alphabet input 
+and Number input mode.
+ 
+• Touch [CLR](D) to delete the selected character, symbol 
+or number.
+ 
+• Touch “  ” to input a space.
+Touch [
+u
+u
+](D) to move the cursor backwards, or 
+touch [](D) to move the cursor forwards.
+Repeat steps 
+i
+i
+y and u to program a call sign of 
+up to 8 characters, including spaces, and then touch 
+[ENT](D).
+    (Example: First, J, then P, then 3, then Y, then D, 
+then H.)
+ 
+• The transceiver returns to the DR mode screen, and 
+“JP3YDH” is displayed in “TO.”
+ 
+• After programming, you can correct the call sign in the 
+DIRECT INPUT (RPT) screen.
+ 
+• The programmed call sign remains on the DIRECT IN-
+PUT (RPT) screen, until inputting a new call sign.
+The following settings are also correct.
+*Although the repeater node letter is ‘B’ for 430 MHz band, 
+‘A’ is used in Japan. See page 5-1 for details.
+If the programmed call sign is duplicated to the re-
+peater list, the name is displayed. (Only when the 
+name has been programmed.)
+The repeater node* 
+is input.
+“/” is input.
+In this case, the call sign is of 
+a repeater for a Gateway call.
+“TO” (Destination) setting (Continued)
+Program a call 
+sign, and touch 
+[ENT].
+“K5TIT B” is set in “TO.”
+“TO” is selected.
+Touch 
+“TO.”
+Touch 
+[Z].
+Touch  
+“Direct Input 
+(RPT).”
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+
+============================================================
+PAGE 83
+============================================================
+
+6-1
+Section 6
+SET MODE
+Set mode description.............................................................6-2
+The Set mode settings
+D
+D
+...........................................................6-2
+Set mode items and Default settings...................................6-3
+“AI” means “Advanced Instructions.”
+“sec. MM” means section number.
+So when “(AI sec. MM)” is described on this manual, see the PDF type 
+Advanced Instruction’s section number for your reference.
+Section 1  panel description
+Section 2  INSTALLATION AND CONNECTIONS
+Section 3  BASIC OPERATION
+Section 4  D-STAR INTRODUCTION
+Section 5  D-STAR OPERATION <BASIC>
+Section 6  SET MODE
+Section 7  INSTALLATION NOTES
+
+============================================================
+PAGE 84
+============================================================
+
+6
+SET MODE
+6-2
+The Set mode is used to program infrequently changed 
+values or function settings.
+NOTE: The Set mode is constructed in a tree struc-
+ture. You may go to the next tree level, or go back a 
+level, depending on the selected item.
+The Set mode settings
+D
+D
+Push 
+q
+q
+SET(C) to enter the Set mode.
+If the specified item is not displayed, touch [
+w
+w
+∫] or [√]
+(D) one or more times to select the page.
+ 
+• If [∫](D) or [√](D) is continuously held down, the pages 
+are quickly scrolled.
+ 
+• Rotating the Dial also selects the pages.
+Touch a desired item to go to the next level.
+e
+e
+Repeat steps 
+r
+r
+w and e to show the desired item’s 
+setting screen.
+ 
+• To go back the previous tree level, touch [](D), or 
+MENU (C).
+Touch a desired option shown on the display, or [+]/
+t
+t
+[–](D) to adjust a level.
+ 
+• When you touch an option, it is automatically saved and 
+the screen returns to the previous display.
+ 
+• Rotating the Dial also adjusts the level.
+ 
+• Push QUICK (C), and then touch “Default” to reset to the 
+default setting, if desired.
+ 
+• To set other item, touch [](D), or MENU (C) to go back 
+a tree level.
+Push 
+y
+y
+SET(C) to exit the Set mode.
+Set mode description
+The L, R, C or D in the 
+instructions indicate the 
+part of the controller.
+L: Left side
+R: Right side
+C: Center bottom
+D: Display (Touch screen)
+Left
+Right
+Center
+Display
+SET
+Example: Change the “Memopad Numbers” item option 
+to “10.”
+
+============================================================
+PAGE 85
+============================================================
+
+6
+SET MODE
+6-3
+NOTE: The default settings shown below in bold are for the USA version.
+The default settings may differ, depending on your transceiver version.
+Call sign (AI sec. 9)
+➥
+➥
+RX History (AI sec. 9)
+➥
+➥
+MY Station (Section 4)
+➥
+➥
+GPS (AI sec. 10)
+➥
+➥
+SD Card (AI sec. 13)
+➥
+➥
+Voice Memo
+In this item, set the TX/RX voice recording options.
+QSO Recorder
+<<REC Start>>*
+Starts recording the TX/RX audio.
+Play Files*
+Selects to playback or delete the recorded audio.
+Recorder Set
+REC Mode
+TX&RX or RX Only
+Selects to record the TX audio or not.
+RX REC Condition
+Always or Squelch Auto
+Selects whether or not the squelch status affects 
+the RX voice audio recording.
+File Split
+OFF or ON
+Selects whether or not to automatically create 
+a new file after each transmission, reception, or 
+each time the squelch opens or closes. Even if 
+the squelch is closed, a new file is created when 
+the “RX REC Condition” item is set to “Squelch 
+Auto.”
+PTT Auto REC
+OFF or ON
+Turns the PTT Automatic Recording function ON 
+or OFF.
+Player Set
+Skip Time
+3sec, 5sec, 10sec or 30sec
+Sets the Skip time to rewind or forward the re-
+corded audio when you push the fast-rewind or 
+fast-forward key during playback.
+DV Auto Reply*
+Records a voice audio to use for the Auto Reply 
+function in the DV mode.
+* Be sure to insert the SD card into the transceiver before selecting these items.
+DV Set
+In this item, set infrequently changed values or functions in the DV mode.
+Standby Beep
+OFF, ON or ON (to me: High Tone)
+Selects whether or not to sound a beep after a 
+received signal disappears.
+Auto Reply
+OFF, ON or Voice
+Selects whether or not to automatically reply to a 
+call addressed to your own call sign.
+DV Data TX
+PTT or Auto
+Selects to manually or automatically transmit low 
+speed data.
+Digital Monitor
+Auto, Digital or Analog
+Selects the DV mode RX monitoring when [XFC] 
+is held down.
+Digital Repeater Set
+OFF or ON
+Turns the digital repeater setting function ON or 
+OFF. This function is usable in any DV mode ex-
+cept the DR mode.
+RX Call Sign Write
+OFF or Auto
+Turns the RX call sign automatic write function 
+ON or OFF. This function is usable in any DV 
+mode except the DR mode.
+RX Repeater Write
+OFF or Auto
+Turns the repeater call sign automatic write func-
+tion ON or OFF. This function is usable in any DV 
+mode except the DR mode.
+DV Auto Detect
+OFF or ON
+Turns the DV mode automatic detect function ON 
+or OFF.
+RX Record (RPT)
+ALL or Latest Only
+Selects whether to record all calls or only the lat-
+est call, when the received signal includes a sta-
+tus message (“UR?” or “RPT?”) that is sent back 
+from the access repeater.
+BK
+OFF or ON
+Turns the BK (Break-in) function ON or OFF.
+The BK function allows you to break into a con-
+versation between two stations with call sign 
+squelch enabled.
+EMR
+OFF or ON
+Turns the EMR (Enhanced Monitor Request) 
+communication mode ON or OFF.
+EMR AF Level
+0%~50%~100%
+Sets the audio output level when an EMR mode 
+signal is received.
+Set mode items and Default settings
+
+============================================================
+PAGE 86
+============================================================
+
+6
+SET MODE
+6-4
+SPEECH
+In this item, set the Speech options.
+RX Call Sign SPEECH
+OFF, ON (Kerchunk) or ON (All)
+Selects the RX call sign speech function option 
+while ON, or turn it OFF.
+RX>CS SPEECH
+OFF or ON
+Turns the RX>CS Speech function ON or OFF.
+S-Level SPEECH
+OFF or ON
+Turns the Signal Strength Level Speech function 
+ON or OFF.
+MODE SPEECH
+OFF or ON
+Turns the Operating Mode Speech function ON 
+or OFF.
+SPEECH Language
+English or Japanese
+Selects either English or Japanese as the de-
+sired speech language.
+Alphabet
+Normal or Phonetic Code
+Selects the alphabet character announcement 
+type.
+SPEECH Speed
+Slow or Fast
+Selects Slow or Fast speech speed.
+SPEECH Level
+0%~50%~100%
+Sets the volume level for the voice synthesizer.
+QSO/RX Log
+In this item, set the QSO/RX History Log options.
+QSO Log*1
+OFF or ON
+Selects whether or not to make a communication 
+log on the SD card.
+RX History Log*1
+OFF or ON
+Selects whether or not to make a DV mode’s re-
+ceive history log on the SD card.
+CSV Format
+Separator/Decimal
+Sep [,] Dec [.]*2, Sep [;] Dec [.] or Sep 
+[;] Dec [,]
+Selects the separator and the decimal character 
+for the CSV format.
+Date
+yyyy/mm/dd, 
+mm/dd/yyyy*2 
+or 
+dd/mm/yyyy
+Selects the date format.
+*1 Be sure to insert the SD card into the transceiver before selecting these items.
+*2 The default value may differ, depending on the transceiver version.
+Set mode items and Default settings (Continued)
+NOTE: The default settings shown below in bold are for the USA version.
+The default settings may differ, depending on your transceiver version.
+
+============================================================
+PAGE 87
+============================================================
+
+6
+SET MODE
+6-5
+Function
+In this item, set the function options.
+Monitor
+OFF or ON
+Selects whether or not to monitor your transmit 
+signal in any mode other than CW.
+Monitor Level
+0%~50%~100%
+Sets the monitor level.
+Beep Level
+0%~50%~100%
+Sets the beep output level.
+Beep Level Limit
+OFF or ON
+Selects whether or not to limit the volume to the 
+specified level, and further rotation of the [AF] 
+control will not increase the level.
+Beep (Confirmation)
+OFF or ON
+Turns the confirmation beep tones ON or OFF.
+Band Edge Beep
+OFF, ON (Default), ON (User) or ON 
+(User) & TX Limit
+Selects whether or not to sound a beep when you 
+tune outside of, or back into the amateur band's 
+frequency range.
+User Band Edge
+1: 1.800.000–1.999.999
+2: 3.500.000–3.999.999
+3: 5.255.000–5.405.000
+4: 7.000.000–7.300.000
+5: 10.100.000–10.150.000
+6: 14.000.000–14.350.000
+7: 18.068.000–18.168.000
+8: 21.000.000–21.450.000
+9: 24.890.000–24.990.000
+10: 28.000.000–29.700.000
+11: 50.000.000–54.000.000
+12: 144.000.000–148.000.000
+13: 430.000.000–450.000.000
+14~30: (blank)
+Selects the user band frequency range to sound 
+a beep when the Band Edge Beep function is 
+set to “ON (User)” or “ON (User) & TX Limit,” and 
+you tune outside of, or back into a programmed 
+range.
+RF/SQL Control
+Auto, SQL or RF+SQL
+Select the function of the [RF/SQL] control.
+TX Delay
+HF
+OFF, 10ms, 15ms, 20ms, 25ms or 
+30ms
+Sets the transmission’s timing of the IC-7100 to 
+prevent any external equipment that is connected 
+from damage by the transmitted RF.
+50M
+OFF, 10ms, 15ms, 20ms, 25ms or 
+30ms
+See HF above.
+144M
+OFF, 10ms, 15ms, 20ms, 25ms or 
+30ms
+See HF above.
+430M
+OFF, 10ms, 15ms, 20ms, 25ms or 
+30ms
+See HF above.
+Time-Out Timer
+OFF, 3min, 5min, 10min, 20min or 
+30min
+Selects the Time-Out Timer time options to pre-
+vent an accidental prolonged transmission.
+PTT Lock
+OFF or ON
+Selects whether or not to inhibit transmission.
+SPLIT/DUP
+Quick SPLIT
+OFF or ON
+Turns the Quick SPLIT function ON or OFF.
+SPLIT Offset
+–9.999 MHz~0.000 MHz~+9.999 MHz
+Sets the frequency offset for the Split function.
+SPLIT LOCK
+OFF or ON
+Turns the SPLIT LOCK function ON or OFF.
+DUP Offset
+0.0000 MHz~9.9999 MHz
+(The default value may differ, depend-
+ing on the frequency band and the 
+transceiver version.)
+Sets the frequency offset for repeater operation.
+One Touch Repeater
+DUP– or DUP+
+Selects the duplex direction for the One Touch 
+Repeater function.
+Auto Repeater
+OFF, ON (DUP) or ON (DUP,TONE)
+Turns the Auto Repeater function ON or OFF.
+Tuner
+Auto Start
+OFF or ON
+Turns the automatic antenna tuner function ON 
+or OFF.
+Set mode items and Default settings (Continued)
+NOTE: The default settings shown below in bold are for the USA version.
+The default settings may differ, depending on your transceiver version.
+
+============================================================
+PAGE 88
+============================================================
+
+6
+SET MODE
+6-6
+PTT Start
+OFF or ON
+Turns the PTT Tuner Start function ON or OFF.
+[TUNER] Switch
+Manual or Auto
+Selects whether or not to store the AT-180’s sta-
+tus by each band.
+[SPEECH/LOCK] Switch
+SPEECH/LOCK, LOCK/SPEECH
+Selects the function for SPEECH
+ when pushed 
+or held down.
+Lock Function
+MAIN DIAL or PANEL
+Select the target to be locked when the Lock 
+function is activated.
+Memopad Numbers
+5 or 10
+Sets the number of usable memopad channels.
+MAIN DIAL Auto TS
+OFF, LOW or HIGH
+Selects an option for the automatic tuning step 
+function. When rapidly rotating the main dial, the 
+tuning step automatically changes according to 
+the setting.
+MIC Up/Down Speed
+Slow or Fast
+Selects the microphone’s [∫]/[√] key speed.
+[NOTCH] Switch (SSB)
+Auto, Manual or Auto/Manual
+Selects the notch function for the SSB mode.
+[NOTCH] Switch (AM)
+Auto, Manual or Auto/Manual
+Selects the notch function for the AM mode.
+SSB/CW Sync Tuning
+OFF or ON
+Turns the Synchronous Tuning function ON or 
+OFF to shift the operating frequency by the offset 
+amount to keep receiving a signal when the oper-
+ating mode is changed between SSB and CW.
+CW Normal Side
+LSB or USB
+Sets the carrier point for CW normal mode op-
+eration to the LSB side or the USB side.
+VOICE 1st Menu
+VOICE-Root or VOICE-TX
+Select whether or not to directly select the “VOICE 
+TX” screen, skipping the “VOICE” screen.
+KEYER 1st Menu
+KEYER-Root or KEYER-SEND
+Select whether or not to directly select the 
+“KEYER SEND” screen, skipping the “KEYER” 
+screen.
+Speaker Out
+OFF or ON
+Selects to mute the speaker output.
+MIC AF Out
+OFF or ON
+Selects to output the received audio from the 
+[MIC] connector.
+RC MIC
+[F-1]
+---, P.AMP/ATT, AGC, NB, NR, NOTCH, 
+RIT, AUTOTUNE/RX>CS, TS, MPAD, 
+M-CLR, BANK, SPLIT, A/B, DUP, 
+TONE/DSQL, COMP, TBW, METER, 
+DR, FROM/TO (DR), SCAN, Voice TX 
+(T1)
+The functions listed to the left can be set to [F-1] 
+of the optional HM-151 remote control mic.
+[F-2]
+---, P.AMP/ATT, AGC, NB, NR, NOTCH, 
+RIT, AUTOTUNE/RX>CS, TS, MPAD, 
+M-CLR, BANK, SPLIT, A/B, DUP, 
+TONE/DSQL, COMP, TBW, METER, 
+DR, FROM/TO (DR), SCAN, Voice TX 
+(T1)
+The functions listed to the left can be set to [F-2] 
+of the optional HM-151 remote control mic.
+Mode Select 
+ SSB,  CW,  RTTY,  AM,  FM, 
+ WFM,  DV
+(All boxes are checked.)
+Disables the mode selection of the optional HM-
+151 remote control mic, to simplify operation.
+Power OFF (With No Controller)
+OFF or ON
+Selects whether or not to automatically turn OFF 
+the transceiver when the controller is disconnect-
+ed from the transceiver.
+REF Adjust
+0 %~100 %
+Sets a number to adjust for a zero beat with a 
+standard signal such as WWV or WWVH, for fre-
+quency calibration.
+Set mode items and Default settings (Continued)
+NOTE: The default settings shown below in bold are for the USA version.
+The default settings may differ, depending on your transceiver version.
+
+============================================================
+PAGE 89
+============================================================
+
+6
+SET MODE
+6-7
+Tone Control
+In this item, set the RX/TX tone control options.
+RX
+SSB
+RX HPF/LPF
+---- – ----, 100~2000 – 500~2400
+Sets the high-pass filter or low-pass filter of the 
+receive audio.
+RX Bass
+–5~0~+5
+Sets the bass level of the receive audio.
+RX Treble
+–5~0~+5
+Sets the treble level of the receive audio.
+AM
+RX HPF/LPF
+---- – ----, 100~2000 – 500~2400
+Sets the high-pass filter or low-pass filter of the 
+receive audio.
+RX Bass
+–5~0~+5
+Sets the bass level of the receive audio.
+RX Treble
+–5~0~+5
+Sets the treble level of the receive audio.
+FM
+RX HPF/LPF
+---- – ----, 100~2000 – 500~2400
+Sets the high-pass filter or low-pass filter of the 
+receive audio.
+RX Bass
+–5~0~+5
+Sets the bass level of the receive audio.
+RX Treble
+–5~0~+5
+Sets the treble level of the receive audio.
+DV
+RX HPF/LPF
+---- – ----, 100~2000 – 500~2400
+Sets the high-pass filter or low-pass filter of the 
+receive audio.
+RX Bass
+–5~0~+5
+Sets the bass level of the receive audio.
+RX Treble
+–5~0~+5
+Sets the treble level of the receive audio.
+WFM
+RX Bass
+–5~0~+5
+Sets the bass level of the receive audio.
+RX Treble
+–5~0~+5
+Sets the treble level of the receive audio.
+CW
+RX HPF/LPF
+---- – ----, 100~2000 – 500~2400
+Sets the high-pass filter or low-pass filter of the 
+receive audio.
+RTTY
+RX HPF/LPF
+---- – ----, 100~2000 – 500~2400
+Sets the high-pass filter or low-pass filter of the 
+receive audio.
+TX
+SSB
+TX Bass
+–5~0~+5
+Sets the bass level of the transmit audio.
+TX Treble
+–5~0~+5
+Sets the treble level of the transmit audio.
+TBW (WIDE)
+100, 200, 300, 500 – 2500, 2700, 
+2800, 2900
+Sets the lower and higher cut-off frequencies to 
+change the transmission passband width for the 
+wide setting.
+TBW (MID)
+100, 200, 300, 500 – 2500, 2700, 
+2800, 2900
+Sets the lower and higher cut-off frequencies to 
+change the transmission passband width for the 
+mid setting.
+TBW (NAR)
+100, 200, 300, 500 – 2500, 2700, 
+2800, 2900
+Sets the lower and higher cut-off frequencies to 
+change the transmission passband width for the 
+narrow setting.
+AM
+TX Bass
+–5~0~+5
+Sets the bass level of the transmit audio.
+TX Treble
+–5~0~+5
+Sets the treble level of the transmit audio.
+FM
+TX Bass
+–5~0~+5
+Sets the bass level of the transmit audio.
+TX Treble
+–5~0~+5
+Sets the treble level of the transmit audio.
+DV
+TX Bass
+–5~0~+5
+Sets the bass level of the transmit audio.
+TX Treble
+–5~0~+5
+Sets the treble level of the transmit audio.
+Set mode items and Default settings (Continued)
+NOTE: The default settings shown below in bold are for the USA version.
+The default settings may differ, depending on your transceiver version.
+
+============================================================
+PAGE 90
+============================================================
+
+6
+SET MODE
+6-8
+Connectors
+In this item, set the external connector’s options.
+USB Audio SQL
+OFF (OPEN) or ON
+Selects whether or not to output the audio from 
+the [USB] connector, according to the squelch 
+state (open or closed).
+ACC/USB Output Select
+AF or IF
+Sets the [USB] connector and the [ACC] socket 
+usage to received audio output or the IF output 
+for DRM (Digital Radio Mondiale).
+ACC/USB AF Level
+0 %~50 %~100 %
+Sets the audio output level at the [ACC] socket 
+and the [USB] connector.
+ACC/USB IF Level
+0 %~50 %~100 %
+Sets the IF output level at the [ACC] socket and 
+the [USB] connector.
+ACC MOD Level
+0 %~50 %~100 %
+Sets  the input modulation level at the [ACC] 
+socket.
+DATA MOD Level
+0 %~50 %~100 %
+Sets the input modulation level at the [DATA] 
+jack.
+USB MOD Level
+0 %~50 %~100 %
+Sets the input modulation level at the [USB] con-
+nector.
+DATA OFF MOD
+MIC, ACC, MIC,ACC or USB
+Selects the connector(s) for the desired modula-
+tion to input when the data mode is not used.
+DATA MOD
+MIC, ACC, MIC,ACC or USB
+Selects the connector(s) for the desired modula-
+tion to input when the data mode is used.
+External Keypad
+VOICE
+OFF or ON
+Selects whether or not to transmit voice memory 
+contents using the external keypad.
+KEYER
+OFF or ON
+Selects whether or not to transmit keyer memory 
+contents using the external keypad.
+RTTY
+OFF or ON
+Selects whether or not to transmit RTTY memory 
+contents using the external keypad. 
+CI-V
+CI-V Baud Rate
+300, 1200, 4800, 9600, 19200 or Auto Sets the CI-V code transfer speed.
+CI-V Address
+01h~88h~DFh
+Sets the transceiver's unique CI-V hexadecimal 
+address code.
+CI-V Transceive
+OFF or ON
+Turns the CI-V Transceive function ON or OFF.
+USB2/DATA1 Function
+USB2 Function
+OFF, RTTY Decode or DV Data
+Selects the use of the COM port (USB2).
+DATA1 Function
+OFF, RTTY Decode, DV Data or GPS
+Select the use of the [DATA1] jack.
+GPS Out
+OFF or DATA1  USB2
+Selects whether or not to output the data to the 
+COM port (USB2) when data is input from a GPS 
+receiver through the [DATA1] jack.
+DV Data/GPS Out Baud
+4800 or 9600
+Sets the DV or GPS data transfer speed
+RTTY Decode Baud
+300, 1200, 4800, 9600 or 19200
+Sets the RTTY decode monitor speed.
+VSEND Select
+OFF, UHF or VHF/UHF
+Selects the band to use for the [ACC] socket’s pin 
+7 (VSEND usage).
+9600bps Mode
+OFF or ON
+Selects whether or not to allow data transmission 
+at 9600 bps.
+Set mode items and Default settings (Continued)
+NOTE: The default settings shown below in bold are for the USA version.
+The default settings may differ, depending on your transceiver version.
+
+============================================================
+PAGE 91
+============================================================
+
+6
+SET MODE
+6-9
+Display
+In this item, set the transceiver’s display options.
+LCD Contrast
+0%~50%~100%
+Sets the contrast level of the LCD.
+LCD Backlight
+0%~50%~100%
+Sets the backlight level of the LCD.
+Key Backlight
+0%~50%~100%
+Sets the backlight level of the key.
+Meter Peak Hold
+OFF or ON
+Turns the Meter Peak Hold function ON or OFF.
+BW Popup (PBT)
+OFF or ON
+Selects whether or not to display the PBT shifting 
+value and the passband width while rotating the 
+TWIN-PBT control.
+BW Popup (FIL)
+OFF or ON
+Selects whether or not to display the IF filter width 
+and shifting value when the IF filter is switched.
+RX Call Sign Display
+OFF, Auto or Auto (RX Hold)
+Selects whether or not to display the call sign of 
+the caller station when a call is received.
+RX Message Display
+OFF or Auto
+Selects whether or not to display and scroll a re-
+ceived message.
+Reply Position Display
+OFF or ON
+Selects whether or not to display the caller’s po-
+sition data when the data is included in the Auto 
+Reply signal.
+TX Call Sign Display
+OFF, Your Call Sign or My Call Sign
+Selects whether or not to display My or Your call 
+sign while transmitting.
+Scroll Speed
+Slow or Fast
+Sets the scrolling speed of the message, call 
+sign, or other text, that are displayed on the 
+transceiver’s LCD.
+VOICE TX Name Display
+OFF or ON
+Selects whether or not to display the voice TX 
+memory name on the “VOICE TX” screen.
+KEYER Memory Display
+OFF or ON
+Selects whether or not to display the keyer mem-
+ory contents on the “KEYER SEND” screen.
+Opening Message
+OFF or ON
+Selects whether or not to display the opening 
+message at power ON.
+Power ON Check
+OFF or ON
+Selects whether or not to display the RF Power, 
+RIT, Auto Power OFF condition at power ON.
+Display Language
+English or Japanese
+Sets the screen display language type in the DR 
+mode or Menu mode.
+When the System Language is “English,” this 
+item disappears.
+System Language
+English or Japanese
+Sets the system language of the transceiver.
+Time Set
+In this item, set the time options.
+Date/Time
+DATE
+2000/01/01~2099/12/31
+Sets the date.
+TIME
+0:00~23:59
+Sets the time.
+GPS Time Correct
+OFF or Auto
+Selects whether or not to automatically correct 
+the time data by a received GPS sentence.
+UTC Offset
+–14:00~±0:00~+14:00
+Sets the time difference between UTC (Universal 
+Time Coordinated) and the local time.
+Clock Display
+Local or UTC
+Sets the clock display mode. 
+Auto Power OFF
+OFF, 30min, 60min, 90min or 120min
+Sets to automatically turn OFF the transceiver 
+power after no operation is made during this set 
+period.
+Set mode items and Default settings (Continued)
+NOTE: The default settings shown below in bold are for the USA version.
+The default settings may differ, depending on your transceiver version.
+
+============================================================
+PAGE 92
+============================================================
+
+6
+SET MODE
+6-10
+Others
+In this item, set other options.
+Information
+Version
+Shows the transceiver’s firmware version num-
+ber.
+Clone
+Clone Mode
+Reads or writes the CS-7100 data to or from the 
+PC, and/or receives data from a Master trans-
+ceiver.
+Clone Master Mode
+Writes your IC-7100 (Master) data to another IC-
+7100 (Sub).
+Touch Screen Calibration
+Adjusts the touch screen.
+Reset
+Partial Reset
+Returns all settings to their default values, with-
+out clearing the memory contents, call sign 
+memories or repeater lists.
+All Reset
+Clears all programming and memories, and re-
+turn all settings to their default values.
+Set mode items and Default settings (Continued)
+NOTE: The default settings shown below in bold are for the USA version.
+The default settings may differ, depending on your transceiver version.
+
+============================================================
+PAGE 93
+============================================================
+
+7-1
+Section 7
+INSTALLATION NOTES
+Installation notes....................................................................7-2
+Section 1  panel description
+Section 2  INSTALLATION AND CONNECTIONS
+Section 3  BASIC OPERATION
+Section 4  D-STAR INTRODUCTION
+Section 5  D-STAR OPERATION <BASIC>
+Section 6  SET MODE
+Section 7  INSTALLATION NOTES
+
+============================================================
+PAGE 94
+============================================================
+
+7-2
+7
+Installation notes
+For amateur base station installations it is recom-
+mended that the forward clearance in front of the an-
+tenna array is calculated relative to the EIRP (Effective 
+Isotropic Radiated Power). The clearance height below 
+the antenna array can be determined in most cases 
+from the RF power at the antenna input terminals.
+As different exposure limits have been recommended 
+for different frequencies, a relative table shows a guide-
+line for installation considerations.
+Below 30 MHz, the recommended limits are specified 
+in terms of V/m or A/m fields as they are likely to fall 
+within the near-field region. Similarly, the antennas may 
+be physically short in terms of electrical length and that 
+the installation will require some antenna matching 
+device which can create local, high intensity magnetic 
+fields. Analysis of such MF installations is best consid-
+ered in association with published guidance notes such 
+as the FCC OET Bulletin 65 Edition 97-01 and its an-
+nexes relative to amateur transmitter installations.
+The EC recommended limits are almost identical to 
+the FCC specified ‘uncontrolled’ limits and tables exist 
+that show pre-calculated safe distances for different an-
+tenna types for different frequency bands. Further infor-
+mation can be found at http://www.arrl.org/.
+• Typical amateur radio installation
+Exposure distance assumes that the predominant ra-
+diation pattern is forward and that radiation vertically 
+downwards is at unity gain (sidelobe suppression is 
+equal to main lobe gain). This is true of almost every 
+gain antenna today. Exposed persons are assumed to 
+be beneath the antenna array and have a typical height 
+of 1.8 m.
+The figures assume the worst case emission of a con-
+stant carrier.
+For the bands 10 MHz and higher the following power 
+density limits have been recommended:
+	10–400 MHz 	
+2	W/sq m
+	
+435 MHz 	 2.2	W/sq m
+EIRP clearance heights by frequency band
+	
+Watts	 10–2 m	
+70 cm	 23 cm	 13 cm and above
+	
+1	
+2.1 m	
+2 m	
+2 m	
+2 m
+	
+10	
+2.8 m	
+2.7 m	
+2.5 m	
+2.3 m
+	
+25	
+3.4 m	
+3.3 m	
+2.7 m	
+2.5 m
+	
+100	
+5 m	
+4.7 m	
+3.6 m	
+3.2 m
+	
+1000	
+12 m	 11.5 m	
+7.3 m	
+6.3 m
+Forward clearance, EIRP by frequency band
+	
+Watts	 10–2 m	
+70 cm	 23 cm	 13 cm and above
+	
+100	
+2 m	
+2 m	
+1.1 m	
+0.7 m
+	
+1,000	
+6.5 m	
+6 m	
+3.5 m	
+3 m
+	 10,000	
+20 m	
+18 m	
+11 m	
+7 m
+	 100,000	
+65 m	
+60 m	
+35 m	
+29 m
+In all cases any possible risk depends on the trans-
+mitter being activated for long periods. (actual recom-
+mendation limits are specified as an average during 6 
+minutes) Normally the transmitter is not active for long 
+periods of time. Some radio licenses will require that a 
+timer circuit automatically cuts off the transmitter after 
+1–2 minutes etc.
+Similarly some modes of transmission, SSB, CW, AM 
+etc. have a lower ‘average’ output power and the as-
+sessed risk is even lower.
+Installation notes
+
+============================================================
+PAGE 95
+============================================================
+
+MEMO 
+I
+
+============================================================
+PAGE 96
+============================================================
+
+1-1-32 Kamiminami, Hirano-ku, Osaka 547-0003, Japan
+A-7085H-1EX
+Printed in Japan
+© 2013 Icom Inc.

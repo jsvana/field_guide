@@ -1,0 +1,344 @@
+{
+  "radio": {
+    "id": "icom-ic7300",
+    "manufacturer": "ICOM",
+    "model": "IC-7300",
+    "revision": "1",
+    "pdfFilename": "IC-7300_Full_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The ICOM IC-7300 is an HF/50 MHz transceiver featuring RF direct sampling technology where RF signals are directly converted to digital data and processed in an FPGA. Key features include a real-time spectrum scope, 4.3 inch color touch screen, and built-in automatic antenna tuner."
+        },
+        {
+          "type": "paragraph",
+          "text": "To turn the transceiver ON, push [POWER]. To turn OFF, push and hold [POWER] for 1 second. The AF control adjusts audio output level. The RF/SQL control adjusts RF gain and squelch threshold."
+        },
+        {
+          "type": "paragraph",
+          "text": "To change the operating frequency, rotate MAIN DIAL. The friction adjuster allows you to customize the dial feel. Touch the MHz digits on the display to access the band selection screen."
+        },
+        {
+          "type": "paragraph",
+          "text": "To change modes, touch the mode indicator (SSB, CW, RTTY, AM, FM) on the display. Available modes are USB, LSB, CW, RTTY, AM, and FM."
+        },
+        {
+          "type": "paragraph",
+          "text": "The spectrum scope provides real-time visualization of signals. Push [M.SCOPE] to toggle between Mini Scope and full Spectrum Scope views. Touch the scope screen to tune directly to a signal."
+        },
+        {
+          "type": "note",
+          "text": "The IP+ function improves 3rd order intercept point (IP3) performance when receiving weak signals adjacent to strong interference. Enable it via MENU > SET > Function > IP Plus."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Access the SET menu by pushing [MENU] and touching SET. Use the MULTI control to scroll and select items. The menu is organized into categories including Function, Connectors, Display, Time Set, SD Card, and Others."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IP Plus",
+          "description": "Improves IP3 performance for better weak signal reception near strong signals. Options: ON or OFF. Found in SET > Function."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Quick Tuning Step",
+          "description": "Sets the tuning step for quick frequency changes. Touch kHz digits for 1 second to select step: 0.1, 1, 5, 6.25, 9, 10, 12.5, 20, 25, 50, or 100 kHz."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Display Type",
+          "description": "Selects the main display style: A (Scope + Meters), B (Meters + Memory), or C (Large Scope). Found in SET > Display."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Screen Saver",
+          "description": "Sets the time until the screen saver activates: OFF, 15, 30, or 60 minutes. Found in SET > Display."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CI-V Baud Rate",
+          "description": "Sets the CI-V transfer speed: 4800, 9600, 19200, or Auto. Found in SET > Connectors."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DATA MOD",
+          "description": "Selects modulation input when DATA mode is active: MIC, ACC, USB, or MIC+ACC. Found in SET > Connectors."
+        },
+        {
+          "type": "note",
+          "text": "Touch any item or option for 1 second to open the Quick menu, then touch 'Default' to reset that setting to factory default."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a paddle or straight key to the [KEY] jack on the rear panel using the supplied 6.35mm (1/4\") stereo plug. The internal electronic keyer supports both paddle and straight key operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Key Type",
+          "description": "Selects key input type: Paddle (internal keyer), Straight key, or Bug key mode. Found in MENU > KEYER > EDIT/SET > CW-KEY SET."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Key Speed",
+          "description": "Sets internal keyer speed from 6 to 48 WPM. Access via Multi-function menu in CW mode by touching SPEED, then rotate MULTI to adjust."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Pitch",
+          "description": "Sets CW sidetone and receive audio pitch from 300 to 900 Hz. Access via Multi-function menu in CW mode by touching PITCH."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Side Tone Level",
+          "description": "Adjusts CW sidetone volume. Found in MENU > KEYER > EDIT/SET > CW-KEY SET."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Paddle Polarity",
+          "description": "Reverses dot and dash paddles: Normal or Reverse. Found in MENU > KEYER > EDIT/SET > CW-KEY SET."
+        },
+        {
+          "type": "paragraph",
+          "text": "For Break-in operation, push [VOX/BK-IN] to cycle through OFF, Semi break-in, and Full break-in (QSK). Full break-in allows hearing between transmitted elements."
+        },
+        {
+          "type": "note",
+          "text": "The [AUTO TUNE] button automatically zeros in on a received CW signal. In CW mode, push [AUTO TUNE] when a signal is present. The frequency adjusts to center the signal on your CW pitch."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-7300 uses digital IF filtering processed in the FPGA with a 36 kHz IF frequency. Three filter widths (FIL1, FIL2, FIL3) are available per mode. Filter shape can be set to SHARP or SOFT."
+        },
+        {
+          "type": "paragraph",
+          "text": "Twin PBT (Passband Tuning) shifts the IF passband to reject interference. Access via the Multi-function menu and adjust using the MULTI control. The spectrum scope shows the filter passband in real-time."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Noise Blanker (NB)",
+          "description": "Eliminates pulse-type noise from ignition systems. Touch NB on the Multi-function menu to toggle. Touch for 1 second to adjust Level, Depth, and Width parameters."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Noise Reduction (NR)",
+          "description": "DSP noise reduction for random noise. Touch NR on Multi-function menu to toggle. Touch for 1 second to adjust level (0-15)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Auto Notch (AN)",
+          "description": "Automatically attenuates beat tones and interfering carriers. Touch NOTCH on Multi-function menu to cycle through Auto (AN), Manual (MN), and OFF."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Preamplifier",
+          "description": "P.AMP1 is optimized for HF (1.8-29.999 MHz). P.AMP2 is optimized for 50/70 MHz. Touch P.AMP on Multi-function menu to select."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Attenuator",
+          "description": "Provides attenuation to prevent overload from strong signals. Touch ATT on Multi-function menu to select level."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Twin Peak Filter (TPF)",
+          "description": "RTTY-specific filter that boosts mark and space frequencies for better RTTY reception. Available only in RTTY mode."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-7300 requires 13.8V DC power. Connect using the supplied DC power cable with fuse holder. The transceiver is designed for base station use and does not have internal battery capability."
+        },
+        {
+          "type": "warning",
+          "text": "NEVER apply more than 16V DC or reverse polarity. NEVER apply AC power to the DC socket. NEVER remove the fuse holder from the DC power cable."
+        },
+        {
+          "type": "specificationTable",
+          "title": "Power Requirements",
+          "rows": [
+            { "name": "Supply Voltage", "value": "13.8V DC +/-15%" },
+            { "name": "Current (RX Standby)", "value": "0.9A" },
+            { "name": "Current (RX Max Audio)", "value": "1.25A" },
+            { "name": "Current (TX Max Power)", "value": "21.0A" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "RF Output Power",
+          "rows": [
+            { "name": "HF/50 MHz (SSB/CW/RTTY/FM)", "value": "2-100W" },
+            { "name": "HF/50 MHz (AM)", "value": "1-25W" },
+            { "name": "70 MHz (SSB/CW/RTTY/FM)", "value": "2-50W (version dependent)" },
+            { "name": "70 MHz (AM)", "value": "1-12.5W (version dependent)" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "The rear panel will become hot during extended high-power operation. Ensure adequate ventilation and do not block cooling vents."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The IC-7300 has a built-in automatic antenna tuner that covers HF through 50 MHz (and 70 MHz on applicable versions). The tuner can match impedances resulting in up to 3:1 VSWR."
+        },
+        {
+          "type": "paragraph",
+          "text": "To enable the tuner, push [TUNER]. The TUNER indicator lights when active. The tuner settings are automatically recalled when you change bands."
+        },
+        {
+          "type": "paragraph",
+          "text": "To manually tune, hold [TUNER] for 1 second while the tuner is ON. The transceiver transmits a tuning signal while the tuner adjusts. Typical tuning time is 2-3 seconds, maximum 15 seconds."
+        },
+        {
+          "type": "specificationTable",
+          "title": "Antenna Tuner Specifications",
+          "rows": [
+            { "name": "Tunable Range", "value": "16.7-150 ohms (less than 3:1 VSWR)" },
+            { "name": "Tuning Accuracy", "value": "Less than 1.5:1 VSWR" },
+            { "name": "Tuning Time (average)", "value": "2-3 seconds" },
+            { "name": "Tuning Time (maximum)", "value": "15 seconds" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "The tuner cannot match all antenna systems. If the tuner cannot achieve a match, it will time out and bypass. Check your antenna system if tuning consistently fails."
+        },
+        {
+          "type": "warning",
+          "text": "Do not transmit at full power with high SWR. High SWR can damage the transceiver. Always ensure the antenna system is properly matched before operating at high power."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "General",
+          "rows": [
+            { "name": "Frequency Coverage (RX)", "value": "0.030-74.800 MHz" },
+            { "name": "Frequency Coverage (TX)", "value": "1.8-29.7 MHz (amateur bands), 50-54 MHz" },
+            { "name": "Operating Modes", "value": "USB, LSB, CW, RTTY, AM, FM" },
+            { "name": "Frequency Stability", "value": "Less than +/-0.5 ppm" },
+            { "name": "Memory Channels", "value": "101 (including 2 scan edges)" },
+            { "name": "Antenna Impedance", "value": "50 ohms unbalanced" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Transmitter",
+          "rows": [
+            { "name": "Output Power (SSB/CW/RTTY/FM)", "value": "2-100W" },
+            { "name": "Output Power (AM)", "value": "1-25W" },
+            { "name": "Carrier Suppression", "value": "More than 50 dB" },
+            { "name": "Unwanted Sideband", "value": "More than 50 dB" },
+            { "name": "Spurious (HF)", "value": "Less than -50 dB" },
+            { "name": "Spurious (50 MHz)", "value": "Less than -63 dB" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Receiver",
+          "rows": [
+            { "name": "Receiver Type", "value": "Direct sampling superheterodyne" },
+            { "name": "IF Frequency", "value": "36 kHz" },
+            { "name": "SSB/CW Sensitivity (HF)", "value": "Less than 0.16 uV (P.AMP1 ON)" },
+            { "name": "SSB/CW Sensitivity (50 MHz)", "value": "Less than 0.13 uV (P.AMP2 ON)" },
+            { "name": "FM Sensitivity (28-29.7 MHz)", "value": "Less than 0.5 uV (12dB SINAD)" },
+            { "name": "SSB Selectivity", "value": "2.4 kHz/-6dB, 3.4 kHz/-40dB" },
+            { "name": "Audio Output", "value": "More than 2.5W (8 ohm, 10% distortion)" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Physical",
+          "rows": [
+            { "name": "Dimensions", "value": "240 x 94 x 238 mm (W x H x D)" },
+            { "name": "Weight", "value": "4.2 kg (9.3 lb)" },
+            { "name": "Operating Temperature", "value": "-10°C to +60°C" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "No power",
+          "description": "Check DC power connection and fuses. Verify supply voltage is 13.8V +/-15%. Check that the power switch is pushed (not just touched)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No audio",
+          "description": "Check AF volume control. Verify squelch is not set too tight. Check if headphones are plugged in (mutes internal speaker)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Cannot transmit",
+          "description": "Verify frequency is within amateur band limits. Check antenna connection. Verify [TRANSMIT] button toggles to TX. Check if PTT Lock is enabled."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Dial doesn't change frequency",
+          "description": "Check if Lock function is enabled (lock icon displayed). Push [SPEECH/LOCK] for 1 second to toggle lock."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Tuner won't tune",
+          "description": "Verify antenna SWR is less than 3:1 before engaging tuner. Check that tuner is enabled (TUNER indicator lit). Allow tuner to complete its cycle."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Touch screen unresponsive",
+          "description": "Try the touch screen calibration: MENU > SET > Others > Touch Screen Calibration. Do not use screen protectors that interfere with touch sensitivity."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SD card not recognized",
+          "description": "Use SDHC cards up to 32GB. Format in FAT32. Ensure card is fully inserted into the slot on the front panel."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Spectrum scope shows no signals",
+          "description": "Check that the scope is enabled (M.SCOPE). Verify the scope reference level and span settings. Ensure antenna is connected."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1002 @@
+
+============================================================
+PAGE 1
+============================================================
+
+CFT1 5-Band QRP CW Field Transceiver
+By KM4CFT
+Assembly Manual
+PCB Rev. C, August 24, 2024
+V12
+
+============================================================
+PAGE 2
+============================================================
+
+In memory of Sherwin “Steve” Kayne.
+My grandfather played a vital role in making me the person I am today and without his 
+support I would have never pursued STEM and Amateur Radio. Although he never was 
+licensed, he was a true elmer.
+“The price of success is hard work, dedication to the job at hand, and the determination that 
+whether we win or lose, we have applied the best of ourselves to the task at hand.” 
+- Vince Lombardi
+Page 2
+
+============================================================
+PAGE 3
+============================================================
+
+Table of Contents
+Overview........................................................................................................................................4
+General Guidelines.........................................................................................................................4
+Tools/Equipment Required............................................................................................................5
+Tools:..............................................................................................................................5
+Equipment:.....................................................................................................................5
+Parts List.......................................................................................................................................6
+Step 1: Break apart the PCBs......................................................................................................10
+Step 2: Install the 4 Leaded Inductors.........................................................................................12
+Step 3: Install 16 Ceramic Capacitors..........................................................................................13
+Step 4: Install the 4 Crystals........................................................................................................15
+Step 5: Install the MPS751 PNP Transistor.................................................................................19
+Step 6: Install Electrolytic Capacitors..........................................................................................20
+Step 7: Install the Barrel Jack......................................................................................................21
+Step 8: Install the BNC Connector..............................................................................................22
+Step 9: Install the 2x11 Pinsocket................................................................................................23
+Step 10: Install the IRF510 MOSFET.........................................................................................24
+Step 11: Wind and Install the 6 Toroidal Inductors.....................................................................26
+Step 12: Wind and Install the Bifilar Transformer.......................................................................29
+Step 13: Install the two 3.5mm Jacks...........................................................................................31
+Step 14: Install the 2x3 Right Angle Header................................................................................32
+Step 15: Install the Power Switch.................................................................................................33
+Step 16: Install the 2x11 Pinheader.............................................................................................34
+Step 17: Install the LCD Screen...................................................................................................35
+Step 18: Install the Volume Potentiometer...................................................................................37
+Step 19: Install the 6 Tactile Buttons..........................................................................................38
+Step 20: Install the LED..............................................................................................................39
+Step 21: Install the Encoder.........................................................................................................41
+Step 22: Electrical Check.............................................................................................................42
+Step 23: Initial Power up; Set LCD Contrast...............................................................................43
+Step 24: Install Front Plate..........................................................................................................44
+Step 25: Put the Boards Together!...............................................................................................47
+Step 26: Set 10 MHz Calibration..................................................................................................48
+Step 27: Calibrate the IF Frequency............................................................................................49
+Step 28: Calibrate the PA............................................................................................................50
+Step 29: Close up the Transceiver................................................................................................52
+Troubleshooting........................................................................................................................... 53
+Page 3
+
+============================================================
+PAGE 4
+============================================================
+
+Overview
+The CFT1 is a 5 Band, Compact Portable QRP CW Field Transceiver. It operates on 
+the 40m, 30m, 20m, 17m, and 15m amateur radio bands. It features a ~5 watt class-D 
+transmitter, message memory playback, iambic keyer (with paddle reverse), among other 
+useful features.
+The CFT1 was created by Jonathan, KM4CFT (age 25) with the field operator in 
+mind, specifically for use in both Parks on the Air (POTA) and Summits on the Air (SOTA).
+General Guidelines
+This kit is designed to be an intermediate level kit and requires some level of skill with 
+a soldering iron. It is assumed that the builder has a reasonable level of electrical knowledge.
+All SMD components on this kit are already populated and the builder only will need 
+to install the through hole components. Solder pads have been enlarged to make soldering 
+easier where possible (exceptions include the 2x11 and 2x3 headers).
+Make sure to have plenty of lighting and use magnification to inspect your work.
+Something important: SAVE YOUR COMPONENT LEAD OFFCUTS! You will need 
+them for grounding the cases of the 4 crystals!
+Trimpots: Be EXTRA gentle with them! If you aren’t careful they will break!
+Read this assembly manual carefully before doing any work on your kit! 
+Failure to do so could lead to you making a mistake during assembly!
+Page 4
+
+============================================================
+PAGE 5
+============================================================
+
+Tools/Equipment Required
+There are some basic tools you will need to assemble the CFT1 along with some RF 
+test equipment. For test equipment, there are multiple options listed.
+Tools:
+•
+Safety Glasses
+•
+Soldering Iron
+•
+Solder
+•
+Flush Cutters
+•
+Needle Nose Pliers
+•
+Tweezers
+•
+Screwdriver
+•
+Magnifier
+•
+Hobby Knife
+•
+(optional) file
+Equipment:
+•
+Multimeter with Mini-grabber leads
+•
+12 volt power supply, preferably with over current protection
+•
+Watt meter capable of reading QRP levels
+•
+Dummy Load
+•
+RF receiver (choose one of these options)
+◦Any HF radio with a CW mode
+◦RTL SDR (can be found for about $20 on Amazon)
+•
+RF signal Generator (choose one of these options)
+◦TinySA Ultra (has built in generator)
+◦Standard TinySA + 20dB RF Attenuator 
+◦Standard TinySA + Included Antenna
+◦NanoVNA + short piece of wire (has a CW Tone generator)
+◦HF Antenna + WWV 
+◦QRP HF radio transmitting into a dummy load
+Page 5
+
+============================================================
+PAGE 6
+============================================================
+
+Parts List
+PCBs:
+Page 6
+
+============================================================
+PAGE 7
+============================================================
+
+Parts:
+Page 7
+
+============================================================
+PAGE 8
+============================================================
+
+Number
+Part
+Qty/
+Length
+Number
+Part
+Qty/Length
+1
+47µH Inductor
+4
+24
+1x16 Male Header
+1
+2
+120pF (121) Cap
+2
+25
+2x11 Female Header
+1
+3
+68pF (68J) Cap
+1
+26
+2x3 Right Angle Header
+1
+4
+100µF Electrolytic Cap
+2
+27
+1kΩ Potentiometer
+1
+5
+150pF (151) Cap
+2
+28
+Encoder
+1
+6
+20pF (20J) Cap
+1
+29
+BNC Connector
+1
+7
+51pF (510) Cap
+1
+30
+Slide Switch
+1
+8
+100nF (104) Cap
+1
+31
+5.5x2.1 Barrel Connector
+1
+9
+180pF (181) Cap
+2
+32
+3.5mm Headphone Socket
+2
+10
+360pF (361) Cap
+2
+33
+Tactile Switch
+6
+11
+620pF (621) Cap
+1
+34
+3mm LED
+1
+12
+300pF (301) Cap
+3
+35
+4.5mm LED Spacer
+1
+13
+IRF510 MOSFET
+1
+36
+M3 Hex Nut
+3
+14
+MPS751 PNP
+1
+37
+M3x10 Screw, Black
+5
+15
+T30-6 Toroid
+3
+38
+M3x10 Screw, Silver
+2
+16
+T30-2 Toroid
+3
+39
+M3x6 Screw
+4
+17
+FT37-43 Toroid
+1
+40
+M3x10 FF Hex Standoff
+4
+18
+#28 Magnet Wire
+6’
+41
+M3x10 MF Hex Standoff
+1
+19
+Twisted Magnet Wire
+12”
+42
+M3x6 MF Hex Standoff
+8
+20
+TO220 Insulating Washer
+1
+43
+Rubber Feet
+4
+21
+TO220 Thermal Pad
+1
+44
+CFT1 Sticker
+1
+22
+4.9152 MHz Matched Crystal
+4
+45
+LCD Screen
+1
+23
+2x11 Male Header
+1
+Page 8
+
+============================================================
+PAGE 9
+============================================================
+
+3D Printed Parts:
+Number
+Part
+1
+Top Perimeter
+2
+Center Perimeter*
+3
+Bottom Perimeter
+4
+Volume Knob
+5
+VFO Knob
+*This part contains a bridging move on the center bar. This means that the underside will 
+look cosmetically ugly. It will be hidden inside the CFT1 so do not worry if it looks bad!
+All parts are printed in PETG. You can print replacement parts by visiting printables.com 
+and downloading the STL and STEP files there. 
+https://www.printables.com/model/963234-km4cft-cft1-5-band-cw-field-transceiver-printed-pa
+Page 9
+
+============================================================
+PAGE 10
+============================================================
+
+Step 1: Break apart the PCBs
+Using your needle nose pliers, carefully break away the two tabs on the side of the 
+board. 
+Next, separate the RF board from the Control board. There are two mousebite tabs 
+that separate them and be sure to remove them.
+(If your kit came with the boards already separated, start here!)
+Page 10
+
+============================================================
+PAGE 11
+============================================================
+
+Take your hobby knife and use it to gently scrape the sides of the boards. This should 
+remove the roughness from the two tabs.
+Using either the hobby knife or a file, smooth off the area where the mousebites are. 
+Repeat this for the front and back panels.
+Repeat this process for the front and rear panels.
+At this point, you have the two boards. For the first half of assembly we will focus on 
+the RF board so you can put the control board off to the side for now! (The RF Board is the 
+one with the three relays)
+Page 11
+
+============================================================
+PAGE 12
+============================================================
+
+Step 2: Install the 4 Leaded Inductors
+First, take the inductors and bend one of the ends around 180°. Next, Insert them into 
+the two holes. Bend the leads on the other side at about a 30° angle so that they stay in 
+place. Flip the boards over and solder them in place. Clip off the excess and remember to save 
+them for later.
+The four inductors are: L1, L12, L15 and L17
+Page 12
+
+============================================================
+PAGE 13
+============================================================
+
+Step 3: Install 16 Ceramic Capacitors
+The process for installing the ceramic capacitors is the same as in the previous step 
+(except you don’t need to bend the lead 180°) The capacitors might need the leads 
+straightened out so that they fit neatly into the holes, so straighten them out using your 
+needle nose pliers if needed.
+Item Number
+Qty
+Value
+Label
+Designator
+8
+1
+100nF
+104
+C57
+12
+3
+300pF
+301
+C58, C65, C72
+9
+2
+180pF
+181
+C59, C69
+5
+2
+150pF
+151
+C60, C70
+10
+2
+360pF
+361
+C61, C64
+3
+1
+68pF
+680 or 68J
+C62
+11
+1
+620pF
+621
+C63
+2
+2
+120pF
+121
+C66, C71
+7
+1
+51pF
+510 or 51J
+C67
+6
+1
+20pF
+200 or 20J
+C68
+Page 13
+
+============================================================
+PAGE 14
+============================================================
+
+Page 14
+
+============================================================
+PAGE 15
+============================================================
+
+Step 4: Install the 4 Crystals
+Take your 4 matched crystals and solder them in place just like in the previous step.
+Next, we will take the clippings to properly ground the crystals. This will need to be 
+done with a sense of urgency, as prolonged heat might damage the crystals. 
+Page 15
+
+============================================================
+PAGE 16
+============================================================
+
+First, add a small blob of solder to one of the crystals
+Next, use a lead trimming to bridge the crystals.
+Page 16
+
+============================================================
+PAGE 17
+============================================================
+
+Repeat until all four crystals are connected.
+Next, drop a trimming into the square pad and solder it in place (from the top).
+Page 17
+
+============================================================
+PAGE 18
+============================================================
+
+Finally, bend the wire so that you can solder the other end to the 4 crystals.
+After this, you may discard any lead trimmings you currently have or in the future.
+Page 18
+
+============================================================
+PAGE 19
+============================================================
+
+Step 5: Install the MPS751 PNP Transistor
+The MPS751 PNP Transistor will go into Q13. It is a TO-92 component so make sure 
+that the flat side lines up with the flat indicated on the silkscreen!
+Page 19
+
+============================================================
+PAGE 20
+============================================================
+
+Step 6: Install Electrolytic Capacitors
+The CFT1 has two 100µF Electrolytic Capacitors (C40 and C77) that need to be 
+installed. 
+Electrolytic capacitors have a polarity that you must take note of. The polarity can be 
+determined by the lead lengths. The longer lead is the positive. Furthermore, there is a stripe 
+on the capacitor that indicates the negative terminal.
+The longer (positive) lead goes where the plus sign is marked on the silkscreen. It is also 
+indicated by the rectangular pad. The shorter (negative) goes where the white silkscreen is 
+and has an oval shaped pad.
+Page 20
+
+============================================================
+PAGE 21
+============================================================
+
+Step 7: Install the Barrel Jack
+For this, we will want to ensure that the connector is perfectly straight. Drop in the 
+barrel jack and solder the side tab in place. Check to see if it is properly aligned. If not, then 
+be sure to adjust that. You can also use the 3D printed perimeter to verify that this is the 
+case. Once aligned, solder the remaining 2 tabs.
+Page 21
+
+============================================================
+PAGE 22
+============================================================
+
+Step 8: Install the BNC Connector
+This should be performed just like the barrel jack. Solder the center pin (it should be 
+the gold one). Make sure the connector is aligned properly, then solder the remaining pins.
+Page 22
+
+============================================================
+PAGE 23
+============================================================
+
+Step 9: Install the 2x11 Pinsocket
+The 2x11 pinsocket is a female connector, and is soldered to the Bottom side of the 
+board. The pads are small to be careful and double check to make sure you have a good solder 
+joint and no solder bridging!
+Page 23
+
+============================================================
+PAGE 24
+============================================================
+
+Step 10: Install the IRF510 MOSFET
+Special care must be taken for this step. First, take a M3x10mm Male/Female Hex 
+Standoff and secure it to the PCB with an M3 nut. 
+   
+Next, bend the leads of the IRF510 MOSFET as shown in the following picture:
+Next, take the plastic insulator/grommet and secure the IRF510 to the standoff with 
+an M3x6 screw. The grommet goes between the IRF510 and the standoff. While doing so, try 
+to fit the pins into their holes. (note: grommet and screw might be different color than what is 
+pictured)
+Page 24
+
+============================================================
+PAGE 25
+============================================================
+
+Make sure that the flat of the IRF510 is perfectly parallel to the PCB so that it will 
+make thermal contact with the back plate heatsink later!
+Solder the 3 terminals in place.
+ (Note: screw in picture differs from the one in the kit)
+Page 25
+
+============================================================
+PAGE 26
+============================================================
+
+Step 11: Wind and Install the 6 Toroidal Inductors
+Now onto everyone’s favorite part of assembly, winding toroids!
+Winding toroids may seem daunting to some, but I assure you it isn’t that bad. All you 
+need to remember is every time the wire passes through the center of the toroid, it counts as a 
+turn. You will want to cut the wire to the length indicated in the table and wind the number 
+of turns also indicated. Once you have completed the number of turns specified, go ahead and 
+count it again just to be safe (measure twice, cut once… or count twice, solder once if you will)
+Be sure to evenly spread out your turns so that you have the correct amount of 
+inductance!
+To strip away the enamel you have multiple options. A popular way is to scrape away 
+the enamel with a hobby knife or some fine grit sandpaper. Alternatively, you can use a blob 
+of solder to burn off the enamel. Personally, I think that the use of solder is the most effective 
+way since it also pre-tins the the wire for you! 
+Ensure that you strip the enamel within a quarter to eighth inch of the toroid 
+otherwise you won’t be soldering bare wire when you stick the wire through the board!
+   
+ 
+If you have not already done so, I highly recommend watching video #151 By W2AEW 
+on YouTube. It will walk you through how to properly wind a toroidal inductor. (see QR code 
+for direct link)
+Page 26
+
+============================================================
+PAGE 27
+============================================================
+
+Designator
+Core
+Inductance
+Wire Length
+Turns
+L18
+T30-2 (red)
+350nH
+8”
+9
+L23
+T30-2 (red)
+520nH
+10”
+11
+L19
+T30-6 (yellow)
+290nH
+8”
+9
+L21
+T30-6 (yellow)
+230nH
+8”
+8
+L20
+T30-6 (yellow)
+360nH
+10”
+10
+L22
+T30-2 (red)
+275nH
+8”
+8
+When you solder these inductors to the board, let the molten solder remain on the pad 
+for about 10 seconds just to make extra sure that you strip away any remaining enamel. This 
+is an incredibly common mistake people make by not doing so!
+Page 27
+
+============================================================
+PAGE 28
+============================================================
+
+Page 28
+
+============================================================
+PAGE 29
+============================================================
+
+Step 12: Wind and Install the Bifilar Transformer
+In the kit there is a 12” piece of twisted magnet wire. The wire comes pre-twisted to 
+make it easier for the builder. To make the transformer, simply take the FT37-43 toroid (the 
+gray one) and wind 10 turns around the toroid. 
+You will notice that there are two colors of magnet wire in the twist. One is red and 
+the other is gold. To make things super simple, the red wire goes in the hole marked with an 
+‘R’ and the gold goes in the hole marked ‘G’ on L16. 
+Prior to inserting the wire use a blob of solder to partially strip away the enamel. I 
+recommend leaving the last ¼” of the wire ends alone so that you still have the color indicator 
+for inserting and double checking that you matched them to the right hole.
+Page 29
+
+============================================================
+PAGE 30
+============================================================
+
+Once you have double checked that you have the wires in the correct holes, solder them 
+in place (remembering to let the solder stay molten for 10 seconds just to be safe) then trim 
+off the excess.
+At this point, you have finished assembly of the RF boards for now!
+Page 30
+
+============================================================
+PAGE 31
+============================================================
+
+Step 13: Install the two 3.5mm Jacks
+Take out the Control board. You will want to install the two 3.5mm audio jacks onto 
+the board. Solder a single pad then verify that the jack is properly aligned and flat with the 
+board prior to soldering the remaining pads.
+Page 31
+
+============================================================
+PAGE 32
+============================================================
+
+Step 14: Install the 2x3 Right Angle Header
+Next, we will want to install the 2x3 right angle male header. This is for the 
+programmer in case you need to update the firmware or load your own custom firmware onto 
+the board. Just like before, solder a single pin, make sure it is properly aligned, then solder 
+the remaining 5 pins.
+Page 32
+
+============================================================
+PAGE 33
+============================================================
+
+Step 15: Install the Power Switch
+Take out the slide switch and solder one pin in place. Make sure it is perfectly flat 
+against the board then solder the remaining two pins.
+Page 33
+
+============================================================
+PAGE 34
+============================================================
+
+Step 16: Install the 2x11 Pinheader
+This is the male header and will be soldered onto the top side of the board. The pads 
+are small so make sure you get a complete solder joint and don’t have any solder bridges!
+When you solder this, the end opposite of the metal shoulder will go through the board 
+like its shown in the picture:
+  
+On the opposite side, use your flush cutters to trim the leads flush. Be careful because 
+the leads have a tendency to go flying! (SAFETY GLASSES!!!)
+Page 34
+
+============================================================
+PAGE 35
+============================================================
+
+Step 17: Install the LCD Screen
+For steps 17-21, we will be soldering components to the BOTTOM side of the board. 
+Please keep this in mind!
+First, we need to take the 1x16 male header and solder it to the bottom side of the 
+board. Solder a single pin then use your fingers to make sure it is properly aligned. The 
+shorter side of the header goes through the board as shown in the following picture. Once 
+aligned, solder the remaining 15 pins.
+Next, take out the LCD screen and drop it in place. Secure it to the board with 2 
+M3x10 silver screws (item number 38) and M3 nuts. There is no spacer between the LCD 
+and the Control PCB so do NOT over-tighten the screws! If you have access to blue 
+loctite, I recommend adding a dab to the screws though this is optional!
+Page 35
+
+============================================================
+PAGE 36
+============================================================
+
+Next, solder the 16 pins to the LCD module.
+Finally, use your flush cutters to trim the connector. Be careful because the leads have 
+a tendency to go flying! (SAFETY GLASSES!!!)
+Page 36
+
+============================================================
+PAGE 37
+============================================================
+
+Step 18: Install the Volume Potentiometer
+The volume potentiometer is the component with the black shaft. Install it on the 
+bottom side of the board and solder it in place!
+Page 37
+
+============================================================
+PAGE 38
+============================================================
+
+Step 19: Install the 6 Tactile Buttons
+Take the 6 tactile switches and install them onto the bottom side of the board. Make 
+sure they are properly aligned and not crooked otherwise they might not align with the front 
+panel! Solder them all in place.
+Page 38
+
+============================================================
+PAGE 39
+============================================================
+
+Step 20: Install the LED
+Take out both the LED and 4.5mm LED Spacer. Just like with the Electrolytic 
+Capacitors, the LED is polarized. The polarity can be found by observing both the lead 
+length and the flat. The cathode, or negative terminal has a flat marking on the casing and is 
+the shorter of the two leads.
+Slide the LED through the spacer holes and orient it so that you get the polarity 
+correct. The correct polarity is marked on the PCB, and can also be determined by the pad 
+shapes. The oval one is positive and the rectangular one is negative. Solder it in place and cut 
+the excess leads. 
+Page 39
+
+============================================================
+PAGE 40
+============================================================
+
+Page 40
+
+============================================================
+PAGE 41
+============================================================
+
+Step 21: Install the Encoder
+Next take the Rotary Encoder (the metal shaft) and install it on the bottom side of the 
+board. Solder it in place.
+Go ahead and remove the nut and washer from the encoder and set it aside for later.
+With that, you have finished soldering your CFT1!
+Page 41
+
+============================================================
+PAGE 42
+============================================================
+
+Step 22: Electrical Check
+Before we apply power, we need to check a few things to make sure there aren’t any 
+issues with the board. Carefully inspect the boards with plenty of light and magnification to 
+make sure there aren’t any bad solder joints or solder bridges. CAUTION: Inspect 
+transformer L16 in particular for solder bridges!
+After you do this, take out your multimeter and check that there aren’t any shorts 
+between any supply lines and ground. You can see the pinout of each board here:
+The resistance between pins should be approximately these values:
+Board
+Pin A
+Pin B
+Resistance
+RF
+12V
+GND
+1-15MΩ
+RF
+6V
+GND
+1-15MΩ
+RF
+12V
+6V
+1-15MΩ
+Control
+12V
+GND
+5-10kΩ
+Control
+6V
+GND
+1-4kΩ
+Control
+12V
+6V
+5-15kΩ
+Page 42
+
+============================================================
+PAGE 43
+============================================================
+
+Step 23: Initial Power up; Set LCD Contrast
+For this, you will need to attach power using some mini-grabbers. Apply 12v to the 
+pins shown in the following image. CAUTION: It is critical that you use the power switch as 
+the point to provide 12v so that in the event something goes wrong, the polyfuse (F1) and 
+reverse polarity protection (Q16) will kick in! 
+The LCD screen should come on. During boot-up it will briefly turn off then back on. 
+Once this happens, use a small Phillip’s head screwdriver to adjust the contrast by turning 
+RV4. You will most likely need to turn it clockwise to do so.
+BE EXTRA CAREFUL/GENTLE TURNING THE POTENTIOMETER!!!
+Page 43
+
+============================================================
+PAGE 44
+============================================================
+
+Step 24: Install Front Plate
+The CFT1 uses three 3D printed perimeter pieces that go in between the PCBs in a 
+configuration similar to an ice cream sandwich. Take 4 of the M3x6mm Male/Female Hex 
+Standoffs and push them into the center 3D Printed perimeter (the one with 3 notches):
+Next, push the center print onto the control PCB. You might have to press a little bit 
+to get it to fit in place, but be careful otherwise you might break the 3D print! Secure it to 
+the board with the remaining 4 M3x6mm Male/Female Hex Standoffs:
+Page 44
+
+============================================================
+PAGE 45
+============================================================
+
+Next, take the front 3D printed perimeter (no notches) and press it into place. Note 
+that there are 2 small cutouts that align with the two pads of the 3.5mm headphone jacks.
+ 
+   
+Next, take the front PCB panel and drop it into place. The cutout for the LCD screen 
+might not fit perfectly. If it doesn’t, use a file to enlarge the cutout until it does fit. Use the 
+washer and nut to secure the rotary encoder in place. Remove the M3x6 screw that is 
+temporarily holding the IRF510 to the standoff on the RF board. Also remove the nut and 
+washer from the VFO encoder (if you haven’t already). Fasten the panel to the assembly with 
+four M3x6 screws, and the washer/nut from the encoder. Do not over-tighten the nut and 
+washer.
+Page 45
+
+============================================================
+PAGE 46
+============================================================
+
+Finally, take the two knobs and press them onto the encoder and volume 
+potentiometer. The one with the white stripe is for the volume potentiometer.
+Page 46
+
+============================================================
+PAGE 47
+============================================================
+
+Step 25: Put the Boards Together!
+Take your RF board and press it into place. The connectors are a tight fit so keep that 
+in mind! Secure it with 4 of the M3x10mm Female/Female Hex standoffs. 
+ 
+Finally, take the bottom perimeter 3D print and press it into place (the one with 2 
+slots)
+Page 47
+
+============================================================
+PAGE 48
+============================================================
+
+Step 26: Set 10 MHz Calibration
+To perform this calibration, you will need either a frequency counter or another 
+receiver. It is preferable to have a receiver with a spectrum display so you can see where the 
+frequency is. This will be shown using an IC-705 but an inexpensive option that would also 
+work well is an RTL SDR which can be purchased inexpensively for about $20.
+Apply power through the barrel connector and turn on the radio. Next, enter the 
+calibration menu and select the “10 MHz Ref” adjustment. (access by pressing the menu 
+button, rotating the encoder counterclockwise and pressing the knob once to enter the 
+calibration menu) Short press to edit this item. You should see “100 Hz” on the display. Place 
+the antenna of your receiver near the bottom-right of the CFT1 for best reception. (AKA near 
+the male 2x11 pinheader) If your receiver has a Pre-Amp, I recommend using it.
+In the above image, you can see that the reference signal is lower than we want. In this 
+situation, we want to decrease the reference value. If the reference was higher than we want, 
+we would want to increase the reference value. Once we get this as close as possible, press the 
+VFO knob to confirm, then long-press the VFO knob again to go into 1 Hz adjustment and 
+then we can fine tune to 10 MHz. 
+Some radios have a “spot” feature that lets you play a sidetone while receiving. This 
+can be particularly helpful with fine tuning the 10 MHz reference since it allows you to “zero-
+beat” your received signal and essentially getting the si5351 within 1 Hz of 10 MHz. (You will 
+hear a “wowowow” sound as you get closer to zero-beat) A good technique to do this without 
+a spot feature is to use a smartphone or computer to playback a tone (make sure it matches 
+the sidetone offset of your receiver). They can be found easily on YouTube if you cannot find 
+an online tool.
+Once you are done calibrating this, it is recommended you power cycle the radio after 
+exiting the CAL Menu.
+Page 48
+
+============================================================
+PAGE 49
+============================================================
+
+Step 27: Calibrate the IF Frequency
+To calibrate the IF frequency we will need some sort of signal generator. 
+You will want to make it so that you can hear a tone. This can be done by either 
+injecting a -90 dBm tone into the radio or by using another QRP radio transmitting into a 
+dummy load. The nanoVNA has an option to generate a CW tone as well, and is effective if 
+you attach Port 0 to a short piece of wire and set the radio nearby. Finally, you can use 
+WWV as a reference too. (TinySA Ultra: Use -90 dBm, Standard TinySA: Use with an 
+attenuator or use the included antenna and output -30 dBm with it next to the BNC 
+connector)
+You should now hear a tone through your headphones. Enable RIT by long-pressing 
+the VFO knob, and adjust the RIT value up and down to see if you can get an increase in 
+volume. This will likely happen between ±0.10. This will give you an idea of if you need to 
+raise or lower the IF value.
+Lets say for example that you find that the audio peaks at +0.03. This means you 
+should raise the IF value by 30 Hz. Disable RIT by long-pressing the VFO knob again then 
+go into the calibration menu and adjust the IF Frequency value. As you do so, you should 
+hear the audio getting louder. Accept the value by pressing the VFO knob to save the setting.
+Page 49
+
+============================================================
+PAGE 50
+============================================================
+
+Step 28: Calibrate the PA
+This is an incredibly important step so read this section carefully and follow 
+the directions exactly. Failure to do so could lead to you damaging your radio!
+BE EXTRA CAREFUL/GENTLE TURNING THE POTENTIOMETERS!!!
+There are two trimmer potentiometers on the RF board. RV1 sets the power level while 
+RV2 sets the PA drive level. 
+Make sure you are using a 12 volt power supply when performing this procedure. Using 
+13.8 volts is okay, but you will need to adjust RV1 accordingly.
+First, turn both RV1 and RV2 fully clockwise. Next, connect a paddle and either put 
+the radio in “Straight Mono” or “Straight Stereo” depending on what key you have. Hook 
+your radio to an RF Power Meter and dummy load.
+Make sure the band is set to 20 meters (14-14.1 MHz)
+Go into the Calibration menu and change the “PA Osc” setting from Enable to 
+Disable.
+Take your multimeter and clip the positive lead to the Gate of the IRF510 (the one 
+connected to the rectangular pad) and clip the negative lead to Ground. The leads on top of 
+Page 50
+
+============================================================
+PAGE 51
+============================================================
+
+the four crystals can be used for this. Ensure you aren’t shorting the IRF510 with the positive 
+lead.
+Next press down your paddle to turn on the PA. You will want to adjust RV2 such that 
+you read between 2 and 2.5 volts at the gate of the IRF510. (For best results, I recommend 
+between 2.4 and 2.5v) Once you do, disconnect the multimeter from the radio and change 
+back the PA Osc setting from Disable to Enable. 
+Now, press the paddle down and adjust RV1 so that you see 5 watts coming out of the 
+radio. You will want to transmit in 5 second bursts since the IRF510 isn’t connected to a 
+heatsink! If you are using a 13.8v power supply then you can optionally set the power level 
+between 5.5 and 6 watts instead.
+Page 51
+
+============================================================
+PAGE 52
+============================================================
+
+Step 29: Close up the Transceiver
+Take the thermal pad and place it on top of the IRF510, aligning up the holes.
+Take the cover and place it on top and re-fasten the M3x10 screw to the IRF510. Use 4 
+more M3x10 screws to secure the back plate to the radio.
+Page 52
+
+============================================================
+PAGE 53
+============================================================
+
+Finally take the four rubber feet and secure them to the radio. There are four dots on 
+the plate to help you align the feet.
+Congratulations! You have completed assembly of your new CFT1 transceiver! 
+Please refer to the owner’s manual for more information on how to use your new 
+radio. 72!
+Troubleshooting
+If you are experiencing any issues during or after assembly, carefully inspect your 
+soldering for bridges. If there are no bridges, then go to https://HamGadgets.com/pdf and 
+take a look at the troubleshooting guide to see if there is a known fix to your issue. If it isn’t 
+listed in the troubleshooting guide, please contact KM4CFT or RadioDan and we will attempt 
+to help you solve the issue. Fixes will be added to the troubleshooting guide as we discover 
+them!
+Page 53

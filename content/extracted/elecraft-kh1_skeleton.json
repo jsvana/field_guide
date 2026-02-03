@@ -1,0 +1,370 @@
+{
+  "radio": {
+    "id": "elecraft-kh1",
+    "manufacturer": "Elecraft",
+    "model": "KH1",
+    "revision": "B4",
+    "pdfFilename": "KH1_Owners_Manual_rev_B4.pdf"
+  },
+  "sections": [
+    {
+      "id": "elecraft-kh1-operation-basics",
+      "title": "Operation Basics",
+      "sortOrder": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Operation Basics content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kh1-menu-system-reference",
+      "title": "Menu System Reference",
+      "sortOrder": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Menu System Reference content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kh1-cw-keyer-settings",
+      "title": "CW/Keyer Settings",
+      "sortOrder": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract CW/Keyer Settings content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kh1-filters-and-dsp",
+      "title": "Filters & DSP",
+      "sortOrder": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Filters & DSP content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kh1-power-and-battery",
+      "title": "Power & Battery",
+      "sortOrder": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Power & Battery content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kh1-atu-operation",
+      "title": "ATU Operation",
+      "sortOrder": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract ATU Operation content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kh1-specifications",
+      "title": "Specifications",
+      "sortOrder": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Specifications content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kh1-quick-troubleshooting",
+      "title": "Quick Troubleshooting",
+      "sortOrder": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Quick Troubleshooting content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    }
+  ],
+  "_extractedTOC": [
+    {
+      "title": "TABLE OF CONTENTS \n \nINTRODUCTION",
+      "page": 4
+    },
+    {
+      "title": "GENERAL PRECAUTIONS",
+      "page": 5
+    },
+    {
+      "title": "POWER SOURCE",
+      "page": 5
+    },
+    {
+      "title": "EXTERNAL SUPPLY",
+      "page": 5
+    },
+    {
+      "title": "CHARGE STATUS LED",
+      "page": 5
+    },
+    {
+      "title": "INTERNAL BATTERY",
+      "page": 6
+    },
+    {
+      "title": "PRESERVING CLOCK TIME DURING CHARGING",
+      "page": 7
+    },
+    {
+      "title": "UTILITY MOUNTING POINTS",
+      "page": 7
+    },
+    {
+      "title": "LOG TRAY AND PEN",
+      "page": 8
+    },
+    {
+      "title": "ANTENNAS",
+      "page": 9
+    },
+    {
+      "title": "BUILT-IN ATU AND WHIP MATCHING NETWORK",
+      "page": 9
+    },
+    {
+      "title": "TIPS FOR USING COMPACT ANTENNAS",
+      "page": 10
+    },
+    {
+      "title": "GROUND CONNECTION AND COUNTERPOISE WIRE",
+      "page": 12
+    },
+    {
+      "title": "SPARE GROUND NUT",
+      "page": 12
+    },
+    {
+      "title": "CARRYING CASE",
+      "page": 13
+    },
+    {
+      "title": "KEY/DATA JACK",
+      "page": 13
+    },
+    {
+      "title": "DATA CONNECTION",
+      "page": 14
+    },
+    {
+      "title": "HEADPHONES AND SPEAKERS",
+      "page": 14
+    },
+    {
+      "title": "DISPLAY",
+      "page": 14
+    },
+    {
+      "title": "BASIC OPERATION",
+      "page": 16
+    },
+    {
+      "title": "SWITCH TAP AND HOLD FUNCTIONS",
+      "page": 16
+    },
+    {
+      "title": "VFO KNOB FUNCTIONS",
+      "page": 16
+    },
+    {
+      "title": "AF/MON KNOB FUNCTIONS",
+      "page": 16
+    },
+    {
+      "title": "RECEIVER CONTROLS",
+      "page": 17
+    },
+    {
+      "title": "PFn AND TRANSMITTER CONTROLS",
+      "page": 17
+    },
+    {
+      "title": "BAND AND MODE CONTROLS",
+      "page": 17
+    },
+    {
+      "title": "KEYER SPEED CONTROLS",
+      "page": 18
+    },
+    {
+      "title": "ATU TUNING",
+      "page": 18
+    },
+    {
+      "title": "MESSAGE PLAY / RECORD CONTROLS",
+      "page": 18
+    },
+    {
+      "title": "USING THE MENU",
+      "page": 19
+    },
+    {
+      "title": "ADVANCED FEATURES",
+      "page": 20
+    },
+    {
+      "title": "SCAN/MINI-PAN",
+      "page": 20
+    },
+    {
+      "title": "POWER-ON BANNER",
+      "page": 20
+    },
+    {
+      "title": "USER-PROGRAMMABLE FUNCTIONS",
+      "page": 21
+    },
+    {
+      "title": "REAL-TIME CLOCK",
+      "page": 21
+    },
+    {
+      "title": "CUSTOMIZING POWER LEVELS",
+      "page": 21
+    },
+    {
+      "title": "TEXT DECODE AND DISPLAY",
+      "page": 22
+    },
+    {
+      "title": "CW/SSB CROSS-MODE OPERATION",
+      "page": 22
+    },
+    {
+      "title": "GENERAL COVERAGE RECEIVE",
+      "page": 22
+    },
+    {
+      "title": "MANUALLY TUNING THE ATU",
+      "page": 23
+    },
+    {
+      "title": "AMPERE-HOUR METERING",
+      "page": 23
+    },
+    {
+      "title": "BUILT-IN LOGGING",
+      "page": 23
+    },
+    {
+      "title": "ENTERING TEXT NOTES USING CW",
+      "page": 23
+    },
+    {
+      "title": "UPDATING FIRMWARE",
+      "page": 24
+    },
+    {
+      "title": "FORCED DOWNLOAD",
+      "page": 24
+    },
+    {
+      "title": "CONFIGURATION LOAD/SAVE",
+      "page": 24
+    },
+    {
+      "title": "REMOTE CONTROL",
+      "page": 24
+    },
+    {
+      "title": "COMPUTER INTERFACE",
+      "page": 24
+    },
+    {
+      "title": "CONFIGURATION",
+      "page": 25
+    },
+    {
+      "title": "ALIGNMENT",
+      "page": 25
+    },
+    {
+      "title": "RECEIVER",
+      "page": 25
+    },
+    {
+      "title": "TRANSMITTER",
+      "page": 25
+    },
+    {
+      "title": "MENU FUNCTIONS",
+      "page": 26
+    },
+    {
+      "title": "TROUBLESHOOTING",
+      "page": 34
+    },
+    {
+      "title": "GENERAL",
+      "page": 34
+    },
+    {
+      "title": "TRANSMIT",
+      "page": 35
+    },
+    {
+      "title": "RECEIVE",
+      "page": 35
+    },
+    {
+      "title": "ERROR MESSAGES",
+      "page": 36
+    },
+    {
+      "title": "THEORY OF OPERATION",
+      "page": 38
+    },
+    {
+      "title": "SPECIFICATIONS",
+      "page": 40
+    },
+    {
+      "title": "GENERAL",
+      "page": 40
+    },
+    {
+      "title": "RECEIVER",
+      "page": 40
+    },
+    {
+      "title": "TRANSMITTER",
+      "page": 40
+    },
+    {
+      "title": "CUSTOMER SERVICE AND SUPPORT",
+      "page": 41
+    },
+    {
+      "title": "REPAIR / ALIGNMENT SERVICE",
+      "page": 41
+    }
+  ],
+  "_pageCount": 41
+}

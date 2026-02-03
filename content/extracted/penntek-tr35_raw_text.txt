@@ -1,0 +1,234 @@
+
+============================================================
+PAGE 1
+============================================================
+
+1 
+ 
+TR-35 Operating Instructions      02/04/23   V0.30 
+ 
+The TR-35 is a 4-band 5-watt CW transceiver covering the 40-, 30-, 20-, and 17- 
+meter bands with generous receiver tuning ranges above and below each band. 
+Selectable receiver modes allow for narrow band CW, wideband CW, and SSB 
+reception.  
+Front Panel Controls 
+Refer to the front panel for the location of the switches and controls. The four 
+rotary controls are pretty much self-explanatory. There is a keyer speed control 
+(5-45 WPM) on the left, then the TX Power (0-5W) adjust pot, an RF gain control, 
+and a volume control. The power on-off switch is at the upper left, the Receiver 
+Mode / AUX switch is in the middle, and the Band selector / RIT switch is to the 
+right. The two right-most switches are 3-position spring return toggle switches.  
+Band Changes and Memories 
+To change bands, momentarily flip this switch upward and allow it to return to 
+the center off position. Do this quickly, and the unit will consecutively switch from 
+one band to another. If you flip the switch up and hold it up for a short while, the 
+
+============================================================
+PAGE 2
+============================================================
+
+2 
+ 
+current frequency and receive mode will be stored in a semi-permanent memory. 
+The display will momentarily switch to a reverse optical mode to show that the 
+current frequency has been stored. There is a separate memory for each of the 
+four bands. To recall this memory, 2 quick successive upward clicks are required. 
+RIT Function 
+To engage the RIT function with this switch, a quick downward push and release 
+of the toggle is needed. The orange RIT warning LED will come on, and the display 
+will read out the offset with 10 Hz resolution as you tune. Another quick 
+downward toggle will dis-engage the RIT function.  The Dial Lock function is also 
+controlled with the RIT switch by using a longer engagement time of about 1.5 
+seconds. This will prevent tuning and band changes. To exit the lock condition, 
+another longer switch activation is required.  
+Receiver Modes 
+The Receiver Mode switch will toggle between Narrow Band CW and Wide Band 
+CW with quick upward click of this switch. A longer click will engage SSB mode. 
+The receiver IF bandwidth will be changed to accommodate the selected mode, 
+and the display frequency reading will maintain calibration when switching 
+between CW and SSB modes. 
+AUX Switch  
+The AUX switch is used to activate the keyer record/playback functions. A quick 
+switch activation will select the playback mode, and a longer switch closure will 
+enter the record mode. The keyer playback or record mode can be exited by a 
+short press of the AUX switch. (See below for complete instructions for the keyer 
+memory operation.)  
+Tuning and Step Size 
+The knob to the right of the blue OLED display is the tuning encoder. The 
+frequency may be change in 10 Hz, 100 HZ or 1 kHz steps. The tuning encoder will 
+
+============================================================
+PAGE 3
+============================================================
+
+3 
+ 
+tune at 40 steps per revolution, allowing tuning rates of 400Hz, 4kHz, or 40kHz 
+per revolution. The tuning step resolution is selected by a momentary switch 
+attached internally to the tuning encoder. Short pushes on the tuning knob will 
+alternate between 10 and 100 Hz tuning steps. A long press will enable 1 kHz 
+steps. The frequency readout on the display will show the tuning resolution 
+selected with an underline bar beneath the digit selected. There is lots of tuning 
+range above and below the selected amateur band for SWLing. The transmitter 
+will not operate-out of-band and will display an “OOB” warning if this is 
+attempted.   
+Panel LED Functions 
+The blue LED Signal indicator can be used to judge the strength of the received 
+signal. A bright blue LED would indicate a strong signal. The red LED is the battery 
+low-level warning indicator. It will blink when the battery voltage drops below a 
+preset level. The warning level is internally adjustable from 9 to 11.5 volts.  
+Phones, Power, and Key Jacks 
+An external speaker or headphones can be connected to the “Phones” jack on the 
+right side. There is more than ample audio available. Power is connected to the 
+DC input connector on the left side. The power plug body size is 5.5mm and the 
+center pin size is 2.1mm with positive polarity The voltage should be between 9.5 
+and 14 volts. The key jack and keyer paddle jack are on the left side. Both may be 
+connected and used randomly as you desire. This way, you are always ready for a 
+new “SKCC” contact, as there is no need to reboot the transceiver in order to 
+change from the keyer using paddles to a straight key.  
+Transmitter Operation and Final FET Protection 
+The transmitter output power is adjustable from a few milliwatts to 5 watts or 
+more depending on the power supply voltage. It should be possible to achieve the 
+“1000 Miles per Watt” award with a station a few miles away by turning the 
+power output down to a few milliwatts while maintaining contact! With a 12-volt 
+supply, the output is at about 5 watts into a 50-ohm load. The final TO-220 RF 
+
+============================================================
+PAGE 4
+============================================================
+
+4 
+ 
+transistor is durable and has survived delivering 5 watts continuous key-down 
+periods of more than 5 minutes during product development. The TR-35 
+transmitter is designed for CW duty cycle use only. Although the final FET 
+amplifier is rugged and robust, it is not intended for extended periods of 
+continuous key-down operation at maximum output, especially at higher DC 
+inputs. Attempting to do so will activate a power fold-back circuit designed to 
+prevent excessive heat build-up in the final RF amplifier FET. A poly-fuse device 
+reacts to the current drawn by the transmitter and will slowly but temporarily 
+increase its resistance over time and temperature, thereby reducing the RF power 
+output.  This power reduction occurs only with extended key-down operation, 
+particularly with higher DC input voltages.  At the extreme, power output could 
+drop to zero with the receiver becoming inoperative as well. The poly-fuse is self-
+resetting if power is removed, and the poly-fuse is allowed several minutes to 
+recover. Normal CW operation will not activate the power fold-back circuit, but 
+key-down times of 10 seconds at maximum power might, particularly at higher DC 
+input voltages. If you need more than 5 seconds or so of RF to make an antenna 
+adjustment, simply turn down the RF power output for these adjustments. Not 
+only will this step prevent activation of the final FET fold-back circuit, but it will 
+also reduce QRM on the band, which is always good operating practice. The poly-
+fuse is also critical to the operation of the reverse polarity protection circuit. 
+Sidetone Zero-Beat 
+ The side-tone that is heard while transmitting is the actual transmitted signal 
+being heard by the receiver. If you match the audio tone of the received signal to 
+the tone of the side-tone, you are guaranteed to be at zero beat with the station 
+you are communicating with. 
+How to use the Keyer Record and Playback Functions 
+The record and playback functions are initiated with the “AUX” switch. There are 
+two message memories provided. Each can store 25 words using the “PARIS” 
+standard, or 125 ASCII characters if stored with no word spacing. This should be 
+plenty for POTA or SOTA activations. Before starting to record, set the keyer speed 
+
+============================================================
+PAGE 5
+============================================================
+
+5 
+ 
+control to a comfortable setting. A little slower than normal might be better. Don’t 
+adjust the speed control while in record mode. To record a memory, activate and 
+hold the “AUX” switch for about 1.5 seconds. The OLED display will show the record 
+menu. Choose message 1 by tapping the “DIT” paddle, or message 2 by tapping the 
+“DAH” paddle. The TR-35 sidetone will immediately respond by sounding a “1” or 
+“2” in morse. If the sidetone sounds a little “clicky”, turn down the RF gain control 
+some. After the morse number is finished playing, you may record your message 
+using the paddles. You can abort a record session by activating the “AUX” switch. 
+The transmitter will be inhibited while you record your message. When your 
+message is finished, simply stop sending, and the recording session will time out 
+after about 3 seconds and the TR-35 will revert to regular transceiver mode. To 
+Listen to, or play back your message, activate a short “AUX” switch closure. The 
+playback menu will appear on the display. Be aware that the transmitter will be 
+active while playing back a message, so remember to turn down the RF power 
+control while checking your recorded message. Message 1 is selected by tapping 
+the “DIT” paddle and message 2 by tapping the “DAH” paddle. The selected 
+message will immediately start to play and will play to the end. To stop the playback 
+at any time, tap either the DIT or DAH key. An “AUX” switch activation will also 
+abort the message playback. The volume control must be up to hear a message. 
+Reverse Optic Display Mode 
+Better display visibility in bright light conditions may be possible by reversing the 
+display optics, that is, black numbers on a blue background. To do this, the TR-35 is 
+turned on while the receiver mode switch is engaged and held until the display 
+shows solid blue. Changing back to normal optic mode requires a power reset 
+without the receiver mode switch engaged. Note that the reverse display mode 
+consumes about 10ma more current from the battery. 
+Internal Adjustments 
+There are five internally accessible adjustments: PA Bias, sidetone level, signal 
+level LED sensitivity, audio bandpass filter frequency, and low battery detector 
+threshold. The PA bias normally shouldn’t need adjustment except at initial build. 
+
+============================================================
+PAGE 6
+============================================================
+
+6 
+ 
+If your TR-35 is factory built, it would be rare that this control ever needs 
+adjustment, other than if the final RF output transistor should need to be 
+replaced (which would also be rare). The sidetone level pot may be adjusted to 
+set the level your liking, and the low battery level pot can be set to a level 
+consistent with the battery type you use. This level is usually set to about 9.5 volts 
+on factory wired units. To access these adjustments, the plastic case bottom must 
+be removed. To do this, remove the four black screws from the case front panel, 
+and remove the board set along with the case top half by lifting on the left side of 
+the panel and maneuvering the BNC connector through its exit hole. All five 
+internal adjustments will now be accessible. The sidetone level adjustment 
+control is labeled on the left side of the lower board next to the power jack.  The 
+PA bias and battery detector adjustments are labeled on the rear of the lower 
+board. To set the low battery point, adjust the input DC voltage to the battery 
+voltage you wish to have the alarm flash, and adjust the low battery pot until the 
+red LED alarm LED blinks. Be careful not to adjust the bias pot by mistake! See the 
+on-line building procedures for instructions on setting the PA bias. The blue signal 
+strength LED sensitivity pot is located between the bias and battery voltage 
+warning adjustment pots and is attached to the upper board.  Normally the pot is 
+set for a faint glow of the blue signal quality LED with the RF gain control fully 
+counterclockwise. The audio bandpass filter adjustment is labeled on the lower 
+board at the front of the unit. The pot is adjusted for maximum sidetone audio 
+volume while in narrow CW mode. This will be very close to the center of the 
+rotational range. 
+TR-35 Connector Wiring 
+Key Jack: The Key jack will work with either a mono or a stereo 3.5mm plug. The 
+tip and ground shell connections are used. There is no connection to the Key jack 
+ring terminal inside the TR-35 
+Paddles Jack: The Paddle jack requires a stereo 3.5mm plug. The tip is the “DIT” 
+connection, and the ring is the “DAH” connection. The shell is the ground. 
+
+============================================================
+PAGE 7
+============================================================
+
+7 
+ 
+Note that you may connect both a straight key and paddles and use either at any 
+time. No need to reboot the transceiver to switch from one to the other. You’re 
+always ready for an unexpected “SKCC” contact with the straight key! 
+DC Power Jack: This requires a standard 5.5mm plug with a 2.1mm center pin 
+diameter. The polarity of the center pin is positive.  
+Phones Jack: The Phones (speaker) jack on the 02/2022 Rev B upper board is 
+wired for a standard 3.5mm mono plug (tip and ground). If you connect a 
+standard stereo headphone, only one earpiece will play. Use a 3.5mm mono to 
+stereo adaptor if you wish both earpieces to play. These adaptors are available 
+from eBay and Amazon. There is a simple modification you can make that will 
+allow both headphone earpieces to play, but only if you 
+never intend to use a mono plug connected to the 
+“Phones” jack. To make this mod, the top case half must 
+be removed by removing all the knobs and the four nuts 
+holding the case half to the board assembly. Remove the 
+four black case screws and lift off the upper-case half. 
+Carefully solder in a jumper wire as shown in yellow in 
+the photo. Once this modification is performed, do not connect a mono plug to 
+the phones jack. Additionally, do not perform this modification on earlier upper 
+PC boards labeled “Rev A3 12/2021” in the upper right corner of the board! Doing 
+so will cause destruction of the audio output amplifier. The phones jack on these 
+earlier boards is wired differently than the newer ‘Rev B 02/22 boards. 
+ 

@@ -1,0 +1,337 @@
+{
+  "radio": {
+    "id": "yaesu-ft710",
+    "manufacturer": "Yaesu",
+    "model": "FT-710",
+    "revision": "1",
+    "pdfFilename": "FT-710_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Yaesu FT-710 is a compact HF/50 MHz SDR transceiver with 100W output, featuring a 4.3-inch TFT touch screen, 3DSS spectrum display, and AESS (Acoustic Enhancement Speaker System) for high-fidelity audio reproduction."
+        },
+        {
+          "type": "paragraph",
+          "text": "The SDR receiver uses twin A/D converters with FPGA digital synthesis and dithering technology to improve blocking, IM characteristics, and overall receiver performance. Direct sampling superheterodyne architecture provides excellent receive quality."
+        },
+        {
+          "type": "paragraph",
+          "text": "The [FUNC] knob provides quick access to settings. Press to display the function screen, rotate to select items, and press again to confirm. Touch screen operation is also available throughout."
+        },
+        {
+          "type": "paragraph",
+          "text": "The VMI (VFO Mode Indicator) LEDs on both sides of the MAIN dial show VFO-A, VFO-B, Memory mode, and clarifier/split status. Colors can be customized (blue/green/red/white) for each operating state."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 3DSS (3 Dimensions Spectrum Stream) display shows frequency on X-axis, signal intensity on Y-axis, and time on Z-axis with color-coded signal strength, providing intuitive band condition recognition."
+        },
+        {
+          "type": "note",
+          "text": "AESS combines the internal top speaker with an optional external side speaker (SP-40) to create high-quality audio with wide frequency range and three-dimensional effect."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Access settings by pressing the [FUNC] knob. Navigate using touch or the knob. Example path: Select [DISPLAY SETTING] > [DISPLAY] > [LED DIMMER]."
+        },
+        {
+          "type": "menuEntry",
+          "name": "LED DIMMER",
+          "description": "Adjusts the brightness of LED indicators. Found in DISPLAY SETTING > DISPLAY."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CONTRAST",
+          "description": "Adjusts display contrast. Found in DISPLAY SETTING > DISPLAY."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Screen Saver",
+          "description": "Sets timeout for screen saver activation. Found in DISPLAY SETTING."
+        },
+        {
+          "type": "menuEntry",
+          "name": "My Call Sign",
+          "description": "Stores your callsign for display on screen."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VMI Color",
+          "description": "Sets the VFO Mode Indicator colors. Select from blue, green, red, or white for each operating state."
+        },
+        {
+          "type": "menuEntry",
+          "name": "AESS Settings",
+          "description": "Adjusts output balance and frequency characteristics between internal and external speakers for optimal audio."
+        },
+        {
+          "type": "note",
+          "text": "Frequently used functions can be assigned to the [FUNC] knob for quick access by simply turning the knob."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a paddle or straight key to the KEY jack on the rear panel. The built-in electronic keyer supports iambic and straight key operation. CW Spotting (zero-beating) helps accurately tune to received signals."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Speed",
+          "description": "Adjusts electronic keyer speed in WPM."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Weight",
+          "description": "Sets the dot/dash ratio for personalized timing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Polarity",
+          "description": "Reverses dot and dash paddles if needed."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Mode",
+          "description": "Selects operating mode: Straight, Bug, Iambic A, or Iambic B."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Delay Time",
+          "description": "Sets break-in delay time for semi break-in operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Sidetone Level",
+          "description": "Adjusts CW sidetone audio level."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contest Memory Keyer stores CW messages. TEXT Memory allows storing and programming messages by character. Contest Number feature supports automatic serial number increment."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Filter Function Display in the upper display area shows passband status graphically. You can see the operating status of WIDTH, SHIFT, NOTCH, and CONTOUR at a glance along with the RF spectrum in the passband."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SHIFT",
+          "description": "Moves the IF passband to eliminate interference on one side. Use DSP interference removal functions via STEP/MCH button."
+        },
+        {
+          "type": "menuEntry",
+          "name": "WIDTH",
+          "description": "Narrows the bandwidth symmetrically to extract weak signals from interfering signals and pile-ups."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NOTCH",
+          "description": "Eliminates narrow heterodyne interference from the passband using IF NOTCH filter."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CONTOUR",
+          "description": "Provides gentle DSP passband shaping. Adjustable GAIN and bandwidth (Q). Very effective for making weak signals rise above interference."
+        },
+        {
+          "type": "menuEntry",
+          "name": "APF (Audio Peak Filter)",
+          "description": "CW audio peaking filter that narrows audio passband around the CW pitch frequency."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNR (Digital Noise Reduction)",
+          "description": "15-step adjustable noise reduction with algorithm optimization for different noise types."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNF (Digital Notch Filter)",
+          "description": "Automatic tracking filter that attenuates multiple interfering beat signals, even when frequencies change."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NB (Noise Blanker)",
+          "description": "Reduces pulse-type noise. Adjustable level and attenuation. Can also reduce longer duration pulse noise."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IPO",
+          "description": "Intercept Point Optimization maximizes dynamic range and reduces impact of strong broadcast stations, especially on low bands."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DSP RESET",
+          "description": "Resets all DSP interference removal settings to default."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-710 operates from 13.8V DC (+/-15%) with negative ground. It is designed for base station or mobile operation with appropriate power supply."
+        },
+        {
+          "type": "warning",
+          "text": "Do not use voltages other than the specified power supply voltage. Observe correct polarity. Never cut off the fuse holder from the power cable."
+        },
+        {
+          "type": "specificationTable",
+          "title": "Power Consumption",
+          "rows": [
+            { "name": "Supply Voltage", "value": "13.8V DC +/-15% (negative ground)" },
+            { "name": "RX (no signal)", "value": "1.8A" },
+            { "name": "RX (signal present)", "value": "2.2A" },
+            { "name": "TX (100W)", "value": "21A" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "RF Output Power",
+          "rows": [
+            { "name": "HF/50 MHz", "value": "5-100W" },
+            { "name": "AM Carrier", "value": "5-25W" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-710 includes a built-in automatic antenna tuner. Press the TUNE button to activate. The tuner matches impedances from 16.7-150 ohms on HF (1.8-29.7 MHz) and 25-100 ohms on 50 MHz."
+        },
+        {
+          "type": "paragraph",
+          "text": "The optional FC-40 external antenna tuner can match wire antennas on 160 through 6 meters. The ATAS-120A active-tuning antenna system is also supported for mobile operation."
+        },
+        {
+          "type": "note",
+          "text": "The tuner settings are stored for quick recall when returning to previously tuned frequencies. Listen before tuning to avoid interfering with stations already in QSO."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "General",
+          "rows": [
+            { "name": "TX Frequency Range", "value": "1.8-54 MHz (amateur bands), 70-70.5 MHz (UK)" },
+            { "name": "RX Frequency Range", "value": "30 kHz - 75 MHz" },
+            { "name": "Operating Modes", "value": "CW, AM, LSB, USB, FM" },
+            { "name": "Frequency Stability", "value": "+/-0.5 ppm (after 1 min, 0°C to +50°C)" },
+            { "name": "Frequency Steps", "value": "1/5/10/20 Hz (CW/SSB/AM), 100 Hz (FM)" },
+            { "name": "Antenna Impedance", "value": "50 ohms unbalanced" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Transmitter",
+          "rows": [
+            { "name": "Output Power", "value": "5-100W (5-25W AM carrier)" },
+            { "name": "Carrier Suppression", "value": "At least 60 dB below peak" },
+            { "name": "Unwanted Sideband", "value": "At least 60 dB below peak" },
+            { "name": "Harmonic Radiation (HF)", "value": "Better than -50 dB" },
+            { "name": "Harmonic Radiation (50 MHz)", "value": "Better than -63 dB" },
+            { "name": "SSB Bandwidth", "value": "3 kHz, 300-2700 Hz response" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Receiver",
+          "rows": [
+            { "name": "Circuit Type", "value": "Direct sampling superheterodyne" },
+            { "name": "IF Frequencies", "value": "18 kHz (SSB/CW), 24 kHz (AM/FM)" },
+            { "name": "SSB/CW Sensitivity (HF)", "value": "0.16 uV (IPO: AMP2)" },
+            { "name": "SSB/CW Sensitivity (50 MHz)", "value": "0.125 uV (IPO: AMP2)" },
+            { "name": "SSB Selectivity", "value": "2.4 kHz/-6dB, 3.6 kHz/-60dB" },
+            { "name": "CW Selectivity", "value": "0.5 kHz/-6dB, 0.75 kHz/-60dB" },
+            { "name": "Audio Output", "value": "2.5W into 4 ohms (10% THD)" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Physical",
+          "rows": [
+            { "name": "Dimensions", "value": "239 x 80 x 247 mm (9.4 x 3.1 x 9.7 in)" },
+            { "name": "Weight", "value": "4.5 kg (9.92 lb)" },
+            { "name": "Operating Temperature", "value": "0°C to +50°C (32°F to 122°F)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Reset microprocessor",
+          "description": "Reset options available in menu to restore factory defaults if experiencing unusual behavior."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SD card issues",
+          "description": "Format SD card using the radio's format function. Used for audio recording, settings backup, screen capture, and firmware updates."
+        },
+        {
+          "type": "menuEntry",
+          "name": "AESS audio quality",
+          "description": "Connect optional SP-40 external speaker for full AESS effect. Adjust output balance and frequency characteristics to preference."
+        },
+        {
+          "type": "menuEntry",
+          "name": "LAN remote operation",
+          "description": "Connect optional SCU-LAN10 LAN unit for remote operation. Configure network settings in menu."
+        },
+        {
+          "type": "menuEntry",
+          "name": "External display",
+          "description": "Use EXT-DISPLAY connector for external monitor connection. Set up in display settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "QMB not working",
+          "description": "Quick Memory Bank stores/recalls frequencies. Configure number of QMB channels in settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VOX issues",
+          "description": "Adjust VOX GAIN, Delay Time, and anti-trip sensitivity for proper voice-activated operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Clock and date",
+          "description": "Set clock and date in menu. Used for timestamps on recordings and logs."
+        }
+      ]
+    }
+  ]
+}

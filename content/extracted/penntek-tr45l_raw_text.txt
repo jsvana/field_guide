@@ -1,0 +1,200 @@
+
+============================================================
+PAGE 1
+============================================================
+
+1 
+ 
+Preliminary TR-45L Operating Instructions 
+ 
+Cautions 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+08/20/2022 
+1) Do not apply more than 14.5 volts DC to the TR-45L. 
+2) Never connect a power source other than an approved charger to the RED power 
+jack on the back of the unit. This is for the charger only (5.5x2.1mm)! The unit will 
+not operate from the optional internal battery while the charger is connected.  
+3) External battery power may be applied to the BLACK connector (5.5x2.5mm). The 
+unit will operate with power applied to the black connector even when the charger 
+is connected. 
+Switch and control overview 
+The main power switch (red boot) is on the lower right side of the panel.  
+The volume control is below the power switch.  
+The notch filter is to the left of the volume control. The frequency of the notch can be varied 
+from about 200 Hz at fully counter-clockwise (Min) to more than 3 kHz fully clockwise (Out). 
+The notch filter is essentially out of the circuit when set fully clockwise because the notch 
+frequency will be well beyond the highest audio frequency available from the receiver.   
+RF gain control is to the left of the Notch filter control, followed by the keyer speed control. 
+
+============================================================
+PAGE 2
+============================================================
+
+2 
+ 
+The tuning control is directly below the display. The tuning speed is selected by short pushes of 
+the knob to select 100 or 10 Hz per step. Longer pushes of the tuning control will select 1 kHz 
+and 1 Hz steps. An underline curser on the frequency display will indicate the selected tuning 
+step. 
+The TX power control is to the right of the meter. The switch directly above this pot will select 
+forward or reverse power to be indicated on the meter during transmission. A red “High VSWR” 
+indicator is located just above the RF power selector switch. 
+The three-position center-off switch (white boot) to the left of the tuning knob actuates the 
+“Dial Lock” (up) and the “Battery Check / Spot” (down) function. The dial lock is alternating, and 
+the batt check and spot is momentary. If the received signal tone is matched to the spot tone, 
+exact zero-beat is assured. 
+The three-position center-off switch (white boot) above the power switch is the band switch 
+(up) and VFO select (down). Short upward actuations will advance the band selection. Note that 
+the selection sequence is one direction only, as 80, 40, 30, 20, 17, and then back to 80 with 
+each short actuation. Short downward actuations will switch between VFO A and B. A longer 
+downward actuation of this switch will store into memory the current VFO frequency and mode 
+settings. Note that each band is provided with a separate memory for the A and B VFOs. 
+The three-position center-off switch (white boot) above the band / VFO switch controls the RIT 
+function and the receiver mode. A short upward actuation will engage the RIT function and the 
+amber warning LED will illuminate. While the RIT function is engaged, the RIT offset can be 
+controlled by the main tubing encoder. The RIT offset frequency will be shown on the display. 
+The RIT function is turned off by another short upward actuation. The receiver bandwidth is 
+selected by short downward actuations of this switch and will alternate between narrow and 
+wideband CW. A longer actuation will set the proper dial frequency calibration for SSB mode. 
+The three-position center-off switch below the panel meter controls the keyer memory record 
+and playback functions. See below for operational instructions for the recorder.  
+The short-handle switch to the left of the meter controls the dial light level, both the display 
+backlight and the meter illumination. “DIM” saves about 20 ma of battery current. 
+The upper short-handle switch on the right side of the panel controls the operation of the 
+narrow band CW 700 Hz audio filter. Note that this filter is available only during narrow band 
+CW operation. 
+The lower short-handle switch on the right side of the panel controls the internal speaker and 
+the rear panel external speaker jack. It does not affect the front panel headphone jack. 
+ 
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+3 
+ 
+ 
+Using the Optional Z-Match Tuner  
+The addition of an antenna tuning device adds a 
+high degree of utility to the TR-45L transceiver 
+when used in the field, especially with simple 
+wire antenna systems. Because this tuner does 
+add additional cost to the TR-45L, it is offered as 
+an option at the time the order is placed. The 
+tuner controls are located on the upper rear 
+panel of the radio and consist of two toggle switches and two variable capacitors. The first 
+switch selects either a conventional standard 50-ohm BNC output or places the tuner in-line 
+between the transmitter and antenna connector while the second switch selects balanced or 
+unbalanced outputs. 
+The simplest portable operation solution would involve a length of wire supported at one end 
+with a high support (tree) and the other end connected to one of the TR-45L binding post 
+connectors, with a similar length counterpoise wire stretched out on the ground and connected 
+to the other binding post. Similar setups were tried with different wire lengths and gave good 
+results. The tune-up procedure is as follows: 
+With the antenna wire and counterpoise connected, flip the tuner toggle switch to the IN 
+position. Adjust both the tune and load capacitors for maximum band noise on receive. Turn 
+down the RF power pot so that the meter indicates power at about half-scale on the meter with 
+the RF Power toggle switch set to read forward power with the key down. The High VSWR 
+indicator might be on but will go out as the reflected power is reduced. Next, switch the RF 
+Power toggle switch to show reflected power on the meter. 
+ Now reach over the top of the radio to the tuning controls and adjust both the tune and load 
+capacitors for minimum reflected power as shown on the meter. Note that there is 
+considerable interaction between the two capacitors. Slowly adjust the caps with short bursts 
+of key-down times of about 5 to maybe 10 seconds or so each with a short rest time between 
+tuning attempts. Admittedly, there is an art to doing this quickly. Sometimes it takes a while to 
+find a deep null in the reflected power which indicates a good match. 
+How to use the Keyer Record and Playback Functions 
+The record and playback functions are initiated with the “Play/Record” switch. There are two 
+message memories provided. Each can store 25 words using the “PARIS” standard, or 125 ASCII 
+characters if stored with no word spacing. This should be plenty for POTA or SOTA activations. 
+Before starting the recording, set the keyer speed control to a comfortable setting; a little slower 
+than normal might be better. Don’t adjust the speed control while in record mode. To record a 
+
+============================================================
+PAGE 4
+============================================================
+
+4 
+ 
+memory, activate the “RECORD” function by momentarily flipping the REC/PLAY switch to the 
+left. The LCD display will show the record menu. Choose message 1 by tapping the “DIT” paddle, 
+or message 2 by tapping the “DAH” paddle. The TR-45L sidetone will immediately respond by 
+sounding a “1” or “2” in morse. If the sidetone sounds a little “clicky”, turn down the RF gain 
+control some. After the morse number is finished playing, you may record your message using 
+the paddles. You can abort a record session by activating the “RECORD” switch again. The 
+transmitter will be inhibited while you record your message. When your message is finished, 
+simply stop sending, and the recording session will time out after about 3 seconds and the TR-
+45L will revert to regular transceiver mode.  
+To listen to or play back your message, activate the “PLAY” switch by momentarily flipping the 
+REC/PLAY switch to the right. The playback menu will appear on the display. Be aware that the 
+transmitter will be active while playing back a message, so remember to turn down the RF power 
+control while checking your recorded message. Message 1 is selected by tapping the “DIT” paddle 
+and message 2 by tapping the “DAH” paddle. The selected message will immediately start to play 
+and will play to the end. To stop the playback at any time, tap either the DIT or DAH key. 
+Activating “PLAY” switch during playback will also abort a message playback. The volume control 
+must be up to hear a message. Note: It’s best not to record messages with the band set to 80 
+meters as it is difficult to hear the recording sidetone on this band because of lower VFO leakage 
+into the receiver on this band. 80-meter playback is not affected. 
+Optional Internal Battery Pack and Charger 
+Provisions are made to support an internal high-capacity Lithium-Ion battery. With a rating of 
+5200 milliamp hours, this battery will operate the transceiver for a long time! Make sure the 
+battery is inserted securely into the padded framework on the inside rear panel and that the 
+Velcro straps are tightened to prevent movement of the battery during handling. Also be 
+certain that the battery wires are not stressed. Note that the battery is supplied with a low 
+state of charge and must be fully charged before operation.  
+Frequently check the battery condition of charge by momentarily pressing downward on the 
+“BATT CHECK/SPOT” switch. If the meter indicates a level close to the lower limit (between S8 
+and S9) the battery needs to be recharged. Do not allow the battery level to fall too low as this 
+will shorten its usable life. Plug the charger into the RED charge jack on the rear panel. The 
+charger indicator will be red while charging and switch to green when charge is complete. 
+Charging can take several hours. The internal battery will not operate the transceiver while it is 
+charging. You can, however, operate the TR-45L while charging the internal battery by 
+connecting an external DC power source to the BLACK DC input jack on the back of the TR-45L.  
+About the TR-45L Frequency and Mode Memories  
+There are both short-term (RAM) and long-term (EEPROM) memories. The band, frequency, 
+mode, and VFO (A or B) will be stored in RAM and remembered so long as power is on. For 
+
+============================================================
+PAGE 5
+============================================================
+
+5 
+ 
+example, if you are operating on 40 meters at 7.030.200 MHz on VFO A in narrow band CW and 
+change bands to 14.258.500 MHz on VFO B to listen to SSB, then go back to VFO-A on 40 
+meters, the previous 40-meter frequency, mode, and VFO settings will be restored because 
+they were remembered in the short-term RAM - you will be right back on 40 meters where you 
+left it the last time. All of the information for each of the bands will be remembered as you 
+move between bands. Once power is removed, however, this information is lost, except for the 
+band and the VFO (A or B) that were active when power was removed. When power is restored, 
+the TR-45L will switch to the last used band and VFO but will default to the frequency and mode 
+that is stored in the EEPROM for that VFO.  
+This EEPROM information may be rewritten at any time by holding the VFO A/B switch down 
+until the display backlight goes off. If upon power-up, you want the TR-45L to return to the 
+operating frequency and mode it was set to when powered down, simply save the current 
+frequency and mode in the EEPROM memory before turning the power off. To do this, simply 
+hold down the VFO selection switch for about 2 seconds until the backlight goes out and 
+release the switch. Then turn off the power switch. When you power back up, you will be right 
+where you were when power was last turned off.  
+ 
+ Opposite Sideband Selection  
+ The TR-45L defaults to the standard convention of lower sideband use below 10 MHz and 
+upper sideband above this frequency. Operation on the opposite sideband is offered for utility 
+purposes only and is not recommended for normal use because receiver image rejection 
+suffers, and additional spurs could be encountered. 
+To select the opposite sideband, toggle up and hold the RIT switch for a few seconds. The 
+sideband selection in the display can be observed to change. A second longer actuation of the 
+RIT switch will return the receiver operation to the normal sideband. 
+ 
+9/22/23022 
+Instructions are not complete. Keep checking the WA3RNC.COM web site for updates to the 
+instructions.   

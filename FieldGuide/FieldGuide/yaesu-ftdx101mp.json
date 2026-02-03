@@ -1,0 +1,348 @@
+{
+  "radio": {
+    "id": "yaesu-ftdx101mp",
+    "manufacturer": "Yaesu",
+    "model": "FT-DX101MP",
+    "revision": "1",
+    "pdfFilename": "FTDX101MP_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Yaesu FT-DX101MP is a flagship HF/50 MHz transceiver featuring hybrid SDR architecture, 200W output power, and AC power supply. It combines a narrow band SDR receiver with a direct sampling SDR for real-time spectrum visualization and superior receive performance."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 7-inch full-color TFT touch screen displays the spectrum scope, waterfall, and 3DSS (3 Dimensions Spectrum Stream) views. Touch the screen to tune directly to signals or access functions via the FUNC key."
+        },
+        {
+          "type": "paragraph",
+          "text": "To select functions on the Function Screen, either touch the item directly or rotate the [MULTI] knob to select and press to confirm. The MPVD (Multi Purpose VFO Outer Dial) ring around the Main Dial provides quick access to SUB VFO, VC-TUNE, Clarifier, or custom assigned functions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Active Band Indicator (ABI) LEDs show which bands are active: white for MAIN, blue for SUB, red when transmitting, and orange for marked/memo bands."
+        },
+        {
+          "type": "paragraph",
+          "text": "The MAIN and SUB receivers can operate independently with separate VFOs, filters, and DSP settings. Use the MAIN/SUB switch to select which receiver responds to front panel controls."
+        },
+        {
+          "type": "note",
+          "text": "The FT-DX101D is the 100W DC-powered version sharing the same interface. This manual covers both models."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Access the menu by pressing [FUNC] to display the Function Screen. Navigate with touch or [MULTI] knob. Example path: Select [DISPLAY SETTING] > [DISPLAY] > [TFT DIMMER]."
+        },
+        {
+          "type": "menuEntry",
+          "name": "TFT DIMMER",
+          "description": "Adjusts display brightness. Found in DISPLAY SETTING > DISPLAY."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CONTRAST",
+          "description": "Adjusts display contrast. Found in DISPLAY SETTING > DISPLAY."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Screen Saver",
+          "description": "Sets timeout for screen saver activation. Found in DISPLAY SETTING > DISPLAY."
+        },
+        {
+          "type": "menuEntry",
+          "name": "My Call",
+          "description": "Stores your callsign for display on screen. Found in DISPLAY SETTING."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PRESET",
+          "description": "Configures settings for different data modes (FT8/RTTY/PSK). Change the preset setting for optimal digital mode operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "C.S (Custom Select)",
+          "description": "Assigns custom functions to the C.S buttons and MPVD outer dial ring."
+        },
+        {
+          "type": "note",
+          "text": "The Setting Menu contains extensive configuration options organized by category. Use the [MULTI] knob to navigate efficiently."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a paddle or straight key to the [KEY] jack. The electronic keyer supports paddle, straight key, and bug mode operation. The sidetone audio level is adjustable."
+        },
+        {
+          "type": "paragraph",
+          "text": "The FT-DX101 includes CW Decode capability - received CW is decoded and displayed on screen. CW Spotting (zero-beating) helps you accurately tune to a CW signal."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Speed",
+          "description": "Adjusts electronic keyer speed in WPM. Rotate the designated control or access via menu."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Weight",
+          "description": "Sets the dot/dash ratio (weight) of the internal keyer for personalized timing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Polarity",
+          "description": "Reverses the dot and dash paddles if needed."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Mode",
+          "description": "Selects operating mode: Iambic A, Iambic B, Bug, or Straight key."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Delay Time",
+          "description": "Sets the break-in delay time for semi break-in operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contest Memory Keyer stores CW messages. Text Memory allows storing messages by programming characters directly. Contest Number feature automatically increments serial numbers."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-DX101MP includes three roofing filter bandwidths: 600 Hz, 3 kHz, and 12 kHz. The MAIN band on FT-DX101MP also includes a 300 Hz roofing filter. These dramatically attenuate out-of-band signals in the first IF stage."
+        },
+        {
+          "type": "paragraph",
+          "text": "The WIDTH knob narrows the passband symmetrically. The SHIFT feature moves the passband to eliminate interference on one side. The Filter Function Display shows passband status graphically."
+        },
+        {
+          "type": "menuEntry",
+          "name": "R.FIL (Roofing Filter)",
+          "description": "Selects the roofing filter bandwidth: 300 Hz (MP only), 600 Hz, 3 kHz, or 12 kHz. Narrower filters improve contest performance."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CONTOUR",
+          "description": "Provides gentle DSP passband shaping rather than sharp cutoff. Adjustable GAIN and bandwidth (Q). Very effective for making weak signals rise above interference."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNR (Digital Noise Reduction)",
+          "description": "15-step adjustable noise reduction with algorithm optimization for different noise types."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IF NOTCH",
+          "description": "Eliminates narrow heterodyne interference from the receiver passband."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNF (Digital Notch Filter)",
+          "description": "Automatic tracking system that can attenuate multiple interfering beat signals, even when frequencies are changing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "APF (Audio Peak Filter)",
+          "description": "CW audio peaking filter that narrows the audio passband around the CW pitch frequency."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VC-TUNE",
+          "description": "Variable capacitor tuning circuit with stepping motor achieving up to -70 dB interference reduction. Fine adjustment for optimal tuning point."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IPO",
+          "description": "Intercept Point Optimization maximizes dynamic range and enhances close multi-signal characteristics. Minimizes impact of strong broadcast signals."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-DX101MP operates from AC mains power (100V or 200V depending on version) with an internal power supply. The FT-DX101D operates from 13.8V DC."
+        },
+        {
+          "type": "warning",
+          "text": "Do not use voltages other than the specified power supply voltage. Never cut off the fuse holder of the DC power cord. Pay due care not to mix up positive and negative polarities on DC connections."
+        },
+        {
+          "type": "specificationTable",
+          "title": "Power Consumption - FT-DX101MP",
+          "rows": [
+            { "name": "RX (no signal)", "value": "100 VA" },
+            { "name": "RX (signal present)", "value": "120 VA" },
+            { "name": "TX (200W)", "value": "720 VA" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Power Consumption - FT-DX101D",
+          "rows": [
+            { "name": "Supply Voltage", "value": "13.8V DC +/-10% (negative ground)" },
+            { "name": "RX (no signal)", "value": "3.5A" },
+            { "name": "RX (signal present)", "value": "4A" },
+            { "name": "TX (100W)", "value": "23A" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "RF Output Power",
+          "rows": [
+            { "name": "FT-DX101MP", "value": "5-200W (5-50W AM carrier)" },
+            { "name": "FT-DX101D", "value": "5-100W (5-25W AM carrier)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-DX101 includes a built-in automatic antenna tuner. It can also operate with the optional FC-40 external automatic antenna tuner for wire antennas."
+        },
+        {
+          "type": "paragraph",
+          "text": "To use the internal tuner, press the [ATU] button. The tuner matches impedances from 16.7-150 ohms on HF (1.8-29.7 MHz) and 25-100 ohms on 50 MHz."
+        },
+        {
+          "type": "paragraph",
+          "text": "The FC-40 external tuner connects to the rear panel and can match a wide variety of antennas to within 2:1 SWR on any amateur band from 160 through 6 meters."
+        },
+        {
+          "type": "note",
+          "text": "When using FC-40, configure the FTDX101 series settings appropriately. Listen on the frequency before tuning to avoid interfering with other stations."
+        },
+        {
+          "type": "warning",
+          "text": "Do not tune into a frequency already in use. The FC-40 presumes the same antenna will be used when that frequency range is selected later."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "General",
+          "rows": [
+            { "name": "TX Frequency Range", "value": "1.8-54 MHz (amateur bands), 70-70.5 MHz (UK)" },
+            { "name": "RX Frequency Range", "value": "30 kHz - 75 MHz" },
+            { "name": "Operating Modes", "value": "CW, AM, LSB, USB, FM, RTTY, PSK31" },
+            { "name": "Frequency Stability", "value": "+/-0.1 ppm (after 1 min, -10°C to +60°C)" },
+            { "name": "Frequency Steps", "value": "1/5/10 Hz (SSB/CW), 10/100 Hz (AM/FM)" },
+            { "name": "Antenna Impedance", "value": "50 ohms unbalanced" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Transmitter",
+          "rows": [
+            { "name": "Output Power (MP)", "value": "5-200W (5-50W AM)" },
+            { "name": "Output Power (D)", "value": "5-100W (5-25W AM)" },
+            { "name": "Carrier Suppression", "value": "At least 60 dB below peak" },
+            { "name": "Unwanted Sideband", "value": "At least 60 dB below peak" },
+            { "name": "Harmonic Radiation", "value": "Better than -50 dB (HF), -66 dB (50 MHz @ 200W)" },
+            { "name": "SSB Bandwidth", "value": "3 kHz, 300-2700 Hz response" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Receiver",
+          "rows": [
+            { "name": "Circuit Type", "value": "Double superheterodyne (hybrid SDR)" },
+            { "name": "IF Frequencies", "value": "1st: 9.005 MHz (MAIN), 8.9 MHz (SUB); 2nd: 24 kHz" },
+            { "name": "Roofing Filters", "value": "300 Hz (MP), 600 Hz, 3 kHz, 12 kHz" },
+            { "name": "SSB/CW Sensitivity (HF)", "value": "0.16 uV (AMP2 ON)" },
+            { "name": "SSB/CW Sensitivity (50 MHz)", "value": "0.125 uV (AMP2 ON)" },
+            { "name": "SSB Selectivity", "value": "2.4 kHz/-6dB, 3.6 kHz/-60dB" },
+            { "name": "Audio Output", "value": "2.5W into 4 ohms (10% THD)" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Physical",
+          "rows": [
+            { "name": "Dimensions", "value": "420 x 130 x 322 mm (16.6 x 5.1 x 12.7 in)" },
+            { "name": "Weight (MP)", "value": "14.3 kg (31.5 lb)" },
+            { "name": "Weight (D)", "value": "12 kg (26.5 lb)" },
+            { "name": "Operating Temperature", "value": "0°C to +50°C (32°F to 122°F)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Reset to defaults",
+          "description": "Reset the microprocessor via the menu to restore factory settings if experiencing unusual behavior."
+        },
+        {
+          "type": "menuEntry",
+          "name": "QMB not storing",
+          "description": "Use QMB Channel Storage to save frequencies. QMB Channel Recall retrieves stored settings. Check the number of QMB channels configured."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Split operation issues",
+          "description": "Use Quick Split Operation for fast split setup. Direct input of offset frequency available for precise control."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Clarifier not working",
+          "description": "Enable RX Clarifier for receive frequency offset or TX Clarifier for transmit offset. Use MPVD ring for quick clarifier adjustment."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Display too dim/bright",
+          "description": "Adjust TFT DIMMER in DISPLAY SETTING > DISPLAY. Also check contrast setting."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Memory erasing issues",
+          "description": "Use the proper procedure for Erasing Memory Channel Data. Check Memory Channel Status before erasing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RTTY/PSK decode issues",
+          "description": "Ensure proper PRESET settings for data modes. RTTY and PSK have separate decode and text memory systems."
+        },
+        {
+          "type": "menuEntry",
+          "name": "External display connection",
+          "description": "Use EXT-DISPLAY connector on rear panel. Set Video signal output to ON in menu."
+        }
+      ]
+    }
+  ]
+}

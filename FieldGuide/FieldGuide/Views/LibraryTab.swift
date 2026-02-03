@@ -14,6 +14,18 @@ struct LibraryTab: View {
         GridItem(.flexible()),
     ]
 
+    private var downloadedRadios: [Radio] {
+        radios.filter { $0.isDownloaded }
+    }
+
+    private var favoriteRadios: [Radio] {
+        downloadedRadios.filter { $0.isFavorite }
+    }
+
+    private var nonFavoriteRadios: [Radio] {
+        downloadedRadios.filter { !$0.isFavorite }
+    }
+
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -44,15 +56,46 @@ struct LibraryTab: View {
     }
 
     private var radioGrid: some View {
-        LazyVGrid(columns: columns, spacing: 16) {
-            ForEach(radios.filter { $0.isDownloaded }) { radio in
-                NavigationLink(value: radio) {
-                    RadioCard(radio: radio)
+        VStack(alignment: .leading, spacing: 24) {
+            if !favoriteRadios.isEmpty {
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Favorites")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .padding(.horizontal)
+
+                    LazyVGrid(columns: columns, spacing: 16) {
+                        ForEach(favoriteRadios) { radio in
+                            NavigationLink(value: radio) {
+                                RadioCard(radio: radio)
+                            }
+                            .buttonStyle(.plain)
+                        }
+                    }
+                    .padding(.horizontal)
                 }
-                .buttonStyle(.plain)
+            }
+
+            VStack(alignment: .leading, spacing: 12) {
+                if !favoriteRadios.isEmpty {
+                    Text("All Radios")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                        .padding(.horizontal)
+                }
+
+                LazyVGrid(columns: columns, spacing: 16) {
+                    ForEach(nonFavoriteRadios) { radio in
+                        NavigationLink(value: radio) {
+                            RadioCard(radio: radio)
+                        }
+                        .buttonStyle(.plain)
+                    }
+                }
+                .padding(.horizontal)
             }
         }
-        .padding()
+        .padding(.vertical)
         .navigationDestination(for: Radio.self) { radio in
             RadioDetailView(radio: radio)
         }
@@ -60,14 +103,26 @@ struct LibraryTab: View {
 }
 
 struct RadioCard: View {
-    let radio: Radio
+    @Bindable var radio: Radio
 
     var body: some View {
         VStack(spacing: 4) {
-            Image(systemName: "radio")
-                .font(.system(size: 40))
-                .foregroundStyle(.blue)
-                .frame(height: 60)
+            ZStack(alignment: .topTrailing) {
+                Image(systemName: "radio")
+                    .font(.system(size: 40))
+                    .foregroundStyle(.blue)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 60)
+
+                Button {
+                    radio.isFavorite.toggle()
+                } label: {
+                    Image(systemName: radio.isFavorite ? "star.fill" : "star")
+                        .font(.system(size: 20))
+                        .foregroundStyle(radio.isFavorite ? .yellow : .secondary)
+                }
+                .buttonStyle(.plain)
+            }
 
             Text(radio.model)
                 .font(.headline)

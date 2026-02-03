@@ -1,0 +1,342 @@
+{
+  "radio": {
+    "id": "elecraft-kx3",
+    "manufacturer": "Elecraft",
+    "model": "KX3",
+    "revision": "C5",
+    "pdfFilename": "E740163_KX3_Owners_man_Rev_C5.pdf"
+  },
+  "sections": [
+    {
+      "id": "elecraft-kx3-operation-basics",
+      "title": "Operation Basics",
+      "sortOrder": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Operation Basics content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kx3-menu-system-reference",
+      "title": "Menu System Reference",
+      "sortOrder": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Menu System Reference content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kx3-cw-keyer-settings",
+      "title": "CW/Keyer Settings",
+      "sortOrder": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract CW/Keyer Settings content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kx3-filters-and-dsp",
+      "title": "Filters & DSP",
+      "sortOrder": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Filters & DSP content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kx3-power-and-battery",
+      "title": "Power & Battery",
+      "sortOrder": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Power & Battery content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kx3-atu-operation",
+      "title": "ATU Operation",
+      "sortOrder": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract ATU Operation content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kx3-specifications",
+      "title": "Specifications",
+      "sortOrder": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Specifications content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "elecraft-kx3-quick-troubleshooting",
+      "title": "Quick Troubleshooting",
+      "sortOrder": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Quick Troubleshooting content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    }
+  ],
+  "_extractedTOC": [
+    {
+      "title": "Contents \n \nIntroduction",
+      "page": 3
+    },
+    {
+      "title": "Key to Symbols and Text Styles",
+      "page": 3
+    },
+    {
+      "title": "Installation",
+      "page": 4
+    },
+    {
+      "title": "Operating Position",
+      "page": 4
+    },
+    {
+      "title": "Power Supply",
+      "page": 4
+    },
+    {
+      "title": "CW Key/Keyer Paddle",
+      "page": 4
+    },
+    {
+      "title": "Headphones and Speakers",
+      "page": 5
+    },
+    {
+      "title": "Microphone",
+      "page": 5
+    },
+    {
+      "title": "Antennas",
+      "page": 6
+    },
+    {
+      "title": "Grounding and ESD Protection",
+      "page": 6
+    },
+    {
+      "title": "Control Panel Reference",
+      "page": 7
+    },
+    {
+      "title": "Basic Operation",
+      "page": 9
+    },
+    {
+      "title": "Getting Started",
+      "page": 9
+    },
+    {
+      "title": "Band Selection",
+      "page": 10
+    },
+    {
+      "title": "Mode Selection",
+      "page": 10
+    },
+    {
+      "title": "VFOs A and B",
+      "page": 11
+    },
+    {
+      "title": "Special VFO B Displays",
+      "page": 11
+    },
+    {
+      "title": "Receive Settings",
+      "page": 12
+    },
+    {
+      "title": "Transmit Settings",
+      "page": 14
+    },
+    {
+      "title": "Transmit and ATU Control",
+      "page": 14
+    },
+    {
+      "title": "CW Mode",
+      "page": 16
+    },
+    {
+      "title": "Advanced Operating Features",
+      "page": 17
+    },
+    {
+      "title": "Frequency Memories",
+      "page": 17
+    },
+    {
+      "title": "Scanning",
+      "page": 17
+    },
+    {
+      "title": "Data Modes",
+      "page": 18
+    },
+    {
+      "title": "Text Decode And Display",
+      "page": 19
+    },
+    {
+      "title": "Programmable Function Switches",
+      "page": 19
+    },
+    {
+      "title": "Split and XIT",
+      "page": 19
+    },
+    {
+      "title": "Audio Effects",
+      "page": 20
+    },
+    {
+      "title": "Dual Watch",
+      "page": 20
+    },
+    {
+      "title": "SSB/CW VFO Offset",
+      "page": 21
+    },
+    {
+      "title": "Transmit Noise Gate",
+      "page": 21
+    },
+    {
+      "title": "Transmit Inhibit and External PTT",
+      "page": 21
+    },
+    {
+      "title": "Transverter Bands",
+      "page": 21
+    },
+    {
+      "title": "Special VFO B Displays",
+      "page": 22
+    },
+    {
+      "title": "Internal Batteries",
+      "page": 23
+    },
+    {
+      "title": "VFO Friction Adjustment",
+      "page": 24
+    },
+    {
+      "title": "Options and Accessories",
+      "page": 25
+    },
+    {
+      "title": "Firmware Upgrades",
+      "page": 25
+    },
+    {
+      "title": "SDR Applications",
+      "page": 26
+    },
+    {
+      "title": "Configuration",
+      "page": 29
+    },
+    {
+      "title": "Option Module Enables",
+      "page": 29
+    },
+    {
+      "title": "Menu Settings",
+      "page": 29
+    },
+    {
+      "title": "Calibration",
+      "page": 31
+    },
+    {
+      "title": "Reference Frequency",
+      "page": 31
+    },
+    {
+      "title": "Receive Sideband",
+      "page": 32
+    },
+    {
+      "title": "Transmit Bias",
+      "page": 32
+    },
+    {
+      "title": "Transmit Gain",
+      "page": 33
+    },
+    {
+      "title": "Transmit Carrier",
+      "page": 34
+    },
+    {
+      "title": "Transmit Sideband",
+      "page": 34
+    },
+    {
+      "title": "Menu Functions",
+      "page": 35
+    },
+    {
+      "title": "Troubleshooting",
+      "page": 44
+    },
+    {
+      "title": "Theory Of Operation",
+      "page": 49
+    },
+    {
+      "title": "RF Board",
+      "page": 49
+    },
+    {
+      "title": "Glossary of Selected Terms",
+      "page": 52
+    },
+    {
+      "title": "Specifications",
+      "page": 54
+    },
+    {
+      "title": "Customer Service and Support",
+      "page": 55
+    },
+    {
+      "title": "Index",
+      "page": 56
+    }
+  ],
+  "_pageCount": 58
+}

@@ -3,6 +3,16 @@
   "lastUpdated": "2026-02-03",
   "radios": [
     {
+      "id": "bg2fx-fx4cr",
+      "manufacturer": "BG2FX",
+      "model": "FX-4CR",
+      "revision": "1.0",
+      "contentURL": "https://example.com/field-guide-content/bg2fx-fx4cr/content.json",
+      "pdfURL": "https://example.com/field-guide-content/bg2fx-fx4cr/FX-4CR_Manual.pdf",
+      "pdfSize": 688018,
+      "contentSize": 11159
+    },
+    {
       "id": "elecraft-k1",
       "manufacturer": "Elecraft",
       "model": "K1",
@@ -73,6 +83,46 @@
       "contentSize": 6080
     },
     {
+      "id": "icom-ic705",
+      "manufacturer": "ICOM",
+      "model": "IC-705",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/icom-ic705/content.json",
+      "pdfURL": "https://example.com/field-guide-content/icom-ic705/IC-705_Basic_Manual.pdf",
+      "pdfSize": 11157120,
+      "contentSize": 17050
+    },
+    {
+      "id": "icom-ic7100",
+      "manufacturer": "ICOM",
+      "model": "IC-7100",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/icom-ic7100/content.json",
+      "pdfURL": "https://example.com/field-guide-content/icom-ic7100/IC-7100_Manual.pdf",
+      "pdfSize": 4552354,
+      "contentSize": 15251
+    },
+    {
+      "id": "icom-ic7300",
+      "manufacturer": "ICOM",
+      "model": "IC-7300",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/icom-ic7300/content.json",
+      "pdfURL": "https://example.com/field-guide-content/icom-ic7300/IC-7300_Full_Manual.pdf",
+      "pdfSize": 36587629,
+      "contentSize": 15744
+    },
+    {
+      "id": "icom-ic7300mk2",
+      "manufacturer": "ICOM",
+      "model": "IC-7300MK2",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/icom-ic7300mk2/content.json",
+      "pdfURL": "https://example.com/field-guide-content/icom-ic7300mk2/IC-7300MK2_Manual.pdf",
+      "pdfSize": 11128916,
+      "contentSize": 14826
+    },
+    {
       "id": "lnr-ld5",
       "manufacturer": "LNR Precision",
       "model": "LD-5",
@@ -113,6 +163,16 @@
       "contentSize": 8461
     },
     {
+      "id": "penntek-tr25",
+      "manufacturer": "PennTek",
+      "model": "TR-25",
+      "revision": "1.0",
+      "contentURL": "https://example.com/field-guide-content/penntek-tr25/content.json",
+      "pdfURL": "https://example.com/field-guide-content/penntek-tr25/TR-25_Manual.pdf",
+      "pdfSize": 329990,
+      "contentSize": 8818
+    },
+    {
       "id": "penntek-tr35",
       "manufacturer": "PennTek",
       "model": "TR-35",
@@ -133,6 +193,36 @@
       "contentSize": 8299
     },
     {
+      "id": "venus-sw3b",
+      "manufacturer": "Venus",
+      "model": "SW-3B",
+      "revision": "1.0",
+      "contentURL": "https://example.com/field-guide-content/venus-sw3b/content.json",
+      "pdfURL": "https://example.com/field-guide-content/venus-sw3b/SW-3B_Manual.pdf",
+      "pdfSize": 502250,
+      "contentSize": 8409
+    },
+    {
+      "id": "venus-sw6b",
+      "manufacturer": "Venus",
+      "model": "SW-6B",
+      "revision": "1.0",
+      "contentURL": "https://example.com/field-guide-content/venus-sw6b/content.json",
+      "pdfURL": "https://example.com/field-guide-content/venus-sw6b/SW-6B_Manual.pdf",
+      "pdfSize": 12936152,
+      "contentSize": 8442
+    },
+    {
+      "id": "yaesu-ft710",
+      "manufacturer": "Yaesu",
+      "model": "FT-710",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/yaesu-ft710/content.json",
+      "pdfURL": "https://example.com/field-guide-content/yaesu-ft710/FT-710_Manual.pdf",
+      "pdfSize": 31382244,
+      "contentSize": 13990
+    },
+    {
       "id": "yaesu-ft891",
       "manufacturer": "Yaesu",
       "model": "FT-891",
@@ -141,6 +231,36 @@
       "pdfURL": "https://example.com/field-guide-content/yaesu-ft891/FT-891_Instruction_Manual.pdf",
       "pdfSize": 20671641,
       "contentSize": 14210
+    },
+    {
+      "id": "yaesu-ft991a",
+      "manufacturer": "Yaesu",
+      "model": "FT-991A",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/yaesu-ft991a/content.json",
+      "pdfURL": "https://example.com/field-guide-content/yaesu-ft991a/FT-991A_Manual.pdf",
+      "pdfSize": 37481086,
+      "contentSize": 14423
+    },
+    {
+      "id": "yaesu-ftdx101mp",
+      "manufacturer": "Yaesu",
+      "model": "FT-DX101MP",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/yaesu-ftdx101mp/content.json",
+      "pdfURL": "https://example.com/field-guide-content/yaesu-ftdx101mp/FTDX101MP_Manual.pdf",
+      "pdfSize": 0,
+      "contentSize": 15158
+    },
+    {
+      "id": "yaesu-ftx1",
+      "manufacturer": "Yaesu",
+      "model": "FTX-1",
+      "revision": "1",
+      "contentURL": "https://example.com/field-guide-content/yaesu-ftx1/content.json",
+      "pdfURL": "https://example.com/field-guide-content/yaesu-ftx1/FTX-1_Manual.pdf",
+      "pdfSize": 4900628,
+      "contentSize": 14241
     }
   ]
 }

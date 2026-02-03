@@ -1,0 +1,331 @@
+{
+  "radio": {
+    "id": "yaesu-ft991a",
+    "manufacturer": "Yaesu",
+    "model": "FT-991A",
+    "revision": "1",
+    "pdfFilename": "FT-991A_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Yaesu FT-991A is an HF/VHF/UHF all-mode transceiver with 100W on HF/50 MHz and 50W on 144/430 MHz. It features a 3.5 inch TFT touch screen, C4FM digital mode capability, real-time spectrum scope, and built-in antenna tuner."
+        },
+        {
+          "type": "paragraph",
+          "text": "The AMS (Automatic Mode Select) function recognizes whether a station is transmitting C4FM digital or analog FM and automatically switches to match. DG-ID (Digital Group ID) allows group communication, while DP-ID (Digital Personal ID) enables private communications between registered transceivers."
+        },
+        {
+          "type": "paragraph",
+          "text": "The GM (Group Monitor) function automatically finds stations with GM enabled on the same frequency and exchanges position information. Distance and direction to other stations can be displayed."
+        },
+        {
+          "type": "paragraph",
+          "text": "The spectrum scope provides real-time visualization of band activity. The waterfall display shows signal strength with color differentiation. Touch the scope display to tune to signals directly."
+        },
+        {
+          "type": "paragraph",
+          "text": "The C.S (Custom Switch) button can be assigned to any menu item for one-touch access. Band Stack operation stores multiple frequencies per band for quick recall."
+        },
+        {
+          "type": "note",
+          "text": "The FT-991A includes a built-in TCXO with +/-0.5 ppm frequency stability. No external reference oscillator is needed for stable operation."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Access the menu via the Function Menu displayed on the TFT screen. Use the touch screen or MULTI knob to navigate. The C.S button provides one-touch access to a user-assigned menu item."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DIMMER",
+          "description": "Adjusts display brightness for comfortable viewing in different lighting conditions."
+        },
+        {
+          "type": "menuEntry",
+          "name": "VFO COLOR",
+          "description": "Customizes the VFO frequency display color."
+        },
+        {
+          "type": "menuEntry",
+          "name": "My Call Sign",
+          "description": "Stores your callsign for display and C4FM digital identification."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DG-ID TX/RX",
+          "description": "Sets Digital Group ID numbers (00-99) for transmit and receive. Setting both to 00 allows communication with all C4FM stations."
+        },
+        {
+          "type": "menuEntry",
+          "name": "C.S (Custom Switch)",
+          "description": "Assigns any menu item to the C.S button for one-touch access. Select from the function menu."
+        },
+        {
+          "type": "menuEntry",
+          "name": "GPS Function",
+          "description": "Enables GPS positioning for location display and GM function. Connect GPS receiver to GPS/CAT jack."
+        },
+        {
+          "type": "note",
+          "text": "Reset options include Full Reset (returns all to factory defaults) and Full Reset Except SETUP settings (preserves basic configuration)."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Connect a straight key, paddle, or external keyer to the KEY jack on the front panel. The built-in electronic keyer supports iambic operation with adjustable speed and weight."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Speed",
+          "description": "Adjusts electronic keyer speed in WPM."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Weight",
+          "description": "Sets the dot/dash ratio (weight) for personalized timing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Keyer Mode",
+          "description": "Selects keyer operating mode: Straight, Bug, Iambic A, or Iambic B."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Delay Time",
+          "description": "Sets break-in delay time for semi break-in operation."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW Pitch",
+          "description": "Adjusts the sidetone and receive audio pitch frequency."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contest Memory Keyer stores CW messages with support for contest number programming and automatic increment. CW Spotting (zero-beating) helps accurately tune to received CW signals."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-991A includes two roofing filters: 3 kHz and 15 kHz. These dramatically attenuate out-of-band signals in the first IF stage, improving performance in crowded band conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "The WIDTH knob narrows the DSP passband symmetrically. The SHIFT feature moves the passband to eliminate interference on one side. These allow extracting weak signals from interfering pile-ups."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CONTOUR",
+          "description": "Provides gentle DSP passband shaping rather than sharp cutoff. Very effective for making weak signals rise above interference. Adjustable frequency and bandwidth."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IF NOTCH",
+          "description": "Eliminates narrow heterodyne interference from the passband. Works in SSB/CW/RTTY/DATA/AM modes."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNF (Digital Notch Filter)",
+          "description": "Automatic tracking filter that attenuates multiple beat signals, even when frequencies are changing."
+        },
+        {
+          "type": "menuEntry",
+          "name": "DNR (Digital Noise Reduction)",
+          "description": "15-step adjustable noise reduction with algorithm optimization for different noise types."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IF Noise Blanker (NB)",
+          "description": "Reduces pulse-type noise from ignition systems. Adjustable level control."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IPO",
+          "description": "Intercept Point Optimization maximizes dynamic range and enhances close multi-signal characteristics, especially useful for weak signals near strong broadcast stations."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Audio Peak Filter (APF)",
+          "description": "CW audio peaking filter that narrows audio passband around the CW pitch frequency."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-991A operates from 13.8V DC (+/-15%) with negative ground. It is designed for base, mobile, or portable operation with appropriate power supply."
+        },
+        {
+          "type": "warning",
+          "text": "Do not use voltages other than the specified power supply voltage. Observe correct polarity when connecting DC power. Never cut off the fuse holder from the power cable."
+        },
+        {
+          "type": "specificationTable",
+          "title": "Power Consumption",
+          "rows": [
+            { "name": "Supply Voltage", "value": "13.8V DC +/-15% (negative ground)" },
+            { "name": "RX (no signal)", "value": "1.8A" },
+            { "name": "RX (signal present)", "value": "2.2A" },
+            { "name": "TX HF/50 MHz (100W)", "value": "23A" },
+            { "name": "TX 144/430 MHz (50W)", "value": "15A" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "RF Output Power",
+          "rows": [
+            { "name": "HF/50 MHz", "value": "5-100W (2-25W AM carrier)" },
+            { "name": "144 MHz", "value": "5-50W" },
+            { "name": "430 MHz", "value": "5-50W" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The FT-991A includes a high-speed relay-switching antenna tuner covering 1.8-50 MHz. The 100-channel tuning memory allows instant recall of previously tuned settings."
+        },
+        {
+          "type": "paragraph",
+          "text": "The tuner matches impedances from 16.7-150 ohms on HF (1.8-30 MHz) and 25-100 ohms on 50 MHz."
+        },
+        {
+          "type": "paragraph",
+          "text": "The optional FC-40 external antenna tuner can match wire antennas to within 2:1 SWR on 160 through 6 meters, typically in less than 8 seconds. Matching settings are automatically stored for instant recall."
+        },
+        {
+          "type": "paragraph",
+          "text": "The ATAS-120A active-tuning antenna system can also be used for mobile operation. Mounting bracket MMB-90 is available for vehicle installation."
+        },
+        {
+          "type": "note",
+          "text": "Listen on the frequency before tuning to avoid interfering with stations already in QSO. The FC-40 stores settings and assumes the same antenna will be used when that frequency range is selected later."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "General",
+          "rows": [
+            { "name": "RX Frequency Range", "value": "30 kHz-56 MHz, 118-164 MHz, 420-470 MHz" },
+            { "name": "TX Frequency Range", "value": "1.8-54 MHz, 144-148 MHz, 430-450 MHz (amateur bands)" },
+            { "name": "Operating Modes", "value": "CW, AM, LSB, USB, FM, C4FM, F2D (data)" },
+            { "name": "Frequency Stability", "value": "+/-0.5 ppm (after 1 min, -10°C to +50°C)" },
+            { "name": "Frequency Steps", "value": "5/10 Hz (SSB/CW/AM), 100 Hz (FM/C4FM)" },
+            { "name": "Antenna Impedance", "value": "50 ohms unbalanced" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Transmitter",
+          "rows": [
+            { "name": "Output Power (HF/50 MHz)", "value": "5-100W (2-25W AM)" },
+            { "name": "Output Power (144/430 MHz)", "value": "5-50W" },
+            { "name": "Carrier Suppression", "value": "At least 50 dB below peak" },
+            { "name": "Unwanted Sideband", "value": "At least 50 dB below peak" },
+            { "name": "Harmonic Radiation (HF)", "value": "Better than -50 dB" },
+            { "name": "SSB Bandwidth", "value": "3 kHz, 300-2700 Hz response" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Receiver",
+          "rows": [
+            { "name": "Circuit Type", "value": "Triple-conversion (SSB/CW/AM), Double (FM/C4FM)" },
+            { "name": "IF Frequencies", "value": "69.450/9.000 MHz/24 kHz (SSB/CW/AM)" },
+            { "name": "Roofing Filters", "value": "3 kHz, 15 kHz" },
+            { "name": "SSB/CW Sensitivity (HF)", "value": "0.158 uV (AMP2 ON)" },
+            { "name": "SSB/CW Sensitivity (VHF/UHF)", "value": "0.11 uV" },
+            { "name": "SSB Selectivity", "value": "2.4 kHz/-6dB, 3.6 kHz/-60dB" },
+            { "name": "Audio Output", "value": "2.5W into 4 ohms (10% THD)" }
+          ]
+        },
+        {
+          "type": "specificationTable",
+          "title": "Physical",
+          "rows": [
+            { "name": "Dimensions", "value": "229 x 80 x 253 mm (9.0 x 3.2 x 10.0 in)" },
+            { "name": "Weight", "value": "4.3 kg (9.5 lb)" },
+            { "name": "Operating Temperature", "value": "-10°C to +50°C (14°F to 122°F)" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Reset microprocessor",
+          "description": "Use Full Reset to restore factory defaults, or Full Reset (Except SETUP settings) to preserve basic configuration."
+        },
+        {
+          "type": "menuEntry",
+          "name": "C4FM not connecting",
+          "description": "Verify DG-ID settings match the group. Set both TX and RX to 00 for universal C4FM communication. Check AMS is enabled."
+        },
+        {
+          "type": "menuEntry",
+          "name": "GPS not working",
+          "description": "Connect GPS receiver to GPS/CAT jack. Enable GPS function in menu. Allow time for satellite acquisition."
+        },
+        {
+          "type": "menuEntry",
+          "name": "GM not finding stations",
+          "description": "Ensure GM function is enabled on all stations. All stations must be on same frequency with GM active."
+        },
+        {
+          "type": "menuEntry",
+          "name": "TFT display issues",
+          "description": "Dead or always-on pixels are normal for TFT technology. Color unevenness depends on viewing angle. Clean with dry soft cloth only."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Voice memory not working",
+          "description": "Voice memory is optional and supports 5 channels of up to 20 seconds each. Verify feature is enabled and memory recorded."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Split operation",
+          "description": "Use TX Clarifier for split operation, or use dedicated split frequency function. A/B and A=B buttons manage VFO settings."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Clock adjustment",
+          "description": "Adjust clock in setup menu. GPS can provide automatic time synchronization when connected and enabled."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,699 @@
+
+============================================================
+PAGE 1
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+ 
+ 
+ 
+LD5 – CW/SSB QRP Transceiver 
+ 
+SDR /DSP  
+
+============================================================
+PAGE 2
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+Quick guide manual 
+Description: 
+ 
+At the development base of the digital signal processing unit, an algorithm is embedded for IQ processing of 
+the channels with phase suppression of the unwanted side-band channel. 
+  
+Unit CPU \ DSP performs the following functions: 
+ 
+-------------------------------------------------- ------------------------------- 
+ 
+Digital signal processing 
+ 
+Frequency synthesizer 
+ 
+Full control of the transceiver with direct conversion / SDR / 
+ 
+Applicaton: 
+ 
+Due to its small dimensions and light weight this transceiver is suitable for any portable or stationary 
+operation.  
+This unit contains: 
+ 
+-CPU STM32F407, 
+ 
+-NS -24 bit ADC PCM1803, 
+ 
+-NS -16 bit DAC CS4338 low hissing amp 
+ 
+-HF-generator Si570 
+ 
+-1602-line LCD 
+ 
+-Matrix of buttons 
+ 
+-Encoder 
+ 
+The unit has electronic CW Iambic key, SWR meter and output power wattmeter. 
+Functions that this unit performs are separate and switchable for reception / transmission. 
+They are displayed on the screen display as RX / TX with symbols. 
+ 
+The LD5 is capable of firmware update via USB port. See LNR web page for instructions. 
+ 
+How to order: 
+ 
+LNR Website www.LNRprecision.com 
+Features 
+ 
+Emmision Modes: SSB, CW , DIGITAL  
+ 
+5W output power typ. 
+ 
+Very low noise floor due to DDC  input stage 
+ 
+The unit has an electronic CW Iambic A/B keyer, 
+SWR meter and output power wattmeter. 
+ 
+High stability Si 570 generator 
+ 
+Split-frequency operation 
+ 
+PTT can be switched by connecting PTT to ground 
+ 
+RX/TX switching: 
+o 
+push PTT input to ground 
+o 
+AF VOX 
+ 
+Output SWR indicator 
+ 
+Optimal output power indicator 
+ 
+Integrated Sequencer 
+ 
+TX 3 band EQ – presets for bass, middle and treble 
+boost 
+ 
+ 
+                                                   
+ 
+
+============================================================
+PAGE 3
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+                                                
+ 
+ 
+ 
+ 
+Block diagram 
+ 
+ 
+Specifications 
+General 
+ 
+ 
+Frequency range 
+7000 kHz – 22 MHz 
+40, 30, 20, 17 and 15 meter operation 
+Modes 
+USB, LSB, CW, CW-R, DIGITAL 
+DATA:CAT –USB jack : CW, PSK, RTTY, SSTV – 3.5mm jack 
+Power 
+5W output in CW / SSB 
+ 
+Frequency Stability 
++/- 3 ppm (Si570 defined) typical 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+over 0-50 deg C 
+Supply Voltage 
+10.5V min to 15V max 
+350Ma  receive and 1.5 to 2 A typical in transmit 
+Push button operation 
+ 
+ 
+LO temp. Stability 
+ 
++/- 2.5 
+Antenna 
+50 ohms 
+BNC 
+Dual VFO 
+ 
+ 
+ 
+ 
+ 
+Memory 
+100 memory storage per band 
+Memorize frequency, mode, VFO’s 
+Built-in speaker 
+0.2 watts 
+ 
+Dimensions 
+4.724” long X 3.937” wide x 1.957 “ tall 
+ 
+Weight 
+19.0oz / 0,54kilogram /excluding microphone/ 
+ 
+Iambic key 
+mode A and mode B 
+ 
+Pitch CW 
+Controls CW offset. The sidetone pitch is automatically set to equal  the offset 
+ 
+Notch Filter 
+Automatic Heterodyne filter  for SSB from -6 to -40 db 
+ 
+Noise reduction 
+level of attenuation of the noise from 1 to 50- use minimal necessary 
+ 
+Noise Blanker 
+adjusted in the range from value 4 to 12 readings depending on interference 
+ 
+ 
+CW VOX 
+Break in delay in CW –  adjustable from 0.1 seconds to 5 seconds 
+ 
+CW memory keyer 
+Choose Iambic Mode A or B 
+ 
+VOICE VOX 
+VOX Delay adjustable from 0.1 seconds to 5 seconds 
+ 
+ 
+ 
+SSB VOX LEVEL 
+VOX GAIN 10-100     10 IS MOST SENSITIVE 
+ 
+Filters 
+8 different filters – 4 of 4 for CW/ SSB  - 1-3 factory presets – No.4 adjustable for CW/50-
+1000Hz/ and SSB/250-3.6KHz 
+ 
+Compressor SSB 
+0-20dB 
+ 
+SSB TX MUTE 
+Enable= no monitor   Disable=  monitor 
+ 
+Transmitter 
+Input Power 
+10.5-13.8 VDC 
+ 
+Output Power 
+3.5 – 8W 
+ 
+
+============================================================
+PAGE 5
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+Measurement 
+SWR and Power in numbers or bar 
+ 
+ 
+supply voltage –real voltage on 
+display 
+ 
+Two modes CW 
+Select a hand key or a paddle 
+ 
+Receiver 
+Receive sensitivity 
+0.2uV 
+Preamp 
+Ant Preamp 
++12 
+dB 
+Spurious response rejection 
+IMD3 -48Db/ 5W 
+IMD5 -43dB 
+ATT 
+-6 db 
+ 
+ 
+ 
+
+============================================================
+PAGE 6
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+ 
+Front panel indicators and functions 
+                               
+ 
+ 
+ 
+
+============================================================
+PAGE 7
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+DESCRIPTION of the command buttons 
+ 
+ 
+ 
+ 
+          
+ 
+ 
+ 
+Command 
+Meaning 
+ON/OFF 
+POWER ON/OFF the transceiver 
+UP Arrow ↑ 
+Change Band higher 7/10/14/18/21.  In Menu mode select next menu item   
+DOWN Arrow ↓ 
+Change band lower.  In menu mode select previous menu item. 
+MODE 
+Select CW/ CWR/ LSB/ USB/DIGI  
+VFO 
+Select either VFO A or B 
+STEP 
+Sequential pressing of the STEP button or the Tuning encoder steps through the tuning rate. 
+1 bar- 1Hz 2 bars=10Hz 3 bars=100Hz 4 bars=1KHz tuning rate. 
+LOCK 
+Lock/unlock the tuning dial  ₣ symbol appears to the left of the mode designation on LCD 
+
+============================================================
+PAGE 8
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+RIT 
+Receiver Incremental Tuning. This feature allows changing the frequency of the receiver only without effecting the transmit 
+frequency. When RIT is activated an * initially appears to the right of the frequency readout. The * indicates that currently, 
+RIT=0 or RX=TX. 
+While RIT is activated, tuning the VFO BELOW the current frequency is indicated by a< symbol. 
+Similarly, tuning above the center frequency results in a > symbol appearing to the right of the display.  
+RIT remains active until the next ON/OFF power cycle. 
+PRE/ATT 
+Sequentially enables preamp (↑) approx. +16dB  
+Preamp off= No arrow attenuator (↓) approx. -10dB 
+FILTER 
+Filter #4 is customizable in CW and SSB.  CW from 50Hz 2400Hz SSB from Low end  of 250Hz to High end of 3400Hz. 
+CW: Select Filter #4. Press F then Filter. Use the VFO knob to adjust bandwidth 
+SSB: Select Filter #4. Press F then Filter. Use the VFO   knob to adjust the low end. Press RIT to adjust the High end. Pressing 
+RIT again will toggle back to low end adjust. Press Filter when complete. 
+ 
+Memory Storage 
+A total of 100 memories are available. All features (e.g. Mode/NB/NR/Preamp etc) are stored along with the frequency. 
+To store a frequency in memory, first tune it in using the VFO. Set Mode and any other features you wish to store.  Press 
+MEMO   Use the VFO knob to  bring up the memory location  you wish to store: 0-99 
+Press the Down Arrow ꜜ 
+Press MEMO again 
+Memory Recall 
+To recall a stored memory channel; 
+Press MEMO 
+Use the VFO to dial up the desired memory location 
+Press the Up arrow ꜛ 
+Press Memo again 
+ 
+ 
+ 
+ 
+       
+
+============================================================
+PAGE 9
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+MENU Settings 
+ 
+Enter MENU MODE by pressing MENU button and exit the menu mode by pressing the MENU again after set up. 
+Most of the functions, related to receiving or transmitting, can be changed by values and monitored via monitor in real time. 
+ 
+MENU 
+Default menu settings 
+AGC 
+AGC speed from 1-20. 1 is the slowest and 20 the fastest 
+PITCH CW 
+Sidetone and CW offset pitch. Changes take effect when you exit Menu mode 
+CW SPEED 
+5 to 60 WPM.  Speed change takes effect when you exit Menu mode. 
+WEIGHT CW KEY 
+Adjusts the ratio of dash length to dot length: 
+ 2> 1; 2.5> 1; 3> 1; 3.5> 1; 4> 1; 4.5> 1   3:1 is standard 
+CW VOX 
+Controls break in delay. Steps in 100mSec from 100mSec to 5 seconds 
+REVERSE CW KEY 
+Change which side of the paddle is dot and which side is dash. 
+CW KEY TYPE 
+Two options: SIMPLE= hand key. AUTO= Paddle. 
+IAMBIC MODE 
+Allows user to switch from Iambic mode A to Iambic mode B 
+NOTCH FILTER 
+Adjusts notch depth from -6 dB to -40dB Changes can be observed while in Menu mode. 
+NOISE BLANKER 
+Adjustable using tuning knob from 4 to 12.  4 is maximum blanking, 12 is minimum. Changes can be heard while in Menu mode. 
+NOISE REDUCTION 
+Menu range from 1 to 100 with 1 being the least. If NR is activated from the front panel (F + NR) you can observe the effect 
+within the Menu. 
+S-METER MODE 
+Two modes: Bar Graph or readout in uV. 
+TX METER 
+Two options: Bar Graph (Scaler) or Watts (Number) 
+SHOW TX 
+Two options: Power in Watts or VSWR 
+POWER TX 
+Adjusts power out.  Settings from 10 to 100. Typically, a 10 setting is 1W and a 100 setting is 5W 
+LED MODE 
+Two options: Forever= LCD backlight always on. Auto= backlight turns on for 3 seconds whenever a front panel switch or encoder 
+is activated. Backlight off saves 40mA of current drain. 
+SSB TX MUTE 
+SSB TX Monitor. Two options: Enable and Disable 
+SSB COMPRESSOR 
+SSB Mic compression from 1 to 100. 
+SSB VOX 
+adjustment of VOX delay for SSB – DISABLE is off, Adjustable from 100mSec to 5 seconds in 100mSec steps 
+VOX LEVEL 
+Adjusts VOX gain in SSB mode. 
+TX EQ 
+3 options: Accentuate the Lows, Highs or Midrange. LowF /HiF/ MediumF 
+GAIN TX DIG 
+Setting from 1-9.8 using the VFO knob. This function controls the AF Gain in Digital mode 
+SQUELCH 
+Settings 0-100. A 0 (zero) setting essentially turns squelch off. 
+
+============================================================
+PAGE 10
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 11
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+      
+FUNCION SETTINGS = PUSHING F + : 
+RIT 
+On virtual intermediate frequency (VIF) – can be set from the main menu from 5000 to 10000 hertz. Identified as arrows on the upper right 
+corner of the display ->.  VIF is working as a main working feature and must be switched on permanently. DIRECT CONVERSION should be 
+used as an option. 
+ 
+On any VFO- when you push RIT  an asterisk appears as shown: 
+ 
+ 
+When you move frequency up , an arrow will appear to the right: 
+ 
+ 
+When you move frequency down , an arrow will appear to the left: 
+ 
+ 
+ 
+SPLIT OPERATION 
+SPLIT MODE- if you want to receive on 14020.00 and transmit on 14030.00: 
+SET frequency on VFO A 14020.00 and on VFO B 14030.00  
+REMEMBER, first VFO chosen is an RX frequency: 
+PUSH RIT button, and then follow RIT MODE : 
+ 
+
+============================================================
+PAGE 12
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+ 
+ 
+PUSH VFO A/B until VFO B appears, with reflecting RX frequency arrow to the left 
+ 
+ 
+If you switch on TX, the frequency on VFO B will appear – 14030.00 
+ 
+ 
+You will notice that VFO A frequency can move up/down, but VFO B is fixed on TX. 
+If you wish to reverse the frequency, exit RIT Mode and switch to VFO B, then push RIT and then VFO A.   
+Notice the arrow shows pointing to the right 
+ 
+ 
+On TX you will see this : 
+ 
+ 
+
+============================================================
+PAGE 13
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+To enter main MENU press the MENU button. After making menu changes, press MENU again to exit 
+MENU mode. 
+ 
+ 
+      ADDITIONAL FEATURES USING THE (F)UNCTION KEY           
+ 
+                              FUNCTION SETTINGS = PUSHING F +   
+ 
+ 
+ 
+ 
+ 
+MENU 
+Press (F)unction  and then Menu. This changes the 2nd line of the LCD display from S meter reading to monitoring the supply voltage. 
+Pressing (F)unction and Menu again returns to S meter reading. 
+UP (ꜛ) 
+Press (F)unction and then ꜛ turns on Noise Reduction at whatever level is preset in the  main Menu. The display will show  a “R” to the left 
+of the Filter # on the LCD display. Press (F)unction and ꜛagain to  turn off Noise Reduction 
+MODE 
+Available only in SSB mode. Press (F)unction and then Mode to enable the notch filter at whatever level has been preset in the main Menu. 
+Press (F)unction and then Mode again to turn off the notch filter. The letter “N” will display to the left of the Filter #. 
+DOWN (ꜜ) 
+Press (F)unction and then ꜜto turn on the Noise Blanker at whatever level has been preset in the main Menu. The  letter “B” will display to 
+the left of the Filter # on the LCD display 
+FILTER 
+Filter #4 is customizable in CW and SSB.  CW from 50Hz 2400Hz SSB from Low end of 250Hz to High end of 3400Hz. 
+CW: Select Filter #4. Press F then Filter. Use the VFO knob to adjust bandwidth 
+SSB: Select Filter #4. Press F then Filter. Use the VFO   knob to adjust the low end. Press RIT to adjust the High end. Pressing RIT again will 
+toggle back to low end adjust. Press Filter when complete. 
+ 
+ 
+         
+SERVICE MODE – It is strongly recommended to contact LNR Support before entering  
+service mode  
+Entry into service mode 
+To enter Service Mode – power OFF the radio and then press Power while holding down the (F)unction . Release (F)unction  as soon as the 
+Firmware page comes up. To display Service Mode options, press (F)unction and then Menu. The first screen you should see is IF DSP 5006 
+ Note: Some Main Menu functions will be rest to factory default after  Service Mode (corrected in firmware 1.77.1 update) 
+Do NOT adjust RX or TX IQ. 
+ 
+ 
+RX and TX IQ and Ref VFO are set differently for each LD-5 transceiver. Write these values down in your manual. 
+ 
+
+============================================================
+PAGE 14
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+BASIC SETTINGS 
+ 
+ 
+F button and then press the MENU button and moving with UP / DOWN and RIT 
+ 
+IF DSP 
+Virtual gap frequency from 5006 to 10013 Hz / recommended to use a low-frequency virtual 
+V PWR 
+If you have an accurate voltmeter, you can adjust the displayed voltage reading. Normally, should not need adjustment. 
+REF VFO 
+Used to calibrate the LCD frequency display. A higher reading will move the display UP in frequency. Factory set. 
+MULT VFO 
+Factory set- should not be changed 
+STARTING FREQUENCY 
+Low end frequency of selected band change with tuning knob 
+END FREQUENCY 
+High end frequency of selected band change with tuning knob 
+S METER 
+If you have a calibrated signal generator you can set the S meter in uV.   
+RX IQ 
+Setting the mirror channel correcting the phase and amplitude of IQ for each band separately on RX “- minimum reading – has two modes- 
+fast and slow for quick setting and fine – switched with STEP.  
+Each transceiver is factory default recorded on the accompanying document 
+FILTER SSB 
+Setup filters from 1 to 3 for each type of work. Changing the filter with the push button  “Filter” 
+FILTER CW 
+Allows user to change the bandwidth of the first three CW filters. While in Service Mode, press Menu. Select Filter 1 CW and redefine the BW 
+with the main tuning knob. Step to the next filter by pressing FILTER etc. Exit Menu mode to save. 
+AGC DSP 
+on / off AGC  -SHOULD ALWAYS BE SET TO ENABLE 
+SHOW S METER 
+Options are: Enable and Disable. Disable turns off the S meter 
+FILTER TX SSB 
+Adjustment of bandwidth in the transmit mode /FROM 150 Hz to 3600Hz/ -. Changing adjustment of the upper frequency 
+FILTER TX CW 
+With the push button “RIT/VIF” adjustment of bandwidth in the transmit mode /FROM 50 Hz to 1000Hz/ - soft CW manipulation 50 – 180 Hz. 
+BELL SOUND 
+LEVEL TX 
+Adjusts the calibration of the internal wattmeter. Do not change unless you have an accurate wattmeter. The lower the number, the higher 
+the wattmeter reads. 
+ 
+ 
+  
+ 
+
+============================================================
+PAGE 15
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+DESCRIPTION of the settings in transmit mode 
+ 
+PWR / VTT 
+POWER TX 
+This feature allows independent setting of output power on a band by band basis. Select the band you wish to change output power on 
+Enter service mode and dial up POWER TX. Use the VFO knob to change the power level as indicated on the 2nd line of the display. 
+100=minimum power. 1000=maximum power. 
+TX IQ 
+Correcting amplitude and phase balance in IQ channel – in the transmit mode for each band separately 
+For this purpose we need to have a separate receiver on the frequency and listen to the unwanted side band channel – set on minimal 
+hearing. Factory setting on all bands is : A 0.0000 F 0,0000 
+TX EQ 
+3 band audio presets on transmit only: bass, middle. Treble boost 
+ 
+ 
+DESCRIPTION of the current settings 
+ 
+/ Those settings are directly accessible by pressing MENU / 
+AGC SPEED 
+Adjustable from 1-20. 1 is the slowest AGC decay. 
+PITCH CW 
+CW TX offset. The offset value is matched by the side tone frequency. Range from 400-1000Hz 
+NOTCH FILTER 
+Heterodyne auto notch filter from -6dB to -40dB. Available only in SSB mode. 
+NOISE BLANKER 
+Adjustable from 4-12. 4 is maximum blanking. Changes can be heard while in Menu mode. 
+NOISE REDUCTION 
+Level of reduction of the noise from 1 to 100- use minimal necessary 
+S-METER MODE 
+Shows scale bars or S-units in microvolt’s 
+LED MODE 
+Choose Forever (always ON) or Auto (backlight comes on temporarily when any knob or button is pressed) 
+CW SPEED 
+Adjustable from 5-60 WPM 
+WEIGHT CW KEY 
+Adjusts the ratio of dash length to dot length:  2> 1; 2.5> 1; 3> 1; 3.5> 1; 4> 1; 4.5> 1  
+ 3:1 is standard 
+CW VOX 
+DELAY mode in CW - 100 milliseconds to 5000 milliseconds / 5 seconds. DISABLE turns off CW so accidentally hitting the key will not TX. 
+COMPRESS TX 
+Compression microphone from 0 to 100%. 100%= 20dB compression. 
+REVERSE CW KEY 
+Reverses the sides of the paddle that create DOT/DASH. Sometimes called right hand or left hand keying. 
+TX METER 
+The LCD display will show TX power via a bar graph or actual watts.  SHOW TX MUST be set to TX power first. Otherwise SWR will be 
+displayed. 
+SHOW TX 
+Choices are to display TX power in watts or SWR. 
+POWER TX 
+Regulation in mW from 10% to 100% 
+SSB MUTE 
+Allows for monitoring transmitted SSB signal. 
+
+============================================================
+PAGE 16
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+SSB MUTE 
+Allows for monitoring transmitted SSB signal 
+ 
+DIGITAL MODES 
+IMPORTANT – Make sure to connect the USB, Power Cord and Antenna before powering on the radio. 
+Then Power ON the Radio. Finally, start up your software program: 
+ 
+ 
+   
+ 
+In order to operate digital mode or interface with computer, utilize the Line IN/OUT jack and cable. The radio has typical levels for audio signals similar to other amateur 
+radios.   
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+ 
+ 
+ 
+SWR Protection 
+ 
+The radio has a built-in ALC SWR protection - when SWR does not exceed 3:1 – there is no change in output power. 
+But at a greater SWR, the protection gradually lowers the power output, and at SWR = 10 – the output power is only 1%. 
+ 
+================================================== ====================================== 
+  
+ 
+EXPANDED RECEIVE CAPABILITIES 
+ 
+The LD-5 can be set to receive 160M and 80M. At this time, this is for receive only, no TX. 
+ 
+1. Put the LD-5 on 40M. 
+2. Enter Service Menu 
+3. Use the UP and DOWN arrow keys to bring up (Begin Frequency 2 Band) 
+4. Using the VFO knob to tune to 1.8MHz. Pressing the Step button will enable faster QSY. 
+5. Exit Service mode 
+6. Use the VFO knob to tune to 7.300MHz and as you go higher the VFO will roll over to 1.8MHz. 
+7. Select a frequency and mode on 160M and store this frequency into a memory location. 
+8. Tune up to 80M and do the same for a memory location. 
+9. Tune to 40M and store a memory location. 
+ 
+When the 40M band is selected with the UP and DOWN arrows, use the Memory function to recall 160, 80 or 40M bands. 
+ 
+ 
+
+============================================================
+PAGE 18
+============================================================
+
+© 2014 LNR Precision Par EndFedz Antennas and QRP Transceivers 
+ 
+ 
+  
+  
+  
+ 
+TUNING BAR STEPS IN CW MODE 
+ 
+ 
+ 
+  
+  
+ 
+         PREAMP ENABLE                 
+ NORMAL                     ATTENUATOR ENABLE 
+ 
+ 
+   
+ 
+EXAMPLE CW FILTER #1      EXAMPLE CW  FILTER #4    
+ 
+ 
+   
+   
+   
+   
+     KEYBOARD LOCKED        NOISE REDUCTION= R        NOISE BLANKER= B          NOTCH FILTER= N 
+ 
