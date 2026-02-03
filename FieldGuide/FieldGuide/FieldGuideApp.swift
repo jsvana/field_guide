@@ -37,12 +37,25 @@ struct FieldGuideApp: App {
     }
 
     private static let bundledRadios = [
+        // Elecraft
         "elecraft-k1",
         "elecraft-k2",
         "elecraft-kh1",
         "elecraft-kx1",
         "elecraft-kx2",
         "elecraft-kx3",
+        // HamGadgets
+        "hamgadgets-cft1",
+        // LNR Precision
+        "lnr-ld5",
+        "lnr-mtr3b-v4",
+        "lnr-mtr4b-v2",
+        "lnr-mtr5b",
+        // PennTek
+        "penntek-tr35",
+        "penntek-tr45l",
+        // Yaesu
+        "yaesu-ft891",
     ]
 
     @MainActor

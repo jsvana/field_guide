@@ -1,0 +1,162 @@
+{
+  "radio": {
+    "id": "hamgadgets-cft1",
+    "manufacturer": "HamGadgets",
+    "model": "CFT1",
+    "revision": "C V12",
+    "pdfFilename": "CFT1_Assembly_Manual_RevC_V12.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The CFT1 is a 5-band (40m, 30m, 20m, 17m, 15m) QRP CW field transceiver designed by KM4CFT for portable POTA and SOTA operation. Features approximately 5W class-D transmitter, message memory playback, and iambic keyer with paddle reverse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Front panel controls: LCD display with 6 tactile buttons, rotary encoder for VFO tuning, and volume potentiometer (with white stripe on knob). The slide switch controls power."
+        },
+        {
+          "type": "paragraph",
+          "text": "Band selection and other functions are controlled via the menu system accessed by the front panel buttons. The radio stores last-used frequency for each band."
+        },
+        {
+          "type": "note",
+          "text": "The CFT1 is a kit radio. Refer to the assembly manual for build instructions. This section covers operation after successful assembly and calibration."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Access the menu by pressing the menu button. Use the rotary encoder to navigate and press the encoder knob to select options."
+        },
+        {
+          "type": "paragraph",
+          "text": "The calibration menu (accessed by rotating encoder counterclockwise from menu) contains critical settings for proper operation."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Built-in iambic keyer with paddle reverse option. Message memory playback available. Connect paddles to the 3.5mm jack."
+        },
+        {
+          "type": "paragraph",
+          "text": "Keyer modes include Straight Mono and Straight Stereo depending on your key type. Select the appropriate mode in the menu."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The CFT1 uses a 4-crystal ladder filter for IF selectivity. RIT (Receive Incremental Tuning) is available by long-pressing the VFO knob."
+        },
+        {
+          "type": "paragraph",
+          "text": "When RIT is enabled, adjust the RIT offset with the encoder. The display shows the RIT offset value. Typical peak audio occurs between +/-0.10 kHz offset."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The CFT1 operates from 12V DC via the barrel jack (5.5x2.1mm). A polyfuse and reverse polarity protection circuit protect against wiring errors."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "12V nominal (13.8V acceptable)"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "~5W at 12V"
+        },
+        {
+          "type": "warning",
+          "text": "When transmitting during PA calibration, limit key-down time to 5-second bursts since the IRF510 may not yet be connected to the heatsink."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The CFT1 does not include an internal antenna tuner. Use an external tuner for non-resonant antennas. Connect antenna to the BNC jack."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "CFT1 Technical Specifications",
+          "rows": [
+            { "name": "Bands", "value": "40m, 30m, 20m, 17m, 15m" },
+            { "name": "Output Power", "value": "~5W class-D" },
+            { "name": "Supply Voltage", "value": "12V nominal" },
+            { "name": "Antenna Jack", "value": "BNC" },
+            { "name": "Power Jack", "value": "5.5x2.1mm barrel" },
+            { "name": "Key Jack", "value": "3.5mm" },
+            { "name": "Headphone Jack", "value": "3.5mm" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Most issues during or after assembly relate to soldering. Carefully inspect all joints with magnification."
+        },
+        {
+          "type": "menuEntry",
+          "name": "LCD not visible",
+          "description": "Adjust contrast using trimpot RV4 with small Phillips screwdriver. Turn clockwise to increase contrast. Be gentle with the trimpot."
+        },
+        {
+          "type": "menuEntry",
+          "name": "No power output",
+          "description": "Verify PA calibration was completed correctly. Check RV1 (power level) and RV2 (PA drive) settings. Gate voltage should be 2-2.5V when transmitting."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Frequency appears off",
+          "description": "Perform 10 MHz reference calibration using an accurate receiver. Use the calibration menu to adjust the reference."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Audio peaks at wrong RIT offset",
+          "description": "Perform IF frequency calibration. Adjust IF value in calibration menu until audio peaks at RIT = 0."
+        },
+        {
+          "type": "note",
+          "text": "For issues not covered here, visit HamGadgets.com/pdf for the troubleshooting guide or contact KM4CFT/RadioDan for support."
+        }
+      ]
+    }
+  ]
+}

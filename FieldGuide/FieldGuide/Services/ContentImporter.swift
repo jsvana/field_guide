@@ -103,8 +103,8 @@ actor ContentImporter {
 
                 case .specificationTable:
                     block.tableHeaders = blockJSON.headers
-                    block.tableRows = blockJSON.rows
-                    searchableText += (blockJSON.rows?.flatMap { $0 }.joined(separator: " ") ?? "") + " "
+                    block.tableRows = blockJSON.rows?.map { $0.cells }
+                    searchableText += (blockJSON.rows?.flatMap { $0.cells }.joined(separator: " ") ?? "") + " "
 
                 case .note, .warning:
                     block.text = blockJSON.text
@@ -175,5 +175,38 @@ struct BlockJSON: Codable, Sendable {
 
     // Table
     let headers: [String]?
-    let rows: [[String]]?
+    let rows: [TableRow]?
+}
+
+/// Represents a table row that can be decoded from either:
+/// - Array format: `["Name", "Value"]`
+/// - Object format: `{"name": "Name", "value": "Value"}`
+struct TableRow: Codable, Sendable {
+    let cells: [String]
+
+    init(from decoder: Decoder) throws {
+        // Try array format first
+        if let container = try? decoder.singleValueContainer(),
+           let array = try? container.decode([String].self)
+        {
+            cells = array
+        }
+        // Try object format
+        else {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            let name = try container.decode(String.self, forKey: .name)
+            let value = try container.decode(String.self, forKey: .value)
+            cells = [name, value]
+        }
+    }
+
+    func encode(to encoder: Encoder) throws {
+        var container = encoder.singleValueContainer()
+        try container.encode(cells)
+    }
+
+    private enum CodingKeys: String, CodingKey {
+        case name
+        case value
+    }
 }

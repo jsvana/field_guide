@@ -1,0 +1,252 @@
+{
+  "radio": {
+    "id": "lnr-ld5",
+    "manufacturer": "LNR Precision",
+    "model": "LD-5",
+    "revision": "2015-07-13",
+    "pdfFilename": "LD-5_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The LD-5 is a 5-band (40m, 30m, 20m, 17m, 15m) SDR/DSP transceiver supporting SSB, CW, and digital modes. Features include dual VFO, 100 memories per band, built-in SWR/power meter, and electronic iambic keyer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Front panel buttons: ON/OFF, UP/DOWN arrows (band change in normal mode, menu navigation in menu mode), MODE (CW/CWR/LSB/USB/DIGI), VFO (A/B select), STEP (1/10/100/1000 Hz tuning rate)."
+        },
+        {
+          "type": "paragraph",
+          "text": "LOCK prevents accidental tuning. RIT allows receive frequency offset - asterisk (*) shows RIT=0, arrows (< >) show direction of offset. PRE/ATT cycles through preamp (+16dB), normal, attenuator (-10dB)."
+        },
+        {
+          "type": "note",
+          "text": "The LD-5 can receive 160m and 80m (RX only) by adjusting Begin Frequency in Service Mode. Store band edges in memory locations for quick recall."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Press MENU to enter menu mode, MENU again to exit. Navigate with UP/DOWN arrows, adjust with VFO knob."
+        },
+        {
+          "type": "menuEntry",
+          "name": "AGC",
+          "description": "AGC speed from 1-20. 1 is slowest, 20 is fastest."
+        },
+        {
+          "type": "menuEntry",
+          "name": "PITCH CW",
+          "description": "Sidetone and CW offset pitch (400-1000 Hz). Changes take effect when exiting Menu mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW SPEED",
+          "description": "5-60 WPM. Takes effect when exiting Menu mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "WEIGHT CW KEY",
+          "description": "Dash-to-dot ratio: 2:1, 2.5:1, 3:1 (standard), 3.5:1, 4:1, 4.5:1."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW VOX",
+          "description": "Break-in delay, 100ms to 5 seconds in 100ms steps."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NOTCH FILTER",
+          "description": "Auto-notch depth -6dB to -40dB. SSB mode only."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NOISE BLANKER",
+          "description": "Adjustable 4-12. 4 is maximum blanking."
+        },
+        {
+          "type": "menuEntry",
+          "name": "NOISE REDUCTION",
+          "description": "Level 1-100. Use minimum necessary setting."
+        },
+        {
+          "type": "menuEntry",
+          "name": "FILTER",
+          "description": "Filter #4 is customizable. CW: 50-2400Hz. SSB: Low 250Hz to High 3400Hz. Press F+Filter to adjust."
+        },
+        {
+          "type": "menuEntry",
+          "name": "LED MODE",
+          "description": "Forever (always on) or Auto (3-second timeout). Backlight off saves 40mA."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SSB COMPRESSOR",
+          "description": "Mic compression 0-100 (100 = 20dB compression)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SSB VOX",
+          "description": "VOX delay 100ms to 5 seconds. DISABLE turns off VOX."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Electronic iambic keyer with Mode A and B selectable. Speed 5-60 WPM. Weight (dash ratio) adjustable. Reverse paddle option available."
+        },
+        {
+          "type": "menuEntry",
+          "name": "CW KEY TYPE",
+          "description": "SIMPLE = hand key, AUTO = paddle."
+        },
+        {
+          "type": "menuEntry",
+          "name": "IAMBIC MODE",
+          "description": "Switch between Iambic Mode A and Mode B."
+        },
+        {
+          "type": "menuEntry",
+          "name": "REVERSE CW KEY",
+          "description": "Swap dot and dash paddle sides."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "DSP-based filtering with 8 preset filters (4 each for CW and SSB). Filters 1-3 are factory presets; Filter 4 is user-adjustable."
+        },
+        {
+          "type": "paragraph",
+          "text": "CW Filter 4: 50-2400 Hz adjustable. Press F+Filter, use VFO to set bandwidth."
+        },
+        {
+          "type": "paragraph",
+          "text": "SSB Filter 4: Low end 250 Hz to High end 3400 Hz. Press F+Filter, use VFO for low end, press RIT to toggle to high end."
+        },
+        {
+          "type": "paragraph",
+          "text": "Automatic heterodyne notch filter for SSB (-6dB to -40dB). Noise Blanker (4-12) and Noise Reduction (1-100) available."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "10.5V min, 15V max"
+        },
+        {
+          "type": "specification",
+          "name": "Receive Current",
+          "value": "350 mA"
+        },
+        {
+          "type": "specification",
+          "name": "Transmit Current",
+          "value": "1.5-2A typical"
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "5W typical, 3.5-8W range"
+        },
+        {
+          "type": "note",
+          "text": "Built-in SWR protection reduces power automatically above 3:1 SWR. At 10:1 SWR, output drops to 1%."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The LD-5 does not include an internal antenna tuner. Built-in SWR and power meter displays during transmit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "TX METER",
+          "description": "Select Bar Graph (Scaler) or Watts (Number) display."
+        },
+        {
+          "type": "menuEntry",
+          "name": "SHOW TX",
+          "description": "Select Power in Watts or VSWR display."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "LD-5 Technical Specifications",
+          "rows": [
+            { "name": "Bands", "value": "40m, 30m, 20m, 17m, 15m" },
+            { "name": "Modes", "value": "USB, LSB, CW, CW-R, DIGITAL" },
+            { "name": "Output Power", "value": "5W typical" },
+            { "name": "Receive Sensitivity", "value": "0.2 uV" },
+            { "name": "Frequency Stability", "value": "+/- 3 ppm (Si570)" },
+            { "name": "Supply Voltage", "value": "10.5-15V" },
+            { "name": "Receive Current", "value": "350 mA" },
+            { "name": "Transmit Current", "value": "1.5-2A" },
+            { "name": "Preamp", "value": "+12 dB" },
+            { "name": "Attenuator", "value": "-6 dB" },
+            { "name": "Memory", "value": "100 per band" },
+            { "name": "Dimensions", "value": "4.724\" x 3.937\" x 1.957\"" },
+            { "name": "Weight", "value": "19 oz (0.54 kg)" },
+            { "name": "Antenna", "value": "50 ohm BNC" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Power output drops unexpectedly",
+          "description": "Built-in ALC/SWR protection reduces power above 3:1 SWR. Check antenna match."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Display symbols: R, N, B",
+          "description": "R = Noise Reduction active, N = Notch Filter active, B = Noise Blanker active. Toggle with F+UP, F+MODE, F+DOWN respectively."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Service Mode entry",
+          "description": "Power OFF, then power ON while holding F button. Release F when firmware page appears. Contact LNR Support before making Service Mode adjustments."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Digital mode setup",
+          "description": "Connect USB, power, and antenna BEFORE powering on. Then power radio, then start software. Use Line IN/OUT jack for digital interface."
+        }
+      ]
+    }
+  ]
+}

@@ -27,7 +27,7 @@ This index maps files to their purpose. Use it to locate files by feature instea
 |------|---------|
 | `LibraryTab.swift` | Radio grid display with RadioCard component |
 | `SearchTab.swift` | Full-text search across all manuals with scope filtering |
-| `SettingsTab.swift` | Settings and ManageDownloadsView for storage management |
+| `SettingsTab.swift` | Settings, ManageDownloadsView for storage, AttributionsView for credits |
 
 ## Views - Detail (`FieldGuide/FieldGuide/Views/`)
 | File | Purpose |

@@ -1,0 +1,203 @@
+{
+  "radio": {
+    "id": "lnr-mtr4b-v2",
+    "manufacturer": "LNR Precision",
+    "model": "MTR 4B V2",
+    "revision": "2021-01-12",
+    "pdfFilename": "MTR_4B_V2_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR-4B V2 is a 4-band (80m, 40m, 30m, 20m) QRP CW transceiver designed for portable SOTA and POTA operation. It features a 2-line backlit LCD, built-in SWR meter, real-time clock, and three message memories with beacon mode."
+        },
+        {
+          "type": "paragraph",
+          "text": "The power switch is in the upper right corner. Band selection uses three slide switches to the left of the display - all three must be in the same position. When a band is changed, the radio sounds a Morse number: 8 for 80m, 4 for 40m, 3 for 30m, 2 for 20m."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuning uses the up/down push buttons at 50 Hz per step. Hold a button for 1 second to start fast auto-stepping at 100 Hz. While auto-stepping, press the Fn switch to tune at very fast speed for quickly moving up or down the band."
+        },
+        {
+          "type": "note",
+          "text": "On first power up, default frequencies are the QRP calling frequencies: 3.560 MHz (80m), 7.030 MHz (40m), 10.118 MHz (30m), 14.060 MHz (20m). After first use, the last used frequency for each band is restored."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Hold the Fn switch to cycle through menu options. Release when the desired function appears on the bottom line. A Morse character is sounded for each function at 20 WPM."
+        },
+        {
+          "type": "menuEntry",
+          "name": "S - ADJ K SPEED",
+          "description": "Change keyer speed. Use paddle or tuning switches to change speed. Current speed shown as csXX on display (default 20 WPM). Click RIT to enable/disable straight key mode. Exit by clicking Fn."
+        },
+        {
+          "type": "menuEntry",
+          "name": "D - DFE",
+          "description": "Direct Frequency Entry. Enter frequency with paddle using 100 kHz digit first. EXIT (Fn) to cancel, RE (RIT) to clear and re-enter, LD (Tune Down) to load frequency."
+        },
+        {
+          "type": "menuEntry",
+          "name": "M - ENTER MSG",
+          "description": "Enter Morse message (up to 62 characters). Characters entered via paddle are displayed. Use BS (Tune Up) to backspace. CK (RIT) to review, then store in M1, M2, or M3."
+        },
+        {
+          "type": "menuEntry",
+          "name": "T - SET TIME",
+          "description": "Set the Real Time Clock (24-hour mode). Tune Down advances hours, Tune Up advances minutes. Click Fn at the exact second to enable clock and exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "P - CONFIG",
+          "description": "Enable/disable Morse display (shows what you're sending) and Morse frequency annunciation (speaks frequency in CW). Settings announced as ON or OFF."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR-4B V2 features an internal Iambic B mode keyer with speed adjustable from 5 to 31 WPM in 1 WPM increments."
+        },
+        {
+          "type": "paragraph",
+          "text": "Straight key mode can be enabled two ways: use a MONO plug in the paddle jack (must be inserted with power off), or click the RIT switch while in ADJ K SPEED mode. Straight key mode is indicated by SK replacing cs in the speed display."
+        },
+        {
+          "type": "paragraph",
+          "text": "To send a stored message: click RIT, then within 0.5 second press M1 (Fn), M2 (Tune Down), or M3 (Tune Up). To pause a playing message, close the Dash paddle. To terminate, close the Dot paddle."
+        },
+        {
+          "type": "note",
+          "text": "Beacon mode: while a message is sending, press the associated memory switch. The message will repeat with adjustable delay (2-9 seconds). Terminate beacon mode by tapping the Dot paddle."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR-4B V2 features a fixed receiver audio bandwidth of approximately 400 Hz centered at 600 Hz, optimized for CW reception."
+        },
+        {
+          "type": "note",
+          "text": "No user-adjustable filter settings are available. The narrow bandwidth provides good selectivity for CW operation in crowded band conditions."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR-4B V2 is designed for about 5 watts output with a 12.0V supply, making it a good match for a 3S Li-ion pack. A 2S pack can also be used with reduced power but extended battery life."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "5.5V minimum, 13V maximum (6-12V recommended)"
+        },
+        {
+          "type": "specification",
+          "name": "Receive Current",
+          "value": "27 mA typical"
+        },
+        {
+          "type": "specification",
+          "name": "Transmit Current",
+          "value": "750 mA max at 5W output"
+        },
+        {
+          "type": "warning",
+          "text": "A 13.8V bench supply will produce 6-7W output. At this power level, high SWR can trip the internal resettable fuse (1A) or damage the PA. Add two 1N4001 diodes in series with the positive lead to drop voltage by 1.5V."
+        },
+        {
+          "type": "note",
+          "text": "A CR2032 battery maintains the clock and settings while power is off. If the rig locks up or behaves unreliably, replace this battery."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR-4B V2 does not include an internal antenna tuner. Use an external tuner for non-resonant antennas."
+        },
+        {
+          "type": "note",
+          "text": "The built-in SWR meter displays SWR and power output while transmitting in straight key mode. Format: 1.0 SWR 5.0 W"
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "MTR-4B V2 Technical Specifications",
+          "rows": [
+            { "name": "Bands", "value": "80m, 40m, 30m, 20m" },
+            { "name": "Output Power", "value": "5W typical at 12.0V" },
+            { "name": "Receiver Sensitivity", "value": "~0.5 uV" },
+            { "name": "Audio Bandwidth", "value": "~400 Hz centered at 600 Hz" },
+            { "name": "Supply Voltage", "value": "5.5V min, 13V max" },
+            { "name": "Receive Current", "value": "27 mA" },
+            { "name": "Transmit Current", "value": "750 mA max" },
+            { "name": "Spurious Outputs", "value": "-50 dBc or better" },
+            { "name": "Keyer Speed", "value": "5-31 WPM" },
+            { "name": "Message Memories", "value": "3 x 62 characters" },
+            { "name": "Dimensions", "value": "5.15\" x 3.0\" x 1.075\"" },
+            { "name": "Weight", "value": "7.95 oz" },
+            { "name": "Antenna Jack", "value": "BNC" },
+            { "name": "Power Jack", "value": "5.5mm with 2.5mm pin" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "RIT not working as expected",
+          "description": "Hold RIT for 1 second to activate/deactivate. When active, the bottom line shows offset between TX and RX frequency. Click Fn to toggle R=T (receive equals transmit) mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Can't enter DFE or messages",
+          "description": "These modes require a paddle for input and are not available in straight key mode. Disable straight key mode first by tapping RIT in ADJ K SPEED mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Radio locks up or behaves erratically",
+          "description": "The CR2032 backup battery may be depleted. Replace the battery to restore normal operation. Instructions for changing the coin battery are on the LNR website."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Low or no power output",
+          "description": "Check SWR - high SWR at 13.8V input can trip the resettable fuse. Let it cool and use lower supply voltage or better antenna match."
+        }
+      ]
+    }
+  ]
+}

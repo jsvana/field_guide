@@ -1,0 +1,211 @@
+{
+  "radio": {
+    "id": "lnr-mtr3b-v4",
+    "manufacturer": "LNR Precision",
+    "model": "MTR 3B V4 Currahee",
+    "revision": "V4",
+    "pdfFilename": "MTR_3B_V4_Currahee_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR3B V4 Currahee is a 3-band (40m, 20m, 15m) QRP CW transceiver featuring a color display, real-time clock, five 62-character message memories, and nine frequency memories per band."
+        },
+        {
+          "type": "paragraph",
+          "text": "Band selection uses three slide switches to the left of the display - all three must be in the same column. The top switch selects the band (enunciated as Morse 4, 2, or 1). The lower two switches select the proper filters. When selecting 20m (middle position), click switches from top to bottom."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuning rate is 50 Hz per tap. Hold Tune Up/Down for 500ms to activate fast tune (100 Hz/step auto-advance). Tap Fn while fast tuning for 1 kHz steps."
+        },
+        {
+          "type": "note",
+          "text": "The display shows: Band, Time, Operating Frequency on fixed lines. Lines 3-5 change based on current function. Supply voltage displays green when safe, red below 9.0V or above 14.0V."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The four push buttons (Tune Down, Tune Up, RIT, Fn) access various functions based on tap or hold duration."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Fn (tap)",
+          "description": "Enter code speed adjust mode. Speed shown in red. Use Tune buttons or paddle to adjust (5-30 WPM). Tap Fn to exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Fn (hold 1 sec)",
+          "description": "Access Frequency Memory. 9 locations per band. Use Tune buttons to select location. EN (Fn) to load/store, R/S (RIT) toggles between Load and Store mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Fn (hold 3 sec)",
+          "description": "Access Message Memory mode. EM (Fn) to enter message, X (RIT) to exit. Five memory locations: M0-M2 plus Dot and Dash paddle memories."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RIT (tap)",
+          "description": "Send CW Message mode. Select M0, M1, M2 or tap Dot/Dash paddle for those memories. Pause with Dash paddle, terminate with Dot paddle."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RIT (hold 1 sec)",
+          "description": "Activate RIT mode. Range +99 kHz to -60 kHz. Display shows offset. Hold RIT again to exit."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RIT (hold 4 sec)",
+          "description": "Set Time mode. Minutes (red) first, then hours (blue). Tap E (Fn) at exact second to enable clock."
+        },
+        {
+          "type": "menuEntry",
+          "name": "RIT (hold 8 sec)",
+          "description": "CAL mode for Local Oscillator and BFO calibration. Requires frequency meter and oscilloscope. Do not adjust without proper equipment."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Built-in iambic keyer with adjustable speed from 5-30 WPM. Straight key mode shows SWR and power output while transmitting."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enable straight key mode automatically with a MONO plug in key jack (power off), or manually by tapping RIT while in speed adjust mode. Speed display changes to SK in red."
+        },
+        {
+          "type": "paragraph",
+          "text": "Messages entered via paddle with ideal timing for character/word spacing. Three dot-time between characters, seven dot-time for word space. Characters display as you key for verification."
+        },
+        {
+          "type": "note",
+          "text": "Paddle jack wiring: Tip = Dot, Ring = Dash. Headphone jack is 3.5mm stereo wired for mono (Tip/Ring connected)."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR3B uses hardware crystal filters selected by the lower two band switches. Filter bandwidth is optimized for CW operation."
+        },
+        {
+          "type": "note",
+          "text": "Sidetone and audio output volumes are adjustable via trimmer resistors accessed through holes in the case."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Designed for 5W output at 13.8V supply. Internal CR2032 battery maintains clock and settings when power is off."
+        },
+        {
+          "type": "specification",
+          "name": "Output Power",
+          "value": "5W typical at 13.8V"
+        },
+        {
+          "type": "specification",
+          "name": "Weight",
+          "value": "5.72 oz (133.8g)"
+        },
+        {
+          "type": "specification",
+          "name": "Dimensions",
+          "value": "3.90\" x 2.625\" x 1.09\""
+        },
+        {
+          "type": "specification",
+          "name": "Power Jack",
+          "value": "5.5mm/2.1mm"
+        },
+        {
+          "type": "warning",
+          "text": "Voltage display turns red below 9.0V or above 14.0V. Stay within safe range to protect the radio."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The MTR3B does not include an internal antenna tuner. Use an external tuner for non-resonant antennas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tune mode measures power and SWR: tap and hold Fn until TUNE appears. Bottom line shows Power Out and SWR."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "title": "MTR3B V4 Currahee Specifications",
+          "rows": [
+            { "name": "Bands", "value": "40m, 20m, 15m" },
+            { "name": "Output Power", "value": "5W typical at 13.8V" },
+            { "name": "Minimum Detectable Signal", "value": "~0.1 uV" },
+            { "name": "Keyer Speed", "value": "5-30 WPM" },
+            { "name": "Message Memories", "value": "5 x 62 characters" },
+            { "name": "Frequency Memories", "value": "9 per band" },
+            { "name": "Display", "value": "Color, 1.06\" x 1.04\"" },
+            { "name": "Dimensions", "value": "3.90\" x 2.625\" x 1.09\"" },
+            { "name": "Weight", "value": "5.72 oz (133.8g)" },
+            { "name": "Antenna Jack", "value": "BNC" },
+            { "name": "Power Jack", "value": "5.5mm/2.1mm" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "Band switches don't work properly",
+          "description": "All three switches must be in the same column position. For 20m, click switches from top to bottom to ensure proper alignment."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Message entry timing issues",
+          "description": "Use ideal timing: 3-7 dot lengths between elements for letter space, 7+ dot lengths for word space. Pause too long inserts unwanted word space."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Can't access message or DFE modes",
+          "description": "These modes require paddle input and are not available in straight key mode."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Voltage display shows red",
+          "description": "Supply voltage is outside safe range (below 9.0V or above 14.0V). Adjust power source to safe range."
+        }
+      ]
+    }
+  ]
+}
