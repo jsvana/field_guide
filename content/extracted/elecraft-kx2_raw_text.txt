@@ -1,0 +1,4239 @@
+
+============================================================
+PAGE 1
+============================================================
+
+ 
+                         
+ 
+ 
+ELECRAFTÒ KX2  
+80-10 M  SSB/CW/DATA  TRANSCEIVER 
+OWNER’S MANUAL 
+ 
+Rev. B2, March 22, 2023              © 2023, Elecraft, Inc.            All Rights Reserved
+
+============================================================
+PAGE 2
+============================================================
+
+ 
+                            2 
+                         
+Contents 
+ 
+Introduction 4 
+Key to Symbols and Text Styles 4 
+Installation 5 
+Operating Position 5 
+Power Supply 5 
+Internal Battery 6 
+Utility Mounting Points (Bottom Cover) 7 
+CW Key/Keyer Paddle 8 
+Headphones and Speakers 8 
+Internal Microphone 8 
+External Microphone 8 
+Computer/Amp Keying (ACC) 9 
+Auxiliary Outputs (AUX) 9 
+Program/Test (PGM) 9 
+Antennas 10 
+Control Panel Reference 12 
+Display (LCD) 13 
+Basic Operation 14 
+Getting Started 14 
+Band Selection 15 
+Mode Selection 15 
+VFO A and B 16 
+Incremental Tuning (RIT and XIT) 16 
+Special VFO B Displays 16 
+Receive Settings 17 
+Transmit Settings 19 
+SSB Mode 20 
+CW Mode 21 
+AM Mode 22 
+FM Mode 22 
+Advanced Operating Features 23 
+Special VFO B Displays 23 
+Frequency Memories 24 
+Scanning 24 
+Audio Effects 25 
+Dual Watch 25 
+Programmable Function Switch (PFn) 25 
+Receive Audio Equalization (RX EQ) 26 
+Transmit Audio Equalization (TX EQ) 26 
+SSB/CW VFO Offset 26 
+Data Modes 27 
+Text Decode And Display 29 
+Split Operation 30 
+Digital Voice Recorder (DVR) 30 
+Transmit Noise Gate 31 
+Cross-Mode Operation 31 
+Custom Power-On Banner 31 
+Logging (CW/Data Modes) 32 
+Transverter Bands 32 
+Options and Accessories 33 
+Firmware Upgrades 34 
+Remote Control of the KX2 35 
+Configuration 36 
+Option Module Enables 36 
+Menu Settings 36 
+Calibration 38 
+
+============================================================
+PAGE 3
+============================================================
+
+3 
+Reference Frequency 38 
+Receive Opposite Sideband 39 
+Transmit Bias 39 
+Transmit Gain 39 
+Transmit Carrier 40 
+Transmit Opposite Sideband 40 
+Menu Functions 41 
+Troubleshooting 55 
+Parameter Initialization (EEINIT) 59 
+Error Messages (ERR nnn) 60 
+Scrolling Alert Messages 63 
+Theory Of Operation 64 
+Glossary of Selected Terms 67 
+Specifications 69 
+Customer Service and Support 71 
+Index 73 
+ 
+ 
+ 
+
+============================================================
+PAGE 4
+============================================================
+
+ 
+                            4 
+                         
+Introduction 
+The Elecraft KX2 is a compact 80-10 m, SSB/CW/AM/FM/data transceiver designed for portable, mobile, 
+and hand-held operation. Weighing just 13 oz. (0.35 kg), it’s the perfect “grab and go” HF radio. 
+Despite its small size and low current drain, the KX2 is a full-featured HF transciever, with up to 15 W 
+output. Its powerful digital signal processor (DSP) provides dual watch, built-in PSK and RTTY modes, 
+digital voice recorder, stereo audio, EQ, noise reduction, and various filtering functions. The KX2 can be 
+configured as a complete station, with internal ATU (KXAT2), Elecraft 4’ whip antenna (e.g. AX1 or AX2), 
+attached keyer paddle (KXPD2), internal battery (KXBT2), and internal battery charger (KXIBC2). 
+Since the KX2 is a software-defined-radio (SDR), you’ll be able to add new features via free firmware 
+upgrades. For mobile and home use, you can boost the KX2’s output to 100 watts with the optional 
+KXPA100 amplifier. The KXIB2 internal battery charger adds a real-time clock. 
+When your next adventure begins—whether at home or in the field—your KX2 will be ready. 
+73, 
+Wayne, N6KR  
+Eric, WA6HHQ 
+ 
+ 
+ 
+Key to Symbols and Text Styles 
+ 
+   
+Important – read carefully 
+Operating tip 
+XMIT  
+TUNE 
+Tap function of a knob or switch 
+Hold function (hold switch 0.5 s) 
+LSB 
+ 
+ 
+.  
+ 
+ 
+Icon or text shown on the display 
+Enter  keypad function 
+Locked (VFO or menu parameter) 
+ MIC  
+BKLIGHT 
+Rotary control (knob) function 
+Menu entry 
+
+============================================================
+PAGE 5
+============================================================
+
+5 
+Installation  
+  CAUTION 
+§ 
+Be careful when plugging in cables. Avoid 
+sideways pressure that might damage the jacks. 
+§ 
+Avoid direct exposure to rain or snow (the KX2 
+is not waterproof). 
+§ 
+Avoid operating at very high temperatures.  
+§ 
+Prior to opening the enclosure, touch a grounded, 
+unpainted metal surface to avoid static discharge. 
+ 
+Operating Position 
+As shown below, the tilt leg on the back of the KX2 can 
+be used to optimize the viewing angle. Loosen the rear 
+thumbscrew to adjust the tilt leg. The KX2 can also be 
+operated hand-held, either vertically or horizontally. 
+ 
+Power Supply 
+For fixed-station use, a low-noise 12-14 VDC power 
+supply or battery is recommended. For lightweight 
+portable operation, an internal battery can be used. 
+  See next page for internal battery installation. 
+Batteries or power supplies can be plugged in from 
+inside, outside, or both. The internal and external DC 
+jacks are identical, and are diode-isolated from each 
+other. The higher voltage will power the transceiver. 
+  Power output varies with supply voltage.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+An external power supply or battery can be connected 
+to the  9-15 V jack on the left side panel (see above). 
+The center pin is (+). The plug can be a Switchcraft 
+model S760 or similar (2.1 mm aperture, 5.5 mm dia.). 
+The white striped wire on the supplied cable is (+).  
+Trim the cable to the desired length.
+ 
+(+) 
+
+============================================================
+PAGE 6
+============================================================
+
+6 
+Internal Battery  
+The KXBT2, shown here installed, 
+is an 11 V, 2.6 Ah li-ion battery 
+with protective circuitry.  
+Battery installation: 
+• 
+Loosen the two thumb nuts at 
+the ends of the bottom cover. 
+• 
+Rotate the cover open, 
+keeping  speaker wires 
+captivated in the location 
+shown at right. 
+• 
+Place the battery as shown and 
+plug it into the internal jack. 
+• 
+Make sure battery wires are 
+tucked inside, beside the plug. 
+• 
+Install the bottom cover. 
+• 
+Tighten the two thumb nuts 
+firmly to keep the bottom 
+cover in place. 
+Battery removal:    
+• 
+Open the bottom cover as 
+described above.  
+• 
+Pull the battery plug out 
+slowly, using the provided 
+nylon pull-loop. Do not pull 
+on the battery pack wires.  
+• 
+Replace the bottom cover and 
+tighten the thumb nuts firmly. 
+ 
+ 
+Note: Speaker wires 
+must be routed between 
+the small band-pass filter 
+board and the chassis. 
+
+============================================================
+PAGE 7
+============================================================
+
+7 
+Using the Battery Safely 
+  Misusing a lithium-ion battery may cause it to 
+get hot, rupture, or ignite and cause serious injury; 
+or result in loss of performance and shortened life. 
+The KXBT2 battery pack weighs only 4.8 oz, and can 
+provide up to 8 hours of typical transceive operation 
+and up to 10 W power output. To ensure safe 
+operation, read the supplied battery information. 
+The pack is fitted with a 2.1 mm DC barrel plug. The 
+KX2 has two DC barrel jacks: one inside, and one on 
+the left side panel. These jacks are isolated from each 
+other, but either can power the KX2. You can plug in 
+an internal battery and an external supply, and the 
+radio will operate from whichever is higher in voltage. 
+Battery Charging – Internal or External 
+  The battery must be charged using only the 
+KXBC2 external fast charger OR the KXIBC2 
+internal charger.  
+Internal Charging (KXIBC2):  Internal charging 
+occurs if a KXIBC2 is installed and a suitable power 
+source is connected (~14 V nominal). A yellow LED 
+on the back of the KX2 lights when charging is in 
+progress. Refer to the KXIBC2 manual for details. 
+External Charging (KXBC2): First remove the 
+battery as described on the previous page. Plug the 
+battery into the jack on the charger, then plug the 
+charger into a 120 VAC outlet. The charger’s LED will 
+be red during charging, and GREEN when charge is 
+complete. A full charge typically takes 1 to 2 hours. 
+Amp Hour Metering 
+The KX2 includes an amp hour meter function that 
+allows you to better estimate remaining battery life. 
+See pg. 23 for the associated special display function, 
+as well as the AMP HRS menu entry. 
+Preserving Clock Time During Charging 
+The KXIBC2 and KXIO2 option modules include a 
+real-time clock (RTC), useful for logging (see 
+LOGGING menu entry). RTC circuitry is powered by 
+the battery or power supply connected to the KX2 
+(internal or external).  
+When no power supply or battery is connected, the 
+RTC’s time registers are preserved for up to 2 hours by 
+a supercapacitor on the KXIO2 module. In most cases 
+this allows sufficient time to remove the battery from 
+the KX2, charge it, and reinstall it without losing the 
+time setting. 
+Utility Mounting Points (Bottom Cover) 
+The KX2’s bottom cover has two threaded fasteners 
+(4-40 PEM nuts) for light-duty applications. For 
+example, they could be used to attach the transceiver to 
+a clipboard for field logging, or for storage of a 
+counterpoise wire. 
+  CAUTION: These fasteners are not intended 
+for use with a mobile mount. Also, do not allow 
+screws or other hardware to protrude more than 
+0.1” into the interior of the KX2.  
+ 
+
+============================================================
+PAGE 8
+============================================================
+
+8 
+CW Key/Keyer Paddle  
+The KX2 has two CW keying inputs: 
+Attached Keyer Paddle: A KXPD2 keyer paddle can 
+be attached to the front of the KX2 via two thumb 
+screws. (A KXPD3 can also be used, but the KX2’s tilt 
+angle favors the shorter KXPD2.) Use the CW KEY2  
+menu entry to reverse the dot/dash sides.  
+KEY Jack: This jack can be used with any hand key, 
+keyer paddle, or other keying device, as configured by 
+the CW KEY1 menu entry. 
+  A stereo plug is required at the KEY jack, even 
+if only the tip contact is being used. 
+ 
+Headphones and Speakers 
+The 3.5 mm PHONES jack accommodates 
+headphones or one or two externally amplified 
+speakers. Mono or stereo plugs can be used. Stereo 
+audio allows the use of dual watch and audio effects 
+(pg. 25).  
+Built-In Speaker: The speaker, located on the bottom 
+cover, sounds best when the tilt foot is used. 
+  Headphones or external speakers will provide 
+greater bass response than the internal speaker. 
+Mobile installations:  For mobile use, amplified 
+mobile speakers or an aux input on your car’s stereo 
+can be connected to the PHONES jack. Another 
+alternative is to use a device that retransmits the KX2’s 
+audio output in the FM broadcast band.  
+Internal Microphone 
+For emergency or hand-held use, the KX2 includes a 
+built-in mic, located to the left of the AF/MON control. 
+(There’s a small hole in the panel at this location.) The 
+built-in mic is automatically turned on when no 
+external mic is plugged in. Tap XMIT to transmit. 
+  To prevent acoustic feedback, the transmit voice 
+monitor function (MON) is disabled when using the 
+internal mic with the internal speaker. 
+External Microphone 
+The 3.5 mm MIC jack is compatible with the Elecraft 
+MH3 hand mic, which provides PTT as well as VFO 
+UP/DN buttons. For the MH3, set the MIC BIAS menu 
+entry to ON, and MIC BTN to PTT UP.DN.  
+ 
+MIC Jack Pinout 
+Sleeve:  Shield ground 
+Ring2:  Logic ground 
+Ring1:  PTT/UP/DN 
+Tip:      Mic audio 
+The KX2 will work with many other mics, including 
+“mini” mics intended to plug directly into a computer. 
+Refer to the MIC BIAS and MIC BTN menu entries to 
+set up the KX2 for use with your mic or headset. 
+
+============================================================
+PAGE 9
+============================================================
+
+9 
+Computer/Amp Keying (ACC) 
+The 3.5 mm accessory jack (ACC) facilitates firmware 
+updates and remote control of the KX2 via a computer, 
+and/or connection to an Elecraft KXPA100 amp. In 
+either case, a standard stereo plug can be used (see 
+sleeve, ring 1, and tip connections below). The 
+supplied KXUSB cable can be used for this purpose. 
+ 
+ACC Jack Pinout 
+Sleeve:  Ground 
+Ring 2:  *Key Out  
+Ring 1:  TX Data 
+Tip:       RX Data 
+* For external ampflier keying, the ACC jack’s key out 
+signal (on Ring 2) may also be needed, as described at 
+right. In this case a 4-circuit (TRRS) plug is required. 
+Computer Applications 
+KX2 Utility is required for firmware configuration and 
+updates (pg. 34). The utility program also provides a 
+CW/data terminal function. Our Elecraft Frequency 
+Memory Editor can be used to set up frequency 
+memories. 
+Many logging, contesting, and control programs are 
+available from third parties. If the KX2 is not 
+specifically supported, try using Elecraft KX3 or K3. 
+Amplifier Keying 
+The ACC jack provides a key out signal (Ring 2 
+contact, shown at left). Key out goes low during 
+transmit, and can be used for transmit/receive 
+switching of linear amplifiers and transverters. For 
+keyline voltage and current limits, see Specifications.  
+  If the key out signal is not required, a regular stereo 
+plug can used (3-circuit). This will short the key out 
+signal to the sleeve (ground), but will not cause any 
+damage or consume additional current. 
+An Elecraft KX2 Accessory Cable (KX2ACBL) can 
+be used to break out the computer control and key out 
+signals separately. These can then be connected to both 
+an Elecraft  KXPA100 ampflier via its supplied cable. 
+Auxiliary Outputs (AUX) 
+If the KX2 is fitted with a KXIO2 (pg. 33), then a 2.5 
+mm AUX jack will be available. This jack provides 
+two general-purpose outputs that can be programmed 
+on a per-band basis to control equipment such as an 
+antenna switch or transverter. On the connector, the 
+sleeve is ground, tip is AUX 1, and ring is AUX 2. 
+Program/Test (PGM) 
+This jack is reserved for Elecraft factory test use. 
+ 
+ 
+
+============================================================
+PAGE 10
+============================================================
+
+10 
+Antennas 
+General information on antennas can be found on the 
+next page. Here, we show two examples of antennas 
+for portable operation that can be set up quickly.  
+The illustration below shows a simple wire antenna 
+connected to a KX2 via a BNC-to-binding post adapter 
+(Elecraft BNC-BP or equivelant). The wire tied to the 
+red post (antenna hot lead) is attached to a tree or other 
+tall support. The wire tied to the black post (radio 
+chassis ground) is the equally important counterpoise, 
+which is typically laid on the ground. 
+A length of about 25 feet for each wire, matched to the 
+KX2’s output using an antenna tuner (see ATU, pg. 11) 
+will typically provide good performance on 40-10 m. 
+(Without an ATU, resonant lengths are required for 
+each band.) This antenna is ideal for outings where all 
+gear must fit into a small bag (e.g, our model CS-40). 
+ 
+At right, a KX2 is shown in hand-held orientation 
+with a telescoping whip antenna. An Elecraft AX1,  
+AX2, or similar whip can be used. 
+(Such antennas are electrically short, making 
+contacts more challenging. Best results will  
+be obtained on 20 meters and higher.) 
+When using a whip antenna, you’ll also need a 
+counterpoise wire, shown here attached via  
+a mini-banana plug (Elecraft model  
+KX2GNDPLUG). A length of about  
+13 feet is a good compromise for 30-10  
+meters. This is sometimes called a 
+ “trailing ground” by those who operate  
+pedestrian mobile (/PM). If you step  
+on the counterpoise wire, or get it  
+snagged, the mini-banana plug 
+will pull out safely, avoiding 
+damage to the KX2. 
+  
+ 
+Wire to tree or 
+other support 
+Counterpoise 
+Wire 
+BNC-to-binding  
+post adapter  
+Counterpoise 
+Wire 
+Mini-banana plug  
+
+============================================================
+PAGE 11
+============================================================
+
+11 
+General Antenna Information 
+An antenna must be connected to the BNC jack via 
+either coax or an adapter. If an antenna tuner is not 
+used (an external tuner or an internal KXAT2), then a 
+resonant antenna having a 50 ohm (approximate) load 
+impedance on each band of operation is required. 
+Examples can be found in the ARRL Antenna 
+Handbook and other sources. A coax-fed inverted “V” 
+or dipole can be very effective.  
+SWR: One measure of how close an antenna is to 
+resonance is its SWR (standing wave ratio). The KX2 
+displays SWR when you use the TUNE switch (pg. 
+19). An SWR of 1:1  (1.0-1 on the KX2’s display) is 
+considered a “perfect” match. To ensure safe operation, 
+the KX2 reduces power output if SWR is too high. 
+Using An Automatic Antenna Tuner (ATU):  An 
+ATU will allow the KX2 to “see” a good match in 
+many cases (i.e., a low SWR) even with non-resonant 
+antennas. This allows the transmitter to deliver full 
+power, and can improve receiver sensitivity. An ATU 
+may allow one antenna to be used on multiple bands.  
+You can use an external or internal ATU. The KXAT2 
+(ATU option, pg. 33), stores matching data for each 
+band; retuning takes less than 1 second. Data sets are 
+provided for home/field use (MENU:ATU DATA). 
+Antenna Wire: Insulated, stranded wire works well 
+for portable antennas. We recommend #26 “Silky” 
+from The Wireman (catalog #534). To avoid kinks, 
+wire can be wound in a figure-8 pattern. For tossing 
+wire into tree branches, attach a 1 to 2 oz. weight (such 
+as stainless-steel hex nut) to the end of the wire. 
+Feedline: When using low power, antennas can often 
+be directly connected to the KX2 without any coax or 
+other feedline. This is shown in both of the simple 
+portable antennas on the previous page. However, 
+balanced antennas such as dipoles and inverted Vs will 
+function better when their feed point is physically well 
+above ground.  
+Resonant antennas (those which are cut to length for a 
+given frequency) are typically fed with 50 ohm coax. 
+RG-174 is a good choice when light weight is required. 
+Random-length antennas can be fed with twin-lead, 
+then connected to a balun (balanced-to-unbalanced 
+converter), such as the Elecraft BL1 or BL2. The balun 
+can then be connected directly to the transceiver (if an 
+internal ATU is used) or to an external ATU. 
+Ground and Counterpoise Systems: A ground or 
+counterpoise is needed with many antennas. The ARRL 
+Antenna Book provides examples. This is definitely 
+needed when you use a whip, vertical, or random wire.  
+The ground or counterpoise can be connected to the 
+KX2 via the bottom cover thumb nuts or to the outer 
+shield of the BNC jack. There’s also a hole in the left 
+side panel, identified by a ground symbol, that is sized 
+for a mini-banana plug. This is ideal for a quick-
+disconnect trailing ground wire used during pedestrian 
+mobile operation. See example on previous page. 
+For improved performance, use at least one 1/4- 
+wavelength radial for each band when possible. 
+Adding more radials on a given band will further 
+reduce losses, especially when transmitting.
+
+============================================================
+PAGE 12
+============================================================
+
+12 
+Control Panel Reference                 (For details, refer to page numbers shown in parentheses) 
+Power ON/OFF:  Hold both the RATE  and A/B  switches for 2 seconds (see “ON” label below the VFO A knob).   
+Tap / Hold Functions, e.g. PRE   /  NR:  Tap to use the function labeled on or above a control; hold ½-sec for the function labeled below it. 
+Numeric Keypad:  Twelve of the switches and knobs form a keypad (0-9/decimal/enter) for use with FREQ, etc. 
+ 
+ 
+              
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+          Receive                    Transmit 
+            VFO A / Band / Mode                 VFO B / Misc.                        
+ AF/MON   AF gain (17);    
+  KYR-SPT/MIC  
+DATA   Data mode (27)      MODE   CW/SSB (15) 
+ OFS/B  Coarse VFO  
+tone/monitor level (17)  
+Keyer (19); Spot (21); Mic gain (19) TEXT  Text decode (29) 
+RCL/SCN  F. recall 
+tuning (16);VFO B (16) 
+ NB  Noise blanker (18) 
+  PWR  Power level (19) 
+MSG   Msg play (19, 30)     (24), Scanning (24) 
+CLR  Clear RIT (16) 
+PRE   Preamp / attenuator (17) 
+ATU   ATU tune (19)   
+REC  Msg record (19, 30)   BAND  Band (15) 
+RIT   Receive offset (16) 
+NR  Noise reduction (18) 
+PFn  Prog. switch functions (25)     RATE   VFO tuning (16); 
+STORE  F. store (24) 
+SPLIT  Split RX/TX (30) 
+ FIL   / APF-AN  Filtering 
+XMIT TX/PTT (19) 
+ON/OFF (with A/B ) 
+A / B  A/B swap (16) 
+DISP   Special disp. (23) 
+(17); APF (18); auto-notch (18) 
+TUNE  CW carrier (19) 
+FREQ  Freq. entry (15)        A > B A>B copy (16) 
+MENU  Menu (14)
+Internal 
+Mic 
+
+============================================================
+PAGE 13
+============================================================
+
+13 
+Display (LCD)              (For Details, refer to page numbers shown in parentheses)  
+RX:  S-meter and CW tuning aid (18); 
+TX:  SWR/RF output or compression/ALC (19) 
+ 
+VFO Icons:   
+  Shows that a VFO is locked. 
+TX icon points to the transmit VFO, A or B (30). 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+VFO A 
+                           XFIL (FL1 only in KX2) 
+ 
+                     
+VFO B 
+Filter Passband Graphic (17): 
+NTCH Auto-notch (18); I/II (not used) 
+ 
+                               Mode and Repeater Offset Icons 
+Other icons: 
+CWT   CW/data tuning aid on (MENU:CWT, 18) 
+ 
+Message play/rec (MSG / REC, 19, 30), or 
+logging enabled (MENU:LOGGING) 
+VOX   VOX enabled (MENU:VOX MD, 20, 21) 
+QSK  Full break-in CW (MENU:VOX DLY,21) 
+NB      Noise blanker on (NB, 18) 
+NR      Noise reduction on (NR, 18) 
+ANT   KXPA100 antenna (19) 
+ 
+RX   
+Automatic RX attenuation in effect (17) 
+ATT   Attenuator on (PRE, 17) 
+PRE    Preamp on (PRE, 17) 
+ATU  ATU enabled (ATU, 19) 
+RIT    RIT on (RIT, 16) 
+XIT    XIT on (MENU:XIT, 16) 
+SUB   Dual-watch enabled (MENU:DUAL RX, 25) 
+SPLT  Split mode in effect (SPLIT, 30) 
+
+============================================================
+PAGE 14
+============================================================
+
+14 
+Basic Operation 
+This section describes basic KX2 features. Once 
+you’ve mastered these, you’ll be ready to explore 
+Advanced Operating Features (pg. 23) including 
+built-in text decode, memories, and dual watch.  
+ 
+Getting Started 
+Before using the KX2, you’ll need to connect a power 
+supply and an antenna. See Installation (pg. 5). 
+Turning the KX2 On/Off 
+To turn the KX2 on or off, press and hold the RATE 
+and A/B switches simultaneously for about two 
+seconds, then release. The switches are identified by an 
+“ON” label below the large knob (VFO A). This dual-
+switch power on/off method reduces the likelihood of 
+accidental power-on in a backpack or carrying case. 
+  Always turn the KX2 off as described above 
+before turning off or disconnecting the power 
+source. This will ensure that settings are saved. 
+Switch  TAP  and  HOLD  Functions 
+All KX2 switches have two functions: 
+§ 
+Tap to activate the function labeled on a switch, 
+e.g. RATE  
+§ 
+Hold for about 0.5 second to activate the function 
+labeled below a switch, e.g. FREQ 
+AF Gain and other Knob Functions 
+Each small knob has two primary functions. For 
+example, 
+ AF/MON  normally controls receiver AF 
+gain. The setting is displayed in the VFO B area during 
+knob rotation. Tapping this knob briefly switches to 
+the MON function (sidetone or voice monitor level). 
+Holding the knob—pushing it for over 0.5 seconds—
+switches to its secondary function,  
+ NB  (pg. 18).  
+Knobs may also be used in conjunction with nearby 
+switches. For example, if you tap DISP, rotating          
+ OFS/B selects special VFO B displays (pg. 23). 
+Using the Configuration Menu 
+To access the menu, hold  MENU until the          
+BKLIGHT (LCD brightness) menu entry appears in the 
+VFO B area. The setting appears in the VFO A area.  
+To change a setting, rotate VFO A (large knob). In the 
+case of BKLIGHT, this selects backlight ON or OFF. 
+To scroll through menu entries, use the small knob 
+above the menu switch, 
+ OFS/B.  To exit the menu, 
+tap DISP. 
+  While in the menu, holding  MENU  for ~3 seconds 
+displays information about the current menu entry. 
+Configuration and Calibration Functions 
+Once you’ve mastered the menu, you should review 
+your KX2’s Configuration settings (pg. 36). The 
+menu is also used for factory Calibration (pg.38). 
+
+============================================================
+PAGE 15
+============================================================
+
+15 
+Band Selection 
+The KX2 transmits and receives in the 80-10 m 
+amateur bands. It also provides general coverage 
+receive from 0.5 to 32 MHz, which includes the AM 
+broadcast band and 160 m.. (Sensitivity and image 
+rejection are reduced below 3 MHz; see 
+Specifications, pg. 69.)  
+Characteristics of each amateur band are briefly 
+summarized below. For further information, see the 
+ARRL band plan (www.arrl.org/band-plan-1). 
+To change bands: Tap BAND, rotate the VFO A knob 
+to select the desired band, then tap any switch to exit. 
+You can also change bands using direct frequency 
+entry (described at right) and memory recall (pg. 24). 
+Band 
+(m) 
+Range  
+(MHz) 
+Best 
+DX 
+Other  
+Characteristics 
+160 
+1.8-2.0   
+(RX only) 
+Night 
+Challenging “Top Band”; high 
+power often used to counter noise 
+80 
+3.5-4.0 
+Night 
+Excellent regional band; many 
+CW and SSB nets; AM ~3.870 
+60 
+~5.3-5.4 
+Night 
+Shared with government services; 
+power level and modes restricted 
+40 
+7.0-7.3 
+Night 
+Excellent local CW/SSB band by 
+day; QRP & data modes, 7.03-7.04 
+30 
+10.1-10.15 
+Both 
+DX possible anytime; no contests 
+20 
+14.0-14.35 
+Both 
+Very popular DX & contest band; 
+many nets on SSB;  Data modes: 
+PSK ~14.070; RTTY ~14.085 
+17 
+18.068-
+18.168 
+Day 
+Long-haul DX band; no contests; 
+“HF Pack” at 18.1575 (often QRP) 
+15 
+21.0-21.45 
+Day 
+DX/contest band; low power very 
+effective when band is open 
+12 
+24.89-24.99 
+Day 
+Excellent DX band; no contests 
+10 
+28.0-29.7 
+Day 
+Great QRP DX band; look for FM 
+repeaters from 29.600-29.680 
+ 
+Direct Frequency Entry 
+A subset of the controls functions as a numeric keypad 
+for use with FREQ. See white secondary switch and 
+knob labels  0 - 9,  decimal point, and enter (
+). 
+First, hold  FREQ . Then enter one or two MHz digits, 
+optionally followed by a decimal point and up to three 
+kHz digits. Next tap    
+ .  (BAND) to accept, or any 
+other switch to cancel. Examples: 
+14.255 MHz:   FREQ    1 4  .  2  5  5    .
+. .  
+7.000 MHz:     FREQ    7     
+ .  
+Mode Selection 
+Tap MODE  to select SSB, CW, AM, or FM mode. 
+Tap DATA to select data mode (pg. 15). To select 
+alternate modes (USB/LSB, CW normal/reverse, or 
+DATA normal/ reverse) use the ALT MD menu entry. 
+SSB (pg. 20) is either LSB (lower sideband) or USB 
+(upper). LSB is used on 160/80/40 m; others use USB. 
+CW mode (pg. 21) uses much less bandwidth than 
+SSB. Its high signal-to-noise ratio is ideal for QRP. 
+AM mode (pg. 22) has a characteristic “warm” tone. It 
+can be used for listening to broadcast stations. 
+FM mode (pg. 22) is used on 10 m or with transverters. 
+DATA modes (pg. 27) are often used with a computer 
+connected to the KX2 to send/receive text. However, 
+there are also three built-in data modes that use the 
+KX2’s display for received text, and a keyer paddle for 
+transmit, converting the CW you send into data.  
+
+============================================================
+PAGE 16
+============================================================
+
+16 
+VFO A and B 
+The KX2 provides two VFOs (see glossary, pg. 67). 
+Each VFO has its own frequency, mode, and filter 
+settings. Use of VFO B  (
+ OFS/B) is optional.  
+VFO A normally controls both the receive and 
+transmit frequency. If you use VFO A to tune in a 
+signal clearly, you’ll also be on-frequency for transmit. 
+VFO B can serve as a holding register for a frequency 
+of interest (see A / B swap below). It is also used with 
+SPLIT (pg. 30) and Dual Watch (pg. 25). To tune 
+VFO B, first make sure the B LED above the knob is 
+lit. If not, tap the 
+ OFS/B knob.  
+Tuning rates: Tapping  RATE normally alternates 
+between 10 Hz and coarse-tuning steps (MENU:VFO 
+CRS). The default coarse step size for CW is 0.1 kHz, 
+and for SSB, 0.5 kHz. In DATA modes, or when the 
+audio peaking filter is in use in CW mode (APF, pg. 
+18), RATE alternates between 1 Hz and 10 Hz steps.  
+    
+ OFS/B  is used to tune VFO A in coarse steps. 
+For this purpose, the OFS LED must be lit (if not, tap 
+the knob), and RIT (see at right) must be turned off.  
+To lock VFO A: Hold FREQ for about 3 seconds. Tap 
+RATE to unlock. To lock VFO B, first swap it with 
+VFO A, lock A, then swap again. 
+To copy VFO A’s frequency to VFO B: Hold              
+A > B. Tap twice to copy mode and filter settings as 
+well. 
+VFO A and B swap: Tap  A / B to exchange VFO 
+frequencies, modes, and all other settings.  
+Incremental Tuning (RIT and XIT) 
+RIT, or receive incremental tuning, adjusts the receive 
+frequency without affecting your transmit frequency. 
+RIT is sometimes called a clarifier since it can be used 
+to tune in voice signals clearly. It is also useful in CW 
+and DATA modes when a station calls off-frequency. 
+XIT, or transmit incremental tuning, adjusts the 
+transmit frequency without affecting the receive 
+frequency. (An alternative is to use SPLIT, pg. 30.) 
+∆ F (Delta-F) LED 
+:  This LED turns on whenever 
+RIT, XIT, or SPLIT is in use as a reminder that your 
+receive and transmit frequencies may be different. 
+To use RIT: First, tap  RIT . This turns on the RIT 
+icon and the OFS LED. Adust using 
+ OFS/B . 
+To use XIT: XIT is controlled using MENU:XIT. 
+Setting the menu entry to ON turns on the XIT icon 
+and the OFS LED. Adjust using 
+ OFS/B . 
+To zero the RIT/XIT offset: Hold CLR. 
+  You can still use the  
+ OFS/B  control to tune 
+VFO B, even if RIT or XIT is turned on. Just tap the 
+knob to turn the B LED back on. The RIT/XIT icons 
+on the LCD will retain their current states. 
+Special VFO B Displays 
+To see special information on VFO B, tap  DISP , then 
+rotate 
+ OFS/B. Available displays include time, 
+supply voltage, supply current, amp hours used, logged 
+text review, etc. (see pg. 23). 
+ 
+ 
+
+============================================================
+PAGE 17
+============================================================
+
+17 
+Receive Settings 
+The Receive controls group, which includes the           
+ AF/MON knob and the two switches below it, is 
+used to set up the KX2’s receiver. On the display, 
+directly above these controls, is the filter passband 
+graphic. This shows the receiver’s audio passband. 
+AF Gain / Monitor Level Control 
+The 
+ AF/MON knob normally controls receiver AF 
+gain. Tapping the knob switches its function to MON 
+(monitor volume level). In CW mode, this turns on the 
+sidetone (also see Spot, pg. 21). In SSB mode, you’ll 
+hear your microphone audio (pg. 17). 
+  Switch activation tones, if used, have the same 
+volume level as the CW sidetone (as set in CW mode 
+using 
+ MON ). Switch tones can be set to off, on, or 
+Morse code characters (MENU:SW TONE). 
+Preamp and Attenuator 
+On successive taps, PRE cycles through preamp on 
+(attenuator off), both off, and attenuator on (preamp 
+off). PRE and ATTN icons are updated accordingly. 
+Typically the preamp is used on the higher bands or 
+with low-gain antennas. If interference is heavy, turn 
+the preamp off, and if necessary, turn the attenuator on.  
+  You can improve sensivitity by using the internal 
+ATU to resonate the antenna. Tap ATU.  
+  The KX2 will automatically reduce receive gain in 
+the presence of very strong signals. The overload icon 
+(RX) will turn on. Also see MENU:COR LVL. 
+Filter Passband / Squelch Control  
+In FM mode, tapping FIL  temporarily assigns the      
+ AF/MON  knob to squelch. In all other modes, 
+tapping FIL places the KX2 in FIL ADJ mode. The  
+ AF/MON  and  
+ KYR/MIC  knobs can then be 
+used to adjust the filter passband per-mode as 
+described below.                   
+The passband graphic shows the width and centering of 
+the current filter. The example below shows a medium-
+width filter that is centered (not shifted):  
+ 
+In general, a narrow passband reduces interference 
+(QRM) and noise (QRN), while a wider passband can 
+reduce listening fatigue and improve fidelity. 
+Using FIL ADJ mode: 
+• 
+Rotate 
+ AF/MON  knob to adjust the filter width.  
+• 
+Tap  
+ AF/MON  to normalize the filter to the 
+standard per-mode setting. This turns on the two 
+“wings” shown at the left and right ends of the 
+graphic as shown above. 
+• 
+Rotate  
+ KYR/MIC  to shift the passband left or 
+right. 
+• 
+Tap  
+ KYR/MIC  to center the filter without 
+changing the bandwidth. 
+• 
+To exit FIL ADJ mode, tap any other switch, key 
+the transmitter, or rotate VFO A. 
+  Filters in the KX2 are implemented entirely within 
+the digital signal processor (DSP). 
+ 
+ 
+
+============================================================
+PAGE 18
+============================================================
+
+18 
+Noise Reduction 
+Noise reduction (NR) removes random background 
+noise (hiss or static). It has a characteristic “hollow” 
+sound. Higher settings may attenuate weak signals. 
+Holding NR turns on noise reduction and displays its 
+setting, which can then be adjusted using the knob 
+above the switch. Tap any switch to exit the setting 
+display. Hold NR again to turn noise reduction off. 
+Noise Blanking 
+Noise blanking can eliminate repetitive noise such as 
+that from power lines, appliances, and vehicle ignition 
+systems. Use the lowest effective setting. 
+Holding NB (a function of the 
+ AF/MON knob) turns 
+on the noise blanker. The setting can then be adjusted 
+using this knob. Tap any switch to exit the setting 
+display. Hold NB again to turn the blanker off. 
+Audio Peaking Filter (APF) and Notch Filter 
+In CW mode, holding APF-AN turns on a very narrow 
+filter to improve copy of weak CW signals right at the 
+receiver’s noise floor. The filter graphic changes as 
+shown below, and VFO tuning is set to 1 Hz. 
+ 
+ 
+In SSB and AM modes, APF-AN turns on auto-notch 
+(AN). Auto-notch can suppress one or more audible 
+carriers (continuous tones) automatically, while having 
+little impact on speech signals. 
+CW/DATA Tuning Aid (CWT) 
+Accurate tuning of received signals is required before 
+you call a station, or when you’re using built-in text 
+decode (TEXT, pg. 21). Signals can always be tuned in 
+by ear, but the KX2 also provides a visual tuning aid 
+(CWT). With CWT on (MENU:CWT), the upper half 
+of the S-meter changes as shown below.  
+    CW and PSK31/PSK63                          RTTY 
+    
+        
+ 
+A CW signal appears as a single bar. Tune the signal 
+until the bar is centered beneath “CWT” as shown. 
+This single-bar display also applies to PSK-D (pg. 28).  
+In RTTY or radioteletype modes, mark and space tones 
+appear as bars on either side of the CWT pointer (see 
+FSK D and AFSK A data modes, pg. 28). With no 
+signal, you’ll see a “ghosting” effect (above). As you 
+tune in a signal, solid bars will appear on both sides. 
+To optimize CW/data text decode, you may need to 
+fine-tune the VFO position. This is especially true in 
+PSK-D mode. Use 1 Hz steps (RATE).  
+Spot and Auto-Spot:  Tapping 
+ KYR-SPT/MIC 
+generates an audible spot tone in CW, PSK-D, and 
+FSK-D modes. Tune the VFO until the signal pitch 
+matches the spot tone. If CWT (see above) is turned on 
+in CW and PSK-D modes, tapping this knob will tune 
+in the signal automatically, if possible (auto-spot).  
+50
+100
+2
+3
+SWR
+RF
+CWT
+                    
+S1
+3
+5
+7
+9
+50
+100
+2
+3
+SWR
+RF
+CWT
+                    
+S1
+3
+5
+7
+9
+
+============================================================
+PAGE 19
+============================================================
+
+19 
+Transmit Settings 
+The Transmit controls group (to the left of the VFO A 
+knob) is used to set up the KX2’s transmitter.  
+  This section provides an overview of transmit 
+controls. Detailed per-mode instructions follow. 
+Keyer Speed-Spot/Mic Gain and Power Output 
+In CW mode,  
+ KYR-SPT/MIC  sets the keyer speed 
+(in WPM). Tapping the knob spots a signal (pg. 21). In 
+voice modes, this knob sets mic gain. A typical seting 
+is 15-25 for use with the Elecraft MH3 microphone. 
+Holding this knob in for ~0.5 seconds selects  
+ PWR  
+(power output control). Power level is shown on the 
+RF bar graph during transmit. PWR can be set as high 
+as 15 W on 80-20 m and 12 W on 15-10 m, but see 
+Specifications and notes below. A supply voltage of 
+12 V or higher is required for SSB use at full power. 
+If a KXPA100 amplifier is connected, power can be 
+set up to 100 W (see KXPA100 owner’s manual). 
+  The right side of the KX2 may become hot 
+during transmit in high-duty-cycle modes. If the PA 
+temperature is too high, power will be automatically 
+reduced. Third-party add-on heatsinks are available. 
+  Maximum power output varies with supply 
+voltage and other factors. If output is lower than 
+expected, use the special VFO B displays (pg. 23) to 
+check supply voltage, current drain, and PA 
+temperature. The selected parameter will be shown on 
+VFO B during TUNE. (SWR is shown on VFO A.)  
+Transmit Controls and ATU Tuning 
+Tap  
+ AF/MON  to set the transmit monitor volume 
+(speech in voice modes, sidetone in CW mode).  
+XMIT switches from receive to transmit. However, in 
+CW modes, MENU:VOX MD is usually set to ON, so 
+you can simply hit the key or keyer paddle to transmit. 
+(VOX is always on in PSK-D/FSK-D modes.) In voice 
+modes, tapping XMIT is an alternative to using mic 
+PTT or VOX. (See pg. 20 for SSB VOX setup.) 
+TUNE is used to transmit a CW signal at the power 
+level selected by the  
+ PWR control. This is useful 
+with external wattmeters and antenna tuners. The    
+TUN PWR menu entry can be used to override the 
+PWR control setting and transmit at a lower level. 
+ATU starts automatic antenna matching if a KXAT2 
+internal ATU is installed (pg. 19), or if a KXPA100 
+amp with KXAT100 ATU is connected (pg. 33). 
+MENU:ATU MD must be set to AUTO. Matching 
+takes an average of 4 seconds, initially. Settings are 
+recalled on band change, or when you transmit after 
+moving the VFO a significant distance. The ATU icon 
+flashes briefly when settings are recalled. In CW mode, 
+recall is delayed until a pause in keying. Also see 
+MENU:ATU DATA for selection of ATU data sets. 
+  With difficult loads, try tapping ATU a second 
+time within 5 seconds to search for a lower SWR. 
+PFn (programmable functions): See pg. 25. 
+MSG and REC are used to play and record CW, data, 
+or digital voice messages (pgs. 22 and 30). 
+
+============================================================
+PAGE 20
+============================================================
+
+20 
+ 
+SSB Mode  
+Use the steps below to do initial SSB setup:  
+§ 
+Set 
+ PWR to 0.0 W. 
+§ 
+Tap MODE to select SSB (either LSB or USB). 
+To change SSB modes, use MENU:ALT MD. 
+§ 
+Tap 
+ AF/MON  to set the voice monitor level. 
+Start with 3. High settings may sound distorted. 
+§ 
+Set MENU:TX CMP (speech compression) to 0 
+initially. Exit the menu. 
+§ 
+Tap XMIT or hold in the mic’s PTT switch. Note: 
+Hand-held mics like the Elecraft MH3 should 
+nearly touch your mouth when you are speaking.  
+§ 
+While speaking into the mic, adjust mic gain           
+(
+ MIC). This will turn on the transmit CMP and 
+ALC bar graphs. While speaking, adjust mic gain 
+for about 5 ALC bars (see below). Mic gain for 
+the Elecraft MH3 is typically set to 15-25, and 
+30-40 for the internal mic. 
+ 
+§ 
+To use speech compression, set MENU:TX CMP 
+to 10-20 initially. Compression increases average 
+“talk power” with only slightly decreased fidelity. 
+§ 
+Exit transmit mode. Set  
+ PWR to the desired 
+level. Do not use MIC gain to set power level. 
+Set mic gain to a fixed level as described above. 
+VOX Setup 
+Several menu entries are used to configure SSB VOX 
+(voice-operated transmit):  
+If MENU:VOX MD is OFF (PTT, or push-to-talk 
+mode), the transmitter must be enabled by tapping 
+XMIT or by holding the mic’s PTT button. With VOX 
+on, the VOX icon turns on, and transmit starts by 
+speaking. If VOX is on, the remaining menu entries 
+below should also be set up. 
+  VOX cannot be used with the built-in 
+microphone. Use the XMIT switch to transmit. 
+MENU:VOX GN  (VOX gain) should be set to trigger 
+at normal speech level, but not in response to 
+incidental noise. Start with low settings (10-20). 
+MENU:VOX DLY sets the VOX (voice-operated 
+transmit) delay time in seconds. A setting of about 0.5 
+seconds will keep the radio in transmit mode during 
+typical continuous speech.  
+MENU:VOX INH (VOX inhibit, or anti-vox) can 
+prevent speaker audio from triggering VOX.  
+Transmit Metering  
+In voice modes, tapping  
+ MIC switches the transmit 
+bar graph from  SWR / RF to CMP / ALC. 
+The CMP / ALC scale is selected automatically when 
+you adjust mic gain or speech compression. The      
+SWR / RF scale is restored after a few seconds. 
+
+============================================================
+PAGE 21
+============================================================
+
+21 
+CW Mode 
+Basic CW-Mode Setup 
+§ 
+Tap MODE to select CW (normal CW mode). 
+Some operators prefer to use CW reverse  (CW 
+REV). See MENU:ALT MD for details. 
+§ 
+MENU:VOX MD can be set to ON (VOX) or OFF 
+(PTT) for CW mode. Most operators use VOX, 
+allowing the transmitter to be keyed immediately 
+whenever a hand key or keyer paddle is used. PTT 
+requires manual transmit start/stop using XMIT.  
+§ 
+Set sidetone pitch using MENU:PITCH. 500-700 
+Hz is typically used with headphones. 
+§ 
+Set sidetone volume using 
+ MON. 
+§ 
+MENU:VOX DLY sets the break-in or QSK delay 
+(the time before the receiver recovers after key-
+up). A setting of 0.00 provides full break-in, also 
+known as “full QSK.” (The QSK icon will appear.) 
+MENU:CW WGHT provides two variations on 
+QSK; CW operators may wish to try both.  
+CW Receive Filtering 
+As conditions change, you can adjust the filter 
+passband using FIL as described on pg. 17. A narrow 
+passband can improve copy in the presence of noise or 
+interference, while a wider passband can be less 
+fatiguing to listen to. You’ll also find the audio 
+peaking filter (APF, pg. 18) to be very useful with 
+weak CW signals.  
+ 
+Off-Air Code Practice 
+Sending CW normally produces both a sidetone and a 
+transmitted signal. If PTT-CW is selected (by setting 
+MENU:VOX MD to OFF), hitting the key without 
+first tapping XMIT will generate only a sidetone. This 
+is useful for code practice or keyer speed adjustment.  
+CW-Mode Menu Settings 
+You can use the menu to change the settings for iambic 
+keying (CW IAMB), keying weight (CW WGHT), and 
+paddle normal/reverse or hand key (CW KEY1 for the 
+KEY jack, and CW KEY2 for an attached KXPD2 or 
+KXPD3 keyer paddle).  
+CWT, SPOT and Auto-Spot 
+When calling a station, you should try to match your 
+frequency to theirs. To facilitate this, the KX2 provides 
+both a visual tuning aid (CWT), as well as manual and 
+automatic spotting in CW and some data modes. See 
+pg. 18. 
+CW Text Decode/Display 
+The KX2 can decode transmitted and received CW 
+signals, displaying the text on VFO B (pg. 29). This is 
+especially useful when you’re learning CW, or if 
+someone who doesn’t know CW is looking over your 
+shoulder while you make CW QSOs. It’s also 
+indispensable for CW-to-DATA operation (pg. 27).  
+The KX2 can also capture transmitted CW for logging 
+purposes. See MENU:LOGGING. 
+
+============================================================
+PAGE 22
+============================================================
+
+22 
+CW/DATA Message Record/Play 
+There are 3 text messages, each having up to 250 
+characters. These apply to CW as well as DATA 
+modes FSK D and PSK D.  
+  Messages can only be recorded using the KX2’s 
+built-in keyer function (using either an external keyer 
+paddle, KXPD2, or KXPD3). An external keyer cannot 
+be used. Messages can also be viewed or edited using 
+the KX2 Utility computer application. 
+Message Record: To start recording, hold REC , then 
+select a message by tapping any of switches 1 through 
+3 of the numeric keypad (the PRE, FIL, and ATU 
+switches, respectively). The remaining text space will 
+be displayed as you send. Tap MSG to finish 
+recording.  
+Message Play: To play, tap MSG , then select a 
+message (1 through 3). To cancel, tap XMIT  or hit the 
+keyer paddle or hand key. 
+Message Erase: Hold REC, select a message (1 
+through 3), then hold CLR. 
+Auto-Repeat: To auto-repeat a message, tap MSG , 
+but then hold rather than tap a message switch (1 
+through 3).  MENU:MSG RPT sets the message 
+repeat interval (1 to 255 seconds). To cancel auto-
+repeat, tap XMIT  or hit the keyer paddle or hand key. 
+Chaining: Tapping a message switch during playback 
+chains another message onto the message being played. 
+Holding a message switch during playback chains a 
+repeating message. 
+AM Mode 
+To select AM, tap the MODE switch. AM mode can be 
+enabled/disabled using MENU:AM MODE. 
+AM Receive: AM mode can provide a “warmer” 
+sound that SSB mode when used to copy shortwave 
+broadcast stations. MENU:VFO CRS provides coarse-
+tuning selections of 1, 5, 9 and 10 kHz for AM mode. 
+Look for AM amateur signals around 3.870 MHz. 
+AM Transmit:  Setup for AM transmit is the same as 
+for SSB (pg. 20). However, speech compression should 
+be turned off for AM mode (MENU:TX CMP). The 
+RF bar graph will indicate about 1/3 to 1/2 the power 
+set by the power control. AM is far less power-efficient 
+than SSB, so at QRP levels, SSB is preferred. 
+FM Mode 
+To select FM, tap the MODE switch. This mode can be 
+enabled/disabled using MENU:FM MODE. 
+FM and Repeater Configuration:  Use MENU:FM 
+DEV  to set deviation. (To adjust PL tone deviation, 
+tap 1  while in this menu entry.) MENU:RPT OFS  is 
+used to specify repeater offsets. In the MENU:FM 
+TONE  menu entry, tap 1 to turn PL tone encode on or 
+off, and rotate VFO A to the select tone pitch. Tones 
+and offsets are stored in frequency memories. 
+FM Operation:  To adjust squelch level, tap FIL, then 
+rotate  
+ AF/MON . Hold SPLIT  to select  + / - / 
+SIMPLEX. “+” and “-” appear under the “FM” icon. 
+Also see Channel Hopping (pg. 24). 
+
+============================================================
+PAGE 23
+============================================================
+
+23 
+Advanced Operating Features 
+Special VFO B Displays 
+The KX2 can display time of day and other parameters 
+on the VFO B display. To access these displays, tap  
+DISP , then rotate the 
+ OFS/B control.  
+The following special displays are available: 
+§ 
+24-hour time, obtained from the real-time-clock 
+on the KXIO2 or KXIBC2 module. If neither is not 
+installed, the time since last power-on will be 
+displayed. Set the time using MENU:TIME.  
+§ 
+Power supply voltage. If both an internal battery 
+and external power source are connected to the 
+KX2, this display shows the higher of the two. The 
+voltage remains displayed even when using TUNE, 
+so you can check key-down conditions. 
+§ 
+Battery Voltage. This display is only available if 
+MENU:KXIBC2 is set to NOR; refer to the 
+KXIBC manual. Display persists during TUNE. 
+§ 
+Supply current. Typical RX current is 0.15-0.18 
+A; TX, 1 to 3 A. Display persists during TUNE. 
+§ 
+Power Amplifier (PA) temperature. The KX2’s 
+internal PA temperature is shown as PA.I nnC  
+(Internal). If a KXPA100 is connected via the 
+remote-control cable, MENU:PA MODE is ON, 
+and 
+ PWR  is set to > 10 W, the KXPA100’s PA 
+temperature is shown, as PA.X nnC (eXternal). 
+PA temperatures rise gradually as you transmit. 
+Display persists during TUNE. 
+§ 
+Audio Signal level (AFV). Shows the KX2’s 
+audio output level, prior to the AF gain control 
+(the AF gain control has no effect on this reading). 
+The reading will vary with preamp and attenuator 
+settings. AFV is used along with dBV (below). 
+§ 
+Relative audio signal (dBV). Used to measure 
+receiver sensitivity or or to compare signals. First 
+select AFV (described above) and allow the 
+voltage reading to stabilize. (This may not be 
+possible with rapidly changing signals.) Once the 
+signal appears stable, select dBV. You should now 
+see a reading of around 0 dBV (see Glossary) 
+relative to the last AFV reading. If you change the 
+setting of the preamp or attenuator, you should see 
+this reading change. However, it may not change 
+as much as you expect unless you also turn AGC 
+off using the AGC menu entry. (Be sure to turn 
+AF gain down before turning AGC off, as the 
+signal may become very loud.) 
+§ 
+Amp hours:  Shows total amp hours used since 
+the value was last reset (for details, see  
+MENU:AMP HRS). Used to test batteries or 
+estimate remaining battery charge.  
+  Hold  CLR  while in the AMP HRS menu 
+entry to zero the amp hours value. 
+§ 
+Log Data:  Use VFO A to scroll through recorded 
+outgoing CW/DATA text. Also shows time stamps 
+and band/mode. See MENU:LOGGING. 
+  Hold  CLR  to erase all log data. 
+ 
+ 
+
+============================================================
+PAGE 24
+============================================================
+
+24 
+Frequency Memories 
+The KX2 has 100 general-purpose frequency memories 
+(00-99), plus four quick memories on each band. Each 
+memory stores VFOs, modes, and other settings. Quick 
+memories provide an easy way to get to segments used 
+for each operating mode. For example, you could use 
+quick-memory 1 as an SSB starting point, use 2 for 
+CW, 3 for data, etc. Memories can be set up manually 
+or with the Elecraft Frequency Memory Editor (pg. 35).  
+To store a general-purpose memory (00-99): First 
+hold  STORE , then locate the desired memory by 
+rotating the VFO A knob. The VFO A frequencies 
+presently stored in each memory will be shown. When 
+you reach the desired memory number, hold STORE 
+again to exit, or tap any other switch to cancel. 
+To recall a general-purpose memory: Hold 
+RCL/SCN , then select a memory using VFO A. Tap 
+any switch to exit.  
+To store a per-band quick memory: Hold STORE, 
+then tap the target quick memory (1 - 4).   
+To recall a per-band quick memory: Hold 
+RCL/SCN , then tap the target quick memory (1 - 4).   
+To erase a general-purpose memory: While scrolling 
+through memories to store or recall, hold CLR.  
+To add a text label to a general-purpose memory: 
+First hold RCL/SCN , then select a memory (00-99) 
+using VFO A. Next, rotate VFO B to select each text 
+label position in turn as indicated by the flashing 
+cursor. Use VFO A to select label characters (A-Z, 0-9, 
+and symbols). Hold STORE to exit.  
+Scanning  
+Scanning tunes a band segment continuously until a 
+modulated signal is found. To use scanning: 
+§ 
+Set VFO A and B to the desired scan start/end 
+frequencies, and VFO A to the desired mode. 
+STORE in memory 00-99 as described at left. 
+§ 
+To start scanning, first recall a general-purpose 
+frequency memory as described at left. Then hold 
+RCL/SCN until SCAN appears on VFO B (~3 s). 
+§ 
+To stop scanning, rotate VFO A or tap any switch. 
+To restart, hold RCL/SCN for about 3 seconds. 
+Channel Hopping 
+Scanning (or manually tuning) among a group of 
+memories is referred to as channel hopping. This is 
+especially useful on 60 m, or with repeaters. Memories 
+in a group must all be in the same band. 
+To set up channel hopping: 
+§ 
+Set up VFO A for the first target frequency and 
+mode. STORE this setup in a memory (00-99).  
+§ 
+Set up and STORE the remaining frequencies in 
+the next successive numbered memories. 
+§ 
+Add a text label to each memory in the group, 
+using an asterisk (*) as the first character. 
+§ 
+To start manual channel hopping, recall one of the 
+memories in the target group. VFO A will now hop 
+among the grouped memories. Holding RCL/SCN 
+for ~3 seconds starts scanning within the group. 
+§ 
+To disable channel hopping, tap RATE. 
+
+============================================================
+PAGE 25
+============================================================
+
+25 
+Audio Effects 
+Stereo headphones or dual external speakers can be 
+used with the KX2’s DSP audio effects (AFX). At 
+present the KX2 provides one audio effects mode, 
+DELAY, which creates an illusion of acoustic “space,” 
+resulting in a less-fatiguing sound and in some cases 
+better copy of weak signals. MENU:AFX MD is used 
+to select the desired AFX setting. 
+ 
+Dual Watch 
+Dual watch allows you to listen on both the VFO A 
+and VFO B frequencies, as if you had two receivers. 
+You’ll hear the signal at VFO A in the left channel, 
+and the signal at VFO B on the right. 
+  Stereo headphones or dual external speakers 
+are required to use dual watch.  
+Dual watch has various uses. For example, you might 
+be waiting for a station on VFO B’s frequency to 
+complete a QSO, while using VFO A to look for other 
+stations. You can tap A / B to alternate between the 
+two frequencies. 
+Dual watch is also ideal for working DX stations that 
+are listening at an offset from their transmit frequency. 
+You can listen to the DX station on VFO B, while 
+using VFO A to find the station they’re presently 
+working. Once that station has been found, you may 
+want to move up or down slightly to find a clear spot in 
+which to call. 
+To turn on dual watch:  Set MENU:DUAL RX to 
+AUTO. This turns on the SUB (“sub receiver”) icon. 
+If you turn dual watch on/off frequently, you may wish 
+to access it via PFn (described below). 
+Dual Watch Limitations:   
+§ 
+VFO B can be up to 7 kHz above VFO A, or up to 
+23 kHz below VFO A. If you exceed this 
+separation with DUAL RX turned on, the SUB 
+icon flashes slowly as a reminder. This doesn’t 
+prevent you from exceeding the separation, but it 
+does disable dual watch until VFO B is back in 
+range.  
+§ 
+Dual watch overrides the normal audio effects 
+mode (AFX MD).  
+§ 
+Headphones or external speakers must be used. 
+Programmable Function Switch (PFn) 
+You can access up to four often-used menu entries 
+quickly by assigning them to programmable functions 
+PF1-PF4. This is done using the PFn switch. 
+To set up a programmable function: 
+§ 
+Hold MENU, then rotate VFO B to find the target 
+menu entry.  
+§ 
+Hold PFn , then tap 1 through 4 to assign PF1-
+PF4 to this menu entry. You’ll see PFn SET. 
+§ 
+Exit the menu. 
+  If a parameter has only two values, accessing it 
+with PFn will change the value and exit the menu.  
+
+============================================================
+PAGE 26
+============================================================
+
+26 
+Receive Audio Equalization (RX EQ) 
+The KX2 provides 8 bands of receive audio 
+equalization via the RX EQ menu entry. RX EQ can 
+compensate for physical acoustics (of the room, 
+headphones, internal speaker, external speaker), 
+tailoring the audio to your personal preference.  
+Two receive EQ setups are provided: one for CW 
+mode, and the other for voice modes. RX EQ does not 
+apply to DATA modes.  
+In the RX EQ menu entry, the VFO A display shows 8 
+individual vertical bar graphs. The example below 
+shows various amounts of EQ for each band.  
+ 
+ 
+The center frequencies of the 8 audio EQ bands are 50, 
+100, 200, 400, 800, 1600, 2400, and 3200 Hz. To select 
+a band to change, tap 0-7 on the keypad. For example, 
+tapping 0 selects the 50-Hz band.  
+Next, rotate VFO A to specify boost or cut (+/- 16 dB). 
+The illustration above shows the 800 Hz EQ band 
+(0.80 kHz) being set to +1 dB of boost. You can hold  
+CLR to reset all of the RX EQ bands to 0 dB (no cut or 
+boost). 
+ 
+Transmit Audio Equalization (TX EQ) 
+  Most microphones, including the Elecraft MH3 
+and the KX2’s built-in mic, will provide good audio 
+quality with default (flat) TX EQ. Also, excessively 
+high TX EQ settings can cause distortion. 
+If required, transmit audio equalization can compensate 
+for microphone and voice variations. MENU:TX EQ  
+works exactly the same as RX EQ (described at left) 
+and can be adjusted during transmit. TX EQ is not 
+applicable to CW or DATA modes. 
+While adjusting TX EQ, monitor your voice using 
+headphones (use 
+ MON to set the level), or listen to 
+your transmitted signal on another receiver. If you hear 
+distortion, reset all TX EQ bands using CLR. You may 
+also have excessive mic gain or compression. 
+ 
+SSB/CW VFO Offset 
+The KX2 can automatically offset the VFO frequency 
+when you switch from SSB to CW mode, so other 
+stations will hear the correct CW pitch. See 
+MENU:CW WGHT for details. 
+ 
+ 
+AGC-S
+NB
+     FL2
+XFIL
+USB
+VOX 
+PRE 
+ANT  2 
+RIT
+ATU
+TX
+A
+B
+
+============================================================
+PAGE 27
+============================================================
+
+27 
+Data Modes 
+The KX2 supports data operation via a computer and 
+special software. But it can also be used in RTTY and 
+PSK31/PSK63 modes without a computer, thanks to 
+the built-in FSK D and PSK D modes.  
+  5.0 watts or lower is recommended in all data 
+modes. The KX2 will reduce power, if necessary, to 
+maintain a safe operating temperature.  
+  Mic gain, RX/TX EQ, and TX CMP are not 
+applicable to FSK D and PSK D modes. 
+FSK D Mode (RTTY) 
+FSK D (RTTY1) is the easiest data mode to use: 
+§ 
+Tap DATA to select data modes. 
+§ 
+Tap DATA again and rotate 
+ OFS/B  to select 
+the FSK D sub-mode. Tap the switch again to exit 
+the sub-mode display. A dual-passband 
+(mark/space) filter will appear: 
+                       
+ 
+§ 
+Hold TEXT to turn on text decode. 
+§ 
+The sideband can be reversed (MENU:ALT MD). 
+§ 
+Optionally turn on the tuning aid (CWT, pg. 21). 
+                                                      
+1 FSK stands for frequency-shift keying, used with RTTY 
+(radioteletype). The KX2 uses a 170 Hz shift. RTTY signals 
+You’ll now be able to copy RTTY signals. If you see 
+only numbers and punctuation, try tapping DATA 
+twice to restore “letters” mode. 
+RTTY stations can most often be found on 20 m, from 
+14080-14090 kHz. Other popular “watering holes” 
+include 80 m (3570-3600), 40 m (~7040 and ~7080), 
+17 m (~18100), and 15 m (~21080). During contests, 
+stations spread out over a much wider range. 
+To transmit in FSK D mode (CW-to-Data):  Plug a 
+keyer paddle into the KEY jack, or attach a KXPD2 (or 
+KXPD3) paddle at the front of the KX2. (See the CW 
+KEY1 and CW KEY2 menu entries.) When you send 
+CW, the KX2 will convert it to RTTY. (You’ll hear the 
+CW sidetone as well as weak RTTY tones.)  
+You can use CW message memories in FSK D mode, 
+as well as with KX2 Utility’s Terminal function (pg. 
+35). FSK-D mode transmit text can also be captured 
+for logging purposes (see MENU:LOGGING). 
+  You cannot use a hand key for FSK D transmit. 
+  The KX2 adds a 4-second “idle time” (giving you 
+time to decide what to say next) each time you stop 
+sending. At the end of this period, the receiver is re-
+enabled. To terminate the idle period quickly, send 
+the character  . . - -  in CW. This “IM” prosign can 
+also be inserted at the end of a message. It will not be 
+transmitted on the air, but you’ll hear it in your CW 
+sidetone. 
+are encoded using a 5-level code called baudot, at a baud 
+rate of 45 baud, or about 60 words per minute. 
+
+============================================================
+PAGE 28
+============================================================
+
+28 
+PSK D Mode (PSK31/PSK63) 
+PSK D is the KX2’s built-in version of PSK31 (or 
+PSK63)2, which is highly reliable at low power levels. 
+To use PSK D mode: 
+§ 
+Tap DATA to select data modes. 
+§ 
+Tap DATA again and rotate 
+ OFS/B  to select 
+the PSK D sub-mode. Use VFO A to select 31 or 
+63 baud. Tap DATA again to exit. A narrow 
+receive passband will be selected. 
+§ 
+Hold TEXT to turn on text decode. (Also see 
+MENU:LOGGING for PSK-D text capture.) 
+§ 
+The sideband can be reversed (MENU:ALT MD). 
+§ 
+Optionally turn on the tuning aid (CWT, pg. 21). 
+Before attempting to transmit in this mode, you should 
+practice tuning in signals. Try listening to 14070-
+14073 kHz (20 m), tuning signals in 1 Hz steps until 
+the decode appears accurate.  
+  A PSK signal can sometimes be tuned in at 
+multiple VFO frequencies, separated by ~8-16 Hz. To 
+ensure you’re listening on the correct frequency before 
+you transmit, use auto-spot (pg. 21). 
+For PSK D transmit, a keyer paddle directly conntected 
+to the KX2 is required. Use the “IM” prosign to 
+terminate transmit quickly. (See previous page.) 
+                                                      
+2 PSK stands for phase-shift keying. 31 and 63 refer to the 
+baud rates, 31.25 or 62.5 baud. PSK signals are encoded 
+using a very efficient representation called varicode. 
+ Audio Data Modes (DATA A and AFSK A) 
+A computer, sound card, and appropriate software can 
+be used with the KX2 for data communications. Many 
+different modes can be used in this way, including 
+PSK31/63, RTTY, JT65, Pactor, Olivia, MFSK, SSTV, 
+etc. The KX2 provides DATA A mode for this 
+purpose. DATA A automatically disables compression 
+and RX/TX EQ. Upper sideband is the default. 
+For audio-based RTTY, you can also use AFSK A 
+mode. Like FSK D, AFSK A provides a dual-passband 
+RTTY filter and text decode. The VFO is tuned to the 
+mark frequency. Lower sideband is the default. 
+To use audio data modes: 
+§ 
+Tap DATA twice; rotate 
+ OFS/B  to select 
+DATA A or AFSK A. Tap DATA to exit. 
+§ 
+In AFSK A mode, optionally hold TEXT to turn 
+on text decode. Also see CWT (pg. 21). 
+§ 
+Connect your computer’s line-audio output to the 
+MIC jack. Connect the KX2’s PHONES jack to 
+your computer’s line-audio input. Shielded cables 
+should be used. You may need an attenuator if the 
+drive levels are too high. 
+§ 
+Refer to your data communications software 
+manual to determine how to set up the KX2’s VFO 
+for accurate frequency display.  
+§ 
+VOX can be used for data; see MENU:VOX MD. 
+
+============================================================
+PAGE 29
+============================================================
+
+29 
+§ 
+While transmitting audio data, adjust MIC gain for 
+no more than 4 to 5 bars of ALC indication. 
+§ 
+RX/TX EQ and TX CMP are not applicable to 
+DATA A and AFSK A modes. 
+Text Decode And Display 
+The KX2 can decode CW, PSK31 or PSK63 (PSK D) 
+and RTTY (FSK D). CW speeds from about 8 to 70 
+WPM can be decoded. Decoded text is displayed on 
+VFO B. If no signal is tuned in, random characters may 
+be displayed. 
+To set up text decode: 
+§ 
+Select the desired mode (CW, FSK D, or  PSK D) 
+using MODE or DATA.  
+§ 
+If a special VFO B display mode is in effect, 
+cancel it by tapping DISP. 
+§ 
+You’ll probably want to turn on CWT as a tuning 
+aid (pg. 21). Also, auto-spot (pg. 21) can be used to 
+automatically tune in signals. 
+§ 
+Hold TEXT .  In DATA modes, this will alternate 
+between DEC ON and DEC OFF. (The T mode 
+icon appears when it is on). In CW mode, use       
+ OFS/B  to select a text decode mode. TX 
+ONLY displays only CW characters you send 
+using the internal keyer. To decode text from on-
+air CW signals, use one of the RX THRn  
+settings. Turn CWT on and adjust the threshold so 
+that the CWT bar graph segment flashes in time 
+with the incoming CW. Use higher RX THRn 
+settings for stronger signals as well as faster CW 
+speeds. 
+§ 
+In CW, PSK-D and FSK-D modes, transmitted text 
+can be captured (see MENU:LOGGING).  
+§ 
+Use a filter bandwidth of 0.30 kHz or less. 
+§ 
+For further details on data modes, see pg. 27. 
+
+============================================================
+PAGE 30
+============================================================
+
+30 
+Split Operation 
+Often you’ll hear a DX station being called by many 
+stations, creating a pileup. To ensure that he has a clear 
+transmit channel, the DX station may say “UP” or 
+“DOWN” periodically to indicate that he’s listening 
+above or below his transmit frequency. For example, in 
+CW mode he might transmit on 14025 kHz, but listen 
+in the vicinity of 14027 kHz. In this case he would 
+periodically send “UP 2” (or just “UP”) as a reminder 
+of where to call him. SSB pileup-split operation is 
+similar but may occur over a much wider range. 
+To use split, first hold A > B twice to set VFO B to the 
+same mode, frequency, and filter settings as VFO A. 
+Then tune VFO B up about 2 kHz (or the desired 
+offset). Finally, hold SPLIT. The SPLIT icon will turn 
+on, and the TX icon will point at VFO B, since VFO B 
+is now controlling your transmit frequency. 
+Using dual watch with and without SPLIT 
+DX stations will tune in the vicinity of their specified 
+listening frequency when searching for callers. Finding 
+a clear spot in which to transmit will improve your 
+chance of being heard. This is where dual watch comes 
+in. With dual watch ON, you can listen to your RX and 
+TX frequencies at the same time (pg. 25). You’ll be 
+able to tune VFO B to find a clear spot, while still 
+listening to the DX station at VFO A’s frequency. VFO 
+B can be set up to 7 kHz above or 23 kHz below VFO 
+A. Outside this range, dual watch is disabled, and the 
+SUB icon flashes as a reminder.  
+If an SSB-mode pileup extends more than 7 kHz above 
+the DX station, you can use a different technique that 
+allows you to transmit as much as to 23 kHz up. To do 
+this, simply turn split OFF (VFO A will then be the TX 
+VFO), and listen to the DX station with VFO B (using 
+dual watch). This is actually easier than normal split 
+operation, because VFO A has a larger tuning knob.   
+Digital Voice Recorder (DVR) 
+You can record two SSB-mode transmit voice 
+messages of up to 15 s each, such as your call sign or a 
+CQ, and play them back one time or with auto-repeat. 
+This can save your voice, especially in an SSB contest. 
+For example, you could record your callsign in one 
+message and a fixed exchange in the other. 
+  The transmit voice monitor should be used so 
+you can hear DVR playback. This can be adjusted in 
+receive mode. First, tap  
+ AF/MON  to select the 
+monitor level function. Then, while speaking into the 
+mic, use this knob to adjust the level. Start with 5. 
+DVR Record: 
+Hold REC , then tap 1 or 2 on the numeric keypad. The 
+current message will be erased (4 s). When prompted, 
+tap XMIT and start speaking into the mic (no need to 
+push PTT). Tap XMIT again to terminate record. MIC 
+gain cannot be adjusted during DVR message play. 
+The gain setting at time of recording is used.  
+DVR Play: 
+Tap MSG , then tap 1 or 2. To cancel, tap XMIT  or hit 
+the key. To auto-repeat a message, tap MSG , but then 
+hold rather than tap  1 or  2.  MENU:MSG RPT sets 
+the repeat interval (1 to 255 seconds).  
+
+============================================================
+PAGE 31
+============================================================
+
+31 
+Transmit Noise Gate 
+The noise gate function mutes mic audio below a 
+selected audio threshold. This is useful in vehicles and 
+when operating in noisy outdoor environments. See 
+MENU:TX GATE for details. 
+Cross-Mode Operation 
+Cross-mode operation is possible in some cases. For 
+example, you could set up VFO A for SSB receive, and 
+VFO B for CW transmit, then enter SPLIT. When you 
+transmit, the SSB station will hear your CW signal at 
+the pitch of your sideone. Use a fairly slow CW speed, 
+e.g. 15 WPM, if you’re not sure of the SSB operator’s 
+code proficiency level. 
+  You can also send CW in SSB mode without using 
+split, if the CW-in-SSB feature is enabled. See 
+MENU:CW WGHT for details. 
+ 
+Custom Power-On Banner 
+Your KX2 can display a customized text “banner” on 
+power-up, such as your name and callsign. The banner 
+scrolls across the VFO B display.  
+ 
+To set up a banner, use the Configuration screen of the 
+KX2 Utility application. 
+ 
+ 
+ 
+ 
+ 
+
+============================================================
+PAGE 32
+============================================================
+
+32 
+Logging (CW/Data Modes) 
+When using the KX2 hand-held, or if operating time is 
+very limited, logging may be inconvenient. The KX2 
+can capture up to 2048 transmitted characters, along 
+with time, band, and mode data, so you can update a 
+paper or electronic log later on. Log data can be 
+reviewed at the KX2 itself using the DISP/LOG 
+function, or by sending the data to KX2 Utility. 
+Logging applies only to CW (C), PSK-D (P) and FSK-
+D (F) modes, and requires use of the internal keyer, 
+either with a separate or attached paddle. 
+For complete instructions see MENU:LOGGING. 
+Transverter Bands 
+Seven user-definable band displays are provided for 
+use with external transverters, such as the Elecraft XV-
+Series. (FM mode provides PL tone encode and offsets 
+for use with VHF/UHF repeaters; see pg. 22.) 
+  The KX2 does not have a low-level transverter 
+output; transverters are driven from the main 
+antenna jack. This requires the use of transverters that 
+have a common receive/transmit antenna jack and 
+associated T/R switching. Consult the transverter 
+manual for drive power limitations and switching 
+requirements. 
+The KX2’s ACC jack provides a keyline output that 
+can be used to key transverters. See pg. 9. 
+Transverter Band Setup 
+Transverter bands are set up using the five XV menu 
+entries, as follows: 
+ 
+§ 
+Locate the XVn ON menu entry. Tap 1 – 7 to 
+specify which transverter band to configure. Set 
+the parameter to YES to enable band n.  
+§ 
+XVn RF sets the operating frequency (MHz). 
+§ 
+XVn IF specifies the I.F. band (7, 14, 21, 28, or 50 
+MHz). Most transverters use a 28 MHz I.F. 
+§ 
+XVn PWR sets maximum KX2 power output for 
+the current transverter band in watts. 
+§ 
+XVn OFS can compensate for a frequency offset 
+in the transverter. 
+
+============================================================
+PAGE 33
+============================================================
+
+33 
+Options and Accessories 
+This section describes all available KX2 options and 
+accessories. Option modules are easily user-installable, 
+in any order, without soldering.  
+AX-Line Whip Antennas:  These 4 foot (1.2 m) 
+telescoping whips are ideal for pedestrian mobile 
+(hand-held) and general field use. They disassemble 
+into two pieces so they’ll fit into a pocket or our CS40 
+bag. Options include the AXE1 40 m extender. 
+MH3 hand mic: The MH3 microphone includes a 
+high-quality element, space-saving right-angle plug, 
+PTT switch, and VFO UP/DN function buttons.  
+KXPD2 keyer paddle: The KXPD2 is a very compact 
+keyer paddle that attaches directly to the KX2 (or 
+KX3), eliminating the need for a heavy external keyer. 
+  A KXPD3 keyer paddle can also be used with 
+the KX2, though a modification may be required. 
+Contact Elecraft for KXPD3 modification instructions. 
+KXIBC2 internal battery charger and RTC: The 
+KXIBC2 safely and automatically charges the KXBT2 
+battery. It also provides a real-time-clock (RTC; see 
+pg. 23 and the TIME menu entry). The RTC is used 
+with logging functions (see MENU:LOGGING).  
+KXIO2 Aux I/O and RTC: The KXIO2 provides two 
+user-programmable outputs (AUX jack; see the AUX 1 
+and AUX 2 menu entries). Its RTC supports the same 
+time and logging functions as the KXIBC2 (see above). 
+  Either a KXIBC2 OR a KXIO2 can be installed. 
+KXAT2 wide-range internal automatic antenna 
+tuner (ATU): With a KXAT2 installed, you can use 
+non-resonant and narrow-band antennas. An ATU can 
+improve transmit power output and receive sensitivity. 
+The ATU provides two sets of tuning data for use at 
+home and field locations (see MENU:ATU DATA). 
+KXPA100 100-watt amplifier: The KXPA100 is a 
+rugged 100 W, 160-6 m linear amplifier that can be 
+used with the KX2, KX3, or any other QRP 
+transceivesr. An internal 100 W ATU is also available 
+for the amplifier (KXAT100). The KX2 can remotely 
+tune the 100 W ATU (pg. 19) and control its antenna 
+switch (MENU:ANT.X SW). If a KXAT100 is 
+available, the the KX2’s internal ATU (KXAT2) will 
+be placed into bypass mode automatically. 
+  A KX2 Accessory Cable (KX2ACBL) is required 
+to split the KX2’s ACC jack into two jacks: KEY OUT 
+(2.5 mm) and serial I/O (3.5 mm). The KXPA100 
+comes with cables that plug into these two jacks. 
+CS40 and ES60 carrying cases: These are high-
+quality, padded carrying cases with an internal 
+zippered compartment. The CS40 is extremely 
+compact, with space for the KX2, an AX-line whip 
+antenna, ground wire, an earbud-style headset, a few 
+adapters, and a small paper log. The larger ES60 has 
+space for an MH3 microphone and additional items. 
+KX2GNDPLUG: This mini-banana plug can be used 
+to make a quick-disconnect ground wire (pg. 10). 
+BNC-BP:  BNC to binding-post adapter for secure 
+attachment of wire antennas to the KX2 (pg. 10). 
+ 
+
+============================================================
+PAGE 34
+============================================================
+
+34 
+Firmware Upgrades  
+New features and improvements are available to all 
+KX2 owners via free firmware upgrades. Upgrades 
+may also be required when you install option modules.  
+Please visit the Elecraft software page:   
+https://elecraft.com/pages/firmware-software 
+ to obtain our free firmware download application, 
+KX2 Utility. This program runs on PCs, Macs, and 
+Linux platforms. In addition to firmware downloading, 
+KX2 Utility provides automated TX gain calibration, a 
+custom power-on banner, configuration save/restore, 
+CW/DATA message editing, and a CW/DATA 
+terminal function. 
+Connecting the KX2 to a Computer 
+The KX2 is supplied with cable for connection to a 
+computer. The standard cable is model KXUSB, for 
+use with a USB port. Cable model KXSER is available 
+for use with an RS232 port.  
+At the KX2 end, connect this cable to the 3.5 mm ACC 
+jack. (ACC cable pinout is shown on pg. 9 for 
+reference.) 
+Within KX2 Utility, select the new USB or RS232  
+com port associated with the KX2’s serial cable. 
+  Some applications or peripheral devices may 
+interfere with KX2 downloads; check the Help 
+information in KX2 Utility if you have difficulty. 
+Checking your Firmware Revision 
+Use the FW REVS menu entry to determine your 
+firmware revision. The serial number of your 
+transceiver, if needed, can be obtained using the SER 
+NUM menu entry. 
+ 
+KX2 Firmware Self-Test 
+If the KX2 detects an error in its firmware (an incorrect 
+checksum of all bytes in the program), it will flash the 
+TX LED and show MCU LD on the LCD. 
+If this occurs, connect the KX2 to your computer, then 
+run KX2 Utility, which will reload the firmware. While 
+firmware is loading, the Delta-F LED (∆f) will flash. 
+When the download is complete, the KX2 should reset 
+and run normally.   
+Forcing a Firmware Download 
+If you accidentally load an old or incompatible 
+firmware version and find the KX2 unresponsive, do 
+the following: (1) Unplug the KX2 from the power 
+supply. If an internal battery pack is installed, 
+disconnect and remove it. (2) Plug a power supply in 
+(or reinstall the removed battery). (3) hold the KX2’s 
+RATE and  A/B  switches simultaneously for about 10 
+seconds, after which you’ll see the TX LED flash 
+(you’ll also see MCU LD on the LCD). (4) Connect 
+the KX2 to a computer and run KX2 Utility, which will 
+load new firmware. 
+ 
+ 
+
+============================================================
+PAGE 35
+============================================================
+
+35 
+Remote Control of the KX2 
+Computer Control and Logging 
+With appropriate software, any computer with an 
+RS232 or USB port can be used to control the KX2. 
+See Connecting the KX2 to a Computer (pg. 34). 
+Third-party logging and contesting software is 
+available for various computers and operating systems. 
+Select KX2 as the target radio when available. If not, 
+select another Elecraft transceiver. 
+For a list of compatible software applications, 
+including configuration requirements, please visit  
+      http://www.elecraft.com/k2_remote.htm 
+Remote-Control Commands 
+The KX2 has a rich set of remote-control commands. 
+These commands use ordinary ASCII characters, so 
+they can be easily tested using a terminal emulator or 
+the Command Tester screen in KX2 Utility. For 
+example, the command “FA;” returns the current VFO 
+A frequency. Using the same command, you can set 
+the frequency, e.g. “FA00007040000;” sets the VFO to 
+7.040 MHz. The “LG;” command lists the contents of 
+the KX2’s built-in transmit log (MENU:LOGGING). 
+Many specialized commands are provided in addition 
+to the core set of commands supported by the K3S/K3. 
+Please refer to the K3S/K3/KX3/KX2 Programmer’s 
+Reference for further details. 
+Automatic Antenna Control 
+Some antenna control units (e.g., those used with 
+SteppIR™ antennas) can track the KX2’s band and  
+frequency by watching for “IF;” (rig information) 
+packets from the transceiver’s serial port (ACC jack). 
+To configure the KX2 to send these packets, set 
+MENU:AUTOINF to ANT CTRL. The packets are 
+sent once per second while the VFO frequency is being 
+changed, as well as on band or mode change. 
+CW/DATA Terminal Applications 
+The KX2 can handle CW/PSK/RTTY ASCII text 
+transmit and receive via its ACC port (RS232 or USB). 
+Our KX2 Utility application includes a Terminal 
+function that lets you use these modes with your 
+computer’s keyboard and monitor. At the KX2, select 
+FSK-D data submode for RTTY, PSK-D for PSK31 or 
+PSK63, or CW. Then follow the Help instructions 
+within KX2 Utility.  
+Elecraft Frequency Memory Editor  
+The KX2’s frequency memories (pg. 24) can be easily 
+viewed and changed using our Elecraft Frequency 
+Memory Editor. This program shows the contents of 
+all 100 regular memories, as well as per-band quick-
+memories, in a spreadsheet format. You can also set 
+VFO A directly to a memory from within the program. 
+ 
+ 
+
+============================================================
+PAGE 36
+============================================================
+
+36 
+Configuration 
+Option Module Enables 
+Whenever an option is installed, use the associated 
+menu entry to set it up (see Menu Functions, pg. 41). 
+When installing internal options, open the KX2 
+enclosure using the procedure on pg. 6. 
+§ 
+KXAT2 Antenna Tuner (ATU): Set ATU MD to 
+AUTO. Exit the menu and turn the KX2 off, then 
+back on. See pg. 19 for ATU controls. 
+§ 
+KXPD2 (or KXPD3) Keyer Paddle: Set 
+MENU:CW KEY2 to LeFT paddle  = DOT 
+(normal) or  = DASH (reverse). If you set it to 
+HAND, either paddle can be used as a hand key. 
+(The KEY jack is configured using MENU:CW 
+KEY1, independent of the KXPD2 or KXPD3.) 
+§ 
+KXIO2 Aux I/O and RTC: Set the KXIO2 menu 
+entry to NOR. Exit the menu and turn the KX2 
+off/on. See MENU:TIME, AUX 1 and AUX 2. 
+§ 
+KXIBC2 Internal Charger and RTC:  Set the 
+KXIBC2 menu entry to NOR. Exit the menu and 
+turn the KX2 off/on. See MENU:TIME. 
+§ 
+KXPA100 External 100-W amplifier: See       
+PA MODE menu entry and KXPA100 manual. 
+ 
+  After changing option enables, use KX2 Utility 
+to save your configuration. 
+ 
+Menu Settings 
+The menu entries described in this section are often 
+used to tailor the KX2 to the operator’s requirements. 
+You may also wish to review the full list of menu 
+entries, starting on pg. 41. 
+Auto Power-Off 
+The KX2 can turn itself off after a specified period of 
+inactivity (i.e., no use of the controls). Use the 
+AUTOOFF menu entry to select the time period in 
+minutes. The default is INFINITE.  
+Low-Battery Warning 
+You can set BAT MIN to warn you when an internal or 
+external battery is approaching end of charge. BAT 
+LOW is displayed periodically when this level is 
+reached. The default voltage (10.0 V) is appropriate 
+for many 12 V batteries, as well as the specified 
+internal 11 V battery. 
+  The KX2 will turn itself off when the supply 
+voltage drops below about 7.5 volts, regardless of the 
+BAT MIN  setting. 
+CW Iambic Mode 
+CW users can specify Iambic mode A or B using the 
+CW IAMB menu entry. The default is mode A, which 
+is a little more forgiving. Mode B may be preferred by 
+operators who do “squeeze” keying. Both modes 
+provide dot- and dash-memories—enabling fast code 
+speeds—but with slightly different timing. 
+
+============================================================
+PAGE 37
+============================================================
+
+37 
+Microphone Settings 
+If you plan to use voice modes, set up MIC BIAS and 
+MIC BTN to match your microphone. 
+Switch-Press Tones and Morse User Interface 
+Switch-press tones are enabled by default. Using the            
+SW TONE menu entry, you can turn tones OFF, ON, 
+or select Morse code tones at various speeds (CODE 
+nn). Switch tones use the CW sidetone volume level, 
+which can be adjusted in CW mode using the              
+ AF/MON  control. 
+A document titled “KX2 CW UI,” available on our 
+KX2 manuals page, provides full details on the Morse 
+user interface. It also includes text descriptions of the 
+KX2 controls for blind operators. 
+Setting the Time 
+MENU:TIME sets the 24-hour real-time-clock (RTC) 
+if a KXIO2 or KXIBC2 module is installed and the 
+associated menu entry is set to NOR. If no KXIO2 or 
+KXIBC2 module is installed, time will start at 
+00:00:00 at power-up, though you might still want to 
+set it for time-stamping CW/DATA log text (see 
+MENU:LOGGING). 
+While in the menu entry, tap  1 / 2 / 3 to select 
+HH/MM/SS (hours/minutes/seconds), respectively. 
+Then use VFO A to adjust the value. KX2 Utility can 
+also be used to accurately set the time. 
+To display the present time, tap DISP and rotate        
+ OFS/B  to locate the time display.  
+If the clock appears to be off by more than +/- 2 
+seconds per day, use the RTC ADJ menu entry to 
+apply a correction.  
+  The clock circuitry must be powered by either the 
+KX2’s internal battery or an external supply. Refer to 
+the KXIO2 or KXIO2 menu entry for details. 
+VFO Coarse Tuning Steps 
+VFO CRS can be used to set up a coarse tuning 
+increment for each mode. Tap RATE to select normal 
+or coarse tuning. 
+TUNE Power Level 
+If you’re using an external antenna tuner or amplifier 
+with the KX2, you may want to limit the power level 
+used during TUNE. The TUN PWR menu entry can be 
+used to set the desired power level.  
+  If you have the KXAT2 internal ATU installed, 
+power is automatically set to 3.0 watts during antenna 
+tuning. There’s no need to configure  TUN PWR  in 
+this case.  
+VOX (Voice Operated Transmit) Setup 
+If you plan to use VOX in voice or data modes, you’ll 
+need to set up the VOX GN and VOX INH (anti-VOX) 
+menu entries. See pg. 20. 
+ 
+  After changing menu settings, use KX2 Utility to 
+save your present configuration. The configuration 
+can be restored later if required. 
+
+============================================================
+PAGE 38
+============================================================
+
+38 
+Calibration 
+   All calibration steps are performed at the 
+factory.  If you wish to re-do any calibration steps, 
+be sure you have the test equipment specified. 
+To view the tech-mode menu entries used for 
+calibration:  Hold MENU, then use 
+ OFS/B  to 
+locate the TECH MD menu entry. Change the 
+parameter to ON. Then exit the menu. 
+To unlock the parameter for any tech-mode menu 
+entry:  Hold FREQ until you see the lock symbol          
+(
+) turn off (about 3 seconds).  
+Reference Frequency 
+Using the calibration procedure below, you can 
+achieve accuracy of better than +/- 10 Hz. This 
+procedure requires a stable signal generator, or an on-
+air signal at a known frequency, such as WWV at 5, 
+10, or 15 MHz. The carrier of a commercial AM 
+broadcast station can also be used. 
+§ 
+Select CW mode by tapping MODE.  
+§ 
+Hold MENU. Rotate  
+ OFS/B  to find DUAL 
+RX. Set it to OFF. Next, locate MENU:CWT and 
+set it to ON. Then exit the menu. 
+§ 
+If you’re using a signal generator, set  
+ PWR to 
+0.0 watts to avoid damaging it.  
+§ 
+Use direct frequency entry (pg. 15) to set VFO A 
+to the exact frequency of your signal generator or 
+on-air signal source.  
+§ 
+Set AF gain for a comfortable listening level. You 
+should be able to hear a carrier. 
+§ 
+Tap FIL , then tap 
+ AF/MON  to normalize the 
+filter passband (0.40 kHz). Tap FIL again to exit 
+FIL ADJ mode. 
+§ 
+Hold MENU, then rotate  
+ OFS/B  to locate the 
+REF CAL menu entry. Hold FREQ for about 3 
+seconds to unlock the parameter. 
+§ 
+Write down the current 8-digit parameter value:   
+_________________ .  
+§ 
+Tap  
+ KYR-SPT  to auto-spot the signal. The 
+REF CAL parameter value should automatically 
+move up or down a small amount. When it stops 
+moving, the bar directly beneath the CWT icon 
+should be turned on as shown below. You can also 
+adjust the frequency manually using VFO A. 
+ 
+§ 
+If you have difficulty with this procedure, or if 
+you’re not sure that it worked correctly, set the 
+parameter value to its original value (recorded 
+above) using VFO A. 
+§ 
+Write down the new 8-digit parameter value: 
+________________ .  
+§ 
+Exit the menu by tapping DISP. 
+§ 
+Save your configuration using KX2 Utility. 
+50
+100
+2
+3
+SWR
+RF
+CWT
+                    
+S1
+3
+5
+7
+9
+
+============================================================
+PAGE 39
+============================================================
+
+39 
+Receive Opposite Sideband 
+Receive sideband calibration nulls (rejects) the 
+opposite-sideband image. This image is a weak audible 
+side-effect of listening to very strong signals. 
+  This procedure is normally done only at the 
+factory. Instructions available on request. 
+Transmit Bias 
+This automated procedure sets the transmit bias current 
+of the 10 W amplifier stage to ensure low distortion.  
+ 
+§ 
+Make sure nothing is connected to the KX2’s 
+antenna jack. 
+§ 
+Hold MENU, then rotate  
+ OFS/B  to locate the 
+TX BIAS  menu entry. Hold FREQ for about 3 
+seconds to unlock the two parameters. Note: These 
+parameters cannot be manually adjusted. 
+§ 
+Select CW mode by tapping MODE. 
+§ 
+Tap XMIT to start CW bias calibration. This may 
+take 3-10 seconds. If an error message appears at 
+the end (ERR nnn), see Troubleshooting. 
+§ 
+Select SSB mode (LSB or USB) by tapping 
+MODE. 
+§ 
+Tap XMIT to start SSB bias calibration.  
+§ 
+Exit the menu by tapping DISP. 
+§ 
+Save your configuration using KX2 Utility. 
+Transmit Gain  
+This procedure compensates for per-band transmit gain 
+variations. An 11-14 V power supply or battery is 
+required, as well as a 6-W (or higher) dummy load. 
+Automated Transmit Gain Calibration 
+To use automated gain calibration (recommended), 
+connect the KX2 to a computer, run KX2 Utility, and 
+select the Calibration tab. Click on Calibrate 
+Transmitter Gain. Follow the on-screen instructions.  
+Manual Transmit Gain Calibration 
+§ 
+Use direct frequency entry (pg. 15) to set the 
+KX2’s operating frequency to 3.7 MHz (80 m). 
+§ 
+If you have the KXAT2 ATU option installed, put 
+it into bypass mode using MENU:ATU MD.  Set 
+the TUN PWR menu entry to NOR. Exit the meu. 
+§ 
+Connect a 6-W dummy load to the BNC jack. 
+§ 
+Set  
+ PWR  to exactly 6.0 watts (pg. 19). 
+§ 
+Hold TUNE; wait until VFO B shows 6.0 W.  
+§ 
+Tap XMIT to exit TUNE. 
+§ 
+Repeat the above procedure on 60-10 meters. 
+Use approximately the following frequencies: 5.4 
+MHz (60 m), 7.1 MHz (40 m), 10.1 MHz (30 m), 
+14.1 MHz (20 m), 18.1 MHz (17 m), 21.2 MHz 
+(15 m), 24.9 MHz (12 m), and 28.8 MHz (10 m). 
+§ 
+Save your configuration using KX2 Utility. 
+
+============================================================
+PAGE 40
+============================================================
+
+40 
+Transmit Carrier 
+In SSB and some data modes, a transmitter’s primary 
+signal may be accompanied by a weak unmodulated 
+signal called a carrier about 1 kHz away. The carrier 
+should be suppressed (or nulled) to minimize 
+interference to nearby stations. The TXCRNUL menu 
+entry is used for this purpose. 
+  This procedure requires a spectrum analyzer, 
+and is normally done only at the factory. 
+Instructions available on request. 
+ 
+ 
+ 
+Transmit Opposite Sideband 
+In SSB and some data modes, a transmitter’s primary 
+signal may be accompanied by a weak opposite 
+sideband signal about 2 kHz away. This signal should 
+be suppressed (or nulled) to minimize interference to 
+nearby stations. The TXSBNUL menu entry is used for 
+this purpose. 
+  This procedure requires a spectrum analyzer, 
+and is normally done only at the factory. 
+Instructions available on request. 
+ 
+
+============================================================
+PAGE 41
+============================================================
+
+41 
+Menu Functions 
+Hold  MENU  to enter the KX2’s menu. Tap or hold this switch to exit. Up to four menu entries that you’d like 
+quick access to can be assigned to programmable functions PF1-PF4 using PFn, the programmable function switch 
+(pg. 25). Note:  NOR appears in some parameter displays. This means “Normal,” i.e. the default or recommended 
+value. 
+Menu Help Information 
+Holding  MENU  for about 3 seconds while in the menu shows information about the present menu entry on VFO 
+B. For most entries, the default parameter value is shown in parentheses at the start of the help text. Tap the switch 
+to terminate the help text display. 
+Tech-Mode menu entries  
+The 
+ symbol in the table below indicates a tech mode menu entry. These are typically used for calibration. Their 
+parameter values are locked by default, as indicated by the lock symbol on the display. To reveal all tech-mode 
+menu entries, set  MENU:TECH MD  to ON. To change any tech-mode parameter, you must first unlock it by 
+holding FREQ for about 3 seconds. This turns off the lock symbol. 
+ 
+Entry 
+Default 
+Description 
+2 TONE 
+ 
+OFF 
+Enables built-in 2-tone generator for SSB transmit tests. The internal 2-tone 
+generator only works if LSB or USB mode is selected. After setting 2-tone ON, 
+exit the menu and tap XMIT.  
+AF LIM 
+NOR 030 
+Adjustable AF output limiter for use when AGC is turned off (MENU:AGC MD). 
+This can protect your ears if a large signal appears. Signals or noise above the 
+threshold will sound distorted due to the limiting, reminding you to back down AF 
+gain (or RF gain, if you’re using MENU:RF GAIN to control receive gain). 
+Typical settings for those who often turn AGC off are 17 to 23. 
+AFX MD 
+Delay 
+DELAY setting (default) provides quasi-stereo audio, reducing operating fatigue 
+when using stereo headphones or dual external speakers.  
+AGC MD 
+ON 
+Some operators prefer to turn AGC off and control RF gain manually. This can be 
+done with the preamp and attenuator, or using MENU:RF GAIN. (When AGC is 
+
+============================================================
+PAGE 42
+============================================================
+
+42 
+off, the AGC icons on the LCD change to AGC-, with the “minus” sign meaning 
+“off”. Turning AGC off also disables noise reduction.)  
+If an uncomfortably-strong signal appears in your headphones or speaker with 
+AGC off, reduce the threshold of the AGC-off audio limiter (MENU:AF LIM). 
+AGC SPD 
+SLO 
+This setting is stored per-mode. The default for CW mode is FAST, and for other 
+modes, SLO. The setting is indicated by the AGC S and F display icons. 
+AGC*THR 
+007 
+This menu entry provides access to several AGC parameters,  each of which starts 
+with  AGC*. For most purposes the defaults will suffice. Tap the 1 through 6 
+switches to access the following parameters (defaults in parentheses):  
+1  AGC*THR (007):  Threshold at which AGC action begins. A higher number 
+moves the threshold up, providing greater audio dynamic range. 
+2  AGC*ATK (215):  Rate of AGC attack. A lower number than the default 
+provides a softer attack but may also result in overshoot.  
+3  AGC*HLD (000):  Hold time in seconds for voice modes. Prevents AGC decay 
+for a specified time after attack, reducing AGC interaction with signals. 
+4  AGC*DCY (Fast, 140; Slow, 040):  Specifies the decay rate for slow or fast 
+AGC (see AGC SPD menu entry). A larger number means a faster decay. 
+5  AGC*SLP (015):  The higher the slope number, the "flatter" the AGC response 
+is. With a high setting of slope, signals above the AGC threshold will be held close 
+in audio amplitude even if they vary in strength at the RF input. 
+6  AGC*PLS (NOR):   Noise pulse rejection. Prevents the AGC (and S-meter) 
+from charging up on one-shot noise events. Set it to OFF to disable this feature. 
+ALT MD 
+NOR 
+CW mode:  If set to NOR, CW normal will be in effect on the present band. Set to 
+ALT to use CW reverse mode instead (REV icon turns on).  CW normal uses LSB 
+(lower sideband), while CW reverse uses USB (upper sideband). This selection 
+affects the direction of VFO tuning for increasing pitch as CW signals are tuned in. 
+In some cases switching from one to the other can reduce QRM. 
+SSB mode:  If set the NOR, the sideband normally used on the present band will 
+be in effect: LSB on 160, 80, and 40 meters, and USB on 60, 30, 20, 17, 12, and 10 
+m. Setting ALT MD to ALT will select the other sideband for the present band. 
+
+============================================================
+PAGE 43
+============================================================
+
+43 
+DATA modes: DATA A and PSK D normally use USB, while AFSK A and      
+FSK D use LSB. ALT selects the other sideband (data reverse) for the current data 
+submode, turning on the REV icon. 
+AM MODE 
+ON 
+Set to ON to enable AM mode. You can copy AM signals using SSB modes. 
+AMP HRS 
+N/A 
+Shows total amp hours used by the KX2. This is useful for testing battery packs, 
+estimating remaining battery charge, or tracking the amp hours needed to complete 
+one or more objectives (e.g., a certain number of QSOs at a given power level).  
+The value is preserved on power-off, so it can show amp hours used over any 
+number of operating sessions. Holding CLR resets the value to 0.000; this is 
+typically done after swapping in a fresh battery. (Amp hours is also one of the 
+special VFO B displays; tap DISP, then rotate VFO B until you see n.nnnAH. 
+This display persists during transmit so you can monitor the rate of increase. 
+In receive mode, the amp hour value will go up by .001 every 20-25 seconds. In 
+transmit mode, the value will go up by .001 every 2 to 10 seconds, depending on 
+operating mode, power setting, and antenna load impedance (all three can affect 
+current drain). 
+ANT.X SW 
+1 
+This menu entry (eXternal Antenna switch) can be used to remotely select antenna 
+1 or 2 on the KXPA100. Requirements:  (1) a KXPA100 with the KXAT100 ATU 
+option must be connected to the KX2 via the amplifier control cable; (2) the KX2’s  
+PA MODE menu entry must be set to ON. 
+ATU DATA 
+SET 1 
+The KX2 stores two full sets of per-band data for the internal ATU (KXAT2). This 
+menu entry selects which set to use. Typically SET 1 is used at a home location, 
+and SET 2 for field operation. The two sets can also be used in cases where two 
+antennas are available for a given band. (Note: This menu entry has no effect on 
+KXAT100 ATU data, which is already stored separately for each of the KXPA100 
+amplifier’s antenna jacks. The KX2 can remotely switch KXPA100 antennas using 
+the ANT.X SW menu entry.) 
+Holding CLR while in this menu entry clears stored LC data only for the currently 
+selected set on the present band.  
+In the ATU DATA and ATU MD menu entries, tapping  ATU  shows the present 
+values of L (inductance), C (capacitance) and N (L-network configuration). This 
+
+============================================================
+PAGE 44
+============================================================
+
+44 
+applies only to the internal ATU (KXAT2). The displayed data format is 
+LxxCxxNy. <xx> is a 2-digit hexadecimal value that, when converted to binary, 
+shows which ATU L or C relays are engaged. <y> shows which side of the L-
+network the capacitance is on: Nt = TX side, and NA = antenna side. 
+ATU MD 
+ATU.X MD 
+Not Inst 
+Normally, this menu entry’s name is ATU MD, and it controls the mode of the 
+KX2’s internal automatic antenna tuner (KXAT2 option).  
+If a KXPA100 with a KXAT100 ATU option is connected via the remote-control 
+cable, and PA MODE is ON, the menu entry changes to ATU.X MD (.X = 
+eXternal). In this case the menu entry controls the auto-tune mode of the 
+KXAT100.  
+The parameter is normally set to BYP or AUTO. Modes L1-L7, C1-C7, and Ct 
+are used to test the KXAT2’s relays and L-network (not applicable to the 
+KXAT100).  
+Holding CLR while in this menu entry clears stored LC data for the present band. 
+If the KXAT100 is in use, the data for the currently selected antenna is cleared. If 
+the internal ATU is in use, data for the current ATU DATA set is cleared. 
+AUTO INF 
+ 
+NOR 
+If set to ANT CTRL, the KX2 will send band data (“automatic info”) to its ACC 
+jack for use with devices such as SteppIR™ antennas. The data is sent on every 
+band or mode change, and once per second as the VFO is moved. See pg. 35. 
+AUTO OFF 
+INFINITE 
+Sets auto-power-off time from 5 to 100 minutes. (The countdown is restarted when 
+any control is used, and by any transmission.) If set to INFINITE, power is never 
+turned off. A setting of 5 or 10 minutes is recommended when running from 
+batteries. 
+AUX 1 and    
+AUX 2 
+OFF 
+Used to set the KXIO2 option module’s AUX outputs to ON or OFF on a per-band 
+basis.  
+Details: The AUX jack provides a ground (0 V) and two open-drain output 
+signals: AUX 1 and AUX 2. Open-drain outputs simulate a contact closure to 
+ground when in the ON condition, and are floating (high-impedance) when OFF. 
+Typically, the ON state would be used to turn on a relay connected to a DC supply 
+voltage (28 V max, 150 mA max).  
+
+============================================================
+PAGE 45
+============================================================
+
+45 
+The two outputs could be used singly or in combination to switch an external 
+device such as an antenna switch, select taps on a loading coil, etc. This could be 
+especially useful during mobile operation. (Note: Elecraft does not yet offer any 
+products that make use of the AUX outputs, but may in the future.) 
+BAT MIN 
+10.0 
+Low-battery warning threshold. The default (10.0 volts) is sufficient for use with 
+some 12 V batteries such as gel cells, as well as for the specified 11 V Li-ion 
+battery pack. If the internal battery or external supply/battery voltage drops below 
+the selected level, the operator will be alerted with BAT LOW messages every 
+few minutes. Regardless of this setting, the KX2 will turn itself off if the supply 
+voltage drops below 7.5 V. 
+To extend battery life, turn the backlight and preamp off when not needed, and use 
+headphones rather than the internal speaker. 
+BKLIGHT 
+ON 
+LCD backlight on/off. The display is transflective, so it can be seen in sunlight 
+with the backlight turned off. Turning it off will extend battery life. 
+COR LVL 
+ 
+NOR 0.1 
+Sets the carrier-operated-relay (COR) threshold. The COR is used to detect, and 
+protect the KX2’s receiver from a transmitter being used nearby. 0.1 watts is the 
+default and recommended level. See Troubleshooting for other suggestions. 
+CW IAMB 
+A 
+Iambic keying mode (A or B). The default is mode A, which is a little more 
+forgiving for first-time operators. Mode B may be preferred by operators who 
+learned to do “squeeze-keying” with another keyer having this or a similar mode. 
+Both modes provide dot- and dash-memories—enabling fast code speeds—but 
+with slightly different “element-insert” timing. 
+CW KEY1 
+TIP=DOT 
+Specifies whether the left keyer paddle (tip contact on the KEY jack) is DOT or 
+DASH. A third selection, HAND, allows either tip or ring to function as a hand 
+key, or as an input for an external keying device (keyer, computer, etc.). 
+CW KEY2 
+LFT=DOT 
+Specifies whether the left lever of a KXPD2 (or KXPD3) keyer paddle is DOT or 
+DASH. A third selection, HAND, allows either lever to function as a hand key, or 
+as an input for an external keying device (keyer, computer, etc.). 
+CWT 
+OFF 
+When set to ON, the upper half of the S-meter becomes a tuning aid for CW, 
+PSK31/63 (PSK D mode), or RTTY (FSK-D mode) signals. Also, when CWT is 
+on in CW or PSK D modes, the manual signal spotting function of the KYR-
+
+============================================================
+PAGE 46
+============================================================
+
+46 
+SPT/MIC knob changes to auto-spot (pg. 21). In this case the KX2 will attempt to 
+to tune in CW or PSK31/63 signals automatically. 
+CW WGHT 
+1.25 
+Adjusts element/space timing ratio (weight) for the internal keyer.  
+Additional functions of this menu entry, via numeric keypad: 
+Tap 1 to select SSB -CW (default) or SSB +CW (allows CW in SSB modes). 
+When CW-in-SSB is in effect, tapping the KYR-SPT/MIC knob in SSB mode 
+alternates between keyer speed and mic gain rather than CMP/ALC and SWR/RF 
+transmit metering. CW transmit in SSB mode is not available if SPLIT is on. 
+Tap 3 to select NOR QSK (default) or FST QSK. The FST (fast) setting 
+provides somewhat faster receive recovery time, while NOR (normal) is less 
+susceptible to audio artifacts from noise and nearby interfering stations. 
+Tap 4 to select VOX NOR (default) or AUTO OFF. The AUTO OFF setting 
+turns CW VOX off on power-up, avoiding accidental keying by attached PCs, etc. 
+Tap 5 to select automatic VFO offset on any SSB/CW mode change (VFO OFS). 
+VFO NOR, the default, disables the offset. Automatic offset is useful when 
+mixed-mode QSOs are necessary, as during fading.  Note:  Pitch matching for 
+automatic offset will be more accurate if USB is paired with CW reverse, and LSB 
+with CW normal. See MENU:ALT MD. 
+DUAL RX 
+OFF 
+Set to AUTO to enable Dual Watch (pg. 25). The SUB icon will turn on. If the 
+VFOs are not within the required range, the SUB icon will flash slowly. Note: 
+Dual watch only applies when using stereo headphones or dual external speakers. 
+FM DEV 
+ 
+and PL DEV 
+5.0 
+0.3 
+Sets FM deviation. Tap 1 to alternate between FM DEV (voice deviation) and PL 
+DEV  (PL tone deviation). 
+FM MODE 
+ 
+Set to ON to enable FM mode. Also see the FM DEV,  FM TONE, and RPT OFS 
+menu entries, as well as Channel Hopping (pg. 24). 
+FM TONE 
+PL OFF 
+Tap 1 to turn on PL tone encode (CTCSS). Rotate VFO A to select the tone pitch. 
+Tones are stored in frequency memories. 
+FW REVS 
+ 
+N/A 
+Rotate VFO A to see firmware revisions: MCU (µC, shorthand for 
+microcontroller), DSP (dSP), and KXPA100 amplifier MCU if applicable (PA). 
+Tap 1  to see the RF board revision, e.g. “RFPCB=A” for rev. A. 
+
+============================================================
+PAGE 47
+============================================================
+
+47 
+KXIBC2 
+Not Inst 
+If a KXIBC2 module is installed, set the parameter to NOR, then exit the menu 
+and turn the KX2 off/on. Note: This will automatically set the KXIO2’s menu 
+parameter to Not Inst, since only one module or the other may be installed. 
+To set the time, use the TIME menu entry. Use the RTC ADJ menu entry to 
+improve the clock’s long-term accuracy if desired.   
+KXIO2 
+Not inst 
+If a KXIO2 module is installed, set the parameter to NOR, then exit the menu and 
+turn the KX2 off/on. To set the time, use the TIME menu entry. Use the RTC ADJ 
+menu entry to improve the clock’s long-term accuracy if desired.  
+Note: The real-time clock circuitry must normally be powered by either the KX2’s 
+internal battery or an external power source. As a convenience for recharging the 
+battery, which must be done externally to the KX2, the clock will keep time for up 
+to about 2 hours with no power supply or battery connected. This capability is 
+provided by a supercapacitor on the KXIO2 module (see pg. 7). 
+The KXIO2 also provides two open-drain signals on its AUX jack. These could be 
+used for antenna switching or other applications. See the AUX 1 and AUX 2 menu 
+entries. 
+LCDTEST 
+OFF 
+Rotate VFO A to turn on all LCD segments for test purposes. 
+LED BRT 
+4 
+In the case where the LCD backlight is turned OFF, this menu entry adjusts 
+brightness of the discrete LEDs (TX, delta-F, OFS, and VFO B LED). Does not set 
+brightness of the LCD backlight itself (for that adjustment, use BKLIGHT). 
+LOGGING 
+OFF 
+When using the KX2 hand-held, or if operating time is very limited, logging may 
+be inconvenient. The KX2 can capture up to 2048 transmitted characters, along 
+with time, band, and mode, so you can update a paper or electronic logbook later 
+on. To enable logging, set this menu entry to ON. Logging applies to CW (C), 
+PSK-D (P) and FSK-D (F) modes, and only when using the internal keyer.  
+To take advantage of time stamping, either set the time on every power-up of the 
+KX2 (MENU:TIME), or install a KXIBC2 or KXIO2 option module (see Options). 
+When logging is enabled and there’s room available, the DVR icon (above the S-
+meter) flashes slowly. Outgoing text decode is turned on, allowing you to make 
+sure you’ve sent call signs accurately. If you fill the log, LOG FULL is flashed. 
+To review log text, tap DISP and use VFO B to find the LOG display. The VFO A 
+
+============================================================
+PAGE 48
+============================================================
+
+48 
+knob can then be used to scroll. Time/mode/band (MHz) are shown on VFO A 
+(e.g., “0023 C14”); text is shown on VFO B. Holding CLR erases the entire log. To 
+“dump” the log, send “LG;” to the KX2 via KX2 Utility’s Command Tester screen. 
+Tips: To conserve space, use message buffers (MSG) to send CQs, name/QTH, 
+etc. Messages are recorded in the log. To start/stop logging quickly, assign 
+MENU:LOGGING to a programmable function switch (PF1-PF4). 
+MIC BIAS 
+ON 
+Set to ON for the Elecraft MH3. (Not applicable to the internal mic.) You may 
+need to try both MIC BIAS settings to see which works best with other mics. 
+Monitor your transmitted signal with another receiver when testing mic audio. 
+MIC BTN 
+PTT 
+UP.DN 
+If your mic has both a PTT switch and UP/DN buttons, set the parameter to             
+PTT UP.DN. This applies to the Elecraft MH3. If the mic has PTT but no UP/DN 
+buttons, use PTT. Otherwise, use OFF. This setting applies to most headset-mics, 
+including the Heil models available from Elecraft. Third-party mics may not have a 
+KX2-compatible PTT (push-to-talk) switch. You can still key the transmitter either 
+by tapping the XMIT switch or by using VOX (pg. 20). 
+MSG RPT 
+6 
+Message repeat interval in seconds (0 to 255). To repeat a message, hold a 
+message button  (1 – 3) rather than tap. A 6 - 10 sec. interval is about right for 
+casual CQing. Shorter intervals may be needed during contests, and longer for 
+periodic CW beacons. 
+PA MODE 
+OFF 
+Sets the operating mode for Elecraft KXPA100 amplifier and its internal ATU.  
+Set to ON only if the KX2 is connected to the KXPA100 via the KX2 Accessory 
+Cable (KX2ACBL), which plugs into the ACC jack at the KX2. This allows the 
+KX2 to control the amplifier’s output power and ATU tuning as described in the 
+KXPA100 owner’s manual. ATU MD becomes ATU.X MD in this case, and the 
+ANT.X SW menu entry can be used to switch antennas at the KXPA100. 
+Set to OFF if there’s no attached KXPA100.  
+Tap 1  to configure ALC for the KXPA100. Default is enabled (PA ALC+).             
+Tap 6  to enable/disable display of unspecified KXPA100 error codes. Default is 
+disabled (XFAULT-). 
+If PA MODE is set to P out CAL, a KXPA100 is connected via the remote-
+control cable, and PWR is set to CAL 75W, going into TUNE mode will calibrate 
+
+============================================================
+PAGE 49
+============================================================
+
+49 
+the KX2’s drive level for 75 W output at the KXPA100, on the present band. This 
+overrides the KXPA100’s factory aligned, per-band drive-power calibration, and 
+should not be necessary under normal circumstances. Also see MENU:TX GAIN.  
+PITCH 
+0.60 
+Sets the CW sidetone pitch in kHz. This is also the pitch of CW signals when 
+centered in the receiver’s passband.  Note: In PSK-D mode (PSK31/63), the center 
+pitch is 1000 Hz (fixed). In FSK-D mode (RTTY), the mark tone is 915 Hz (fixed). 
+REF CAL 
+ 
+25.000.000 
+(+/- 1 kHz) 
+Used to calibrate the KX2’s synthesizer; normally done at the factory. VFO A is 
+used to set the reference frequency (typically 24.999-25.001 MHz). Refer to pg. 38 
+for calibration details.  
+RF GAIN 
+NOR       
+–0 dB 
+Normally, RF GAIN is set to NOR  -0 dB (no gain reduction). However, some 
+operators prefer to turn automatic gain control off (using MENU:AGC MD) and 
+adjust RF gain manually, maximizing dynamic variability of received signals. As 
+RF GAIN is advanced past -5 dB, a single bar on the S-meter starts at S-2 and 
+moves upward as a reminder of how far gain has been reduced (-5 dB/unit). 
+If desired, MENU:RF GAIN can be assigned to PF1-PF4 (pg. 25) for quick access.  
+Note 1:  If you plan to turn AGC off as described above, you should set up the 
+MENU:AF LIM parameter to avoid painful audio volume on strong signals.  
+Note 2: RF gain is reset to -0 dB on power-up. Otherwise the operator might not 
+be aware of a previous gain reduction used under different band conditions. 
+Note 3:  As is the case with many software-defined transceivers, the KX2’s RF 
+GAIN control is actually an input scaling factor applied within the DSP itself. 
+Reducing RF gain doesn’t impact the strength of signals seen by the A-to-D 
+converter (ADC; see glossary, pg. 67). Gain ahead of the ADC can only be reduced 
+by turning the preamp off, and (if necessary) turning the attenuator on. 
+RPT OFS 
+0 
+Sets repeater offset in kHz (applies only in FM mode). For 10 meters, use 100 kHz. 
+To select  + / - / SIMPLEX operation, hold SPLIT . 
+RS232 
+4800 b 
+This sets the RS232 (or USB) communications rate in bits per second (bps). During 
+firmware download (via KX2 Utility), the baud rate is set automatically to 38400 
+baud. It is then restored to the value selected in this menu entry. 
+
+============================================================
+PAGE 50
+============================================================
+
+50 
+RTC ADJ 
+0 
+This parameter can be adjusted to improve the long-term accuracy of the real-time 
+clock on the KXIBC2 or KXIO2 option. (MENU:KXIBC2 or MENU:KXIO2 must 
+be set to NOR to use the RTC.) 
+Note:  The KX2’s RTC is intended for general time-keeping and logging, not as a 
+precision device for timing data transmissions (e.g. FT8). It is not automatically 
+corrected like the clock on a laptop computer or other internet-connected device.  
+Monitor your clock's accuracy over 24 hours, preferably at your typical ambient 
+operating temperature. (The KX2 can be turned off during any portion of this 
+monitor period, as long as an internal battery or external supply is attached.) If it's 
+off by more than +/- 2 seconds per day, use RTC ADJ to compensate. For example, 
+if it's slow by 5 seconds per day, set RTC ADJ to "-5 SEC". Allow a few hours, 
+minimum, before making a further correction. 
+RX EQ 
+ 
+--------   
+(+0 dB, 
+each band) 
+Receiver audio graphic equalizer. VFO A is used as an 8-band bar graph, showing 
+boost or cut (-16 dB to +16 dB in 1 dB increments) for each AF band. The 8 
+bands are 0.05, 0.1, 0.2, 0.4, 0.8, 1.6, 2.4 and 3.2 kHz. Tap 0-7 to select an AF 
+band. VFO A selects boost/cut. Hold  CLR to reset all bands to +0 dB. 
+CW and voice-mode RX EQ are separate. Not applicable to DATA modes. 
+RXSBNUL 
+ 
+GAIN nnn 
+Used to null (reject) the receiver’s opposite-sideband image. If the menu name is 
+RXSBNL*, then an extended per-band calibration procedure has been completed. 
+Normally this is done at the factory. This procedure requires a 160-10 meter signal 
+source (such as an Elecraft XG3); instructions are available on our website.  
+Also see Receive Opposite Sideband calibration, pg. 39. 
+SER NUM  
+<S/N> 
+Your KX2’s serial number, e.g. 05000. Cannot be changed. 
+SW TEST 
+ 
+OFF 
+To turn on switch test, rotate VFO A until the parameter becomes SCN ADC. 
+Then hold any switch to see its scan row and column ADC reading. 
+SW TONE 
+ON 
+If set to ON, switch presses generate audible feedback tones. If set to CODE nn, 
+Morse code characters are generated at nn WPM on control activation. The normal 
+DISP switch function (special displays) is not available in this case. Instead, a tap 
+of DISP reads out the operating mode and frequency in kHz, e.g. “U 238” for USB 
+on 7.238 MHz. (Plain-text description of the full Morse UI available on request.) 
+
+============================================================
+PAGE 51
+============================================================
+
+51 
+Holding the APF/AN switch during power-on will also turn on Morse feedback. 
+Switch tone volume is the same as CW sidetone volume. It must be adjusted in CW 
+mode, using  
+ MON.  
+Pitch of switch tones and Morse characters: In general, a low-to-high tone pair 
+(or high-pitched Morse) is generated when a switch function is turned on, and 
+high-to-low (or low-pitched Morse) when it is turned off. Some switches do not 
+generate tones because they might interfere with received or transmitted audio. 
+TECH MD 
+OFF 
+Set to ON to reveal Tech Mode menu entries (those marked with 
+ in this list). 
+TIME 
+N/A 
+Real-time-clock view/set. Tap 1 / 2 / 3 to set HH / MM / SS. To see the time and 
+other displays during normal operation, tap DISP  (see pg. 23). Time is only 
+maintained if a KXIBC2 or KXIO2 option module and an internal battery are 
+installed. 
+Also see the RTC ADJ menu entry, which may be used to improve the long-term 
+accuracy of the real-time clock. 
+Note: The clock circuitry must be powered by the KX2’s internal battery or an 
+attached power supply. Refer to the KXIBC2 or KXIO2 menu entry for details. 
+TUN PWR 
+NOR 
+If set to NOR, TUNE power level follows the POWER knob. Otherwise, the 
+parameter sets a fixed power level (0-10 W) for TUNE, overriding the present 
+POWER knob setting.  
+Note: TUN PWR does not pertain to ATU TUNE, which uses 2 or 3 W (KXAT2) 
+or 5 W (KXAT100).  
+TX BIAS 
+ 
+ppp   qqq 
+Transmit bias constants. See Transmit Bias, pg. 39. 
+TX CMP 
+0 
+Transmit speech compression (SSB mode). A setting of 20 (dB) is a good 
+compromise between SSB signal talk power (“punch”) and good fidelity. Set to 0  
+(default) when doing 2-tone IMD testing. Note: TX CMP is automatically set to 0 
+in audio data modes (DATA A and AFSK A). 
+TXCRNUL 
+ 
+1   nnnn 
+Used at the factory to null the transmit carrier on each band. See pg. 40. 
+TX DLY 
+ 
+NOR 005 
+Varies the delay in milliseconds between key-down and RF output. This is useful 
+with external power amplifiers having slow T/R relays. (Use NOR with the 
+KXPA100 if there is no following higher-power amplifier.) There are two TX DLY 
+settings: one for HF-10 m and the other for transverter bands. NOR (5 ms) is 
+
+============================================================
+PAGE 52
+============================================================
+
+52 
+recommended in most cases. A delay of up to 20 ms can be set, but use the 
+smallest delay possible since longer delays can add some timing variation in CW 
+mode at higher code speeds. 
+TX EQ 
+ 
++0 dB, 
+each band 
+Transmit audio graphic equalizer (applies to voice modes only). Functions the 
+same as RX EQ, above. TX EQ can be adjusted during transmit.  
+  Do not use high settings of TX EQ without carefully monitoring your 
+signal. Most microphones, including the Elecraft MH3, will provide good 
+audio quality with little or no TX EQ. High settings can cause distortion. 
+TX GAIN 
+ 
+ ALC   nn 
+Shows whether transmit ALC (automatic level control) is enabled, along with the 
+transmit gain constant for the present band (nn). The gain constant is updated 
+whenever the TUNE function is used at exactly 6.0 W and SWR is 2.0:1 or lower. 
+See Transmit Gain calibration procedure, pg. 39. 
+If a KXPA100 amplifier is connected via the remote-control cable, PA MODE is 
+ON, and PWR is 10 W or higher, the TX GAIN parameter shows the KX2 drive 
+level for 75 W output at the KXPA100. If the drive value is preceded by the letter 
+‘A’, it was obtained from the KXPA100 (factory calibration value). If the drive 
+value is preceded by the letter ‘t’, it was obtained by doing P out CAL at 75 W at 
+the KX2 itself (see MENU:PA MODE). Holding CLR will erase the KX2’s CAL 
+value on the present band, restoring the ‘A’ value (from the KXPA100). 
+This menu entry is also used to turn transmit ALC  on/off. It can be turned off for 
+transmit testing purposes by tapping ATU while in this menu entry. (This is NOT 
+necessary for any operational purpose. In all modes, ALC is optimized for low 
+distortion.) When ALC is turned off, a (-) sign is added to the parameter, e.g.           
+-ALC  nn. Also, an asterisk is added to the PWR control value when it is being 
+adjusted (e.g. 5.0 W*). With ALC off, the displayed power level will not change; 
+the control functions as a fine power adjustment, and its effect must be observed 
+with an external instrument. 
+TX GATE  
+OFF  0 
+The TX noise gate can be used to suppress transmitted audio below a certain level, 
+e.g. that of an amplifier fan. Tap 1 within the TX GATE menu entry to turn the 
+noise gate on/off. Use VFO A to set the desired threshold. Since there’s no visual 
+indication that transmit audio is below the threshold, you should adjust it using the 
+
+============================================================
+PAGE 53
+============================================================
+
+53 
+transmit voice monitor (MON), ideally while using headphones. Set the threshold 
+high enough to cut off transmit audio due to local noise, but not so high that it 
+causes your voice to drop out too frequently. 
+TXSBNUL 
+ 
+GAIN nnn 
+Set at factory to null transmit opposite sideband. See pg. 40. 
+VFO CRS 
+Per-mode 
+Tuning rate selection for VFO A and B when coarse tuning is selected (using 
+RATE). Also applies to offset tuning of VFO A (via the OFS/B knob) when both 
+RIT and XIT are turned off. 
+VOX DLY 
+0.00 (CW)  
+ 
+0.50 
+(voice/data) 
+If VOX MD is set to ON in the current mode, this menu entry sets the VOX delay 
+time in seconds (recovery time from transmit to receive). In CW mode, the default 
+delay (0.00) also turns on the QSK icon, indicating the fastest possible break-in. 
+(See CW WGHT menu entry for additional QSK settings.)  
+Independent VOX delay times are saved in voice and audio data modes (pg. 28). 
+VOX GN 
+030 
+Adjusts sensitivity of VOX to match your mic and voice. Set to trigger at normal 
+speech level, but not in response to noise. Start with low settings (10-20). 
+VOX INH 
+000 
+Adjusts immunity of the VOX circuit to false triggering by speaker audio. (Also 
+known as anti-vox.) A setting of about 30 is a good starting point. If receive audio 
+from a speaker trips the vox, increase the setting. 
+VOX MD 
+ON (CW)   
+ 
+OFF 
+(voice, AF 
+data) 
+If VOX is OFF, transmit must be started by tapping XMIT  (otherwise known as 
+PTT, or push-to-talk operation).  
+In CW mode, setting VOX MD to ON allows “hit-the-key” transmit. In voice 
+modes, VOX=ON allows transmit to start when you start speaking. In audio data 
+modes, VOX starts transmit when a computer connected to the mic jack outputs an 
+audio signal. VOX is always ON in PSK-D and FSK-D modes; PTT is not 
+available. 
+VOX cannot be used with the built-in microphone.  
+WATTMTR 
+ 
+1.00 
+Wattmeter calibration parameter. If an external, known-accurate wattmeter reads 
+lower than the KX2’s wattmeter, decrease the parameter value (and vice-versa). 
+Internal wattmeter accuracy may vary by up to +/- 1 dB, per band. 
+On transverter bands, the menu entry name changes to WMTR XV. 
+XIT 
+OFF 
+XIT is short for Xmit Incremental Tuning. Set to ON to offset the transmit 
+
+============================================================
+PAGE 54
+============================================================
+
+54 
+frequency without affecting the receive frequency. The XIT icon will turn on. Use 
+OFS/B to set the offset (+/- 9.999 kHz). This is also the offset that will be used 
+with RIT (pg. 16). If you use XIT frequently, you may wish to access it via PFn. 
+XIT can be useful for applying a small offset to your transmit signal to improve 
+copy by other stations, especially in PSK-D mode (such an offset must be 
+determined experimentally). It can also be used as an alternative to SPLIT, leaving 
+VFO B free for other purposes. For more on XIT and RIT, see pg. 16. 
+XVn ON  
+ 
+NO 
+Tap 1 – 7 to select the applicable transverter band display (1 - 7). Set parameter to 
+YES to enable or NO to disable. 
+XVn RF 
+ 
+144 
+Lower edge for transverter band <n> (1-7); 0-24999 MHz. (Tap 1 – 7 to select 
+applicable transverter band.) 
+XVn IF 
+ 
+28 
+Specify KX2 band to use as the I.F. for transverter band <n> (1-7). (Tap 1 – 7 to 
+select the transverter band.) I.F. selections include 7, 14, 21, and 28 MHz.  
+XVn PWR 
+ 
+H 0.1 
+Sets upper limit on power level in watts for XVTR band <n>. Tap 1 – 7 to select 
+band. Note: The KX2 does not have a low-level transverter port, so transverters 
+must have their own T/R switching and be able to handle the specified power level. 
+XVn OFS 
+ 
+0.00 
+Offset (–9.99 to +9.99 kHz) for transverter band n (1-7). (Tap 1 – 7 to select 
+band.) Compensates for oscillator/multiplier chain errors in external transverters. 
+ 
+ 
+ 
+
+============================================================
+PAGE 55
+============================================================
+
+55 
+Troubleshooting 
+The most common symptoms and their causes are listed below, in three categories (general, transmit,  and receive). 
+Most problems are related to control settings. If the problem persists, please contact Elecraft support (see pg. 71) or 
+post a question on our email forum.  
+General  
+§ 
+MCU LD shown on LCD, and TX LED flashing: Do a forced firmware load (pg. 34). 
+§ 
+*****  shown on LCD permanently:  This may indicate that the KX2 did not power-down correctly. 
+Disconnect power for a few seconds, then try a forced firmware load (pg. 34). 
+§ 
+Display backlight turns on, but then turns off upon release of switches: Disconnect all external equipment 
+from the KX2. Verify power supply or battery voltage is between 8 and 15 V. 
+§ 
+ERR nnn (error) message appears in the VFO B area: Refer to Error Messages (pg. 60). 
+§ 
+Scrolling message appears in the VFO B area: Refer to Scrolling Alert Messages (pg. 63). 
+§ 
+PA FLT (power amplifier fault) message appears in the VFO B area:  See KXPA100 owner’s manual. 
+§ 
+BAT LOW is flashed periodically: Check the battery voltage (tap DISP and rotate OFS/B until the supply 
+voltage display appears). If the batteries are at their normal voltage, you may have MENU:BAT MIN set to the 
+wrong low-battery warning level. See this menu entry for recommendations. 
+§ 
+Can’t turn power on: Check the power cable. If running from an internal battery, make sure it’s charged.  
+§ 
+Can’t turn power off: If the display remains on, or the unit is otherwise unresponsive, disconnect the power 
+supply. (If an internal battery pack is in use, also remove the battery.) Allow 5-10 seconds, then reconnect 
+power and try turning the unit on. 
+§ 
+General problem with transmit and/or receive: Many problems can be caused by low power supply voltage 
+or by a noisy or intermittent supply. Check your power supply’s on/off switch, voltage, fuses (if applicable), 
+and DC cabling. The KX2 provides both voltage and current monitoring (pg. 23). Also see Transmit and 
+Receive troubleshooting sections, below. 
+§ 
+General problem with firmware behavior: (1) Check all menu settings (see menu listings in the previous 
+section). Hold MENU for about 3 seconds to see help information about each menu entry. (2) Try loading the 
+latest KX2 firmware. Review the release notes for changes that may be related to your symptoms. 
+§ 
+N/A message (Not Applicable): The function you’re trying to use does not apply in the present context. 
+§ 
+Mode icon flashes: This is a reminder that you’re about to set the KX2 up for cross-mode SPLIT operation 
+(VFOs in different modes). Tap any key to clear. To view and change VFO B’s mode, tap A / B. 
+
+============================================================
+PAGE 56
+============================================================
+
+56 
+§ 
+VFO A frequency doesn’t change:  You may have the VFO locked. Tap RATE to unlock. 
+§ 
+VFO A frequency changes by itself:  If using a mic other than the MH3, set MIC BTN to OFF.  
+Transmit 
+§ 
+BND END: Indicates an attempt to transmit outside the ham bands. 
+§ 
+TX LED on all the time: This could indicate that PTT is being held on by external equipment. Try 
+disconnecting everything connected to the left side panel except the power supply. VOX gain (VOX GN menu 
+entry) may be set too high. 
+§ 
+HI CUR or HI SWR warning: Check supply voltage. If voltage is low and/or a low-impedance antenna 
+load is present, current can go up for a given requested power level. Reduce power if necessary. (The KX2 may 
+do this automatically. If this doesn’t reduce the current or reflected power to safe levels, the KX2 will drop out 
+of transmit mode.) 
+§ 
+HI TEMP warning: PA heat sink temperature has exceeded the safe operating limit. Use DISP to check 
+power supply voltage, current drain, and PA temperature. Allow heat sink to cool. Reduce power if necessary. 
+(The KX2 may automatically reduce power, drop out of transmit mode, or turn itself off.)  
+§ 
+KX2’s right side panel is hot to the touch: The right side is used as a heat sink, so it it normal for it to feel 
+quite warm during long transmissions. The panel will run cooler if you use shorter transmissions, lower power, 
+or a lower supply voltage. If operating in sunlight, try to orient the right side panel away from the sun. Third-
+party heat sinks are available that may allow for higher power and/or higher duty cycyle use. 
+§ 
+ATU fails to find a match: If the ATU is unable to find a match, even after tapping  ATU  twice within 5 
+seconds, the speaker magnet may be interfering with one of the ATU module’s relays. Contact Elecraft for a 
+possible solution (replacement speaker or a thin, self-adhesive shield). 
+§ 
+An asterisk (*) appears in the PWR setting display (e.g. 5.0 W*): Transmit ALC has been turned off. To 
+turn it back on, go to MENU:TX GAIN , unlock the parameter by holding FREQ for 3 seconds, then tap ATU 
+This will turn off the (-) sign in front of ALC.  
+§ 
+Can’t transmit in CW mode: (1) Make sure the key or keyer paddle is plugged into the correct jack. (2) To 
+transmit immediately upon hitting the key, you must have VOX-CW enabled (see MENU:VOX). If VOX is off 
+(PTT-CW), you must tap XMIT before sending; otherwise only a sidetone is generated . (3) You may be in 
+SPLIT mode, with VFO B set for a voice or data mode. Tap A/B to check VFO B’s mode. 
+§ 
+Can’t use the mic in voice modes: You may be in SPLIT mode, with VFO B set for CW or data mode rather 
+than a voice mode. Tap A/B to check VFO B’s mode. 
+§ 
+Low power output:  You may also be working into a high-SWR load and/or using a low supply voltage. Also 
+try redoing Transmit Gain calibration (pg. 39). Note:  Max power also varies per band. 
+
+============================================================
+PAGE 57
+============================================================
+
+57 
+§ 
+Inadequate transmit carrier or opposite-sideband suppression: The voice- and audio-data carrier and 
+opposite sideband will typically be down 60 dB or more at 5 watts output.  If either is significantly higher than 
+this level, the Transmit Carrier or Transmit Opposite Sideband calibration steps (pg. 40) can be performed. 
+These procedures require a spectrum analyzer and are normally done only at the factory. 
+Receive 
+§ 
+HI RFI warning, preamp turns off, or RX icon turns on:  The KX2 protects itself from high received signal 
+levels. First the preamp is turned off, if it was on. The second step taken by the KX2, if necessary, is to turn on 
+the RF attenuator. The receive overload icon (RX), near the ANT icon, will turn on. Once signals return to a 
+safe level for 5 seconds, the attenuator will be turned back off. Also see COR (next item). 
+§ 
+Carrier-operated relay activated (a relay is heard, and the RX icon turns on): The carrier-operated-relay 
+(COR) may be activated due to the signal from a nearby transmitter. This is usually due to close proximity 
+between your antenna and the other station’s antenna. The COR is actually the relay for the present low-pass 
+filter. When the relay opens, signals will drop by 40 to 60 dB, protecting the KX2. The relay will close again 
+shortly after the signal drops. If the COR is being repeatedly activated, try moving the antennas farther apart. 
+You can also increase the COR threshold, at your discretion; see MENU:COR LVL. 
+§ 
+HI CUR warning:  May indicate that speaker volume is too high; gain is reduced by the KX2 in this case.  
+§ 
+No received signal: Check (1) antenna connectors; (2) RF gain too low (set RF gain menu entry fully 
+clockwise, to –0 dB); (3) bandwidth too narrow (tap FIL and rotate AF GAIN/MON to widen the passband); 
+(4) MENU:REF CAL parameter not adjusted properly. 
+§ 
+Signals very weak below 3 MHz:  The KX2 is designed primarily for use on 80-10 meters (3 to 30 MHz). 
+Receive capability extends down to 500 kHz, but as shown in the Specifications section, signals will be 
+progressively attenuated below 3 MHz due to high-pass filtering in the T/R switch. (This filtering is intended to 
+protect the T/R switch PIN diodes.) Attenuation will be approximately 15-20 dB in the 160-meter band, and 
+much greater at the low end of the AM broadcast band. Sensitivity should still be adequate for reception of 
+strong AM broadcast stations, useful in an emergency. Also see next item regarding mixer images in this range. 
+§ 
+Signals in the 500 kHz-3 MHz range appear to be off-frequency: These may be mixer images of signals 
+higher up in frequency. They appear because the KX2 does not provide filtering below 3 MHz (see above). 
+Generally, if an AM broadcast signal in the 550-1700 kHz range can be tuned in at an exact multiple of 10 kHz 
+in LSB or USB mode, then it is a legitimate signal. Those tuning in at non-multiples of 10 kHz are likely to be 
+images. 
+
+============================================================
+PAGE 58
+============================================================
+
+58 
+§ 
+Received signal level too low: (1) check headphone and speaker plugs and cables; (2) make sure that 
+MENU:RX EQ has not been set for large cuts; (3) verify that MENU:REF CAL is properly adjusted; (4) make 
+sure MENU:RF GAIN is set to -0 dB. 
+§ 
+Spurious signals (“birdies”):  All receivers exhibit some birdies. Most will be inaudible with an antenna 
+connected. In the KX2, there may be significant birdies or harmonics of birdies at the following frequencies 
+due to internal signal sources: 16000 and 18432 +/- 5 kHz (MCU and DSP clock frequencies), 500-900 kHz 
+(DC-DC converter oscillators, CMOS RF switches). In the unlikely event that a birdie interferes with operation, 
+try CW reverse (MENU:ALT MD), or auto-notch (APF-AN switch, SSB mode only). 
+§ 
+Opposite-sideband images heard: Opposite-sideband suppression is typically 50-60 dB. If images appear too 
+high in amplitude, Receive Opposite Sideband suppression may have to be adjusted (normally done at the 
+factory; see pg. 39). 
+§ 
+ “Frying pan” or buzzing sound in headphones:  Headphones may not be plugged in all the way. 
+§ 
+Mobile installation noise: If the 12 V DC accessory jack in a vehicle causes interference to the KX2’s 
+receiver, improve filtering of the DC supply.  
+§ 
+Low-level signals are heard that don’t change as the VFO is rotated: It’s possible for extremely strong 
+signals to create audible artifacts, due to AM detection at the mixer, that are not affected by tuning the VFO. If 
+this occurs, first try turning off the preamp. If that doesn’t suffice, turn on the attenuator. If the source of such 
+signals is a nearby transmitter (such as at Field Day), reorient or move antennas, or use an external band-pass 
+filter. 
+§ 
+KX2 VFO signal is heard in a nearby receiver: A receiver whose antenna is in very close proximity to the 
+KX2’s may pick up the KX2’s VFO signal when both are set to about the same frequency (+/- 8 kHz). Try 
+separating or reorienting the antennas. If that isn’t possible, try turning on the preamp and/or attenuator at each 
+radio. This will often improve isolation between the local oscillator and the antenna jack. 
+§ 
+Internal speaker distortion at high volume: The KX2’s small internal speaker is not intended for use in high-
+noise environments, such as in a noisy vehicle or outdoors in high winds. If audible artifacts occur, reduce AF 
+gain or switch to headphones or an external speaker. (Stereo headphones or dual external speakers will allow 
+the use of audio effects and dual watch.) 
+ 
+ 
+
+============================================================
+PAGE 59
+============================================================
+
+59 
+Parameter Initialization (EEINIT) 
+  Parameter initialization should not be done without first consulting Elecraft customer support. We can 
+help you solve most problems without taking this step. Also, please look for your symptoms in the 
+Troubleshooting section above.  
+It is possible, though rare, for EEPROM parameters to become altered in such a way as to prevent the firmware 
+from running correctly. If you suspect this, you can reinitialize parameters to defaults, then restore a previously-
+saved configuration (or re-do configuration steps manually; no test equipment is required). To initialize: 
+§ 
+IMPORTANT:   Run the KX2 Utility program and use the Save Configuration function to save your present 
+firmware configuration. (Otherwise, you’ll need to re-do calibration steps after EEINIT.) 
+§ 
+Turn the KX2 off (using the KX2’s on/off switch combination, not your power supply). 
+§ 
+Hold in the NB knob with your left hand. Then turn power on with your right hand by holding RATE and A/B 
+together for about 3 seconds until the LEDs all turn on. Finally, release the NB knob after a few more seconds. 
+You should see EE INIT on the LCD. 
+§ 
+When EE INIT completes, you may see ERR nnn due to initialization. Tap DISP to clear any error 
+messages. 
+§ 
+Restore all parameters using the Restore Configuration function of the KX2 Utility program. Then turn power 
+off and on again. See if the original problem has been resolved. If not, contact Elecraft. Note: Elecraft 
+maintains configuration files for all KX2s sold. Your original configuration file can be sent to you via email on 
+request. 
+
+============================================================
+PAGE 60
+============================================================
+
+60 
+Error Messages (ERR nnn) 
+Error messages may be displayed on VFO B at power-up or during normal operation. In many cases error messages 
+are due to a problem with a single option module or incorrect firmware configuration. See Error Message table 
+below for details on specific ERR messages and associated data values, if any. 
+  Some error conditions suggest doing an EEINIT if other remedies fail. DO NOT DO AN EEINIT unless 
+you have consulted Elecraft customer support. 
+If you see an error message on VFO B (ERR nnn): Write down the error message, as well as any associated 
+error data shown on the VFO A display (e.g. d=005). Then tap any switch to clear the error code. Multiple errors 
+may occur; in this case, write down each of the messages and VFO A data, if any, before you clear them. 
+ 
+Error Msg 
+Problem 
+Troubleshooting steps 
+ERR ATC, 
+ERR ATI 
+KXAT2 module not accessible: 
+   ATC = I/O expander C 
+   ATI = I/O address mismatch 
+If the module is not actually installed, set MENU:ATU 
+MD to NOT INST. If the module is installed, remove and 
+reinstall it, making sure the 8-pin connector is correctly 
+lined up with its mating connector on the RF board. 
+ERR ATR 
+KXAT2 relay failure (on VFO 
+A, where d=nnn identifies the 
+failing relay, e.g. 001 for relay 
+K1) 
+Turn power off for 10 seconds, then back on. Remove and 
+re-install the KXAT2 option module, making sure both of 
+its connectors are correctly lined up with their mating 
+connectors on the RF board. If this doesn’t correct the 
+problem, replace the module. 
+ERR DS1 
+No DSP SPI command echo 
+Turn power off for 10 seconds, then back on. Reload 
+MCU and DSP firmware. If this doesn’t correct the 
+problem, save your configuration using KX2 Utility, then 
+consult customer support to see if you should do an 
+EEINIT (pg. 59). If this corrects the problem, restore your 
+configuration using KX2 Utility. If error codes persist, 
+write down all error codes and associated data values 
+(displayed on VFO A) and contact Elecraft.  
+ERR DS2 
+DSP SPI echo not inverted 
+ERR DSE, 
+DSX  
+DSP timeout, where d=nnn is 
+last DSP command sent.  
+ERR DSP 
+DSP, CODEC, or ADC self-test 
+problem, where d=nnn is: 002 
+(CODEC I2C init failure) or 
+004 (ADC read failure) 
+ERR EE1 
+On-chip EEPROM read/write 
+test failed 
+The main microcontroller (MCU) may be defective. 
+Follow the steps shown for ERR DS1. 
+ERR EE2 
+External EEPROM read/write 
+EEPROM may be defective. This message may also 
+
+============================================================
+PAGE 61
+============================================================
+
+61 
+test failed 
+appear if power is turned off/on too rapidly, or if the 
+supply voltage “bounces” during turn-on. If the power 
+supply is not at fault, follow steps shown for ERR DS1. 
+ 
+ERR FW2 
+General firmware problem. 
+d=nnn identifies the type of 
+error (report to Elecraft). 
+Follow steps shown for ERR DS1. 
+ERR IOA 
+RF board I/O expander 
+unresponsive. 
+Turn power on. Reload MCU and DSP firmware. If error 
+codes persist, turn power off, remove all option modules 
+(KXAT2 and KXIBC2 or KXIO2, as applicable), and turn 
+power back on. Turn off associated option module enables 
+in the menu (pg. 36), then turn power off and back on. If 
+this corrects the problem, re-install the option modules 
+one at a time to see which one may be causing the 
+problem. If errors persist, the Control Panel or RF Board 
+may have to be replaced. Write down error codes and data 
+values (on VFO A) before contacting customer support. 
+ERR IO2 
+KXIBC2 or KXIO2 RTC error 
+(real-time-clock). d=nnn is the 
+specific error code (report to 
+Elecraft). 
+Turn power off for 10 seconds, then back on. If this 
+doesn’t correct the problem, re-seat the KXIBC2 or 
+KXIO2 module and repeat. If the problem persists, replace 
+the KXIBC2 or KXIO2. 
+ERR KEY, 
+ERR PTT 
+Attempt to key the transmitter 
+or activate PTT during power-
+on sequence. (Note: If ERR 
+PTT occurs, VOX transmit is 
+disabled in all modes. Re-
+enable using MENU:VOX.) 
+Usually caused by an incorrect setting of MENU:MIC 
+BTN for the current microphone, or an external device 
+shorting the KEY or PTT line to ground, or a shorted 
+KXPD2 (or KXPD3) keyer paddle. Turn power off, then 
+disconnect the KXPD2 or KXPD3 (if applicable) and 
+everything plugged into the left side panel, except for the 
+power supply. Turn power back on. If the problem has 
+disappeared, plug devices back in one at a time to see 
+which one caused the error.  
+ERR OSC 
+Synthesizer IC unresponsive 
+Follow steps for ERR IOA. 
+ERR RFB 
+RF board may be disconnected 
+from Control Panel board 
+Follow steps for ERR IOA. 
+
+============================================================
+PAGE 62
+============================================================
+
+62 
+ERR RFK 
+RF board relay failure (on VFO 
+A, d=nnn identifies the failing 
+relay, e.g. 001 for relay K1) 
+Follow steps for ERR IOA.  
+ERR TX6, 
+ERR TX7 
+Transmit power MOSFET Q6 
+or Q7 bias out of range 
+Follow steps for ERR IOA.  
+ERR TXG 
+Transmit gain constant out of 
+range 
+If this only occurs on one or two bands, there could be a 
+problem with a band-pass or low-pass filter. Also try re-
+doing Transmit Gain calibration (pg. 39). If this doesn’t 
+correct the problem, reload a known-good Configuration 
+file using the latest version of the KX2 Utility. Customer 
+support can supply the original Configuration file if you 
+didn’t save one when you first received your KX2. 
+ERR TXC, 
+ERR TXS 
+Transmit before first calibrating 
+TX BIAS in CW (TXC) or SSB 
+(TXS) mode 
+Perform Transmit Bias calibration (pg. 39). This is a 
+fully-automated procedure that requires no test equipment. 
+ERR TXN 
+Transmit before first nulling the 
+carrier on present band 
+Reload a known-good Configuration file using the latest 
+version of the KX2 Utility.  Customer support can supply 
+the original Configuration file if you did not save a 
+Configuration file when you first received your KX2. 
+ERR TXO 
+Transmit before first nulling the 
+opposite sideband on present 
+band 
+ERR TXP 
+Transmit before first calibrating 
+gain on present band 
+Follow steps for ERR TXC. 
+ERR TOS, 
+ERR TPA 
+Power amplifier temperature 
+sensor out of range 
+Follow steps for ERR IOA. 
+ERR VOX 
+VOX activation detected at 
+power-on 
+Usually caused by audio at the mic at power-on, with 
+VOX enabled for voice modes. Turn power off, then 
+disconnect the mic. Turn power back on. Turn voice-mode 
+VOX off or reduce VOX gain. 
+ 
+
+============================================================
+PAGE 63
+============================================================
+
+63 
+Scrolling Alert Messages  
+Certain conditions will result in an alert message scrolling across the VFO B display. These are listed below. 
+ 
+Alert  Message 
+Description 
+CONNECT DATA IN TO MIC JACK    
+In AF data modes (DATA-A, AFSK-A), an external audio 
+source must be plugged into the mic jack. This disconnects 
+the internal mic. 
+NO MON WITH INT MIC+INT SPKR    
+If the internal mic and internal speaker are both in use, voice 
+monitoring (MON) is disabled to prevent audio feedback. 
+NR REQUIRES AGC MD ON   
+NR (noise reduction) cannot be used with AGC turned off. It 
+also does not apply in DATA mode. 
+TAP 3 TO TURN OFF TX ALC 
+The TX GAIN menu parameter (per-band gain constant) is 
+normally set automatically during TX gain calibration. The 
+parameter can be adjusted manually (not recommended), but 
+TX ALC must be turned off first. 
+TAP XMIT TO SET BIAS    
+When aligning TX BIAS, it is only necessary to tap XMIT. 
+This alert appears if the user attempts to manually adjust the 
+parameter using VFO A. 
+TO UNLOCK, HOLD FREQ FOR 3 SEC   
+The current menu parameter cannot be adjusted until it is 
+unlocked by holding the FREQ switch for ~3 seconds. 
+USE FSK-D, OR SSB WITH 2-TONE ON    TX sideband nulling (MENU:TXSBNUL) requires that 
+MENU:2 TONE be set to ON, and that the KX2 be in SSB or 
+FSK-D mode. 
+USE PHONES 
+DUAL RX (dual watch) cannot be used with the internal 
+speaker. Phones or dual external speakers are required, since 
+the audio associated with VFO A is routed to the left channel, 
+and VFO B to the right. 
+ 
+
+============================================================
+PAGE 64
+============================================================
+
+64 
+Theory Of Operation 
+This section includes a functional description of the KX2’s RF, control panel (CP), and option boards; a block 
+diagram; and a glossary of selected technical terms. Also see the KX2 FAQ (www.elecraft.com). 
+RF Board 
+The RF board contains all of the KX2’s RF circuitry as well as low-level baseband (AF) stages in the receive path.  
+The relay-switched low pass filters are used during both transmit and receive. The signal on the antenna side of the 
+filters pass through a forward/reflected power and SWR bridge to the antenna jack (BNC), or to the optional 
+KXAT2 automatic antenna tuner.  Latching relays are used to minimize power consumption. Transmit/receive 
+(T/R) switching splits the common signal path from the antenna and low pass filters to either the transmitter power 
+amp or receiver input. T/R switching uses PIN diodes and CMOS switches for clean, silent transitions. 
+The RF band-pass filters are used for both transmit and receive. Filters are selected with PIN diodes.  The band 
+pass filters significantly attenuate receive signals at harmonics of the RX frequency, particularly the odd harmonics. 
+Following the band pass filters and T/R switching are the RF preamplifier and an attenuator.  These provide 
+various tradeoffs between overall receive gain and noise figure (or MDS). 
+The RX mixer converts the RF signal to quadrature (8 kHz IF I and Q signals), which are low-pass filtered and 
+amplified before being passed to the CP board for analog to digital conversion (ADC).   
+The TX AF Amp and TX mixer block converts baseband (AF I and Q) modulating signals to an RF signal which 
+is then routed to the T/R switching and band pass filters.  This signal provides excitation to the 10 W power 
+amplifier (PA). The PA uses a pair of RF power MOSFETs.  Temperature monitoring of the MOSFETS allows 
+automatic reduction of power if they become too hot during long transmit periods. 
+The optional KXAT2 automatic antenna tuner (ATU) option connects between the BNC antenna jack and the RF 
+board’s SWR/power bridge and low pass filters. It uses a latching relay-switched “L network” with seven inductors 
+and seven capacitors capable of matching a wide range of antenna impedances. The KXIO2 and KXIBC2 options 
+incorporate a real-time clock (RTC) function, useful for logging and time-keeping. The KXIBC2’s primary 
+function is to recharge the internal Li-ion battery pack (KXBT2).  
+
+============================================================
+PAGE 65
+============================================================
+
+65 
+Control Panel (CP) Board 
+The CP (Control Panel) circuit board contains all of the KX2’s control circuitry as well as IF and AF stages for the 
+transmit and receive paths.  It contains two on-board microcontrollers: one to manage the radio (MCU), and another 
+to process all transmit and receive signals digitally (DSP).  
+The synthesized, digitally controlled local oscillator (LO) provides quadrature signals to the transmit and receive 
+mixers. 
+The DSP is a 32-bit, floating-point device.  All modulation, demodulation, AGC, filtering, equalizing, and other 
+signal processing functions are handled by this IC.  
+The incoming IF signal from the RF board is provided in low-level phase quadrature, or In-phase and Quadrature 
+(I/Q). These signals are digitized by a very low power, high-performance analog-to-digital converter (ADC), then 
+passed to the DSP for processing. 
+The baseband transmit signal is likewise provided in I/Q format to the RF board.  A dedicated, high-performance 
+digital-to-analog converter (DAC) is used to generate a very clean transmitted signal. 
+DSP program storage is by means of a 2 megabyte FLASH memory device.  This IC also provides storage of 
+operator messages for the DVR function. 
+Stereo (two-channel) audio from the DSP is converted to analog signals for use with headphones or dual external 
+speakers (PHONES jack).  The use of stereo allows special processing to help reduce operator fatigue (audio 
+effects), and also optimizes dual watch capability, where the signals from VFOs A and B are routed to the left and 
+right audio channels. If the internal speaker is used, the audio is monophonic, and is boosted by a separate speaker 
+amplifier IC. Microphone audio (or low level audio from a computer or or other source) uses another ADC that 
+runs at all times to enable voice-operated transmit (VOX) operation. 
+The microcontroller unit (MCU) handles all user interface functions for the KX2, including 12 switches and 4 
+shaft encoders. It also handles timing, sequencing, and overall management of the radio. The MCU uses EEPROM 
+to store operator preferences, messages, and settings. An accessory port (ACC) provides a serial I/O interface 
+between the MCU and an attached personal computer (PC), with both RS232 and USB cabling options.  
+The MCU uses two industry-standard serial protocols to control circuitry on the CP and RF boards. I2C 
+(pronounced I-squared-C) controls the synthesizer IC. An SPI bus handles bandswitching, changeover between 
+receive and transmit, etc. The driver for the liquid-crystal display (LCD) is also controlled via the I2C port.  
+
+============================================================
+PAGE 66
+============================================================
+
+66 
+ 
+ 
+RF Board SPI
+T/R Switch
+KX2 Block Diagram
+Rev: 02 May 2016
+80m – 10m
+Sin/Cos
+Si5351
+74VLC74
+RxM
+FST3257
+RF Switch
+RF Switch
+TxM
+FST3253
+Rx AF 
+Preamp 
+and LPF
+AD8599 + 
+OPA2209
+Tx AF Amp
+OPA4376
+IQ DAC
+(48 kHz)
+PCM1773
+(SE)
+IQ ADC
+(48 kHz)
+PCM1803A
+(SE)
+ADSP-
+21479
+DSP
+Rx RF 
+Preamp/
+Attenuators
+NE46134
+Tx PA 
+Temp 
+Sensor
+LM20
++3.3V and +1.2V Switching Regulators
++5V, +3.3V and +1.8V Linear Regulators
+(LM78L05, LM78M05, MIC5265, LP2985, LM2671, 
+LM2831)
+PIC
+18F87K22
+LCD Controller
+PCF85134
+(6V)
+FP Controls
+(1 main enc, 3 
+small enc w/
+sw, 12 sw)
+KXAT2 
+ATU
+(7L & 7C)
+10W Amp 
+2x 
+RD15HVF1
+SP/PH 
+DAC
+(48 kHz)
+AIC3105
+Mic/Line 
+ADC
+(48 kHz)
+AIC3105
+Serial I/O 
+(2N7002, 
+MMBT3904)
+RECEIVE
+TRANSMIT
+Tx & Rx
+K
+E
+Y
+SPKR Amp 
+TDA7052A
+RF BOARD
+ATU (Option)
+CP BOARD
+I2C
+80m – 10m
+ANTENNA
+EEPROM
+24LC512
+SPI
+2 Megabyte 
+FLASH
+Boot/Data
+M25PX16 
+(SPI)
+KXIO2 Clock (Option)
+PCF2123
+NPIC6C596A
+(SPI)
++12V Ext
+MCP23S17 IO 
+Expanders (SPI)
+PWR/SWR BRIDGE
+Si5351 
+Temp 
+Sensor
+LM20
+`
+W. Burdick, L. Johnson, R. Heineck, R. Friess
+p/o CP Board
+
+============================================================
+PAGE 67
+============================================================
+
+67 
+Glossary of Selected Terms 
+The following terms are often used in the discussion of amateur radio transceivers and related equipment. All are 
+applicable to the KX2, used here to illustrate some of the concepts. Also see the ARRL Handbook. 
+________________ 
+A-to-D or ADC (analog-to-digital converter): An integrated circuit that converts analog signals such as audio or 
+RF into digital form. Digital signals can then be processed by a digital signal processor, or DSP (see below). 
+AF, RF, and IF: AF stands for audio frequencies—usually, sounds that you can hear. RF, or radio frequencies, are 
+the actual frequencies of the radio signals (or TV, or cell phone, etc.). IF, or intermediate frequencies, are generally 
+somewhere between RF and AF. In a receiver, it is usually advantageous to convert RF signals to a lower IF at 
+which is it more practical to obtain gain or selectivity. These IF signals are then further converted to AF and 
+amplified further so they can be used to drive headphones or speakers. 
+Attenuator: A circuit that reduces signals to a safe level for use by subsequent stages in a receiver or transmitter. 
+The KX2’s receiver includes a switchable attenuator (pg. 17). 
+ATU (automatic antenna tuner): A device inserted between a transmitter (or transceiver) and an antenna that 
+establishes an optimal match between the two, thus allowing full power transfer. (See KXAT2, pg, 33.) 
+D-to-A or DAC (digital-to-analog converter): An integrated circuit that converts digital signals into analog form, 
+such as audio or RF. Also see DSP, below. 
+dB (decibel): A measure of signal increase or decrease, or of one signal relative to another signal. In human terms, 
+one dB represents a “just noticeable difference” between two signals. Mathematically, dB is derived from the 
+logarithm of the ratio of two signals. Receivers must handle signals over a huge range—in excess of 100 dB. dBm 
+is a more specific term that means “dB relative to 1 milliwatt” (1 mW) of power. 1 mW is thus “0 dBm.” 
+DC-to-DC converter: A device that converts one DC voltage into another. For example, the KX2 includes a very 
+efficient DC-to-DC converter that converts 12 V (nominal) at the DC input jack to 3.3 V for use by its low-voltage 
+circuitry. The advantage of a DC-DC converter is that when it steps voltage down, it steps current up (or vice-
+versa). In this case, the 300 mA the KX2 consumes at 3.3 V might require only 100 mA at the 12 V power source.  
+DSP (digital signal processor): A highly specialized numeric computer, implemented on a single integrated 
+circuit, that processes signals digitally. Inputs to the DSP must generally be converted from analog to digital form 
+(see A-to-D, above), while outputs from the DSP must be converted from digital to analog (see D-to-A). Use of DSP 
+
+============================================================
+PAGE 68
+============================================================
+
+68 
+techniques can result in greater versatility and smaller size compared to the equivalent analog circuitry. The KX2 
+uses a very advanced, power-efficient DSP. 
+ESD (electrostatic discharge): An event during which high voltages or currents appear within a radio or other 
+electronic device, potentially causing damage. Antennas, control cables, or the operator’s body are all potential 
+ESD sources. Damage can be avoided through proper handling and grounding techniques. 
+HF (high-frequency): Signals in the range of 3 to 30 MHz. In amateur radio, HF is usually shorthand for 160-10 
+meters (1.8 to 29.7 MHz), or the “HF bands.” 160 meters actually falls in the MF range (0.3 to 3 MHz). 
+IMD (intermodulation distortion): Unwanted signal products that are created in the various stages of a receiver or 
+transmitter. If all stages were entirely “clean,” there would be no IMD. In reality, every stage contributes some 
+distortion, with the amount of distortion being proportional to signal level. Radio designers go to great lengths to 
+minimize distortion, trading off circuit cost and complexity against the benefit of reduced interference.  
+Keyer: A device that partially automates the sending of Morse code, allowing for faster code speeds. The KX2 has 
+a built-in keyer function, as well as an optional attached keyer paddle (KXPD2 or KXPD3, pg. 33). 
+MCU (microcontroller unit): A computer or controller usually integrated onto a single integrated circuit. A 
+modern amateur transceiver usually has one main MCU that controls most radio functions. It may have other 
+smaller MCUs or co-processors that perform specific functions. The DSP in the KX2 is a specialized co-processor 
+(see DSP, above). 
+MDS (minimum discernable signal): A measure of a radio’s sensitivity, expressed in dB (decibels) relative to 1 
+milliwatt (0 dBm). For example, the user of a KX2 with the 20 dB preamp turned on, can typically copy a CW 
+signal at about -137 dBm, or 137 dB below 1 milliwatt. MDS is dependent on the receiver bandwidth, with 500 Hz 
+normally used for standardized measurements. 
+Preamp: A pre-amplifier that increases RF signals to a higher level for use by subsequent stages in a receiver. A 
+preamp is generally designed to contribute little noise of its own, so that it improves the noise figure of the radio 
+(also see MDS). 
+SDR (software-defined radio): A radio that performs signal modulation, demodulation, filtering, and other 
+functions in software. Such software can execute internally (in a dedicated DSP IC, as in the Elecraft K3S, KX3, or 
+KX2) or externally (in a general-purpose computer, as required with “black box” SDRs). 
+VFO (variable frequency oscillator): A signal source used to select a radio’s operating frequency. The KX2’s 
+large knob controls VFO A, while a smaller knob controls VFO B (see Using VFOs A and B, pg. 16). 
+
+============================================================
+PAGE 69
+============================================================
+
+69 
+Specifications 
+GENERAL 
+Frequency Range 
+Receive, 500 kHz - 32 MHz. See 500 kHz to 3 MHz sensitivity note below.                   
+Transmit, 80/60/40/30/20/17/15/12/10 meter ham bands. (Consult factory for MARS 
+or other non-ham-band coverage.) Transmit excluded in some ranges (by country).  
+Frequency Stability  
++/- 1 ppm typical at 25 C after 5-minute warm-up. 
+Antenna  
+50 ohms, BNC 
+Modes 
+USB, LSB, CW, AM, FM, DATA; built-in text decode for CW/PSK/RTTY modes 
+VFOs 
+Dual VFOs; 150+ frequency memories; scanning/channel hopping 
+Accessory I/O 
+ACC: RS232 or USB port depending on selected adapter. Keyline: 30 V, 100 mA 
+max (pg. 9).  AUX 1 and 2 outputs (KXIO2): 28 V, 150 mA max. 
+Supply Voltage 
+and Current  
+8 V min, 15 V max.  1 to 2 A typical in transmit; 150 mA typical in receive (backlight 
+off, preamp off, no signal). Battery charging (KXIBC2), when active, adds ~250 mA. 
+Size and Weight 
+Size, less projections: 2.8 x 5.8 x 1.6” (7.2 x 14.7 x 4 cm); weight, less battery or 
+options: 13 oz. (0.37 kg) 
+RECEIVER* 
+Sensitivity (MDS), 
+500-Hz bandwidth 
+-136 dBm (typ.), preamp on.  Note: Sensitivity rolls off significantly below 3.0 MHz 
+due to protective high-pass filtering. Preamp-on MDS is typically -105 dBm at 1.5 
+MHz, and -80 dBm at 1.0 MHz, sufficient for emergency AM broadcast signal copy. 
+Image and I.F. Rejection 
+55-70 dB typ. From 3 to 32 MHz (varies with filter settings, mode, and band). Image 
+rejection from 0.5 to 3.0 MHz is not specified. 
+Audio Output 
+Internal speaker, 0.3 W typ.; headphones/ext. speaker jack, 0.1 W/channel (stereo)  
+Receive Features 
+8 band RX EQ, tunable I.F. passband width/shift, audio peaking filter (APF), noise 
+reduction, noise blanker, automatic notch filter 
+
+============================================================
+PAGE 70
+============================================================
+
+70 
+ 
+TRANSMITTER* 
+Output Power 
+Maximum PWR control setting:  80-20 meters, 15 W; 17-10 meters, 12 W.      
+Maximum levels may not be achievable under all conditions. Settings above 12 W 
+should be used with caution and at light duty cycle (e.g., “hunt/pounce” operation). 
+Also see NOTE below. 
+Specified Output Power (with 13.8 V power supply):  80-17 meters, at least 10 W PEP 
+max (+/- 1 dB); 12 and 10 meters, at least 8 W PEP max (+/- 1 dB).  
+NOTE:  Maximum available output power varies with power supply voltage, antenna 
+load impedance, and PA temperature. If power output does not match the requested 
+PWR setting, it should be reduced for safety purposes. Operation above 10 W requires 
+higher supply voltage (typically 13 V). When using over 5 W in SSB, AM, DATA-A 
+and AFSK-A modes, the recommended supply voltage is 12 V or higher to minimize 
+transmit intermodulation products.  
+Internal ATU (KXAT2) 
+7 L/7 C network; matching range typ. 20:1 or higher. Rated power: 15 W.            
+Insertion loss (bypass mode):  < 0.5 dB. Two different data sets available for 
+home/field use (see MENU:ATU DATA). 
+Transmit Features 
+Adjustable speech compression (baseband envelope clipping); 8-band TX EQ; VOX; 
+full and semi CW break-in with adjustable delay; diode T/R Switching; 3 DATA/CW 
+messages and 2 voice (DVR) messages; automatic logging of DATA/CW text (see 
+MENU:LOGGING). 
+Carrier Suppression 
+> 50 dB typ. 
+Harmonic / Spurious Outputs 
+> 50 dB below carrier typ. @ 10 W 
+CW Sidetone/Transmit offset 
+400-800 Hz, adjustable (receive filter center frequency tracks sidetone pitch) 
+ 
+ 
+* Specifications apply only within ham bands except as noted. All measurements taken with 13.8 VDC supply. 
+
+============================================================
+PAGE 71
+============================================================
+
+71 
+Customer Service and Support 
+Technical Assistance 
+Technical assistance is available to all of our customers. We encourage you to use email for faster response to your 
+questions. Email address is: support@elecraft.com. We typically respond to email  the same day from Monday 
+through Friday. 
+  
+If you need replacement parts, send an e-mail to parts@elecraft.com. 
+  
+Telephone assistance is available from 9 A.M. to 5 P.M. Pacific time (weekdays only) at 831-763-4211. For faster 
+response, please use e-mail rather than calling the factory. 
+Repair / Alignment Service 
+If necessary, you may return your Elecraft product to us for repair, calibration or alignment.  If you purchased your 
+Elecraft product from one of our Authorized Distributors, please contact them first. They can perform all of  the 
+factory calibrations that can be made at the factory.  
+  
+IMPORTANT: 
+  
+(1) REMOVE BATTERIES before shipping (see instructions on pg. 6). 
+  
+(2) You must contact Elecraft before mailing your product to obtain Return Authorization to begin the return 
+process. When emailing, please provide your call sign, the product in question, and a description of what the 
+problem is. We will reply with an email that contains shipping instructions, and current information on repair fees 
+and turn-around times. Our repair location may be different from our factory location. We will give you the address 
+to ship your KX2 to at the time of repair authorization. Packages shipped to Watsonville, CA without authorization 
+will incur an additional shipping charge for reshipment to the required repair depot. 
+ 
+ 
+
+============================================================
+PAGE 72
+============================================================
+
+72 
+ 
+ 
+Elecraft 1-Year Limited Warranty 
+ 
+This warranty is effective as of the date of first consumer purchase (or if shipped from the factory, the date the product is 
+shipped to the customer). It covers both our kits and fully assembled products. For kits, before requesting warranty 
+service, you should fully complete the assembly, carefully following all instructions in the manual. 
+ 
+Who is covered:  This warranty covers the original owner of the Elecraft product as disclosed to Elecraft at the time of 
+order. Elecraft products transferred by the purchaser to a third party, either by sale, gift, or other method, who is not 
+disclosed to Elecraft at the time of original order, are not covered by this warranty. If the Elecraft product is being bought 
+indirectly for a third party, the third party’s name and address must be provided at time of order to ensure warranty 
+coverage. 
+ 
+What is covered:  During the first year after date of purchase, Elecraft will replace defective or missing parts free of 
+charge (post-paid). We will also correct any malfunction to kits or assembled units caused by defective parts and 
+materials. Purchaser pays inbound shipping to us for warranty repair; we pay shipping to return the repaired equipment to 
+you by UPS ground service or equivalent to the continental USA and Canada. For Alaska, Hawaii, and other destinations 
+outside the U.S. and Canada, actual return shipping cost is paid by the owner. 
+ 
+What is not covered: This warranty does not cover correction of kit assembly errors. It also does not cover 
+misalignment; repair of damage caused by misuse, negligence, battery leakage or corrosion, or builder modifications; or 
+any performance malfunctions involving non-Elecraft accessory equipment. The use of acid-core solder, water-soluble 
+flux solder, or any corrosive or conductive flux or solvent will void this warranty in its entirety. Also not covered is 
+reimbursement for loss of use, inconvenience, customer assembly or alignment time, or cost of unauthorized service. 
+ 
+Limitation of incidental or consequential damages: This warranty does not extend to non-Elecraft equipment or 
+components used in conjunction with our products. Any such repair or replacement is the responsibility of the customer. 
+Elecraft will not be liable for any special, indirect, incidental or consequential damages, including but not limited to any 
+loss of business or profits.
+ 
+ 
+
+============================================================
+PAGE 73
+============================================================
+
+73 
+Index 
+ 
+ACC Jack, 9 
+Advanced Operating Features, 23 
+AF Gain Control, 17 
+AF Limiter, 41 
+AFSK A Mode, 28 
+AFV, 23 
+AFX (Audio Effects), 25 
+AGC MD, 41 
+AGC Speed, 42 
+AGC Threshold, 42 
+ALC, 52 
+ALT MD, 15, 42 
+AM Mode, 22 
+Amp Hour Metering, 7, 23, 43 
+Analog To Digital Converter (ADC, A-to-D), 67 
+Antenna, 11, 39 
+Antenna Control (Auto-Info), 35 
+Antenna Switch (KXAT100), 43 
+Antennas, 10 
+Anti-VOX, 20 
+Attenuator, 17, 67 
+ATU data sets, 19 
+ATU Tuning, 19 
+Audio Effects (AFX), 25, 41 
+Audio Peaking Filter (APF), 18 
+Auto Info (AI Mode), 44 
+Auto Power-Off, 36 
+Automatic Antenna Tuner (ATU), 11, 19, 44, 67 
+Auto-Notch, 18 
+Auto-off, 44 
+Auto-Spot, 21 
+AUX Outputs, 9, 44 
+Backlight, 45 
+Band Selection, 15 
+Banner, Power-On, 31 
+Batteries, 44 
+Battery Installation, 6 
+Battery Warning Level, 45 
+Birdies, 57 
+Break-In Keying (QSK), 20, 21 
+Calibration Procedures, 38 
+Carrier-Operated Relay, 45 
+Channel Hopping, 24 
+Clipboard Mount, 7 
+Clock, 51 
+Coarse Tuning Rate, 53 
+Code Practice, 21 
+Configuration, 36, 59 
+Control Groups, 5 
+Counterpoise Wire, 7 
+
+============================================================
+PAGE 74
+============================================================
+
+74 
+Cross-Mode Operation, 31 
+Customer Support, 71 
+CW Keying Weight, 21, 31, 46 
+CW Mode, 21 
+CW Reverse, 15, 42 
+CW, Break-In (QSK), 20, 21 
+CW, Sending in SSB mode, 46 
+CWT, 18, 21, 45 
+CW-to-DATA, 21 
+DATA Mode, 28 
+Data Modes, 27 
+dB, decibel, 67 
+dBV, 23 
+DC-to-DC converter, 67 
+Digital Signal Processor (DSP), 67 
+Digital To Analog Converter (DAC, D-to-A), 67 
+Digital Voice Recorder, 30 
+Direct Frequency Entry, 15 
+Display (LCD), 13 
+Dual Watch, 25, 46 
+EEINIT, 59 
+Electrostatic Discharge (ESD), 68 
+Error Messages (ERR nnn), 55, 60, 63 
+Filter Center Frequency, 70 
+Filter Graphic, 13 
+Filter Passband/Squelch Control, 17 
+Firmware Revision, 34, 46 
+Firmware Upgrades, 34 
+FM Mode, 22 
+Forcing a Firmware Download, 34 
+Frequency Memories, 24 
+Frequency Memory Editor, 35 
+Frequency Range, 69 
+Frequency Stability, 69 
+Front Panel, 5 
+FSK D Mode, 27, 28 
+Glossary, 67 
+Headphones, 8 
+HI CUR Warning, 56, 57 
+HI RFI Warning, 57 
+HI SWR Warning, 56 
+High Frequency (HF), 68 
+Iambic Keying, 36, 45 
+Intermodulation Distortion (IMD), 68 
+Keyboard, 35 
+Keyer, 19, 68 
+Keyer Paddle, 8, 45 
+Keying Weight, 21, 46 
+KX2 Utility PC Application, 34, 35, 59 
+KXAT2, 33, 36 
+KXIBC2, 47 
+KXIO2, 47 
+KXPA100, 19, 36, 48 
+LCD Backlight, 45 
+LCD Test, 47 
+LED Brightness, 47 
+Limiter, 41 
+logging, 7, 13, 21, 27, 32, 35, 47 
+Low Battery Warning, 36, 55 
+Memories, 24 
+
+============================================================
+PAGE 75
+============================================================
+
+75 
+Memory Label, 24 
+Menu Functions, 41 
+Menu Settings, 14, 36 
+Message Record/Play, 22 
+Message Repeat, 48 
+MH3, 33 
+Mic Bias, 48 
+Mic Function Buttons, 48 
+Microcontroller Unit (MCU), 68 
+Microphone, 8 
+Microphone Gain Control, 19, 20 
+Microphone Settings, 37 
+Microphone, Internal, 8, 20 
+Minimum Discernable Signal (MDS), 68 
+Mode Selection, 15 
+Noise Blanker, 18 
+Noise Reduction, 18 
+Notch Filtering, 13 
+Operation, 14 
+Option Module Enables, 36 
+Options, 33 
+PA temperature, 23 
+Parameter Initialization, 59 
+Parameter Save/Restore, 60 
+PFn, 25 
+PGM, 9 
+Power On/Off, 14 
+Power Output Control, 19 
+Power Supply, 5 
+Preamp, 13, 17, 68 
+Programmable Function Switch, 25 
+PSK D Mode, 28 
+PSK31, 28 
+QSK, 20, 21, 46 
+Quasi-Stereo (AFX), 41 
+Quick Memories, 24 
+Quick-Start Guide, 12 
+Real Time Clock, 37 
+Receive Settings, 17 
+Reference Oscillator, 38, 49 
+Remote Control, 35 
+RF Board, 64 
+RF Gain Control, 49 
+RIT/XIT Offset, 16 
+RS232, 35, 49 
+RTC, 7, 37, 47 
+RTC Adjustment, 50 
+RTTY, 28 
+RX EQ, 26, 50, 52, 57 
+Scanning, 24 
+Self-Test, 34 
+Serial Number, 50 
+Sideband Selection, 42 
+Sidetone, 21, 49 
+Software Defined Radio (SDR), 68 
+Speaker, 8, 25 
+Specifications, 69 
+Speech Compression, 51 
+SPLIT and Cross-Mode Operation, 56 
+Split Operation, 30 
+
+============================================================
+PAGE 76
+============================================================
+
+76 
+Squelch Control, 17 
+SSB +CW, 46 
+SSB Mode, 20 
+SSB/CW VFO Offset, 26 
+Standing Wave Ratio (SWR), 11 
+Switch Test, 50 
+Switch Tones, 50, 51 
+Switch Tones and Morse UI, 37 
+Tech Mode Menu Entries, 51 
+Terminal Emulator, 35 
+Text Decode and Display, 21, 29 
+Theory Of Operation, 64 
+Time, 37 
+Transmit Bias, 51 
+Transmit Gain Calibration, 39, 52 
+Transmit Metering, 20 
+Transmit Noise Gate, 31, 52 
+Transmit Settings, 19 
+Transverter, 32 
+Transverter Control, 54 
+Troubleshooting, 55 
+Tune Power, 37, 51 
+Tuning Rate, VFO, 37, 53 
+TX EQ, 26, 52 
+TX Gain, 52 
+TX LED, 34, 56 
+Variable Frequency Oscillator (VFO), 68 
+VFO B Parameter Displays, 16, 23 
+VFO lock, 16 
+VFO Setup, 37 
+VFO Tuning Controls, 16, 37, 53 
+VOX Delay, 53 
+VOX Gain, 53 
+VOX Inhibit, 53 
+VOX Mode, 53 
+VOX Setup, 20 
+VOX, Voice Modes, 37 
+Warranty, 72 
+Wattmeter, 53 
+XIT, 53 
+ 
+ 
+ 
+ 
