@@ -7,8 +7,12 @@ import SwiftData
 import SwiftUI
 
 struct LibraryTab: View {
+    @Environment(AppState.self) private var appState
+
     @Query(sort: [SortDescriptor(\Radio.manufacturer), SortDescriptor(\Radio.model)]) private
         var radios: [Radio]
+
+    @State private var path = NavigationPath()
 
     private let columns = [
         GridItem(.flexible()),
@@ -28,7 +32,7 @@ struct LibraryTab: View {
     }
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             ScrollView {
                 if radios.isEmpty {
                     emptyState
@@ -37,6 +41,17 @@ struct LibraryTab: View {
                 }
             }
             .navigationTitle("Library")
+            .navigationDestination(for: Radio.self) { radio in
+                RadioDetailView(radio: radio)
+            }
+        }
+        .onChange(of: appState.pendingRadioID) { _, radioID in
+            guard let radioID else { return }
+            if let radio = radios.first(where: { $0.id == radioID }) {
+                path = NavigationPath()
+                path.append(radio)
+            }
+            appState.pendingRadioID = nil
         }
     }
 
@@ -97,9 +112,6 @@ struct LibraryTab: View {
             }
         }
         .padding(.vertical)
-        .navigationDestination(for: Radio.self) { radio in
-            RadioDetailView(radio: radio)
-        }
     }
 }
 
@@ -141,5 +153,6 @@ struct RadioCard: View {
 
 #Preview {
     LibraryTab()
+        .environment(AppState())
         .modelContainer(for: Radio.self, inMemory: true)
 }

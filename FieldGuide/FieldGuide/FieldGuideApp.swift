@@ -8,6 +8,8 @@ import SwiftUI
 
 @main
 struct FieldGuideApp: App {
+    @State private var appState = AppState()
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Radio.self,
@@ -29,11 +31,30 @@ struct FieldGuideApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(appState)
+                .onOpenURL { url in
+                    handleDeepLink(url)
+                }
                 .task {
                     await loadBundledContentIfNeeded()
                 }
         }
         .modelContainer(sharedModelContainer)
+    }
+
+    private func handleDeepLink(_ url: URL) {
+        // Parse cwfieldguide://radio/{radio-id}
+        guard url.scheme == "cwfieldguide",
+              url.host == "radio"
+        else {
+            return
+        }
+        let radioID = url.pathComponents
+            .filter { $0 != "/" }
+            .joined(separator: "/")
+        guard !radioID.isEmpty else { return }
+        appState.pendingRadioID = radioID
+        appState.selectedTab = 0 // Library tab
     }
 
     private static let bundledRadios = [
@@ -58,6 +79,9 @@ struct FieldGuideApp: App {
         "lnr-mtr3b-v4",
         "lnr-mtr4b-v2",
         "lnr-mtr5b",
+        // NorCal QRP Club
+        "norcal-20",
+        "norcal-40a",
         // PennTek
         "penntek-tr25",
         "penntek-tr35",

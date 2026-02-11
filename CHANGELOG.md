@@ -5,6 +5,21 @@ All notable changes to CW Field Guide will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-02-10
+
+### Added
+- Add deep link support — `cwfieldguide://radio/{id}` opens directly to a radio's manual from Carrier Wave
+
+## [1.2.1] - 2026-02-04
+
+### Fixed
+- Crash on launch for users upgrading from v1.0 (SwiftData migration failure due to missing default value on isFavorite property)
+
+## [1.2] - 2026-02-04
+
+### Added
+- 2 NorCal QRP Club radios: NorCal 20, NorCal 40A
+
 ## [1.1] - 2026-02-03
 
 ### Added
