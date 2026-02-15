@@ -1,0 +1,238 @@
+{
+  "checklists": [
+    {
+      "id": "pre-outing",
+      "title": "Pre-Outing",
+      "phase": "preOuting",
+      "sortOrder": 1,
+      "items": [
+        {
+          "category": "Radio & Accessories",
+          "entries": [
+            "Radio (powered on check before packing)",
+            "Key / paddle / microphone",
+            "Headphones",
+            "Logging device or paper log",
+            "Pen or pencil"
+          ]
+        },
+        {
+          "category": "Antenna & Feedline",
+          "entries": [
+            "Antenna",
+            "Feedline / coax",
+            "Antenna support (mast, throw line, etc.)",
+            "Connectors and adapters",
+            "SWR meter (if external)"
+          ]
+        },
+        {
+          "category": "Power",
+          "entries": [
+            "Battery (charged)",
+            "Charging cable / power supply",
+            "Backup battery or power source",
+            "DC power cable / Anderson connectors"
+          ]
+        },
+        {
+          "category": "Personal & Safety",
+          "entries": [
+            "Copy of amateur radio license",
+            "Water and snacks",
+            "Sun protection",
+            "First aid kit",
+            "Weather forecast checked"
+          ]
+        },
+        {
+          "category": "Planning",
+          "entries": [
+            "Operating frequencies / band plan noted",
+            "Site permission confirmed (if needed)",
+            "Expected propagation checked"
+          ]
+        },
+        {
+          "category": "Elecraft KX2",
+          "radioId": "elecraft-kx2",
+          "entries": [
+            "Internal battery charged (check voltage on display)",
+            "Verify ATU setting matches planned antenna",
+            "KXPA2 amp packed (if using)"
+          ]
+        },
+        {
+          "category": "Elecraft KX3",
+          "radioId": "elecraft-kx3",
+          "entries": [
+            "Internal battery charged or external power ready",
+            "Verify ATU setting matches planned antenna",
+            "KXPA100 amp packed (if using)"
+          ]
+        },
+        {
+          "category": "Xiegu G90",
+          "radioId": "xiegu-g90",
+          "entries": [
+            "Firmware version checked (CE-19 updates)",
+            "External battery / 13.8V supply packed",
+            "Hand mic or CAT cable for digital modes"
+          ]
+        },
+        {
+          "category": "ICOM IC-705",
+          "radioId": "icom-ic705",
+          "entries": [
+            "Internal battery charged (or BP-272 spare)",
+            "SD card inserted for voice/RTTY memory",
+            "Bluetooth headset paired (if using)"
+          ]
+        },
+        {
+          "category": "Yaesu FT-891",
+          "radioId": "yaesu-ft891",
+          "entries": [
+            "External 13.8V supply and Anderson cables packed",
+            "Hand mic or data cable for digital modes",
+            "External ATU packed (no internal tuner)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "during-outing",
+      "title": "During Outing",
+      "phase": "duringOuting",
+      "sortOrder": 2,
+      "items": [
+        {
+          "category": "Station Setup",
+          "entries": [
+            "Antenna deployed and secured",
+            "Feedline connected",
+            "Radio powered on",
+            "SWR checked on operating frequency",
+            "Power level set appropriately"
+          ]
+        },
+        {
+          "category": "On Air",
+          "entries": [
+            "Band and mode selected",
+            "Verify transmitted audio / signal (if possible)",
+            "Begin logging (time, frequency, callsign, RST)",
+            "Announce spot if activating (POTA, SOTA, etc.)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debugging",
+      "title": "Debugging",
+      "phase": "debugging",
+      "sortOrder": 3,
+      "items": [
+        {
+          "category": "No Transmit Power",
+          "entries": [
+            "Check antenna connection is secure",
+            "Verify radio is not in receive-only mode",
+            "Check power supply voltage",
+            "Confirm correct band/mode selected",
+            "Check for ATU bypass if not using tuner"
+          ]
+        },
+        {
+          "category": "High SWR",
+          "entries": [
+            "Retune ATU",
+            "Check coax connections for corrosion or looseness",
+            "Verify antenna is fully deployed / correct length",
+            "Try a different frequency on the same band",
+            "Inspect feedline for damage"
+          ]
+        },
+        {
+          "category": "No Receive / Weak Signals",
+          "entries": [
+            "Check headphone or speaker connection",
+            "Verify volume and RF gain settings",
+            "Confirm correct mode for signals (SSB vs CW vs FM)",
+            "Check for noise blanker or DSP over-filtering",
+            "Try a different band"
+          ]
+        },
+        {
+          "category": "Audio / Decode Issues",
+          "entries": [
+            "Check audio cable connections (for digital modes)",
+            "Verify sound card or interface levels",
+            "Confirm correct baud rate / mode in software",
+            "Check for RFI on USB or audio cables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cleanup",
+      "title": "Cleanup",
+      "phase": "cleanup",
+      "sortOrder": 4,
+      "items": [
+        {
+          "category": "Station Teardown",
+          "entries": [
+            "Log final QSO time",
+            "QRT — announce sign-off",
+            "Power off radio",
+            "Disconnect antenna from radio",
+            "Retract / take down antenna"
+          ]
+        },
+        {
+          "category": "Pack Up",
+          "entries": [
+            "Coil feedline properly (no kinks)",
+            "Secure all connectors and adapters",
+            "Pack radio with protection",
+            "Collect all equipment — nothing left behind",
+            "Pack out all trash"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "post-outing",
+      "title": "Post-Outing",
+      "phase": "postOuting",
+      "sortOrder": 5,
+      "items": [
+        {
+          "category": "Logging",
+          "entries": [
+            "Transfer paper log to digital (if needed)",
+            "Upload log to LoTW / QRZ / Club Log",
+            "Submit POTA / SOTA activation (if applicable)"
+          ]
+        },
+        {
+          "category": "Equipment Care",
+          "entries": [
+            "Charge batteries",
+            "Inspect antenna and feedline for damage",
+            "Clean connectors if needed",
+            "Store radio and accessories properly"
+          ]
+        },
+        {
+          "category": "Review",
+          "entries": [
+            "Note any equipment issues for next time",
+            "Review what worked well and what didn't"
+          ]
+        }
+      ]
+    }
+  ]
+}
