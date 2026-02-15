@@ -16,7 +16,7 @@ final class Radio {
     var pdfLocalPath: String?
     var isDownloaded: Bool
     var downloadedAt: Date?
-    var isFavorite: Bool
+    var isFavorite: Bool = false
 
     @Relationship(deleteRule: .cascade, inverse: \Section.radio)
     var sections: [Section] = []

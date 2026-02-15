@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(make:*)",
+      "Bash(python3:*)",
+      "Bash(pip install:*)",
+      "Bash(python download_pdfs.py:*)",
+      "Bash(python extract_content.py:*)",
+      "Bash(curl:*)",
+      "Bash(chmod:*)"
+    ]
+  }
+}

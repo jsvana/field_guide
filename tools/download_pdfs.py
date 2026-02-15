@@ -101,6 +101,21 @@ MANUALS = {
         "filename": "LD-5_Manual.pdf",
         "revision": "2015-07-13",
     },
+    # NorCal QRP Club
+    "norcal-20": {
+        "manufacturer": "NorCal QRP Club",
+        "name": "NorCal 20",
+        "url": "https://www.norcalqrp.org/files/NC20_Manual_1.pdf",
+        "filename": "NC20_Manual_1.pdf",
+        "revision": "1",
+    },
+    "norcal-40a": {
+        "manufacturer": "NorCal QRP Club",
+        "name": "NorCal 40A",
+        "url": "https://www.n5dux.com/ham/files/pdf/NorCal%2040A%20Transceiver%20-%20Manual.pdf",
+        "filename": "NorCal_40A_Transceiver_Manual.pdf",
+        "revision": "1",
+    },
     # Yaesu
     "yaesu-ft891": {
         "manufacturer": "Yaesu",

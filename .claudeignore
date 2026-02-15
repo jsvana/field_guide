@@ -1,0 +1,24 @@
+# Build artifacts
+DerivedData/
+build/
+
+# Xcode user data
+*.xcuserstate
+xcuserdata/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Downloaded PDFs (large binaries)
+tools/pdfs/
+
+# Binary files
+*.png
+*.jpg
+*.ico
+*.pdf
+
+# macOS
+.DS_Store

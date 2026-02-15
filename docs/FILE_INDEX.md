@@ -68,6 +68,8 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `lnr-mtr3b-v4/content.json` | Curated content for LNR Precision MTR 3B V4 Currahee |
 | `lnr-mtr5b/content.json` | Curated content for LNR Precision MTR 5B |
 | `lnr-ld5/content.json` | Curated content for LNR Precision LD-5 |
+| `norcal-20/content.json` | Curated content for NorCal QRP Club NorCal 20 |
+| `norcal-40a/content.json` | Curated content for NorCal QRP Club NorCal 40A |
 | `yaesu-ft891/content.json` | Curated content for Yaesu FT-891 |
 | `xiegu-g90/content.json` | Curated content for Xiegu G90 |
 | `xiegu-g106/content.json` | Curated content for Xiegu G106 |

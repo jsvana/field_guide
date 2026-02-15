@@ -16,5 +16,6 @@ build/
 *.dSYM.zip
 *.dSYM
 
-# Claude
-.claude/
+# Claude Code (user-local)
+CLAUDE.local.md
+.claude/settings.local.json

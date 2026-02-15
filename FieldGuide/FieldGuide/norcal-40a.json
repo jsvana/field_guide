@@ -1,0 +1,126 @@
+{
+  "radio": {
+    "id": "norcal-40a",
+    "manufacturer": "NorCal QRP Club",
+    "model": "NorCal 40A",
+    "revision": "1",
+    "pdfFilename": "NorCal_40A_Transceiver_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 40A is a QRP CW transceiver kit for the 40-meter band, designed by Wayne Burdick (N6KR) and produced by the NorCal QRP Club. It features a VXO (Variable Crystal Oscillator) for frequency control and a single-conversion superhet receiver."
+        },
+        {
+          "type": "paragraph",
+          "text": "The transceiver includes an internal audio-derived AGC, built-in sidetone oscillator, and electronic T/R switching for semi-break-in CW operation."
+        },
+        {
+          "type": "note",
+          "text": "This manual was extracted from a scanned document. Content may be limited. Refer to the PDF for complete information."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 40A uses simple front-panel controls for frequency tuning and volume. The main tuning control adjusts the VXO frequency across the operating range."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 40A supports connection of external paddles or a straight key. A built-in sidetone oscillator provides audio feedback during transmit."
+        },
+        {
+          "type": "note",
+          "text": "Keyer functionality depends on kit version and options installed. Refer to the PDF manual for keying specifications."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The receiver uses crystal filtering at the IF frequency for selectivity. The audio section includes filtering optimized for CW reception."
+        },
+        {
+          "type": "paragraph",
+          "text": "Audio-derived AGC provides automatic gain control to handle varying signal strengths."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 40A operates from a DC power supply. Low current consumption makes it suitable for portable operation with battery power."
+        },
+        {
+          "type": "note",
+          "text": "Refer to the PDF manual for specific voltage requirements and current consumption figures."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 40A does not include an internal antenna tuner. Use an external tuner if operating with non-resonant antennas."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "rows": [
+            { "name": "Band", "value": "40 meters (7 MHz)" },
+            { "name": "Mode", "value": "CW" },
+            { "name": "Frequency Control", "value": "VXO" },
+            { "name": "Receiver", "value": "Single conversion superhet" },
+            { "name": "AGC", "value": "Audio derived" },
+            { "name": "T/R Switching", "value": "Electronic, semi-break-in" }
+          ]
+        },
+        {
+          "type": "note",
+          "text": "The PDF manual contains complete specifications. This is a scanned document and text extraction was limited."
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Refer to the PDF manual for troubleshooting guidance and alignment procedures."
+        },
+        {
+          "type": "note",
+          "text": "Most kit-related issues trace to soldering problems. Inspect all connections with magnification if experiencing issues."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "radio": {
+    "id": "norcal-20",
+    "manufacturer": "NorCal QRP Club",
+    "model": "NorCal 20",
+    "revision": "1",
+    "pdfFilename": "NC20_Manual_1.pdf"
+  },
+  "sections": [
+    {
+      "id": "operation-basics",
+      "title": "Operation Basics",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 20 is a high performance QRP CW transceiver kit for the 20m band. It features a single conversion superheterodyne receiver, VFO tuning with optional 10-turn pot, RIT control with center detent, and fully electronic TX/RX switching for smooth semi-break-in operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Frequency control is via a varicap-tuned VFO covering approximately 30 kHz of the CW portion of 20m (expandable to 70+ kHz with a 10-turn pot modification). The VFO requires about 30 minutes warm-up for best stability, with typical drift of +300 Hz initially then +50 Hz per hour."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Audible Frequency Annunciator (AFA) provides frequency readout in Morse code. In manual mode, press the front panel button to hear the frequency. In automatic mode, the AFA pips at each kHz during tuning and announces the frequency when you stop."
+        },
+        {
+          "type": "paragraph",
+          "text": "The RF Attenuator pot on the rear panel provides additional front-end signal level control for dealing with strong signals."
+        }
+      ]
+    },
+    {
+      "id": "menu-system",
+      "title": "Menu System Reference",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 20 uses the TiCK keyer chip for keying functions. Settings are stored and accessed through paddle commands."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Swap Paddles",
+          "description": "Reverses the dot and dash paddle inputs for left-handed operators or personal preference."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Speed Adjustment",
+          "description": "Adjust CW sending speed via paddle commands stored in the TiCK keyer."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Tune Mode",
+          "description": "Activates continuous carrier for antenna tuning. Output power is set via internal trimpot (0-7W range)."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Straight Key Mode",
+          "description": "Disables iambic keying for use with a straight key."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Iambic A/B Mode",
+          "description": "Select between Iambic A and Iambic B keying modes per operator preference."
+        }
+      ]
+    },
+    {
+      "id": "cw-keyer",
+      "title": "CW/Keyer Settings",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 20 includes a built-in TiCK keyer chip (Rev. 1.02). The keyer supports both iambic A and B modes, paddle swap, adjustable speed, and straight key operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connect paddles via the 1/8\" stereo jack. By default, DIT is on the tip of the plug. This can be modified if desired."
+        },
+        {
+          "type": "note",
+          "text": "The optional SuperTiCK upgrade chip adds beacon mode and two 50-character message memories while maintaining the same pin-for-pin compatibility."
+        },
+        {
+          "type": "paragraph",
+          "text": "Transmit keying is edge-controlled for clean, shaped Morse code. The electronic TX/RX switching provides smooth semi-break-in operation with linear rise and fall times on the RF envelope."
+        }
+      ]
+    },
+    {
+      "id": "filters-dsp",
+      "title": "Filters & DSP",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The receiver uses a 4-crystal main filter and 1-crystal roofing filter at 9 MHz IF. Crystals are matched to within 50 Hz for a flat-topped narrow-band response. Bandwidth is approximately 300 Hz with stopband attenuation of -70 dB minimum."
+        },
+        {
+          "type": "paragraph",
+          "text": "The audio path includes a low-pass filter with 1.2 kHz cutoff and a bandpass filter centered at 700 Hz with Q of 5. This provides excellent selectivity for CW operation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dual AGC loops provide 80 dB of automatic gain control range. The AGC is audio-derived using 3 PIN diodes plus N6KR's NE602 method."
+        },
+        {
+          "type": "note",
+          "text": "An optional headphone low-pass filter can reduce hiss from the LM380N audio amplifier. Details in the Modifications appendix of the manual."
+        }
+      ]
+    },
+    {
+      "id": "power-battery",
+      "title": "Power & Battery",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 20 is designed for operation from home stations or portable operation with larger battery capacity (e.g., Field Day). Current consumption is relatively high due to the quality receiver front-end design."
+        },
+        {
+          "type": "specification",
+          "name": "Supply Voltage",
+          "value": "10-14V DC, negative ground"
+        },
+        {
+          "type": "specification",
+          "name": "Power Connector",
+          "value": "2.1mm standard jack (center = positive)"
+        },
+        {
+          "type": "specification",
+          "name": "Receive Current",
+          "value": "150 mA nominal"
+        },
+        {
+          "type": "specification",
+          "name": "Transmit Efficiency",
+          "value": "~60% (Class C output stage)"
+        },
+        {
+          "type": "note",
+          "text": "Transmit current depends on output power setting and supply voltage. RF power output decreases as supply voltage is reduced."
+        }
+      ]
+    },
+    {
+      "id": "atu-operation",
+      "title": "ATU Operation",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The NorCal 20 does not include an internal antenna tuner. Use an external tuner for non-resonant antennas."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2SC1969 output transistor is SWR protected and will safely operate into open or short circuit loads. Output match is better than 1.5:1 into 50 ohm nominal load."
+        },
+        {
+          "type": "note",
+          "text": "For best performance, use a matched 50-ohm antenna system. An external tuner can compensate for antenna mismatch."
+        }
+      ]
+    },
+    {
+      "id": "specifications",
+      "title": "Specifications",
+      "blocks": [
+        {
+          "type": "specificationTable",
+          "rows": [
+            { "name": "Size", "value": "5\" x 5\" x 2\" nominal" },
+            { "name": "Weight", "value": "1 lb 2 oz (515g)" },
+            { "name": "Mode", "value": "CW" },
+            { "name": "Frequency Range", "value": "~30 kHz segment of 20m CW (expandable to 70+ kHz)" },
+            { "name": "Output Power", "value": "0-7W adjustable" },
+            { "name": "Supply Voltage", "value": "10-14V DC" },
+            { "name": "Receive Current", "value": "150 mA" },
+            { "name": "Receiver Type", "value": "Single conversion superheterodyne" },
+            { "name": "IF Frequency", "value": "9 MHz" },
+            { "name": "Receive Bandwidth", "value": "300 Hz nominal" },
+            { "name": "Stopband Attenuation", "value": "-70 dB minimum" },
+            { "name": "MDS", "value": "-135 dBm nominal" },
+            { "name": "AGC Range", "value": "80 dB" },
+            { "name": "Audio Output", "value": "2W into 8 ohms (LM380N)" },
+            { "name": "Antenna Connector", "value": "50 ohm BNC" },
+            { "name": "Output Harmonics", "value": "-70 dB or better" },
+            { "name": "VFO Stability", "value": "+300 Hz (30 min), +50 Hz/hr thereafter" },
+            { "name": "Frequency Counter", "value": "AFA, accurate within 1 kHz" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "title": "Quick Troubleshooting",
+      "blocks": [
+        {
+          "type": "menuEntry",
+          "name": "VFO Drift",
+          "description": "Allow 30 minutes warm-up for best stability. Initial drift of +300 Hz is normal, settling to +50 Hz/hour."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Audio Hiss",
+          "description": "The LM380N produces noise at all audio frequencies. Install an optional headphone low-pass filter for quiet listening."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Strong Signal Overload",
+          "description": "Use the rear panel RF Attenuator pot to reduce front-end gain when dealing with large in-band or out-of-band signals."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Low Output Power",
+          "description": "Check supply voltage (power output decreases with lower voltage). Verify internal power trimpot setting."
+        },
+        {
+          "type": "menuEntry",
+          "name": "Solder Issues",
+          "description": "Parts are closely spaced. Use fine-tip iron (1/16\" bit) and 22 AWG solder. Do not overheat pads when desoldering."
+        },
+        {
+          "type": "warning",
+          "text": "The rig produces LOUD audio output. Use external attenuation with sensitive headphones, especially ear buds and Walkman-style phones."
+        }
+      ]
+    }
+  ]
+}

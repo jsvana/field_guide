@@ -1,0 +1,109 @@
+{
+  "radio": {
+    "id": "norcal-40a",
+    "manufacturer": "NorCal QRP Club",
+    "model": "NorCal 40A",
+    "revision": "1",
+    "pdfFilename": "NorCal_40A_Transceiver_Manual.pdf"
+  },
+  "sections": [
+    {
+      "id": "norcal-40a-operation-basics",
+      "title": "Operation Basics",
+      "sortOrder": 1,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Operation Basics content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "norcal-40a-menu-system-reference",
+      "title": "Menu System Reference",
+      "sortOrder": 2,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Menu System Reference content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "norcal-40a-cw-keyer-settings",
+      "title": "CW/Keyer Settings",
+      "sortOrder": 3,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract CW/Keyer Settings content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "norcal-40a-filters-and-dsp",
+      "title": "Filters & DSP",
+      "sortOrder": 4,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Filters & DSP content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "norcal-40a-power-and-battery",
+      "title": "Power & Battery",
+      "sortOrder": 5,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Power & Battery content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "norcal-40a-atu-operation",
+      "title": "ATU Operation",
+      "sortOrder": 6,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract ATU Operation content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "norcal-40a-specifications",
+      "title": "Specifications",
+      "sortOrder": 7,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Specifications content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    },
+    {
+      "id": "norcal-40a-quick-troubleshooting",
+      "title": "Quick Troubleshooting",
+      "sortOrder": 8,
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "[TODO: Extract Quick Troubleshooting content from PDF]"
+        }
+      ],
+      "_sourcePages": "[TODO: Add relevant page numbers from PDF]"
+    }
+  ],
+  "_extractedTOC": [],
+  "_pageCount": 36
+}
