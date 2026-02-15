@@ -8,7 +8,7 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | File | Purpose |
 |------|---------|
 | `FieldGuide/FieldGuide/FieldGuideApp.swift` | App entry point, SwiftData container setup, bundled content loading |
-| `FieldGuide/FieldGuide/ContentView.swift` | Root TabView (Library, Search, Settings tabs) |
+| `FieldGuide/FieldGuide/ContentView.swift` | Root TabView (Library, Search, Checklists, Settings tabs) |
 
 ## Models (`FieldGuide/FieldGuide/Models/`)
 | File | Purpose |
@@ -16,23 +16,27 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `Radio.swift` | Radio model (manufacturer, model, revision, PDF path, download status) |
 | `Section.swift` | Manual section model (title, sortOrder, searchableText, blocks relationship) |
 | `ContentBlock.swift` | Content block model (paragraph, menuEntry, specification, specificationTable, note, warning) |
+| `Checklist.swift` | Checklist and ChecklistItem models, ChecklistPhase enum |
 
 ## Services (`FieldGuide/FieldGuide/Services/`)
 | File | Purpose |
 |------|---------|
 | `ContentImporter.swift` | Actor that parses JSON content files into SwiftData models |
+| `ChecklistImporter.swift` | Imports checklist templates from bundled JSON into SwiftData |
 
 ## Views - Tabs (`FieldGuide/FieldGuide/Views/`)
 | File | Purpose |
 |------|---------|
 | `LibraryTab.swift` | Radio grid display with RadioCard component |
 | `SearchTab.swift` | Full-text search across all manuals with scope filtering |
+| `ChecklistsTab.swift` | Checklist phase list with progress indicators |
 | `SettingsTab.swift` | Settings, ManageDownloadsView for storage, AttributionsView for credits |
 
 ## Views - Detail (`FieldGuide/FieldGuide/Views/`)
 | File | Purpose |
 |------|---------|
 | `RadioDetailView.swift` | Radio sections list with SectionRow component |
+| `ChecklistDetailView.swift` | Checklist items grouped by category with check toggling |
 | `SectionDetailView.swift` | Section content display with block renderers (ParagraphBlock, MenuEntryBlock, SpecificationBlock, SpecificationTableBlock, NoteBlock) |
 | `PDFViewerSheet.swift` | PDFKit-based PDF viewer sheet |
 | `BugReportView.swift` | Bug report form that copies report to clipboard and opens Discord |
@@ -73,12 +77,18 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `xiegu-x6200/content.json` | Curated content for Xiegu X6200 |
 | `extracted/*_skeleton.json` | Raw extracted text skeletons (not curated) |
 
+## Checklists (`FieldGuide/FieldGuide/`)
+| File | Purpose |
+|------|---------|
+| `checklists.json` | Bundled checklist template definitions (generic + radio-specific items) |
+
 ## Documentation (`docs/`)
 | File | Purpose |
 |------|---------|
 | `FILE_INDEX.md` | This file - maps files to their purpose |
 | `plans/2026-02-02-field-guide-design.md` | Design document |
 | `plans/2026-02-02-field-guide-implementation.md` | Implementation plan |
+| `plans/2026-02-15-outing-checklists.md` | Outing checklists design and implementation plan |
 
 ## Tests (`FieldGuide/FieldGuideTests/`)
 | File | Purpose |

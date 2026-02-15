@@ -5,6 +5,14 @@ All notable changes to CW Field Guide will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+- Outing checklists — five-phase workflow (Pre-Outing, During Outing, Debugging, Cleanup, Post-Outing) with resettable check state
+- Checklists tab in main navigation
+- Radio-specific checklist items appear automatically for downloaded radios (KX2, KX3, G90, IC-705, FT-891)
+- Deep linking support for checklists (`cwfieldguide://checklist/{phase}`)
+
 ## [1.3.0] - 2026-02-10
 
 ### Added

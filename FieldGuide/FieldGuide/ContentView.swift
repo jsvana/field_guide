@@ -24,11 +24,17 @@ struct ContentView: View {
                 }
                 .tag(1)
 
+            ChecklistsTab()
+                .tabItem {
+                    Label("Checklists", systemImage: "checklist")
+                }
+                .tag(2)
+
             SettingsTab()
                 .tabItem {
                     Label("Settings", systemImage: "gear")
                 }
-                .tag(2)
+                .tag(3)
         }
     }
 }
@@ -36,5 +42,8 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .environment(AppState())
-        .modelContainer(for: [Radio.self, Section.self, ContentBlock.self], inMemory: true)
+        .modelContainer(
+            for: [Radio.self, Section.self, ContentBlock.self, Checklist.self, ChecklistItem.self],
+            inMemory: true
+        )
 }

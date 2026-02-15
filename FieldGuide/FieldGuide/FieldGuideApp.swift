@@ -15,6 +15,8 @@ struct FieldGuideApp: App {
             Radio.self,
             Section.self,
             ContentBlock.self,
+            Checklist.self,
+            ChecklistItem.self,
         ])
         let modelConfiguration = ModelConfiguration(
             schema: schema,
@@ -43,18 +45,27 @@ struct FieldGuideApp: App {
     }
 
     private func handleDeepLink(_ url: URL) {
-        // Parse cwfieldguide://radio/{radio-id}
-        guard url.scheme == "cwfieldguide",
-              url.host == "radio"
-        else {
-            return
+        guard url.scheme == "cwfieldguide" else { return }
+
+        switch url.host {
+        case "radio":
+            let radioID = url.pathComponents
+                .filter { $0 != "/" }
+                .joined(separator: "/")
+            guard !radioID.isEmpty else { return }
+            appState.pendingRadioID = radioID
+            appState.selectedTab = 0 // Library tab
+
+        case "checklist":
+            let phase = url.pathComponents
+                .filter { $0 != "/" }
+                .first
+            appState.pendingChecklistPhase = phase
+            appState.selectedTab = 2 // Checklists tab
+
+        default:
+            break
         }
-        let radioID = url.pathComponents
-            .filter { $0 != "/" }
-            .joined(separator: "/")
-        guard !radioID.isEmpty else { return }
-        appState.pendingRadioID = radioID
-        appState.selectedTab = 0 // Library tab
     }
 
     private static let bundledRadios = [
@@ -114,6 +125,14 @@ struct FieldGuideApp: App {
             } catch {
                 print("Error loading \(radioId): \(error)")
             }
+        }
+
+        // Import bundled checklists (preserves existing check state)
+        let checklistImporter = ChecklistImporter(modelContainer: sharedModelContainer)
+        do {
+            try await checklistImporter.importBundledChecklists()
+        } catch {
+            print("Error loading checklists: \(error)")
         }
     }
 }
