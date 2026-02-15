@@ -190,8 +190,8 @@ private enum TextToken: Identifiable, Equatable {
 
     var id: String {
         switch self {
-        case .plain(let s): return "p:\(s)"
-        case .keyword(let s): return "k:\(s)"
+        case let .plain(str): return "p:\(str)"
+        case let .keyword(str): return "k:\(str)"
         case .space: return "s:\(UUID().uuidString)"
         }
     }
@@ -202,7 +202,7 @@ private enum TextToken: Identifiable, Equatable {
 private let excludedStandaloneTerms: Set<String> = [
     "DSP", "RF", "AF", "DC", "AC", "FM", "AM", "CW", "USB", "LSB",
     "SSB", "LED", "LCD", "BNC", "SMA", "RCA", "MHz", "KHz", "Hz", "mA",
-    "dB", "mW"
+    "dB", "mW",
 ]
 
 /// Tokenizes text into plain words, keywords, and spaces
@@ -228,7 +228,7 @@ private func tokenizeText(_ text: String) -> [TextToken] {
 
         // Tokenize plain text before the match
         if currentIndex < range.lowerBound {
-            let plainText = String(text[currentIndex..<range.lowerBound])
+            let plainText = String(text[currentIndex ..< range.lowerBound])
             tokens.append(contentsOf: tokenizePlainText(plainText))
         }
 
@@ -251,28 +251,28 @@ private func tokenizeText(_ text: String) -> [TextToken] {
 /// Merges consecutive keyword tokens (separated by single space) into one keyword
 private func mergeAdjacentKeywords(_ tokens: [TextToken]) -> [TextToken] {
     var result: [TextToken] = []
-    var i = 0
+    var idx = 0
 
-    while i < tokens.count {
-        if case .keyword(let first) = tokens[i] {
+    while idx < tokens.count {
+        if case let .keyword(first) = tokens[idx] {
             // Look ahead for pattern: keyword, space, keyword
             var merged = first
-            var j = i + 1
+            var nextIdx = idx + 1
 
-            while j + 1 < tokens.count {
-                if case .space = tokens[j], case .keyword(let next) = tokens[j + 1] {
+            while nextIdx + 1 < tokens.count {
+                if case .space = tokens[nextIdx], case let .keyword(next) = tokens[nextIdx + 1] {
                     merged += " " + next
-                    j += 2
+                    nextIdx += 2
                 } else {
                     break
                 }
             }
 
             result.append(.keyword(merged))
-            i = j
+            idx = nextIdx
         } else {
-            result.append(tokens[i])
-            i += 1
+            result.append(tokens[idx])
+            idx += 1
         }
     }
 
@@ -282,7 +282,7 @@ private func mergeAdjacentKeywords(_ tokens: [TextToken]) -> [TextToken] {
 /// Converts excluded standalone keywords back to plain text
 private func applyExclusions(_ tokens: [TextToken]) -> [TextToken] {
     tokens.map { token in
-        if case .keyword(let word) = token, excludedStandaloneTerms.contains(word) {
+        if case let .keyword(word) = token, excludedStandaloneTerms.contains(word) {
             return .plain(word)
         }
         return token
@@ -317,12 +317,12 @@ private func tokenizePlainText(_ text: String) -> [TextToken] {
 struct FlowLayout: Layout {
     var spacing: CGFloat = 4
 
-    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache _: inout ()) -> CGSize {
         let result = layout(proposal: proposal, subviews: subviews)
         return result.size
     }
 
-    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache _: inout ()) {
         let result = layout(proposal: proposal, subviews: subviews)
 
         for (index, position) in result.positions.enumerated() {
@@ -399,11 +399,11 @@ struct HighlightedText: View {
     @ViewBuilder
     private func tokenView(_ token: TextToken) -> some View {
         switch token {
-        case .plain(let word):
+        case let .plain(word):
             Text(word)
                 .font(baseFont)
 
-        case .keyword(let word):
+        case let .keyword(word):
             Text(word)
                 .font(.system(baseFont == .subheadline ? .subheadline : .body, design: .monospaced))
                 .foregroundStyle(.blue)

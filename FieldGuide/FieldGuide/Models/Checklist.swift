@@ -93,7 +93,7 @@ final class ChecklistItem {
     ) {
         self.id = id
         self.text = text
-        self.isChecked = false
+        isChecked = false
         self.sortOrder = sortOrder
         self.category = category
         self.radioId = radioId

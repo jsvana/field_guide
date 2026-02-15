@@ -1,0 +1,10 @@
+disabled_rules:
+  # Conflicts with SwiftFormat's trailingCommas rule
+  - trailing_comma
+  # Conflicts with SwiftFormat's wrapMultilineStatementBraces rule
+  - opening_brace
+  # TODOs are intentional reminders, not violations
+  - todo
+
+excluded:
+  - FieldGuide/build

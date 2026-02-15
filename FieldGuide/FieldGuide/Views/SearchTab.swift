@@ -128,7 +128,7 @@ struct SearchResultRow: View {
 
         var preview = String(text[start ..< end])
         if start != text.startIndex { preview = "..." + preview }
-        if end != text.endIndex { preview = preview + "..." }
+        if end != text.endIndex { preview += "..." }
 
         return preview
     }

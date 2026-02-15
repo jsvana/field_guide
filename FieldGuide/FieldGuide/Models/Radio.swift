@@ -33,7 +33,7 @@ final class Radio {
         self.model = model
         self.manualRevision = manualRevision
         self.pdfFilename = pdfFilename
-        self.isDownloaded = false
-        self.isFavorite = false
+        isDownloaded = false
+        isFavorite = false
     }
 }

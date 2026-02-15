@@ -162,7 +162,7 @@ struct SectionJSON: Codable, Sendable {
 struct BlockJSON: Codable, Sendable {
     let type: ContentBlockType
 
-    // Paragraph, note, warning
+    /// Paragraph, note, warning
     let text: String?
 
     // Menu entry

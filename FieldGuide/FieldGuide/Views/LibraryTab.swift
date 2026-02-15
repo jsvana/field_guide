@@ -9,8 +9,7 @@ import SwiftUI
 struct LibraryTab: View {
     @Environment(AppState.self) private var appState
 
-    @Query(sort: [SortDescriptor(\Radio.manufacturer), SortDescriptor(\Radio.model)]) private
-        var radios: [Radio]
+    @Query(sort: [SortDescriptor(\Radio.manufacturer), SortDescriptor(\Radio.model)]) private var radios: [Radio]
 
     @State private var path = NavigationPath()
 

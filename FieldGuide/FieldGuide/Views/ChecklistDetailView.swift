@@ -25,14 +25,12 @@ struct ChecklistDetailView: View {
         var groups: [(category: String, items: [ChecklistItem])] = []
         var seen: Set<String> = []
 
-        for item in visibleItems {
-            if !seen.contains(item.category) {
-                seen.insert(item.category)
-                groups.append((
-                    category: item.category,
-                    items: visibleItems.filter { $0.category == item.category }
-                ))
-            }
+        for item in visibleItems where !seen.contains(item.category) {
+            seen.insert(item.category)
+            groups.append((
+                category: item.category,
+                items: visibleItems.filter { $0.category == item.category }
+            ))
         }
         return groups
     }
