@@ -38,6 +38,7 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `RadioDetailView.swift` | Radio sections list with SectionRow component |
 | `ChecklistDetailView.swift` | Checklist items grouped by category with check toggling |
 | `SectionDetailView.swift` | Section content display with block renderers (ParagraphBlock, MenuEntryBlock, SpecificationBlock, SpecificationTableBlock, NoteBlock) |
+| `HighlightedText.swift` | Keyword highlighting with flow layout (TextToken, FlowLayout, HighlightedText) |
 | `PDFViewerSheet.swift` | PDFKit-based PDF viewer sheet |
 | `BugReportView.swift` | Bug report form that copies report to clipboard and opens Discord |
 

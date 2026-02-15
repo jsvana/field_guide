@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.4.0] - 2026-02-15
+
 ### Added
 - Outing checklists — five-phase workflow (Pre-Outing, During Outing, Debugging, Cleanup, Post-Outing) with resettable check state
 - Checklists tab in main navigation

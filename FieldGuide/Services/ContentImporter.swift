@@ -32,90 +32,20 @@ actor ContentImporter {
 
         let context = modelContainer.mainContext
 
-        // Create or update radio
-        let radioId = content.radio.id
-        let radioDescriptor = FetchDescriptor<Radio>(
-            predicate: #Predicate { $0.id == radioId }
-        )
-        let existingRadios = try context.fetch(radioDescriptor)
-
-        let radio: Radio
-        if let existing = existingRadios.first {
-            // Update existing
-            existing.manufacturer = content.radio.manufacturer
-            existing.model = content.radio.model
-            existing.manualRevision = content.radio.revision
-            existing.pdfFilename = content.radio.pdfFilename
-
-            // Remove old sections
-            for section in existing.sections {
-                context.delete(section)
-            }
-
-            radio = existing
-        } else {
-            // Create new
-            radio = Radio(
-                id: content.radio.id,
-                manufacturer: content.radio.manufacturer,
-                model: content.radio.model,
-                manualRevision: content.radio.revision,
-                pdfFilename: content.radio.pdfFilename
-            )
-            context.insert(radio)
-        }
+        let radio = try findOrCreateRadio(from: content.radio, context: context)
 
         // Import sections
         for (sectionIndex, sectionJSON) in content.sections.enumerated() {
-            // Prefix section ID with radio ID to ensure uniqueness across radios
-            let sectionId = "\(radioId)-\(sectionJSON.id)"
+            let sectionId = "\(content.radio.id)-\(sectionJSON.id)"
             let section = Section(
                 id: sectionId,
                 title: sectionJSON.title,
                 sortOrder: sectionJSON.sortOrder ?? sectionIndex
             )
             section.radio = radio
-
-            // Import blocks
-            var searchableText = sectionJSON.title + " "
-
-            for (index, blockJSON) in sectionJSON.blocks.enumerated() {
-                let block = ContentBlock(
-                    id: "\(sectionId)-block-\(index)",
-                    sortOrder: index,
-                    blockType: blockJSON.type
-                )
-
-                switch blockJSON.type {
-                case .paragraph:
-                    block.text = blockJSON.text
-                    searchableText += (blockJSON.text ?? "") + " "
-
-                case .menuEntry:
-                    block.menuName = blockJSON.name
-                    block.menuDescription = blockJSON.description
-                    searchableText += (blockJSON.name ?? "") + " " + (blockJSON.description ?? "") + " "
-
-                case .specification:
-                    block.specLabel = blockJSON.name
-                    block.specValue = blockJSON.value
-                    searchableText += (blockJSON.name ?? "") + " " + (blockJSON.value ?? "") + " "
-
-                case .specificationTable:
-                    block.tableHeaders = blockJSON.headers
-                    block.tableRows = blockJSON.rows?.map { $0.cells }
-                    searchableText += (blockJSON.rows?.flatMap { $0.cells }.joined(separator: " ") ?? "") + " "
-
-                case .note, .warning:
-                    block.text = blockJSON.text
-                    searchableText += (blockJSON.text ?? "") + " "
-                }
-
-                block.section = section
-                context.insert(block)
-            }
-
-            section.searchableText = searchableText
+            section.searchableText = importBlocks(
+                from: sectionJSON, sectionId: sectionId, into: section, context: context
+            )
             context.insert(section)
         }
 
@@ -123,6 +53,81 @@ actor ContentImporter {
         radio.downloadedAt = Date()
 
         try context.save()
+    }
+
+    @MainActor
+    private func findOrCreateRadio(from radioJSON: RadioJSON, context: ModelContext) throws -> Radio {
+        let radioId = radioJSON.id
+        let descriptor = FetchDescriptor<Radio>(
+            predicate: #Predicate { $0.id == radioId }
+        )
+        let existingRadios = try context.fetch(descriptor)
+
+        if let existing = existingRadios.first {
+            existing.manufacturer = radioJSON.manufacturer
+            existing.model = radioJSON.model
+            existing.manualRevision = radioJSON.revision
+            existing.pdfFilename = radioJSON.pdfFilename
+            for section in existing.sections {
+                context.delete(section)
+            }
+            return existing
+        }
+
+        let radio = Radio(
+            id: radioJSON.id,
+            manufacturer: radioJSON.manufacturer,
+            model: radioJSON.model,
+            manualRevision: radioJSON.revision,
+            pdfFilename: radioJSON.pdfFilename
+        )
+        context.insert(radio)
+        return radio
+    }
+
+    @MainActor
+    @discardableResult
+    private func importBlocks(
+        from sectionJSON: SectionJSON,
+        sectionId: String,
+        into section: Section,
+        context: ModelContext
+    ) -> String {
+        var searchableText = sectionJSON.title + " "
+
+        for (index, blockJSON) in sectionJSON.blocks.enumerated() {
+            let block = ContentBlock(
+                id: "\(sectionId)-block-\(index)",
+                sortOrder: index,
+                blockType: blockJSON.type
+            )
+            populateBlock(block, from: blockJSON, searchableText: &searchableText)
+            block.section = section
+            context.insert(block)
+        }
+
+        return searchableText
+    }
+
+    @MainActor
+    private func populateBlock(_ block: ContentBlock, from blockJSON: BlockJSON, searchableText: inout String) {
+        switch blockJSON.type {
+        case .paragraph, .note, .warning:
+            block.text = blockJSON.text
+            searchableText += (blockJSON.text ?? "") + " "
+        case .menuEntry:
+            block.menuName = blockJSON.name
+            block.menuDescription = blockJSON.description
+            searchableText += (blockJSON.name ?? "") + " " + (blockJSON.description ?? "") + " "
+        case .specification:
+            block.specLabel = blockJSON.name
+            block.specValue = blockJSON.value
+            searchableText += (blockJSON.name ?? "") + " " + (blockJSON.value ?? "") + " "
+        case .specificationTable:
+            block.tableHeaders = blockJSON.headers
+            block.tableRows = blockJSON.rows?.map { $0.cells }
+            searchableText += (blockJSON.rows?.flatMap { $0.cells }.joined(separator: " ") ?? "") + " "
+        }
     }
 }
 
