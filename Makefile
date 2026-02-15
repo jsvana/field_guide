@@ -1,6 +1,6 @@
 .PHONY: build test clean download-pdfs extract-content generate-manifest
 
-PROJECT := FieldGuide/FieldGuide.xcodeproj
+PROJECT := FieldGuide.xcodeproj
 TARGET := FieldGuide
 TEST_TARGET := FieldGuideTests
 SIMULATOR := iPhone 16 Pro
@@ -19,7 +19,7 @@ test:
 clean:
 	xcodebuild -project $(PROJECT) -target $(TARGET) clean
 	rm -rf ~/Library/Developer/Xcode/DerivedData/FieldGuide-*
-	rm -rf FieldGuide/build
+	rm -rf build
 
 # Python tooling commands
 download-pdfs:

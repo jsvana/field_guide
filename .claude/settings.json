@@ -1,6 +1,7 @@
 {
   "permissions": {
     "allow": [
+      "Bash(~/.claude/skills/xcode-build/scripts/xc:*)",
       "Bash(make:*)",
       "Bash(python3:*)",
       "Bash(pip install:*)",

@@ -20,11 +20,25 @@ See [docs/FILE_INDEX.md](docs/FILE_INDEX.md) for the complete file-to-purpose ma
 
 ## Building and Testing
 
-**NEVER build, run tests, or use the iOS simulator yourself. Always prompt the user to do so.**
+Use the **xcode-build** skill (`~/.claude/skills/xcode-build/scripts/xc`) for all builds and tests. This wraps xcodebuild with `-quiet` and `xcresulttool` for minimal token output. Device name is configured in `CLAUDE.local.md`.
 
-When you need to verify changes compile or tests pass, ask the user to run the appropriate command and report back the results.
+```bash
+xc build        # Build for device
+xc test-unit    # Run unit tests
+xc lint          # SwiftLint with JSON output
+xc format        # SwiftFormat
+xc quality       # format → lint → build (pre-commit gate)
+xc deploy        # Build + install + launch on device
+xc crashes [filter]  # List crash logs on device
+xc crash <file.ips>  # Pull and display a crash log
+xc logs [filter]     # Stream live device logs (requires idevicesyslog)
+```
 
-## Make Commands
+The Makefile is still available for simulator-based builds/tests (`make build`, `make test`) when needed.
+
+**Deploying to device:** When you need to test on-device, run `xc deploy` yourself. Do not ask the user to build or deploy — just do it.
+
+### Make Commands
 
 ```bash
 make build              # Build iOS app (Debug, uses -target for reliable CLI builds)
@@ -37,7 +51,7 @@ make generate-manifest  # Generate content manifest.json
 
 ## Architecture
 
-**iOS App** (`FieldGuide/`): SwiftUI + SwiftData app for offline viewing of amateur radio manuals.
+**iOS App**: SwiftUI + SwiftData app for offline viewing of amateur radio manuals. Source in `FieldGuide/`, project at root (`FieldGuide.xcodeproj`).
 
 - **Models**: `Radio`, `Section`, `ContentBlock` - SwiftData models with relationships (Radio → Sections → ContentBlocks)
 - **ContentImporter**: Actor that parses JSON content files into SwiftData models
@@ -66,7 +80,7 @@ make generate-manifest  # Generate content manifest.json
 | specification | `name`, `value` | ~~label~~ |
 | specificationTable | `rows` | ~~entries~~ |
 
-**IMPORTANT: The app loads JSON from `FieldGuide/FieldGuide/*.json`, NOT from `content/*/content.json`.** When fixing content issues, edit the files in the app bundle directory.
+**IMPORTANT: The app loads JSON from `FieldGuide/*.json`, NOT from `content/*/content.json`.** When fixing content issues, edit the files in the app bundle directory.
 
 See `content/CURATION_GUIDE.md` for full documentation and copy-paste templates.
 
@@ -81,14 +95,14 @@ To add a new radio to the Library, complete ALL of these steps:
 
 3. **Extract content**: `cd tools && source venv/bin/activate && python extract_content.py <radio-id>`
 
-4. **Create content JSON** in `FieldGuide/FieldGuide/<radio-id>.json`:
+4. **Create content JSON** in `FieldGuide/<radio-id>.json`:
    - Use the extracted raw text and skeleton as reference
    - Follow field requirements above (use `text` not `content`, etc.)
 
-5. **Register in app** (`FieldGuide/FieldGuide/FieldGuideApp.swift`):
+5. **Register in app** (`FieldGuide/FieldGuideApp.swift`):
    - Add radio ID to `bundledRadios` array (alphabetical within manufacturer)
 
-6. **Copy to content directory**: `cp FieldGuide/FieldGuide/<radio-id>.json content/<radio-id>/content.json`
+6. **Copy to content directory**: `cp FieldGuide/<radio-id>.json content/<radio-id>/content.json`
 
 7. **Update FILE_INDEX.md**: Add entry to Content section
 
@@ -105,7 +119,7 @@ To add a new radio to the Library, complete ALL of these steps:
 
 When making user-facing changes:
 
-1. **Update version** in `FieldGuide/FieldGuide.xcodeproj/project.pbxproj`:
+1. **Update version** in `FieldGuide.xcodeproj/project.pbxproj`:
    - `MARKETING_VERSION` = user-visible version (e.g., 1.1)
    - `CURRENT_PROJECT_VERSION` = build number (increment for each build)
 

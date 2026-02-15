@@ -7,10 +7,10 @@ This index maps files to their purpose. Use it to locate files by feature instea
 ## Entry Points
 | File | Purpose |
 |------|---------|
-| `FieldGuide/FieldGuide/FieldGuideApp.swift` | App entry point, SwiftData container setup, bundled content loading |
-| `FieldGuide/FieldGuide/ContentView.swift` | Root TabView (Library, Search, Checklists, Settings tabs) |
+| `FieldGuide/FieldGuideApp.swift` | App entry point, SwiftData container setup, bundled content loading |
+| `FieldGuide/ContentView.swift` | Root TabView (Library, Search, Checklists, Settings tabs) |
 
-## Models (`FieldGuide/FieldGuide/Models/`)
+## Models (`FieldGuide/Models/`)
 | File | Purpose |
 |------|---------|
 | `Radio.swift` | Radio model (manufacturer, model, revision, PDF path, download status) |
@@ -18,13 +18,13 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `ContentBlock.swift` | Content block model (paragraph, menuEntry, specification, specificationTable, note, warning) |
 | `Checklist.swift` | Checklist and ChecklistItem models, ChecklistPhase enum |
 
-## Services (`FieldGuide/FieldGuide/Services/`)
+## Services (`FieldGuide/Services/`)
 | File | Purpose |
 |------|---------|
 | `ContentImporter.swift` | Actor that parses JSON content files into SwiftData models |
 | `ChecklistImporter.swift` | Imports checklist templates from bundled JSON into SwiftData |
 
-## Views - Tabs (`FieldGuide/FieldGuide/Views/`)
+## Views - Tabs (`FieldGuide/Views/`)
 | File | Purpose |
 |------|---------|
 | `LibraryTab.swift` | Radio grid display with RadioCard component |
@@ -32,7 +32,7 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `ChecklistsTab.swift` | Checklist phase list with progress indicators |
 | `SettingsTab.swift` | Settings, ManageDownloadsView for storage, AttributionsView for credits |
 
-## Views - Detail (`FieldGuide/FieldGuide/Views/`)
+## Views - Detail (`FieldGuide/Views/`)
 | File | Purpose |
 |------|---------|
 | `RadioDetailView.swift` | Radio sections list with SectionRow component |
@@ -79,7 +79,7 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `xiegu-x6200/content.json` | Curated content for Xiegu X6200 |
 | `extracted/*_skeleton.json` | Raw extracted text skeletons (not curated) |
 
-## Checklists (`FieldGuide/FieldGuide/`)
+## Checklists (`FieldGuide/`)
 | File | Purpose |
 |------|---------|
 | `checklists.json` | Bundled checklist template definitions (generic + radio-specific items) |
@@ -92,12 +92,12 @@ This index maps files to their purpose. Use it to locate files by feature instea
 | `plans/2026-02-02-field-guide-implementation.md` | Implementation plan |
 | `plans/2026-02-15-outing-checklists.md` | Outing checklists design and implementation plan |
 
-## Tests (`FieldGuide/FieldGuideTests/`)
+## Tests (`FieldGuideTests/`)
 | File | Purpose |
 |------|---------|
 | `FieldGuideTests.swift` | Unit tests |
 
-## UI Tests (`FieldGuide/FieldGuideUITests/`)
+## UI Tests (`FieldGuideUITests/`)
 | File | Purpose |
 |------|---------|
 | `FieldGuideUITests.swift` | UI tests |
